@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="phone_goggles_settings"
+        android:title="@string/title_phone_goggles"
+        android:summary="@string/summary_phone_goggles">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.PhoneGogglesActivity" />
+    </Preference>
+</PreferenceScreen>

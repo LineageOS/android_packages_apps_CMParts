@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/category_phone_goggles_filter">
+        <Preference
+            android:key="phone_goggles_filter_settings"
+            android:title="@string/title_phone_goggles_filter"
+            android:summary="@string/summary_phone_goggles_filter" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category_phone_goggles_period">
+        <Preference
+            android:key="phone_goggles_start"
+            android:title="@string/title_phone_goggles_start"
+            android:summary="@string/summary_phone_goggles_start" />
+
+        <Preference
+            android:key="phone_goggles_end"
+            android:title="@string/title_phone_goggles_end"
+            android:summary="@string/summary_phone_goggles_end" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category_phone_goggles_confirmation">
+        <ListPreference
+            android:key="phone_goggles_confirmation_mode"
+            android:title="@string/title_phone_goggles_confirmation_enabled"
+            android:summary="@string/summary_phone_goggles_confirmation_enabled"
+            android:entries="@array/phone_goggles_confirmation_entries"
+            android:entryValues="@array/phone_goggles_confirmation_values"
+            android:defaultValue="1" />
+
+        <ListPreference
+            android:key="phone_goggles_maths_level"
+            android:title="@string/title_phone_goggles_maths_level"
+            android:summary="@string/summary_phone_goggles_maths_level"
+            android:entries="@array/phone_goggles_maths_level_entries"
+            android:entryValues="@array/phone_goggles_maths_level_values" />
+    </PreferenceCategory>
+</PreferenceScreen>
