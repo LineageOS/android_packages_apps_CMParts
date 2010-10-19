@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="phone_goggles_enabled"
+        android:title="@string/title_phone_goggles_enabled"
+        android:summaryOn="@string/summary_on_phone_goggles_enabled"
+        android:summaryOff="@string/summary_off_phone_goggles_enabled"
+        android:defaultValue="false" />
+
+    <Preference
+        android:key="phone_goggles_default"
+        android:title="@string/title_phone_goggles_default"
+        android:summary="@string/summary_phone_goggles_default"
+        android:dependency="phone_goggles_enabled">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.PhoneGogglesDefaultActivity" />
+    </Preference>
+
+    <PreferenceCategory
+		android:key="phone_goggles_apps"
+        android:title="@string/title_phone_goggles_apps" />
+</PreferenceScreen>
