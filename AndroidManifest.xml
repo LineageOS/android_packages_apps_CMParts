@@ -115,6 +115,21 @@
               <action android:name="android.intent.action.MAIN" />
            </intent-filter>
         </activity>
+        <activity android:name=".activities.PhoneGogglesActivity">
+           <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+           </intent-filter>
+        </activity>
+        <activity android:name=".activities.PhoneGogglesAppActivity">
+           <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+           </intent-filter>
+        </activity>
+        <activity android:name=".activities.PhoneGogglesFilterActivity">
+           <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+           </intent-filter>
+        </activity>
 
         <activity android:name=".activities.WidgetActivity">
            <intent-filter>
