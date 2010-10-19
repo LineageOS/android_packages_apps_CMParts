@@ -398,6 +398,7 @@
 
     <string name="cmstats_title">Anonymous statistics</string>
     <string name="cmstats_summary">Help make CM better by opting-in to anonymous statistics reporting</string>
+
     <string name="user_defined_key1">Quick Key 1</string>
     <string name="user_defined_key2">Quick Key 2</string>
     <string name="user_defined_key3">Quick Key 3</string>
@@ -438,4 +439,50 @@
     <string name="changelog_error">Error loading changelog...</string>
     <string name="changelog_unknown">Unknown</string>
     <string name="changelog_version">Version</string>
+
+    <!-- Phone goggles -->
+    <string name="category_phone_goggles_period">Period</string>
+    <string name="category_phone_goggles_confirmation">Confirmation</string>
+    <string name="category_phone_goggles_filter">Filters</string>
+    <string name="title_phone_goggles">Phone Goggles</string>
+    <string name="title_phone_goggles_default">Default settings</string>
+    <string name="title_phone_goggles_apps">Filtered applications</string>
+    <string name="title_phone_goggles_app_enabled">Enable Phone Goggles</string>
+    <string name="title_phone_goggles_use_custom">Use custom settings</string>
+    <string name="title_phone_goggles_filter">Filtered numbers</string>
+    <string name="title_phone_goggles_enabled">Enable phone goggles</string>
+    <string name="title_phone_goggles_start">Start of phone goggles mode</string>
+    <string name="title_phone_goggles_end">End of phone goggles mode</string>
+    <string name="title_phone_goggles_confirmation_enabled">Request for confirmation</string>
+    <string name="title_phone_goggles_phone_enabled">Phone</string>
+    <string name="title_phone_goggles_sms_enabled">SMS</string>
+    <string name="title_phone_goggles_maths_level">Math level</string>
+    <string name="title_phone_goggles_work_filtered">Work</string>
+    <string name="title_phone_goggles_mobile_filtered">Mobile</string>
+    <string name="title_phone_goggles_other_filtered">Other</string>
+    <string name="summary_phone_goggles">Filter outgoing communications</string>
+    <string name="summary_phone_goggles_default">Sets the default settings</string>
+    <string name="summary_phone_goggles_filter">Select the type of phone numbers you want to filter</string>
+    <string name="summary_phone_goggles_start">When to start filtering outgoing calls</string>
+    <string name="summary_phone_goggles_end">When to end filtering outgoing calls</string>
+    <string name="summary_phone_goggles_confirmation_enabled">Select which way the confirmation should be requested before filtering the communication</string>
+    <string name="summary_phone_goggles_maths_level">Level of the maths problems asked before authorizing a communication</string>
+    <string name="summary_on_phone_goggles_enabled">Outgoing communications will be filtered</string>
+    <string name="summary_on_phone_goggles_use_custom">Use custom settings</string>
+    <string name="summary_on_phone_goggles_app_enabled">Phone Goggles is enabled for this application</string>
+    <string name="summary_on_phone_goggles_work_filtered">Professional communications will be filtered</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">Communications to mobile phones will be filtered</string>
+    <string name="summary_on_phone_goggles_other_filtered">Communications to other phones will be filtered</string>
+    <string name="summary_off_phone_goggles_enabled">No communication will be filtered</string>
+    <string name="summary_off_phone_goggles_use_custom">Use default settings</string>
+    <string name="summary_off_phone_goggles_app_enabled">Phone Goggles is disabled for this application</string>
+    <string name="summary_off_phone_goggles_work_filtered">Professional communications will not be filtered</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">No communications to mobile phones will be filtered</string>
+    <string name="summary_off_phone_goggles_other_filtered">No communications to other phones will be filtered</string>
+    <string name="phone_goggles_maths_level_easy">Easy</string>
+    <string name="phone_goggles_maths_level_medium">Medium</string>
+    <string name="phone_goggles_maths_level_hard">Hard</string>
+    <string name="phone_goggles_confirmation_none">None</string>
+    <string name="phone_goggles_confirmation_prompt">Prompt</string>
+    <string name="phone_goggles_confirmation_maths">Math problems</string>
 </resources>
