@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="phone_goggles_phone_enabled"
+        android:title="@string/title_phone_goggles_phone_enabled"
+        android:summaryOn="@string/summary_on_phone_goggles_phone_enabled"
+        android:summaryOff="@string/summary_off_phone_goggles_phone_enabled"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="phone_goggles_sms_enabled"
+        android:title="@string/title_phone_goggles_sms_enabled"
+        android:summaryOn="@string/summary_on_phone_goggles_sms_enabled"
+        android:summaryOff="@string/summary_off_phone_goggles_sms_enabled"
+        android:defaultValue="true" />
+
+</PreferenceScreen>
