@@ -450,4 +450,28 @@
         <item>12</item>
     </string-array>
 
+    <string-array name="phone_goggles_confirmation_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="phone_goggles_confirmation_entries" translatable="true">
+        <item>@string/phone_goggles_confirmation_none</item>
+        <item>@string/phone_goggles_confirmation_prompt</item>
+        <item>@string/phone_goggles_confirmation_maths</item>
+    </string-array>
+
+    <string-array name="phone_goggles_maths_level_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="phone_goggles_maths_level_entries" translatable="true">
+        <item>@string/phone_goggles_maths_level_easy</item>
+        <item>@string/phone_goggles_maths_level_medium</item>
+        <item>@string/phone_goggles_maths_level_hard</item>
+    </string-array>
+
 </resources>

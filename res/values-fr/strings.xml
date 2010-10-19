@@ -490,4 +490,47 @@
     <string name="pref_lockscreen_disable_unlock_tab">Masquer curseur déverr.</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Note: Vous devez activer le déverrouillage par trackball, touche menu ou par geste afin que cette option soit disponible</string>
     <string name="gestures_explain_create_screen">Choisissez une action à effectuer (ou séléctionnez déverouillage ou son) et dessinez un geste sur l\'écran.</string>
+
+    <!-- Phone goggles -->
+    <string name="category_phone_goggles_period">Période</string>
+    <string name="category_phone_goggles_confirmation">Confirmation</string>
+    <string name="category_phone_goggles_filter">Filtres</string>
+    <string name="title_phone_goggles">Phone goggles</string>
+    <string name="title_phone_goggles_app">Moyens de communications filtrés</string>
+    <string name="title_phone_goggles_filter">Types de numéros filtrés</string>
+    <string name="title_phone_goggles_enabled">Activer le mode phone goggles</string>
+    <string name="title_phone_goggles_start">Début du mode phone goggles</string>
+    <string name="title_phone_goggles_end">Fin du mode phone goggles</string>
+    <string name="title_phone_goggles_confirmation_enabled">Demander une confirmation</string>
+    <string name="title_phone_goggles_phone_enabled">Téléphonie</string>
+    <string name="title_phone_goggles_sms_enabled">SMS</string>
+    <string name="title_phone_goggles_maths_level">Difficulté</string>
+    <string name="title_phone_goggles_work_filtered">Professionels</string>
+    <string name="title_phone_goggles_mobile_filtered">Mobiles</string>
+    <string name="title_phone_goggles_other_filtered">Autres</string>
+    <string name="summary_phone_goggles">Filtrage des communications sortantes</string>
+    <string name="summary_phone_goggles_app">Sélectionner les moyens de communications qui seront filtrés</string>
+    <string name="summary_phone_goggles_filter">Sélectionner les types de numéros qui seront filtrés</string>
+    <string name="summary_phone_goggles_start">Quand commencer a filtrer les communications</string>
+    <string name="summary_phone_goggles_end">Quand arrêter de filtrer les communications</string>
+    <string name="summary_phone_goggles_confirmation_enabled">Sélectionne la manière dont la confirmation doit être présentée avant de filtrer une communication</string>
+    <string name="summary_phone_goggles_maths_level">Difficulté des problèmes mathématiques proposés avant l\'autorisation d\'une communication</string>
+    <string name="summary_on_phone_goggles_enabled">Les communications sortantes seront filtrées</string>
+    <string name="summary_on_phone_goggles_phone_enabled">Les appels sortants seront filtrés</string>
+    <string name="summary_on_phone_goggles_sms_enabled">Les SMS sortant seront sauvegardés en tant que brouillons</string>
+    <string name="summary_on_phone_goggles_work_filtered">Les communications professionellles seront filtrées</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">Les communications vers les téléphones mobiles seront filtrées</string>
+    <string name="summary_on_phone_goggles_other_filtered">Les communications vers les autres téléphones seront filtrées</string>
+    <string name="summary_off_phone_goggles_enabled">Aucune communication ne sera filtrée</string>
+    <string name="summary_off_phone_goggles_phone_enabled">Aucun appel ne sera filtré</string>
+    <string name="summary_off_phone_goggles_sms_enabled">Aucun SMS ne sera filtré</string>
+    <string name="summary_off_phone_goggles_work_filtered">Les communications professionellles ne seront pas filtrées</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">Les communications vers les téléphones mobiles ne seront pas filtrées</string>
+    <string name="summary_off_phone_goggles_other_filtered">Les communications vers les autres téléphones ne seront pas filtrées</string>
+    <string name="phone_goggles_maths_level_easy">Facile</string>
+    <string name="phone_goggles_maths_level_medium">Moyen</string>
+    <string name="phone_goggles_maths_level_hard">Difficile</string>
+    <string name="phone_goggles_confirmation_none">Aucune</string>
+    <string name="phone_goggles_confirmation_prompt">Pop-up</string>
+    <string name="phone_goggles_confirmation_maths">Problèmes mathématiques</string>
 </resources>
