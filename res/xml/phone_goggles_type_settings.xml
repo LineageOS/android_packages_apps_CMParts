@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="phone_goggles_work_filtered"
+        android:title="@string/title_phone_goggles_work_filtered"
+        android:summaryOn="@string/summary_on_phone_goggles_work_filtered"
+        android:summaryOff="@string/summary_off_phone_goggles_work_filtered"
+        android:defaultValue="false" />
+
+    <CheckBoxPreference
+        android:key="phone_goggles_mobile_filtered"
+        android:title="@string/title_phone_goggles_mobile_filtered"
+        android:summaryOn="@string/summary_on_phone_goggles_mobile_filtered"
+        android:summaryOff="@string/summary_off_phone_goggles_mobile_filtered"
+        android:defaultValue="false" />
+
+    <CheckBoxPreference
+        android:key="phone_goggles_other_filtered"
+        android:title="@string/title_phone_goggles_other_filtered"
+        android:summaryOn="@string/summary_on_phone_goggles_other_filtered"
+        android:summaryOff="@string/summary_off_phone_goggles_other_filtered"
+        android:defaultValue="false" />
+
+</PreferenceScreen>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="phone_goggles_app_enabled"
+        android:title="@string/title_phone_goggles_app_enabled"
+        android:summaryOn="@string/summary_on_phone_goggles_app_enabled"
+        android:summaryOff="@string/summary_off_phone_goggles_app_enabled"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="phone_goggles_use_custom"
+        android:title="@string/title_phone_goggles_use_custom"
+        android:summaryOn="@string/summary_on_phone_goggles_use_custom"
+        android:summaryOff="@string/summary_off_phone_goggles_use_custom"
+        android:defaultValue="false"
+        android:dependency="phone_goggles_app_enabled" />
+
+    <PreferenceCategory android:title="@string/category_phone_goggles_filter">
+        <Preference
+            android:key="phone_goggles_filter_settings"
+            android:title="@string/title_phone_goggles_filter"
+            android:summary="@string/summary_phone_goggles_filter"
+            android:dependency="phone_goggles_use_custom" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category_phone_goggles_period">
+        <Preference
+            android:key="phone_goggles_start"
+            android:title="@string/title_phone_goggles_start"
+            android:summary="@string/summary_phone_goggles_start"
+            android:dependency="phone_goggles_use_custom" />
+
+        <Preference
+            android:key="phone_goggles_end"
+            android:title="@string/title_phone_goggles_end"
+            android:summary="@string/summary_phone_goggles_end"
+            android:dependency="phone_goggles_use_custom" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category_phone_goggles_confirmation">
+        <ListPreference
+            android:key="phone_goggles_confirmation_mode"
+            android:title="@string/title_phone_goggles_confirmation_enabled"
+            android:summary="@string/summary_phone_goggles_confirmation_enabled"
+            android:entries="@array/phone_goggles_confirmation_entries"
+            android:entryValues="@array/phone_goggles_confirmation_values"
+            android:dependency="phone_goggles_use_custom"
+            android:defaultValue="1" />
+
+        <ListPreference
+            android:key="phone_goggles_maths_level"
+            android:title="@string/title_phone_goggles_maths_level"
+            android:summary="@string/summary_phone_goggles_maths_level"
+            android:entries="@array/phone_goggles_maths_level_entries"
+            android:entryValues="@array/phone_goggles_maths_level_values"
+            android:dependency="phone_goggles_use_custom" />
+    </PreferenceCategory>
+</PreferenceScreen>
