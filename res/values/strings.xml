@@ -192,6 +192,9 @@
     <string name="pref_menu_unlock_summary">Pressing the menu button unlocks the device</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Quick Unlock</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">No need to press OK when entering Pin or Password. Delete counts as bad try.</string>
+    <string name="title_general_use_rotary_lockscreen">Use Rotary Lockscreen</string>
+    <string name="summary_on_general_use_rotary_lockscreen">Rotary lockscreen will be used</string>
+    <string name="summary_off_general_use_rotary_lockscreen">Rotary lockscreen will not be used</string>
 
 
     <!-- Long Press Home -->

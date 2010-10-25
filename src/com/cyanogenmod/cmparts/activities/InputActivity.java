@@ -19,6 +19,7 @@ public class InputActivity extends PreferenceActivity {
     private static final String MENU_UNLOCK_PREF = "pref_menu_unlock";
     private static final String BUTTON_CATEGORY = "pref_category_button_settings";
     private static final String LOCKSCREEN_QUICK_UNLOCK_CONTROL = "lockscreen_quick_unlock_control";
+    private static final String LOCKSCREEN_ROTARY_LOCK = "use_rotary_lockscreen";
     
     private CheckBoxPreference mMusicControlPref;
     private CheckBoxPreference mAlwaysMusicControlPref;
@@ -26,6 +27,7 @@ public class InputActivity extends PreferenceActivity {
     private CheckBoxPreference mTrackballUnlockPref;
     private CheckBoxPreference mMenuUnlockPref;
     private CheckBoxPreference mQuickUnlockScreenPref;
+    private CheckBoxPreference mUseRotaryLockPref;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -45,6 +47,11 @@ public class InputActivity extends PreferenceActivity {
         mAlwaysMusicControlPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_ALWAYS_MUSIC_CONTROLS);
         mAlwaysMusicControlPref.setChecked(Settings.System.getInt(getContentResolver(), 
                 Settings.System.LOCKSCREEN_ALWAYS_MUSIC_CONTROLS, 0) == 1);
+
+        /* Use Rotary Lock */
+        mUseRotaryLockPref = (CheckBoxPreference)prefSet.findPreference(LOCKSCREEN_ROTARY_LOCK);
+        mUseRotaryLockPref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.USE_ROTARY_LOCKSCREEN, 0) != 0);
 
         /* Quick Unlock Screen Control */
         mQuickUnlockScreenPref = (CheckBoxPreference)
@@ -86,6 +93,10 @@ public class InputActivity extends PreferenceActivity {
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_ALWAYS_MUSIC_CONTROLS, value ? 1 : 0);
             return true;
+        } else if (preference == mUseRotaryLockPref) {
+            value = mUseRotaryLockPref.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                Settings.System.USE_ROTARY_LOCKSCREEN, value ? 1 : 0);
         } else if (preference == mQuickUnlockScreenPref) {
             value = mQuickUnlockScreenPref.isChecked();
             Settings.System.putInt(getContentResolver(),
