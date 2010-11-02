@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAABX///sw\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 73
+      },
+      "writtenOn": "2010-11-02T04:48:24Z",
+      "side": 1,
+      "message": "englisch: \"Compress memory for increased virtual capacity (requires reboot)\"\ndeswegen ist \"Speicher komprimieren um Kapazität virtuell zu erhöhen (Neustart erforderlich)\" hier angebracht",
+      "revId": "95495223e5c30f2d7441c6c69b9b85fab8f37f2e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
