@@ -16,6 +16,24 @@
       "revId": "95495223e5c30f2d7441c6c69b9b85fab8f37f2e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAABX///sk\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2010-11-02T05:15:39Z",
+      "side": 1,
+      "message": "BUT: its no a simple on/off option. Again, you\u0027ll see a new menu offering choices for compcache SIZES. Maybe that original one hasn\u0027t been updated when this funktion was extended from simple on/off to a relative size option.",
+      "parentUuid": "AAAABX///sw\u003d",
+      "revId": "95495223e5c30f2d7441c6c69b9b85fab8f37f2e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
