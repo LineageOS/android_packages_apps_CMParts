@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAABX///tw\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 73
+      },
+      "writtenOn": "2010-11-02T04:33:40Z",
+      "side": 1,
+      "message": "\"Speicher komprimieren um Kapazität virtuell zu erhöhen\", macht imho mehr sinn",
+      "revId": "3870b2765727ac52a100df488f906e99f81a313b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAABX///ts\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 347,
+      "author": {
+        "id": 73
+      },
+      "writtenOn": "2010-11-02T04:33:40Z",
+      "side": 1,
+      "message": "ich bleibe dabei \"Standby\" ist hier eher passend. Hier passiert das gleiche wie bei der Power-Taste, also das Handy wird in Standby versetzt / der Bildschirm wird ausgeschaltet\nnein, nicht Ruhestand :)",
+      "revId": "3870b2765727ac52a100df488f906e99f81a313b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
