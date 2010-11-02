@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAABX///3E\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 358,
+      "author": {
+        "id": 73
+      },
+      "writtenOn": "2010-11-02T03:26:14Z",
+      "side": 1,
+      "message": "gibt es \"Todesstrahl\" oder solltest du lieber Deathray benutzen?",
+      "revId": "7c01c16d81f93b48cff3931f424ea09a57003b37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
