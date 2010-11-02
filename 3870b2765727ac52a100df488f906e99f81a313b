@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAABX///tc\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2010-11-02T14:22:08Z",
+      "side": 1,
+      "message": "ja schon, aber die Größe ist nun einstellbar! Null ist auch eine Größe.\nNeue Formulierung in patch set 5",
+      "parentUuid": "AAAABX///tw\u003d",
+      "revId": "3870b2765727ac52a100df488f906e99f81a313b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAABX///ts\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2010-11-02T04:33:40Z",
       "side": 1,
       "message": "ich bleibe dabei \"Standby\" ist hier eher passend. Hier passiert das gleiche wie bei der Power-Taste, also das Handy wird in Standby versetzt / der Bildschirm wird ausgeschaltet\nnein, nicht Ruhestand :)",
+      "revId": "3870b2765727ac52a100df488f906e99f81a313b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAABX///tY\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 347,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2010-11-02T14:22:08Z",
+      "side": 1,
+      "message": "Sollst du haben :-)",
+      "parentUuid": "AAAABX///ts\u003d",
       "revId": "3870b2765727ac52a100df488f906e99f81a313b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
