@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAABX///ps\u003d",
+        "filename": "res/values-de/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2010-11-03T01:48:10Z",
+      "side": 1,
+      "message": "will check that again once having these changes on my phone...",
+      "parentUuid": "AAAABX///qE\u003d",
+      "revId": "84875a990acf073feb42170fff211721fc5a5b61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAABX///qQ\u003d",
         "filename": "res/values-de/arrays.xml",
         "patchSetId": 1
@@ -118,6 +136,24 @@
       "writtenOn": "2010-11-03T01:41:53Z",
       "side": 1,
       "message": "missing Death Ray",
+      "revId": "84875a990acf073feb42170fff211721fc5a5b61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAABX///pw\u003d",
+        "filename": "res/values-de/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2010-11-03T01:48:10Z",
+      "side": 1,
+      "message": "This is only for the EVO which is neither available on German market nor will work in Germanys mobile bands. \"Normal\" and \"High\" is more suitable and nothing confusing...",
+      "parentUuid": "AAAABX///p4\u003d",
       "revId": "84875a990acf073feb42170fff211721fc5a5b61",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
