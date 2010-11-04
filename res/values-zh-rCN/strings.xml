@@ -20,7 +20,7 @@
 
     <!-- User interface : WebView -->
     <string name="ui_webview_title">网页视图</string>
-    <string name="pref_pinch_reflow_title">放大后使内容自动换行</string>
+    <string name="pref_pinch_reflow_title">触摸放大后使内容自动换行</string>
     <string name="pref_pinch_reflow_summary">通过多点触摸放大网页后立即使内容按窗口自动换行</string>
 
     <!-- User interface : Lock Screen -->
@@ -49,7 +49,7 @@
     <string name="clock_title">时钟</string>
     <string name="title_show_clock">显示时钟</string>
     <string name="title_clock_color">时钟颜色</string>
-    <string name="clock_show_am_pm">12 小时时钟显示上下午</string>
+    <string name="clock_show_am_pm">使用 12 小时时钟使显示上下午</string>
 
     <!-- Status Bar, dBm Signal -->
     <string name="dbm_title">信号强度数值</string>
@@ -71,20 +71,20 @@
 
     <!-- Date and Provider, PLMN -->
     <string name="plmn_title">运营商名称</string>
-    <string name="title_show_plmn_ls">显示运营商名称（锁屏）</string>
+    <string name="title_show_plmn_ls">显示运营商名称 (锁屏)</string>
     <string name="summary_on_show_plmn_ls">在设备锁定屏幕中显示运营商名称</string>
     <string name="summary_off_show_plmn_ls">在设备锁定屏幕中不显示运营商名称</string>
-    <string name="title_show_plmn_sb">运营商名称（状态栏）</string>
+    <string name="title_show_plmn_sb">运营商名称 (状态栏)</string>
     <string name="summary_on_show_plmn_sb">在状态栏中显示运营商名称</string>
     <string name="summary_off_show_plmn_sb">在状态栏中不显示运营商名称</string>
     <string name="title_plmn_label_color">运营商名称文字颜色</string>
 
     <!-- Date and Provider, SPN -->
     <string name="spn_title">服务供应商代号</string>
-    <string name="title_show_spn_ls">显示服务供应商代号（锁屏）</string>
+    <string name="title_show_spn_ls">显示服务供应商代号 (锁屏)</string>
     <string name="summary_on_show_spn_ls">在设备锁定屏幕中显示服务供应商代号</string>
     <string name="summary_off_show_spn_ls">在设备锁定屏幕中不显示服务供应商代号</string>
-    <string name="title_show_spn_sb">显示服务供应商代号（状态栏）</string>
+    <string name="title_show_spn_sb">显示服务供应商代号 (状态栏)</string>
     <string name="summary_on_show_spn_sb">在状态栏中显示服务供应商代号</string>
     <string name="summary_off_show_spn_sb">在状态栏中不显示服务供应商代号</string>
     <string name="title_spn_label_color">服务供应商代号文字颜色</string>
@@ -154,7 +154,7 @@
     <string name="te_title_summary">用于界面微调的额外工具</string>
     <string name="te_reset">重置</string>
     <string name="title_reset_ui_tweaks_to_defaults">将界面设置重置为默认值</string>
-    <string name="te_xml">XML 工具</string>
+    <string name="te_xml">XML工具</string>
     <string name="title_dialog_ui_interface">用户界面微调</string>
     <string name="message_dialog_reset">是否将所有微调设置重置为默认值？重启后生效。</string>
     <string name="reset_ui_success">用户界面微调设置已重置！重启后生效。</string>
@@ -180,9 +180,9 @@
     <string name="input_settings_summary">设备按键行为选项</string>
     <string name="button_settings_title">按键设置</string>
     <string name="lockscreen_settings_title">锁屏设置</string>
-    <string name="pref_lockscreen_music_controls_title">锁屏音乐控制按钮</string>
+    <string name="pref_lockscreen_music_controls_title">锁屏音乐播放控制按钮</string>
     <string name="pref_lockscreen_music_controls_summary">在锁屏画面上显示音乐播放控制按钮</string>
-    <string name="pref_lockscreen_always_music_controls_title">总是显示音乐控制按钮</string>
+    <string name="pref_lockscreen_always_music_controls_title">总是显示音乐播放控制按钮</string>
     <string name="pref_lockscreen_always_music_controls_summary">无论是否正在播放音乐，总是显示音乐播放控制按钮</string>
 	<string name="pref_trackball_wake_title">轨迹球唤醒</string>
     <string name="pref_trackball_wake_summary">按下轨迹球可唤醒设备</string>
@@ -212,15 +212,15 @@
 
     <!-- Performance Settings : Compcache -->
     <string name="pref_compcache_title">使用 Compcache</string>
-    <string name="pref_compcache_summary">压缩内存以增加虚拟容量（需要重启）</string>
+    <string name="pref_compcache_summary">压缩内存以增加虚拟容量 (需要重启)</string>
 
     <!-- Performance Settings : JIT Mode -->
     <string name="pref_jit_mode_title">使用 JIT</string>
-    <string name="pref_jit_mode_summary">使用 Dalvik 的 JIT (Just-In-Time) 编译器（需要重启）</string>
+    <string name="pref_jit_mode_summary">使用 Dalvik 的 JIT (Just-In-Time) 编译器 (需要重启)</string>
 
     <!-- Performance Settings : Dithering -->
     <string name="pref_use_dithering_title">启用贴图插值抖动</string>
-    <string name="pref_use_dithering_summary">启用贴图插值抖动可以提高图像质量，但会影响性能（需要重启）</string>
+    <string name="pref_use_dithering_summary">启用贴图插值抖动可以提高图像质量，但会影响性能 (需要重启)</string>
 
     <!-- Performance Setting : VM Heap Size -->
     <string name="pref_heapsize_title">虚拟机内存大小</string>
@@ -366,11 +366,11 @@
 
 
     <!-- Performance : Lock home memory -->
-    <string name="pref_lock_home_title">锁定桌面管理器内存空间</string>
+    <string name="pref_lock_home_title">锁定桌面管理器的内存空间</string>
     <string name="pref_lock_home_summary">在任何情况下试图防止当前的桌面管理器程序被系统从内存中清除</string>
 
     <!-- Performance : Lock mms app in memory -->
-    <string name="pref_lock_mms_title">锁定消息程序内存空间</string>
+    <string name="pref_lock_mms_title">锁定消息程序的内存空间</string>
     <string name="pref_lock_mms_summary">可以防止在内存不足的情况下丢失消息</string>
 
     <!-- Backlight -->
@@ -389,7 +389,7 @@
     <string name="light_levels_enabled_title">使用自定义设置</string>
     <string name="light_levels_dim_title">屏幕变暗值</string>
     <string name="light_levels_dim_summary">当使屏幕变暗时所使用的亮度水平值</string>
-    <string name="light_levels_editor_title">编辑亮度方案...</string>
+    <string name="light_levels_editor_title">编辑其他值...</string>
     <string name="light_decrease_enabled_title">允许降低亮度</string>
     <string name="light_decrease_enabled_summary">开启该选项允许降低亮度，使用迟滞选项减少频繁调节亮度引起的屏幕闪烁。</string>
     <string name="light_decrease_hysteresis_title">降低亮度迟滞</string>
