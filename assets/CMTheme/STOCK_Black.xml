@@ -15,7 +15,7 @@
 <notifications_title_color>#ffffffff</notifications_title_color>
 <notifications_text_color>#ffffffff</notifications_text_color>
 <notifications_time_color>#ffffffff</notifications_time_color>
-<battery_percentage_status_icon>0</battery_percentage_status_icon>
+<battery_percentage_status_icon>1</battery_percentage_status_icon>
 <show_status_clock>1</show_status_clock>
 <show_status_dbm>0</show_status_dbm>
 <show_plmn_ls>1</show_plmn_ls>
@@ -28,5 +28,5 @@
 <notif_expanded_bar_custom>1</notif_expanded_bar_custom>
 <!--This last one is for HDPI devices only - the values are: 0:right, 1:left, 2:center
 	This is the ONLY place this value can be set -->
-<hdpi_battery_alignment>0</hdpi_battery_alignment>
+<hdpi_battery_alignment>2</hdpi_battery_alignment>
 </cmparts>
