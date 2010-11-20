@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAABX//+ng\u003d",
+        "filename": "res/xml/ui_settings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2010-11-20T13:05:41Z",
+      "side": 1,
+      "message": "Please use spaces instead of tabs",
+      "revId": "a2e9f6ea29841c71d78629fe48a849a6c4686fca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAABX//+nc\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2010-11-20T13:05:41Z",
+      "side": 1,
+      "message": "Just some extra whitespace",
+      "revId": "a2e9f6ea29841c71d78629fe48a849a6c4686fca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
