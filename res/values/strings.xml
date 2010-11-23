@@ -467,4 +467,53 @@
     <string name="user_defined_key2">Quick Key 2</string>
     <string name="user_defined_key3">Quick Key 3</string>
     <string name="user_defined_not_set">Nothing Set</string>
+
+    <!--  Lockscreen gesture strings -->
+    <!--  pref strings -->
+    <string name="pref_lockscreen_title">Lockscreen gestures</string>
+    <string name="pref_lockscreen_gestures_enable_title">Use lockscreen gestures</string>
+    <string name="pref_lockscreen_gestures_trail_title">Show gesture trails</string>
+    <string name="pref_lockscreen_gestures_builder_title">Build gestures</string>
+    <string name="pref_lockscreen_gestures_sensitivity_title">Sensitivity</string>
+
+    <string name="label_create_gesture">Create a gesture</string>
+
+    <!-- Label, button used to add a gesture -->
+    <string name="gestures_button_add">Add gesture</string>
+    <!-- Label, button used to reload all gestures -->
+    <string name="gestures_button_reload">Reload</string>
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <string name="gestures_button_discard">Discard</string>
+    <!-- Label, button used to save a gesture newly created -->
+    <string name="gestures_button_done">Done</string>
+
+    <!-- Gestures -->
+
+    <string name="gestures_shortcut_picker_button_label">Pick a shortcut or activity for this gesture</string>
+    <string name="gestures_error_missing_shortcut">You must pick an action for this gesture!</string>
+    <!-- success message, tells the user where the gesture was saved -->
+    <string name="gestures_save_success">Gesture saved in %s</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="gestures_rename_action">OK</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="gestures_cancel_action">Cancel</string>
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <string name="gestures_loading">Loading gestures...</string>
+    <!-- Message displayed when the user has no gestures -->
+    <string name="gestures_empty">No gestures</string>
+    <!-- Title of the screen used to view/manage gestures -->
+    <string name="gestures_activity">Gestures</string>
+    <!-- Noun, menu item used to rename a gesture -->
+    <string name="gestures_rename">Rename</string>
+    <!-- Noun, menu item used to remove a gesture -->
+    <string name="gestures_delete">Delete</string>
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <string name="gestures_delete_success">Gesture deleted</string>
+    <!-- Title of dialog box -->
+    <string name="gestures_rename_title">Rename gesture</string>
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <string name="gestures_rename_label">Gesture name</string>
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures -->
+    <string name="gestures_error_loading">Could not load %s. Make sure you have a mounted SD card.</string>
+
 </resources>
