@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAABX//+aM\u003d",
+        "filename": "res/values-es/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2010-11-25T09:12:33Z",
+      "side": 1,
+      "message": "Please use spaces instead of tabs.",
+      "revId": "f1761d4ef2e6c24ef3b4a0f287e05c97515281b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
