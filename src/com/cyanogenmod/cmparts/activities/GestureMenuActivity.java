@@ -7,6 +7,7 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
+import android.os.Environment;
 import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
@@ -14,8 +15,14 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
+import android.util.Log;
+
+import java.io.File;
 import java.util.List;
+
 import com.cyanogenmod.cmparts.R;
+import android.gesture.GestureLibrary;
+import android.gesture.GestureLibraries;
 
 public class GestureMenuActivity extends PreferenceActivity
         implements SharedPreferences.OnSharedPreferenceChangeListener {
@@ -24,11 +31,12 @@ public class GestureMenuActivity extends PreferenceActivity
     private static final String LOCKSCREEN_GESTURES_ENABLE = "lockscreen_gestures_enable";
     private static final String LOCKSCREEN_GESTURES_TRAIL = "lockscreen_gestures_trail";
     private static final String LOCKSCREEN_GESTURES_SENSITIVITY = "lockscreen_gestures_sensitivity";
+    private static final String LOCKSCREEN_GESTURES_DISABLE_UNLOCK_TAB = "lockscreen_disable_unlock_tab";
 
     private CheckBoxPreference mGesturesEnable;
     private CheckBoxPreference mGesturesTrail;
     private ListPreference mGesturesSensitivity;
-
+    private CheckBoxPreference mGesturesDisableUnlock;
 
     public static boolean updatePreferenceToSpecificActivityOrRemove(Context context,
             PreferenceGroup parentPreferenceGroup, String preferenceKey, int flags) {
@@ -67,9 +75,39 @@ public class GestureMenuActivity extends PreferenceActivity
         mGesturesEnable = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_GESTURES_ENABLE);
         mGesturesTrail = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_GESTURES_TRAIL);
         mGesturesSensitivity = (ListPreference) prefSet.findPreference(LOCKSCREEN_GESTURES_SENSITIVITY);
+        mGesturesDisableUnlock = (CheckBoxPreference)
+                prefSet.findPreference(LOCKSCREEN_GESTURES_DISABLE_UNLOCK_TAB);
 
         final PreferenceGroup parentPreference = getPreferenceScreen();
         parentPreference.getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
+        if (!doesUnlockGestureExist()) {
+            mGesturesDisableUnlock.setEnabled(false);
+            mGesturesDisableUnlock.setChecked(false);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_GESTURES_DISABLE_UNLOCK, 0);
+        } else {
+            mGesturesDisableUnlock.setEnabled(true);
+        }
+    }
+
+    private boolean doesUnlockGestureExist() {
+        final File mStoreFile = new File(Environment.getDataDirectory(), "/misc/lockscreen_gestures");
+        GestureLibrary gl = GestureLibraries.fromFile(mStoreFile);
+        if (!gl.load()) {
+            return false;
+        }
+        boolean foundUnlock = false;
+        for (String name : gl.getGestureEntries()) {
+            if ("UNLOCK___UNLOCK".equals(name)) {
+                foundUnlock = true;
+                break;
+            }
+        }
+        if (foundUnlock) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     private void updateToggles() {
@@ -79,10 +117,21 @@ public class GestureMenuActivity extends PreferenceActivity
             mGesturesTrail.setChecked(Settings.System.getInt(
                     getContentResolver(),
                     Settings.System.LOCKSCREEN_GESTURES_TRAIL, 0) != 0);
+            mGesturesDisableUnlock.setChecked(Settings.System.getInt(
+                    getContentResolver(),
+                    Settings.System.LOCKSCREEN_GESTURES_DISABLE_UNLOCK, 0) != 0);
             mGesturesSensitivity.setValue(Integer.toString(Settings.System.getInt(
                     getContentResolver(),
-                    Settings.System.LOCKSCREEN_GESTURES_SENSITIVITY, 0)));
+                    Settings.System.LOCKSCREEN_GESTURES_SENSITIVITY, 3)));
             mGesturesSensitivity.setSummary(mGesturesSensitivity.getEntry());
+            if (!doesUnlockGestureExist()) {
+                mGesturesDisableUnlock.setEnabled(false);
+                mGesturesDisableUnlock.setChecked(false);
+                Settings.System.putInt(getContentResolver(),
+                        Settings.System.LOCKSCREEN_GESTURES_DISABLE_UNLOCK, 0);
+            } else {
+                mGesturesDisableUnlock.setEnabled(true);
+            }
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
@@ -103,6 +152,10 @@ public class GestureMenuActivity extends PreferenceActivity
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_GESTURES_TRAIL,
                     mGesturesTrail.isChecked() ? 1 : 0);
+        } else if (LOCKSCREEN_GESTURES_DISABLE_UNLOCK_TAB.equals(key)) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_GESTURES_DISABLE_UNLOCK,
+                    mGesturesDisableUnlock.isChecked() ? 1 : 0);
         } else if (LOCKSCREEN_GESTURES_SENSITIVITY.equals(key)) {
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_GESTURES_SENSITIVITY,
