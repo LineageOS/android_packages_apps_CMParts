@@ -6,6 +6,10 @@
      <CheckBoxPreference android:key="lockscreen_gestures_trail"
         android:title="@string/pref_lockscreen_gestures_trail_title"
         android:dependency="lockscreen_gestures_enable" />
+     <CheckBoxPreference android:key="lockscreen_disable_unlock_tab"
+        android:title="@string/pref_lockscreen_disable_unlock_tab"
+        android:summary="@string/pref_lockscreen_disable_unlock_tab_summary"
+        android:dependency="lockscreen_gestures_enable" />
      <ListPreference android:key="lockscreen_gestures_sensitivity"
         android:title="@string/pref_lockscreen_gestures_sensitivity_title"
         android:entries="@array/pref_lockscreen_gestures_sensitivity_entries"
