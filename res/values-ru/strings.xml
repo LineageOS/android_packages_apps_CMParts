@@ -129,13 +129,13 @@
     <string name="pref_trackball_screen_title">Мерцать всегда</string>
     <string name="pref_trackball_screen_summary">Trackball будет мерцать при включенном экране.</string>
     <string name="pref_trackball_blend_title">Смешанное уведомление</string>
-    <string name="pref_trackball_blend_summary">Смешивает цвета уведомлений. Заменяет очередность.</string>
+    <string name="pref_trackball_blend_summary">Смешивает цвета уведомлений. Заменяет очередность</string>
     <string name="pref_trackball_sucess_title">Очередность</string>
-    <string name="pref_trackball_sucess_summary">Чередует цвета уведомлений.</string>
+    <string name="pref_trackball_sucess_summary">Чередует цвета уведомлений</string>
     <string name="pref_trackball_random_title">Случайные цвета</string>
     <string name="pref_trackball_random_summary">LED будет мерцать случайным цветом для всех уведомлений</string>
     <string name="pref_trackball_order_title">Порядок</string>
-    <string name="pref_trackball_order_summary">Мерцать LED в порядке</string>
+    <string name="pref_trackball_order_summary">Порядок мерцания LED</string>
     <string name="pref_trackball_reset_title">Сброс</string>
     <string name="pref_trackball_reset_summary">Сброс всех настроек для приложений</string>
     <string name="dialog_trackball_loading">Загрузка...</string>
