@@ -143,6 +143,17 @@ public class GestureCreateActivity extends Activity {
         startActivityForResult(pickIntent, REQUEST_PICK_SHORTCUT);
     }
 
+    public void pickUnlockOnly(View v) {
+        mShortcutButton.setText(getString(R.string.gestures_unlock_only));
+        mUri = "UNLOCK___UNLOCK";
+    }
+
+    public void pickSoundOnly(View v) {
+        mShortcutButton.setText(getString(R.string.gestures_toggle_sound));
+        mUri = "SOUND___SOUND";
+    }
+
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
