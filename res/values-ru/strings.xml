@@ -190,6 +190,7 @@
     <string name="pref_lockscreen_quick_unlock_control_summary">Не требуется нажимать подтверждение после ввода пароля или PIN.</string>
     <string name="pref_lockscreen_phone_messaging_control_title">Телефон и SMS</string>
     <string name="pref_lockscreen_phone_messaging_control_summary">Телефон и SMS доступны с экрана блокировки.</string>
+    <string name="pref_messaging_tab_app_title">Приложение для SMS</string>
 
     <!-- Long Press Home -->
     <string name="long_press_home_title">Долгое нажатие на Home</string>
@@ -468,5 +469,6 @@
     <string name="gestures_delete">Удалить</string>
     <string name="gestures_delete_success">Жест удален</string>
     <string name="gestures_error_loading">Проблема с жестом для выполнения операции.</string>
+
 
 </resources>
