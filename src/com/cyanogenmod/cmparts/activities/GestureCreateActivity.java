@@ -154,6 +154,10 @@ public class GestureCreateActivity extends Activity {
         mUri = "SOUND___SOUND";
     }
 
+    public void pickFlashlightOnly(View v) {
+        mShortcutButton.setText(getString(R.string.gestures_toggle_flashlight));
+        mUri = "FLASHLIGHT___FLASHLIGHT";
+    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
