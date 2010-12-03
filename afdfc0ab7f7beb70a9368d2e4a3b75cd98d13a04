@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAABX//9u0\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2010-12-03T02:23:22Z",
+      "side": 1,
+      "message": "Long line (\u003e 100 chars)",
+      "revId": "afdfc0ab7f7beb70a9368d2e4a3b75cd98d13a04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
