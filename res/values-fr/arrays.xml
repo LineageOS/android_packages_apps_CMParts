@@ -27,7 +27,7 @@
         <item>Mode nuit (rouge)</item>
         <item>Terminal (vert)</item>
         <item>Bleu</item>
-        <item>Ambre</item>
+        <item>Orange</item>
         <item>Saumon</item>
         <item>Fuchsia</item>
 	    <item>Calibré (N1)</item>
@@ -39,7 +39,7 @@
         <item>Mode nuit (rouge)</item>
         <item>Terminal (vert)</item>
         <item>Bleu</item>
-        <item>Ambre</item>
+        <item>Orange</item>
         <item>Saumon</item>
         <item>Fuchsia</item>
 	    <item>Calibré (N1)</item>
@@ -68,6 +68,12 @@
         <item>Blue ciel</item>
 	    <item>Aléatoire</item>
 	    <item>Aucune</item>
+    </string-array>
+
+    <string-array name="entries_dual_led_colors">
+        <item>Vert</item>
+        <item>Orange</item>
+        <item>Aucune</item>
     </string-array>
 
 	<string-array name="pref_trackball_blink_rate_entries">
