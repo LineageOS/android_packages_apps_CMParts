@@ -3,6 +3,10 @@
     <!-- Generic -->    
     <string name="app_name">Настройки CyanogenMod</string>
 
+    <!--  Update Notifications -->
+    <string name="updatenotify_title">Уведомления об обновлениях</string>
+    <string name="updatenotify_summary">Получать уведомления об обновлениях.</string>
+
     <!-- User interface -->
     <string name="ui_title">Интерфейс</string>
     <string name="ui_summary">Настройки пользовательского интерфейса</string>
