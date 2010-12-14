@@ -16,15 +16,15 @@ public class DateProviderActivity extends PreferenceActivity {
     private static final String UI_DATE_COLOR = "date_color";
     private Preference mDateColorPref;
     /* PLMN Lock Screen, Taskbar, and Color */
-    private static final String SHOW_PLMN_LS_PREF = "show_plmn_ls";
-    private static final String SHOW_PLMN_SB_PREF = "show_plmn_sb";
+    private static final String SHOW_PLMN_LS_PREF = "show_plmn_ls_pref";
+    private static final String SHOW_PLMN_SB_PREF = "show_plmn_sb_pref";
     private static final String UI_PLMN_LABEL_COLOR = "plmn_label_color";
     private CheckBoxPreference mShowPlmnLsPref;
     private CheckBoxPreference mShowPlmnSbPref;
     private Preference mPlmnLabelColorPref;
     /* SPN Lock Screen, Tackbar, and Color */
-    private static final String SHOW_SPN_LS_PREF = "show_spn_ls";
-    private static final String SHOW_SPN_SB_PREF = "show_spn_sb";
+    private static final String SHOW_SPN_LS_PREF = "show_spn_ls_pref";
+    private static final String SHOW_SPN_SB_PREF = "show_spn_sb_pref";
     private static final String UI_SPN_LABEL_COLOR = "spn_label_color";
     private CheckBoxPreference mShowSpnLsPref;
     private CheckBoxPreference mShowSpnSbPref;
@@ -105,7 +105,7 @@ public class DateProviderActivity extends PreferenceActivity {
             return -16777216;
         }
     }
-    ColorPickerDialog.OnColorChangedListener mDateFontColorListener = 
+    ColorPickerDialog.OnColorChangedListener mDateFontColorListener =
         new ColorPickerDialog.OnColorChangedListener() {
             public void colorChanged(int color) {
                 Settings.System.putInt(getContentResolver(), Settings.System.DATE_COLOR, color);
@@ -122,7 +122,7 @@ public class DateProviderActivity extends PreferenceActivity {
             return -16777216;
         }
     }
-    ColorPickerDialog.OnColorChangedListener mPlmnLabelColorListener = 
+    ColorPickerDialog.OnColorChangedListener mPlmnLabelColorListener =
         new ColorPickerDialog.OnColorChangedListener() {
             public void colorChanged(int color) {
                 Settings.System.putInt(getContentResolver(), Settings.System.PLMN_LABEL_COLOR, color);
@@ -139,7 +139,7 @@ public class DateProviderActivity extends PreferenceActivity {
             return -16777216;
         }
     }
-    ColorPickerDialog.OnColorChangedListener mSpnLabelColorListener = 
+    ColorPickerDialog.OnColorChangedListener mSpnLabelColorListener =
         new ColorPickerDialog.OnColorChangedListener() {
             public void colorChanged(int color) {
                 Settings.System.putInt(getContentResolver(), Settings.System.SPN_LABEL_COLOR, color);

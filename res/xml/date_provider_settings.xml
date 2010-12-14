@@ -6,12 +6,12 @@
          android:defaultValue="-16777216" />
    </PreferenceCategory>
    <PreferenceCategory android:title="@string/plmn_title">
-      <CheckBoxPreference android:key="show_plmn_ls"
+      <CheckBoxPreference android:key="show_plmn_ls_pref"
          android:title="@string/title_show_plmn_ls"
          android:summaryOn="@string/summary_on_show_plmn_ls"
          android:summaryOff="@string/summary_off_show_plmn_ls"
          android:defaultValue="true" />
-      <CheckBoxPreference android:key="show_plmn_sb"
+      <CheckBoxPreference android:key="show_plmn_sb_pref"
          android:title="@string/title_show_plmn_sb"
          android:summaryOn="@string/summary_on_show_plmn_sb"
          android:summaryOff="@string/summary_off_show_plmn_sb"
@@ -20,15 +20,15 @@
       <Preference android:key="plmn_label_color"
          android:title="@string/title_plmn_label_color"
          android:defaultValue="-16777216"
-         android:dependency="show_plmn_sb" />
+         android:dependency="show_plmn_sb_pref" />
    </PreferenceCategory>
    <PreferenceCategory android:title="@string/spn_title">
-      <CheckBoxPreference android:key="show_spn_ls"
+      <CheckBoxPreference android:key="show_spn_ls_pref"
          android:title="@string/title_show_spn_ls"
          android:summaryOn="@string/summary_on_show_spn_ls"
          android:summaryOff="@string/summary_off_show_spn_ls"
          android:defaultValue="true" />
-      <CheckBoxPreference android:key="show_spn_sb"
+      <CheckBoxPreference android:key="show_spn_sb_pref"
          android:title="@string/title_show_spn_sb"
          android:summaryOn="@string/summary_on_show_spn_sb"
          android:summaryOff="@string/summary_off_show_spn_sb"
@@ -37,6 +37,6 @@
       <Preference android:key="spn_label_color"
          android:title="@string/title_spn_label_color"
          android:defaultValue="-16777216"
-         android:dependency="show_spn_sb" />
+         android:dependency="show_spn_sb_pref" />
    </PreferenceCategory>
 </PreferenceScreen>
