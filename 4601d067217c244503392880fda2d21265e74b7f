@@ -16,6 +16,24 @@
       "revId": "4601d067217c244503392880fda2d21265e74b7f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAABn///ts\u003d",
+        "filename": "res/values-it/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2010-12-15T23:00:29Z",
+      "side": 1,
+      "message": "Sì qui nel menù principale si può anche eliminare il termine \"push\", lo si potrebbe tenere invece nell\u0027app CMUpdateNotifier per specificare (per chi sa cosa si intende con push) che sono notifiche che funzionano diversamente da quelle di RomManager",
+      "parentUuid": "AAAABn///10\u003d",
+      "revId": "4601d067217c244503392880fda2d21265e74b7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
