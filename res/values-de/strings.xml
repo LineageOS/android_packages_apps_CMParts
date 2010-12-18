@@ -155,6 +155,8 @@
     <string name="trackball_remove_default_toast">Die Standardkategorie kann nicht entfernt werden.</string>
     <string name="trackball_reset_all">Alle Farben und Kategorien zurücksetzen.</string>
     <string name="trackball_array_error">Leider ist ein Fehler aufgetreten. Dieses Paket ist in die Kategorie \"Verschiedenes\" verschoben worden.</string>
+    <string name="trackball_color_notice_title">HINWEIS:</string>
+    <string name="trackball_color_notice_summary">Auf manchen Geräten stehen einige Farben nicht zur Verfügung.</string>
 
     <!-- Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">WARNUNG: Kann Batterieentladung beschleunigen</string>
@@ -345,6 +347,8 @@
     <string name="title_widget_buttons">Energie-Widget</string>
     <string name="title_expanded_widget">Energiesteuerung in Benachrichtigungsfeld</string>
     <string name="summary_expanded_widget">Tasten für Energiesteuerung in aufgeklappter Benachrichtigungsanzeige</string>
+    <string name="title_expanded_hide_onchange">Nach Änderung verbergen</string>
+    <string name="summary_expanded_hide_onchange">Die Benachrichtigungsanzeige sofort wieder verbergen, nachdem eine Änderung an der Energiesteuerung vorgenommen wurde.</string>
     <string name="expanded_color_mask">Farbe der Anzeige</string>
     <string name="title_widget_picker">Anzuzeigende Tasten</string>
     <string name="summary_widget_picker">Tasten auswählen, die angezeigt werden sollen.</string>
