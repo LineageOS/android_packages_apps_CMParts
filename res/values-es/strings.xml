@@ -23,14 +23,6 @@
     <string name="pref_pinch_reflow_title">Regenerar después de pellizcar</string>
     <string name="pref_pinch_reflow_summary">Regenerar contenido inmediatamente después de pellizcar para hacer zoom</string>
 
-    <!-- User interface : Overscroll -->
-    <string name="ui_overscroll_title">Sobredesplazamiento</string>
-    <string name="pref_overscroll_title">Habilitar sobredesplazamiento</string>
-    <string name="pref_overscroll_summary_on">Los objetos desplazables rebasan y se recuperan</string>
-    <string name="pref_overscroll_summary_off">Los objetos desplazables no rebasan</string>
-    <string name="pref_overscroll_weight_title">Valor de sobredesplazamiento</string>
-    <string name="pref_overscroll_weight_summary">Seleccionar el valor de los objetos desplazables</string>
-
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Ajustes de protector de pantalla</string>
     <string name="pref_lockscreen_delay_title">Tiempo de espera</string>

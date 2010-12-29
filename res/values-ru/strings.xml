@@ -27,14 +27,6 @@
     <string name="pref_pinch_reflow_title">Перерисовка после увеличения</string>
     <string name="pref_pinch_reflow_summary">Перерисовывать контент немедленно после увеличения</string>
 
-    <!-- User interface : Overscroll -->
-    <string name="ui_overscroll_title">Перепрокрутка</string>
-    <string name="pref_overscroll_title">Перепрокрутка</string>
-    <string name="pref_overscroll_summary_on">Прокручиваемые элементы выезжают за границы и возвращаются обратно</string>
-    <string name="pref_overscroll_summary_off">Прокручиваемые элементы не выезжают за границы</string>
-    <string name="pref_overscroll_weight_title">Размер перепрокрутки</string>
-    <string name="pref_overscroll_weight_summary">Укажите насколько будут перепрокручиватся элементы</string>
-
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Настройка блокировки экрана</string>
     <string name="pref_lockscreen_delay_title">Задержка</string>

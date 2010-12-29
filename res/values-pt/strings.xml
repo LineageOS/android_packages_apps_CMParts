@@ -23,14 +23,6 @@
     <string name="pref_pinch_reflow_title">Reposicionar após zoom</string>
     <string name="pref_pinch_reflow_summary">Reposicionar conteúdo imediatamente após zoom em pinça</string>
 
-    <!-- User interface : Overscroll -->
-    <string name="ui_overscroll_title">Rolagem excedente</string>
-    <string name="pref_overscroll_title">Habilita rolagem excedente</string>
-    <string name="pref_overscroll_summary_on">Objetos de rolagem ultrapassam e voltam</string>
-    <string name="pref_overscroll_summary_off">Objetos de rolagem não ultrapassam</string>
-    <string name="pref_overscroll_weight_title">Peso da rolagem excedente</string>
-    <string name="pref_overscroll_weight_summary">Selecione o peso dos objetos de rolagem</string>
-
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Configurações de bloqueio de tela</string>
     <string name="pref_lockscreen_delay_title">Espera</string>

@@ -23,14 +23,6 @@
     <string name="pref_pinch_reflow_title">触摸放大后使内容自动换行</string>
     <string name="pref_pinch_reflow_summary">通过多点触摸放大网页后立即使内容按窗口自动换行</string>
 
-    <!-- User interface : Overscroll -->
-    <string name="ui_overscroll_title">滚动越界</string>
-    <string name="pref_overscroll_title">打开滚动越界</string>
-    <string name="pref_overscroll_summary_on">可滚动对象超出屏幕并弹回</string>
-    <string name="pref_overscroll_summary_off">可滚动对象不能超出屏幕</string>
-    <string name="pref_overscroll_weight_title">越界程度</string>
-    <string name="pref_overscroll_weight_summary">选择可滚动对象的越界程度</string>
-
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">锁屏设置</string>
     <string name="pref_lockscreen_delay_title">延迟</string>
