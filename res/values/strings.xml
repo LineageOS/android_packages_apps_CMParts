@@ -118,6 +118,10 @@
     <string name="performance_settings_title">Performance settings</string>
     <string name="performance_settings_summary">Device performance tweaks</string>
 
+    <!-- Performance Settings : Compcache -->
+    <string name="pref_compcache_title">Compcache RAM Usage</string>
+    <string name="pref_compcache_summary">Compress memory for increased virtual capacity (requires reboot)</string>
+
     <!-- Performance Settings : JIT Mode -->
     <string name="pref_jit_mode_title">Use JIT</string>
     <string name="pref_jit_mode_summary">Use the Dalvik just-in-time compiler (requires reboot)</string>
@@ -129,6 +133,14 @@
     <!-- Performance Settings : VM Heap Size -->
     <string name="pref_heapsize_title">VM heap size</string>
     <string name="pref_heapsize_summary">Maximum amount of memory per VM heap (requires reboot)</string>
+
+    <!-- Performance : Lock home memory -->
+    <string name="pref_lock_home_title">Lock home in memory</string>
+    <string name="pref_lock_home_summary">Attempt to keep the current home app in memory at all times</string>
+
+    <!-- Performance : Lock mms app in memory -->
+    <string name="pref_lock_mms_title">Lock messaging app in memory</string>
+    <string name="pref_lock_mms_summary">Avoid lost messages on low memory situations</string>
 
     <!-- Performance Settings : Warning dialog -->
     <string name="performance_settings_warning_title">WARNING: Dragons Ahead!</string>
