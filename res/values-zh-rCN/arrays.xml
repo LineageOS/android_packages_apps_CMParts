@@ -61,14 +61,6 @@
         <item>优化颜色 (N1) 冷色</item>
     </string-array>
 
-    <string-array name="entries_overscroll_weight">
-        <item>非常重</item>
-        <item>重</item>
-        <item>中等</item>
-        <item>轻</item>
-        <item>非常轻</item>
-    </string-array>
-
     <string-array name="entries_trackball_colors">
         <item>绿色</item>
         <item>白色</item>

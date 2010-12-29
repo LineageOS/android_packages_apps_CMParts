@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
     <ListPreference android:key="pref_compcache_size" android:dialogTitle="@string/pref_compcache_title"
         android:title="@string/pref_compcache_title" android:summary="@string/pref_compcache_summary"
         android:entries="@array/pref_compcache_size_entries" android:entryValues="@array/pref_compcache_size_values" />

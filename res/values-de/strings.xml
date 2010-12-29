@@ -12,12 +12,6 @@
     <string name="ui_summary">Einstellungen &amp; Tweaks für Benutzeroberfläche</string>
     <string name="ui_status_bar">Anpassung der Statuszeile</string>
 
-    <!-- User interface, orientation -->
-    <string name="ui_rotation_title">Autorotation</string>
-    <string name="pref_rotation_90_title">90 Grad</string>
-    <string name="pref_rotation_180_title">180 Grad</string>
-    <string name="pref_rotation_270_title">270 Grad</string>
-
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED-Benachrichtigungen</string>
     <string name="trackball_summary">Trackball/LED-Benachrichtigungen kontrollieren</string>
@@ -26,14 +20,6 @@
     <string name="ui_webview_title">WebView</string>
     <string name="pref_pinch_reflow_title">Textfluss nach Pinch</string>
     <string name="pref_pinch_reflow_summary">Nach Pinch-To-Zoom Inhalte sofort neu anpassen</string>
-
-    <!-- User interface : Overscroll -->
-    <string name="ui_overscroll_title">Überscrollen</string>
-    <string name="pref_overscroll_title">Überscrollen aktivieren</string>
-    <string name="pref_overscroll_summary_on">Scrollbare Objekte überschwingen und federn zurück</string>
-    <string name="pref_overscroll_summary_off">Scrollbare Objekte überschwingen nicht</string>
-    <string name="pref_overscroll_weight_title">Überscroll-Stärke</string>
-    <string name="pref_overscroll_weight_summary">Stärke des Überscroll-Effekts einstellen</string>
 
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Bildschirmsperre einstellen</string>

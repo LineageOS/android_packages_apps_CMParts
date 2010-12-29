@@ -49,14 +49,6 @@
 	    <item>Calibrato (N1) Cool</item>
 	</string-array>
 
-    <string-array name="entries_overscroll_weight">
-        <item>Molto forte</item>
-        <item>Forte</item>
-        <item>Medio</item>
-        <item>Debole</item>
-        <item>Molto debole</item>
-        </string-array>
-
     <string-array name="entries_trackball_colors">
         <item>Verde</item>
         <item>Bianco</item>

@@ -8,12 +8,6 @@
     <string name="ui_summary">用户界面设置与微调</string>
     <string name="ui_status_bar">状态栏选项</string>
 
-    <!-- User interface : orientation -->
-    <string name="ui_rotation_title">画面自动旋转可用角度</string>
-    <string name="pref_rotation_90_title">90 度</string>
-    <string name="pref_rotation_180_title">180 度</string>
-    <string name="pref_rotation_270_title">270 度</string>
-
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED 通知</string>
     <string name="trackball_summary">控制轨迹球和 LED 通知的颜色和闪烁频率</string>
@@ -22,14 +16,6 @@
     <string name="ui_webview_title">网页视图</string>
     <string name="pref_pinch_reflow_title">触摸放大后使内容自动换行</string>
     <string name="pref_pinch_reflow_summary">通过多点触摸放大网页后立即使内容按窗口自动换行</string>
-
-    <!-- User interface : Overscroll -->
-    <string name="ui_overscroll_title">滚动越界</string>
-    <string name="pref_overscroll_title">打开滚动越界</string>
-    <string name="pref_overscroll_summary_on">可滚动对象超出屏幕并弹回</string>
-    <string name="pref_overscroll_summary_off">可滚动对象不能超出屏幕</string>
-    <string name="pref_overscroll_weight_title">越界程度</string>
-    <string name="pref_overscroll_weight_summary">选择可滚动对象的越界程度</string>
 
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">锁屏设置</string>

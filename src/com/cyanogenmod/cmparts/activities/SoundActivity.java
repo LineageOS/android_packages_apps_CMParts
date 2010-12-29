@@ -4,7 +4,6 @@ import com.cyanogenmod.cmparts.R;
 
 import android.app.Dialog;
 import android.app.TimePickerDialog;
-import android.content.ContentResolver;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -12,9 +11,9 @@ import android.os.SystemProperties;
 import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
-import android.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
 import android.text.format.DateFormat;
 import android.widget.TimePicker;
@@ -167,7 +166,6 @@ public class SoundActivity extends PreferenceActivity implements
             SystemProperties.set(getKey(key), String.valueOf(getInt(newValue)));
             mHandler.sendMessage(mHandler.obtainMessage(0, key));
         }
-
         return true;
     }
 

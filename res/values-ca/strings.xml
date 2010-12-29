@@ -4,10 +4,6 @@
   <string name="ui_title">Interfície d\'usuari</string>
   <string name="ui_summary">Paràmetres de la interfície d\'usuari</string>
   <string name="ui_status_bar">Personalització de la barra d\'estat</string>
-  <string name="ui_rotation_title">Rotació de l\'acceleròmetre</string>
-  <string name="pref_rotation_90_title">90 graus</string>
-  <string name="pref_rotation_180_title">180 graus</string>
-  <string name="pref_rotation_270_title">270 graus</string>
   <string name="trackball_title">Notificacions LED</string>
   <string name="trackball_summary">Notificació i bateig de la bola i LED</string>
   <string name="ui_webview_title">VistaWeb</string>

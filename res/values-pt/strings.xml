@@ -8,12 +8,6 @@
     <string name="ui_summary">Configurações da aparência e comportamento da interface</string>
     <string name="ui_status_bar">Customização da barra de notificações</string>
 
-    <!-- User interface : orientation -->
-    <string name="ui_rotation_title">Rotação do acelerômetro</string>
-    <string name="pref_rotation_90_title">90 graus</string>
-    <string name="pref_rotation_180_title">180 graus</string>
-    <string name="pref_rotation_270_title">270 graus</string>
-
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notificações de LED</string>
     <string name="trackball_summary">Controle de cores e intervalos das notificações de LED</string>
@@ -22,14 +16,6 @@
     <string name="ui_webview_title">Páginas web</string>
     <string name="pref_pinch_reflow_title">Reposicionar após zoom</string>
     <string name="pref_pinch_reflow_summary">Reposicionar conteúdo imediatamente após zoom em pinça</string>
-
-    <!-- User interface : Overscroll -->
-    <string name="ui_overscroll_title">Rolagem excedente</string>
-    <string name="pref_overscroll_title">Habilita rolagem excedente</string>
-    <string name="pref_overscroll_summary_on">Objetos de rolagem ultrapassam e voltam</string>
-    <string name="pref_overscroll_summary_off">Objetos de rolagem não ultrapassam</string>
-    <string name="pref_overscroll_weight_title">Peso da rolagem excedente</string>
-    <string name="pref_overscroll_weight_summary">Selecione o peso dos objetos de rolagem</string>
 
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Configurações de bloqueio de tela</string>

@@ -154,14 +154,6 @@
         <item>26%</item>
     </string-array>
 
-    <string-array name="entries_overscroll_weight"> 
-        <item>Очень большой</item> 
-        <item>Большой</item> 
-        <item>Средний</item> 
-        <item>Маленький</item> 
-        <item>Очень маленький</item> 
-    </string-array> 
-
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
         <item>1 (широкий)</item>
         <item>2</item>

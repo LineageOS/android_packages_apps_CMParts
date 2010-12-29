@@ -61,14 +61,6 @@
         <item>Calibrado (N1) frio</item>
     </string-array>
 
-    <string-array name="entries_overscroll_weight">
-        <item>Extra Pesado</item>
-        <item>Pesado</item>
-        <item>Médio</item>
-        <item>Leve</item>
-        <item>Extra Leve</item>
-    </string-array>
-
     <string-array name="entries_trackball_colors">
         <item>Verde</item>
         <item>Branco</item>

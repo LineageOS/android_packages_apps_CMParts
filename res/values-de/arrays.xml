@@ -35,14 +35,6 @@
     <item>Kalibriert (N1) Kalt</item>
   </string-array>
 
-  <string-array name="entries_overscroll_weight">
-    <item>Sehr stark</item>
-    <item>Stark</item>
-    <item>Mittel</item>
-    <item>Schwach</item>
-    <item>Sehr schwach</item>
-  </string-array>
-
   <string-array name="entries_trackball_colors">
     <item>Grün</item>
     <item>Weiß</item>

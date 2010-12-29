@@ -12,12 +12,6 @@
     <string name="ui_summary">Настройки пользовательского интерфейса</string>
     <string name="ui_status_bar">Настройки статус бара</string>
 
-    <!-- User interface : orientation -->
-    <string name="ui_rotation_title">Автоповорот экрана</string>
-    <string name="pref_rotation_90_title">90 градусов</string>
-    <string name="pref_rotation_180_title">180 градусов</string>
-    <string name="pref_rotation_270_title">270 градусов</string>
-
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED уведомления</string>
     <string name="trackball_summary">Настройка цветов и ритма уведомлений через Trackball/LED</string> 
@@ -26,14 +20,6 @@
     <string name="ui_webview_title">WebView</string>
     <string name="pref_pinch_reflow_title">Перерисовка после увеличения</string>
     <string name="pref_pinch_reflow_summary">Перерисовывать контент немедленно после увеличения</string>
-
-    <!-- User interface : Overscroll -->
-    <string name="ui_overscroll_title">Перепрокрутка</string>
-    <string name="pref_overscroll_title">Перепрокрутка</string>
-    <string name="pref_overscroll_summary_on">Прокручиваемые элементы выезжают за границы и возвращаются обратно</string>
-    <string name="pref_overscroll_summary_off">Прокручиваемые элементы не выезжают за границы</string>
-    <string name="pref_overscroll_weight_title">Размер перепрокрутки</string>
-    <string name="pref_overscroll_weight_summary">Укажите насколько будут перепрокручиватся элементы</string>
 
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Настройка блокировки экрана</string>

@@ -1,8 +1,5 @@
 package com.cyanogenmod.cmparts.activities;
 
-import java.io.File;
-import java.util.ArrayList;
-
 import com.cyanogenmod.cmparts.R;
 
 import android.content.Intent;
@@ -20,7 +17,9 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
-import android.util.Log;
+
+import java.io.File;
+import java.util.ArrayList;
 
 public class InputActivity extends PreferenceActivity implements OnPreferenceChangeListener {
 
@@ -105,7 +104,7 @@ public class InputActivity extends PreferenceActivity implements OnPreferenceCha
 
         /* Trackball Wake */
         mTrackballWakePref = (CheckBoxPreference) prefSet.findPreference(TRACKBALL_WAKE_PREF);
-        mTrackballWakePref.setChecked(Settings.System.getInt(getContentResolver(), 
+        mTrackballWakePref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.TRACKBALL_WAKE_SCREEN, 0) == 1);
 
         /* Trackball Unlock */
@@ -156,6 +155,7 @@ public class InputActivity extends PreferenceActivity implements OnPreferenceCha
                 Settings.System.USER_DEFINED_KEY2_APP));
         mUserDefinedKey3Pref.setSummary(Settings.System.getString(getContentResolver(),
                 Settings.System.USER_DEFINED_KEY3_APP));
+
         mMessagingTabApp.setSummary(Settings.System.getString(getContentResolver(),
                 Settings.System.LOCKSCREEN_MESSAGING_TAB_APP));
         if (!doesUnlockAbilityExist()) {
@@ -166,6 +166,7 @@ public class InputActivity extends PreferenceActivity implements OnPreferenceCha
         } else {
             mDisableUnlockTab.setEnabled(true);
         }
+
         if (!isDefaultLockscreenStyle()) {
             mPhoneMessagingTabPref.setEnabled(false);
             mPhoneMessagingTabPref.setChecked(false);
