@@ -11,12 +11,6 @@
     <string name="ui_summary">ユーザインタフェース設定と調整</string>
     <string name="ui_status_bar">ステータスバーのカスタマイズ</string>
 
-    <!-- User interface, orientation -->
-    <string name="ui_rotation_title">画面回転</string>
-    <string name="pref_rotation_90_title">90度</string>
-    <string name="pref_rotation_180_title">180度</string>
-    <string name="pref_rotation_270_title">270度</string>
-
     <!-- User interface : trackball -->
     <string name="trackball_title">LED通知</string>
     <string name="trackball_summary">トラックボール/LEDでの通知の色や点滅を制御する</string>

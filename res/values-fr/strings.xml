@@ -12,12 +12,6 @@
     <string name="ui_summary">Paramètres de l\'interface utilisateur &amp; tweaks</string>
     <string name="ui_status_bar">Personalisation de la barre de statut</string>
 
-    <!-- User interface : orientation -->
-    <string name="ui_rotation_title">Rotation automatique</string>
-    <string name="pref_rotation_90_title">90 degrés</string>
-    <string name="pref_rotation_180_title">180 degrés</string>
-    <string name="pref_rotation_270_title">270 degrés</string>
-
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notifications par LED</string>
     <string name="trackball_summary">Contôler les réglages des notifications par LED ou pulsation de la trackball</string>
@@ -355,7 +349,6 @@
     <string name="title_toggle_mobiledata">Données mobiles</string>
     <string name="title_toggle_lockscreen">Écran de verrouillage</string>
     <string name="title_toggle_networkmode">2G/3G</string>
-    <string name="title_toggle_autorotate">Rotation automatique</string>
     <string name="title_toggle_airplane">Mode avion</string>
     <string name="title_toggle_flashlight">Lampe de poche LED</string>
     <string name="title_toggle_sleep">Mise en veille</string>

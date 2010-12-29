@@ -8,12 +8,6 @@
     <string name="ui_summary">Ajustes de interfaz de usuario</string>
     <string name="ui_status_bar">Personalizar barra de usuario</string>
 
-    <!-- User interface : orientation -->
-    <string name="ui_rotation_title">Rotación de acelerómetro</string>
-    <string name="pref_rotation_90_title">90 grados</string>
-    <string name="pref_rotation_180_title">180 grados</string>
-    <string name="pref_rotation_270_title">270 grados</string>
-
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notificaciones LED</string>
     <string name="trackball_summary">Colores y frecuencia de Bola de navegación/LED en notificaciones</string>

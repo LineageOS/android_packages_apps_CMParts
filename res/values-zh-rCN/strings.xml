@@ -8,12 +8,6 @@
     <string name="ui_summary">用户界面设置与微调</string>
     <string name="ui_status_bar">状态栏选项</string>
 
-    <!-- User interface : orientation -->
-    <string name="ui_rotation_title">画面自动旋转可用角度</string>
-    <string name="pref_rotation_90_title">90 度</string>
-    <string name="pref_rotation_180_title">180 度</string>
-    <string name="pref_rotation_270_title">270 度</string>
-
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED 通知</string>
     <string name="trackball_summary">控制轨迹球和 LED 通知的颜色和闪烁频率</string>

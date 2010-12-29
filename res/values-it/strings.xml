@@ -12,11 +12,6 @@
     <string name="ui_summary">Impostazioni e modifiche interfaccia utente</string>
     <string name="ui_status_bar">Personalizzazione Status Bar</string>
 
-    <!-- User interface : orientation -->
-    <string name="ui_rotation_title">Rotazione accelerometro</string>
-    <string name="pref_rotation_90_title">90 gradi</string>
-    <string name="pref_rotation_180_title">180 gradi</string>
-    <string name="pref_rotation_270_title">270 gradi</string>
 
     <!-- User interface : trackball -->
     <string name="trackball_title">Notifiche LED</string>
