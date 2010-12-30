@@ -92,7 +92,10 @@ public class WidgetActivity extends PreferenceActivity implements OnPreferenceCh
     }
 
     private List<String> getList() {
+        /*
         String list = Settings.System.getString(getContentResolver(), Settings.System.WIDGET_BUTTONS);
+        */
+        String list = null;
         if(list == null) {
             list = "toggleWifi|toggleBluetooth|toggleGPS|toggleSound";
         }
@@ -132,7 +135,9 @@ public class WidgetActivity extends PreferenceActivity implements OnPreferenceCh
             int index = sList.indexOf(toggle);
             sList.remove(index);
         }
+        /*
         Settings.System.putString(getContentResolver(), Settings.System.WIDGET_BUTTONS, createString(sList));
+        */
         return true;
     }
 
@@ -275,6 +280,7 @@ public class WidgetActivity extends PreferenceActivity implements OnPreferenceCh
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        /*
         int value = Integer.valueOf((String)newValue);
         if(preference == mBrightnessMode) {
             Settings.System.putInt(getContentResolver(), Settings.System.EXPANDED_BRIGHTNESS_MODE, value);
@@ -287,7 +293,7 @@ public class WidgetActivity extends PreferenceActivity implements OnPreferenceCh
         } else if(preference == mFlashMode) {
             Settings.System.putInt(getContentResolver(), Settings.System.EXPANDED_FLASH_MODE, value);
         }
-
+        */
         return true;
     }
 }

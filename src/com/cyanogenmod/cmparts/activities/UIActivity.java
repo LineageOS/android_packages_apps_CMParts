@@ -94,12 +94,12 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
 
         mScreenLockScreenOffDelayPref = (ListPreference) prefSet.findPreference(LOCKSCREEN_SCREENOFF_DELAY_PREF);
         int screenOffDelay = Settings.System.getInt(getContentResolver(), Settings.System.SCREEN_LOCK_SCREENOFF_DELAY, 0);
-        mScreenLockScreenOffDelayPref.setValue(String.valueOf(screenOffDelay)); 
+        mScreenLockScreenOffDelayPref.setValue(String.valueOf(screenOffDelay));
         mScreenLockScreenOffDelayPref.setOnPreferenceChangeListener(this);
 
         /* Pinch reflow */
         mPinchReflowPref = (CheckBoxPreference) prefSet.findPreference(PINCH_REFLOW_PREF);
-        mPinchReflowPref.setChecked(Settings.System.getInt(getContentResolver(), 
+        mPinchReflowPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.WEB_VIEW_PINCH_REFLOW, 0) == 1);
         
         mPowerPromptPref = (CheckBoxPreference) prefSet.findPreference(POWER_PROMPT_PREF);
@@ -115,11 +115,12 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
         mPowerWidgetColor = prefSet.findPreference(UI_EXP_WIDGET_COLOR);
         mPowerPicker = (PreferenceScreen)prefSet.findPreference(UI_EXP_WIDGET_PICKER);
 
+        /*
         mPowerWidget.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.EXPANDED_VIEW_WIDGET, 1) == 1));
         mPowerWidgetHideOnChange.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.EXPANDED_HIDE_ONCHANGE, 0) == 1));
-
+        */
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
@@ -157,6 +158,7 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
                     Settings.System.POWER_DIALOG_PROMPT, value ? 1 : 0);
         }
 
+        /*
         if(preference == mPowerWidget) {
             value = mPowerWidget.isChecked();
             Settings.System.putInt(getContentResolver(),
@@ -175,10 +177,10 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
                 readWidgetColor());
             cp.show();
         }
-
+        */
         return true;
     }
-    
+
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mRenderEffectPref) {
             writeRenderEffect(Integer.valueOf((String)newValue));
@@ -240,6 +242,7 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
         }
     }
 
+    /*
     private int readWidgetColor() {
         try {
             return Settings.System.getInt(getContentResolver(), Settings.System.EXPANDED_VIEW_WIDGET_COLOR);
@@ -256,4 +259,5 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
             public void colorUpdate(int color) {
             }
     };
+    */
 }
