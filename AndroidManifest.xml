@@ -6,15 +6,21 @@
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.HARDWARE_TEST" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
 
     <application android:label="@string/app_name"
         android:icon="@drawable/cm_icon">
-        <activity android:name=".activities.MainActivity"
-            android:label="@string/app_name">
+        <receiver android:name=".intents.CPUReceiver" android:enabled="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+		<data android:scheme="file" />
+	    </intent-filter>
+        </receiver>
+        <activity android:name=".activities.MainActivity" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -92,10 +98,20 @@
                 <category android:name="com.cyanogenmod.cmparts.SHORTCUT" />
             </intent-filter>
         </activity>
+    	<activity android:name=".activities.CPUActivity" android:label="@string/cpu_settings_title">
+            <intent-filter>
+	        	<action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
         <activity android:name=".activities.HapticTweaksActivity"
             android:label="@string/haptic_title">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.HapticTweaksActivity" android:label="@string/haptic_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
         <activity android:name=".activities.HapticAdjust"
@@ -203,5 +219,6 @@
 
         <service android:enabled="true" android:name=".services.RenderFXService" />
         <service android:enabled="true" android:name=".services.BatteryService" />
+        <service android:enabled="true" android:name=".services.CPUService" />
     </application>
 </manifest>
