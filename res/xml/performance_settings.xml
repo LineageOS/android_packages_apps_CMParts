@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen android:key="cpu_settings" android:title="@string/cpu_title" android:summary="@string/cpu_summary">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.CPUActivity" />
+    </PreferenceScreen>
+
     <ListPreference android:key="pref_compcache_size" android:dialogTitle="@string/pref_compcache_title"
         android:title="@string/pref_compcache_title" android:summary="@string/pref_compcache_summary"
         android:entries="@array/pref_compcache_size_entries" android:entryValues="@array/pref_compcache_size_values" />

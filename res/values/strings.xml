@@ -505,4 +505,14 @@
     <string name="pref_lockscreen_disable_unlock_tab">Disable unlock slider</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Note: You need to enable trackball, menu key, or gesture unlocking before this option becomes available</string>
     <string name="gestures_explain_create_screen">Pick an action to perform (or select Unlock or Sound) and draw a gesture on the screen.</string>
+
+    <!-- CPU Settings strings -->
+    <string name="cpu_settings_title">CPU Settings</string>
+    <string name="cpu_title">CPU Settings</string>
+    <string name="cpu_summary">Governor and clock settings</string>
+    <string name="cpu_governors_list">List of available governors\nCurrently selected: %S</string>
+    <string name="cpu_min_freq">Minimum CPU frequency\nCurrently: %s</string>
+    <string name="cpu_max_freq">Maximum CPU frequency\nCurrently: %s</string>
+    <string name="cpu_set_on_boot">Set on boot</string>
+    <string name="cpu_set_on_boot_summary">Restore CPU Settings on boot</string>
 </resources>
