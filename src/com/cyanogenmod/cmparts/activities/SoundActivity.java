@@ -17,7 +17,8 @@ import android.preference.PreferenceScreen;
 import android.provider.Settings;
 import android.text.format.DateFormat;
 import android.widget.TimePicker;
-
+import android.util.Log;
+import android.content.DialogInterface;
 import java.util.Calendar;
 
 public class SoundActivity extends PreferenceActivity implements
@@ -45,6 +46,8 @@ public class SoundActivity extends PreferenceActivity implements
 
     private static final String PREFIX = "persist.sys.";
 
+    private static final String LOG = "SoundSetting";
+    
     private CheckBoxPreference mQuietHoursEnabled;
     private Preference mQuietHoursStart;
     private Preference mQuietHoursEnd;
@@ -54,6 +57,20 @@ public class SoundActivity extends PreferenceActivity implements
 
     private static String getKey(String suffix) {
         return PREFIX + suffix;
+    }
+    
+    private static String returnTime(String t) {
+    	int hr = Integer.parseInt(t.trim());
+    	int mn = hr;
+    	
+    	if(t.equals("")) {
+    		return "";
+    	}
+    	hr = hr/60;
+    	mn = mn%60;
+    	String s = String.format("%02d:%02d",hr,mn);
+    	return s;
+    	
     }
 
     @Override
@@ -113,16 +130,21 @@ public class SoundActivity extends PreferenceActivity implements
         lp.setOnPreferenceChangeListener(this);
 
         mQuietHoursEnabled = (CheckBoxPreference) findPreference(KEY_QUIET_HOURS_ENABLED);
-        mQuietHoursStart = findPreference(KEY_QUIET_HOURS_START);
+        mQuietHoursStart = prefSet.findPreference(KEY_QUIET_HOURS_START);
+        mQuietHoursStart.setSummary(returnTime(Settings.System.getString(getContentResolver(), Settings.System.QUIET_HOURS_START)));
+        mQuietHoursStart.setOnPreferenceChangeListener(this);
         mQuietHoursEnd = findPreference(KEY_QUIET_HOURS_END);
+        mQuietHoursEnd.setSummary(returnTime(Settings.System.getString(getContentResolver(), Settings.System.QUIET_HOURS_END)));
+        mQuietHoursEnd.setOnPreferenceChangeListener(this);
         mQuietHoursMute = (CheckBoxPreference) findPreference(KEY_QUIET_HOURS_MUTE);
         mQuietHoursStill = (CheckBoxPreference) findPreference(KEY_QUIET_HOURS_STILL);
         mQuietHoursDim = (CheckBoxPreference) findPreference(KEY_QUIET_HOURS_DIM);
-    }
+    } 
 
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-        if (preference == mQuietHoursEnabled) {
+        
+    	if (preference == mQuietHoursEnabled) {
             Settings.System.putInt(getContentResolver(),
                     Settings.System.QUIET_HOURS_ENABLED,
                     mQuietHoursEnabled.isChecked() ? 1 : 0);
@@ -144,9 +166,11 @@ public class SoundActivity extends PreferenceActivity implements
             return true;
         } else if (preference == mQuietHoursStart) {
             showDialog(DIALOG_QUIET_HOURS_START);
+            mQuietHoursStart.setSummary(returnTime(Settings.System.getString(getContentResolver(), Settings.System.QUIET_HOURS_START)));
             return true;
         } else if (preference == mQuietHoursEnd) {
             showDialog(DIALOG_QUIET_HOURS_END);
+            mQuietHoursEnd.setSummary(returnTime(Settings.System.getString(getContentResolver(), Settings.System.QUIET_HOURS_END)));
             return true;
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
@@ -154,6 +178,7 @@ public class SoundActivity extends PreferenceActivity implements
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         String key = preference.getKey();
+        Log.v(LOG,"onPreferenceChange"+key);
         if (key.equals(NOTIFICATIONS_FOCUS)) {
             Settings.System.putInt(getContentResolver(),
                 Settings.System.NOTIFICATIONS_AUDIO_FOCUS, getBoolean(newValue) ? 1 : 0);
@@ -166,9 +191,16 @@ public class SoundActivity extends PreferenceActivity implements
             SystemProperties.set(getKey(key), String.valueOf(getInt(newValue)));
             mHandler.sendMessage(mHandler.obtainMessage(0, key));
         }
-        return true;
+        if(key.equals(KEY_QUIET_HOURS_START)) {
+        	Settings.System.putInt(getContentResolver(),Settings.System.QUIET_HOURS_START, getBoolean(newValue) ? 1 : 0);
+        	mQuietHoursStart.setSummary(returnTime(Settings.System.getString(getContentResolver(), Settings.System.QUIET_HOURS_START)));
+        } else if(key.equals(KEY_QUIET_HOURS_END)) {
+        	Settings.System.putInt(getContentResolver(),Settings.System.QUIET_HOURS_END, getBoolean(newValue) ? 1 : 0);
+        	mQuietHoursEnd.setSummary(returnTime(Settings.System.getString(getContentResolver(), Settings.System.QUIET_HOURS_END)));
+        }
+        return true; 
     }
-
+    
     @Override
     protected Dialog onCreateDialog(int id) {
         switch (id) {
@@ -208,6 +240,17 @@ public class SoundActivity extends PreferenceActivity implements
             minutes,
             DateFormat.is24HourFormat(this)
         );
+        dlg.setOnDismissListener(new DialogInterface.OnDismissListener() {
+            public void onDismiss( DialogInterface dlg) {
+            	if(key.equals(KEY_QUIET_HOURS_START)) {
+            		mQuietHoursStart.setSummary(returnTime(Settings.System.getString(getContentResolver(), 
+            				Settings.System.QUIET_HOURS_START)));
+            	} else {
+            		mQuietHoursEnd.setSummary(returnTime(Settings.System.getString(getContentResolver(), 
+            				Settings.System.QUIET_HOURS_END)));
+            	}
+            }
+        });
         return dlg;
     }
 
