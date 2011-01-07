@@ -5,9 +5,12 @@
         android:title="Available governors" />
 
     <ListPreference android:key="pref_freq_min" android:dialogTitle="Min CPU frequency"
-        android:title="Min CPU frequency" android:summary="Minimal CPU frequency" />
+        android:title="Min CPU frequency" android:summary="Minimum CPU frequency" />
 
     <ListPreference android:key="pref_freq_max" android:dialogTitle="Max CPU frequency"
-        android:title="Max CPU frequency" android:summary="Maximal CPU frequency" />
+        android:title="Max CPU frequency" android:summary="Maximum CPU frequency" />
+
+    <CheckBoxPreference android:key="pref_set_on_boot"
+	    android:title="@string/cpu_set_on_boot" android:summary="@string/cpu_set_on_boot_summary"/>
 
 </PreferenceScreen>
