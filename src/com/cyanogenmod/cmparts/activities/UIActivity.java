@@ -62,6 +62,10 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
 
     private static final String POWER_PROMPT_PREF = "power_dialog_prompt";
 
+    private static final String OVERSCROLL_PREF = "pref_overscroll_effect";
+
+    private static final String OVERSCROLL_WEIGHT_PREF = "pref_overscroll_weight";
+
     /* Screen Lock */
     private static final String LOCKSCREEN_TIMEOUT_DELAY_PREF = "pref_lockscreen_timeout_delay";
 
@@ -88,6 +92,10 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
     private CheckBoxPreference mElectronBeamAnimationOn;
 
     private CheckBoxPreference mElectronBeamAnimationOff;
+
+    private ListPreference mOverscrollPref;
+
+    private ListPreference mOverscrollWeightPref;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -168,6 +176,20 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
                 Settings.System.EXPANDED_VIEW_WIDGET, 1) == 1));
         mPowerWidgetHideOnChange.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.EXPANDED_HIDE_ONCHANGE, 0) == 1));
+
+        /* Overscroll Effect */
+        mOverscrollPref = (ListPreference) prefSet.findPreference(OVERSCROLL_PREF);
+        int overscrollEffect = Settings.System.getInt(getContentResolver(),
+                Settings.System.OVERSCROLL_EFFECT, 1);
+        mOverscrollPref.setValue(String.valueOf(overscrollEffect));
+        mOverscrollPref.setOnPreferenceChangeListener(this);
+
+        mOverscrollWeightPref = (ListPreference) prefSet.findPreference(OVERSCROLL_WEIGHT_PREF);
+        int overscrollWeight = Settings.System.getInt(getContentResolver(), Settings.System.OVERSCROLL_WEIGHT, 5);
+        mOverscrollWeightPref.setValue(String.valueOf(overscrollWeight));
+        mOverscrollWeightPref.setOnPreferenceChangeListener(this);
+
+
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
@@ -251,6 +273,15 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
             int screenOffDelay = Integer.valueOf((String) newValue);
             Settings.System.putInt(getContentResolver(),
                     Settings.System.SCREEN_LOCK_SCREENOFF_DELAY, screenOffDelay);
+            return true;
+        } else if (preference == mOverscrollPref) {
+            int overscrollEffect = Integer.valueOf((String) newValue);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.OVERSCROLL_EFFECT, overscrollEffect);
+            return true;
+        } else if (preference == mOverscrollWeightPref) {
+            int overscrollWeight = Integer.valueOf((String)newValue);
+            Settings.System.putInt(getContentResolver(), Settings.System.OVERSCROLL_WEIGHT, overscrollWeight);
             return true;
         }
         return false;
