@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAB3///tk\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/CPUActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2011-01-08T06:16:26Z",
+      "side": 1,
+      "message": "camelCasePlease NotDotNet :) Also, Android convention is to start private member names with an m, so this should be mGovPref.",
+      "revId": "da27dde9519d8591597bee82bf40c79fca794b5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3///ts\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/CPUActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2011-01-08T06:16:26Z",
+      "side": 1,
+      "message": "Java method names should use camelCase.",
+      "revId": "da27dde9519d8591597bee82bf40c79fca794b5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3///to\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/CPUActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2011-01-08T06:16:26Z",
+      "side": 1,
+      "message": "Use camelCasePlease",
+      "revId": "da27dde9519d8591597bee82bf40c79fca794b5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3///tc\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/services/CPUService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2011-01-08T06:16:26Z",
+      "side": 1,
+      "message": "You could just use hndl.postDelayed here.",
+      "revId": "da27dde9519d8591597bee82bf40c79fca794b5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
