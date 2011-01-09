@@ -12,6 +12,9 @@
     <string name="ui_summary">Impostazioni e modifiche interfaccia utente</string>
     <string name="ui_status_bar">Personalizzazione Status Bar</string>
 
+    <string name="pref_electron_beam_animation_on">Animazione accensione schermo</string>
+    <string name="pref_electron_beam_animation_off">Animazione spegnimento schermo</string>
+
 
     <!-- User interface : trackball -->
     <string name="trackball_title">Notifiche LED</string>
@@ -21,6 +24,13 @@
     <string name="ui_webview_title">WebView</string>
     <string name="pref_pinch_reflow_title">Reflow dopo il pinch in</string>
     <string name="pref_pinch_reflow_summary">Reflow del testo dopo il pinch to zoom</string>
+
+    <!-- User interface : Overscroll -->
+    <string name="ui_overscroll_title">Overscrolling</string>
+    <string name="pref_overscroll_title">Effetto overscroll</string>
+    <string name="pref_overscroll_summary">Scegli che effetto utilizzare per gli elementi scorrevoli</string>
+    <string name="pref_overscroll_weight_title">Misura overscrolling</string>
+    <string name="pref_overscroll_weight_summary">Seleziona l\'entità dell\'effetto di rimbalzo</string>
 
     <!-- User interface : Lock Screen -->
         <string name="ui_lockscreen_title">Impostazioni Lockscreen</string>
@@ -233,6 +243,14 @@
     <string name="performance_settings_warning_title">WARNING: Dragons Ahead!</string>
     <string name="performance_settings_warning">Queste opzioni modificheranno le performance del dispositivo, probabilmente anche peggiorandole. Sono incluse per sperimentazione e ti chiediamo di non inviare bug report se hai modificato i valori di default.</string>
 
+    <!-- Performance : Lock home memory -->
+    <string name="pref_lock_home_title">Forza home in memoria</string>
+    <string name="pref_lock_home_summary">Cerca di mantenere l\'applicazione home sempre in memoria</string>
+
+    <!-- Performance : Lock mms app in memory -->
+    <string name="pref_lock_mms_title">Forza app messaggi in memoria</string>
+    <string name="pref_lock_mms_summary">Attiva per non rischiare di perdere messaggi in entrata in condizioni di poca memoria disponibile</string>
+
     <!-- Application Settings -->
     <string name="application_settings_title">Impostazioni applicazioni</string>
     <string name="application_settings_summary">Modifica diverse impostazioni riguardanti le applicazioni</string>
@@ -371,13 +389,7 @@
 
 
 
-    <!-- Performance : Lock home memory -->
-    <string name="pref_lock_home_title">Forza home in memoria</string>
-    <string name="pref_lock_home_summary">Cerca di mantenere l\'applicazione home sempre in memoria</string>
 
-    <!-- Performance : Lock mms app in memory -->
-    <string name="pref_lock_mms_title">Forza app messaggi in memoria</string>
-    <string name="pref_lock_mms_summary">Attiva per non rischiare di perdere messaggi in entrata in condizioni di poca memoria disponibile</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Retroilluminazione Automatica</string>
