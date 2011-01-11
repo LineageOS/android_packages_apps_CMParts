@@ -172,6 +172,7 @@
     <string-array name="pref_lockscreen_style_entries">
         <item>Tab scorrevoli</item>
         <item>Rotante</item>
+    </string-array>
 
     <string-array name="pref_overscroll_effect_entries">
         <item>Nessuno</item>
@@ -188,5 +189,4 @@
         <item>Leggerissimi</item>
     </string-array>
 
-    </string-array>
 </resources>
