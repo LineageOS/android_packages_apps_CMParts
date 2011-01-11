@@ -322,6 +322,8 @@
     <string name="sound_summary">Sound and audio focus settings</string>
     <string name="sound_notifications_focus_title">Notification focus</string>
     <string name="sound_notifications_focus_summary">Audio focus requests causes compatible apps to lower the volume while notifications play.</string>
+    <string name="sound_volume_control_silent_title">Silent state</string>
+    <string name="sound_volume_control_silent_summary">Add a state for complete silence to volume control</string>
     <string name="sound_to_speaker_title">Always play on speaker</string>
     <string name="sound_notifications_title">Notifications</string>
     <string name="sound_rings_title">Ring tones</string>

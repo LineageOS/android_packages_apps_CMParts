@@ -7,6 +7,12 @@
         android:summary="@string/sound_notifications_focus_summary"
         android:persistent="false" />
 
+    <!-- Silent state -->
+    <CheckBoxPreference android:key="vol-ctrl-silent"
+        android:title="@string/sound_volume_control_silent_title"
+        android:summary="@string/sound_volume_control_silent_summary"
+        android:persistent="false" />
+
     <!-- Some spacing -->
     <PreferenceCategory />
 
