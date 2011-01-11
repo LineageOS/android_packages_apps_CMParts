@@ -3,7 +3,7 @@
 
     <!-- General settings -->
     <PreferenceCategory android:key="general_category" android:title="@string/general_title">
-     
+
         <!-- LED notifications -->
         <PreferenceScreen android:key="trackball_notifications"
             android:title="@string/trackball_title" android:summary="@string/trackball_summary">
@@ -11,7 +11,7 @@
                 android:targetPackage="com.cyanogenmod.cmparts"
                 android:targetClass="com.cyanogenmod.cmparts.activities.TrackballNotificationActivity" />
         </PreferenceScreen>
-        
+
         <!-- Power prompt -->
         <CheckBoxPreference android:key="power_dialog_prompt"
             android:title="@string/pref_power_prompt_title"
@@ -30,6 +30,11 @@
                 android:targetPackage="com.cyanogenmod.cmparts"
                 android:targetClass="com.cyanogenmod.cmparts.activities.BacklightActivity" />
         </PreferenceScreen>
+
+        <!-- 180 degree rotation toggle -->
+        <CheckBoxPreference android:key="pref_rotate_180"
+            android:title="@string/pref_rotate_180_title"
+            android:summary="@string/pref_rotate_180_summary" />
 
         <CheckBoxPreference android:key="electron_beam_animation_on"
             android:title="@string/pref_electron_beam_animation_on" />
