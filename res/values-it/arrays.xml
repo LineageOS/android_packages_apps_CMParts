@@ -173,5 +173,20 @@
         <item>Tab scorrevoli</item>
         <item>Rotante</item>
 
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Nessuno</item>
+        <item>Bagliore</item>
+        <item>Rimbalzo e bagliore</item>
+        <item>Rimbalzo</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>Pesantissimi</item>
+        <item>Pesanti</item>
+        <item>Medio</item>
+        <item>Leggeri</item>
+        <item>Leggerissimi</item>
+    </string-array>
+
     </string-array>
 </resources>
