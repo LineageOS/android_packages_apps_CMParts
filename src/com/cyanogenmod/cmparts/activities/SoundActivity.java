@@ -30,6 +30,7 @@ public class SoundActivity extends PreferenceActivity implements
     private static final String NOTIFICATIONS_SPEAKER = "notif-speaker";
     private static final String NOTIFICATIONS_ATTENUATION = "notif-attn";
     private static final String NOTIFICATIONS_LIMITVOL = "notif-limitvol";
+    private static final String VOLUME_CONTROL_SILENT = "vol-ctrl-silent";
     private static final String RINGS_SPEAKER = "ring-speaker";
     private static final String RINGS_ATTENUATION = "ring-attn";
     private static final String RINGS_LIMITVOL = "ring-limitvol";
@@ -85,6 +86,11 @@ public class SoundActivity extends PreferenceActivity implements
 
         p = (CheckBoxPreference) prefSet.findPreference(NOTIFICATIONS_SPEAKER);
         p.setChecked(SystemProperties.getBoolean(getKey(NOTIFICATIONS_SPEAKER), false));
+        p.setOnPreferenceChangeListener(this);
+
+        p = (CheckBoxPreference) prefSet.findPreference(VOLUME_CONTROL_SILENT);
+        p.setChecked(Settings.System.getInt(getContentResolver(),
+                                            Settings.System.VOLUME_CONTROL_SILENT, 0) != 0);
         p.setOnPreferenceChangeListener(this);
 
         p = (CheckBoxPreference) prefSet.findPreference(RINGS_SPEAKER);
@@ -174,6 +180,9 @@ public class SoundActivity extends PreferenceActivity implements
         String key = preference.getKey();
         if (key.equals(NOTIFICATIONS_FOCUS)) {
             Settings.System.putInt(getContentResolver(), Settings.System.NOTIFICATIONS_AUDIO_FOCUS,
+                    getBoolean(newValue) ? 1 : 0);
+	} else if (key.equals (VOLUME_CONTROL_SILENT)) {
+            Settings.System.putInt(getContentResolver(), Settings.System.VOLUME_CONTROL_SILENT,
                     getBoolean(newValue) ? 1 : 0);
         } else if (key.equals(NOTIFICATIONS_SPEAKER) || key.equals(RINGS_SPEAKER)
                 || key.equals(ALARMS_SPEAKER)) {
