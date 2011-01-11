@@ -3,9 +3,13 @@
     <!-- Generic -->
     <string name="app_name">CyanogenMod 설정</string>
 
+    <!--  Update Notifications -->
+    <string name="updatenotify_title">업데이트 알림</string>
+    <string name="updatenotify_summary">업데이트에 대한 푸시 알림을 받을 수 있습니다.</string>
+ 
     <!-- User interface -->
-    <string name="ui_title">사용자 인터페이스</string>
-    <string name="ui_summary">사용자 인터페이스 설정과 조정</string>
+    <string name="ui_title">사용자 환경</string>
+    <string name="ui_summary">사용자 환경 설정과 조정</string>
     <string name="ui_status_bar">상태 표시줄 설정</string>
 
     <!-- User interface : LED Notifications -->
@@ -187,6 +191,12 @@
     <string name="pref_menu_unlock_summary">메뉴 버튼을 눌러 잠금을 해제합니다.</string>
     <string name="pref_lockscreen_quick_unlock_control_title">빠른 잠금 해제</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Pin이나 비밀번호를 입력할 때 확인을 누르지 않아도 됩니다. 단 글자 지우기는 잘못된 시도로 집계됩니다.</string>
+    <string name="pref_lockscreen_phone_messaging_control_title">전화와 메시지</string>
+    <string name="pref_lockscreen_phone_messaging_control_summary">잠금 화면에서 전화와 메시지를 사용할 수 있습니다.</string>
+    <string name="pref_messaging_tab_app_title">메시지 앱 선택</string>
+    <string name="pref_lockscreen_style_title">잠금 화면 모양</string>
+    <string name="pref_lockscreen_style_summary">잠금 화면의 모양을 선택해 주세요.</string>
+
 
 
     <!-- Long Press Home -->
@@ -264,7 +274,7 @@
     <string name="haptic_delay_desc">ms 꺼짐 시간</string>
     <string name="haptic_vibe_desc">ms 켬 시간</string>
 
-    <string name="haptic_down_description">버튼을 누를 때의 촉각 반응 조정\n(하드웨어 키보드나 특정한 사용자 인터페이스 상호 작용)</string>
+    <string name="haptic_down_description">버튼을 누를 때의 촉각 반응 조정\n(하드웨어 키보드나 특정한 사용자 환경 상호 작용)</string>
     <string name="haptic_up_description">버튼을 뗄 때의 촉각 반응 조정\n(하드웨어 키보드나 대부분의 화면 누름)</string>
     <string name="haptic_long_description">오래 누를 때의 촉각 작용 조정</string>
     <string name="haptic_tap_description">가상 키보드 입력시 촉각 반응 조정</string>
@@ -328,6 +338,7 @@
     <string name="title_widget_buttons">확장된 위젯</string>
     <string name="title_expanded_widget">알림 전원 위젯</string>
     <string name="summary_expanded_widget">확장된 전윈 위젯을 사용합니다.</string>
+    <string name="title_expanded_hide_onchange">상태 변경 시 숨기기</string>
     <string name="expanded_color_mask">지시기 색</string>
     <string name="title_widget_picker">위젯 버튼</string>
     <string name="summary_widget_picker">사용할 위젯 버튼을 골라주세요.</string>
@@ -448,6 +459,41 @@
     
     <string name="cmstats_title">익명 통계</string>
     <string name="cmstats_summary">CM을 더 발전시키기 위해 익명 통계 보고를 설정할 수 있습니다.</string>
+    <string name="user_defined_key1">단축키 1</string>
+    <string name="user_defined_key2">단축키 2</string>
+    <string name="user_defined_key3">단축키 3</string>
+    <string name="user_defined_not_set">설정 안됨</string>
+
+    <!--  Lockscreen gesture strings -->
+    <string name="pref_lockscreen_title">잠금 화면 손동작</string>
+    <string name="pref_lockscreen_gestures_enable_title">잠금 화면 손동작 사용</string>
+    <string name="pref_lockscreen_gestures_trail_title">손동작 자취 보이기</string>
+    <string name="pref_lockscreen_gestures_builder_title">손동작 만들기</string>
+    <string name="pref_lockscreen_gestures_sensitivity_title">감도</string>
+    <string name="pref_lockscreen_gestures_color_title">손동작 색상</string>
+    <string name="label_create_gesture">손동작 만들기</string>
+    <string name="gestures_button_add">손동작 추가</string>
+    <string name="gestures_button_discard">취소</string>
+    <string name="gestures_button_done">완료</string>
+    <string name="gestures_shortcut_picker_button_label">이 손동작에 대한 단축키나 활동을 선택하세요.</string>
+    <string name="gestures_error_missing_shortcut">이 손동작에 대한 동작을 선택해야 합니다!</string>
+    <string name="gestures_save_success">%s로 손동작 저장됨</string>
+    <string name="gestures_cancel_action">취소</string>
+    <string name="gestures_loading">손동작 불러오는 중...</string>
+    <string name="gestures_empty">손동작 없음</string>
+    <string name="gestures_activity">손동작</string>
+    <string name="gestures_delete">삭제</string>
+    <string name="gestures_delete_success">손동작 삭제됨</string>
+    <string name="gestures_error_loading">손동작 파일과 관련된 문제가 발생하였습니다.</string>
+    <string name="gestures_unlock_only">휴대전화 잠금 해제</string>
+    <string name="gestures_toggle_sound">소리 켜기/끄기</string>
+    <string name="gestures_flashlight">손전등</string>
+    <string name="pref_lockscreen_disable_unlock_tab">잠금 밀기 안보이기</string>
+    <string name="pref_lockscreen_disable_unlock_tab_summary">안내: 트랙볼이나 메뉴 키, 손동작 잠금 해제 중 하나 이상을 활성화해야 이 옵션을 사용할 수 있습니다.</string>
+    <string name="gestures_explain_create_screen">수행할 동작(또는 잠금 해제나 소리)를 선택한 후 화면에 손동작을 그리십시오.</string>
+
+    <string name="pref_electron_beam_animation_on">화면 켜기 애니메이션 사용</string>
+    <string name="pref_electron_beam_animation_off">화면 끄기 애니메이션 사용</string>
 
 
 </resources>
