@@ -9,6 +9,9 @@
     <!-- User interface -->
     <string name="ui_title">ユーザインタフェース</string>
     <string name="ui_summary">ユーザインタフェース設定と調整</string>
+
+    <string name="pref_electron_beam_animation_on">スクリーンオンアニメ</string>
+    <string name="pref_electron_beam_animation_off">スクリーンオフアニメ</string>
     <string name="ui_status_bar">ステータスバーのカスタマイズ</string>
 
     <!-- User interface : trackball -->
@@ -19,6 +22,13 @@
     <string name="ui_webview_title">WebView</string>
     <string name="pref_pinch_reflow_title">ピンチインリフロー</string>
     <string name="pref_pinch_reflow_summary">つまんでズームした後、改行を調整する</string>
+
+    <!-- User interface : Overscroll -->
+    <string name="ui_overscroll_title">オーバースクロール</string>
+    <string name="pref_overscroll_title">オーバースクロールエフェクト</string>
+    <string name="pref_overscroll_summary">スクロールオブジェクトがオーバーシュートした場合の見え方を選択</string>
+    <string name="pref_overscroll_weight_title">オーバースクロールウェイト</string>
+    <string name="pref_overscroll_weight_summary">スクロールオブジェクトのウェイトを選択</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">色を選択</string>

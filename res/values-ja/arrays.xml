@@ -63,6 +63,12 @@
         <item>なし</item>
     </string-array>
 
+    <string-array name="entries_dual_led_colors">
+        <item>緑</item>
+        <item>アンバー</item>
+        <item>なし</item>
+    </string-array>
+
     <string-array name="pref_trackball_blink_rate_entries">
         <item>2 (速い)</item>
         <item>3</item>
@@ -153,6 +159,21 @@
     <string-array name="pref_lockscreen_style_entries">
         <item>スライディングタブ</item>
         <item>ロータリー</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>なし</item>
+        <item>エッジを光らせる</item>
+        <item>跳ね返って光る</item>
+        <item>跳ね返る</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>とても重い</item>
+        <item>重い</item>
+        <item>中ぐらい</item>
+        <item>軽い</item>
+        <item>とても軽い</item>
     </string-array>
 
 </resources>
