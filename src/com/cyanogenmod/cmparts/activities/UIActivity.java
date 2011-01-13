@@ -66,6 +66,8 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
 
     private static final String OVERSCROLL_WEIGHT_PREF = "pref_overscroll_weight";
 
+    private static final String ROTATE_180_PREF = "pref_rotate_180";
+
     /* Screen Lock */
     private static final String LOCKSCREEN_TIMEOUT_DELAY_PREF = "pref_lockscreen_timeout_delay";
 
@@ -96,6 +98,8 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
     private ListPreference mOverscrollPref;
 
     private ListPreference mOverscrollWeightPref;
+
+    private CheckBoxPreference mRotate180Pref;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -189,7 +193,10 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
         mOverscrollWeightPref.setValue(String.valueOf(overscrollWeight));
         mOverscrollWeightPref.setOnPreferenceChangeListener(this);
 
-
+        /* Rotate 180 */
+        mRotate180Pref = (CheckBoxPreference) prefSet.findPreference(ROTATE_180_PREF);
+        mRotate180Pref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.ACCELEROMETER_ROTATE_180, 0) == 1);
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
@@ -255,6 +262,12 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
             value = mElectronBeamAnimationOff.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.ELECTRON_BEAM_ANIMATION_OFF, value ? 1 : 0);
+        }
+
+        if (preference == mRotate180Pref) {
+            value = mRotate180Pref.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.ACCELEROMETER_ROTATE_180, value ? 1 : 0);
         }
 
         return true;
