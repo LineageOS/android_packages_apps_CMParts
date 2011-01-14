@@ -134,4 +134,19 @@
         <item>Curseurs</item>
         <item>Rotatif</item>
     </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Aucun</item>
+        <item>Lueur</item>
+        <item>Ressort et lueur</item>
+        <item>Ressort</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>Très lourd</item>
+        <item>Lourd</item>
+        <item>Moyen</item>
+        <item>Léger</item>
+        <item>Très léger</item>
+    </string-array>
 </resources>
