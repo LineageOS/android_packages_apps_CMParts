@@ -35,6 +35,21 @@
     <item>Kalibriert (N1) Kalt</item>
   </string-array>
 
+  <string-array name="pref_overscroll_effect_entries">
+    <item>Kein</item>
+    <item>Glimmende Kante</item>
+    <item>Prallen und Glimmen</item>
+    <item>Nur prallen</item>
+  </string-array>
+
+  <string-array name="entries_overscroll_weight">
+    <item>Sehr stark</item>
+    <item>Stark</item>
+    <item>Mittel</item>
+    <item>Schwach</item>
+    <item>Sehr schwach</item>
+  </string-array>
+
   <string-array name="entries_trackball_colors">
     <item>Grün</item>
     <item>Weiß</item>

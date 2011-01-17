@@ -10,7 +10,13 @@
     <!-- User interface -->
     <string name="ui_title">Benutzeroberfläche</string>
     <string name="ui_summary">Einstellungen &amp; Tweaks für Benutzeroberfläche</string>
-    <string name="ui_status_bar">Anpassung der Statuszeile</string>
+
+    <string name="pref_electron_beam_animation_on">Einschalten animieren</string>
+    <string name="pref_electron_beam_animation_off">Ausschalten animieren</string>
+
+    <!-- User interface : 180 degree rotation -->
+    <string name="pref_rotate_180_title">Um 180 Grad drehen</string>
+    <string name="pref_rotate_180_summary">Zusätzlich Drehung um 180 Grad erlauben, wenn Autorotation eingeschaltet ist</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED-Benachrichtigungen</string>
@@ -20,6 +26,13 @@
     <string name="ui_webview_title">WebView</string>
     <string name="pref_pinch_reflow_title">Textfluss nach Pinch</string>
     <string name="pref_pinch_reflow_summary">Nach Pinch-To-Zoom Inhalte sofort neu anpassen</string>
+
+    <!-- User interface : Overscroll -->
+    <string name="ui_overscroll_title">Überscrollen</string>
+    <string name="pref_overscroll_title">Überscroll-Effekt</string>
+    <string name="pref_overscroll_summary">Effekt für das Überscrollen auswählen</string>
+    <string name="pref_overscroll_weight_title">Überscroll-Stärke</string>
+    <string name="pref_overscroll_weight_summary">Stärke des Überscroll-Effekts einstellen</string>
 
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Bildschirmsperre einstellen</string>
@@ -331,6 +344,8 @@
     <string name="title_widget_buttons">Energie-Widget</string>
     <string name="title_expanded_widget">Energiesteuerung in Benachrichtigungsfeld</string>
     <string name="summary_expanded_widget">Tasten für Energiesteuerung in aufgeklappter Benachrichtigungsanzeige</string>
+    <string name="title_expanded_hide_onchange">Nach Änderung verbergen</string>
+    <string name="summary_expanded_hide_onchange">Die Benachrichtigungsanzeige sofort wieder verbergen, nachdem eine Änderung an der Energiesteuerung vorgenommen wurde.</string>
     <string name="expanded_color_mask">Farbe der Anzeige</string>
     <string name="title_widget_picker">Anzuzeigende Tasten</string>
     <string name="summary_widget_picker">Tasten auswählen, die angezeigt werden sollen.</string>
@@ -415,6 +430,8 @@
     <string name="sound_summary">Einstellungen für Klang und Audio-Fokus</string>
     <string name="sound_notifications_focus_title">Benachrichtigung betonen</string>
     <string name="sound_notifications_focus_summary">Verringert die Lautstärke kompatibler Apps um die Benachrichtigung deutlicher hörbar zu machen</string>
+    <string name="sound_volume_control_silent_title">Absolute Ruhe</string>
+    <string name="sound_volume_control_silent_summary">Der Lautstärkeregelung einen Zustand für absolute Ruhe hinzufügen.</string>
     <string name="sound_to_speaker_title">Immer über Lautsprecher</string>
     <string name="sound_notifications_title">Benachrichtigungen</string>
     <string name="sound_rings_title">Klingeltöne</string>
