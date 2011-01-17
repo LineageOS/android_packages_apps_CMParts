@@ -15,8 +15,12 @@
     <string name="pref_electron_beam_animation_on">Animazione accensione schermo</string>
     <string name="pref_electron_beam_animation_off">Animazione spegnimento schermo</string>
 
+    <!-- User interface : 180 degree rotation -->
+    <string name="pref_rotate_180_title">Rotazione 180 gradi</string>
+    <string name="pref_rotate_180_summary">Permette una rotazione di 180 gradi se la rotazione automatica è attiva</string>
 
-    <!-- User interface : trackball -->
+
+    <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notifiche LED</string>
     <string name="trackball_summary">Imposta colore e pulsazione delle notifiche trackball/LED</string>
 
@@ -27,7 +31,7 @@
 
     <!-- User interface : Overscroll -->
     <string name="ui_overscroll_title">Overscrolling</string>
-    <string name="pref_overscroll_title">Effetto overscroll</string>
+    <string name="pref_overscroll_title">Effetto overscrolling</string>
     <string name="pref_overscroll_summary">Scegli che effetto utilizzare per gli elementi scorrevoli</string>
     <string name="pref_overscroll_weight_title">Peso overscrolling</string>
     <string name="pref_overscroll_weight_summary">Seleziona il peso degli elementi scorrevoli</string>
@@ -153,7 +157,7 @@
     <string name="trackball_reset_all">Ripristina le app e le categorie</string>
     <string name="trackball_array_error">Purtroppo si è verificato un errore di array. Questa app è stata forzata nella categoria Miscellaneous.</string>
     <string name="trackball_color_notice_title">NOTA:</string>
-    <string name="trackball_color_notice_summary">Non tutti i colori verranno visualizzati su tutti i dispositivi.</string>
+    <string name="trackball_color_notice_summary">Alcuni dispositivi non sono in grado di visualizzare tutti i colori disponibili.</string>
 
     <!-- Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">ATTENZIONE:Aumento consumo di batteria</string>
@@ -436,6 +440,8 @@
     <string name="sound_summary">Impostazioni audio e audio focus</string>
     <string name="sound_notifications_focus_title">Focus Notifiche</string>
     <string name="sound_notifications_focus_summary">L\'Audio focus fa in modo che durante una notifica venga diminuito il volume delle app compatibili.</string>
+    <string name="sound_volume_control_silent_title">Stato silenzioso</string>
+    <string name="sound_volume_control_silent_summary">Aggiungi uno stato completamente silenzioso al controllo volume</string>
     <string name="sound_to_speaker_title">Riproduci solo tramite speaker</string>
     <string name="sound_notifications_title">Notifiche</string>
     <string name="sound_rings_title">Suonerie</string>
