@@ -157,11 +157,11 @@
         <item>Volumen de la música (predeterminado)</item>
     </string-array>
 
-    <string-array name="entries_brightness_widget">
-        <item>Automático/Difuminado/40%%/100%%</item>
-        <item>Automático/Difuminado/25%%/75%%/100%%</item>
-        <item>Automático/25%%/100%%</item>
-        <item>Difuminado/100%%</item>
+    <string-array name="entries_brightness_widget" formatted="false">
+        <item>Automático/Difuminado/40%/100%</item>
+        <item>Automático/Difuminado/25%/75%/100%</item>
+        <item>Automático/25%/100%</item>
+        <item>Difuminado/100%</item>
     </string-array>
 
     <string-array name="entries_network_widget">
