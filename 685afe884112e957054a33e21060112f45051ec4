@@ -33,6 +33,40 @@
       "revId": "685afe884112e957054a33e21060112f45051ec4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3//+pQ\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/ChangeLog.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 30
+      },
+      "writtenOn": "2011-01-19T08:51:23Z",
+      "side": 1,
+      "message": "Needs own @string for Changelog... bugs me that it says \"View changelog\" for the dialog",
+      "revId": "685afe884112e957054a33e21060112f45051ec4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3//+pU\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/MainActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 30
+      },
+      "writtenOn": "2011-01-19T08:51:23Z",
+      "side": 1,
+      "message": "Oops... forgot to convert this to @string",
+      "revId": "685afe884112e957054a33e21060112f45051ec4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
