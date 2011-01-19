@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAB3//+pg\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 400,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2011-01-19T08:47:36Z",
+      "side": 1,
+      "message": "OCD: Should be \"View changelog\" per Android style convention.",
+      "revId": "685afe884112e957054a33e21060112f45051ec4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3//+pk\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 402,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2011-01-19T08:47:36Z",
+      "side": 1,
+      "message": "OCD: Should be \"Error loading changelog\"",
+      "revId": "685afe884112e957054a33e21060112f45051ec4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
