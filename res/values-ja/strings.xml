@@ -399,4 +399,12 @@
     <string name="pref_lockscreen_disable_unlock_tab_summary">ノート: このオプションを有効にする前に、トラックボールやメニューキー、ジェスチャーでのアンロックを設定する必要があります。</string>
     <string name="gestures_explain_create_screen">実行するアクション(あるいはアンロックやサウンド)を選択し、スクリーンにジェスチャーを描いてください。\n縦方向(上/下)に1回のみのジェスチャーは不正になります。</string>
 
+    <!-- Change Log strings -->
+    <string name="changelog_title">更新履歴を見る</string>
+    <string name="changelog_dialog">更新履歴</string>
+    <string name="changelog_loading">更新履歴を読込中...</string>
+    <string name="changelog_error">更新履歴を読込中にエラー...</string>
+    <string name="changelog_unknown">不明</string>
+    <string name="changelog_version">バージョン</string>
+
 </resources>
