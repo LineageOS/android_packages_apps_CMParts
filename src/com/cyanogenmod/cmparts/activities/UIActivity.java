@@ -132,10 +132,12 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
                 com.android.internal.R.bool.config_animateScreenLights);
         mElectronBeamAnimationOn = (CheckBoxPreference)prefSet.findPreference(ELECTRON_BEAM_ANIMATION_ON);
         mElectronBeamAnimationOn.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.ELECTRON_BEAM_ANIMATION_ON, 0) == 1);
+                Settings.System.ELECTRON_BEAM_ANIMATION_ON,
+                getResources().getBoolean(com.android.internal.R.bool.config_enableScreenOnAnimation) ? 1 : 0) == 1);
         mElectronBeamAnimationOff = (CheckBoxPreference)prefSet.findPreference(ELECTRON_BEAM_ANIMATION_OFF);
         mElectronBeamAnimationOff.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.ELECTRON_BEAM_ANIMATION_OFF, 1) == 1);
+                Settings.System.ELECTRON_BEAM_ANIMATION_OFF,
+                getResources().getBoolean(com.android.internal.R.bool.config_enableScreenOffAnimation) ? 1 : 0) == 1);
 
         /* Hide Electron Beam controls if electron beam is disabled */
         if (animateScreenLights) {
