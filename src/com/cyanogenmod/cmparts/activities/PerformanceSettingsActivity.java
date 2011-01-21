@@ -79,7 +79,7 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setTitle(R.string.performance_settings_title);
+        setTitle(R.string.performance_settings_title_subhead);
         addPreferencesFromResource(R.xml.performance_settings);
 
         PreferenceScreen prefSet = getPreferenceScreen();

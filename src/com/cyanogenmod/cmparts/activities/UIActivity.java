@@ -29,8 +29,6 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
 
     private static final String EXTRAS_SCREEN = "tweaks_extras";
 
-    private static final String BACKLIGHT_SETTINGS = "backlight_settings";
-
     private static final String GENERAL_CATEGORY = "general_category";
 
     private static final String UI_EXP_WIDGET = "expanded_widget";
@@ -41,10 +39,6 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
 
     private static final String UI_EXP_WIDGET_PICKER = "widget_picker";
 
-    private static final String ELECTRON_BEAM_ANIMATION_ON = "electron_beam_animation_on";
-
-    private static final String ELECTRON_BEAM_ANIMATION_OFF = "electron_beam_animation_off";
-
     private PreferenceScreen mStatusBarScreen;
 
     private PreferenceScreen mNotificationScreen;
@@ -52,8 +46,6 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
     private PreferenceScreen mTrackballScreen;;
 
     private PreferenceScreen mExtrasScreen;
-
-    private PreferenceScreen mBacklightScreen;
 
     /* Other */
     private static final String PINCH_REFLOW_PREF = "pref_pinch_reflow";
@@ -68,20 +60,11 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
 
     private static final String ROTATE_180_PREF = "pref_rotate_180";
 
-    /* Screen Lock */
-    private static final String LOCKSCREEN_TIMEOUT_DELAY_PREF = "pref_lockscreen_timeout_delay";
-
-    private static final String LOCKSCREEN_SCREENOFF_DELAY_PREF = "pref_lockscreen_screenoff_delay";
-
     private CheckBoxPreference mPinchReflowPref;
 
     private CheckBoxPreference mPowerPromptPref;
 
     private ListPreference mRenderEffectPref;
-
-    private ListPreference mScreenLockTimeoutDelayPref;
-
-    private ListPreference mScreenLockScreenOffDelayPref;
 
     private CheckBoxPreference mPowerWidget;
 
@@ -90,10 +73,6 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
     private Preference mPowerWidgetColor;
 
     private PreferenceScreen mPowerPicker;
-
-    private CheckBoxPreference mElectronBeamAnimationOn;
-
-    private CheckBoxPreference mElectronBeamAnimationOff;
 
     private ListPreference mOverscrollPref;
 
@@ -105,7 +84,7 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setTitle(R.string.ui_title);
+        setTitle(R.string.interface_settings_title_head);
         addPreferencesFromResource(R.xml.ui_settings);
 
         PreferenceScreen prefSet = getPreferenceScreen();
@@ -114,51 +93,12 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
         mNotificationScreen = (PreferenceScreen) prefSet.findPreference(NOTIFICATION_SCREEN);
         mTrackballScreen = (PreferenceScreen) prefSet.findPreference(NOTIFICATION_TRACKBALL);
         mExtrasScreen = (PreferenceScreen) prefSet.findPreference(EXTRAS_SCREEN);
-        mBacklightScreen = (PreferenceScreen) prefSet.findPreference(BACKLIGHT_SETTINGS);
-        // No reason to show backlight if no light sensor on device
-        if (((SensorManager) getSystemService(SENSOR_SERVICE)).getDefaultSensor(Sensor.TYPE_LIGHT) == null) {
-            ((PreferenceCategory) prefSet.findPreference(GENERAL_CATEGORY))
-                    .removePreference(mBacklightScreen);
-        }
 
         if (!getResources().getBoolean(R.bool.has_rgb_notification_led)
                 && !getResources().getBoolean(R.bool.has_dual_notification_led)) {
             ((PreferenceCategory) prefSet.findPreference(GENERAL_CATEGORY))
                     .removePreference(mTrackballScreen);
         }
-
-        /* Electron Beam control */
-        boolean animateScreenLights = getResources().getBoolean(
-                com.android.internal.R.bool.config_animateScreenLights);
-        mElectronBeamAnimationOn = (CheckBoxPreference)prefSet.findPreference(ELECTRON_BEAM_ANIMATION_ON);
-        mElectronBeamAnimationOn.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.ELECTRON_BEAM_ANIMATION_ON,
-                getResources().getBoolean(com.android.internal.R.bool.config_enableScreenOnAnimation) ? 1 : 0) == 1);
-        mElectronBeamAnimationOff = (CheckBoxPreference)prefSet.findPreference(ELECTRON_BEAM_ANIMATION_OFF);
-        mElectronBeamAnimationOff.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.ELECTRON_BEAM_ANIMATION_OFF,
-                getResources().getBoolean(com.android.internal.R.bool.config_enableScreenOffAnimation) ? 1 : 0) == 1);
-
-        /* Hide Electron Beam controls if electron beam is disabled */
-        if (animateScreenLights) {
-            prefSet.removePreference(mElectronBeamAnimationOn);
-            prefSet.removePreference(mElectronBeamAnimationOff);
-        }
-
-        /* Screen Lock */
-        mScreenLockTimeoutDelayPref = (ListPreference) prefSet
-                .findPreference(LOCKSCREEN_TIMEOUT_DELAY_PREF);
-        int timeoutDelay = Settings.System.getInt(getContentResolver(),
-                Settings.System.SCREEN_LOCK_TIMEOUT_DELAY, 5000);
-        mScreenLockTimeoutDelayPref.setValue(String.valueOf(timeoutDelay));
-        mScreenLockTimeoutDelayPref.setOnPreferenceChangeListener(this);
-
-        mScreenLockScreenOffDelayPref = (ListPreference) prefSet
-                .findPreference(LOCKSCREEN_SCREENOFF_DELAY_PREF);
-        int screenOffDelay = Settings.System.getInt(getContentResolver(),
-                Settings.System.SCREEN_LOCK_SCREENOFF_DELAY, 0);
-        mScreenLockScreenOffDelayPref.setValue(String.valueOf(screenOffDelay));
-        mScreenLockScreenOffDelayPref.setOnPreferenceChangeListener(this);
 
         /* Pinch reflow */
         mPinchReflowPref = (CheckBoxPreference) prefSet.findPreference(PINCH_REFLOW_PREF);
@@ -191,7 +131,8 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
         mOverscrollPref.setOnPreferenceChangeListener(this);
 
         mOverscrollWeightPref = (ListPreference) prefSet.findPreference(OVERSCROLL_WEIGHT_PREF);
-        int overscrollWeight = Settings.System.getInt(getContentResolver(), Settings.System.OVERSCROLL_WEIGHT, 5);
+        int overscrollWeight = Settings.System.getInt(getContentResolver(),
+                Settings.System.OVERSCROLL_WEIGHT, 5);
         mOverscrollWeightPref.setValue(String.valueOf(overscrollWeight));
         mOverscrollWeightPref.setOnPreferenceChangeListener(this);
 
@@ -216,9 +157,6 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
         }
         if (preference == mExtrasScreen) {
             startActivity(mExtrasScreen.getIntent());
-        }
-        if (preference == mBacklightScreen) {
-            startActivity(mBacklightScreen.getIntent());
         }
         if (preference == mPowerPicker) {
             startActivity(mPowerPicker.getIntent());
@@ -254,22 +192,10 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
             cp.show();
         }
 
-        if (preference == mElectronBeamAnimationOn) {
-            value = mElectronBeamAnimationOn.isChecked();
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.ELECTRON_BEAM_ANIMATION_ON, value ? 1 : 0);
-        }
-
-        if (preference == mElectronBeamAnimationOff) {
-            value = mElectronBeamAnimationOff.isChecked();
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.ELECTRON_BEAM_ANIMATION_OFF, value ? 1 : 0);
-        }
-
         if (preference == mRotate180Pref) {
             value = mRotate180Pref.isChecked();
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.ACCELEROMETER_ROTATE_180, value ? 1 : 0);
+            Settings.System.putInt(getContentResolver(), Settings.System.ACCELEROMETER_ROTATE_180,
+                    value ? 1 : 0);
         }
 
         return true;
@@ -279,24 +205,15 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
         if (preference == mRenderEffectPref) {
             writeRenderEffect(Integer.valueOf((String) newValue));
             return true;
-        } else if (preference == mScreenLockTimeoutDelayPref) {
-            int timeoutDelay = Integer.valueOf((String) newValue);
-            Settings.System.putInt(getContentResolver(), Settings.System.SCREEN_LOCK_TIMEOUT_DELAY,
-                    timeoutDelay);
-            return true;
-        } else if (preference == mScreenLockScreenOffDelayPref) {
-            int screenOffDelay = Integer.valueOf((String) newValue);
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.SCREEN_LOCK_SCREENOFF_DELAY, screenOffDelay);
-            return true;
         } else if (preference == mOverscrollPref) {
             int overscrollEffect = Integer.valueOf((String) newValue);
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.OVERSCROLL_EFFECT, overscrollEffect);
+            Settings.System.putInt(getContentResolver(), Settings.System.OVERSCROLL_EFFECT,
+                    overscrollEffect);
             return true;
         } else if (preference == mOverscrollWeightPref) {
-            int overscrollWeight = Integer.valueOf((String)newValue);
-            Settings.System.putInt(getContentResolver(), Settings.System.OVERSCROLL_WEIGHT, overscrollWeight);
+            int overscrollWeight = Integer.valueOf((String) newValue);
+            Settings.System.putInt(getContentResolver(), Settings.System.OVERSCROLL_WEIGHT,
+                    overscrollWeight);
             return true;
         }
         return false;
