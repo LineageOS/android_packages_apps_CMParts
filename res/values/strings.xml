@@ -3,6 +3,32 @@
     <!-- Generic -->
     <string name="app_name">CyanogenMod settings</string>
 
+    <!--  Primary Screen Settings -->
+    <string name="application_settings_title_head">Application</string>
+    <string name="application_settings_title_subhead">Application settings</string>
+    <string name="application_settings_summary_head">Application moving, install location</string>
+    <string name="display_settings_title_head">Display</string>
+    <string name="display_settings_title_subhead">Display settings</string>
+    <string name="display_settings_summary_head">Display animations, rotation, timeouts</string>
+    <string name="input_settings_title_head">Input</string>
+    <string name="input_settings_title_subhead">Input settings</string>
+    <string name="input_settings_summary_head">Input behavior, buttons, haptic feedback</string>
+    <string name="interface_settings_title_head">Interface</string>
+    <string name="interface_settings_title_subhead">Interface settings</string>
+    <string name="interface_settings_summary_head">Interface tweaks, overscrolling, render effect</string>
+    <string name="lockscreen_settings_title_head">Lockscreen</string>
+    <string name="lockscreen_settings_title_subhead">Lockscreen settings</string>
+    <string name="lockscreen_settings_summary_head">Lockscreen gestures, style, unlock options</string>
+    <string name="performance_settings_title_head">Performance</string>
+    <string name="performance_settings_title_subhead">Performance settings</string>
+    <string name="performance_settings_summary_head">Performance tweaks, JIT, VM heap size</string>
+    <string name="sound_settings_title_head">Sound</string>
+    <string name="sound_settings_title_subhead">Sound settings</string>
+    <string name="sound_settings_summary_head">Sound volumes, audio focus, quiet hours</string>
+    <string name="system_settings_title_head">System</string>
+    <string name="system_settings_title_subhead">System settings</string>
+    <string name="system_settings_summary_head">System changelog, stats, update notifications</string>
+
     <!--  Update Notifications -->
     <string name="updatenotify_title">Update notifications</string>
     <string name="updatenotify_summary">Get push notifications of updates.</string>
@@ -221,6 +247,7 @@
     <string name="haptic_default_toast">Loading hard-coded defaults</string>
 
     <string name="general_title">General</string>
+    <string name="buttons_title">Buttons</string>
 
     <!-- UI Settings : Power off prompt -->
     <string name="pref_power_prompt_title">Power prompt</string>

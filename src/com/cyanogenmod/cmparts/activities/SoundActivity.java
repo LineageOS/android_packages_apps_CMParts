@@ -74,7 +74,7 @@ public class SoundActivity extends PreferenceActivity implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setTitle(R.string.sound_title);
+        setTitle(R.string.sound_settings_title_subhead);
         addPreferencesFromResource(R.xml.sound_settings);
 
         PreferenceScreen prefSet = getPreferenceScreen();
