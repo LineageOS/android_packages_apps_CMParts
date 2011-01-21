@@ -3,6 +3,32 @@
     <!-- Generic -->
     <string name="app_name">CyanogenMod</string>
 
+    <!--  Primary Screen Settings -->
+    <string name="application_settings_title_head">Anwendungen</string>
+    <string name="application_settings_title_subhead">Anwendungseinstellungen</string>
+    <string name="application_settings_summary_head">Anwendungen verschieben, Installationsort</string>
+    <string name="display_settings_title_head">Display</string>
+    <string name="display_settings_title_subhead">Display-Einstellungen</string>
+    <string name="display_settings_summary_head">Display-Animationen, Rotation, Abschaltung</string>
+    <string name="input_settings_title_head">Eingabe</string>
+    <string name="input_settings_title_subhead">Eingabe-Einstellungen</string>
+    <string name="input_settings_summary_head">Eingabeverhalten, Tasten, Haptisches Feedback</string>
+    <string name="interface_settings_title_head">Benutzeroberfläche</string>
+    <string name="interface_settings_title_subhead">Benutzeroberfläche-Einstellungen</string>
+    <string name="interface_settings_summary_head">Tweaks, Überscrollen, Render-Effekt</string>
+    <string name="lockscreen_settings_title_head">Lockscreen</string>
+    <string name="lockscreen_settings_title_subhead">Lockscreen-Einstellungen</string>
+    <string name="lockscreen_settings_summary_head">Lockscreen-Gesten, Aussehen, Entsperr-Optionen</string>
+    <string name="performance_settings_title_head">Leistung</string>
+    <string name="performance_settings_title_subhead">Leistungs-Einstellungen</string>
+    <string name="performance_settings_summary_head">Tweaks, JIT, VM Heap</string>
+    <string name="sound_settings_title_head">Klänge</string>
+    <string name="sound_settings_title_subhead">Klang-Einstellungen</string>
+    <string name="sound_settings_summary_head">Lautstärken, Audio-Focus, Ruhige Stunden</string>
+    <string name="system_settings_title_head">System</string>
+    <string name="system_settings_title_subhead">System-Einstellungen</string>
+    <string name="system_settings_summary_head">Changelog, Statistiken, Update-Benachrichtigungen</string>
+
     <!--  Update Notifications -->
     <string name="updatenotify_title">Update-Benachrichtigungen</string>
     <string name="updatenotify_summary">Push-Benachrichtigungen über Updates erhalten.</string>
@@ -307,6 +333,7 @@
     <string name="haptic_default_toast">Lade Standardwerte...</string>
 
     <string name="general_title">Allgemein</string>
+    <string name="buttons_title">Tasten</string>
 
     <!-- UI Settings : Power off prompt -->
     <string name="pref_power_prompt_title">Nachfragen</string>
