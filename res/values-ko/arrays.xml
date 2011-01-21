@@ -159,5 +159,19 @@
         <item>회전</item>
     </string-array>
 
+    <string-array name="pref_overscroll_effect_entries">
+        <item>없음</item>
+        <item>가장자리 빛나기</item>
+        <item>튀어오르고 빛나기</item>
+        <item>튀어오르기</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>아주 무거움</item>
+        <item>무거움</item>
+        <item>중간</item>
+        <item>가벼움</item>
+        <item>아주 가벼움</item>
+    </string-array>
 
 </resources>

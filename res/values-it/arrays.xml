@@ -182,11 +182,11 @@
     </string-array>
 
     <string-array name="entries_overscroll_weight">
-        <item>Pesantissimi</item>
-        <item>Pesanti</item>
+        <item>Molto pesante</item>
+        <item>Pesante</item>
         <item>Medio</item>
-        <item>Leggeri</item>
-        <item>Leggerissimi</item>
+        <item>Leggero</item>
+        <item>Molto leggero</item>
     </string-array>
 
 </resources>
