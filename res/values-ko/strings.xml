@@ -296,6 +296,7 @@
     <string name="haptic_default_toast">내장된 기본값을 불러옵니다.</string>
 
     <string name="general_title">일반</string>
+    <string name="buttons_title">버튼</string>
 
     <!-- UI Settings : Power off prompt -->
     <string name="pref_power_prompt_title">전원 버튼 확인</string>
@@ -339,6 +340,7 @@
     <string name="title_expanded_widget">알림 전원 위젯</string>
     <string name="summary_expanded_widget">확장된 전윈 위젯을 사용합니다.</string>
     <string name="title_expanded_hide_onchange">상태 변경 시 숨기기</string>
+    <string name="summary_expanded_hide_onchange">위젯 버튼을 눌렀을 때 알림 메뉴를 닫습니다.</string>
     <string name="expanded_color_mask">지시기 색</string>
     <string name="title_widget_picker">위젯 버튼</string>
     <string name="summary_widget_picker">사용할 위젯 버튼을 골라주세요.</string>
@@ -512,5 +514,33 @@
     <string name="pref_overscroll_summary">스크롤 가능한 창을 끝까지 스크롤했을때 어떻게 보일지 선택합니다.</string>
     <string name="pref_overscroll_weight_title">초과 스크롤 무게</string>
     <string name="pref_overscroll_weight_summary">초과 스크롤을 했을 때 창이 얼마나 빨리 움직일지 선택합니다.</string>
+    <string name="sound_volume_control_silent_title">음소거 상태</string>
+    <string name="sound_volume_control_silent_summary">볼륨 조절에 완전한 음소거 상태(진동 및 소리 끔)를 추가합니다.</string>
+
+    <!--  Primary Screen Settings -->
+    <string name="application_settings_title_head">어플리케이션</string>
+    <string name="application_settings_title_subhead">어플리케이션 설정</string>
+    <string name="application_settings_summary_head">어플리케이션 이동, 설치 위치</string>
+    <string name="display_settings_title_head">화면</string>
+    <string name="display_settings_title_subhead">화면  설정</string>
+    <string name="display_settings_summary_head">화면 애니메이션, 회전, 시간초과</string>
+    <string name="input_settings_title_head">입력</string>
+    <string name="input_settings_title_subhead">입력 설정</string>
+    <string name="input_settings_summary_head">입력 방식, 버튼, 촉각 반응</string>
+    <string name="interface_settings_title_head">환경</string>
+    <string name="interface_settings_title_subhead">환경 설정</string>
+    <string name="interface_settings_summary_head">환경 조정, 초과스크롤, 화면 효과</string>
+    <string name="lockscreen_settings_title_head">잠금 화면</string>
+    <string name="lockscreen_settings_title_subhead">잠금 화면 설정</string>
+    <string name="lockscreen_settings_summary_head">잠금 화면 손동작, 모양, 잠금 해제 설정</string>
+    <string name="performance_settings_title_head">성능</string>
+    <string name="performance_settings_title_subhead">성능 설정</string>
+    <string name="performance_settings_summary_head">성능 조정, JIT, VM 힙 크기</string>
+    <string name="sound_settings_title_head">소리</string>
+    <string name="sound_settings_title_subhead">소리 설정</string>
+    <string name="sound_settings_summary_head">소리 크기, 소리 집중, 조용한 시간</string>
+    <string name="system_settings_title_head">시스템</string>
+    <string name="system_settings_title_subhead">시스템 설정</string>
+    <string name="system_settings_summary_head">시스템 변경 내역, 상태, 업데이트 알림</string>
 
 </resources>
