@@ -39,6 +39,8 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
 
     private static final String UI_EXP_WIDGET_PICKER = "widget_picker";
 
+    private static final String UI_EXP_WIDGET_ORDER = "widget_order";
+
     private PreferenceScreen mStatusBarScreen;
 
     private PreferenceScreen mNotificationScreen;
@@ -71,6 +73,8 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
     private Preference mPowerWidgetColor;
 
     private PreferenceScreen mPowerPicker;
+
+    private PreferenceScreen mPowerOrder;
 
     private ListPreference mOverscrollPref;
 
@@ -113,6 +117,7 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
 
         mPowerWidgetColor = prefSet.findPreference(UI_EXP_WIDGET_COLOR);
         mPowerPicker = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_PICKER);
+        mPowerOrder = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_ORDER);
 
         mPowerWidget.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.EXPANDED_VIEW_WIDGET, 1) == 1));
@@ -152,6 +157,9 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
         }
         if (preference == mPowerPicker) {
             startActivity(mPowerPicker.getIntent());
+        }
+        if (preference == mPowerOrder) {
+            startActivity(mPowerOrder.getIntent());
         }
 
         if (preference == mPinchReflowPref) {
