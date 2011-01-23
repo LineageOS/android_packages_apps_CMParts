@@ -3,6 +3,32 @@
     <!-- Generic -->
     <string name="app_name">Paramètres CyanogenMod</string>
 
+    <!--  Primary Screen Settings -->
+    <string name="application_settings_title_head">Applications</string>
+    <string name="application_settings_title_subhead">Paramètres des applications</string>
+    <string name="application_settings_summary_head">Déplacement des applications, emplacement d\'installation</string>
+    <string name="display_settings_title_head">Affichage</string>
+    <string name="display_settings_title_subhead">Paramètres d\'affichage</string>
+    <string name="display_settings_summary_head">Transitions, autorotation, timeouts</string>
+    <string name="input_settings_title_head">Entrée</string>
+    <string name="input_settings_title_subhead">Paramètres d\'entrée</string>
+    <string name="input_settings_summary_head">Comportement des entrées, boutons, retour haptique</string>
+    <string name="interface_settings_title_head">Interface</string>
+    <string name="interface_settings_title_subhead">Paramètres d\'interface</string>
+    <string name="interface_settings_summary_head">Tweaks de l\'interface, surdéfilement, effet de rendu</string>
+    <string name="lockscreen_settings_title_head">Écran de verrouillage</string>
+    <string name="lockscreen_settings_title_subhead">Paramètres de l\'écran de verrouillage</string>
+    <string name="lockscreen_settings_summary_head">Gestes de l\'écran de verrouillage, style, options de déverrouillage</string>
+    <string name="performance_settings_title_head">Performance</string>
+    <string name="performance_settings_title_subhead">Paramètres de performance</string>
+    <string name="performance_settings_summary_head">Tweaks de performance, JIT, taille de la pile par VM</string>
+    <string name="sound_settings_title_head">Son</string>
+    <string name="sound_settings_title_subhead">Paramètres du son</string>
+    <string name="sound_settings_summary_head">Volume des sons, focus audio, heures silencieuses</string>
+    <string name="system_settings_title_head">Système</string>
+    <string name="system_settings_title_subhead">Paramètres système</string>
+    <string name="system_settings_summary_head">Liste des changements, statistiques, notifications de mise à jour</string>
+
     <!-- Update Notifications -->
     <string name="updatenotify_title">Notifications de mise à jour</string>
     <string name="updatenotify_summary">Recevoir une notification push lorsqu\'une mise à jour est disponible</string>
@@ -307,6 +333,7 @@
     <string name="haptic_default_toast">Chargement des valeurs par défaut</string>
 
     <string name="general_title">Général</string>
+    <string name="buttons_title">Boutons</string>
 
     <!-- UI Settings : Power off prompt -->
     <string name="pref_power_prompt_title">Confirmation d\'extinction</string>
@@ -433,6 +460,8 @@
     <string name="sound_summary">Paramètres et ajustements sonores</string>
     <string name="sound_notifications_focus_title">Priorité aux notifications</string>
     <string name="sound_notifications_focus_summary">Les applications compatibles baisseront leurs volumes lors d\'une notification</string>
+    <string name="sound_volume_control_silent_title">État silence total</string>
+    <string name="sound_volume_control_silent_summary">Ajouter un état de silence total au contrôle du volume</string>
     <string name="sound_to_speaker_title">Toujours dans le haut-parleur</string>
     <string name="sound_notifications_title">Notifications</string>
     <string name="sound_rings_title">Sonneries</string>
@@ -500,4 +529,12 @@
     <string name="pref_lockscreen_disable_unlock_tab">Masquer curseur déverr.</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Note: Vous devez activer le déverrouillage par trackball, touche menu ou par geste afin que cette option soit disponible</string>
     <string name="gestures_explain_create_screen">Choisissez une action à effectuer (ou séléctionnez déverouillage ou son) et dessinez un geste sur l\'écran.</string>
+
+    <!-- Change Log strings -->
+    <string name="changelog_title">Voir liste des modifications</string>
+    <string name="changelog_dialog">Liste des modifications</string>
+    <string name="changelog_loading">Chargement de la liste des modifications...</string>
+    <string name="changelog_error">Erreur de chargement de la liste des modifications...</string>
+    <string name="changelog_unknown">Inconnue</string>
+    <string name="changelog_version">Version</string>
 </resources>
