@@ -4,8 +4,12 @@
   <string name="ui_title">Interfície d\'usuari</string>
   <string name="ui_summary">Paràmetres de la interfície d\'usuari</string>
   <string name="ui_status_bar">Personalització de la barra d\'estat</string>
+  <string name="ui_rotation_title">Rotació de l\'acceleròmetre</string>
+  <string name="pref_rotation_90_title">90 graus</string>
+  <string name="pref_rotation_180_title">180 graus</string>
+  <string name="pref_rotation_270_title">270 graus</string>
   <string name="trackball_title">Notificacions LED</string>
-  <string name="trackball_summary">Notificació i bateig de la bola i LED</string>
+  <string name="trackball_summary">Notificació i batec de la bola i LED</string>
   <string name="ui_webview_title">VistaWeb</string>
   <string name="pref_pinch_reflow_title">Redibuixa després d\'ampliar</string>
   <string name="pref_pinch_reflow_summary">Redibuixa el contingut immediatament després de pessigar per ampliar</string>
@@ -85,7 +89,7 @@
   <string name="pref_trackball_screen_summary">Llum intermitent mentre la pantalla està encesa.</string>
   <string name="pref_trackball_blend_title">Barreja les notificacions</string>
   <string name="pref_trackball_blend_summary">Colors de les notificacions mesclades. Sobreescriu la successió.</string>
-  <string name="pref_trackball_sucess_title">Succissió</string>
+  <string name="pref_trackball_sucess_title">Successió</string>
   <string name="pref_trackball_sucess_summary">Intermitències de les notificacions en successió.</string>
   <string name="pref_trackball_random_title">Color aleatoris</string>
   <string name="pref_trackball_random_summary">Intermitències del LED en colors aleatoris per a totes les notificacions</string>
