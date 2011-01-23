@@ -46,7 +46,13 @@
             android:title="@string/title_widget_picker" android:summary="@string/summary_widget_picker">
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.cyanogenmod.cmparts"
-                android:targetClass="com.cyanogenmod.cmparts.activities.WidgetActivity" />
+                android:targetClass="com.cyanogenmod.cmparts.activities.PowerWidgetActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:key="widget_order"
+            android:title="@string/title_widget_order" android:summary="@string/summary_widget_order">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.PowerWidgetOrderActivity" />
         </PreferenceScreen>
     </PreferenceCategory>
 
