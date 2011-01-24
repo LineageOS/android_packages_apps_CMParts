@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAB3//+IA\u003d",
+        "filename": "res/layout-finger/order_power_widget_button_list_item.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2011-01-24T05:54:13Z",
+      "side": 1,
+      "message": "Nit: whitespace here and in the lines below.",
+      "revId": "8f9b442f12c414e39c680b8409d9a292db00818b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3//+IM\u003d",
+        "filename": "res/layout-finger/order_power_widget_buttons_activity.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2011-01-24T05:54:13Z",
+      "side": 1,
+      "message": "Nitpick: whitespace",
+      "revId": "8f9b442f12c414e39c680b8409d9a292db00818b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3//+II\u003d",
+        "filename": "res/layout-finger/order_power_widget_buttons_activity.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2011-01-24T05:54:13Z",
+      "side": 1,
+      "message": "Nitpick: whitespace",
+      "revId": "8f9b442f12c414e39c680b8409d9a292db00818b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3//+IE\u003d",
+        "filename": "res/layout-finger/order_power_widget_buttons_activity.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2011-01-24T05:54:13Z",
+      "side": 1,
+      "message": "nit: whitespace",
+      "revId": "8f9b442f12c414e39c680b8409d9a292db00818b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3//+IU\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/PowerWidgetOrderActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2011-01-24T05:54:13Z",
+      "side": 1,
+      "message": "Nitpick: whitespace",
+      "revId": "8f9b442f12c414e39c680b8409d9a292db00818b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3//+IQ\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/PowerWidgetOrderActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2011-01-24T05:54:13Z",
+      "side": 1,
+      "message": "Nitpick: whitespace",
+      "revId": "8f9b442f12c414e39c680b8409d9a292db00818b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3//+H8\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/utils/PowerWidgetUtil.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2011-01-24T05:54:13Z",
+      "side": 1,
+      "message": "IS there a way we could keep these in an XML file? Possibly one in SystemUI which could be queried from CMParts, that would make it a lot easier to add new buttons.",
+      "revId": "8f9b442f12c414e39c680b8409d9a292db00818b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
