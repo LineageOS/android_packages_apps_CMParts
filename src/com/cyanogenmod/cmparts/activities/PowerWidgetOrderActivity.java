@@ -64,7 +64,7 @@ public class PowerWidgetOrderActivity extends ListActivity
         setListAdapter(null);
         super.onDestroy();
     }
-    
+
     @Override
     public void onResume() {
         super.onResume();
@@ -72,7 +72,7 @@ public class PowerWidgetOrderActivity extends ListActivity
         mButtonAdapter.reloadButtons();
         mButtonList.invalidateViews();
     }
-    
+
     private TouchInterceptor.DropListener mDropListener = new TouchInterceptor.DropListener() {
             public void drop(int from, int to) {
                 // get the current button list
