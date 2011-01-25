@@ -24,6 +24,7 @@ import java.util.ArrayList;
 public class LockscreenActivity extends PreferenceActivity implements OnPreferenceChangeListener {
 
     private static final String LOCKSCREEN_MUSIC_CONTROLS = "lockscreen_music_controls";
+    private static final String LOCKSCREEN_MUSIC_CONTROLS_HEADSET = "pref_lockscreen_music_headset";
     private static final String LOCKSCREEN_ALWAYS_MUSIC_CONTROLS = "lockscreen_always_music_controls";
     private static final String TRACKBALL_UNLOCK_PREF = "pref_trackball_unlock";
     private static final String MENU_UNLOCK_PREF = "pref_menu_unlock";
@@ -43,6 +44,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
     private CheckBoxPreference mDisableUnlockTab;
 
     private ListPreference mLockscreenStylePref;
+    private ListPreference mLockscreenMusicHeadsetPref;
 
     private Preference mMessagingTabApp;
     private int mKeyNumber = 1;
@@ -72,10 +74,19 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
         mMusicControlPref.setChecked(Settings.System.getInt(getContentResolver(), 
                 Settings.System.LOCKSCREEN_MUSIC_CONTROLS, 1) == 1);
 
+        /* Show Music Controls with Headset */
+        mLockscreenMusicHeadsetPref = (ListPreference) prefSet.findPreference(LOCKSCREEN_MUSIC_CONTROLS_HEADSET);
+        int lockscreenMusicHeadsetPref = Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_MUSIC_CONTROLS_HEADSET, 0);
+        mLockscreenMusicHeadsetPref.setValue(String.valueOf(lockscreenMusicHeadsetPref));
+        mLockscreenMusicHeadsetPref.setOnPreferenceChangeListener(this);
+
         /* Always Display Music Controls */
         mAlwaysMusicControlPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_ALWAYS_MUSIC_CONTROLS);
-        mAlwaysMusicControlPref.setChecked(Settings.System.getInt(getContentResolver(), 
-                Settings.System.LOCKSCREEN_ALWAYS_MUSIC_CONTROLS, 0) == 1);
+        boolean alwaysMusicControlPref = Settings.System.getInt(getContentResolver(), 
+                Settings.System.LOCKSCREEN_ALWAYS_MUSIC_CONTROLS, 0) == 1;
+        mAlwaysMusicControlPref.setChecked(alwaysMusicControlPref);
+        mLockscreenMusicHeadsetPref.setEnabled(!alwaysMusicControlPref);
 
         /* Quick Unlock Screen Control */
         mQuickUnlockScreenPref = (CheckBoxPreference)
@@ -166,6 +177,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
             value = mAlwaysMusicControlPref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_ALWAYS_MUSIC_CONTROLS, value ? 1 : 0);
+            mLockscreenMusicHeadsetPref.setEnabled(!value);
             return true;
         } else if (preference == mQuickUnlockScreenPref) {
             value = mQuickUnlockScreenPref.isChecked();
@@ -200,7 +212,13 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mLockscreenStylePref) {
+        if (preference == mLockscreenMusicHeadsetPref) {
+            int lockscreenMusicHeadsetPref = Integer.valueOf((String) newValue);
+            Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_MUSIC_CONTROLS_HEADSET,
+                    lockscreenMusicHeadsetPref);
+        return true;
+        }
+        else if (preference == mLockscreenStylePref) {
             int lockscreenStyle = Integer.valueOf((String) newValue);
             Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_STYLE_PREF,
                     lockscreenStyle);
