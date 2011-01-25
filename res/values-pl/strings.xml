@@ -257,11 +257,11 @@
     <string name="pref_render_effect_title">Render effect</string>
     <string name="pref_render_effect_summary">Wybierz kolory do użycia podczas wyświetlania (możliwe zaoszczędzenie baterii)</string>
 
-    <string name="widget_name">Widget RenderFX</string>
+    <string name="widget_name">Widżet RenderFX</string>
     <string name="renderfx_temp">RenderFX</string>
     <string name="prefs_render_effect">Render Effect</string>
     <string name="notify_render_effect">Render effect aktywny</string>
-        <string name="add_widget">Dodaj widget</string>
+        <string name="add_widget">Dodaj widżet</string>
 
     <!--  Widget Types -->
     <string name="night">Noc</string>
@@ -272,14 +272,14 @@
     <string name="fuscia">Fuksja</string>
 
     <!-- Expanded View Power Widget -->
-    <string name="title_widget_buttons">Widgety obszaru powiadomień</string>
-    <string name="title_expanded_widget">Widgety obszaru powiadomień</string>
-    <string name="summary_expanded_widget">Użyj widgetów obszaru powiadomień</string>
+    <string name="title_widget_buttons">Widżety obszaru powiadomień</string>
+    <string name="title_expanded_widget">Widżety obszaru powiadomień</string>
+    <string name="summary_expanded_widget">Użyj widżetów obszaru powiadomień</string>
     <string name="title_expanded_hide_onchange">Ukryj po użyciu</string>
     <string name="summary_expanded_hide_onchange">Ukryj obszar powiadomień po wciśnięciu przycisku</string>
     <string name="expanded_color_mask">Kolor</string>
-    <string name="title_widget_picker">Widgety</string>
-    <string name="summary_widget_picker">Wybierz widgety</string>
+    <string name="title_widget_picker">Widżety</string>
+    <string name="summary_widget_picker">Wybierz widżety</string>
     <string name="title_toggle_wifi">Włącz/wyłącz Wifi</string>
     <string name="title_toggle_bluetooth">Włącz/wyłącz Bluetooth</string>
     <string name="title_toggle_gps">Włącz/wyłącz GPS</string>
@@ -295,7 +295,7 @@
     <string name="title_toggle_airplane">Włącz/wyłącz Tryb Samolotowy</string>
     <string name="title_toggle_flashlight">Włącz/wyłącz Latarkę</string>
     <string name="title_toggle_sleep">Zablokuj</string>
-    <string name="title_button_modes">Ustawienia widgetów</string>
+    <string name="title_button_modes">Ustawienia widżetów</string>
     <string name="pref_brightness_mode_title">Jasność</string>
     <string name="pref_brightness_mode_summary">Wybierz tryby</string>
     <string name="pref_network_mode_title">Sieć</string>
@@ -306,7 +306,7 @@
     <string name="pref_ring_mode_summary">Wybierz tryby</string>
     <string name="pref_flash_mode_title">Latarka</string>
     <string name="pref_flash_mode_summary">Dostosuj siłę</string>
-    <string name="widget_max_buttons">Maksynalnie 6 przycisków.</string>
+    <string name="widget_max_buttons">Maksymalnie 6 przycisków.</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Automatyczna jasność</string>
@@ -389,7 +389,7 @@
     <string name="quiet_hours_dim_off">Dioda będzie świecić z pełną jasnością</string>
 
     <string name="cmstats_title">Anonimowe statystyki</string>
-    <string name="cmstats_summary">Pomóż sprawić by CyanogenMOD był lepszy pozwalając na wysyłanie anonimowych informacji</string>
+    <string name="cmstats_summary">Pomóż sprawić, by CyanogenMOD był lepszy, pozwalając na wysyłanie anonimowych informacji</string>
     <string name="user_defined_key1">Przycisk użytkownika 1</string>
     <string name="user_defined_key2">Przycisk użytkownika 2</string>
     <string name="user_defined_key3">Przycisk użytkownika 3</string>
@@ -419,8 +419,8 @@
     <string name="gestures_unlock_only">Odblokuj urządzenie</string>
     <string name="gestures_toggle_sound">Zmień profil dźwięku</string>
     <string name="gestures_flashlight">Latarka</string>
-    <string name="pref_lockscreen_disable_unlock_tab">Wyłącz slider</string>
-    <string name="pref_lockscreen_disable_unlock_tab_summary">Uwaga: Musisz auaktywnić inny sposób odblokowania urządzenia by ta opcja była dostępna</string>
+    <string name="pref_lockscreen_disable_unlock_tab">Wyłącz suwak</string>
+    <string name="pref_lockscreen_disable_unlock_tab_summary">Uwaga: Musisz uaktywnić inny sposób odblokowania urządzenia by ta opcja była dostępna</string>
     <string name="gestures_explain_create_screen">Wybierz akcję do wykonania i wykonaj gest.</string>
 
     <!-- Change Log strings -->

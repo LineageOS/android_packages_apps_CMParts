@@ -36,18 +36,6 @@
         <item>Skalibrowany (N1) Chłodny</item>
     </string-array>
 
-    <string-array name="render_entries">
-        <item>Tryb nocny (czerwony)</item>
-        <item>Terminal (zielony)</item>
-        <item>Niebieski</item>
-        <item>Bursztynowy</item>
-        <item>Łososiowy</item>
-        <item>Fuksja</item>
-        <item>Skalibrowany (N1)</item>
-        <item>Skalibrowany (N1) Niska Czerwień</item>
-        <item>Skalibrowany (N1) Chłodny</item>
-    </string-array>
-
     <string-array name="entries_trackball_colors">
         <item>Zielony</item>
         <item>Biały</item>
@@ -63,47 +51,12 @@
         <item>Brak</item>
     </string-array>
 
-    <string-array name="pref_trackball_colors_values" translatable="false">
-        <item>zielony</item>
-        <item>biały</item>
-        <item>czerwony</item>
-        <item>niebieski</item>
-        <item>żółty</item>
-        <item>cyjan</item>
-        <item>#800080</item>
-        <item>#ffc0cb</item>
-        <item>#ffa500</item>
-        <item>#add8e6</item>
-        <item>losowy</item>
-        <item>brak</item>
-    </string-array>
-
-    <string-array name="entries_dual_led_colors">
-        <item>Zielony</item>
-        <item>Bursztynowy</item>
-        <item>Brak</item>
-    </string-array>
-
-    <string-array name="values_dual_led_colors" translatable="false">
-        <item>zielony</item>
-        <item>czerwony</item>
-        <item>brak</item>
-    </string-array>
-
     <string-array name="pref_trackball_blink_rate_entries">
         <item>2 (Szybko)</item>
         <item>3</item>
         <item>4 (Średnio)</item>
         <item>5</item>
         <item>6 (Powoli)</item>
-    </string-array>
-
-    <string-array name="pref_trackball_blink_rate_values" translatable="false">
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
     </string-array>
     
     <string-array name="pref_lockscreen_delay_entries">
@@ -185,32 +138,6 @@
         <item>Głośność muzyki (domyślnie)</item>
     </string-array>
 
-   <string-array name="entries_brightness_widget" translatable="false">
-        <item>Auto/Przygaś/40%/100%</item>
-        <item>Auto/Przygaś/25%/75%/100%</item>
-        <item>Auto/25%/100%</item>
-        <item>Przygaś/100%</item>
-    </string-array>
-
-    <string-array name="entries_network_widget" translatable="false">
-        <item>2G/3G+2G</item>  
-        <item>2G/Tylko 3G</item>   
-        <item>2G/Tylko 3G/3G+2G</item>
-    </string-array>
-
-    <string-array name="entries_ring_widget" translatable="false">
-        <item>Dźwięk+Wibracje/Wibracje</item>
-        <item>Dźwięk/Wibracje</item>
-        <item>Dźwięk/Wyciszony</item>
-        <item>Dźwięk+Wib./Wib./Wyciszony</item>
-        <item>Dźwięk/Wibracje/Wyciszony</item>
-    </string-array>
-
-    <string-array name="entries_flash_widget" translatable="false">
-        <item>Zwykła</item>
-        <item>Wysoka</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
         <item>1 (tolerancyjnie)</item>
         <item>2</item>
@@ -227,7 +154,7 @@
     </string-array>
 
     <string-array name="pref_lockscreen_style_entries">
-        <item>Przeciągnij</item>
+        <item>Przeciągnij suwak</item>
         <item>Obrotowy</item>
     </string-array>
 
@@ -244,14 +171,6 @@
         <item>Średni</item>
         <item>Lekki</item>
         <item>Bardzo lekki</item>
-    </string-array>
-
-    <string-array name="values_overscroll_weight">
-        <item>1</item>
-        <item>3</item>
-        <item>5</item>
-        <item>7</item>
-        <item>9</item>
     </string-array>
 
 </resources>
