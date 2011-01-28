@@ -113,14 +113,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
         /* Disabling of unlock tab on lockscreen */
         mDisableUnlockTab = (CheckBoxPreference)
         prefSet.findPreference(LOCKSCREEN_DISABLE_UNLOCK_TAB);
-        if (!doesUnlockAbilityExist()) {
-            mDisableUnlockTab.setEnabled(false);
-            mDisableUnlockTab.setChecked(false);
-            Settings.Secure.putInt(getContentResolver(),
-                    Settings.Secure.LOCKSCREEN_GESTURES_DISABLE_UNLOCK, 0);
-        } else {
-            mDisableUnlockTab.setEnabled(true);
-        }
+        refreshDisableUnlock();
 
         PreferenceCategory buttonCategory = (PreferenceCategory)prefSet.findPreference(BUTTON_CATEGORY);
 
@@ -152,14 +145,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
 
         mMessagingTabApp.setSummary(Settings.System.getString(getContentResolver(),
                 Settings.System.LOCKSCREEN_MESSAGING_TAB_APP));
-        if (!doesUnlockAbilityExist()) {
-            mDisableUnlockTab.setEnabled(false);
-            mDisableUnlockTab.setChecked(false);
-            Settings.Secure.putInt(getContentResolver(),
-                    Settings.Secure.LOCKSCREEN_GESTURES_DISABLE_UNLOCK, 0);
-        } else {
-            mDisableUnlockTab.setEnabled(true);
-        }
+        refreshDisableUnlock();
 
         if (!isDefaultLockscreenStyle()) {
             mPhoneMessagingTabPref.setEnabled(false);
@@ -195,11 +181,13 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
             value = mTrackballUnlockPref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.TRACKBALL_UNLOCK_SCREEN, value ? 1 : 0);
+            refreshDisableUnlock();
             return true;
         } else if (preference == mMenuUnlockPref) {
             value = mMenuUnlockPref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.MENU_UNLOCK_SCREEN, value ? 1 : 0);
+            refreshDisableUnlock();
             return true;
         } else if (preference == mDisableUnlockTab) {
             value = mDisableUnlockTab.isChecked();
@@ -301,6 +289,17 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
             if (Settings.System.putString(getContentResolver(), Settings.System.LOCKSCREEN_MESSAGING_TAB_APP, data.toUri(0))) {
                 mMessagingTabApp.setSummary(data.toUri(0));
             }
+        }
+    }
+
+    void refreshDisableUnlock() {
+        if (!doesUnlockAbilityExist()) {
+            mDisableUnlockTab.setEnabled(false);
+            mDisableUnlockTab.setChecked(false);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.LOCKSCREEN_GESTURES_DISABLE_UNLOCK, 0);
+        } else {
+            mDisableUnlockTab.setEnabled(true);
         }
     }
 

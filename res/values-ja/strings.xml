@@ -3,6 +3,32 @@
     <!-- Generic -->
     <string name="app_name">CyanogenMod設定</string>
 
+    <!--  Primary Screen Settings -->
+    <string name="application_settings_title_head">アプリケーション</string>
+    <string name="application_settings_title_subhead">アプリケーション設定</string>
+    <string name="application_settings_summary_head">アプリのインストール場所や移動</string>
+    <string name="display_settings_title_head">表示</string>
+    <string name="display_settings_title_subhead">表示設定</string>
+    <string name="display_settings_summary_head">アニメーション, 回転, タイムアウト</string>
+    <string name="input_settings_title_head">入力</string>
+    <string name="input_settings_title_subhead">入力設定</string>
+    <string name="input_settings_summary_head">入力の挙動, ボタン, 振動フィードバック</string>
+    <string name="interface_settings_title_head">インタフェース</string>
+    <string name="interface_settings_title_subhead">インタフェース設定</string>
+    <string name="interface_settings_summary_head">インタフェースの調整, オーバースクロール, 描画エフェクト</string>
+    <string name="lockscreen_settings_title_head">ロックスクリーン</string>
+    <string name="lockscreen_settings_title_subhead">ロックスクリーン設定</string>
+    <string name="lockscreen_settings_summary_head">ロックスクリーンジェスチャー, スタイル, アンロックオプション</string>
+    <string name="performance_settings_title_head">パフォーマンス</string>
+    <string name="performance_settings_title_subhead">パフォーマンス設定</string>
+    <string name="performance_settings_summary_head">パフォーマンス設定, JIT, VMヒープサイズ</string>
+    <string name="sound_settings_title_head">サウンド</string>
+    <string name="sound_settings_title_subhead">サウンド設定</string>
+    <string name="sound_settings_summary_head">音量, オーディオフォーカス, 静寂時間</string>
+    <string name="system_settings_title_head">システム</string>
+    <string name="system_settings_title_subhead">システム設定</string>
+    <string name="system_settings_summary_head">システム更新履歴, ステータス, 更新通知</string>
+
     <!--  Update Notifications -->
     <string name="updatenotify_title">更新通知</string>
     <string name="updatenotify_summary">更新情報をプッシュ通知で受け取る</string>
@@ -204,6 +230,7 @@
     <string name="haptic_default_toast">初期設定に戻します</string>
 
     <string name="general_title">一般</string>
+    <string name="buttons_title">ボタン</string>
 
     <!-- UI Settings : Power off prompt -->
     <string name="pref_power_prompt_title">電源OFFの確認</string>
@@ -237,6 +264,9 @@
     <string name="expanded_color_mask">インジケータの色</string>
     <string name="title_widget_picker">ウィジェットボタン</string>
     <string name="summary_widget_picker">ウィジェットボタンを選択</string>
+    <string name="title_widget_order">ウィジェットボタンの並び</string>
+    <string name="summary_widget_order">ウィジェットボタンを並び替える</string>
+    <string name="title_buttons">ボタン</string>
     <string name="title_toggle_wifi">Wi-Fiトグル</string>
     <string name="title_toggle_bluetooth">Bluetoothトグル</string>
     <string name="title_toggle_gps">GPSトグル</string>
@@ -252,6 +282,9 @@
     <string name="title_toggle_airplane">機内モードトグル</string>
     <string name="title_toggle_flashlight">LEDフラッシュトグル</string>
     <string name="title_toggle_sleep">スリープ</string>
+    <string name="title_toggle_media_play_pause">メディア: 再生/停止トグル</string>
+    <string name="title_toggle_media_previous">メディア: 前に戻る</string>
+    <string name="title_toggle_media_next">メディア: 次に進む</string>
     <string name="title_button_modes">ボタンモード</string>
     <string name="pref_brightness_mode_title">明るさ</string>
     <string name="pref_brightness_mode_summary">明るさトグルで変更するモードの選択</string>

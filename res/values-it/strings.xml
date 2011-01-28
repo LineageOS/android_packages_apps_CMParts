@@ -3,6 +3,32 @@
     <!-- Generic -->
     <string name="app_name">Impostazioni CyanogenMod</string>
 
+    <!--  Primary Screen Settings -->
+    <string name="application_settings_title_head">Applicazioni</string>
+    <string name="application_settings_title_subhead">Impostazioni applicazioni</string>
+    <string name="application_settings_summary_head">Spostamento applicazioni, luogo di installazione</string>
+    <string name="display_settings_title_head">Display</string>
+    <string name="display_settings_title_subhead">Impostazioni display</string>
+    <string name="display_settings_summary_head">Animazioni display, rotazione, timeout</string>
+    <string name="input_settings_title_head">Input</string>
+    <string name="input_settings_title_subhead">Impostazioni input</string>
+    <string name="input_settings_summary_head">Gestione input, tasti, feedback aptico</string>
+    <string name="interface_settings_title_head">Interfaccia</string>
+    <string name="interface_settings_title_subhead">Impostazioni interfaccia</string>
+    <string name="interface_settings_summary_head">Modifiche interfaccia, overscrolling, effetto render</string>
+    <string name="lockscreen_settings_title_head">Lockscreen</string>
+    <string name="lockscreen_settings_title_subhead">Impostazioni lockscreen</string>
+    <string name="lockscreen_settings_summary_head">Gesture nel lockscreen, stile, opzioni di sblocco</string>
+    <string name="performance_settings_title_head">Performance</string>
+    <string name="performance_settings_title_subhead">Impostazioni performance</string>
+    <string name="performance_settings_summary_head">Modifiche performance, JIT, dimensione heap VM</string>
+    <string name="sound_settings_title_head">Audio</string>
+    <string name="sound_settings_title_subhead">Impostazioni audio</string>
+    <string name="sound_settings_summary_head">Volume audio, audio focus, ore di quiete</string>
+    <string name="system_settings_title_head">Sistema</string>
+    <string name="system_settings_title_subhead">Impostazioni di sistema</string>
+    <string name="system_settings_summary_head">Changelog sistema, statistiche, notifiche aggiornamenti</string>
+
     <!--  Update Notifications -->
     <string name="updatenotify_title">Notifiche Aggiornamenti</string>
     <string name="updatenotify_summary">Ricevi notifiche per gli aggiornamenti.</string>

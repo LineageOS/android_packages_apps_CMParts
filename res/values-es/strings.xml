@@ -3,6 +3,36 @@
     <!-- Generic -->
     <string name="app_name">Ajustes CyanogenMod</string>
 
+    <!--  Primary Screen Settings -->
+    <string name="application_settings_title_head">Aplicaciones</string>
+    <string name="application_settings_title_subhead">Parámetros aplicación</string>
+    <string name="application_settings_summary_head">Mover aplicaciones, donde instalarlas</string>
+    <string name="display_settings_title_head">Pantalla</string>
+    <string name="display_settings_title_subhead">Parámetros de pantalla</string>
+    <string name="display_settings_summary_head">Animaciones pantalla, rotación, tiempo max.</string>
+    <string name="input_settings_title_head">Entrada</string>
+    <string name="input_settings_title_subhead">Parámetros de entrada</string>
+    <string name="input_settings_summary_head">Comportamiento de entrada, botones, parámetros vibración</string>
+    <string name="interface_settings_title_head">Interfaz</string>
+    <string name="interface_settings_title_subhead">Parámetros del interfaz</string>
+    <string name="interface_settings_summary_head">ajustes interfaz, sobredesplazamiento, efecto de renderizado</string>
+    <string name="lockscreen_settings_title_head">Protector</string>
+    <string name="lockscreen_settings_title_subhead">Parámetros del protector</string>
+    <string name="lockscreen_settings_summary_head">Gestos del protector, estilo, opciones de desbloqueo</string>
+    <string name="performance_settings_title_head">Rendimiento</string>
+    <string name="performance_settings_title_subhead">Parámetros de rendimiento</string>
+    <string name="performance_settings_summary_head">Ajustes de rendimiento, JIT, tamaño VM</string>
+    <string name="sound_settings_title_head">Sonido</string>
+    <string name="sound_settings_title_subhead">Parámetros de sonido</string>
+    <string name="sound_settings_summary_head">Volumen de sonido, foco del audio, horario silencio</string>
+    <string name="system_settings_title_head">Sistema</string>
+    <string name="system_settings_title_subhead">Parámetros de sistema</string>
+    <string name="system_settings_summary_head">Registro de cambio, estado, notificaciones de actualización</string>
+
+    <!--  Update Notifications -->
+    <string name="updatenotify_title">Notificaciones Actualización</string>
+    <string name="updatenotify_summary">Muestra notificaciones de actualización.</string>
+
     <!-- User interface -->
     <string name="ui_title">Interfaz de usuario</string>
     <string name="ui_summary">Ajustes de interfaz de usuario</string>
