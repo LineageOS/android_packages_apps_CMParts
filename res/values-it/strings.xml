@@ -389,6 +389,9 @@
     <string name="expanded_color_mask">Colore indicatore</string>
     <string name="title_widget_picker">Tasti del widget</string>
     <string name="summary_widget_picker">Scegli i tasti da aggiungere al widget</string>
+    <string name="title_widget_order">Ordine tasti</string>
+    <string name="summary_widget_order">Ordina i tasti del widget</string>
+    <string name="title_buttons">Tasti</string>
     <string name="title_toggle_wifi">Wi-Fi</string>
     <string name="title_toggle_bluetooth">Bluetooth</string>
     <string name="title_toggle_gps">GPS</string>
@@ -404,6 +407,9 @@
     <string name="title_toggle_airplane">Modalità aereo</string>
     <string name="title_toggle_flashlight">Torcia LED</string>
     <string name="title_toggle_sleep">Vai in sleep mode</string>
+    <string name="title_toggle_media_play_pause">Media: Play/Pausa</string>
+    <string name="title_toggle_media_previous">Media: Torna al precedente</string>
+    <string name="title_toggle_media_next">Media: Passa al successivo</string>
     <string name="title_button_modes">Modalità di funzionamento dei tasti</string>
     <string name="pref_brightness_mode_title">Mod. Luminosità</string>
     <string name="pref_brightness_mode_summary">Scegli le modalità del tasto per la luminosità</string>
