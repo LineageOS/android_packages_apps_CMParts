@@ -264,6 +264,9 @@
     <string name="expanded_color_mask">インジケータの色</string>
     <string name="title_widget_picker">ウィジェットボタン</string>
     <string name="summary_widget_picker">ウィジェットボタンを選択</string>
+    <string name="title_widget_order">ウィジェットボタンの並び</string>
+    <string name="summary_widget_order">ウィジェットボタンを並び替える</string>
+    <string name="title_buttons">ボタン</string>
     <string name="title_toggle_wifi">Wi-Fiトグル</string>
     <string name="title_toggle_bluetooth">Bluetoothトグル</string>
     <string name="title_toggle_gps">GPSトグル</string>
@@ -279,6 +282,9 @@
     <string name="title_toggle_airplane">機内モードトグル</string>
     <string name="title_toggle_flashlight">LEDフラッシュトグル</string>
     <string name="title_toggle_sleep">スリープ</string>
+    <string name="title_toggle_media_play_pause">メディア: 再生/停止トグル</string>
+    <string name="title_toggle_media_previous">メディア: 前に戻る</string>
+    <string name="title_toggle_media_next">メディア: 次に進む</string>
     <string name="title_button_modes">ボタンモード</string>
     <string name="pref_brightness_mode_title">明るさ</string>
     <string name="pref_brightness_mode_summary">明るさトグルで変更するモードの選択</string>
