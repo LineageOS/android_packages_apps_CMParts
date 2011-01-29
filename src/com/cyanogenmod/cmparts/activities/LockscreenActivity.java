@@ -25,6 +25,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
 
     private static final String LOCKSCREEN_MUSIC_CONTROLS = "lockscreen_music_controls";
     private static final String LOCKSCREEN_ALWAYS_MUSIC_CONTROLS = "lockscreen_always_music_controls";
+    private static final String LOCKSCREEN_ALWAYS_BATTERY = "lockscreen_always_battery";
     private static final String TRACKBALL_UNLOCK_PREF = "pref_trackball_unlock";
     private static final String MENU_UNLOCK_PREF = "pref_menu_unlock";
     private static final String BUTTON_CATEGORY = "pref_category_button_settings";
@@ -36,6 +37,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
 
     private CheckBoxPreference mMusicControlPref;
     private CheckBoxPreference mAlwaysMusicControlPref;
+    private CheckBoxPreference mAlwaysBatteryPref;
     private CheckBoxPreference mTrackballUnlockPref;
     private CheckBoxPreference mMenuUnlockPref;
     private CheckBoxPreference mQuickUnlockScreenPref;
@@ -76,6 +78,11 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
         mAlwaysMusicControlPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_ALWAYS_MUSIC_CONTROLS);
         mAlwaysMusicControlPref.setChecked(Settings.System.getInt(getContentResolver(), 
                 Settings.System.LOCKSCREEN_ALWAYS_MUSIC_CONTROLS, 0) == 1);
+
+        /* Always Display Battery Status */
+        mAlwaysBatteryPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_ALWAYS_BATTERY);
+        mAlwaysBatteryPref.setChecked(Settings.System.getInt(getContentResolver(), 
+                Settings.System.LOCKSCREEN_ALWAYS_BATTERY, 0) == 1);
 
         /* Quick Unlock Screen Control */
         mQuickUnlockScreenPref = (CheckBoxPreference)
@@ -166,6 +173,11 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
             value = mAlwaysMusicControlPref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_ALWAYS_MUSIC_CONTROLS, value ? 1 : 0);
+            return true;
+        } else if (preference == mAlwaysBatteryPref) {
+            value = mAlwaysBatteryPref.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_ALWAYS_BATTERY, value ? 1 : 0);
             return true;
         } else if (preference == mQuickUnlockScreenPref) {
             value = mQuickUnlockScreenPref.isChecked();
