@@ -261,7 +261,12 @@
     <string name="renderfx_temp">RenderFX</string>
     <string name="prefs_render_effect">Render Effect</string>
     <string name="notify_render_effect">Render effect on</string>
-        <string name="add_widget">Add widget</string>
+    <string name="add_widget">Add widget</string>
+
+    <!-- UI Settings : StatusBar -->
+    <string name="statusbar_title">Statusbar</string>
+    <string name="battery_percentage_title">Battery Percentage</string>
+    <string name="battery_percentage_summary">Battery percentage displayed in the status bar</string>
 
     <!--  Widget Types -->
     <string name="night">Night</string>

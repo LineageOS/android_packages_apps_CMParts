@@ -29,6 +29,14 @@
 
     </PreferenceCategory>
 
+    <!-- Statusbar settings -->
+    <PreferenceCategory android:key="statusbar_category"
+        android:title="@string/statusbar_title">
+      <CheckBoxPreference android:key="battery_percentage"
+        android:title="@string/battery_percentage_title"
+        android:summary="@string/battery_percentage_summary" />
+    </PreferenceCategory>
+
     <!-- Expanded View Power Widget -->
     <PreferenceCategory android:title="@string/title_expanded_widget">
         <CheckBoxPreference android:key="expanded_widget"
