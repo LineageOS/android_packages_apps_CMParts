@@ -27,7 +27,7 @@
     <string name="sound_settings_summary_head">Volumen de sonido, foco del audio, horario silencio</string>
     <string name="system_settings_title_head">Sistema</string>
     <string name="system_settings_title_subhead">Parámetros de sistema</string>
-    <string name="system_settings_summary_head">Registro de cambio, estado, notificaciones de actualización</string>
+    <string name="system_settings_summary_head">Registro de cambio, estado, notificaciones de actualización, filtros de comunicaciones</string>
 
     <!--  Update Notifications -->
     <string name="updatenotify_title">Notificaciones Actualización</string>
@@ -510,4 +510,58 @@
     <string name="pref_lockscreen_disable_unlock_tab">Desactivar deslizador de desbloqueo</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Nota: Es necesario acivar el desbloqueo por la bola de navegación, la tecla menú, or gestos pra activar esta opción</string>
     <string name="gestures_explain_create_screen">Seleccione una acción a realizar (o seccione Desbloqueo o Sonido) y trace un gesto en la pantalla.\nLos gestos de linea simple vertical no son válidos.</string>
+
+    <!-- Change Log strings -->
+    <string name="changelog_title">Ver registro cambios</string>
+    <string name="changelog_dialog">Registro cambios</string>
+    <string name="changelog_loading">Cargando registro...</string>
+    <string name="changelog_error">Error cargando registro...</string>
+    <string name="changelog_unknown">Desconocido</string>
+    <string name="changelog_version">Version</string>
+
+    <!-- Phone goggles -->
+    <string name="category_phone_goggles_period">Periodo</string>
+    <string name="category_phone_goggles_confirmation">Confirmación</string>
+    <string name="category_phone_goggles_filter">Filtros</string>
+    <string name="title_phone_goggles">Filtrado telefónico</string>
+    <string name="title_phone_goggles_default">Parámetros por defecto</string>
+    <string name="title_phone_goggles_apps">Aplicaciones de filtrado</string>
+    <string name="title_phone_goggles_app_enabled">Habilita filtrado de aplicaciones</string>
+    <string name="title_phone_goggles_use_custom">Usar parámetros personales</string>
+    <string name="title_phone_goggles_filter">Números filtrados</string>
+    <string name="title_phone_goggles_enabled">Habilitar filtrado teléfono</string>
+    <string name="title_phone_goggles_start">Inicio teléfono modo filtrado</string>
+    <string name="title_phone_goggles_end">Termina teléfono modo filtrado</string>
+    <string name="title_phone_goggles_confirmation_enabled">Requiere confirmación</string>
+    <string name="title_phone_goggles_phone_enabled">Teléfono</string>
+    <string name="title_phone_goggles_sms_enabled">SMS</string>
+    <string name="title_phone_goggles_maths_level">Nivel Mates</string>
+    <string name="title_phone_goggles_work_filtered">Trabajo</string>
+    <string name="title_phone_goggles_mobile_filtered">Móvil</string>
+    <string name="title_phone_goggles_other_filtered">Otro</string>
+    <string name="summary_phone_goggles">Filtrar comunicaciones salientes</string>
+    <string name="summary_phone_goggles_default">Pon los paráemtros por defecto</string>
+    <string name="summary_phone_goggles_filter">Selecionar el tipo de números a filtrar</string>
+    <string name="summary_phone_goggles_start">Cuando iniciar el filtrado de llamadas salientes</string>
+    <string name="summary_phone_goggles_end">Cuando iniciar el filtrado de llamadas salientes</string>
+    <string name="summary_phone_goggles_confirmation_enabled">Seleccione la forma en que la confirmación se debe solicitar antes de filtrar la comunicación</string>
+    <string name="summary_phone_goggles_maths_level">Nivel de los problemas de matemáticas requeridos antes de autorizar una comunicación</string>
+    <string name="summary_on_phone_goggles_enabled">Llamadas salientes serán filtradas</string>
+    <string name="summary_on_phone_goggles_use_custom">Usar parámetros personales</string>
+    <string name="summary_on_phone_goggles_app_enabled">Filtrado telefónico habilitado para esta aplicación</string>
+    <string name="summary_on_phone_goggles_work_filtered">comunicaciones Profesionales serán filtradas</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">Comunicaciones a móviles serán filtradas</string>
+    <string name="summary_on_phone_goggles_other_filtered">Comunicaciones a otros teléfonos seran filtradas</string>
+    <string name="summary_off_phone_goggles_enabled">Ninguna comunicación filtrada</string>
+    <string name="summary_off_phone_goggles_use_custom">Usar parámetros por defecto</string>
+    <string name="summary_off_phone_goggles_app_enabled">Filtrado telefónico deshabilitado para esta aplicación</string>
+    <string name="summary_off_phone_goggles_work_filtered">Las comunicaciones profesionales no serán filtradas</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">Ninguna comunicación a móviles será filtrada</string>
+    <string name="summary_off_phone_goggles_other_filtered">Ninguna comunicación a otros teléfonos será filtrada</string>
+    <string name="phone_goggles_maths_level_easy">Bajo</string>
+    <string name="phone_goggles_maths_level_medium">Medio</string>
+    <string name="phone_goggles_maths_level_hard">Alto</string>
+    <string name="phone_goggles_confirmation_none">Ninguno</string>
+    <string name="phone_goggles_confirmation_prompt">Pregunta</string>
+    <string name="phone_goggles_confirmation_maths">Problemas Mates</string>
 </resources>
