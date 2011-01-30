@@ -98,7 +98,8 @@
                 <category android:name="com.cyanogenmod.cmparts.SHORTCUT" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.CPUActivity" android:label="@string/cpu_settings_title">
+        <activity android:name=".activities.CPUActivity"
+            android:label="@string/cpu_settings_title">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
@@ -107,11 +108,6 @@
             android:label="@string/haptic_title">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".activities.HapticTweaksActivity" android:label="@string/haptic_title">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
         <activity android:name=".activities.HapticAdjust"
