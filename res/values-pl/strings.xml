@@ -6,7 +6,7 @@
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Aplikacje</string>
     <string name="application_settings_title_subhead">Ustawienia aplikacji</string>
-    <string name="application_settings_summary_head">Przenoszenie aplikacji, miejsce instalacji</string>
+    <string name="application_settings_summary_head">Przenoszenie aplikacji, miejsce instalacji, filtrowanie połączeń</string>
     <string name="display_settings_title_head">Wyświetlacz</string>
     <string name="display_settings_title_subhead">Ustawienia wyświetlacza</string>
     <string name="display_settings_summary_head">Animacje, obrót ekranu, podświetlenie</string>
@@ -24,7 +24,7 @@
     <string name="performance_settings_summary_head">Usprawnienia, JIT, VM heap size</string>
     <string name="sound_settings_title_head">Dźwięk</string>
     <string name="sound_settings_title_subhead">Ustawienia dźwięku</string>
-    <string name="sound_settings_summary_head">Głośność, audio focus, ciche godziny</string>
+    <string name="sound_settings_summary_head">Głośność, ciche godziny</string>
     <string name="system_settings_title_head">System</string>
     <string name="system_settings_title_subhead">Ustawienia systemowe</string>
     <string name="system_settings_summary_head">Lista zmian, statystyki, aktualizacje</string>
@@ -51,7 +51,7 @@
     <!-- User interface : WebView -->
     <string name="ui_webview_title">WebView</string>
     <string name="pref_pinch_reflow_title">Zmiana układu strony po przyliżeniu</string>
-    <string name="pref_pinch_reflow_summary">Zmień układ strony natychmiast po przybliżeniu (multitouch)</string>
+    <string name="pref_pinch_reflow_summary">Zmień układ strony natychmiast po przybliżeniu (uszczypnij-by-powiększyć)</string>
 
     <!-- User interface : Overscroll -->
     <string name="ui_overscroll_title">Przewijanie</string>
@@ -64,8 +64,8 @@
     <string name="ui_lockscreen_title">Ustawienia blokady ekranu</string>
     <string name="pref_lockscreen_delay_title">Opóźnienie</string>
     <string name="pref_lockscreen_timeout_lock_delay">Czas do przygaszenia</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Czas do zablokowania ekranu</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Ile czasu minie przed przygaszeniem</string>
+    <string name="pref_lockscreen_screenoff_lock_delay">Czas do zablokowania</string>
+    <string name="pref_lockscreen_timeout_lock_delay_summary">Ile czasu minie przed przygaszeniem ekranu</string>
     <string name="pref_lockscreen_screenoff_lock_delay_summary">Ile czasu minie przed zablokowaniem ekranu</string>
 
     <!-- Color Picker -->
@@ -124,18 +124,20 @@
     <string name="input_settings_summary">Zachowanie przycisku</string>
     <string name="button_settings_title">Ustawienia przycisku</string>
     <string name="lockscreen_settings_title">Ustawienia ekranu blokady</string>
+    <string name="pref_lockscreen_always_battery_title">Zawsze pokazuj stan baterii</string>
+    <string name="pref_lockscreen_always_battery_summary">Zawsze wyświetlaj stan baterii na ekranie blokady</string>
     <string name="pref_lockscreen_music_controls_title">Sterowanie muzyką</string>
     <string name="pref_lockscreen_music_controls_summary">Wyświetla sterowanie muzyką na ekranie blokady</string>
-    <string name="pref_lockscreen_always_music_controls_title">Zawsze wyświetlaj</string>
+    <string name="pref_lockscreen_always_music_controls_title">Zawsze wyświetlaj sterowanie muzyką</string>
     <string name="pref_lockscreen_always_music_controls_summary">Wyświetla przyciski, nawet, gdy muzyka nie jest odtwarzana</string>
     <string name="pref_trackball_wake_title">Obudź trackballem</string>
     <string name="pref_trackball_wake_summary">Wciśnięcie trackballa wyświetla ekran blokady</string>
-    <string name="pref_trackball_unlock_title">Odblokuj trackball</string>
+    <string name="pref_trackball_unlock_title">Odblokuj trackballem</string>
     <string name="pref_trackball_unlock_summary">Wciśnięcie trackballa wyświetla ekran blokady</string>
     <string name="pref_menu_unlock_title">Odblokuj przyciskiem menu</string>
     <string name="pref_menu_unlock_summary">Wciśnięcie przycisku menu wyświetla ekran blokady</string>
-    <string name="pref_lockscreen_quick_unlock_control_title">Szybkie Odblokowanie</string>
-    <string name="pref_lockscreen_quick_unlock_control_summary">Nie trzeba wciskać OK podczas wprowadzania pin lub hasła. Usuwanie traktowane jest jako nieudana próba.</string>
+    <string name="pref_lockscreen_quick_unlock_control_title">Szybkie odblokowanie</string>
+    <string name="pref_lockscreen_quick_unlock_control_summary">Nie trzeba wciskać OK podczas wprowadzania pinu lub hasła. Usuwanie traktowane jest jako nieudana próba.</string>
     <string name="pref_lockscreen_phone_messaging_control_title">Telefon i wiadomości</string>
     <string name="pref_lockscreen_phone_messaging_control_summary">Telefon i wiadomości są dostępne na ekranie blokady.</string>
     <string name="pref_messaging_tab_app_title">Aplikacja wiadomości</string>
@@ -143,9 +145,9 @@
     <string name="pref_lockscreen_style_summary">Wybierz styl ekranu blokady</string>
 
     <!-- Long Press Home -->
-    <string name="long_press_home_title">Prztrzymanie przycisku home</string>
-    <string name="long_press_home_summary">Liczba aplikacji itd.</string>
-    <string name="recent_apps_show_title">Pokaż tytuł "Najnowsze"</string>
+    <string name="long_press_home_title">Przytrzymanie przycisku home</string>
+    <string name="long_press_home_summary">Liczba aplikacji itd</string>
+    <string name="recent_apps_show_title">Pokaż tytuł Najnowsze</string>
     <string name="recent_apps_num_title">Liczba aplikacji</string>
     <string name="recent_apps_num_summary">Liczba wyświetlanych aplikacji</string>
     <string name="dialog_recent_apps_num_title">Liczba wyświetlanych aplikacji:</string>
@@ -176,7 +178,7 @@
 
     <!-- Performance : Lock home memory -->
     <string name="pref_lock_home_title">Chroń launcher w pamięci</string>
-    <string name="pref_lock_home_summary">Spróbuj utrzymywać launcher w pamięci przez cały czas</string>
+    <string name="pref_lock_home_summary">Utrzymuj launcher w pamięci przez cały czas</string>
 
     <!-- Performance : Lock mms app in memory -->
     <string name="pref_lock_mms_title">Chroń aplikację wiadomości w pamięci</string>
@@ -255,7 +257,7 @@
 
     <!-- UI Settings : Render effect -->
     <string name="pref_render_effect_title">Render effect</string>
-    <string name="pref_render_effect_summary">Wybierz kolory do użycia podczas wyświetlania (możliwe zaoszczędzenie baterii)</string>
+    <string name="pref_render_effect_summary">Wybierz kolory do użycia podczas wyświetlania</string>
 
     <string name="widget_name">Widżet RenderFX</string>
     <string name="renderfx_temp">RenderFX</string>
@@ -277,9 +279,11 @@
     <string name="summary_expanded_widget">Użyj widżetów obszaru powiadomień</string>
     <string name="title_expanded_hide_onchange">Ukryj po użyciu</string>
     <string name="summary_expanded_hide_onchange">Ukryj obszar powiadomień po wciśnięciu przycisku</string>
-    <string name="expanded_color_mask">Kolor</string>
+    <string name="expanded_color_mask">Kolor wskaźnika</string>
     <string name="title_widget_picker">Widżety</string>
     <string name="summary_widget_picker">Wybierz widżety</string>
+    <string name="title_widget_order">Kolejność widżetów</string>
+    <string name="summary_widget_order">Uporządkuj widżety</string>
     <string name="title_toggle_wifi">Włącz/wyłącz Wifi</string>
     <string name="title_toggle_bluetooth">Włącz/wyłącz Bluetooth</string>
     <string name="title_toggle_gps">Włącz/wyłącz GPS</string>
@@ -295,6 +299,9 @@
     <string name="title_toggle_airplane">Włącz/wyłącz Tryb Samolotowy</string>
     <string name="title_toggle_flashlight">Włącz/wyłącz Latarkę</string>
     <string name="title_toggle_sleep">Zablokuj</string>
+    <string name="title_toggle_media_play_pause">Odtwórz/zatrzymaj</string>
+    <string name="title_toggle_media_previous">Poprzedni utwór</string>
+    <string name="title_toggle_media_next">Kolejny utwór</string>
     <string name="title_button_modes">Ustawienia widżetów</string>
     <string name="pref_brightness_mode_title">Jasność</string>
     <string name="pref_brightness_mode_summary">Wybierz tryby</string>
@@ -327,8 +334,8 @@
     <string name="light_levels_editor_title">Zmień inne poziomy...</string>
     <string name="light_decrease_enabled_title">Opóźnienie reakcji</string>
     <string name="light_decrease_enabled_summary">Zezwól na opóźnienie reakcji, by zredukować migotanie.</string>
-    <string name="light_decrease_hysteresis_title">Decrease hysteresis</string>
-    <string name="light_decrease_hysteresis_summary">Sensor levels overlap this much downwards.</string>
+    <string name="light_decrease_hysteresis_title">Zredukuj migotanie</string>
+    <string name="light_decrease_hysteresis_summary">Poziomy czujnika będą na siebie zachodzić o określoną ilość.</string>
 
     <!-- Light sensor levels -->
     <string name="ll_title">Poziomy czujnika światła</string>
@@ -430,4 +437,50 @@
     <string name="changelog_error">Błąd wczytywania...</string>
     <string name="changelog_unknown">Nieznane</string>
     <string name="changelog_version">Wersja</string>
+    
+    <!-- Phone goggles -->
+    <string name="category_phone_goggles_period">Okres</string>
+    <string name="category_phone_goggles_confirmation">Potwierdzenie</string>
+    <string name="category_phone_goggles_filter">Filtr</string>
+    <string name="title_phone_goggles">Phone Goggles</string>
+    <string name="title_phone_goggles_default">Ustawienia domyślne</string>
+    <string name="title_phone_goggles_apps">Filtrowanie połączeń</string>
+    <string name="title_phone_goggles_app_enabled">Włącz Phone Goggles</string>
+    <string name="title_phone_goggles_use_custom">Użyj osobnych ustawień</string>
+    <string name="title_phone_goggles_filter">Filtrowane numery</string>
+    <string name="title_phone_goggles_enabled">Włącz tryb Phone Goggles</string>
+    <string name="title_phone_goggles_start">Start trybu Phone Goggles</string>
+    <string name="title_phone_goggles_end">Koniec trybu Phone Goggles</string>
+    <string name="title_phone_goggles_confirmation_enabled">Poporoś o potwierdzenie</string>
+    <string name="title_phone_goggles_phone_enabled">Telefon</string>
+    <string name="title_phone_goggles_sms_enabled">SMS</string>
+    <string name="title_phone_goggles_maths_level">Poziom równania</string>
+    <string name="title_phone_goggles_work_filtered">Praca</string>
+    <string name="title_phone_goggles_mobile_filtered">Komórka</string>
+    <string name="title_phone_goggles_other_filtered">Inne</string>
+    <string name="summary_phone_goggles">Filtruj połączenia wychodzące</string>
+    <string name="summary_phone_goggles_default">Skonfiguruj domyślne ustawienia</string>
+    <string name="summary_phone_goggles_filter">Wybierz typy numerów, które chcesz filtrować</string>
+    <string name="summary_phone_goggles_start">Kiedy rozpocząć filtrowanie</string>
+    <string name="summary_phone_goggles_end">Kiedy zakończyć filtrowanie</string>
+    <string name="summary_phone_goggles_confirmation_enabled">Wybierz w jaki sposób prosić o potwierdzenie przed zablokowaniem połączenia</string>
+    <string name="summary_phone_goggles_maths_level">Poziom równania matematycznego, do rozwiązania w celu potwierdzenia</string>
+    <string name="summary_on_phone_goggles_enabled">Połączenia wychodzące będą filtrowane</string>
+    <string name="summary_on_phone_goggles_use_custom">Użyj osobnych ustawień dla tej aplikacji</string>
+    <string name="summary_on_phone_goggles_app_enabled">Tryb Phone Goggles jest włączony dla tej aplikacji</string>
+    <string name="summary_on_phone_goggles_work_filtered">Połączenia służbowe będą filtrowane</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">Połączenia komórkowe będą filtrowane</string>
+    <string name="summary_on_phone_goggles_other_filtered">Inne połączenia będą filtrowane</string>
+    <string name="summary_off_phone_goggles_enabled">Połączenia wychodzące nie będą filtrowane</string>
+    <string name="summary_off_phone_goggles_use_custom">Użyj ustawień domyślnych dla tej aplikacji</string>
+    <string name="summary_off_phone_goggles_app_enabled">Tryb Phone Goggles jest wyłączony dla tej aplikacji</string>
+    <string name="summary_off_phone_goggles_work_filtered">Połączenia służbowe nie będą filtrowane</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">Połączenia komórkowe nie będą filtrowane</string>
+    <string name="summary_off_phone_goggles_other_filtered">Inne połączenia nie będą filtrowane</string>
+    <string name="phone_goggles_maths_level_easy">Łatwy</string>
+    <string name="phone_goggles_maths_level_medium">Średni</string>
+    <string name="phone_goggles_maths_level_hard">Trudny</string>
+    <string name="phone_goggles_confirmation_none">Brak</string>
+    <string name="phone_goggles_confirmation_prompt">Zapytaj</string>
+    <string name="phone_goggles_confirmation_maths">Równanie matematyczne</string>
 </resources>
