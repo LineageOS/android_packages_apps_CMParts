@@ -592,4 +592,14 @@
     <string name="phone_goggles_confirmation_none">keine</string>
     <string name="phone_goggles_confirmation_prompt">Nachfragedialog</string>
     <string name="phone_goggles_confirmation_maths">Rechenaufgaben</string>
+
+    <!-- CPU Settings strings -->
+    <string name="cpu_settings_title">CPU-Einstellungen</string>
+    <string name="cpu_title">CPU-Einstellungen</string>
+    <string name="cpu_summary">Regelung und CPU-Takt</string>
+    <string name="cpu_governors_list">Liste verfügbarer Regelungen\nMomentan gewählt: %S</string>
+    <string name="cpu_min_freq">Minimaler CPU-Takt\nMomentan: %s</string>
+    <string name="cpu_max_freq">Maximaler CPU-Takt\nMomentan: %s</string>
+    <string name="cpu_set_on_boot">Beim Booten einstellen</string>
+    <string name="cpu_set_on_boot_summary">CPU-Einstellungen beim Booten wiederherstellen</string>
 </resources>
