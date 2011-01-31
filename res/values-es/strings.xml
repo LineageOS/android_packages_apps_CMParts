@@ -564,4 +564,14 @@
     <string name="phone_goggles_confirmation_none">Ninguno</string>
     <string name="phone_goggles_confirmation_prompt">Pregunta</string>
     <string name="phone_goggles_confirmation_maths">Problemas Mates</string>
+
+    <!-- CPU Settings strings -->
+    <string name="cpu_settings_title">Parámetros CPU</string>
+    <string name="cpu_title">Parámetros CPU</string>
+    <string name="cpu_summary">Parámetros de reloj y control (governor)</string>
+    <string name="cpu_governors_list">Lista de controles\nSeleccionado ahora: %S</string>
+    <string name="cpu_min_freq">Mínima freq. CPU\nActualmente: %s</string>
+    <string name="cpu_max_freq">Máxima freq. CPU\nActualmente: %s</string>
+    <string name="cpu_set_on_boot">Activar al arranque</string>
+    <string name="cpu_set_on_boot_summary">Restaura parámetros CPU al arrancar</string>
 </resources>
