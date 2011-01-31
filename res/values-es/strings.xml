@@ -5,28 +5,28 @@
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Aplicaciones</string>
-    <string name="application_settings_title_subhead">Parámetros aplicación</string>
+    <string name="application_settings_title_subhead">Ajustes aplicación</string>
     <string name="application_settings_summary_head">Mover aplicaciones, donde instalarlas</string>
     <string name="display_settings_title_head">Pantalla</string>
-    <string name="display_settings_title_subhead">Parámetros de pantalla</string>
+    <string name="display_settings_title_subhead">Ajustes de pantalla</string>
     <string name="display_settings_summary_head">Animaciones pantalla, rotación, tiempo max.</string>
     <string name="input_settings_title_head">Entrada</string>
-    <string name="input_settings_title_subhead">Parámetros de entrada</string>
-    <string name="input_settings_summary_head">Comportamiento de entrada, botones, parámetros vibración</string>
+    <string name="input_settings_title_subhead">Ajustes de entrada</string>
+    <string name="input_settings_summary_head">Comportamiento de entrada, botones, Ajustes vibración</string>
     <string name="interface_settings_title_head">Interfaz</string>
-    <string name="interface_settings_title_subhead">Parámetros del interfaz</string>
+    <string name="interface_settings_title_subhead">Ajustes del interfaz</string>
     <string name="interface_settings_summary_head">ajustes interfaz, sobredesplazamiento, efecto de renderizado</string>
     <string name="lockscreen_settings_title_head">Protector</string>
-    <string name="lockscreen_settings_title_subhead">Parámetros del protector</string>
+    <string name="lockscreen_settings_title_subhead">Ajustes del protector</string>
     <string name="lockscreen_settings_summary_head">Gestos del protector, estilo, opciones de desbloqueo</string>
     <string name="performance_settings_title_head">Rendimiento</string>
-    <string name="performance_settings_title_subhead">Parámetros de rendimiento</string>
+    <string name="performance_settings_title_subhead">Ajustes de rendimiento</string>
     <string name="performance_settings_summary_head">Ajustes de rendimiento, JIT, tamaño VM</string>
     <string name="sound_settings_title_head">Sonido</string>
-    <string name="sound_settings_title_subhead">Parámetros de sonido</string>
+    <string name="sound_settings_title_subhead">Ajustes de sonido</string>
     <string name="sound_settings_summary_head">Volumen de sonido, foco del audio, horario silencio</string>
     <string name="system_settings_title_head">Sistema</string>
-    <string name="system_settings_title_subhead">Parámetros de sistema</string>
+    <string name="system_settings_title_subhead">Ajustes de sistema</string>
     <string name="system_settings_summary_head">Registro de cambio, estado, notificaciones de actualización, filtros de comunicaciones</string>
 
     <!--  Update Notifications -->
@@ -374,7 +374,7 @@
     <string name="title_toggle_mobiledata">Interruptor Datos Móviles</string>
     <string name="title_toggle_lockscreen">Interruptor Protector</string>
     <string name="title_toggle_networkmode">Interruptor 2G/3G</string>
-    <string name="title_toggle_autorotate">Interruptor Brújula</string>
+    <string name="title_toggle_autorotate">Interruptor orientación</string>
     <string name="title_toggle_airplane">Interruptor Modo avión</string>
     <string name="title_toggle_flashlight">Interruptor Linterna</string>
     <string name="title_toggle_sleep">Interruptor Dormir</string>
@@ -524,10 +524,10 @@
     <string name="category_phone_goggles_confirmation">Confirmación</string>
     <string name="category_phone_goggles_filter">Filtros</string>
     <string name="title_phone_goggles">Filtrado telefónico</string>
-    <string name="title_phone_goggles_default">Parámetros por defecto</string>
+    <string name="title_phone_goggles_default">Ajustes por defecto</string>
     <string name="title_phone_goggles_apps">Aplicaciones de filtrado</string>
     <string name="title_phone_goggles_app_enabled">Habilita filtrado de aplicaciones</string>
-    <string name="title_phone_goggles_use_custom">Usar parámetros personales</string>
+    <string name="title_phone_goggles_use_custom">Usar Ajustes personales</string>
     <string name="title_phone_goggles_filter">Números filtrados</string>
     <string name="title_phone_goggles_enabled">Habilitar filtrado teléfono</string>
     <string name="title_phone_goggles_start">Inicio teléfono modo filtrado</string>
@@ -547,13 +547,13 @@
     <string name="summary_phone_goggles_confirmation_enabled">Seleccione la forma en que la confirmación se debe solicitar antes de filtrar la comunicación</string>
     <string name="summary_phone_goggles_maths_level">Nivel de los problemas de matemáticas requeridos antes de autorizar una comunicación</string>
     <string name="summary_on_phone_goggles_enabled">Llamadas salientes serán filtradas</string>
-    <string name="summary_on_phone_goggles_use_custom">Usar parámetros personales</string>
+    <string name="summary_on_phone_goggles_use_custom">Usar Ajustes personales</string>
     <string name="summary_on_phone_goggles_app_enabled">Filtrado telefónico habilitado para esta aplicación</string>
     <string name="summary_on_phone_goggles_work_filtered">comunicaciones Profesionales serán filtradas</string>
     <string name="summary_on_phone_goggles_mobile_filtered">Comunicaciones a móviles serán filtradas</string>
     <string name="summary_on_phone_goggles_other_filtered">Comunicaciones a otros teléfonos seran filtradas</string>
     <string name="summary_off_phone_goggles_enabled">Ninguna comunicación filtrada</string>
-    <string name="summary_off_phone_goggles_use_custom">Usar parámetros por defecto</string>
+    <string name="summary_off_phone_goggles_use_custom">Usar Ajustes por defecto</string>
     <string name="summary_off_phone_goggles_app_enabled">Filtrado telefónico deshabilitado para esta aplicación</string>
     <string name="summary_off_phone_goggles_work_filtered">Las comunicaciones profesionales no serán filtradas</string>
     <string name="summary_off_phone_goggles_mobile_filtered">Ninguna comunicación a móviles será filtrada</string>
@@ -564,4 +564,14 @@
     <string name="phone_goggles_confirmation_none">Ninguno</string>
     <string name="phone_goggles_confirmation_prompt">Pregunta</string>
     <string name="phone_goggles_confirmation_maths">Problemas Mates</string>
+
+    <!-- CPU Settings strings -->
+    <string name="cpu_settings_title">Ajustes CPU</string>
+    <string name="cpu_title">Ajustes CPU</string>
+    <string name="cpu_summary">Ajustes de reloj y control (governor)</string>
+    <string name="cpu_governors_list">Lista de controles\nSeleccionado ahora: %S</string>
+    <string name="cpu_min_freq">Mínima freq. CPU\nActualmente: %s</string>
+    <string name="cpu_max_freq">Máxima freq. CPU\nActualmente: %s</string>
+    <string name="cpu_set_on_boot">Activar al arranque</string>
+    <string name="cpu_set_on_boot_summary">Restaura Ajustes CPU al arrancar</string>
 </resources>
