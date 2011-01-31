@@ -112,6 +112,8 @@
     <string name="input_settings_summary">コントロールボタンの挙動など</string>
     <string name="button_settings_title">ボタン設定</string>
     <string name="lockscreen_settings_title">ロック画面設定</string>
+    <string name="pref_lockscreen_always_battery_title">常にバッテリー状態を表示</string>
+    <string name="pref_lockscreen_always_battery_summary">常にバッテリーの状態をロックスクリーンに表示する</string>
     <string name="pref_lockscreen_music_controls_title">音楽コントロール</string>
     <string name="pref_lockscreen_music_controls_summary">ロック画面に音楽コントロールを表示する</string>
     <string name="pref_lockscreen_always_music_controls_title">常に音楽コントロールを表示</string>
@@ -132,6 +134,10 @@
     <string name="pref_messaging_tab_app_title">メッセージアプリケーション</string>
     <string name="pref_lockscreen_style_title">ロックスクリーンスタイル</string>
     <string name="pref_lockscreen_style_summary">ロックスクリーンのスタイルを選択する</string>
+    <string name="pref_volbtn_music_controls_title">音量ボタンによるミュージックコントロール</string>
+    <string name="pref_volbtn_music_controls_summary">スクリーンオフの時、音量ボタンを長押しすることで曲のシークを行う</string>
+    <string name="pref_cambtn_music_controls_title">カメラボタンによるミュージックコントロール</string>
+    <string name="pref_cambtn_music_controls_summary">スクリーンオフの時、カメラボタンを長押しすることで曲の再生と停止を切り替える</string>
 
     <!-- Long Press Home -->
     <string name="long_press_home_title">ホーム長押し設定</string>
@@ -439,5 +445,61 @@
     <string name="changelog_error">更新履歴を読込中にエラー...</string>
     <string name="changelog_unknown">不明</string>
     <string name="changelog_version">バージョン</string>
+
+    <!-- Phone goggles -->
+    <string name="category_phone_goggles_period">時間帯</string>
+    <string name="category_phone_goggles_confirmation">確認</string>
+    <string name="category_phone_goggles_filter">フィルタ</string>
+    <string name="title_phone_goggles">Phone Goggles</string>
+    <string name="title_phone_goggles_default">デフォルトの設定</string>
+    <string name="title_phone_goggles_apps">フィルタされるアプリ</string>
+    <string name="title_phone_goggles_app_enabled">Phone Gogglesを有効にする</string>
+    <string name="title_phone_goggles_use_custom">カスタム設定を使用</string>
+    <string name="title_phone_goggles_filter">フィルタする番号</string>
+    <string name="title_phone_goggles_enabled">Phone Goggles有効</string>
+    <string name="title_phone_goggles_start">Phone Goggles開始時刻</string>
+    <string name="title_phone_goggles_end">Phone Goggles終了時刻</string>
+    <string name="title_phone_goggles_confirmation_enabled">確認を求める</string>
+    <string name="title_phone_goggles_phone_enabled">電話</string>
+    <string name="title_phone_goggles_sms_enabled">メッセージ</string>
+    <string name="title_phone_goggles_maths_level">数学のレベル</string>
+    <string name="title_phone_goggles_work_filtered">仕事</string>
+    <string name="title_phone_goggles_mobile_filtered">モバイル</string>
+    <string name="title_phone_goggles_other_filtered">その他</string>
+    <string name="summary_phone_goggles">こちらからのコミュニケーション送信をフィルタする</string>
+    <string name="summary_phone_goggles_default">デフォルトで適用される設定</string>
+    <string name="summary_phone_goggles_filter">フィルタする電話番号のタイプを選択する</string>
+    <string name="summary_phone_goggles_start">発信をフィルタする開始時刻</string>
+    <string name="summary_phone_goggles_end">発信をフィルタ解除する時刻</string>
+    <string name="summary_phone_goggles_confirmation_enabled">発信をフィルタする前に求める確認の手段を選択する</string>
+    <string name="summary_phone_goggles_maths_level">発信を許可するために出題する数学問題のレベル</string>
+    <string name="summary_on_phone_goggles_enabled">発信はフィルタされます</string>
+    <string name="summary_on_phone_goggles_use_custom">カスタム設定を使用する</string>
+    <string name="summary_on_phone_goggles_app_enabled">Phone Gogglesはこのアプリケーションで有効です</string>
+    <string name="summary_on_phone_goggles_work_filtered">仕事のコミュニケーションはフィルタされます</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">携帯電話へのコミュニケーションはフィルタされます</string>
+    <string name="summary_on_phone_goggles_other_filtered">その他の番号へのコミュニケーションはフィルタされます</string>
+    <string name="summary_off_phone_goggles_enabled">一切のコミュニケーションはフィルタされません</string>
+    <string name="summary_off_phone_goggles_use_custom">デフォルト設定を使用する</string>
+    <string name="summary_off_phone_goggles_app_enabled">Phone Gogglesはこのアプリケーションで無効です</string>
+    <string name="summary_off_phone_goggles_work_filtered">仕事のコミュニケーションはフィルタされません</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">携帯電話へのコミュニケーションはフィルタされません</string>
+    <string name="summary_off_phone_goggles_other_filtered">その他の番号へのコミュニケーションはフィルタされません</string>
+    <string name="phone_goggles_maths_level_easy">簡単</string>
+    <string name="phone_goggles_maths_level_medium">普通</string>
+    <string name="phone_goggles_maths_level_hard">ハード</string>
+    <string name="phone_goggles_confirmation_none">なし</string>
+    <string name="phone_goggles_confirmation_prompt">プロンプト</string>
+    <string name="phone_goggles_confirmation_maths">数学の問題</string>
+
+    <!-- CPU Settings strings -->
+    <string name="cpu_settings_title">CPU設定</string>
+    <string name="cpu_title">CPU設定</string>
+    <string name="cpu_summary">調整タイプとクロックの設定</string>
+    <string name="cpu_governors_list">調整タイプのリスト\n現在: %S</string>
+    <string name="cpu_min_freq">最小CPUクロック\n現在: %s</string>
+    <string name="cpu_max_freq">最大CPUクロック\n現在: %s</string>
+    <string name="cpu_set_on_boot">起動時に適用</string>
+    <string name="cpu_set_on_boot_summary">起動時にCPU設定を適用する</string>
 
 </resources>
