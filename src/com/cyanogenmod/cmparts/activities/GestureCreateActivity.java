@@ -21,11 +21,13 @@ import android.content.Intent.ShortcutIconResource;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.View;
 import android.view.MotionEvent;
 import android.gesture.GestureOverlayView;
 import android.gesture.Gesture;
 import android.gesture.GestureLibrary;
+import android.gesture.Prediction;
 import android.graphics.RectF;
 import android.widget.Button;
 import android.widget.Toast;
@@ -37,15 +39,22 @@ public class GestureCreateActivity extends Activity {
     private static final float LENGTH_THRESHOLD = 120.0f;
 
     private static final int REQUEST_PICK_SHORTCUT = 1;
+
     private static final int REQUEST_PICK_APPLICATION = 2;
+
     private static final int REQUEST_CREATE_SHORTCUT = 3;
 
     private Gesture mGesture;
+
     private View mDoneButton;
+
     private Button mShortcutButton;
 
     private String mUri;
+
     private String mFriendlyName;
+
+    private double mGestureSensitivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,11 +66,15 @@ public class GestureCreateActivity extends Activity {
         overlay.addOnGestureListener(new GesturesProcessor());
         // Remove flashlight button if Torch app isn't on the phone
         PackageManager pm = this.getBaseContext().getPackageManager();
-        List<ResolveInfo> l = pm.queryBroadcastReceivers(new Intent("net.cactii.flash2.TOGGLE_FLASHLIGHT"), 0);
+        List<ResolveInfo> l = pm.queryBroadcastReceivers(new Intent(
+                "net.cactii.flash2.TOGGLE_FLASHLIGHT"), 0);
         if (l.isEmpty()) {
             Button flashlight = (Button) findViewById(R.id.flashlight_pick);
             flashlight.setVisibility(View.GONE);
         }
+
+        mGestureSensitivity = Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_GESTURES_SENSITIVITY, 3);
     }
 
     @Override
@@ -79,8 +92,7 @@ public class GestureCreateActivity extends Activity {
 
         mGesture = savedInstanceState.getParcelable("gesture");
         if (mGesture != null) {
-            final GestureOverlayView overlay =
-                    (GestureOverlayView) findViewById(R.id.gestures_overlay);
+            final GestureOverlayView overlay = (GestureOverlayView) findViewById(R.id.gestures_overlay);
             overlay.post(new Runnable() {
                 public void run() {
                     overlay.setGesture(mGesture);
@@ -91,11 +103,11 @@ public class GestureCreateActivity extends Activity {
         }
     }
 
-
     public void addGesture(View v) {
         if (mGesture != null) {
             if (mUri == null) {
-                Toast.makeText(this, R.string.gestures_error_missing_shortcut, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.gestures_error_missing_shortcut, Toast.LENGTH_SHORT)
+                        .show();
                 return;
             }
 
@@ -114,6 +126,7 @@ public class GestureCreateActivity extends Activity {
         setResult(RESULT_CANCELED);
         finish();
     }
+
     private class GesturesProcessor implements GestureOverlayView.OnGestureListener {
         public void onGestureStarted(GestureOverlayView overlay, MotionEvent event) {
             mDoneButton.setEnabled(false);
@@ -128,11 +141,31 @@ public class GestureCreateActivity extends Activity {
             if (mGesture.getLength() < LENGTH_THRESHOLD) {
                 overlay.clear(false);
             }
+
+            if (isThereASimilarGesture(mGesture)) {
+                Toast.makeText(GestureCreateActivity.this, R.string.gestures_already_present,
+                        Toast.LENGTH_SHORT).show();
+            }
+
             mDoneButton.setEnabled(true);
         }
 
         public void onGestureCancelled(GestureOverlayView overlay, MotionEvent event) {
         }
+    }
+
+    public boolean isThereASimilarGesture(Gesture gesture) {
+
+        final GestureLibrary store = GestureListActivity.getStore();
+        ArrayList<Prediction> predictions = store.recognize(gesture);
+
+        for (Prediction prediction : predictions) {
+            if (prediction.score > mGestureSensitivity) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     public void pickShortcut(View v) {
@@ -143,7 +176,8 @@ public class GestureCreateActivity extends Activity {
         bundle.putStringArrayList(Intent.EXTRA_SHORTCUT_NAME, shortcutNames);
 
         ArrayList<ShortcutIconResource> shortcutIcons = new ArrayList<ShortcutIconResource>();
-        shortcutIcons.add(ShortcutIconResource.fromContext(this, R.drawable.ic_launcher_application));
+        shortcutIcons.add(ShortcutIconResource
+                .fromContext(this, R.drawable.ic_launcher_application));
         bundle.putParcelableArrayList(Intent.EXTRA_SHORTCUT_ICON_RESOURCE, shortcutIcons);
 
         Intent pickIntent = new Intent(Intent.ACTION_PICK_ACTIVITY);
