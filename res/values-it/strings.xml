@@ -543,6 +543,7 @@
     <string name="pref_lockscreen_disable_unlock_tab">Disattiva slider di sblocco</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Nota: Perchè quest\'opzione sia disponibile devi aver prima abilitato lo sblocco tramite trackball, tasto menu o gesture</string>
     <string name="gestures_explain_create_screen">Scegli un\'azione da eseguire (oppure seleziona Sblocco o Int. audio) e disegna una gesture sullo schermo.</string>
+    <string name="gestures_already_present">Attenzione! Questa gesture è simile ad una associata ad un\'altra azione</string>
 
     <!-- Change Log strings -->
     <string name="changelog_title">Visualizza changelog</string>
