@@ -21,11 +21,13 @@ import android.content.Intent.ShortcutIconResource;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.View;
 import android.view.MotionEvent;
 import android.gesture.GestureOverlayView;
 import android.gesture.Gesture;
 import android.gesture.GestureLibrary;
+import android.gesture.Prediction;
 import android.graphics.RectF;
 import android.widget.Button;
 import android.widget.Toast;
@@ -128,11 +130,34 @@ public class GestureCreateActivity extends Activity {
             if (mGesture.getLength() < LENGTH_THRESHOLD) {
                 overlay.clear(false);
             }
+
+            if (isThereASimilarGesture(mGesture)) {
+                Toast.makeText(GestureCreateActivity.this, R.string.gestures_already_present,
+                        Toast.LENGTH_SHORT).show();
+            }
+
             mDoneButton.setEnabled(true);
         }
 
         public void onGestureCancelled(GestureOverlayView overlay, MotionEvent event) {
         }
+    }
+
+    public boolean isThereASimilarGesture(Gesture gesture) {
+
+        final GestureLibrary store = GestureListActivity.getStore();
+        ArrayList<Prediction> predictions = store.recognize(gesture);
+
+        double gestureSensitivity = Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_GESTURES_SENSITIVITY, 3);
+
+        for (Prediction prediction : predictions) {
+            if (prediction.score > gestureSensitivity) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     public void pickShortcut(View v) {
