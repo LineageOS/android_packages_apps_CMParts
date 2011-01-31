@@ -236,7 +236,11 @@
     <string name="pref_lockscreen_phone_messaging_control_summary">Telefon und SMS/MMS Slider auf gesperrtem Bildschirm anzeigen.</string>
     <string name="pref_messaging_tab_app_title">SMS/MMS Slider Anwendung</string>
     <string name="pref_lockscreen_style_title">Lockscreen-Aussehen</string>
-	  <string name="pref_lockscreen_style_summary">Einen Stil für den Lockscreen auswählen</string>
+    <string name="pref_lockscreen_style_summary">Einen Stil für den Lockscreen auswählen</string>
+    <string name="pref_volbtn_music_controls_title">Titelwahl mit Lautstärketasten</string>
+    <string name="pref_volbtn_music_controls_summary">Wenn Bildschirm ausgeschaltet ist, Titel suchen durch Gedrückthalten der Lautstärketasten</string>
+    <string name="pref_cambtn_music_controls_title">Play/Pause mit Kamerataste</string>
+    <string name="pref_cambtn_music_controls_summary">Wenn Bildschirm ausgeschaltet ist, Wiedergabe fortsetzen/pausieren durch Gedrückthalten der Kamerataste</string>
 
     <!-- Long Press Home -->
     <string name="long_press_home_title">Home-Gedrückt-Einstellungen</string>
@@ -592,4 +596,14 @@
     <string name="phone_goggles_confirmation_none">keine</string>
     <string name="phone_goggles_confirmation_prompt">Nachfragedialog</string>
     <string name="phone_goggles_confirmation_maths">Rechenaufgaben</string>
+
+    <!-- CPU Settings strings -->
+    <string name="cpu_settings_title">CPU-Einstellungen</string>
+    <string name="cpu_title">CPU-Einstellungen</string>
+    <string name="cpu_summary">Regelung und CPU-Takt</string>
+    <string name="cpu_governors_list">Liste verfügbarer Regelungen\nMomentan gewählt: %S</string>
+    <string name="cpu_min_freq">Minimaler CPU-Takt\nMomentan: %s</string>
+    <string name="cpu_max_freq">Maximaler CPU-Takt\nMomentan: %s</string>
+    <string name="cpu_set_on_boot">Beim Booten einstellen</string>
+    <string name="cpu_set_on_boot_summary">CPU-Einstellungen beim Booten wiederherstellen</string>
 </resources>
