@@ -6,7 +6,7 @@
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Applicazioni</string>
     <string name="application_settings_title_subhead">Impostazioni applicazioni</string>
-    <string name="application_settings_summary_head">Spostamento applicazioni, luogo di installazione</string>
+    <string name="application_settings_summary_head">Spostamento applicazioni, luogo di installazione, filtraggio comunicazioni</string>
     <string name="display_settings_title_head">Display</string>
     <string name="display_settings_title_subhead">Impostazioni display</string>
     <string name="display_settings_summary_head">Animazioni display, rotazione, timeout</string>
@@ -219,6 +219,8 @@
     <string name="input_settings_summary">Scegli il comportamento dei tasti</string>
     <string name="button_settings_title">Impostazioni tasti</string>
     <string name="lockscreen_settings_title">Impostazioni Lockscreen</string>
+    <string name="pref_lockscreen_always_battery_title">Visualizza sempre status batteria</string>
+    <string name="pref_lockscreen_always_battery_summary">Visualizza sempre lo status della batteria nel lockscreen</string>
     <string name="pref_lockscreen_music_controls_title">Controlli player musicale</string>
     <string name="pref_lockscreen_music_controls_summary">Visualizza i controlli del player musicale nel lockscreen</string>
     <string name="pref_lockscreen_always_music_controls_title">Visualizza sempre controlli musicali</string>
@@ -236,6 +238,10 @@
     <string name="pref_messaging_tab_app_title">Applicazione messaggi</string>
     <string name="pref_lockscreen_style_title">Stile lockscreen</string>
     <string name="pref_lockscreen_style_summary">Scegli lo stile del lockscreen</string>
+    <string name="pref_volbtn_music_controls_title">Seleziona traccia con tasto volume</string>
+    <string name="pref_volbtn_music_controls_summary">Seleziona la traccia musicale tenendo premuto il tasto volume quando lo schermo è spento</string>
+    <string name="pref_cambtn_music_controls_title">Play/pause con tasto fotocamera</string>
+    <string name="pref_cambtn_music_controls_summary">Play/pause tenendo premuto il tasto della fotocamera quando lo schermo è spento</string>
 
     <!-- Long Press Home -->
     <string name="long_press_home_title">Long-press tasto home</string>
@@ -407,7 +413,7 @@
     <string name="title_toggle_airplane">Modalità aereo</string>
     <string name="title_toggle_flashlight">Torcia LED</string>
     <string name="title_toggle_sleep">Vai in sleep mode</string>
-    <string name="title_toggle_media_play_pause">Media: Play/Pausa</string>
+    <string name="title_toggle_media_play_pause">Media: Play/Pause</string>
     <string name="title_toggle_media_previous">Media: Torna al precedente</string>
     <string name="title_toggle_media_next">Media: Passa al successivo</string>
     <string name="title_button_modes">Modalità di funzionamento dei tasti</string>
@@ -422,10 +428,6 @@
     <string name="pref_flash_mode_title">Mod. Torcia</string>
     <string name="pref_flash_mode_summary">Scegli tra Normale e Forte / Death Ray(Evo)</string>
     <string name="widget_max_buttons">6 è il numero massimo di tasti.</string>
-
-
-
-
 
     <!-- Backlight -->
     <string name="backlight_title">Retroilluminazione Automatica</string>
@@ -549,4 +551,61 @@
     <string name="changelog_error">Errore nel caricare il changelog...</string>
     <string name="changelog_unknown">Sconosciuto</string>
     <string name="changelog_version">Versione</string>
+
+
+    <!-- Phone goggles -->
+    <string name="category_phone_goggles_period">Intervallo</string>
+    <string name="category_phone_goggles_confirmation">Conferma</string>
+    <string name="category_phone_goggles_filter">Filtri</string>
+    <string name="title_phone_goggles">Phone Goggles</string>
+    <string name="title_phone_goggles_default">Impostazioni di default</string>
+    <string name="title_phone_goggles_apps">Applicazioni filtrate</string>
+    <string name="title_phone_goggles_app_enabled">Attiva Phone Goggles</string>
+    <string name="title_phone_goggles_use_custom">Usa impostazioni personalizzate</string>
+    <string name="title_phone_goggles_filter">Numeri filtrati</string>
+    <string name="title_phone_goggles_enabled">Attiva phone goggles</string>
+    <string name="title_phone_goggles_start">Inizio modalità phone goggles</string>
+    <string name="title_phone_goggles_end">Fine modalità phone goggles</string>
+    <string name="title_phone_goggles_confirmation_enabled">Richiedi conferma</string>
+    <string name="title_phone_goggles_phone_enabled">Telefono</string>
+    <string name="title_phone_goggles_sms_enabled">Messaggi</string>
+    <string name="title_phone_goggles_maths_level">Difficoltà problemi</string>
+    <string name="title_phone_goggles_work_filtered">Lavoro</string>
+    <string name="title_phone_goggles_mobile_filtered">Mobile</string>
+    <string name="title_phone_goggles_other_filtered">Altro</string>
+    <string name="summary_phone_goggles">Filtra comunicazioni in uscita</string>
+    <string name="summary_phone_goggles_default">Ripristina le impostazioni di default</string>
+    <string name="summary_phone_goggles_filter">Seleziona il tipo di numeri telefonici che vuoi filtrare</string>
+    <string name="summary_phone_goggles_start">Quando iniziare a filtrare le chiamate in uscita</string>
+    <string name="summary_phone_goggles_end">Quando smettere di filtrare le chiamate in uscita</string>
+    <string name="summary_phone_goggles_confirmation_enabled">Seleziona in che modo vuoi che venga richiesta la conferma prima di autorizzare la comunicazione</string>
+    <string name="summary_phone_goggles_maths_level">Difficoltà dei problemi matematici proposti prima di autorizzare la comunicazione</string>
+    <string name="summary_on_phone_goggles_enabled">Le comunicazioni in uscita verranno filtrate</string>
+    <string name="summary_on_phone_goggles_use_custom">Usa impostazioni personalizzate</string>
+    <string name="summary_on_phone_goggles_app_enabled">Phone Goggles è attivo per questa applicazione</string>
+    <string name="summary_on_phone_goggles_work_filtered">Verranno filtrate le comunicazioni di lavoro</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">Verranno filtrate le comunicazioni verso numeri di telefonia mobile</string>
+    <string name="summary_on_phone_goggles_other_filtered">Verranno filtrate le comunicazioni verso altri telefoni</string>
+    <string name="summary_off_phone_goggles_enabled">Non verrà filtrata nessuna comunicazione</string>
+    <string name="summary_off_phone_goggles_use_custom">Usa impostazioni di default</string>
+    <string name="summary_off_phone_goggles_app_enabled">Phone Goggles non è attivo per questa applicazione</string>
+    <string name="summary_off_phone_goggles_work_filtered">Non verranno filtrate le comunicazioni di lavoro</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">Non verranno filtrate le comunicazioni verso numeri di telefonia mobile</string>
+    <string name="summary_off_phone_goggles_other_filtered">Non verranno filtrate le comunicazioni verso altri telefoni</string>
+    <string name="phone_goggles_maths_level_easy">Facile</string>
+    <string name="phone_goggles_maths_level_medium">Medio</string>
+    <string name="phone_goggles_maths_level_hard">Difficile</string>
+    <string name="phone_goggles_confirmation_none">Niente</string>
+    <string name="phone_goggles_confirmation_prompt">Prompt</string>
+    <string name="phone_goggles_confirmation_maths">Problemi matematici</string>
+
+    <!-- CPU Settings strings -->
+    <string name="cpu_settings_title">Impostazioni CPU</string>
+    <string name="cpu_title">Impostazioni CPU</string>
+    <string name="cpu_summary">Impostazioni frequenza e governor</string>
+    <string name="cpu_governors_list">Lista di governor disponibili\nAttuale: %S</string>
+    <string name="cpu_min_freq">Minima frequenza CPU\nAttuale: %s</string>
+    <string name="cpu_max_freq">Massima frequenza CPU\nAttuale: %s</string>
+    <string name="cpu_set_on_boot">Imposta all\'avvio</string>
+    <string name="cpu_set_on_boot_summary">Ripristina le impostazioni per la CPU all\'avvio</string>
 </resources>
