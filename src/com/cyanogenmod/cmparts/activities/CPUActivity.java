@@ -44,9 +44,9 @@ public class CPUActivity extends PreferenceActivity implements Preference.OnPref
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        GOV_FMT = getString(R.string.cpu_governors_list);
-        MIN_FMT = getString(R.string.cpu_min_freq);
-        MAX_FMT = getString(R.string.cpu_max_freq);
+        GOV_FMT = getString(R.string.cpu_governors_summary);
+        MIN_FMT = getString(R.string.cpu_min_freq_summary);
+        MAX_FMT = getString(R.string.cpu_max_freq_summary);
 
         String[] Governors = readOneLine(GOVERNORS_LIST_FILE).split(" ");
         String[] FreqValues = readOneLine(FREQ_LIST_FILE).split(" ");
