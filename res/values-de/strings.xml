@@ -601,9 +601,12 @@
     <string name="cpu_settings_title">CPU-Einstellungen</string>
     <string name="cpu_title">CPU-Einstellungen</string>
     <string name="cpu_summary">Regelung und CPU-Takt</string>
-    <string name="cpu_governors_list">Liste verfügbarer Regelungen\nMomentan gewählt: %S</string>
-    <string name="cpu_min_freq">Minimaler CPU-Takt\nMomentan: %s</string>
-    <string name="cpu_max_freq">Maximaler CPU-Takt\nMomentan: %s</string>
+    <string name="cpu_governors_title">Verfügbare Regelungen</string>
+    <string name="cpu_governors_summary">Liste verfügbarer Regelungen\nMomentan gewählt: %S</string>
+    <string name="cpu_min_freq_title">Minimaler CPU-Takt</string>
+    <string name="cpu_min_freq_summary">Minimaler CPU-Takt\nMomentan: %s</string>
+    <string name="cpu_max_freq_title">Maximaler CPU-Takt</string>
+    <string name="cpu_max_freq_summary">Maximaler CPU-Takt\nMomentan: %s</string>
     <string name="cpu_set_on_boot">Beim Booten einstellen</string>
     <string name="cpu_set_on_boot_summary">CPU-Einstellungen beim Booten wiederherstellen</string>
 </resources>
