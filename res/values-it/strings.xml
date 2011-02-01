@@ -604,9 +604,12 @@
     <string name="cpu_settings_title">Impostazioni CPU</string>
     <string name="cpu_title">Impostazioni CPU</string>
     <string name="cpu_summary">Impostazioni frequenza e governor</string>
-    <string name="cpu_governors_list">Lista di governor disponibili\nAttuale: %S</string>
-    <string name="cpu_min_freq">Minima frequenza CPU\nAttuale: %s</string>
-    <string name="cpu_max_freq">Massima frequenza CPU\nAttuale: %s</string>
+    <string name="cpu_governors_title">Governor disponibili</string>
+    <string name="cpu_governors_summary">Lista di governor disponibili\nAttuale: %S</string>
+    <string name="cpu_min_freq_title">Minima frequenza CPU</string>
+    <string name="cpu_min_freq_summary">Minima frequenza CPU\nAttuale: %s</string>
+    <string name="cpu_max_freq_title">Massima frequenza CPU</string>
+    <string name="cpu_max_freq_summary">Massima frequenza CPU\nAttuale: %s</string>
     <string name="cpu_set_on_boot">Imposta all\'avvio</string>
     <string name="cpu_set_on_boot_summary">Ripristina le impostazioni per la CPU all\'avvio</string>
 </resources>
