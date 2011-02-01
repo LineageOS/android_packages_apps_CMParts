@@ -542,6 +542,7 @@
     <string name="pref_lockscreen_disable_unlock_tab">Entsperr Slider verbergen</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Hinweis: Es muss Trackball-, MENÜ- oder Gesten-Entsperren aktiviert sein bevor diese Option möglich ist</string>
     <string name="gestures_explain_create_screen">Aktion (oder Entsperren/Klingelton) auswählen und eine Geste auf den Bildschirm zeichnen.</string>
+    <string name="gestures_already_present">Warnung: Diese Geste ist bereits mit einer anderen Aktion verknüpft!</string>
 
     <!-- Change Log strings -->
     <string name="changelog_title">Changelog ansehen</string>
