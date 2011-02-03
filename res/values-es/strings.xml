@@ -44,7 +44,7 @@
 
     <!-- User interface : WebView -->
     <string name="ui_webview_title">WebView</string>
-    <string name="pref_pinch_reflow_title">Regenerar después de pellizcar</string>
+    <string name="pref_pinch_reflow_title">Regenerar después de zoom</string>
     <string name="pref_pinch_reflow_summary">Regenerar contenido inmediatamente después de pellizcar para hacer zoom</string>
 
     <!-- User interface : Lock Screen -->
@@ -474,9 +474,9 @@
     <string name="quiet_hours_still">Desactivar vibraciones</string>
     <string name="quiet_hours_still_on">El dispositivo no vibrará</string>
     <string name="quiet_hours_still_off">El dispositivo vibrará normalmente</string>
-    <string name="quiet_hours_dim">Difuminar LED</string>
-    <string name="quiet_hours_dim_on">El LED se difuminará si es posible</string>
-    <string name="quiet_hours_dim_off">El LED tendrá el máximo brillo</string>
+    <string name="quiet_hours_dim">Atenuar LED</string>
+    <string name="quiet_hours_dim_on">El LED se atenuará si es posible</string>
+    <string name="quiet_hours_dim_off">El LED tendrá el brillo normal</string>
 
     <string name="cmstats_title">Estadísticas anónimas</string>
     <string name="cmstats_summary">Ayuda a mejorar CM informando con estadísiticas anónimas</string>
