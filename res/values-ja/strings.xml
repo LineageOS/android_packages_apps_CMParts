@@ -437,6 +437,7 @@
     <string name="pref_lockscreen_disable_unlock_tab">アンロックスライダーを無効にする</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">ノート: このオプションを有効にする前に、トラックボールやメニューキー、ジェスチャーでのアンロックを設定する必要があります。</string>
     <string name="gestures_explain_create_screen">実行するアクション(あるいはアンロックやサウンド)を選択し、スクリーンにジェスチャーを描いてください。\n縦方向(上/下)に1回のみのジェスチャーは不正になります。</string>
+    <string name="gestures_already_present">警告: 似たようなジェスチャーが別のアクションとして定義されています！</string>
 
     <!-- Change Log strings -->
     <string name="changelog_title">更新履歴を見る</string>
@@ -496,10 +497,12 @@
     <string name="cpu_settings_title">CPU設定</string>
     <string name="cpu_title">CPU設定</string>
     <string name="cpu_summary">調整タイプとクロックの設定</string>
-    <string name="cpu_governors_list">調整タイプのリスト\n現在: %S</string>
-    <string name="cpu_min_freq">最小CPUクロック\n現在: %s</string>
-    <string name="cpu_max_freq">最大CPUクロック\n現在: %s</string>
     <string name="cpu_set_on_boot">起動時に適用</string>
     <string name="cpu_set_on_boot_summary">起動時にCPU設定を適用する</string>
-
+    <string name="cpu_governors_title">調整リスト</string>
+    <string name="cpu_governors_summary">利用可能な調整タイプのリスト\n現在: %s</string>
+    <string name="cpu_min_freq_title">最小CPUクロック</string>
+    <string name="cpu_min_freq_summary">最小CPUクロック周波数\n現在: %s</string>
+    <string name="cpu_max_freq_title">最大CPUクロック</string>
+    <string name="cpu_max_freq_summary">最大CPUクロック周波数\n現在: %s</string>
 </resources>
