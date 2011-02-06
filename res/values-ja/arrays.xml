@@ -176,4 +176,10 @@
         <item>とても軽い</item>
     </string-array>
 
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>無効</item>
+        <item>有線のヘッドセット</item>
+        <item>Bluetooth A2DPヘッドセット</item>
+        <item>両方</item>
+    </string-array>
 </resources>

@@ -116,6 +116,8 @@
     <string name="pref_lockscreen_always_battery_summary">常にバッテリーの状態をロックスクリーンに表示する</string>
     <string name="pref_lockscreen_music_controls_title">音楽コントロール</string>
     <string name="pref_lockscreen_music_controls_summary">ロック画面に音楽コントロールを表示する</string>
+    <string name="pref_lockscreen_music_headset_title">ヘッドセット接続時に音楽コントロールを表示</string>
+    <string name="pref_lockscreen_music_headset_summary">有線のヘッドセットやBluetooth A2DPのヘッドセットを接続したときに音楽コントロールを表示する</string>
     <string name="pref_lockscreen_always_music_controls_title">常に音楽コントロールを表示</string>
     <string name="pref_lockscreen_always_music_controls_summary">音楽を再生しているかどうかに関わらず、ロック画面に音楽コントロールを表示する</string>
 
@@ -129,9 +131,9 @@
     <string name="pref_trackball_screen_summary">スクリーンオン中はトラックボールを点滅させる</string>
     <string name="pref_lockscreen_quick_unlock_control_title">クイックアンロック</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">PINやパワードを入力後、OKを押す必要を省きます。不正入力時のカウントは無効になります。</string>
-    <string name="pref_lockscreen_phone_messaging_control_title">電話とメッセージ</string>
-    <string name="pref_lockscreen_phone_messaging_control_summary">ロックスクリーンから電話とメッセージにアクセスできるようにする</string>
-    <string name="pref_messaging_tab_app_title">メッセージアプリケーション</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">カスタムアプリの起動</string>
+    <string name="pref_lockscreen_custom_app_toggle_summary">カスタムアプリを起動するための2つ目のスライダやロータリーの窪みを表示する</string>
+    <string name="pref_lockscreen_custom_app_activity_title">カスタムアプリ</string>
     <string name="pref_lockscreen_style_title">ロックスクリーンスタイル</string>
     <string name="pref_lockscreen_style_summary">ロックスクリーンのスタイルを選択する</string>
     <string name="pref_volbtn_music_controls_title">音量ボタンによるミュージックコントロール</string>
