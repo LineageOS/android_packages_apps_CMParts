@@ -128,6 +128,8 @@
     <string name="pref_lockscreen_always_battery_summary">Всегда показывать состояние батареи на экране блокировки</string>
     <string name="pref_lockscreen_music_controls_title">Управление плеером</string>
     <string name="pref_lockscreen_music_controls_summary">Показывать на экране блокировки элементы управления плеером</string>
+    <string name="pref_lockscreen_music_headset_title">Управление плеером с наушниками</string>
+    <string name="pref_lockscreen_music_headset_summary">Показывать на экране блокировки элементы управления плеером, когда подключены проводные и(или) Bluetooth A2DP наушники</string>
     <string name="pref_lockscreen_always_music_controls_title">Показывать всегда</string>
     <string name="pref_lockscreen_always_music_controls_summary">Всегда показывать управление плеером, даже если музыка не играет</string>
     <string name="pref_trackball_wake_title">Trackball - пробуждение</string>
@@ -138,9 +140,9 @@
     <string name="pref_menu_unlock_summary">Нажатие на Menu разблокирует устройство</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Не требуется нажимать подтверждение после ввода пароля или PIN.</string>
-    <string name="pref_lockscreen_phone_messaging_control_title">Телефон и SMS</string>
-    <string name="pref_lockscreen_phone_messaging_control_summary">Телефон и SMS доступны с экрана блокировки.</string>
-    <string name="pref_messaging_tab_app_title">Приложение для SMS</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">Запускать приложение пользователя</string>
+    <string name="pref_lockscreen_custom_app_toggle_summary">Показывать второй ползунок или показывать приложение пользователя при стиле Вращение.</string>
+    <string name="pref_lockscreen_custom_app_activity_title">Выбрать приложение</string>
     <string name="pref_lockscreen_style_title">Стиль экрана блокировки</string>
     <string name="pref_lockscreen_style_summary">Выбор стиля экрана блокировки</string>
     <string name="pref_volbtn_music_controls_title">Управление музыкой кнопками громкости</string>
