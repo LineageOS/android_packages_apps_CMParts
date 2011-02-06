@@ -222,10 +222,10 @@
     </string-array>
 
     <string-array name="pref_lockscreen_music_headset_entries">
-        <item>Disabled</item>
-        <item>Wired Headset</item>
-        <item>Bluetooth A2DP Headset</item>
-        <item>Both</item>
+        <item>Отключено</item>
+        <item>Проводные наушники</item>
+        <item>Bluetooth A2DP наушники</item>
+        <item>Все</item>
     </string-array>
 	
 </resources>
