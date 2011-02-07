@@ -34,6 +34,9 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
     private static final String LOCKSCREEN_QUICK_UNLOCK_CONTROL = "lockscreen_quick_unlock_control";
     private static final String LOCKSCREEN_CUSTOM_APP_TOGGLE = "pref_lockscreen_custom_app_toggle";
     private static final String LOCKSCREEN_CUSTOM_APP_ACTIVITY = "pref_lockscreen_custom_app_activity";
+    private static final String LOCKSCREEN_ROTARY_UNLOCK_DOWN_TOGGLE = "pref_lockscreen_rotary_unlock_down_toggle"; 
+    private static final String LOCKSCREEN_ROTARY_HIDE_ARROWS_TOGGLE = "pref_lockscreen_rotary_hide_arrows_toggle";
+    private static final String LOCKSCREEN_CUSTOM_ICON_STYLE = "pref_lockscreen_custom_icon_style";
     private static final String LOCKSCREEN_DISABLE_UNLOCK_TAB = "lockscreen_disable_unlock_tab";
     private static final String MESSAGING_TAB_APP = "pref_messaging_tab_app";
 
@@ -45,6 +48,9 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
     private CheckBoxPreference mQuickUnlockScreenPref;
     private CheckBoxPreference mCustomAppTogglePref;
     private CheckBoxPreference mDisableUnlockTab;
+    private CheckBoxPreference mRotaryUnlockDownToggle;
+    private CheckBoxPreference mRotaryHideArrowsToggle;
+    private CheckBoxPreference mCustomIconStyle;
 
     private ListPreference mLockscreenStylePref;
     private ListPreference mLockscreenMusicHeadsetPref;
@@ -102,17 +108,30 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
         mQuickUnlockScreenPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_QUICK_UNLOCK_CONTROL, 0) == 1);
 
-        /* Lockscreen Custom App Toggle */
-        mCustomAppTogglePref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_CUSTOM_APP_TOGGLE);
-        mCustomAppTogglePref.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.LOCKSCREEN_CUSTOM_APP_TOGGLE, 0) == 1);
-
-        /* Lockscreen Style */
+        /* Lockscreen Style and related related settings */
         mLockscreenStylePref = (ListPreference) prefSet.findPreference(LOCKSCREEN_STYLE_PREF);
         int lockscreenStyle = Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_STYLE_PREF, 1);
         mLockscreenStylePref.setValue(String.valueOf(lockscreenStyle));
         mLockscreenStylePref.setOnPreferenceChangeListener(this);
+
+        mRotaryUnlockDownToggle = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_ROTARY_UNLOCK_DOWN_TOGGLE);
+        mRotaryUnlockDownToggle.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_ROTARY_UNLOCK_DOWN, 0) == 1);
+
+        mRotaryHideArrowsToggle = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_ROTARY_HIDE_ARROWS_TOGGLE);
+        mRotaryHideArrowsToggle.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_ROTARY_HIDE_ARROWS, 0) == 1);
+
+        mCustomAppTogglePref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_CUSTOM_APP_TOGGLE);
+        mCustomAppTogglePref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_CUSTOM_APP_TOGGLE, 0) == 1);
+
+        mCustomIconStyle = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_CUSTOM_ICON_STYLE);
+        mCustomIconStyle.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_CUSTOM_ICON_STYLE, 0) == 1);
+
+        updateStylePrefs(lockscreenStyle);
 
         /* Trackball Unlock */
         mTrackballUnlockPref = (CheckBoxPreference) prefSet.findPreference(TRACKBALL_UNLOCK_PREF);
@@ -191,6 +210,21 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_CUSTOM_APP_TOGGLE, value ? 1 : 0);
             return true;
+        } else if (preference == mRotaryUnlockDownToggle) {
+            value = mRotaryUnlockDownToggle.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_ROTARY_UNLOCK_DOWN, value ? 1 : 0);
+            return true;
+        } else if (preference == mRotaryHideArrowsToggle) {
+            value = mRotaryHideArrowsToggle.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_ROTARY_HIDE_ARROWS, value ? 1 : 0);
+            return true;
+        } else if (preference == mCustomIconStyle) {
+            value = mCustomIconStyle.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_CUSTOM_ICON_STYLE, value ? 2 : 1);
+            return true;
         } else if (preference == mTrackballUnlockPref) {
             value = mTrackballUnlockPref.isChecked();
             Settings.System.putInt(getContentResolver(),
@@ -224,6 +258,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
             int lockscreenStyle = Integer.valueOf((String) newValue);
             Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_STYLE_PREF,
                     lockscreenStyle);
+            updateStylePrefs(lockscreenStyle);
             return true;
         } else if (preference == mScreenLockTimeoutDelayPref) {
             int timeoutDelay = Integer.valueOf((String) newValue);
@@ -347,6 +382,20 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
             return true;
         } else {
             return false;
+        }
+    }
+
+    private void updateStylePrefs(int lockscreenStyle){
+        // slider style
+        if(lockscreenStyle==1){
+            mRotaryHideArrowsToggle.setChecked(false);
+            mRotaryHideArrowsToggle.setEnabled(false);
+            mRotaryUnlockDownToggle.setChecked(false);
+            mRotaryUnlockDownToggle.setEnabled(false);
+        // rotary style
+        } else if (lockscreenStyle==2) {
+            mRotaryHideArrowsToggle.setEnabled(true);
+            mRotaryUnlockDownToggle.setEnabled(true);
         }
     }
 }
