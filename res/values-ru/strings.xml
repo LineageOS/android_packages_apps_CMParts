@@ -143,6 +143,14 @@
     <string name="pref_lockscreen_custom_app_toggle_title">Запускать приложение пользователя</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">Показывать второй ползунок или показывать приложение пользователя при стиле Вращение.</string>
     <string name="pref_lockscreen_custom_app_activity_title">Выбрать приложение</string>
+    <string name="pref_lockscreen_custom_icon_style_title">Иконка сообщения</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">Использовать иконку сообщения вместо иконки CM для приложения пользователя</string>
+    <string name="pref_lockscreen_rotary_unlock_down_title">Сдвинуть вниз для разблокировки</string>
+    <string name="pref_lockscreen_rotary_unlock_down_summary">Сдвинуть вниз для разблокировки. Сдвинуть вправо для запуска пользовательского приложения</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_title">Скрыть стрелки</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_summary">Скрывает стрелки-подсказки при стиле Вращение</string>
+    <string name="lockscreen_style_header">Настройки стиля</string>
+    <string name="lockscreen_delay_header">Задержка и таймаут</string>
     <string name="pref_lockscreen_style_title">Стиль экрана блокировки</string>
     <string name="pref_lockscreen_style_summary">Выбор стиля экрана блокировки</string>
     <string name="pref_volbtn_music_controls_title">Управление музыкой кнопками громкости</string>
