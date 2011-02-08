@@ -106,6 +106,25 @@
         <item>60秒</item>
     </string-array>
 
+    <string-array name="entries_light_levels_dim">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20 (デフォルト)</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+    </string-array>
+
     <string-array name="entries_light_filter_reset">
         <item>無効にする</item>
         <item>400ルクス</item>
@@ -182,4 +201,37 @@
         <item>Bluetooth A2DPヘッドセット</item>
         <item>両方</item>
     </string-array>
+
+    <string-array name="entries_brightness_widget" formatted="false">
+        <item>自動/暗い/40%/100%</item>
+        <item>自動/暗い/25%/50%/75%/100%</item>
+        <item>自動/25%/100%</item>
+        <item>暗い/100%</item>
+    </string-array>
+
+    <string-array name="entries_network_widget">
+        <item>2G/3Gと2G</item>
+        <item>2G/3Gのみ</item>
+        <item>2G/3Gのみ/3Gと2G</item>
+    </string-array>
+
+    <string-array name="entries_screentimeout_widget">
+        <item>15秒/1分/5分</item>
+        <item>30秒/2分/5分</item>
+    </string-array>
+
+    <string-array name="entries_ring_widget">
+        <item>音と振動/振動</item>
+        <item>音/振動</item>
+        <item>音/サイレント</item>
+        <item>音と振動/振動/サイレント</item>
+        <item>音/振動/サイレント</item>
+        <item>音と振動/音/振動/サイレント</item>
+    </string-array>
+
+    <string-array name="entries_flash_widget">
+        <item>ノーマル</item>
+        <item>ハイ / デスレイ</item>
+    </string-array>
+
 </resources>
