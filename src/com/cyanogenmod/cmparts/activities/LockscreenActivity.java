@@ -400,8 +400,17 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
             mRotaryHideArrowsToggle.setEnabled(true);
             if (mCustomAppTogglePref.isChecked()==true){
                 mRotaryUnlockDownToggle.setEnabled(true);
-            }else
+            }else{
+                mRotaryUnlockDownToggle.setChecked(false);
                 mRotaryUnlockDownToggle.setEnabled(false);
+            }
         }
+
+        boolean value = mRotaryUnlockDownToggle.isChecked();
+        Settings.System.putInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_ROTARY_UNLOCK_DOWN, value ? 1 : 0);
+        value = mRotaryHideArrowsToggle.isChecked();
+        Settings.System.putInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_ROTARY_HIDE_ARROWS, value ? 1 : 0);
     }
 }
