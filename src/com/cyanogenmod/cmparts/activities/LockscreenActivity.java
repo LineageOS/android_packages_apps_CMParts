@@ -209,6 +209,9 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
             value = mCustomAppTogglePref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_CUSTOM_APP_TOGGLE, value ? 1 : 0);
+            int lockscreenStyle = Settings.System.getInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_STYLE_PREF, 1);
+            updateStylePrefs(lockscreenStyle);
             return true;
         } else if (preference == mRotaryUnlockDownToggle) {
             value = mRotaryUnlockDownToggle.isChecked();
@@ -395,7 +398,10 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
         // rotary style
         } else if (lockscreenStyle==2) {
             mRotaryHideArrowsToggle.setEnabled(true);
-            mRotaryUnlockDownToggle.setEnabled(true);
+            if (mCustomAppTogglePref.isChecked()==true){
+                mRotaryUnlockDownToggle.setEnabled(true);
+            }else
+                mRotaryUnlockDownToggle.setEnabled(false);
         }
     }
 }
