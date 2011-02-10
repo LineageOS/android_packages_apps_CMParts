@@ -49,7 +49,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
     private static final String LOCKSCREEN_QUICK_UNLOCK_CONTROL = "lockscreen_quick_unlock_control";
     private static final String LOCKSCREEN_CUSTOM_APP_TOGGLE = "pref_lockscreen_custom_app_toggle";
     private static final String LOCKSCREEN_CUSTOM_APP_ACTIVITY = "pref_lockscreen_custom_app_activity";
-    private static final String LOCKSCREEN_ROTARY_UNLOCK_DOWN_TOGGLE = "pref_lockscreen_rotary_unlock_down_toggle"; 
+    private static final String LOCKSCREEN_ROTARY_UNLOCK_DOWN_TOGGLE = "pref_lockscreen_rotary_unlock_down_toggle";
     private static final String LOCKSCREEN_ROTARY_HIDE_ARROWS_TOGGLE = "pref_lockscreen_rotary_hide_arrows_toggle";
     private static final String LOCKSCREEN_CUSTOM_ICON_STYLE = "pref_lockscreen_custom_icon_style";
     private static final String LOCKSCREEN_DISABLE_UNLOCK_TAB = "lockscreen_disable_unlock_tab";
@@ -76,7 +76,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
     private static final int REQUEST_PICK_SHORTCUT = 1;
     private static final int REQUEST_PICK_APPLICATION = 2;
     private static final int REQUEST_CREATE_SHORTCUT = 3;
-    
+
     /* Screen Lock */
     private static final String LOCKSCREEN_TIMEOUT_DELAY_PREF = "pref_lockscreen_timeout_delay";
     private static final String LOCKSCREEN_SCREENOFF_DELAY_PREF = "pref_lockscreen_screenoff_delay";
@@ -92,10 +92,10 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
         addPreferencesFromResource(R.xml.lockscreen_settings);
 
         PreferenceScreen prefSet = getPreferenceScreen();
-                
+
         /* Music Controls */
         mMusicControlPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_MUSIC_CONTROLS);
-        mMusicControlPref.setChecked(Settings.System.getInt(getContentResolver(), 
+        mMusicControlPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_MUSIC_CONTROLS, 1) == 1);
 
         /* Show Music Controls with Headset */
@@ -114,7 +114,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
 
         /* Always Display Battery Status */
         mAlwaysBatteryPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_ALWAYS_BATTERY);
-        mAlwaysBatteryPref.setChecked(Settings.System.getInt(getContentResolver(), 
+        mAlwaysBatteryPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_ALWAYS_BATTERY, 0) == 1);
 
         /* Quick Unlock Screen Control */
@@ -126,7 +126,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
         /* Lockscreen Style and related related settings */
         mLockscreenStylePref = (ListPreference) prefSet.findPreference(LOCKSCREEN_STYLE_PREF);
         int lockscreenStyle = Settings.System.getInt(getContentResolver(),
-                Settings.System.LOCKSCREEN_STYLE_PREF, 1);
+                Settings.System.LOCKSCREEN_STYLE_PREF, 3);
         mLockscreenStylePref.setValue(String.valueOf(lockscreenStyle));
         mLockscreenStylePref.setOnPreferenceChangeListener(this);
 
@@ -144,7 +144,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
 
         mCustomIconStyle = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_CUSTOM_ICON_STYLE);
         mCustomIconStyle.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.LOCKSCREEN_CUSTOM_ICON_STYLE, 0) == 1);
+                Settings.System.LOCKSCREEN_CUSTOM_ICON_STYLE, 1) == 2);
 
         updateStylePrefs(lockscreenStyle);
 
@@ -169,7 +169,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
         }
 
         mCustomAppActivityPref = (Preference) prefSet.findPreference(LOCKSCREEN_CUSTOM_APP_ACTIVITY);
-        
+
         /* Screen Lock */
         mScreenLockTimeoutDelayPref = (ListPreference) prefSet
                 .findPreference(LOCKSCREEN_TIMEOUT_DELAY_PREF);
@@ -225,7 +225,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_CUSTOM_APP_TOGGLE, value ? 1 : 0);
             int lockscreenStyle = Settings.System.getInt(getContentResolver(),
-                    Settings.System.LOCKSCREEN_STYLE_PREF, 1);
+                    Settings.System.LOCKSCREEN_STYLE_PREF, 3);
             updateStylePrefs(lockscreenStyle);
             return true;
         } else if (preference == mRotaryUnlockDownToggle) {
@@ -395,7 +395,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
 
     private boolean isDefaultLockscreenStyle() {
         int lockscreenStyle = Settings.System.getInt(getContentResolver(),
-                Settings.System.LOCKSCREEN_STYLE_PREF, 1);
+                Settings.System.LOCKSCREEN_STYLE_PREF, 3);
         if (lockscreenStyle == 1) {
             return true;
         } else {
@@ -405,13 +405,13 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
 
     private void updateStylePrefs(int lockscreenStyle){
         // slider style
-        if(lockscreenStyle==1){
+        if(lockscreenStyle==1 || lockscreenStyle==4){
             mRotaryHideArrowsToggle.setChecked(false);
             mRotaryHideArrowsToggle.setEnabled(false);
             mRotaryUnlockDownToggle.setChecked(false);
             mRotaryUnlockDownToggle.setEnabled(false);
-        // rotary style
-        } else if (lockscreenStyle==2) {
+        // rotary and rotary revamped style
+        } else if (lockscreenStyle==2 || lockscreenStyle==3) {
             mRotaryHideArrowsToggle.setEnabled(true);
             if (mCustomAppTogglePref.isChecked()==true){
                 mRotaryUnlockDownToggle.setEnabled(true);
@@ -420,12 +420,27 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
                 mRotaryUnlockDownToggle.setEnabled(false);
             }
         }
+        // disable custom app starter for lense - would be ugly in above if statement
+        if(lockscreenStyle==4){
+            mCustomIconStyle.setChecked(false);
+            mCustomAppTogglePref.setChecked(false);
+            mCustomAppTogglePref.setEnabled(false);
+        }else{
+            mCustomAppTogglePref.setEnabled(true);
+        }
 
+        // make sure toggled settings are saved to system settings
         boolean value = mRotaryUnlockDownToggle.isChecked();
         Settings.System.putInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_ROTARY_UNLOCK_DOWN, value ? 1 : 0);
         value = mRotaryHideArrowsToggle.isChecked();
         Settings.System.putInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_ROTARY_HIDE_ARROWS, value ? 1 : 0);
+        value = mCustomAppTogglePref.isChecked();
+        Settings.System.putInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_CUSTOM_APP_TOGGLE, value ? 1 : 0);
+        value = mCustomIconStyle.isChecked();
+        Settings.System.putInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_CUSTOM_ICON_STYLE, value ? 2 : 1);
     }
 }
