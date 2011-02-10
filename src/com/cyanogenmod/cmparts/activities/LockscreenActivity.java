@@ -129,7 +129,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
 
         mCustomIconStyle = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_CUSTOM_ICON_STYLE);
         mCustomIconStyle.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.LOCKSCREEN_CUSTOM_ICON_STYLE, 0) == 1);
+                Settings.System.LOCKSCREEN_CUSTOM_ICON_STYLE, 1) == 2);
 
         updateStylePrefs(lockscreenStyle);
 
@@ -390,13 +390,13 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
 
     private void updateStylePrefs(int lockscreenStyle){
         // slider style
-        if(lockscreenStyle==1){
+        if(lockscreenStyle==1 || lockscreenStyle==4){
             mRotaryHideArrowsToggle.setChecked(false);
             mRotaryHideArrowsToggle.setEnabled(false);
             mRotaryUnlockDownToggle.setChecked(false);
             mRotaryUnlockDownToggle.setEnabled(false);
-        // rotary style
-        } else if (lockscreenStyle==2) {
+        // rotary and rotary revamped style
+        } else if (lockscreenStyle==2 || lockscreenStyle==3) {
             mRotaryHideArrowsToggle.setEnabled(true);
             if (mCustomAppTogglePref.isChecked()==true){
                 mRotaryUnlockDownToggle.setEnabled(true);
@@ -406,6 +406,7 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
             }
         }
 
+        // make sure toggled settings are saved to system settings
         boolean value = mRotaryUnlockDownToggle.isChecked();
         Settings.System.putInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_ROTARY_UNLOCK_DOWN, value ? 1 : 0);
