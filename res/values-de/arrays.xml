@@ -218,6 +218,8 @@
   <string-array name="pref_lockscreen_style_entries">
 	  <item>Tabs zum Schieben</item>
 	  <item>Rotierend</item>
+        <item>Rotary revamped</item>
+        <item>Lense</item>
 	</string-array>
 
 </resources>
