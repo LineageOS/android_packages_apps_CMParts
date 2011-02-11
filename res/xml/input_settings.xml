@@ -25,6 +25,28 @@
 
     </PreferenceCategory>
 
+    <!-- Search key settings -->
+    <PreferenceCategory android:key="input_search_settings"
+        android:title="@string/input_search_key_title">
+
+        <CheckBoxPreference android:key="pref_input_custom_search_app_toggle"
+            android:title="@string/pref_input_custom_search_app_toggle_title"
+            android:summary="@string/pref_input_custom_search_app_toggle_summary" />
+
+        <Preference android:key="pref_input_custom_search_app_activity"
+            android:dependency="pref_input_custom_search_app_toggle"
+            android:title="@string/pref_input_custom_search_app_activity_title" />
+
+        <CheckBoxPreference android:key="pref_input_custom_long_search_app_toggle"
+            android:title="@string/pref_input_custom_long_search_app_toggle_title"
+            android:summary="@string/pref_input_custom_long_search_app_toggle_summary" />
+
+        <Preference android:key="pref_input_custom_long_search_app_activity"
+            android:dependency="pref_input_custom_long_search_app_toggle"
+            android:title="@string/pref_input_custom_search_app_activity_title" />
+
+   </PreferenceCategory>
+
     <!-- General settings -->
     <PreferenceCategory android:key="general_category"
         android:title="@string/general_title">

@@ -119,10 +119,7 @@
     <string name="notification_battery_warning">This option has been proven to increase the amount of battery drain by ~3% per hour. If you notice an increase in drain during trackball lights pulsing then this option is why. Do not enable if you don\'t wish to incur the drain.</string>
 
 
-    <!-- Input Settings -->
-    <string name="input_settings_title">Input settings</string>
-    <string name="input_settings_summary">Control button behavior</string>
-    <string name="button_settings_title">Button settings</string>
+    <!-- Lockscreen Settings -->
     <string name="lockscreen_settings_title">Lockscreen settings</string>
     <string name="pref_lockscreen_always_battery_title">Always display battery status</string>
     <string name="pref_lockscreen_always_battery_summary">Display battery status on the lockscreen at all times</string>
@@ -158,9 +155,22 @@
     <string name="pref_cambtn_music_controls_title">Camera button music control</string>
     <string name="pref_cambtn_music_controls_summary">Toggle play/pause when long-pressing the camera button while screen off</string>
 
-    <!-- Long Press Home -->
+    <!-- Input Settings -->
+    <string name="input_settings_title">Input settings</string>
+    <string name="input_settings_summary">Control button behavior</string>
+    <string name="haptic_title">Haptic feedback tweaks</string>
+    <string name="haptic_summary">Adjust when and how strong haptic feedback occurs</string>
+    <string name="button_settings_title">Button settings</string>
     <string name="long_press_home_title">Long-press home settings</string>
     <string name="long_press_home_summary">Number of recent applications, etc</string>
+    <string name="input_search_key_title">Search key behaviour</string>
+    <string name="pref_input_custom_search_app_toggle_title">Search key app</string>
+    <string name="pref_input_custom_search_app_toggle_summary">Starts a custom app when pressing search key</string>
+    <string name="pref_input_custom_search_app_activity_title">Custom application</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">Long-press search app</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">Starts a custom app when long-pressing search key</string>
+
+    <!-- Long Press Home -->
     <string name="recent_apps_show_title">Show recent apps title</string>
     <string name="recent_apps_num_title">Number of recent apps</string>
     <string name="recent_apps_num_summary">Number of recent apps to display on long press home</string>
@@ -169,6 +179,51 @@
     <string name="use_custom_app_summary">Use custom application instead of the recent applications dialog</string>
     <string name="select_custom_app_title">Select custom application</string>
     <string name="group_applications">Applications</string>
+
+    <!-- HapticTweaks -->
+    <string name="title_haptic_feedback">Haptic feedback main</string>
+    <string name="summary_on_haptic_feedback">Use haptic feedback on keypress for softkeys and certain UI interactions</string>
+    <string name="summary_off_haptic_feedback">No haptic feedback on keypress for softkeys and certain UI interactions</string>
+
+    <string name="title_haptic_feedback_up">Haptic feedback up</string>
+    <string name="summary_on_haptic_feedback_up">Use haptic feedback on key release for softkeys and certain UI interactions</string>
+    <string name="summary_off_haptic_feedback_up">No haptic feedback on key release for softkeys and certain UI interactions</string>
+
+    <string name="title_haptic_feedback_all">Haptic screen items</string>
+    <string name="summary_on_haptic_feedback_all">Use haptic feedback when making screen selections</string>
+    <string name="summary_off_haptic_feedback_all">No haptic feedback when making screen selections</string>
+
+    <string name="title_haptic_down_decider">Set Down Pattern</string>
+    <string name="title_haptic_up_decider">Set Up Pattern</string>
+    <string name="title_haptic_long_decider">Set Long-Press Pattern</string>
+    <string name="title_haptic_tap_decider">Set Keypad Tap Pattern</string>
+
+    <string name="title_haptic_menu">Haptic Adjust</string>
+    <string name="title_haptic_notice">REBOOT REQUIRED FOR CHANGES TO APPLY GLOBALLY</string>
+
+    <string name="haptic_delay_desc">ms Off Time</string>
+    <string name="haptic_vibe_desc">ms On Time</string>
+
+    <string name="haptic_down_description">Adjusting haptic values for button DOWN-PRESSES\n(Virtual hardkeys and certain UI interactions.)</string>
+    <string name="haptic_up_description">Adjusting haptic values for button RELEASES\n(Virtual hardkeys and most screen presses.)</string>
+    <string name="haptic_long_description">Adjusting haptic values for LONG-PRESSES.</string>
+    <string name="haptic_tap_description">Adjusting haptic values for on-screen keyboard taps</string>
+
+    <string name="haptic_plus_minus_desc">Press the Plus or Minus Buttons to add or remove steps in the sequence.</string>
+
+    <string name="haptic_button_plus">+</string>
+    <string name="haptic_button_minus">-</string>
+
+    <string name="haptic_button_save">Save</string>
+    <string name="haptic_button_test">Test</string>
+    <string name="haptic_button_cancel">Cancel</string>
+    <string name="haptic_button_revert">Revert Changes</string>
+    <string name="haptic_button_default">Load Defaults</string>
+
+    <string name="haptic_save_toast">Saving haptic values: </string>
+    <string name="haptic_cancel_toast">Haptic values unchanged</string>
+    <string name="haptic_revert_toast">Restoring last-used values</string>
+    <string name="haptic_default_toast">Loading hard-coded defaults</string>
 
     <!-- Performance Settings -->
     <string name="performance_settings_title">Performance settings</string>
@@ -213,54 +268,6 @@
     <!-- Application Settings : Install Location -->
     <string name="pref_install_location_title">Install location</string>
     <string name="pref_install_location_summary">Select where new applications should be installed</string>
-
-    <!-- HapticTweaks -->
-    <string name="haptic_title">Haptic feedback tweaks</string>
-    <string name="haptic_summary">Adjust when and how strong haptic feedback occurs</string>
-
-    <string name="title_haptic_feedback">Haptic feedback main</string>
-    <string name="summary_on_haptic_feedback">Use haptic feedback on keypress for softkeys and certain UI interactions</string>
-    <string name="summary_off_haptic_feedback">No haptic feedback on keypress for softkeys and certain UI interactions</string>
-
-    <string name="title_haptic_feedback_up">Haptic feedback up</string>
-    <string name="summary_on_haptic_feedback_up">Use haptic feedback on key release for softkeys and certain UI interactions</string>
-    <string name="summary_off_haptic_feedback_up">No haptic feedback on key release for softkeys and certain UI interactions</string>
-
-    <string name="title_haptic_feedback_all">Haptic screen items</string>
-    <string name="summary_on_haptic_feedback_all">Use haptic feedback when making screen selections</string>
-    <string name="summary_off_haptic_feedback_all">No haptic feedback when making screen selections</string>
-
-    <string name="title_haptic_down_decider">Set Down Pattern</string>
-    <string name="title_haptic_up_decider">Set Up Pattern</string>
-    <string name="title_haptic_long_decider">Set Long-Press Pattern</string>
-    <string name="title_haptic_tap_decider">Set Keypad Tap Pattern</string>
-
-    <string name="title_haptic_menu">Haptic Adjust</string>
-    <string name="title_haptic_notice">REBOOT REQUIRED FOR CHANGES TO APPLY GLOBALLY</string>
-
-    <string name="haptic_delay_desc">ms Off Time</string>
-    <string name="haptic_vibe_desc">ms On Time</string>
-
-    <string name="haptic_down_description">Adjusting haptic values for button DOWN-PRESSES\n(Virtual hardkeys and certain UI interactions.)</string>
-    <string name="haptic_up_description">Adjusting haptic values for button RELEASES\n(Virtual hardkeys and most screen presses.)</string>
-    <string name="haptic_long_description">Adjusting haptic values for LONG-PRESSES.</string>
-    <string name="haptic_tap_description">Adjusting haptic values for on-screen keyboard taps</string>
-
-    <string name="haptic_plus_minus_desc">Press the Plus or Minus Buttons to add or remove steps in the sequence.</string>
-
-    <string name="haptic_button_plus">+</string>
-    <string name="haptic_button_minus">-</string>
-
-    <string name="haptic_button_save">Save</string>
-    <string name="haptic_button_test">Test</string>
-    <string name="haptic_button_cancel">Cancel</string>
-    <string name="haptic_button_revert">Revert Changes</string>
-    <string name="haptic_button_default">Load Defaults</string>
-
-    <string name="haptic_save_toast">Saving haptic values: </string>
-    <string name="haptic_cancel_toast">Haptic values unchanged</string>
-    <string name="haptic_revert_toast">Restoring last-used values</string>
-    <string name="haptic_default_toast">Loading hard-coded defaults</string>
 
     <string name="general_title">General</string>
     <string name="buttons_title">Buttons</string>
