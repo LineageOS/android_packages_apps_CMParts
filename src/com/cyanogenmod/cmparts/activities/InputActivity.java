@@ -73,22 +73,16 @@ public class InputActivity extends PreferenceActivity implements OnPreferenceCha
         mUserDefinedKey2Pref = (Preference) prefSet.findPreference(USER_DEFINED_KEY2);
         mUserDefinedKey3Pref = (Preference) prefSet.findPreference(USER_DEFINED_KEY3);
 
-        if (!"vision".equals(Build.DEVICE) &&
-                !getResources().getBoolean(R.bool.has_trackball) &&
-                !getResources().getBoolean(R.bool.has_camera_button)) {
-            prefSet.removePreference(buttonCategory);
-        } else {
-            if (!getResources().getBoolean(R.bool.has_trackball)) {
-                buttonCategory.removePreference(mTrackballWakePref);
-            }
-            if (!getResources().getBoolean(R.bool.has_camera_button)) {
-                buttonCategory.removePreference(mCamBtnMusicCtrlPref);
-            }
-            if (!"vision".equals(Build.DEVICE)) {
-                buttonCategory.removePreference(mUserDefinedKey1Pref);
-                buttonCategory.removePreference(mUserDefinedKey2Pref);
-                buttonCategory.removePreference(mUserDefinedKey3Pref);
-            }
+        if (!getResources().getBoolean(R.bool.has_trackball)) {
+            buttonCategory.removePreference(mTrackballWakePref);
+        }
+        if (!getResources().getBoolean(R.bool.has_camera_button)) {
+            buttonCategory.removePreference(mCamBtnMusicCtrlPref);
+        }
+        if (!"vision".equals(Build.DEVICE)) {
+            buttonCategory.removePreference(mUserDefinedKey1Pref);
+            buttonCategory.removePreference(mUserDefinedKey2Pref);
+            buttonCategory.removePreference(mUserDefinedKey3Pref);
         }
     }
 
