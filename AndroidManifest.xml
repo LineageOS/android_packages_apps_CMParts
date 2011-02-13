@@ -215,6 +215,5 @@
 
         <service android:enabled="true" android:name=".services.RenderFXService" />
         <service android:enabled="true" android:name=".services.BatteryService" />
-        <service android:enabled="true" android:name=".services.CPUService" />
     </application>
 </manifest>
