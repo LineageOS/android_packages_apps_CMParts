@@ -119,10 +119,7 @@
     <string name="notification_battery_warning">Denna inställningar har visats öka batteriförbrukningen med ca 3% per timme. Om du upplever en ökad förbrukning medans styrkulans lampa pulserar så är detta varför. Aktivera inte om du inte vill öka förbrukningen.</string>
 
 
-    <!-- Input Settings -->
-    <string name="input_settings_title">Inmatningsinställningar</string>
-    <string name="input_settings_summary">Kontrollera knappbeteende</string>
-    <string name="button_settings_title">Knappinställningar</string>
+    <!-- Lockscreen Settings -->
     <string name="lockscreen_settings_title">Låsskärmsinställningar</string>
     <string name="pref_lockscreen_always_battery_title">Visa alltid batteristatus</string>
     <string name="pref_lockscreen_always_battery_summary">Visa alltid batteristatus på låsskärmen</string>
@@ -143,6 +140,14 @@
     <string name="pref_lockscreen_custom_app_toggle_title">Anpassad applikationsstartare</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">Visar ytterligare glidskena på glidskenstypen, visar en anpassad appliktionsfördjupning på rotationstypen.</string>
     <string name="pref_lockscreen_custom_app_activity_title">Anpassad applikation</string>
+    <string name="pref_lockscreen_custom_icon_style_title">Meddelandeikon för anpassad app</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">Använder meddelandeikon istället för CM-ikon för anpassad programstart</string>
+    <string name="pref_lockscreen_rotary_unlock_down_title">Drag ner för att låsa upp</string>
+    <string name="pref_lockscreen_rotary_unlock_down_summary">Att dra ner roteringshjulet låser upp. Att dra åt höger startar anpassad app</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_title">Göm rotationspilar</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_summary">Gömmer pilarna som antyder riktning på rotationshjulet</string>
+    <string name="lockscreen_style_header">Stilpreferenser</string>
+    <string name="lockscreen_delay_header">Fördröjning och tidsgräns</string>
     <string name="pref_lockscreen_style_title">Låsskärmsstil</string>
     <string name="pref_lockscreen_style_summary">Välj stil på låsskärmen</string>
     <string name="pref_volbtn_music_controls_title">Musikkontroller med volymknapparna</string>
@@ -150,9 +155,22 @@
     <string name="pref_cambtn_music_controls_title">Musikkontroller med kameraknappen</string>
     <string name="pref_cambtn_music_controls_summary">Växla mellan play/pause med långt tryck på kameraknappen när skärmen är avstängd</string>
 
-    <!-- Long Press Home -->
+    <!-- Input Settings -->
+    <string name="input_settings_title">Inmatningsinställningar</string>
+    <string name="input_settings_summary">Kontrollera knappbeteende</string>
+    <string name="haptic_title">Anpassning av haptisk feedback</string>
+    <string name="haptic_summary">Justera när haptisk feedback inträffar och hur starkt</string>
+    <string name="button_settings_title">Knappinställningar</string>
     <string name="long_press_home_title">Inställningar för långt tryck på hem</string>
     <string name="long_press_home_summary">Antalet nyligen använda applikationer, etc</string>
+    <string name="input_search_key_title">Sökknappsbeteende</string>
+    <string name="pref_input_custom_search_app_toggle_title">Sökknapps-app</string>
+    <string name="pref_input_custom_search_app_toggle_summary">Startar en anpassad app när man trycker på sökknappen</string>
+    <string name="pref_input_custom_search_app_activity_title">Anpassad applikation</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">Sök-app vid långt tryck</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">Startar en anpassad app vid långt tryck på sökknappen</string>
+
+    <!-- Long Press Home -->
     <string name="recent_apps_show_title">Visa titel på nyligen använda applikationer</string>
     <string name="recent_apps_num_title">Antal nyligen använda applikationer</string>
     <string name="recent_apps_num_summary">Antal nyligen använda applikationer att visa vid långt tryck på hem-knappen</string>
@@ -161,6 +179,51 @@
     <string name="use_custom_app_summary">Använd en anpassad applikation istället för dialogen med nyligen använda applikationer</string>
     <string name="select_custom_app_title">Välj anpassad applikation</string>
     <string name="group_applications">Applikationer</string>
+
+    <!-- HapticTweaks -->
+    <string name="title_haptic_feedback">Haptisk feedback - tryck</string>
+    <string name="summary_on_haptic_feedback">Använd haptisk feedback vid knapptryck på skärmtangenter och vissa interaktioner med gränssnittet</string>
+    <string name="summary_off_haptic_feedback">Använd inte haptisk feedback vid knapptryck på skärmtangenter och vissa interaktioner med gränssnittet</string>
+
+    <string name="title_haptic_feedback_up">Haptisk feedback - släpp</string>
+    <string name="summary_on_haptic_feedback_up">Använd haptisk feedback vid knappsläpp av skärmtangenter och vissa interaktioner med gränssnittet</string>
+    <string name="summary_off_haptic_feedback_up">Använd inte haptisk feedback vid knappsläpp av skärmtangenter och vissa interaktioner med gränssnittet</string>
+
+    <string name="title_haptic_feedback_all">Haptiska skärmelement</string>
+    <string name="summary_on_haptic_feedback_all">Använd haptisk feedback när val görs på skärmen</string>
+    <string name="summary_off_haptic_feedback_all">Använd inte haptisk feedback när val görs på skärmen</string>
+
+    <string name="title_haptic_down_decider">Ställ in mönster för Ner</string>
+    <string name="title_haptic_up_decider">Ställ in mönster för Upp</string>
+    <string name="title_haptic_long_decider">Ställ in mönster för långt tryck</string>
+    <string name="title_haptic_tap_decider">Ställ in mönster för tryck på tangentbord</string>
+
+    <string name="title_haptic_menu">Haptisk justering</string>
+    <string name="title_haptic_notice">OMSTART KRÄVS FÖR ATT ÄNDRINGARNA SKA SLÅ IGENOM GLOBALT</string>
+
+    <string name="haptic_delay_desc">ms av tid</string>
+    <string name="haptic_vibe_desc">ms på tid</string>
+
+    <string name="haptic_down_description">Justerar haptiska värden för knapptryckningar\n(Virtuella knappar och vissa interaktioner med gränssnittet)</string>
+    <string name="haptic_up_description">Justerar haptiska värden för knappsläpp\n(Virtuella knappar och vissa interaktioner med gränssnittet)</string>
+    <string name="haptic_long_description">Justerar haptiska värden för långa tryck</string>
+    <string name="haptic_tap_description">Justerar haptiska värden för tryck på skärmtangentbordet</string>
+
+    <string name="haptic_plus_minus_desc">Tryck på plus eller minus för att lägga till eller ta bort steg i sekvensen.</string>
+
+    <string name="haptic_button_plus">+</string>
+    <string name="haptic_button_minus">-</string>
+
+    <string name="haptic_button_save">Spara</string>
+    <string name="haptic_button_test">Testa</string>
+    <string name="haptic_button_cancel">Avbryt</string>
+    <string name="haptic_button_revert">Ångra Ändringar</string>
+    <string name="haptic_button_default">Ladda Standardinställningar</string>
+
+    <string name="haptic_save_toast">Sparar haptiska värden: </string>
+    <string name="haptic_cancel_toast">Haptiska värden oförändrade</string>
+    <string name="haptic_revert_toast">Återställer senast använda värden</string>
+    <string name="haptic_default_toast">Laddar hårdkodade standardvärden</string>
 
     <!-- Performance Settings -->
     <string name="performance_settings_title">Prestandainställningar</string>
@@ -205,54 +268,6 @@
     <!-- Application Settings : Install Location -->
     <string name="pref_install_location_title">Installationsplats</string>
     <string name="pref_install_location_summary">Välj var nya applikationer ska installeras</string>
-
-    <!-- HapticTweaks -->
-    <string name="haptic_title">Anpassning av haptisk feedback</string>
-    <string name="haptic_summary">Justera när haptisk feedback inträffar och hur starkt</string>
-
-    <string name="title_haptic_feedback">Haptisk feedback - tryck</string>
-    <string name="summary_on_haptic_feedback">Använd haptisk feedback vid knapptryck på skärmtangenter och vissa interaktioner med gränssnittet</string>
-    <string name="summary_off_haptic_feedback">Använd inte haptisk feedback vid knapptryck på skärmtangenter och vissa interaktioner med gränssnittet</string>
-
-    <string name="title_haptic_feedback_up">Haptisk feedback - släpp</string>
-    <string name="summary_on_haptic_feedback_up">Använd haptisk feedback vid knappsläpp av skärmtangenter och vissa interaktioner med gränssnittet</string>
-    <string name="summary_off_haptic_feedback_up">Använd inte haptisk feedback vid knappsläpp av skärmtangenter och vissa interaktioner med gränssnittet</string>
-
-    <string name="title_haptic_feedback_all">Haptiska skärmelement</string>
-    <string name="summary_on_haptic_feedback_all">Använd haptisk feedback när val görs på skärmen</string>
-    <string name="summary_off_haptic_feedback_all">Använd inte haptisk feedback när val görs på skärmen</string>
-
-    <string name="title_haptic_down_decider">Ställ in mönster för Ner</string>
-    <string name="title_haptic_up_decider">Ställ in mönster för Upp</string>
-    <string name="title_haptic_long_decider">Ställ in mönster för långt tryck</string>
-    <string name="title_haptic_tap_decider">Ställ in mönster för tryck på tangentbord</string>
-
-    <string name="title_haptic_menu">Haptisk justering</string>
-    <string name="title_haptic_notice">OMSTART KRÄVS FÖR ATT ÄNDRINGARNA SKA SLÅ IGENOM GLOBALT</string>
-
-    <string name="haptic_delay_desc">ms av tid</string>
-    <string name="haptic_vibe_desc">ms på tid</string>
-
-    <string name="haptic_down_description">Justerar haptiska värden för knapptryckningar\n(Virtuella knappar och vissa interaktioner med gränssnittet)</string>
-    <string name="haptic_up_description">Justerar haptiska värden för knappsläpp\n(Virtuella knappar och vissa interaktioner med gränssnittet)</string>
-    <string name="haptic_long_description">Justerar haptiska värden för långa tryck</string>
-    <string name="haptic_tap_description">Justerar haptiska värden för tryck på skärmtangentbordet</string>
-
-    <string name="haptic_plus_minus_desc">Tryck på plus eller minus för att lägga till eller ta bort steg i sekvensen.</string>
-
-    <string name="haptic_button_plus">+</string>
-    <string name="haptic_button_minus">-</string>
-
-    <string name="haptic_button_save">Spara</string>
-    <string name="haptic_button_test">Testa</string>
-    <string name="haptic_button_cancel">Avbryt</string>
-    <string name="haptic_button_revert">Ångra Ändringar</string>
-    <string name="haptic_button_default">Ladda Standardinställningar</string>
-
-    <string name="haptic_save_toast">Sparar haptiska värden: </string>
-    <string name="haptic_cancel_toast">Haptiska värden oförändrade</string>
-    <string name="haptic_revert_toast">Återställer senast använda värden</string>
-    <string name="haptic_default_toast">Laddar hårdkodade standardvärden</string>
 
     <string name="general_title">Allmänt</string>
     <string name="buttons_title">Knappar</string>
