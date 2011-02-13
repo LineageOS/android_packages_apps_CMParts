@@ -1,5 +1,22 @@
+/*
+ * Copyright (C) 2011 The CyanogenMod Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package com.cyanogenmod.cmparts.activities;
 
+import com.cyanogenmod.cmparts.R;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,9 +31,9 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
-import java.util.List;
 import android.widget.Toast;
-import com.cyanogenmod.cmparts.R;
+
+import java.util.List;
 
 
 public class HapticTweaksActivity extends PreferenceActivity
@@ -61,13 +78,11 @@ public class HapticTweaksActivity extends PreferenceActivity
             int listSize = list.size();
             for (int i = 0; i < listSize; i++) {
                 ResolveInfo resolveInfo = list.get(i);
-                if ((resolveInfo.activityInfo.applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM)
-                        != 0) {
+                if ((resolveInfo.activityInfo.applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM) != 0) {
 
                     // Replace the intent with this specific activity
                     preference.setIntent(new Intent().setClassName(
-                            resolveInfo.activityInfo.packageName,
-                            resolveInfo.activityInfo.name));
+                            resolveInfo.activityInfo.packageName, resolveInfo.activityInfo.name));
 
                     return true;
                 }
@@ -84,53 +99,53 @@ public class HapticTweaksActivity extends PreferenceActivity
         addPreferencesFromResource(R.xml.haptic_settings);
         PreferenceScreen prefSet = getPreferenceScreen();
         mHapticFeedbackPref = (CheckBoxPreference) prefSet.findPreference(HAPTIC_FEEDBACK_PREF);
-        mHapticFeedbackUpPref = (CheckBoxPreference) prefSet.findPreference(HAPTIC_FEEDBACK_UP_PREF);
-        mHapticFeedbackAllPref = (CheckBoxPreference) prefSet.findPreference(HAPTIC_FEEDBACK_ALL_PREF);
+        mHapticFeedbackUpPref = (CheckBoxPreference) prefSet
+                .findPreference(HAPTIC_FEEDBACK_UP_PREF);
+        mHapticFeedbackAllPref = (CheckBoxPreference) prefSet
+                .findPreference(HAPTIC_FEEDBACK_ALL_PREF);
         mHapticDownSetter = prefSet.findPreference(HAPTIC_FEEDBACK_DOWN_VAL_PREF);
         mHapticUpSetter = prefSet.findPreference(HAPTIC_FEEDBACK_UP_VAL_PREF);
         mHapticLongSetter = prefSet.findPreference(HAPTIC_FEEDBACK_LONG_VAL_PREF);
         mHapticTapSetter = prefSet.findPreference(HAPTIC_FEEDBACK_TAP_VAL_PREF);
-        
-//        mWindowManager = IWindowManager.Stub.asInterface(ServiceManager.getService("window"));
+
+        // mWindowManager =
+        // IWindowManager.Stub.asInterface(ServiceManager.getService("window"));
 
         final PreferenceGroup parentPreference = getPreferenceScreen();
         parentPreference.getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
 
-        
     }
 
     private void updateToggles() {
-            mHapticFeedbackPref.setChecked(Settings.System.getInt(
-                    getContentResolver(),
-                    Settings.System.HAPTIC_FEEDBACK_ENABLED, 0) != 0);
-            mHapticFeedbackUpPref.setChecked(Settings.System.getInt(
-                    getContentResolver(),
-                    Settings.System.HAPTIC_FEEDBACK_UP_ENABLED, 0) != 0);
-            mHapticFeedbackAllPref.setChecked(Settings.System.getInt(
-                    getContentResolver(),
-                    Settings.System.HAPTIC_FEEDBACK_ALL_ENABLED, 0) != 0);
+        mHapticFeedbackPref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.HAPTIC_FEEDBACK_ENABLED, 0) != 0);
+        mHapticFeedbackUpPref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.HAPTIC_FEEDBACK_UP_ENABLED, 0) != 0);
+        mHapticFeedbackAllPref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.HAPTIC_FEEDBACK_ALL_ENABLED, 0) != 0);
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         // always let the preference setting proceed.
         return true;
     }
-    
+
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mHapticDownSetter) {
-            String starting_string = Settings.System.getString(getContentResolver(), Settings.System.HAPTIC_DOWN_ARRAY);
+            String starting_string = Settings.System.getString(getContentResolver(),
+                    Settings.System.HAPTIC_DOWN_ARRAY);
             Intent hapticIntent = new Intent();
             hapticIntent.setClass(HapticTweaksActivity.this, HapticAdjust.class);
             Bundle bundle = new Bundle();
             bundle.putString("start_string", starting_string);
             bundle.putInt("hap_type", HAPTIC_DOWN_INTENT);
             hapticIntent.putExtras(bundle);
-            startActivityForResult(hapticIntent,HAPTIC_DOWN_INTENT);
+            startActivityForResult(hapticIntent, HAPTIC_DOWN_INTENT);
             return true;
-        }
-        else if (preference == mHapticUpSetter) {
-            String starting_string = Settings.System.getString(getContentResolver(), Settings.System.HAPTIC_UP_ARRAY);
+        } else if (preference == mHapticUpSetter) {
+            String starting_string = Settings.System.getString(getContentResolver(),
+                    Settings.System.HAPTIC_UP_ARRAY);
             Intent hapticIntent = new Intent();
             hapticIntent.setClass(HapticTweaksActivity.this, HapticAdjust.class);
             Bundle bundle = new Bundle();
@@ -139,9 +154,9 @@ public class HapticTweaksActivity extends PreferenceActivity
             hapticIntent.putExtras(bundle);
             startActivityForResult(hapticIntent, HAPTIC_UP_INTENT);
             return true;
-        }
-        else if (preference == mHapticLongSetter) {
-            String starting_string = Settings.System.getString(getContentResolver(), Settings.System.HAPTIC_LONG_ARRAY);
+        } else if (preference == mHapticLongSetter) {
+            String starting_string = Settings.System.getString(getContentResolver(),
+                    Settings.System.HAPTIC_LONG_ARRAY);
             Intent hapticIntent = new Intent();
             hapticIntent.setClass(HapticTweaksActivity.this, HapticAdjust.class);
             Bundle bundle = new Bundle();
@@ -150,9 +165,9 @@ public class HapticTweaksActivity extends PreferenceActivity
             hapticIntent.putExtras(bundle);
             startActivityForResult(hapticIntent, HAPTIC_LONG_INTENT);
             return true;
-        }
-        else if (preference == mHapticTapSetter) {
-            String starting_string = Settings.System.getString(getContentResolver(), Settings.System.HAPTIC_TAP_ARRAY);
+        } else if (preference == mHapticTapSetter) {
+            String starting_string = Settings.System.getString(getContentResolver(),
+                    Settings.System.HAPTIC_TAP_ARRAY);
             Intent hapticIntent = new Intent();
             hapticIntent.setClass(HapticTweaksActivity.this, HapticAdjust.class);
             Bundle bundle = new Bundle();
@@ -167,54 +182,61 @@ public class HapticTweaksActivity extends PreferenceActivity
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
-        switch(requestCode) {
-        case HAPTIC_DOWN_INTENT:
-            if (resultCode == RESULT_OK) {
-                  String string = data.getStringExtra("returnval");
-                  String localized = getString(R.string.haptic_save_toast);
-                  Toast.makeText(this, localized + string, Toast.LENGTH_LONG).show();
-                  Settings.System.putString(getContentResolver(), Settings.System.HAPTIC_DOWN_ARRAY, string);
-                  break;
-            }	else  	{
-                        Toast.makeText(this, getString(R.string.haptic_cancel_toast), Toast.LENGTH_LONG).show();
-                        break;
-                        }
+        switch (requestCode) {
+            case HAPTIC_DOWN_INTENT:
+                if (resultCode == RESULT_OK) {
+                    String string = data.getStringExtra("returnval");
+                    String localized = getString(R.string.haptic_save_toast);
+                    Toast.makeText(this, localized + string, Toast.LENGTH_LONG).show();
+                    Settings.System.putString(getContentResolver(),
+                            Settings.System.HAPTIC_DOWN_ARRAY, string);
+                    break;
+                } else {
+                    Toast.makeText(this, getString(R.string.haptic_cancel_toast), Toast.LENGTH_LONG)
+                            .show();
+                    break;
+                }
 
-        case HAPTIC_UP_INTENT:
-            if (resultCode == RESULT_OK) {
-                String string = data.getStringExtra("returnval");
-                String localized = getString(R.string.haptic_save_toast);
-                Toast.makeText(this, localized + string, Toast.LENGTH_LONG).show();
-                Settings.System.putString(getContentResolver(), Settings.System.HAPTIC_UP_ARRAY, string);
-                break;
-            }	else	{
-                        Toast.makeText(this, getString(R.string.haptic_cancel_toast), Toast.LENGTH_LONG).show();
-                        break;
-                        }
-        case HAPTIC_LONG_INTENT:
-            if (resultCode == RESULT_OK) {
-                String string = data.getStringExtra("returnval");
-                String localized = getString(R.string.haptic_save_toast);
-                Toast.makeText(this, localized + string, Toast.LENGTH_LONG).show();
-                Settings.System.putString(getContentResolver(), Settings.System.HAPTIC_LONG_ARRAY, string);
-                break;
-            }	else	{
-                    	Toast.makeText(this, getString(R.string.haptic_cancel_toast), Toast.LENGTH_LONG).show();
-                    	break;
-                        }
-        case HAPTIC_TAP_INTENT:
-            if (resultCode == RESULT_OK) {
-                String string = data.getStringExtra("returnval");
-                String localized = getString(R.string.haptic_save_toast);
-                Toast.makeText(this, localized + string, Toast.LENGTH_LONG).show();
-                Settings.System.putString(getContentResolver(), Settings.System.HAPTIC_TAP_ARRAY, string);
-                break;
-            }	else	{
-                    	Toast.makeText(this, getString(R.string.haptic_cancel_toast), Toast.LENGTH_LONG).show();
-                    	break;
-                        }
+            case HAPTIC_UP_INTENT:
+                if (resultCode == RESULT_OK) {
+                    String string = data.getStringExtra("returnval");
+                    String localized = getString(R.string.haptic_save_toast);
+                    Toast.makeText(this, localized + string, Toast.LENGTH_LONG).show();
+                    Settings.System.putString(getContentResolver(),
+                            Settings.System.HAPTIC_UP_ARRAY, string);
+                    break;
+                } else {
+                    Toast.makeText(this, getString(R.string.haptic_cancel_toast), Toast.LENGTH_LONG)
+                            .show();
+                    break;
+                }
+            case HAPTIC_LONG_INTENT:
+                if (resultCode == RESULT_OK) {
+                    String string = data.getStringExtra("returnval");
+                    String localized = getString(R.string.haptic_save_toast);
+                    Toast.makeText(this, localized + string, Toast.LENGTH_LONG).show();
+                    Settings.System.putString(getContentResolver(),
+                            Settings.System.HAPTIC_LONG_ARRAY, string);
+                    break;
+                } else {
+                    Toast.makeText(this, getString(R.string.haptic_cancel_toast), Toast.LENGTH_LONG)
+                            .show();
+                    break;
+                }
+            case HAPTIC_TAP_INTENT:
+                if (resultCode == RESULT_OK) {
+                    String string = data.getStringExtra("returnval");
+                    String localized = getString(R.string.haptic_save_toast);
+                    Toast.makeText(this, localized + string, Toast.LENGTH_LONG).show();
+                    Settings.System.putString(getContentResolver(),
+                            Settings.System.HAPTIC_TAP_ARRAY, string);
+                    break;
+                } else {
+                    Toast.makeText(this, getString(R.string.haptic_cancel_toast), Toast.LENGTH_LONG)
+                            .show();
+                    break;
+                }
         }
-
 
     }
 
@@ -225,8 +247,7 @@ public class HapticTweaksActivity extends PreferenceActivity
 
     public void onSharedPreferenceChanged(SharedPreferences preferences, String key) {
         if (HAPTIC_FEEDBACK_PREF.equals(key)) {
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.HAPTIC_FEEDBACK_ENABLED,
+            Settings.System.putInt(getContentResolver(), Settings.System.HAPTIC_FEEDBACK_ENABLED,
                     mHapticFeedbackPref.isChecked() ? 1 : 0);
         } else if (HAPTIC_FEEDBACK_UP_PREF.equals(key)) {
             Settings.System.putInt(getContentResolver(),

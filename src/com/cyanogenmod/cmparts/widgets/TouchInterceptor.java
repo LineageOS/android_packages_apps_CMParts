@@ -19,7 +19,6 @@ package com.cyanogenmod.cmparts.widgets;
 import com.cyanogenmod.cmparts.R;
 
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.PixelFormat;

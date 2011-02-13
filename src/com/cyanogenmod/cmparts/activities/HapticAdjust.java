@@ -1,27 +1,43 @@
+/*
+ * Copyright (C) 2011 The CyanogenMod Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package com.cyanogenmod.cmparts.activities;
 
-
 import com.cyanogenmod.cmparts.R;
+
 import android.app.Activity;
-import android.os.Bundle;
-import android.provider.Settings;
-import android.widget.Button;
-import android.text.InputType;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.TableLayout;
-import android.widget.TextView;
-import android.widget.Toast;
-import android.widget.TableRow;
-import android.widget.SeekBar;
-import android.widget.SeekBar.OnSeekBarChangeListener;
-import android.graphics.Color;
-import android.util.AttributeSet;
-import android.util.Log;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Color;
+import android.os.Bundle;
 import android.os.Vibrator;
+import android.provider.Settings;
+import android.text.InputType;
+import android.util.AttributeSet;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.SeekBar;
+import android.widget.SeekBar.OnSeekBarChangeListener;
+import android.widget.TableLayout;
+import android.widget.TableRow;
+import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class HapticAdjust extends Activity {
@@ -39,23 +55,42 @@ public class HapticAdjust extends Activity {
     int counter=0;
     String startString = "0";
     String defString = "0";
-    
-static final String TAG = "HapticAdjust";
-static final int DOWN_TEXT = 1;
-static final int UP_TEXT = 2;
-static final int LONG_TEXT = 3;
-static final int TAP_TEXT = 4;
+
+
+    static final String TAG = "HapticAdjust";
+
+    static final int DOWN_TEXT = 1;
+
+    static final int UP_TEXT = 2;
+
+    static final int LONG_TEXT = 3;
+
+    static final int TAP_TEXT = 4;
 
     OnClickListener myClickListener = new OnClickListener() {
 
         public void onClick(View v) {
-            if(v==addButton) { addRow(0);}
-            if(v==subButton) { subRow();}
-            if(v==saveButton) { saveChanges();}
-            if(v==cancelButton) {cancelChanges();}
-            if(v==mTestButton) {testVibe();}
-            if(v==revertButton) {revertChanges();}
-            if(v==defaultButton) {defSet(hapType);}
+            if (v == addButton) {
+                addRow(0);
+            }
+            if (v == subButton) {
+                subRow();
+            }
+            if (v == saveButton) {
+                saveChanges();
+            }
+            if (v == cancelButton) {
+                cancelChanges();
+            }
+            if (v == mTestButton) {
+                testVibe();
+            }
+            if (v == revertButton) {
+                revertChanges();
+            }
+            if (v == defaultButton) {
+                defSet(hapType);
+            }
         }
     };
 
@@ -63,19 +98,17 @@ static final int TAP_TEXT = 4;
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if (HapticAdjust.this.getIntent().getExtras() != null)
-        {
-        Bundle bundle = this.getIntent().getExtras();
-        startString = bundle.getString("start_string");
-        hapType = bundle.getInt("hap_type");
-        }
-        else {
+        if (HapticAdjust.this.getIntent().getExtras() != null) {
+            Bundle bundle = this.getIntent().getExtras();
+            startString = bundle.getString("start_string");
+            hapType = bundle.getInt("hap_type");
+        } else {
             Log.i(TAG, "haptic adjust something wrong with bundle");
         }
 
-       // set explainer text at top of view depending on where hapticadjust was called from (up, down, or longpress pattern
+        // set explainer text at top of view depending on where hapticadjust was
+        // called from (up, down, or longpress pattern
         setContentView(R.layout.hapticadjust);
-
 
         if (hapType == DOWN_TEXT) {
             TextView downDesc;
@@ -84,32 +117,28 @@ static final int TAP_TEXT = 4;
             downDesc = (TextView) findViewById(R.id.type_desc);
             downDesc.setText(str);
             downDesc.requestLayout();
-        } else
-        if (hapType == UP_TEXT) {
+        } else if (hapType == UP_TEXT) {
             TextView downDesc;
             String str;
             str = getString(R.string.haptic_up_description);
             downDesc = (TextView) findViewById(R.id.type_desc);
             downDesc.setText(str);
             downDesc.requestLayout();
-        } else
-        if (hapType == LONG_TEXT) {
+        } else if (hapType == LONG_TEXT) {
             TextView downDesc;
             String str;
             str = getString(R.string.haptic_long_description);
             downDesc = (TextView) findViewById(R.id.type_desc);
             downDesc.setText(str);
             downDesc.requestLayout();
-        } else
-        if (hapType == TAP_TEXT) {
+        } else if (hapType == TAP_TEXT) {
             TextView downDesc;
             String str;
             str = getString(R.string.haptic_tap_description);
             downDesc = (TextView) findViewById(R.id.type_desc);
             downDesc.setText(str);
             downDesc.requestLayout();
-            }
-
+        }
 
         addButton = (Button) findViewById(R.id.add_button);
         subButton = (Button) findViewById(R.id.sub_button);
@@ -129,25 +158,23 @@ static final int TAP_TEXT = 4;
         setupRows(startString);
     }
 
-
-   // take value passed from parent activity (spare parts) and populate rows
-    private boolean setupRows (String ss) {
+    // take value passed from parent activity (spare parts) and populate rows
+    private boolean setupRows(String ss) {
         if (ss == null) {
             return false;
-            }
+        }
         int[] vals = stringToInt(ss);
         int length = vals.length;
         int i;
-        for (i=0; i < length; i++ ) {
-        addRow(vals[i]);
+        for (i = 0; i < length; i++) {
+            addRow(vals[i]);
         }
         checkRowColors();
         return true;
     }
 
-
-
-    // adds a row - either at user request (+) or generated upon call based on stored values
+    // adds a row - either at user request (+) or generated upon call based on
+    // stored values
 
     public boolean addRow(int val) {
         boolean output;
@@ -155,25 +182,23 @@ static final int TAP_TEXT = 4;
 
         TableRow row = (TableRow) new TableRow(this);
         int curid = 0;
-        curid = counter+201;
+        curid = counter + 201;
         row.setId(curid);
         SeekBar sb = new SeekBar(this);
-        sb.setLayoutParams(
-            new
-            TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.WRAP_CONTENT, 1)
-        );
+        sb.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT,
+                TableRow.LayoutParams.WRAP_CONTENT, 1));
         sb.setFocusable(true);
         sb.setMax(100);
         sb.setProgress(val);
-        sb.setPadding(10,0,0,0);
-        sb.setId(counter+101);
+        sb.setPadding(10, 0, 0, 0);
+        sb.setId(counter + 101);
         row.addView(sb);
         sb.setOnSeekBarChangeListener(sbChange);
 
         TextView t = new TextView(this);
         String s = Integer.toString(sb.getProgress());
         t.setText(s);
-        t.setId(counter+1001);
+        t.setId(counter + 1001);
         t.setTextSize(20);
         t.setMinEms(3);
         t.setPadding(10, 0, 0, 0);
@@ -181,47 +206,51 @@ static final int TAP_TEXT = 4;
         row.addView(t);
 
         TextView onoff = new TextView(this);
-        String str = "  "+getString(R.string.haptic_vibe_desc);
+        String str = "  " + getString(R.string.haptic_vibe_desc);
         onoff.setTextColor(Color.WHITE);
         if (counter % 2 == 0) {
-            str = "  "+getString(R.string.haptic_delay_desc);
+            str = "  " + getString(R.string.haptic_delay_desc);
             onoff.setTextColor(Color.RED);
         }
         onoff.setPadding(0, 0, 15, 0);
         onoff.setText(str);
-        onoff.setId(counter+401);
+        onoff.setId(counter + 401);
         row.addView(onoff);
 
         table.addView(row);
         counter = table.getChildCount();
-        output=true;
+        output = true;
         checkRowColors();
         return output;
     }
 
-// removes bottom row - at user request (-)
+    // removes bottom row - at user request (-)
 
     public void subRow() {
-        if (counter==1) {return;}; // can't have less than 1 row
+        if (counter == 1) {
+            return;
+        }
+        ; // can't have less than 1 row
         TableLayout table = (TableLayout) findViewById(R.id.TableLayout01);
         int target = counter + 200;
         table.removeView(findViewById(target));
-        counter = table.getChildCount(); //update number of rows
+        counter = table.getChildCount(); // update number of rows
         checkRowColors();
         return;
     }
 
-// save settings: trim off any trailing 0's, return to haptictweaks with bundle
+    // save settings: trim off any trailing 0's, return to haptictweaks with
+    // bundle
     private void saveChanges() {
         int[] array = new int[counter];
         array = getArray();
         String output = intToString(array);
         Intent returnIntent = new Intent();
         returnIntent.putExtra("returnval", output);
-        setResult(RESULT_OK,returnIntent);
+        setResult(RESULT_OK, returnIntent);
         mVibrator.cancel();
         finish();
-        
+
     }
 
     private void cancelChanges() {
@@ -244,21 +273,23 @@ static final int TAP_TEXT = 4;
         clearTable();
         Toast.makeText(this, getString(R.string.haptic_default_toast), Toast.LENGTH_LONG).show();
         if (type == DOWN_TEXT) {
-            defString = Settings.System.getString(getContentResolver(), Settings.System.HAPTIC_DOWN_ARRAY_DEFAULT);
-        } else
-        if (type == UP_TEXT) {
-            defString = Settings.System.getString(getContentResolver(), Settings.System.HAPTIC_UP_ARRAY_DEFAULT);
-        } else
-        if (type == LONG_TEXT) {
-            defString = Settings.System.getString(getContentResolver(), Settings.System.HAPTIC_LONG_ARRAY_DEFAULT);
+            defString = Settings.System.getString(getContentResolver(),
+                    Settings.System.HAPTIC_DOWN_ARRAY_DEFAULT);
+        } else if (type == UP_TEXT) {
+            defString = Settings.System.getString(getContentResolver(),
+                    Settings.System.HAPTIC_UP_ARRAY_DEFAULT);
+        } else if (type == LONG_TEXT) {
+            defString = Settings.System.getString(getContentResolver(),
+                    Settings.System.HAPTIC_LONG_ARRAY_DEFAULT);
         }
         if (type == TAP_TEXT) {
-            defString = Settings.System.getString(getContentResolver(), Settings.System.HAPTIC_TAP_ARRAY_DEFAULT);
+            defString = Settings.System.getString(getContentResolver(),
+                    Settings.System.HAPTIC_TAP_ARRAY_DEFAULT);
         }
         boolean worked = setupRows(defString);
         if (!worked) {
-        	revertChanges();
-        	return;
+            revertChanges();
+            return;
         }
         checkRowColors();
     }
@@ -274,12 +305,11 @@ static final int TAP_TEXT = 4;
             vibePattern[i] = array[i];
         }
         if (vibePattern.length == 1) {
-        	mVibrator.vibrate(vibePattern[0]);
-            }
-        else {
+            mVibrator.vibrate(vibePattern[0]);
+        } else {
             mVibrator.vibrate(vibePattern, -1);
-            }
-        
+        }
+
     }
 
     private void clearTable() {
@@ -288,7 +318,6 @@ static final int TAP_TEXT = 4;
         counter = 0;
     }
 
-
     private int[] getArray() {
         int[] result = new int[counter];
         int i;
@@ -296,23 +325,21 @@ static final int TAP_TEXT = 4;
         int k;
         int trimPos = 0;
         int finalLength;
-        for (i=0; i < counter; i++) {
+        for (i = 0; i < counter; i++) {
             TextView target;
-            target = (TextView) findViewById(i+1001);
+            target = (TextView) findViewById(i + 1001);
             result[i] = Integer.parseInt(target.getText().toString());
         }
         int startLen = result.length;
-        for (j=(startLen-1); j > 0; j--) {
-            if (result[j] == 0)    {
+        for (j = (startLen - 1); j > 0; j--) {
+            if (result[j] == 0) {
                 trimPos = j;
-            } else break;
+            } else
+                break;
         }
-        if (trimPos == 0)
-            {
+        if (trimPos == 0) {
             return result;
-            }
-        else
-            {
+        } else {
             finalLength = trimPos;
             int[] trimmed = new int[finalLength];
             for (k = 0; k < finalLength; k++) {
@@ -323,41 +350,39 @@ static final int TAP_TEXT = 4;
     }
 
     OnSeekBarChangeListener sbChange = new OnSeekBarChangeListener() {
-        public void onProgressChanged(SeekBar s, int progress, boolean touch){
-            if(touch){
-                TableRow row = (TableRow)s.getParent();
-                TextView changeval = (TextView)row.getChildAt(1);
+        public void onProgressChanged(SeekBar s, int progress, boolean touch) {
+            if (touch) {
+                TableRow row = (TableRow) s.getParent();
+                TextView changeval = (TextView) row.getChildAt(1);
                 changeval.setText(Integer.toString(progress));
             }
         }
 
-        public void onStartTrackingTouch(SeekBar s){
+        public void onStartTrackingTouch(SeekBar s) {
         }
 
-        public void onStopTrackingTouch(SeekBar s){
+        public void onStopTrackingTouch(SeekBar s) {
         }
     };
-    
+
     private void checkRowColors() {
-    	if (counter == 1) {
-    		int target = counter + 400;
-    		TextView tv = (TextView) findViewById(target);
+        if (counter == 1) {
+            int target = counter + 400;
+            TextView tv = (TextView) findViewById(target);
             tv.setTextColor(Color.WHITE);
-            String str = "  "+getString(R.string.haptic_vibe_desc);
+            String str = "  " + getString(R.string.haptic_vibe_desc);
             tv.setText(str);
             tv.requestLayout();
-    	} 
-    	else if (counter > 1) {
-    		int target = 401;
-    		TextView tv = (TextView) findViewById(target);
+        } else if (counter > 1) {
+            int target = 401;
+            TextView tv = (TextView) findViewById(target);
             tv.setTextColor(Color.RED);
-            String str = "  "+getString(R.string.haptic_delay_desc);
+            String str = "  " + getString(R.string.haptic_delay_desc);
             tv.setText(str);
             tv.requestLayout();
-    	}
-    	else {
-    		revertChanges();
-    	}
+        } else {
+            revertChanges();
+        }
     }
 
     private int[] stringToInt(String inpstring) {
@@ -365,7 +390,7 @@ static final int TAP_TEXT = 4;
         int los = splitstr.length;
         int[] returnint = new int[los];
         int i;
-        for (i=0; i < los; i++ ) {
+        for (i = 0; i < los; i++) {
             returnint[i] = Integer.parseInt(splitstr[i].trim());
         }
         return returnint;
@@ -376,8 +401,10 @@ static final int TAP_TEXT = 4;
         int lol = inpint.length;
         String workstring = "";
         int i;
-        for (i=0; i < lol; i++ ) {
-            if (i>0) { workstring = workstring + ","; }
+        for (i = 0; i < lol; i++) {
+            if (i > 0) {
+                workstring = workstring + ",";
+            }
             workstring = workstring + String.valueOf(inpint[i]);
         }
         returnstring = workstring;
@@ -390,23 +417,24 @@ static final int TAP_TEXT = 4;
             return null;
         }
         long[] out = new long[ar.length];
-        for (int i=0; i<ar.length; i++) {
+        for (int i = 0; i < ar.length; i++) {
             out[i] = ar[i];
         }
         return out;
     }
-    
-    
+
     public static class TestButton extends Button {
         public TestButton(Context context) {
-           super(context);
-            }
-        public TestButton(Context context, AttributeSet attrs){
+            super(context);
+        }
+
+        public TestButton(Context context, AttributeSet attrs) {
             super(context, attrs);
-            }
+        }
+
         @Override
         public void playSoundEffect(int effectId) {
             return;
         }
-    } 
+    }
 }

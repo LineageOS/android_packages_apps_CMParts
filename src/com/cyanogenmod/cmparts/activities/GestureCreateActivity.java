@@ -1,4 +1,6 @@
 /*
+ * Copyright (C) 2011 The CyanogenMod Project
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -15,25 +17,25 @@
 package com.cyanogenmod.cmparts.activities;
 
 import com.cyanogenmod.cmparts.R;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.content.Intent.ShortcutIconResource;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
-import android.os.Bundle;
-import android.provider.Settings;
-import android.view.View;
-import android.view.MotionEvent;
-import android.gesture.GestureOverlayView;
 import android.gesture.Gesture;
 import android.gesture.GestureLibrary;
+import android.gesture.GestureOverlayView;
 import android.gesture.Prediction;
-import android.graphics.RectF;
+import android.os.Bundle;
+import android.provider.Settings;
+import android.view.MotionEvent;
+import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public class GestureCreateActivity extends Activity {
     private static final float LENGTH_THRESHOLD = 120.0f;
