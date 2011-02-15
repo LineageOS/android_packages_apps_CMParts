@@ -110,7 +110,7 @@
     <string name="trackball_category_remove_summary">Remove a category from the list</string>
     <string name="trackball_remove_default_toast">Can\'t remove this category as its the default one.</string>
     <string name="trackball_reset_all">Reset all colors and categories.</string>
-    <string name="trackball_array_error">Unfortunately there was an array error. This package has been forced into Miscellaneous category.</string>
+    <string name="trackball_array_error">Unfortunately there was an array error. This package has been forced into the Miscellaneous category.</string>
     <string name="trackball_color_notice_title">NOTE:</string>
     <string name="trackball_color_notice_summary">Not all colors will display on all devices.</string>
 
@@ -169,10 +169,10 @@
     <string name="long_press_home_summary">Number of recent applications, etc</string>
     <string name="input_search_key_title">Search key behaviour</string>
     <string name="pref_input_custom_search_app_toggle_title">Search key app</string>
-    <string name="pref_input_custom_search_app_toggle_summary">Starts a custom app when pressing search key</string>
+    <string name="pref_input_custom_search_app_toggle_summary">Starts a custom app when pressing the search key</string>
     <string name="pref_input_custom_search_app_activity_title">Custom application</string>
     <string name="pref_input_custom_long_search_app_toggle_title">Long-press search app</string>
-    <string name="pref_input_custom_long_search_app_toggle_summary">Starts a custom app when long-pressing search key</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">Starts a custom app when long-pressing the search key</string>
 
     <!-- Long Press Home -->
     <string name="recent_apps_show_title">Show recent apps title</string>
