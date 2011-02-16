@@ -39,6 +39,8 @@ import java.util.ArrayList;
 public class LockscreenActivity extends PreferenceActivity implements OnPreferenceChangeListener {
 
     private static final String LOCKSCREEN_MUSIC_CONTROLS = "lockscreen_music_controls";
+    private static final String LOCKSCREEN_NOW_PLAYING = "pref_lockscreen_now_playing";
+    private static final String LOCKSCREEN_ALBUM_ART = "pref_lockscreen_album_art";
     private static final String LOCKSCREEN_MUSIC_CONTROLS_HEADSET = "pref_lockscreen_music_headset";
     private static final String LOCKSCREEN_ALWAYS_MUSIC_CONTROLS = "lockscreen_always_music_controls";
     private static final String LOCKSCREEN_ALWAYS_BATTERY = "lockscreen_always_battery";
@@ -53,9 +55,10 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
     private static final String LOCKSCREEN_ROTARY_HIDE_ARROWS_TOGGLE = "pref_lockscreen_rotary_hide_arrows_toggle";
     private static final String LOCKSCREEN_CUSTOM_ICON_STYLE = "pref_lockscreen_custom_icon_style";
     private static final String LOCKSCREEN_DISABLE_UNLOCK_TAB = "lockscreen_disable_unlock_tab";
-    private static final String MESSAGING_TAB_APP = "pref_messaging_tab_app";
 
     private CheckBoxPreference mMusicControlPref;
+    private CheckBoxPreference mNowPlayingPref;
+    private CheckBoxPreference mAlbumArtPref;
     private CheckBoxPreference mAlwaysMusicControlPref;
     private CheckBoxPreference mAlwaysBatteryPref;
     private CheckBoxPreference mTrackballUnlockPref;
@@ -97,6 +100,16 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
         mMusicControlPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_MUSIC_CONTROLS);
         mMusicControlPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_MUSIC_CONTROLS, 1) == 1);
+
+        /* Album Art */
+        mAlbumArtPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_ALBUM_ART);
+        mAlbumArtPref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_ALBUM_ART, 1) == 1);
+
+        /* Now Playing / Song title */
+        mNowPlayingPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_NOW_PLAYING);
+        mNowPlayingPref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_NOW_PLAYING, 1) == 1);
 
         /* Show Music Controls with Headset */
         mLockscreenMusicHeadsetPref = (ListPreference) prefSet.findPreference(LOCKSCREEN_MUSIC_CONTROLS_HEADSET);
@@ -203,6 +216,16 @@ public class LockscreenActivity extends PreferenceActivity implements OnPreferen
             value = mMusicControlPref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_MUSIC_CONTROLS, value ? 1 : 0);
+            return true;
+        } else if (preference == mNowPlayingPref) {
+                value = mNowPlayingPref.isChecked();
+                Settings.System.putInt(getContentResolver(),
+                        Settings.System.LOCKSCREEN_NOW_PLAYING, value ? 1 : 0);
+                return true;
+        } else if (preference == mAlbumArtPref) {
+            value = mAlbumArtPref.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_ALBUM_ART, value ? 1 : 0);
             return true;
         } else if (preference == mAlwaysMusicControlPref) {
             value = mAlwaysMusicControlPref.isChecked();
