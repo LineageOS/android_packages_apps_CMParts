@@ -118,6 +118,17 @@
     <string name="notification_battery_warning_title">WARNING: May cause battery drain</string>
     <string name="notification_battery_warning">This option has been proven to increase the amount of battery drain by ~3% per hour. If you notice an increase in drain during trackball lights pulsing then this option is why. Do not enable if you don\'t wish to incur the drain.</string>
 
+    <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_stylecfg_title">Style options</string>
+    <string name="pref_lockscreen_stylecfg_summary">Configure the lockscreen style and the corresponding settings</string>
+    <string name="pref_lockscreen_widgets_title">Widget options</string>
+    <string name="pref_lockscreen_widgets_summary">Enable or disable various widgets on the lockscreen</string>
+    <string name="pref_lockscreen_unlock_title">Unlock options</string>
+    <string name="pref_lockscreen_unlock_summary">Controls button unlocking and quick unlock</string>
+    <string name="pref_lockscreen_gesture_title">Lockscreen gestures</string>
+    <string name="pref_lockscreen_gesture_summary">Enable and configure gestures on the lockscreen to control custom behavior</string>
+    <string name="pref_lockscreen_timeout_title">Delay and timeout</string>
+    <string name="pref_lockscreen_timeout_summary">Configure screen timout delay and screen turn off delay</string>
 
     <!-- Lockscreen Settings -->
     <string name="lockscreen_settings_title">Lockscreen settings</string>
@@ -158,6 +169,8 @@
     <string name="pref_volbtn_music_controls_summary">Seek music tracks when long-pressing the volume buttons while screen off</string>
     <string name="pref_cambtn_music_controls_title">Camera button music control</string>
     <string name="pref_cambtn_music_controls_summary">Toggle play/pause when long-pressing the camera button while screen off</string>
+    <string name="lockscreen_widgets_note_title">Note</string>
+    <string name="lockscreen_widgets_note_summary">Choosing minimalistic lense style hides all widgets except music control. Yet below options are not unset to allow easy switching to other styles.</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Input settings</string>
@@ -430,7 +443,6 @@
     <string name="user_defined_not_set">Nothing Set</string>
 
     <!--  Lockscreen gesture strings -->
-    <string name="pref_lockscreen_title">Lockscreen gestures</string>
     <string name="pref_lockscreen_gestures_enable_title">Use lockscreen gestures</string>
     <string name="pref_lockscreen_gestures_trail_title">Show gesture trails</string>
     <string name="pref_lockscreen_gestures_builder_title">Build gestures</string>
