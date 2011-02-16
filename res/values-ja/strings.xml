@@ -112,6 +112,13 @@
     <string name="input_settings_summary">コントロールボタンの挙動など</string>
     <string name="button_settings_title">ボタン設定</string>
     <string name="lockscreen_settings_title">ロック画面設定</string>
+    <string name="input_search_key_title">検索キーの挙動</string>
+    <string name="pref_input_custom_search_app_toggle_title">検索キーのアプリ</string>
+    <string name="pref_input_custom_search_app_toggle_summary">検索キーを押したときにカスタムアプリを起動する</string>
+    <string name="pref_input_custom_search_app_activity_title">カスタムアプリケーション</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">検索キー長押しのアプリ</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">検索キーを長押ししたときにカスタムアプリを起動する</string>
+
     <string name="pref_lockscreen_always_battery_title">常にバッテリー状態を表示</string>
     <string name="pref_lockscreen_always_battery_summary">常にバッテリーの状態をロックスクリーンに表示する</string>
     <string name="pref_lockscreen_music_controls_title">音楽コントロール</string>
