@@ -16,6 +16,8 @@
     <string name="interface_settings_title_head">Benutzeroberfläche</string>
     <string name="interface_settings_title_subhead">Benutzeroberfläche-Einstellungen</string>
     <string name="interface_settings_summary_head">Tweaks, Überscrollen, Render-Effekt</string>
+
+    <!-- Lockscreen Settings -->
     <string name="lockscreen_settings_title_head">Lockscreen</string>
     <string name="lockscreen_settings_title_subhead">Lockscreen-Einstellungen</string>
     <string name="lockscreen_settings_summary_head">Lockscreen-Gesten, Aussehen, Entsperr-Optionen</string>
@@ -214,14 +216,13 @@
     <string name="summary_save_theme">Die derzeitigen Farbeinstellungen auf der SD-Karte speichern</string>
 
     <!-- Input Settings -->
-    <string name="input_settings_title">Eingabe-Einstellungen</string>
-    <string name="input_settings_summary">Verhalten der Tasten kontrollieren</string>
-    <string name="button_settings_title">Tasten-Einstellungen</string>
     <string name="lockscreen_settings_title">Bildschirmsperre-Einstellungen</string>
     <string name="pref_lockscreen_always_battery_title">Batteriestatus immer anzeigen</string>
     <string name="pref_lockscreen_always_battery_summary">Den Batteriestatus immer auf dem Lockscreen anzeigen</string>
     <string name="pref_lockscreen_music_controls_title">Musiksteuerung bei Bildschirmsperre</string>
     <string name="pref_lockscreen_music_controls_summary">Steuerelemente für Musik auf gesperrtem Bildschirm anzeigen</string>
+    <string name="pref_lockscreen_music_headset_title">Musiksteuerung mit Kopfhörer</string>
+    <string name="pref_lockscreen_music_headset_summary">Zeige die Steuerelemente für Musik, wenn ein Kabel- oder Bluetoothkopfhörer angeschlossen ist</string>
     <string name="pref_lockscreen_always_music_controls_title">Immer anzeigen</string>
     <string name="pref_lockscreen_always_music_controls_summary">Die Steuerelemente für Musik immer anzeigen, egal ob gerade Musik abgespielt wird oder nicht</string>
     <string name="pref_trackball_wake_title">Trackball-Aufwachen</string>
@@ -232,9 +233,17 @@
     <string name="pref_menu_unlock_summary">Menütaste entsperrt das Gerät.</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Schnelles Entsperren</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">PIN und Passwort ohne Bestätigung eingeben. Löschen gilt als Fehlversuch.</string>
-    <string name="pref_lockscreen_phone_messaging_control_title">Telefon und SMS/MMS</string>
-    <string name="pref_lockscreen_phone_messaging_control_summary">Telefon und SMS/MMS Slider auf gesperrtem Bildschirm anzeigen.</string>
-    <string name="pref_messaging_tab_app_title">SMS/MMS Slider Anwendung</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">Eigener App-Starter</string>
+    <string name="pref_lockscreen_custom_app_toggle_summary">Zeigt einen zweiten schiebbaren Tab bzw. rotierbaren Slider</string>
+    <string name="pref_lockscreen_custom_app_activity_title">Verknüpfte Anwendung</string>
+    <string name="pref_lockscreen_custom_icon_style_title">Nachrichtensymbol für Anwendung</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">Nachrichten-Icon statt CM-Icon für den App-Starter verwenden</string>
+    <string name="pref_lockscreen_rotary_unlock_down_title">Runterziehen zum Entsperren</string>
+    <string name="pref_lockscreen_rotary_unlock_down_summary">Zum Entsperren des Bildschirms den rotierenden Slider runterziehen. Nach rechts schieben startet die App</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_title">Rotationspfeile verbergen</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_summary">Blendet die Richtungshinweise beim rotierenden Slider aus</string>
+    <string name="lockscreen_style_header">Aussehen</string>
+    <string name="lockscreen_delay_header">Verzögerung und Abschaltung</string>
     <string name="pref_lockscreen_style_title">Lockscreen-Aussehen</string>
     <string name="pref_lockscreen_style_summary">Einen Stil für den Lockscreen auswählen</string>
     <string name="pref_volbtn_music_controls_title">Titelwahl mit Lautstärketasten</string>
@@ -242,9 +251,22 @@
     <string name="pref_cambtn_music_controls_title">Play/Pause mit Kamerataste</string>
     <string name="pref_cambtn_music_controls_summary">Wenn Bildschirm ausgeschaltet ist, Wiedergabe fortsetzen/pausieren durch Gedrückthalten der Kamerataste</string>
 
+    <!-- Input Settings -->
+    <string name="input_settings_title">Eingabeeinstellungen</string>
+    <string name="input_settings_summary">Tastenverhalten</string>
+    <string name="haptic_title">Haptisches Feedback</string>
+    <string name="haptic_summary">Anpassungen für Stärke und Auftreten des haptischen Feedbacks (HF)</string>
+    <string name="button_settings_title">Tasteneinstellungen</string>
+    <string name="long_press_home_title">HOME Gedrückthalten</string>
+    <string name="long_press_home_summary">Anzahl letzter Apps, etc...</string>
+    <string name="input_search_key_title">SUCHE-Taste</string>
+    <string name="pref_input_custom_search_app_toggle_title">App mit SUCHE-Taste verknüpfen</string>
+    <string name="pref_input_custom_search_app_toggle_summary">Starten einer festgelegten Anwendung beim Drücken der SUCHE-Taste</string>
+    <string name="pref_input_custom_search_app_activity_title">App festlegen</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">SUCHE-Taste gedrückthalten</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">Starten einer festgelegten Anwendung beim Gedrückthalten der SUCHE-Taste</string>
+
     <!-- Long Press Home -->
-    <string name="long_press_home_title">Home-Gedrückt-Einstellungen</string>
-    <string name="long_press_home_summary">Anzahl letzter Apps, etc.</string>
     <string name="recent_apps_show_title">Titel für letzte Apps zeigen</string>
     <string name="recent_apps_num_title">Anzahl letzter Apps</string>
     <string name="recent_apps_num_summary">Anzahl anzuzeigender Apps nach Gedrückthalten der Home-Taste</string>
@@ -254,46 +276,8 @@
     <string name="select_custom_app_title">Wähle andere Anwendung</string>
     <string name="group_applications">Anwendungen</string>
 
-    <!-- Performance Settings -->
-    <string name="performance_settings_title">Leistung</string>
-    <string name="performance_settings_summary">Tweaks für Geräteleistung</string>
-
-    <!-- Performance Settings : Compcache -->
-    <string name="pref_compcache_title">Compcache-Speichernutzung</string>
-    <string name="pref_compcache_summary">Für virtuell erhöhte Kapazitäten Compcache einschalten und Größe auswählen. (Neustart erforderlich)</string>
-
-    <!-- Performance Settings : JIT Mode -->
-    <string name="pref_jit_mode_title">JIT verwenden</string>
-    <string name="pref_jit_mode_summary">Den Dalvik Just-In-Time Compiler verwenden (Neustart erforderlich)</string>
-
-    <!-- Performance Settings : Dithering -->
-    <string name="pref_use_dithering_title">Dithering</string>
-    <string name="pref_use_dithering_summary">Dithering von Oberflächen verbessert die Bildqualität auf Kosten der Geräteleistung (Neustart erforderlich)</string>
-
-    <!-- Performance Settings : VM Heap Size -->
-    <string name="pref_heapsize_title">Größe VM-Heaps</string>
-    <string name="pref_heapsize_summary">Maximale Speichernutzung pro VM-Heap (Neustart erforderlich)</string>
-
-    <!-- Performance Settings : Warning dialog -->
-    <string name="performance_settings_warning_title">WARNUNG: Drachen voraus!</string>
-    <string name="performance_settings_warning">Diese experimentellen Optionen beeinflussen die Leistung des Systems, wahrscheinlich zum Schlechten. Wir bitten darum, keine Fehler zu melden, wenn du die Standardeinstellungen änderst.</string>
-
-    <!-- Application Settings -->
-    <string name="application_settings_title">Anwendungseinstellungen</string>
-    <string name="application_settings_summary">Verschiedene Anwendungseinstellungen ändern, wie zB. Installationsort, etc...</string>
-
-    <!-- Application Settings : Move any app -->
-    <string name="pref_move_all_apps_title">Verschieben erlauben</string>
-    <string name="pref_move_all_apps_summary">Das Verschieben beliebiger Anwendungen auf externen Speicher erlauben</string>
-
-    <!-- Application Settings : Install Location -->
-    <string name="pref_install_location_title">Installationsort</string>
-    <string name="pref_install_location_summary">Installationsort für neue Anwendungen auswählen</string>
 
     <!-- HapticTweaks -->
-    <string name="haptic_title">Haptisches Feedback</string>
-    <string name="haptic_summary">Anpassungen für Stärke und Auftreten des haptischen Feedbacks (HF)</string>
-
     <string name="title_haptic_feedback">HF bei Drücken</string>
     <string name="summary_on_haptic_feedback">Haptisches Feedback beim Drücken von Bildschirmtasten und bestimmten Interaktionen</string>
     <string name="summary_off_haptic_feedback">Kein haptisches Feedback bei Bildschirmtasten und bestimmten Interaktionen</string>
@@ -337,6 +321,42 @@
     <string name="haptic_cancel_toast">HF-Werte unverändert.</string>
     <string name="haptic_revert_toast">Wiederherstellen letzter Werte...</string>
     <string name="haptic_default_toast">Lade Standardwerte...</string>
+
+    <!-- Performance Settings -->
+    <string name="performance_settings_title">Leistung</string>
+    <string name="performance_settings_summary">Tweaks für Geräteleistung</string>
+
+    <!-- Performance Settings : Compcache -->
+    <string name="pref_compcache_title">Compcache-Speichernutzung</string>
+    <string name="pref_compcache_summary">Für virtuell erhöhte Kapazitäten Compcache einschalten und Größe auswählen. (Neustart erforderlich)</string>
+
+    <!-- Performance Settings : JIT Mode -->
+    <string name="pref_jit_mode_title">JIT verwenden</string>
+    <string name="pref_jit_mode_summary">Den Dalvik Just-In-Time Compiler verwenden (Neustart erforderlich)</string>
+
+    <!-- Performance Settings : Dithering -->
+    <string name="pref_use_dithering_title">Dithering</string>
+    <string name="pref_use_dithering_summary">Dithering von Oberflächen verbessert die Bildqualität auf Kosten der Geräteleistung (Neustart erforderlich)</string>
+
+    <!-- Performance Settings : VM Heap Size -->
+    <string name="pref_heapsize_title">Größe VM-Heaps</string>
+    <string name="pref_heapsize_summary">Maximale Speichernutzung pro VM-Heap (Neustart erforderlich)</string>
+
+    <!-- Performance Settings : Warning dialog -->
+    <string name="performance_settings_warning_title">WARNUNG: Drachen voraus!</string>
+    <string name="performance_settings_warning">Diese experimentellen Optionen beeinflussen die Leistung des Systems, wahrscheinlich zum Schlechten. Wir bitten darum, keine Fehler zu melden, wenn du die Standardeinstellungen änderst.</string>
+
+    <!-- Application Settings -->
+    <string name="application_settings_title">Anwendungseinstellungen</string>
+    <string name="application_settings_summary">Verschiedene Anwendungseinstellungen ändern, wie zB. Installationsort, etc...</string>
+
+    <!-- Application Settings : Move any app -->
+    <string name="pref_move_all_apps_title">Verschieben erlauben</string>
+    <string name="pref_move_all_apps_summary">Das Verschieben beliebiger Anwendungen auf externen Speicher erlauben</string>
+
+    <!-- Application Settings : Install Location -->
+    <string name="pref_install_location_title">Installationsort</string>
+    <string name="pref_install_location_summary">Installationsort für neue Anwendungen auswählen</string>
 
     <string name="general_title">Allgemein</string>
     <string name="buttons_title">Tasten</string>
