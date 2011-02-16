@@ -1,110 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory android:title="@string/buttons_title"
+    <PreferenceCategory android:title="@string/general_title"
         android:key="pref_category_button_settings">
 
+        <PreferenceScreen android:key="lockscreen_stylecfg"
+            android:title="@string/pref_lockscreen_stylecfg_title"
+            android:summary="@string/pref_lockscreen_stylecfg_summary">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.LockscreenStyleActivity" />
+        </PreferenceScreen>
+
+        <PreferenceScreen android:key="lockscreen_widgets"
+            android:title="@string/pref_lockscreen_widgets_title"
+            android:summary="@string/pref_lockscreen_widgets_summary">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.LockscreenWidgetsActivity" />
+        </PreferenceScreen>
+
+        <PreferenceScreen android:key="lockscreen_unlock"
+            android:title="@string/pref_lockscreen_unlock_title"
+            android:summary="@string/pref_lockscreen_unlock_summary">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.LockscreenUnlockActivity" />
+        </PreferenceScreen>
+
         <PreferenceScreen android:key="lockscreen_gestures"
-            android:title="@string/pref_lockscreen_title">
+            android:title="@string/pref_lockscreen_gesture_title"
+            android:summary="@string/pref_lockscreen_gesture_summary">
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.cyanogenmod.cmparts"
                 android:targetClass="com.cyanogenmod.cmparts.activities.GestureMenuActivity" />
         </PreferenceScreen>
 
-        <CheckBoxPreference android:key="pref_trackball_unlock"
-            android:title="@string/pref_trackball_unlock_title"
-            android:summary="@string/pref_trackball_unlock_summary" />
-
-        <CheckBoxPreference android:key="pref_menu_unlock"
-            android:title="@string/pref_menu_unlock_title"
-            android:summary="@string/pref_menu_unlock_summary" />
-
-        <CheckBoxPreference android:key="lockscreen_disable_unlock_tab"
-            android:title="@string/pref_lockscreen_disable_unlock_tab"
-            android:summary="@string/pref_lockscreen_disable_unlock_tab_summary" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory android:title="@string/general_title">
-
-        <CheckBoxPreference android:key="lockscreen_always_battery"
-            android:title="@string/pref_lockscreen_always_battery_title"
-            android:summary="@string/pref_lockscreen_always_battery_summary" />
-
-        <CheckBoxPreference android:key="lockscreen_music_controls"
-            android:title="@string/pref_lockscreen_music_controls_title"
-            android:summary="@string/pref_lockscreen_music_controls_summary" />
-
-        <ListPreference android:key="pref_lockscreen_music_headset"
-            android:dependency="lockscreen_music_controls"
-            android:dialogTitle="@string/pref_lockscreen_music_headset_title"
-            android:title="@string/pref_lockscreen_music_headset_title"
-            android:summary="@string/pref_lockscreen_music_headset_summary"
-            android:entries="@array/pref_lockscreen_music_headset_entries"
-            android:entryValues="@array/pref_lockscreen_music_headset_values" />
-
-        <CheckBoxPreference android:key="lockscreen_always_music_controls"
-            android:dependency="lockscreen_music_controls"
-            android:title="@string/pref_lockscreen_always_music_controls_title"
-            android:summary="@string/pref_lockscreen_always_music_controls_summary" />
-
-        <CheckBoxPreference android:key="lockscreen_quick_unlock_control"
-            android:title="@string/pref_lockscreen_quick_unlock_control_title"
-            android:summary="@string/pref_lockscreen_quick_unlock_control_summary" />
-
-    </PreferenceCategory>
-
-    <!-- lockscreen style prefs -->
-    <PreferenceCategory android:title="@string/lockscreen_style_header">
-
-        <ListPreference android:key="pref_lockscreen_style"
-            android:dialogTitle="@string/pref_lockscreen_style_title"
-            android:title="@string/pref_lockscreen_style_title"
-            android:summary="@string/pref_lockscreen_style_summary"
-            android:entries="@array/pref_lockscreen_style_entries"
-            android:entryValues="@array/pref_lockscreen_style_values" />
-
-        <CheckBoxPreference android:key="pref_lockscreen_custom_app_toggle"
-            android:title="@string/pref_lockscreen_custom_app_toggle_title"
-            android:summary="@string/pref_lockscreen_custom_app_toggle_summary" />
-
-        <CheckBoxPreference android:key="pref_lockscreen_rotary_unlock_down_toggle"
-            android:title="@string/pref_lockscreen_rotary_unlock_down_title"
-            android:summary="@string/pref_lockscreen_rotary_unlock_down_summary" />
-
-        <CheckBoxPreference android:key="pref_lockscreen_rotary_hide_arrows_toggle"
-            android:title="@string/pref_lockscreen_rotary_hide_arrows_title"
-            android:summary="@string/pref_lockscreen_rotary_hide_arrows_summary" />
-
-        // currently a toggle/checkbox but may be expanded if more icons are added
-        <CheckBoxPreference android:key="pref_lockscreen_custom_icon_style"
-            android:title="@string/pref_lockscreen_custom_icon_style_title"
-            android:summary="@string/pref_lockscreen_custom_icon_style_summary" 
-            android:dependency="pref_lockscreen_custom_app_toggle" />
-
-        <Preference android:key="pref_lockscreen_custom_app_activity"
-            android:dependency="pref_lockscreen_custom_app_toggle"
-            android:title="@string/pref_lockscreen_custom_app_activity_title" />
-
-    </PreferenceCategory>
-
-    <!-- screen timeout delays -->
-    <PreferenceCategory android:title="@string/lockscreen_delay_header">
-
-        <ListPreference android:key="pref_lockscreen_timeout_delay"
-            android:dialogTitle="@string/pref_lockscreen_delay_title"
-            android:title="@string/pref_lockscreen_timeout_lock_delay"
-            android:summary="@string/pref_lockscreen_timeout_lock_delay_summary"
-            android:entries="@array/pref_lockscreen_delay_entries"
-            android:entryValues="@array/pref_lockscreen_delay_values" />
-
-        <!-- screen off delay -->
-        <ListPreference android:key="pref_lockscreen_screenoff_delay"
-            android:dialogTitle="@string/pref_lockscreen_delay_title"
-            android:title="@string/pref_lockscreen_screenoff_lock_delay"
-            android:summary="@string/pref_lockscreen_screenoff_lock_delay_summary"
-            android:entries="@array/pref_lockscreen_delay_entries"
-            android:entryValues="@array/pref_lockscreen_delay_values" />
+        <PreferenceScreen android:key="lockscreen_timeout"
+            android:title="@string/pref_lockscreen_timeout_title"
+            android:summary="@string/pref_lockscreen_timeout_summary">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.LockscreenTimeoutActivity" />
+        </PreferenceScreen>
 
     </PreferenceCategory>
 

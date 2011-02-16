@@ -72,6 +72,33 @@
                 <category android:name="com.cyanogenmod.cmparts.SHORTCUT" />
             </intent-filter>
         </activity>
+        <activity android:name=".activities.LockscreenStyleActivity" android:label="@string/pref_lockscreen_stylecfg_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.cyanogenmod.cmparts.SHORTCUT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.LockscreenWidgetsActivity"
+            android:label="@string/pref_lockscreen_widgets_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.cyanogenmod.cmparts.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.LockscreenUnlockActivity"
+            android:label="@string/pref_lockscreen_unlock_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.cyanogenmod.cmparts.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.LockscreenTimeoutActivity"
+            android:label="@string/pref_lockscreen_timeout_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.cyanogenmod.cmparts.SHORTCUT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".activities.SystemActivity"
             android:label="@string/system_settings_title_head">
             <intent-filter>
@@ -122,8 +149,7 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.LightLevelsActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation">
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:name=".activities.LightLevelsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
@@ -204,8 +230,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".provider.RenderFXWidgetProvider"
-            android:label="@string/widget_name">
+        <receiver android:label="@string/widget_name" android:name=".provider.RenderFXWidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
