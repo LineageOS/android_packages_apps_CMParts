@@ -216,10 +216,16 @@
   </string-array>
 
   <string-array name="pref_lockscreen_style_entries">
-	  <item>Tabs zum Schieben</item>
-	  <item>Rotierend</item>
-        <item>Rotary revamped</item>
-        <item>Lense</item>
-	</string-array>
+    <item>Tabs zum Schieben</item>
+    <item>Rotierende Tabs</item>
+    <item>Rotierend umgestaltet</item>
+    <item>Linse</item>
+  </string-array>
 
+  <string-array name="pref_lockscreen_music_headset_entries">
+    <item>Ausgeschaltet</item>
+    <item>Kopfhörer (Kabel)</item>
+    <item>Kopfhörer (Bluetooth)</item>
+    <item>Beide</item>
+  </string-array>
 </resources>
