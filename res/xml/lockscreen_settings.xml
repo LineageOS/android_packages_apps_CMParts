@@ -35,6 +35,16 @@
             android:title="@string/pref_lockscreen_music_controls_title"
             android:summary="@string/pref_lockscreen_music_controls_summary" />
 
+        <CheckBoxPreference android:key="pref_lockscreen_now_playing"
+            android:title="@string/pref_lockscreen_now_playing_title"
+            android:summary="@string/pref_lockscreen_now_playing_summary"
+            android:dependency="lockscreen_music_controls" />
+
+        <CheckBoxPreference android:key="pref_lockscreen_album_art"
+            android:title="@string/pref_lockscreen_album_art_title"
+            android:summary="@string/pref_lockscreen_album_art_summary"
+            android:dependency="lockscreen_music_controls" />
+
         <ListPreference android:key="pref_lockscreen_music_headset"
             android:dependency="lockscreen_music_controls"
             android:dialogTitle="@string/pref_lockscreen_music_headset_title"
