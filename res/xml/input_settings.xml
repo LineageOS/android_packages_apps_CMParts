@@ -1,73 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory android:title="@string/buttons_title"
-        android:key="pref_category_button_settings">
+	<!-- General settings -->
+	<PreferenceCategory android:key="general_category"
+		android:title="@string/general_title">
 
-        <CheckBoxPreference android:key="pref_trackball_wake"
-            android:title="@string/pref_trackball_wake_title"
-            android:summary="@string/pref_trackball_wake_summary" />
+		<!-- Long Press Home -->
+		<PreferenceScreen android:key="long_press_home"
+			android:title="@string/long_press_home_title" android:summary="@string/long_press_home_summary">
+			<intent android:action="android.intent.action.MAIN"
+				android:targetPackage="com.cyanogenmod.cmparts"
+				android:targetClass="com.cyanogenmod.cmparts.activities.LongPressHomeActivity" />
+		</PreferenceScreen>
 
-        <CheckBoxPreference android:key="pref_volbtn_music_controls"
-            android:title="@string/pref_volbtn_music_controls_title"
-            android:summary="@string/pref_volbtn_music_controls_summary" />
+		<!-- Custom actions for search key - submenu -->
+		<PreferenceScreen android:key="input_search_key"
+			android:title="@string/input_search_key_title" android:summary="@string/input_search_key_summary">
+			<intent android:action="android.intent.action.MAIN"
+				android:targetPackage="com.cyanogenmod.cmparts"
+				android:targetClass="com.cyanogenmod.cmparts.activities.InputSearchKeyActivity" />
+		</PreferenceScreen>
 
-        <CheckBoxPreference android:key="pref_cambtn_music_controls"
-            android:title="@string/pref_cambtn_music_controls_title"
-            android:summary="@string/pref_cambtn_music_controls_summary" />
+		<!-- Haptic Feedback -->
+		<PreferenceScreen android:key="haptic_settings"
+			android:title="@string/haptic_title" android:summary="@string/haptic_summary">
+			<intent android:action="android.intent.action.MAIN"
+				android:targetPackage="com.cyanogenmod.cmparts"
+				android:targetClass="com.cyanogenmod.cmparts.activities.HapticTweaksActivity" />
+		</PreferenceScreen>
 
-        <Preference android:key="pref_user_defined_key1"
-            android:title="@string/user_defined_key1" android:summary="@string/user_defined_not_set" />
-        <Preference android:key="pref_user_defined_key2"
-            android:title="@string/user_defined_key2" android:summary="@string/user_defined_not_set" />
-        <Preference android:key="pref_user_defined_key3"
-            android:title="@string/user_defined_key3" android:summary="@string/user_defined_not_set" />
+	</PreferenceCategory>
 
-    </PreferenceCategory>
+	<PreferenceCategory android:title="@string/buttons_title"
+		android:key="pref_category_button_settings">
 
-    <!-- Search key settings -->
-    <PreferenceCategory android:key="input_search_settings"
-        android:title="@string/input_search_key_title">
+		<CheckBoxPreference android:key="pref_trackball_wake"
+			android:title="@string/pref_trackball_wake_title" android:summary="@string/pref_trackball_wake_summary" />
 
-        <CheckBoxPreference android:key="pref_input_custom_search_app_toggle"
-            android:title="@string/pref_input_custom_search_app_toggle_title"
-            android:summary="@string/pref_input_custom_search_app_toggle_summary" />
+		<CheckBoxPreference android:key="pref_volbtn_music_controls"
+			android:title="@string/pref_volbtn_music_controls_title"
+			android:summary="@string/pref_volbtn_music_controls_summary" />
 
-        <Preference android:key="pref_input_custom_search_app_activity"
-            android:dependency="pref_input_custom_search_app_toggle"
-            android:title="@string/pref_input_custom_search_app_activity_title" />
+		<CheckBoxPreference android:key="pref_cambtn_music_controls"
+			android:title="@string/pref_cambtn_music_controls_title"
+			android:summary="@string/pref_cambtn_music_controls_summary" />
 
-        <CheckBoxPreference android:key="pref_input_custom_long_search_app_toggle"
-            android:title="@string/pref_input_custom_long_search_app_toggle_title"
-            android:summary="@string/pref_input_custom_long_search_app_toggle_summary" />
+		<Preference android:key="pref_user_defined_key1"
+			android:title="@string/user_defined_key1" android:summary="@string/user_defined_not_set" />
+		<Preference android:key="pref_user_defined_key2"
+			android:title="@string/user_defined_key2" android:summary="@string/user_defined_not_set" />
+		<Preference android:key="pref_user_defined_key3"
+			android:title="@string/user_defined_key3" android:summary="@string/user_defined_not_set" />
 
-        <Preference android:key="pref_input_custom_long_search_app_activity"
-            android:dependency="pref_input_custom_long_search_app_toggle"
-            android:title="@string/pref_input_custom_search_app_activity_title" />
-
-   </PreferenceCategory>
-
-    <!-- General settings -->
-    <PreferenceCategory android:key="general_category"
-        android:title="@string/general_title">
-
-        <!-- Haptic Feedback -->
-        <PreferenceScreen android:key="haptic_settings"
-            android:title="@string/haptic_title" android:summary="@string/haptic_summary">
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.cyanogenmod.cmparts"
-                android:targetClass="com.cyanogenmod.cmparts.activities.HapticTweaksActivity" />
-        </PreferenceScreen>
-
-        <!-- Long Press Home -->
-        <PreferenceScreen android:key="long_press_home"
-            android:title="@string/long_press_home_title"
-            android:summary="@string/long_press_home_summary">
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.cyanogenmod.cmparts"
-                android:targetClass="com.cyanogenmod.cmparts.activities.LongPressHomeActivity" />
-        </PreferenceScreen>
-
-    </PreferenceCategory>
+	</PreferenceCategory>
 
 </PreferenceScreen>

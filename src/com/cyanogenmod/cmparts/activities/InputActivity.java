@@ -16,7 +16,7 @@
 
 package com.cyanogenmod.cmparts.activities;
 
-import com.cyanogenmod.cmparts.R;
+import java.util.ArrayList;
 
 import android.content.Intent;
 import android.content.Intent.ShortcutIconResource;
@@ -24,44 +24,47 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
 
-import java.util.ArrayList;
+import com.cyanogenmod.cmparts.R;
 
-public class InputActivity extends PreferenceActivity implements OnPreferenceChangeListener {
+public class InputActivity extends PreferenceActivity {
 
     private static final String TRACKBALL_WAKE_PREF = "pref_trackball_wake";
+
     private static final String VOLBTN_MUSIC_CTRL_PREF = "pref_volbtn_music_controls";
+
     private static final String CAMBTN_MUSIC_CTRL_PREF = "pref_cambtn_music_controls";
+
     private static final String BUTTON_CATEGORY = "pref_category_button_settings";
+
     private static final String USER_DEFINED_KEY1 = "pref_user_defined_key1";
+
     private static final String USER_DEFINED_KEY2 = "pref_user_defined_key2";
+
     private static final String USER_DEFINED_KEY3 = "pref_user_defined_key3";
-    private static final String INPUT_CUSTOM_SEARCH_APP_TOGGLE = "pref_input_custom_search_app_toggle";
-    private static final String INPUT_CUSTOM_SEARCH_APP_ACTIVITY = "pref_input_custom_search_app_activity";
-    private static final String INPUT_CUSTOM_LONG_SEARCH_APP_TOGGLE = "pref_input_custom_long_search_app_toggle";
-    private static final String INPUT_CUSTOM_LONG_SEARCH_APP_ACTIVITY = "pref_input_custom_long_search_app_activity";
 
     private CheckBoxPreference mTrackballWakePref;
 
     private CheckBoxPreference mVolBtnMusicCtrlPref;
+
     private CheckBoxPreference mCamBtnMusicCtrlPref;
-    private CheckBoxPreference mCustomSearchAppTogglePref;
-    private CheckBoxPreference mCustomLongSearchAppTogglePref;
 
     private Preference mUserDefinedKey1Pref;
+
     private Preference mUserDefinedKey2Pref;
+
     private Preference mUserDefinedKey3Pref;
-    private Preference mCustomSearchAppActivityPref;
-    private Preference mCustomLongSearchAppActivityPref;
+
     private int mKeyNumber = 1;
 
     private static final int REQUEST_PICK_SHORTCUT = 1;
+
     private static final int REQUEST_PICK_APPLICATION = 2;
+
     private static final int REQUEST_CREATE_SHORTCUT = 3;
 
     @Override
@@ -86,7 +89,8 @@ public class InputActivity extends PreferenceActivity implements OnPreferenceCha
         mCamBtnMusicCtrlPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.CAMBTN_MUSIC_CONTROLS, 0) == 1);
 
-        PreferenceCategory buttonCategory = (PreferenceCategory)prefSet.findPreference(BUTTON_CATEGORY);
+        PreferenceCategory buttonCategory = (PreferenceCategory) prefSet
+                .findPreference(BUTTON_CATEGORY);
 
         mUserDefinedKey1Pref = (Preference) prefSet.findPreference(USER_DEFINED_KEY1);
         mUserDefinedKey2Pref = (Preference) prefSet.findPreference(USER_DEFINED_KEY2);
@@ -103,17 +107,6 @@ public class InputActivity extends PreferenceActivity implements OnPreferenceCha
             buttonCategory.removePreference(mUserDefinedKey2Pref);
             buttonCategory.removePreference(mUserDefinedKey3Pref);
         }
-
-        /* Search key custom app */
-        mCustomSearchAppTogglePref = (CheckBoxPreference) prefSet.findPreference(INPUT_CUSTOM_SEARCH_APP_TOGGLE);
-        mCustomSearchAppTogglePref.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.USE_CUSTOM_SEARCH_APP_TOGGLE, 0) == 1);
-        mCustomSearchAppActivityPref = (Preference) prefSet.findPreference(INPUT_CUSTOM_SEARCH_APP_ACTIVITY);
-
-        mCustomLongSearchAppTogglePref = (CheckBoxPreference) prefSet.findPreference(INPUT_CUSTOM_LONG_SEARCH_APP_TOGGLE);
-        mCustomLongSearchAppTogglePref.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.USE_CUSTOM_LONG_SEARCH_APP_TOGGLE, 0) == 1);
-        mCustomLongSearchAppActivityPref = (Preference) prefSet.findPreference(INPUT_CUSTOM_LONG_SEARCH_APP_ACTIVITY);
     }
 
     @Override
@@ -125,28 +118,24 @@ public class InputActivity extends PreferenceActivity implements OnPreferenceCha
                 Settings.System.USER_DEFINED_KEY2_APP));
         mUserDefinedKey3Pref.setSummary(Settings.System.getString(getContentResolver(),
                 Settings.System.USER_DEFINED_KEY3_APP));
-        mCustomSearchAppActivityPref.setSummary(Settings.System.getString(getContentResolver(),
-                Settings.System.USE_CUSTOM_SEARCH_APP_ACTIVITY));
-        mCustomLongSearchAppActivityPref.setSummary(Settings.System.getString(getContentResolver(),
-                Settings.System.USE_CUSTOM_LONG_SEARCH_APP_ACTIVITY));
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         boolean value;
         if (preference == mTrackballWakePref) {
             value = mTrackballWakePref.isChecked();
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.TRACKBALL_WAKE_SCREEN, value ? 1 : 0);
+            Settings.System.putInt(getContentResolver(), Settings.System.TRACKBALL_WAKE_SCREEN,
+                    value ? 1 : 0);
             return true;
         } else if (preference == mVolBtnMusicCtrlPref) {
             value = mVolBtnMusicCtrlPref.isChecked();
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.VOLBTN_MUSIC_CONTROLS, value ? 1 : 0);
+            Settings.System.putInt(getContentResolver(), Settings.System.VOLBTN_MUSIC_CONTROLS,
+                    value ? 1 : 0);
             return true;
         } else if (preference == mCamBtnMusicCtrlPref) {
             value = mCamBtnMusicCtrlPref.isChecked();
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.CAMBTN_MUSIC_CONTROLS, value ? 1 : 0);
+            Settings.System.putInt(getContentResolver(), Settings.System.CAMBTN_MUSIC_CONTROLS,
+                    value ? 1 : 0);
             return true;
         } else if (preference == mUserDefinedKey1Pref) {
             pickShortcut(1);
@@ -157,28 +146,8 @@ public class InputActivity extends PreferenceActivity implements OnPreferenceCha
         } else if (preference == mUserDefinedKey3Pref) {
             pickShortcut(3);
             return true;
-        } else if (preference == mCustomSearchAppTogglePref) {
-            value = mCustomSearchAppTogglePref.isChecked();
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.USE_CUSTOM_SEARCH_APP_TOGGLE, value ? 1 : 0);
-            return true;
-        } else if (preference == mCustomLongSearchAppTogglePref) {
-            value = mCustomLongSearchAppTogglePref.isChecked();
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.USE_CUSTOM_LONG_SEARCH_APP_TOGGLE, value ? 1 : 0);
-            return true;
-        } else if (preference == mCustomSearchAppActivityPref) {
-            pickShortcut(4);
-            return true;
-        } else if (preference == mCustomLongSearchAppActivityPref) {
-            pickShortcut(5);
-            return true;
         }
 
-        return false;
-    }
-
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
         return false;
     }
 
@@ -189,7 +158,8 @@ public class InputActivity extends PreferenceActivity implements OnPreferenceCha
         shortcutNames.add(getString(R.string.group_applications));
         bundle.putStringArrayList(Intent.EXTRA_SHORTCUT_NAME, shortcutNames);
         ArrayList<ShortcutIconResource> shortcutIcons = new ArrayList<ShortcutIconResource>();
-        shortcutIcons.add(ShortcutIconResource.fromContext(this, R.drawable.ic_launcher_application));
+        shortcutIcons.add(ShortcutIconResource
+                .fromContext(this, R.drawable.ic_launcher_application));
         bundle.putParcelableArrayList(Intent.EXTRA_SHORTCUT_ICON_RESOURCE, shortcutIcons);
         Intent pickIntent = new Intent(Intent.ACTION_PICK_ACTIVITY);
         pickIntent.putExtra(Intent.EXTRA_INTENT, new Intent(Intent.ACTION_CREATE_SHORTCUT));
@@ -233,51 +203,40 @@ public class InputActivity extends PreferenceActivity implements OnPreferenceCha
     void completeSetCustomShortcut(Intent data) {
         Intent intent = data.getParcelableExtra(Intent.EXTRA_SHORTCUT_INTENT);
         int keyNumber = mKeyNumber;
-        if (keyNumber == 1){
-            if (Settings.System.putString(getContentResolver(), Settings.System.USER_DEFINED_KEY1_APP, intent.toUri(0))) {
+        if (keyNumber == 1) {
+            if (Settings.System.putString(getContentResolver(),
+                    Settings.System.USER_DEFINED_KEY1_APP, intent.toUri(0))) {
                 mUserDefinedKey1Pref.setSummary(intent.toUri(0));
             }
-        } else if (keyNumber == 2){
-            if (Settings.System.putString(getContentResolver(), Settings.System.USER_DEFINED_KEY2_APP, intent.toUri(0))) {
+        } else if (keyNumber == 2) {
+            if (Settings.System.putString(getContentResolver(),
+                    Settings.System.USER_DEFINED_KEY2_APP, intent.toUri(0))) {
                 mUserDefinedKey2Pref.setSummary(intent.toUri(0));
             }
-        } else if (keyNumber == 3){
-            if (Settings.System.putString(getContentResolver(), Settings.System.USER_DEFINED_KEY3_APP, intent.toUri(0))) {
+        } else if (keyNumber == 3) {
+            if (Settings.System.putString(getContentResolver(),
+                    Settings.System.USER_DEFINED_KEY3_APP, intent.toUri(0))) {
                 mUserDefinedKey3Pref.setSummary(intent.toUri(0));
             }
-        } else if (keyNumber == 4){
-            if (Settings.System.putString(getContentResolver(), Settings.System.USE_CUSTOM_SEARCH_APP_ACTIVITY, intent.toUri(0))) {
-                mCustomSearchAppActivityPref.setSummary(intent.toUri(0));
-            }
-        } else if (keyNumber == 5){
-            if (Settings.System.putString(getContentResolver(), Settings.System.USE_CUSTOM_LONG_SEARCH_APP_ACTIVITY, intent.toUri(0))) {
-                mCustomLongSearchAppActivityPref.setSummary(intent.toUri(0));
-            }
         }
-
     }
 
     void completeSetCustomApp(Intent data) {
         int keyNumber = mKeyNumber;
-        if (keyNumber == 1){
-            if (Settings.System.putString(getContentResolver(), Settings.System.USER_DEFINED_KEY1_APP, data.toUri(0))) {
+        if (keyNumber == 1) {
+            if (Settings.System.putString(getContentResolver(),
+                    Settings.System.USER_DEFINED_KEY1_APP, data.toUri(0))) {
                 mUserDefinedKey1Pref.setSummary(data.toUri(0));
             }
-        } else if (keyNumber == 2){
-            if (Settings.System.putString(getContentResolver(), Settings.System.USER_DEFINED_KEY2_APP, data.toUri(0))) {
+        } else if (keyNumber == 2) {
+            if (Settings.System.putString(getContentResolver(),
+                    Settings.System.USER_DEFINED_KEY2_APP, data.toUri(0))) {
                 mUserDefinedKey2Pref.setSummary(data.toUri(0));
             }
-        } else if (keyNumber == 3){
-            if (Settings.System.putString(getContentResolver(), Settings.System.USER_DEFINED_KEY3_APP, data.toUri(0))) {
+        } else if (keyNumber == 3) {
+            if (Settings.System.putString(getContentResolver(),
+                    Settings.System.USER_DEFINED_KEY3_APP, data.toUri(0))) {
                 mUserDefinedKey3Pref.setSummary(data.toUri(0));
-            }
-        } else if (keyNumber == 4){
-            if (Settings.System.putString(getContentResolver(), Settings.System.USE_CUSTOM_SEARCH_APP_ACTIVITY, data.toUri(0))) {
-                mCustomSearchAppActivityPref.setSummary(data.toUri(0));
-            }
-        } else if (keyNumber == 5){
-            if (Settings.System.putString(getContentResolver(), Settings.System.USE_CUSTOM_LONG_SEARCH_APP_ACTIVITY, data.toUri(0))) {
-                mCustomLongSearchAppActivityPref.setSummary(data.toUri(0));
             }
         }
 
