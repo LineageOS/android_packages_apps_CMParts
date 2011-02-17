@@ -221,6 +221,10 @@
     <string name="pref_lockscreen_always_battery_summary">Den Batteriestatus immer auf dem Lockscreen anzeigen</string>
     <string name="pref_lockscreen_music_controls_title">Musiksteuerung bei Bildschirmsperre</string>
     <string name="pref_lockscreen_music_controls_summary">Steuerelemente für Musik auf gesperrtem Bildschirm anzeigen</string>
+    <string name="pref_lockscreen_now_playing_title">Titel anzeigen</string>
+    <string name="pref_lockscreen_now_playing_summary">Den Namen und Interpreten des aktuellen Titels anzeigen</string>
+    <string name="pref_lockscreen_album_art_title">Cover anzeigen</string>
+    <string name="pref_lockscreen_album_art_summary">Das Cover des aktuellen Titels anzeigen. Funktioniert nur mit der originalen Musik-App im Hochformat</string>
     <string name="pref_lockscreen_music_headset_title">Musiksteuerung mit Kopfhörer</string>
     <string name="pref_lockscreen_music_headset_summary">Zeige die Steuerelemente für Musik, wenn ein Kabel- oder Bluetoothkopfhörer angeschlossen ist</string>
     <string name="pref_lockscreen_always_music_controls_title">Immer anzeigen</string>
