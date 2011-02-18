@@ -107,26 +107,47 @@
     <string name="notification_battery_warning_title">注意: バッテリーが消費します</string>
     <string name="notification_battery_warning">このオプションを有効にすることにより、1時間に約3%ほどのバッテリー消費が増加します。バッテリー消費が速くなったと感じたら、恐らくこのオプションが原因です。バッテリー消費が気になるのであれば、このオプションは有効にするべきではありません。</string>
 
+    <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_stylecfg_title">スタイルオプション</string>
+    <string name="pref_lockscreen_stylecfg_summary">ロックスクリーンのスタイルとそれに対応する設定</string>
+    <string name="pref_lockscreen_widgets_title">ウィジェットオプション</string>
+    <string name="pref_lockscreen_widgets_summary">ロックスクリーン上のウィジェットの有効/無効を切り替える</string>
+    <string name="pref_lockscreen_unlock_title">アンロックオプション</string>
+    <string name="pref_lockscreen_unlock_summary">コントロールボタンでアンロックしたり素早くアンロックする</string>
+    <string name="pref_lockscreen_gesture_title">ロックスクリーンジェスチャー</string>
+    <string name="pref_lockscreen_gesture_summary">ロックスクリーンでジェスチャーを設定し、対応した挙動をカスタマイズする</string>
+    <string name="pref_lockscreen_timeout_title">遅延とタイムアウト</string>
+    <string name="pref_lockscreen_timeout_summary">スクリーンタイムアウトとスクリーンオフの遅延を設定する</string>
+
     <!-- Input Settings -->
     <string name="input_settings_title">入力設定</string>
     <string name="input_settings_summary">コントロールボタンの挙動など</string>
     <string name="button_settings_title">ボタン設定</string>
     <string name="lockscreen_settings_title">ロック画面設定</string>
     <string name="input_search_key_title">検索キーの挙動</string>
+    <string name="input_search_key_summary">検索キーを押したときのアクションをカスタマイズする</string>
     <string name="pref_input_custom_search_app_toggle_title">検索キーのアプリ</string>
     <string name="pref_input_custom_search_app_toggle_summary">検索キーを押したときにカスタムアプリを起動する</string>
     <string name="pref_input_custom_search_app_activity_title">カスタムアプリケーション</string>
     <string name="pref_input_custom_long_search_app_toggle_title">検索キー長押しのアプリ</string>
     <string name="pref_input_custom_long_search_app_toggle_summary">検索キーを長押ししたときにカスタムアプリを起動する</string>
 
+    <!-- Lockscreen Settings -->
     <string name="pref_lockscreen_always_battery_title">常にバッテリー状態を表示</string>
     <string name="pref_lockscreen_always_battery_summary">常にバッテリーの状態をロックスクリーンに表示する</string>
     <string name="pref_lockscreen_music_controls_title">音楽コントロール</string>
     <string name="pref_lockscreen_music_controls_summary">ロック画面に音楽コントロールを表示する</string>
+    <string name="pref_lockscreen_now_playing_title">曲名を表示</string>
+    <string name="pref_lockscreen_now_playing_summary">再生中の曲名とアーティストを表示する</string>
+    <string name="pref_lockscreen_album_art_title">アルバムアートを表示</string>
+    <string name="pref_lockscreen_album_art_summary">再生中の曲のアルバムアートを表示する。標準のミュージックプレイヤーを縦画面モードで再生している場合のみ有効</string>
     <string name="pref_lockscreen_music_headset_title">ヘッドセット接続時に音楽コントロールを表示</string>
     <string name="pref_lockscreen_music_headset_summary">有線のヘッドセットやBluetooth A2DPのヘッドセットを接続したときに音楽コントロールを表示する</string>
     <string name="pref_lockscreen_always_music_controls_title">常に音楽コントロールを表示</string>
     <string name="pref_lockscreen_always_music_controls_summary">音楽を再生しているかどうかに関わらず、ロック画面に音楽コントロールを表示する</string>
+    <string name="lockscreen_widgets_note_title">ノート</string>
+    <string name="lockscreen_widgets_note_summary">最小のレンズスタイルを選択すると、音楽コントロール以外のウィジェットは表示されません。しかし、他のスタイルとの切り替えを容易にするために以下のオプション設定は残ります。</string>
+
 
     <string name="pref_trackball_wake_title">トラックボールで復帰</string>
     <string name="pref_trackball_wake_summary">トラックボールを押して端末をスリープから復帰する</string>
@@ -402,14 +423,16 @@
     <string name="sound_alarms_limitvol_dialog">アラーム音量</string>
 
     <!-- Quiet hours -->
-    <string name="sound_category_quiet_hours_title">静寂時間</string>
-    <string name="quiet_hours_enabled">静寂時間を有効にする</string>
-    <string name="quiet_hours_enabled_on">静寂時間が機能します</string>
+    <string name="sound_category_quiet_hours_title">サイレントタイム</string>
+    <string name="quiet_hours_note_title">ノート</string>
+    <string name="quiet_hours_note_summary">着信はサイレントタイム中でも通常の挙動になります</string>
+    <string name="quiet_hours_enabled">サイレントタイムを有効にする</string>
+    <string name="quiet_hours_enabled_on">サイレントタイムが機能します</string>
     <string name="quiet_hours_enabled_off">通知は平常通り行われます</string>
     <string name="quiet_hours_start">開始時刻</string>
-    <string name="quiet_hours_start_summary">静寂時間が始まる時刻</string>
+    <string name="quiet_hours_start_summary">サイレントタイムが始まる時刻</string>
     <string name="quiet_hours_end">終了時刻</string>
-    <string name="quiet_hours_end_summary">静寂時間を終了する時刻</string>
+    <string name="quiet_hours_end_summary">サイレントタイムが終了する時刻</string>
     <string name="quiet_hours_mute">通知音をミュート</string>
     <string name="quiet_hours_mute_on">通知音は再生されません</string>
     <string name="quiet_hours_mute_off">通知音は再生されます</string>
@@ -428,7 +451,6 @@
     <string name="user_defined_not_set">なし</string>
 
     <!--  Lockscreen gesture strings -->
-    <string name="pref_lockscreen_title">ロックスクリーンジェスチャー</string>
     <string name="pref_lockscreen_gestures_enable_title">ジェスチャーを有効にする</string>
     <string name="pref_lockscreen_gestures_trail_title">軌跡を表示する</string>
     <string name="pref_lockscreen_gestures_builder_title">ジェスチャーを作成</string>
