@@ -51,7 +51,7 @@
     <!-- User interface : WebView -->
     <string name="ui_webview_title">WebView</string>
     <string name="pref_pinch_reflow_title">Reflow after pinch in</string>
-    <string name="pref_pinch_reflow_summary">Reflow content immediately after pinch to zoom in</string>
+    <string name="pref_pinch_reflow_summary">Reflow webview content immediately after pinch to zoom in</string>
 
     <!-- User interface : Overscroll -->
     <string name="ui_overscroll_title">Overscrolling</string>
