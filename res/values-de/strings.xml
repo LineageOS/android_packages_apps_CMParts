@@ -9,7 +9,7 @@
     <string name="application_settings_summary_head">Anwendungen verschieben, Installationsort, Kommunikationsfilter</string>
     <string name="display_settings_title_head">Display</string>
     <string name="display_settings_title_subhead">Display-Einstellungen</string>
-    <string name="display_settings_summary_head">Display-Animationen, Rotation, Abschaltung</string>
+    <string name="display_settings_summary_head">Display-Animationen, Rotation, Timeouts</string>
     <string name="input_settings_title_head">Eingabe</string>
     <string name="input_settings_title_subhead">Eingabe-Einstellungen</string>
     <string name="input_settings_summary_head">Eingabeverhalten, Tasten, Haptisches Feedback</string>
@@ -60,15 +60,15 @@
     <string name="pref_overscroll_title">Überscroll-Effekt</string>
     <string name="pref_overscroll_summary">Effekt für das Überscrollen auswählen</string>
     <string name="pref_overscroll_weight_title">Überscroll-Stärke</string>
-    <string name="pref_overscroll_weight_summary">Stärke des Überscroll-Effekts einstellen</string>
+    <string name="pref_overscroll_weight_summary">Stärke des Überscroll-Effekts anpassen</string>
 
     <!-- User interface : Lock Screen -->
-    <string name="ui_lockscreen_title">Bildschirmsperre einstellen</string>
+    <string name="ui_lockscreen_title">Bildschirmsperre anpassen</string>
     <string name="pref_lockscreen_delay_title">Verzögerung</string>
-    <string name="pref_lockscreen_timeout_lock_delay">Zeitlimit für Bildschirmsperre</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Zeitlimit für Abschaltung des Bildschirms</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Verzögerung bis zum Einsetzen der Bildschirmsperre einstellen</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">Verzögerung bis zum Ausschalten des Bildschirms einstellen</string>
+    <string name="pref_lockscreen_timeout_lock_delay">Timeout für Bildschirmsperre</string>
+    <string name="pref_lockscreen_screenoff_lock_delay">Timeout für Abschaltung des Bildschirms</string>
+    <string name="pref_lockscreen_timeout_lock_delay_summary">Verzögerung bis zum Einsetzen der Bildschirmsperre anpassen</string>
+    <string name="pref_lockscreen_screenoff_lock_delay_summary">Verzögerung bis zum Ausschalten des Bildschirms anpassen</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">Farbe wählen</string>
@@ -190,6 +190,18 @@
     <string name="notification_battery_warning_title">WARNUNG: Kann Batterieentladung beschleunigen</string>
     <string name="notification_battery_warning">Diese Option hat sich als negativ für die Batterieladung erwiesen um ca.3% pro Stunde. Bei schnellerer Batterieentladung beim Pulsieren des Trackballs ist dies der Grund dafür. Diese Option nicht verwenden, wenn das schnellere Entladen vermieden werden soll.</string>
 
+    <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_stylecfg_title">Aussehen</string>
+    <string name="pref_lockscreen_stylecfg_summary">Das Aussehen des Lockscreens anpassen</string>
+    <string name="pref_lockscreen_widgets_title">Widget-Optionen</string>
+    <string name="pref_lockscreen_widgets_summary">Verschiedene Widgets auf dem Lockscreen ein/ausschalten</string>
+    <string name="pref_lockscreen_unlock_title">Entsperroptionen</string>
+    <string name="pref_lockscreen_unlock_summary">Entsperren durch Tasten und schnelles Entsperren anpassen</string>
+    <string name="pref_lockscreen_gesture_title">Lockscreen-Gesten</string>
+    <string name="pref_lockscreen_gesture_summary">Gesten auf dem Lockscreen aktivieren und anpassen</string>
+    <string name="pref_lockscreen_timeout_title">Display-Timeout und Sperre</string>
+    <string name="pref_lockscreen_timeout_summary">Verzögerung vor automatischer Bildschirmabschaltung und Sperre anpassen</string>
+
     <!-- Tweaks Extras -->
     <string name="te_title">Extra-Tweaks</string>
     <string name="te_title_summary">Tweaks für Benutzeroberfläche</string>
@@ -254,6 +266,8 @@
     <string name="pref_volbtn_music_controls_summary">Wenn Bildschirm ausgeschaltet ist, Titel suchen durch Gedrückthalten der Lautstärketasten</string>
     <string name="pref_cambtn_music_controls_title">Play/Pause mit Kamerataste</string>
     <string name="pref_cambtn_music_controls_summary">Wenn Bildschirm ausgeschaltet ist, Wiedergabe fortsetzen/pausieren durch Gedrückthalten der Kamerataste</string>
+    <string name="lockscreen_widgets_note_title">Hinweis</string>
+    <string name="lockscreen_widgets_note_summary">Beim Stil \"Linse\" werden alle Widgets ausgeblendet mit Ausnahme der Musiksteuerung. Für einfacheres Umstellen zwischen den Locksreen-Stilen bleiben die weiteren Optionen dennoch aktiviert.</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Eingabeeinstellungen</string>
@@ -264,6 +278,7 @@
     <string name="long_press_home_title">HOME Gedrückthalten</string>
     <string name="long_press_home_summary">Anzahl letzter Apps, etc...</string>
     <string name="input_search_key_title">SUCHE-Taste</string>
+    <string name="input_search_key_summary">Aktion für das Drücken der SUCHE-Taste anpassen</string>
     <string name="pref_input_custom_search_app_toggle_title">App mit SUCHE-Taste verknüpfen</string>
     <string name="pref_input_custom_search_app_toggle_summary">Starten einer festgelegten Anwendung beim Drücken der SUCHE-Taste</string>
     <string name="pref_input_custom_search_app_activity_title">App festlegen</string>
@@ -419,7 +434,7 @@
     <string name="title_toggle_brightness">Helligkeit</string>
     <string name="title_toggle_sync">Synchronisierung</string>
     <string name="title_toggle_wifiap">WLAN-Hotspot</string>
-    <string name="title_toggle_screentimeout">Bildschirm-Zeitlimit</string>
+    <string name="title_toggle_screentimeout">Display-Timeout</string>
     <string name="title_toggle_mobiledata">Mobilfunk-Daten</string>
     <string name="title_toggle_lockscreen">Gesperrter Bildschirm</string>
     <string name="title_toggle_networkmode">2G/3G</string>
@@ -435,8 +450,8 @@
     <string name="pref_brightness_mode_summary">Helligkeitsstufen auswählen</string>
     <string name="pref_network_mode_title">Netzwerkmodi</string>
     <string name="pref_network_mode_summary">Netzwerkmodus wählen</string>
-    <string name="pref_screentimeout_mode_title">Bildschirm-Zeitlimit</string>
-    <string name="pref_screentimeout_mode_summary">Die Zeiten für Bildschirm-Zeitlimit wählen</string>
+    <string name="pref_screentimeout_mode_title">Display-Timeout</string>
+    <string name="pref_screentimeout_mode_summary">Verzögerung vor automatischer Bildschirmabschaltung anpassen</string>
     <string name="pref_ring_mode_title">Klingelmodi</string>
     <string name="pref_ring_mode_summary">Den Klingelmodus wählen</string>
     <string name="pref_flash_mode_title">Taschenlampe</string>
@@ -489,7 +504,7 @@
     <string name="ll_save">Sichern &amp; anwenden</string>
     <string name="ll_reload">Derzeitige Werte neu laden</string>
     <string name="ll_bad_levels">Stufen müssen zunehmen</string>
-    <string name="ll_num_levels">Anzahl an Stufen einstellen</string>
+    <string name="ll_num_levels">Anzahl an Stufen anpassen</string>
 
     <!-- Sound -->
     <string name="sound_title">Klang-Einstellungen</string>
@@ -515,6 +530,8 @@
 
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">Ruhige Stunden</string>
+    <string name="quiet_hours_note_title">Hinweis</string>
+    <string name="quiet_hours_note_summary">Ankommende Anrufe werden wie gewöhnlich signalisiert während der ruhigen Stunden</string>
     <string name="quiet_hours_enabled">Ruhige Stunden aktivieren</string>
     <string name="quiet_hours_enabled_on">Ruhige Stunden werden erzwungen</string>
     <string name="quiet_hours_enabled_off">normale Benachrichtigungen</string>
@@ -540,7 +557,6 @@
     <string name="user_defined_not_set">Nichts gesetzt</string>
 
     <!-- Lockscreen gesture strings -->
-    <string name="pref_lockscreen_title">Gesten auf Bildschirmsperre</string>
     <string name="pref_lockscreen_gestures_enable_title">Gesten aktivieren</string>
     <string name="pref_lockscreen_gestures_trail_title">Spur anzeigen</string>
     <string name="pref_lockscreen_gestures_builder_title">Gesten erstellen</string>
