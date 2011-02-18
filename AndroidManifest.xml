@@ -173,6 +173,11 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        <activity android:name=".activities.SoundQuietHoursActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
         <activity android:name=".activities.PhoneGogglesActivity">
            <intent-filter>
               <action android:name="android.intent.action.MAIN" />
