@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+
+    <string-array name="entries_install_location">
+        <item>自動</item>
+        <item>內存空間</item>
+        <item>SD 卡</item>
+    </string-array>
+
+    <string-array name="entries_render_effect">
+        <item>無渲染效果</item>
+        <item>夜視模式（紅）</item>
+        <item>終端機（綠）</item>
+        <item>藍</item>
+        <item>琥珀</item>
+        <item>鮭紅</item>
+        <item>洋紅</item>
+        <item>校準的（N1）</item>
+        <item>校準的（N1）低紅</item>
+        <item>校準的（N1）冷酷</item>
+    </string-array>
+
+    <string-array name="render_entries">
+        <item>夜視模式（紅）</item>
+        <item>終端機（綠）</item>
+        <item>藍</item>
+        <item>琥珀</item>
+        <item>鮭紅</item>
+        <item>洋紅</item>
+        <item>校準的（N1）</item>
+        <item>校準的（N1）低紅</item>
+        <item>校準的（N1）冷酷</item>
+    </string-array>
+
+    <string-array name="entries_trackball_colors">
+        <item>綠</item>
+        <item>白</item>
+        <item>紅</item>
+        <item>藍</item>
+        <item>黄</item>
+        <item>青</item>
+        <item>洋紅</item>
+        <item>粉紅</item>
+        <item>橙</item>
+        <item>淺藍</item>
+        <item>隨機</item>
+        <item>無</item>
+    </string-array>
+
+    <string-array name="entries_dual_led_colors">
+        <item>綠</item>
+        <item>琥珀</item>
+        <item>無</item>
+    </string-array>
+
+    <string-array name="pref_trackball_blink_rate_entries">
+        <item>2（快）</item>
+        <item>3</item>
+        <item>4（中）</item>
+        <item>5</item>
+        <item>6（慢）</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_delay_entries">
+        <item>立即</item>
+        <item>1秒</item>
+        <item>5秒</item>
+        <item>10秒</item>
+        <item>15秒</item>  
+        <item>30秒</item>
+        <item>1分鐘</item>
+        <item>5分鐘</item>
+        <item>10分鐘</item>
+        <item>30分鐘</item>
+    </string-array>
+
+    <string-array name="pref_compcache_size_entries">
+        <item>停用</item>
+        <item>10%</item>
+        <item>18%（預設）</item>
+        <item>26%</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_window">
+        <item>10秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+        <item>40秒</item>
+        <item>50秒</item>
+        <item>60秒</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_reset">
+        <item>停用</item>
+        <item>400 lux</item>
+        <item>500 lux</item>
+        <item>600 lux</item>
+        <item>700 lux</item>
+        <item>800 lux</item>
+        <item>900 lux</item>
+        <item>1000 lux</item>
+        <item>1500 lux</item>
+        <item>2000 lux</item>
+        <item>2500 lux</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_interval">
+        <item>0.5秒</item>
+        <item>1秒</item>
+        <item>2秒</item>
+        <item>5秒</item>
+        <item>10秒</item>
+    </string-array>
+
+    <string-array name="entries_light_levels_dim">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20（預設）</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array name="entries_light_decrease_hysteresis">
+        <item>0％</item>
+        <item>10％</item>
+        <item>20％</item>
+        <item>30％</item>
+        <item>40％</item>
+        <item>50％</item>
+        <item>60％</item>
+        <item>70％</item>
+        <item>80％</item>
+        <item>90％</item>
+    </string-array>
+
+    <string-array name="entries_sound_attenuation">
+        <item>0 dB</item>
+        <item>4 dB</item>
+        <item>6 dB（預設）</item>
+        <item>8 dB</item>
+        <item>10 dB</item>
+    </string-array>
+
+    <string-array name="entries_sound_limitvol">
+        <item>減弱的系統設定</item>
+        <item>媒體音量（預設）</item>
+    </string-array>
+
+   <string-array name="entries_brightness_widget" formatted="false">
+        <item>自動／暗淡／40％／100％</item>
+        <item>自動／暗淡／25％／50％／75％／100％</item>
+        <item>自動／25％／100％</item>
+        <item>暗淡／100％</item>
+    </string-array>
+
+    <string-array name="entries_network_widget">
+        <item>2G／3G＋2G</item>  
+        <item>2G／僅 3G</item>   
+        <item>2G／僅 3G／3G＋2G</item>
+    </string-array>
+
+    <string-array name="entries_screentimeout_widget">
+        <item>15秒／1分鐘／5分鐘</item>
+        <item>30秒／2分鐘／5分鐘</item>
+    </string-array>
+
+    <string-array name="entries_ring_widget">
+        <item>聲音＋震動／僅震動</item>
+        <item>僅聲音／僅震動</item>
+        <item>僅聲音／靜音</item>
+        <item>聲音＋震動／僅震動／靜音</item>
+        <item>僅聲音／僅震動／靜音</item>
+        <item>聲音＋震動／僅聲音／僅震動／靜音</item>
+    </string-array>
+
+    <string-array name="entries_flash_widget">
+        <item>正常</item>
+        <item>強／死光</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_gestures_sensitivity_entries">
+        <item>1（最寬鬆）</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12（最嚴謹）</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_style_entries">
+        <item>滑桿</item>
+        <item>撥輪</item>
+        <item>撥輪（改）</item>
+        <item>透鏡</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>不顯示</item>
+        <item>有線耳機</item>
+        <item>藍牙 A2DP 耳機</item>
+        <item>均顯示</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>無</item>
+        <item>邊緣發亮</item>
+        <item>反彈和發亮</item>
+        <item>反彈</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>最重</item>
+        <item>重</item>
+        <item>適中</item>
+        <item>輕</item>
+        <item>最輕</item>
+    </string-array>
+
+</resources>
