@@ -92,9 +92,9 @@
 
     <string-array name="pref_compcache_size_entries">
         <item>停用</item>
-        <item>10%</item>
-        <item>18%（預設）</item>
-        <item>26%</item>
+        <item>10％</item>
+        <item>18％（預設）</item>
+        <item>26％</item>
     </string-array>
 
     <string-array name="entries_light_filter_window">
@@ -174,10 +174,10 @@
     </string-array>
 
    <string-array name="entries_brightness_widget" formatted="false">
-        <item>自動／暗淡／40％／100％</item>
-        <item>自動／暗淡／25％／50％／75％／100％</item>
-        <item>自動／25％／100％</item>
-        <item>暗淡／100％</item>
+        <item>自動/暗淡/40%/100%</item>
+        <item>自動/暗淡/25%/50%/75%/100%</item>
+        <item>自動/25%/100%</item>
+        <item>暗淡/100%</item>
     </string-array>
 
     <string-array name="entries_network_widget">
