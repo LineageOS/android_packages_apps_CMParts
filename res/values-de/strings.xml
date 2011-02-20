@@ -267,7 +267,7 @@
     <string name="pref_cambtn_music_controls_title">Play/Pause mit Kamerataste</string>
     <string name="pref_cambtn_music_controls_summary">Wenn Bildschirm ausgeschaltet ist, Wiedergabe fortsetzen/pausieren durch Gedrückthalten der Kamerataste</string>
     <string name="lockscreen_widgets_note_title">Hinweis</string>
-    <string name="lockscreen_widgets_note_summary">Beim Stil \"Linse\" werden alle Widgets ausgeblendet mit Ausnahme der Musiksteuerung. Für einfacheres Umstellen zwischen den Locksreen-Stilen bleiben die weiteren Optionen dennoch aktiviert.</string>
+    <string name="lockscreen_widgets_note_summary">Beim Stil \"Lense\" werden alle Widgets ausgeblendet mit Ausnahme der Musiksteuerung. Für einfacheres Umstellen zwischen den Locksreen-Stilen bleiben die weiteren Optionen dennoch aktiviert.</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Eingabeeinstellungen</string>
