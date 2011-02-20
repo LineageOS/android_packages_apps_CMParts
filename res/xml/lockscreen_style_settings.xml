@@ -10,6 +10,13 @@
             android:entries="@array/pref_lockscreen_style_entries"
             android:entryValues="@array/pref_lockscreen_style_values" />
 
+        <ListPreference android:key="pref_in_call_style"
+            android:dialogTitle="@string/pref_in_call_style_title"
+            android:title="@string/pref_in_call_style_title"
+            android:summary="@string/pref_in_call_style_summary"
+            android:entries="@array/pref_in_call_style_entries"
+            android:entryValues="@array/pref_in_call_style_values" />
+
         <CheckBoxPreference android:key="pref_lockscreen_custom_app_toggle"
             android:title="@string/pref_lockscreen_custom_app_toggle_title"
             android:summary="@string/pref_lockscreen_custom_app_toggle_summary" />

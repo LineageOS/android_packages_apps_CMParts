@@ -36,6 +36,8 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
 
     private static final String LOCKSCREEN_STYLE_PREF = "pref_lockscreen_style";
 
+    private static final String IN_CALL_STYLE_PREF = "pref_in_call_style";
+
     private static final String LOCKSCREEN_CUSTOM_APP_TOGGLE = "pref_lockscreen_custom_app_toggle";
 
     private static final String LOCKSCREEN_CUSTOM_APP_ACTIVITY = "pref_lockscreen_custom_app_activity";
@@ -56,6 +58,8 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
 
     private ListPreference mLockscreenStylePref;
 
+    private ListPreference mInCallStylePref;
+
     private Preference mCustomAppActivityPref;
 
     private int mKeyNumber = 1;
@@ -65,6 +69,86 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
     private static final int REQUEST_PICK_APPLICATION = 2;
 
     private static final int REQUEST_CREATE_SHORTCUT = 3;
+
+    enum LockscreenStyle{
+        Slider,
+        Rotary,
+        RotaryRevamped,
+        Lense;
+
+        static public LockscreenStyle getStyleById(int id){
+            switch (id){
+                case 1:
+                    return Slider;
+                case 2:
+                    return Rotary;
+                case 3:
+                    return RotaryRevamped;
+                case 4:
+                    return Lense;
+                default:
+                    return RotaryRevamped;
+            }
+        }
+
+        static public LockscreenStyle getStyleById(String id){
+            return getStyleById(Integer.valueOf(id));
+        }
+
+        static public int getIdByStyle(LockscreenStyle lockscreenstyle){
+            switch (lockscreenstyle){
+                case Slider:
+                    return 1;
+                case Rotary:
+                    return 2;
+                case RotaryRevamped:
+                    return 3;
+                case Lense:
+                    return 4;
+                default:
+                    return 3;
+            }
+        }
+    }
+
+    enum InCallStyle {
+        Slider,
+        Rotary,
+        RotaryRevamped;
+
+        static public InCallStyle getStyleById(int id){
+            switch (id){
+                case 1:
+                    return Slider;
+                case 2:
+                    return Rotary;
+                case 3:
+                    return RotaryRevamped;
+                default:
+                    return RotaryRevamped;
+            }
+        }
+
+        static public InCallStyle getStyleById(String id){
+            return getStyleById(Integer.valueOf(id));
+        }
+
+        static public int getIdByStyle(InCallStyle inCallStyle){
+            switch (inCallStyle){
+                case Slider:
+                    return 1;
+                case Rotary:
+                    return 2;
+                case RotaryRevamped:
+                    return 3;
+                default:
+                    return 3;
+            }
+        }
+    }
+
+    private LockscreenStyle mLockscreenStyle;
+    private InCallStyle mInCallStyle;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -77,10 +161,18 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
 
         /* Lockscreen Style and related related settings */
         mLockscreenStylePref = (ListPreference) prefSet.findPreference(LOCKSCREEN_STYLE_PREF);
-        int lockscreenStyle = Settings.System.getInt(getContentResolver(),
-                Settings.System.LOCKSCREEN_STYLE_PREF, 3);
-        mLockscreenStylePref.setValue(String.valueOf(lockscreenStyle));
+        mLockscreenStyle = LockscreenStyle.getStyleById(
+                Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_STYLE_PREF, 3));
+        mLockscreenStylePref.setValue(String.valueOf(LockscreenStyle.getIdByStyle(mLockscreenStyle)));
         mLockscreenStylePref.setOnPreferenceChangeListener(this);
+
+        mInCallStylePref = (ListPreference) prefSet.findPreference(IN_CALL_STYLE_PREF);
+        mInCallStyle = InCallStyle.getStyleById(
+                Settings.System.getInt(getContentResolver(),
+                Settings.System.IN_CALL_STYLE_PREF, 3));
+        mInCallStylePref.setValue(String.valueOf(InCallStyle.getIdByStyle(mInCallStyle)));
+        mInCallStylePref.setOnPreferenceChangeListener(this);
 
         mRotaryUnlockDownToggle = (CheckBoxPreference) prefSet
                 .findPreference(LOCKSCREEN_ROTARY_UNLOCK_DOWN_TOGGLE);
@@ -102,7 +194,7 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         mCustomIconStyle.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_CUSTOM_ICON_STYLE, 1) == 2);
 
-        updateStylePrefs(lockscreenStyle);
+        updateStylePrefs(mLockscreenStyle, mInCallStyle);
 
         mCustomAppActivityPref = (Preference) prefSet
                 .findPreference(LOCKSCREEN_CUSTOM_APP_ACTIVITY);
@@ -122,9 +214,7 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
             value = mCustomAppTogglePref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_CUSTOM_APP_TOGGLE, value ? 1 : 0);
-            int lockscreenStyle = Settings.System.getInt(getContentResolver(),
-                    Settings.System.LOCKSCREEN_STYLE_PREF, 3);
-            updateStylePrefs(lockscreenStyle);
+            updateStylePrefs(mLockscreenStyle, mInCallStyle);
             return true;
         } else if (preference == mRotaryUnlockDownToggle) {
             value = mRotaryUnlockDownToggle.isChecked();
@@ -149,10 +239,17 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mLockscreenStylePref) {
-            int lockscreenStyle = Integer.valueOf((String) newValue);
+            mLockscreenStyle = LockscreenStyle.getStyleById((String) newValue);
             Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_STYLE_PREF,
-                    lockscreenStyle);
-            updateStylePrefs(lockscreenStyle);
+                    LockscreenStyle.getIdByStyle(mLockscreenStyle));
+            updateStylePrefs(mLockscreenStyle, mInCallStyle);
+            return true;
+        }
+        if (preference == mInCallStylePref) {
+            mInCallStyle = InCallStyle.getStyleById((String) newValue);
+            Settings.System.putInt(getContentResolver(), Settings.System.IN_CALL_STYLE_PREF,
+                    InCallStyle.getIdByStyle(mInCallStyle));
+            updateStylePrefs(mLockscreenStyle, mInCallStyle);
             return true;
         }
         return false;
@@ -228,15 +325,21 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         }
     }
 
-    private void updateStylePrefs(int lockscreenStyle) {
-        // slider style
-        if (lockscreenStyle == 1 || lockscreenStyle == 4) {
-            mRotaryHideArrowsToggle.setChecked(false);
-            mRotaryHideArrowsToggle.setEnabled(false);
+    private void updateStylePrefs(LockscreenStyle lockscreenStyle, InCallStyle inCallStyle) {
+        // slider style & lense style
+        if (lockscreenStyle == LockscreenStyle.Slider
+                || lockscreenStyle == LockscreenStyle.Lense) {
+            if(inCallStyle==InCallStyle.Slider){
+                mRotaryHideArrowsToggle.setChecked(false);
+                mRotaryHideArrowsToggle.setEnabled(false);
+            }else{
+                mRotaryHideArrowsToggle.setEnabled(true);
+            }
             mRotaryUnlockDownToggle.setChecked(false);
             mRotaryUnlockDownToggle.setEnabled(false);
-            // rotary and rotary revamped style
-        } else if (lockscreenStyle == 2 || lockscreenStyle == 3) {
+        // rotary and rotary revamped style
+        } else if (lockscreenStyle == LockscreenStyle.Rotary
+                || lockscreenStyle == LockscreenStyle.RotaryRevamped) {
             mRotaryHideArrowsToggle.setEnabled(true);
             if (mCustomAppTogglePref.isChecked() == true) {
                 mRotaryUnlockDownToggle.setEnabled(true);
@@ -247,7 +350,7 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         }
         // disable custom app starter for lense - would be ugly in above if
         // statement
-        if (lockscreenStyle == 4) {
+        if (lockscreenStyle == LockscreenStyle.Lense) {
             mCustomIconStyle.setChecked(false);
             mCustomAppTogglePref.setChecked(false);
             mCustomAppTogglePref.setEnabled(false);
