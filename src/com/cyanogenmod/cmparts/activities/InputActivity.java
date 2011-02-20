@@ -35,6 +35,8 @@ public class InputActivity extends PreferenceActivity {
 
     private static final String TRACKBALL_WAKE_PREF = "pref_trackball_wake";
 
+    private static final String VOLUME_WAKE_PREF = "pref_volume_wake";
+
     private static final String VOLBTN_MUSIC_CTRL_PREF = "pref_volbtn_music_controls";
 
     private static final String CAMBTN_MUSIC_CTRL_PREF = "pref_cambtn_music_controls";
@@ -48,6 +50,8 @@ public class InputActivity extends PreferenceActivity {
     private static final String USER_DEFINED_KEY3 = "pref_user_defined_key3";
 
     private CheckBoxPreference mTrackballWakePref;
+
+    private CheckBoxPreference mVolumeWakePref;
 
     private CheckBoxPreference mVolBtnMusicCtrlPref;
 
@@ -80,6 +84,11 @@ public class InputActivity extends PreferenceActivity {
         mTrackballWakePref = (CheckBoxPreference) prefSet.findPreference(TRACKBALL_WAKE_PREF);
         mTrackballWakePref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.TRACKBALL_WAKE_SCREEN, 1) == 1);
+
+        /* Volume Wake */
+        mVolumeWakePref = (CheckBoxPreference) prefSet.findPreference(VOLUME_WAKE_PREF);
+        mVolumeWakePref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.VOLUME_WAKE_SCREEN, 0) == 1);
 
         /* Volume button music controls */
         mVolBtnMusicCtrlPref = (CheckBoxPreference) prefSet.findPreference(VOLBTN_MUSIC_CTRL_PREF);
@@ -125,6 +134,11 @@ public class InputActivity extends PreferenceActivity {
         if (preference == mTrackballWakePref) {
             value = mTrackballWakePref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.TRACKBALL_WAKE_SCREEN,
+                    value ? 1 : 0);
+            return true;
+        } else if (preference == mVolumeWakePref) {
+            value = mVolumeWakePref.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.VOLUME_WAKE_SCREEN,
                     value ? 1 : 0);
             return true;
         } else if (preference == mVolBtnMusicCtrlPref) {
