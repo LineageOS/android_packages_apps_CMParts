@@ -9,14 +9,14 @@
     <string name="application_settings_summary_head">應用程式移動，安裝位置，通訊過濾</string>
     <string name="display_settings_title_head">顯示</string>
     <string name="display_settings_title_subhead">顯示設定</string>
-    <string name="display_settings_summary_head">顯示動畫，旋轉，逾時</string>
+    <string name="display_settings_summary_head">螢幕亮度，旋轉，開關動畫</string>
     <string name="input_settings_title_head">輸入</string>
     <string name="input_settings_title_subhead">輸入設定</string>
     <string name="input_settings_summary_head">輸入行為，按鍵，觸動回饋</string>
     <string name="interface_settings_title_head">介面</string>
     <string name="interface_settings_title_subhead">介面設定</string>
     <string name="interface_settings_summary_head">介面調整，過度捲動，渲染效果</string>
-    <string name="lockscreen_settings_title_head">螢幕鎖定</string>
+    <string name="lockscreen_settings_title_head">鎖定螢幕</string>
     <string name="lockscreen_settings_title_subhead">設定鎖定螢幕</string>
     <string name="lockscreen_settings_summary_head">鎖定螢幕的手勢，風格，解鎖選項</string>
     <string name="performance_settings_title_head">效能</string>
@@ -112,7 +112,7 @@
     <string name="trackball_reset_all">重設所有色彩與分類</string>
     <string name="trackball_array_error">由於陣列出現錯誤，這個應用程式已被強制編進雜項分類。</string>
     <string name="trackball_color_notice_title">注意</string>
-    <string name="trackball_color_notice_summary">並非每一款裝置都能夠顯示全部每一種色彩。</string>
+    <string name="trackball_color_notice_summary">並非每一款裝置都能夠顯示全部每一種色彩</string>
 
     <!-- Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">警告：會引致加速耗電</string>
@@ -155,7 +155,7 @@
     <string name="pref_lockscreen_custom_app_toggle_title">啟動自訂應用程式</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">在滑桿模式中以額外的滑桿，或在撥輪模式中以額外的撥孔，來啟動自訂應用程式。</string>
     <string name="pref_lockscreen_custom_app_activity_title">自訂應用程式</string>
-    <string name="pref_lockscreen_custom_icon_style_title">簡訊圖示代表自訂應用程式</string>
+    <string name="pref_lockscreen_custom_icon_style_title">使用簡訊圖示</string>
     <string name="pref_lockscreen_custom_icon_style_summary">以簡訊圖示代替 CyanogenMod 圖示來啟動自訂應用程式</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">拉下解鎖</string>
     <string name="pref_lockscreen_rotary_unlock_down_summary">向下拉動撥輪來解鎖，向右撥動來啟動自訂應用程式。</string>
@@ -189,12 +189,12 @@
     <string name="pref_input_custom_long_search_app_toggle_summary">長按搜尋鍵時啟動的自訂應用程式</string>
 
     <!-- Long Press Home -->
-    <string name="recent_apps_show_title">顯示最近使用的應用程式的標題</string>
-    <string name="recent_apps_num_title">最近使用的應用程式數目</string>
-    <string name="recent_apps_num_summary">長按主畫面鍵時要顯示最近使用的應用程式的數目</string>
-    <string name="dialog_recent_apps_num_title">選擇最近使用的應用程式數目</string>
+    <string name="recent_apps_show_title">顯示近期應用程式標題</string>
+    <string name="recent_apps_num_title">近期應用程式數量</string>
+    <string name="recent_apps_num_summary">長按主畫面鍵時要顯示多少個近期應用程式</string>
+    <string name="dialog_recent_apps_num_title">選擇近期應用程式數量</string>
     <string name="use_custom_app_title">使用自訂應用程式</string>
-    <string name="use_custom_app_summary">啟動自訂的應用程式而不顯示最近使用的應用程式對話方塊</string>
+    <string name="use_custom_app_summary">啟動自訂的應用程式而不顯示近期應用程式對話方塊</string>
     <string name="select_custom_app_title">選擇自訂的應用程式</string>
     <string name="group_applications">應用程式</string>
 
@@ -222,8 +222,8 @@
     <string name="haptic_delay_desc">毫秒關閉</string>
     <string name="haptic_vibe_desc">毫秒開啟</string>
 
-    <string name="haptic_down_description">調校“按下”按鍵的觸動設定值\n（虛擬實體鍵及某些用戶介面的互動）</string>
-    <string name="haptic_up_description">調校“放開”按鍵的觸動設定值\n（虛擬實體鍵及大部分螢幕觸控）</string>
+    <string name="haptic_down_description">調校“按下”按鍵時的觸動設定值\n（虛擬實體鍵及某些用戶介面的互動）</string>
+    <string name="haptic_up_description">調校“放開”按鍵時的觸動設定值\n（虛擬實體鍵及大部分螢幕觸控）</string>
     <string name="haptic_long_description">調校“長按”的觸動設定值</string>
     <string name="haptic_tap_description">調校輕按螢幕鍵盤按鍵的觸動設定值</string>
 
@@ -264,12 +264,12 @@
     <string name="pref_heapsize_summary">每一 VM heap 的記憶體上限值（需要重新啟動）</string>
 
     <!-- Performance : Lock home memory -->
-    <string name="pref_lock_home_title">鎖定主介面在記憶體中</string>
-    <string name="pref_lock_home_summary">企圖將目前的主介面應用程式經常的維持在記憶體中</string>
+    <string name="pref_lock_home_title">主介面常駐於記憶體</string>
+    <string name="pref_lock_home_summary">企圖將目前的主介面應用程式常駐於記憶體中</string>
 
     <!-- Performance : Lock mms app in memory -->
-    <string name="pref_lock_mms_title">鎖定簡訊應用程式在記憶體中</string>
-    <string name="pref_lock_mms_summary">避免在記憶體低落的情況下喪失簡訊</string>
+    <string name="pref_lock_mms_title">簡訊程式常駐於記憶體</string>
+    <string name="pref_lock_mms_summary">企圖將簡訊應用程式常駐於記憶體中，避免在記憶體低落的情況下喪失簡訊</string>
 
     <!-- Performance Settings : Warning dialog -->
     <string name="performance_settings_warning_title">警告：潛龍勿用！</string>
@@ -407,7 +407,7 @@
     <string name="sound_rings_title">鈴聲</string>
     <string name="sound_alarms_title">鬧鐘</string>
     <string name="sound_note_title">注意</string>
-    <string name="sound_note_summary">以下設定只在使用耳機時才會應用。</string>
+    <string name="sound_note_summary">以下設定只在使用耳機時才會應用</string>
     <string name="sound_attenuation_title">減弱原有音量</string>
     <string name="sound_limitvol_title">音樂播放時的音量</string>
     <string name="sound_notifications_attenuation_dialog">通知減弱</string>
@@ -455,8 +455,8 @@
     <string name="gestures_button_add">新增手勢</string>
     <string name="gestures_button_discard">捨棄</string>
     <string name="gestures_button_done">完成</string>
-    <string name="gestures_shortcut_picker_button_label">為這個手勢挑選一個捷徑或活動</string>
-    <string name="gestures_error_missing_shortcut">您必須為這個手勢挑選一個動作！</string>
+    <string name="gestures_shortcut_picker_button_label">為這個手勢選取一個捷徑或動作</string>
+    <string name="gestures_error_missing_shortcut">您必須為這個手勢選取一個動作！</string>
     <string name="gestures_save_success">已儲存手勢在 %s</string>
     <string name="gestures_cancel_action">取消</string>
     <string name="gestures_loading">正在載入手勢…</string>
@@ -466,8 +466,8 @@
     <string name="gestures_delete_success">手勢已被刪除</string>
     <string name="gestures_error_loading">載入手勢時發生問題。</string>
     <string name="gestures_unlock_only">解除鎖定</string>
-    <string name="gestures_toggle_sound">開關聲音</string>
-    <string name="gestures_flashlight">手電筒</string>
+    <string name="gestures_toggle_sound">音效切換</string>
+    <string name="gestures_flashlight">手電筒開關</string>
     <string name="pref_lockscreen_disable_unlock_tab">隱藏解鎖道具</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">注意：要使用這個選項您必須先啟用軌跡球、Menu 鍵、或手勢解鎖。</string>
     <string name="gestures_explain_create_screen">挑選要進行的動作（或選擇解鎖或聲音）並在螢幕上畫一個手勢。</string>
@@ -482,7 +482,7 @@
     <string name="changelog_version">版本</string>
 
     <!-- Phone goggles -->
-    <string name="category_phone_goggles_period">時期</string>
+    <string name="category_phone_goggles_period">時段</string>
     <string name="category_phone_goggles_confirmation">確認</string>
     <string name="category_phone_goggles_filter">過濾</string>
     <string name="title_phone_goggles">手機 Goggles</string>
