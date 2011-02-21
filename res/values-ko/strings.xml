@@ -179,6 +179,9 @@
     <string name="input_settings_summary">버튼 작동방식 조정</string>
     <string name="button_settings_title">버튼 설정</string>
     <string name="lockscreen_settings_title">잠금 화면 설정</string>
+    <string name="pref_lockscreen_always_battery_title">항상 배터리 남은 량 표시</string>
+    <string name="pref_lockscreen_always_battery_summary">배터리 남은 량을 잠금 화면에 항상 표시합니다.</string>
+
     <string name="pref_lockscreen_music_controls_title">잠금 화면에서 음악 조정</string>
     <string name="pref_lockscreen_music_controls_summary">음악 조정 화면을 잠금 화면에 표시합니다.</string>
     <string name="pref_lockscreen_always_music_controls_title">항상 음악 조정 표시</string>
@@ -344,6 +347,10 @@
     <string name="expanded_color_mask">지시기 색</string>
     <string name="title_widget_picker">위젯 버튼</string>
     <string name="summary_widget_picker">사용할 위젯 버튼을 골라주세요.</string>
+    <string name="title_widget_order">위젯 버튼 순서 변경</string>
+    <string name="summary_widget_order">위젯 버튼의 순서를 변경하세요.</string>
+    <string name="title_buttons">버튼</string>
+
     <string name="title_toggle_wifi">와이파이</string>
     <string name="title_toggle_bluetooth">블루투스</string>
     <string name="title_toggle_gps">GPS</string>
@@ -359,6 +366,10 @@
     <string name="title_toggle_airplane">에어플레인 모드</string>
     <string name="title_toggle_flashlight">LED 플래시라이트</string>
     <string name="title_toggle_sleep">잠자기</string>
+    <string name="title_toggle_media_play_pause">미디어: 재생/일시중지 전환</string>
+    <string name="title_toggle_media_previous">미디어: 이전으로</string>
+    <string name="title_toggle_media_next">미디어: 다음으로</string>
+
     <string name="title_button_modes">버튼 설정</string>
     <string name="pref_brightness_mode_title">밝기 버튼 설정</string>
     <string name="pref_brightness_mode_summary">밝기 버튼의 작용을 선택합니다.</string>
@@ -492,7 +503,8 @@
     <string name="gestures_flashlight">손전등</string>
     <string name="pref_lockscreen_disable_unlock_tab">잠금 밀기 안보이기</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">안내: 트랙볼이나 메뉴 키, 손동작 잠금 해제 중 하나 이상을 활성화해야 이 옵션을 사용할 수 있습니다.</string>
-    <string name="gestures_explain_create_screen">수행할 동작(또는 잠금 해제나 소리)를 선택한 후 화면에 손동작을 그리십시오.</string>
+    <string name="gestures_explain_create_screen">수행할 동작(잠금 해제 또는 소리)를 선택한 후 화면에 손동작을 그리십시오.</string>
+    <string name="gestures_already_present">경고: 비슷한 손동작이 다른 동작에 지정되어 있습니다.</string>
 
     <string name="pref_electron_beam_animation_on">화면 켜기 애니메이션 사용</string>
     <string name="pref_electron_beam_animation_off">화면 끄기 애니메이션 사용</string>
@@ -520,7 +532,7 @@
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">어플리케이션</string>
     <string name="application_settings_title_subhead">어플리케이션 설정</string>
-    <string name="application_settings_summary_head">어플리케이션 이동, 설치 위치</string>
+    <string name="application_settings_summary_head">어플리케이션 이동, 설치 위치, 통신 제어</string>
     <string name="display_settings_title_head">화면</string>
     <string name="display_settings_title_subhead">화면  설정</string>
     <string name="display_settings_summary_head">화면 애니메이션, 회전, 시간초과</string>
@@ -542,5 +554,101 @@
     <string name="system_settings_title_head">시스템</string>
     <string name="system_settings_title_subhead">시스템 설정</string>
     <string name="system_settings_summary_head">시스템 변경 내역, 상태, 업데이트 알림</string>
+
+    <string name="category_phone_goggles_period">기간</string>
+    <string name="category_phone_goggles_confirmation">확인</string>
+    <string name="category_phone_goggles_filter">제어</string>
+    <string name="title_phone_goggles">Phone Goggles</string>
+    <string name="title_phone_goggles_default">기본 설정</string>
+    <string name="title_phone_goggles_apps">제어된 어플리케이션</string>
+    <string name="title_phone_goggles_app_enabled">Phone Goggles 활성화</string>
+    <string name="title_phone_goggles_use_custom">사용자 정의 설정 사용</string>
+    <string name="title_phone_goggles_filter">제어된 전화번호</string>
+    <string name="title_phone_goggles_enabled">Phone Goggles 활성화</string>
+    <string name="title_phone_goggles_start">Phone Goggles 시작</string>
+    <string name="title_phone_goggles_end">Phone Goggles 끝</string>
+    <string name="title_phone_goggles_confirmation_enabled">확인 필요</string>
+    <string name="title_phone_goggles_phone_enabled">전화</string>
+    <string name="title_phone_goggles_sms_enabled">메시지</string>
+    <string name="title_phone_goggles_maths_level">산수 난이도</string>
+    <string name="title_phone_goggles_work_filtered">직장</string>
+    <string name="title_phone_goggles_mobile_filtered">휴대전화</string>
+    <string name="title_phone_goggles_other_filtered">기타</string>
+    <string name="summary_phone_goggles">나가는 통신 제어</string>
+    <string name="summary_phone_goggles_default">기본 설정 사용</string>
+    <string name="summary_phone_goggles_filter">제어하고 싶은 전화번호의 종류를 선택하세요.</string>
+    <string name="summary_phone_goggles_start">발신 통화 제어를 언제 시작할지 선택</string>
+    <string name="summary_phone_goggles_end">발신 통화 제어를 언제 끝낼지 선택</string>
+    <string name="summary_phone_goggles_confirmation_enabled">통신 제어를 하기 전에 어떤 방법으로 확인할지 선택합니다.</string>
+    <string name="summary_phone_goggles_maths_level">통신을 인증할 때 사용할 산수의 나이도 설정.</string>
+    <string name="summary_on_phone_goggles_enabled">나가는 통신은 제어됩니다.</string>
+    <string name="summary_on_phone_goggles_use_custom">사용자 정의 설정 사용</string>
+    <string name="summary_on_phone_goggles_app_enabled">이 어플리케이션에서 Phone Goggles가 활성화 되어있습니다.</string>
+    <string name="summary_on_phone_goggles_work_filtered">직장과 관련된 통신은 제어됩니다.</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">휴대전화로 나가는 통신은 제어됩니다.</string>
+    <string name="summary_on_phone_goggles_other_filtered">기타 나가는 통신은 제어됩니다.</string>
+    <string name="summary_off_phone_goggles_enabled">통신 제어를 사용하지 않습니다.</string>
+    <string name="summary_off_phone_goggles_use_custom">기본 설정 사용</string>
+    <string name="summary_off_phone_goggles_app_enabled">이 어플리케이션에서 Phone Goggles가 활성화되어있지 않습니다.</string>
+    <string name="summary_off_phone_goggles_work_filtered">직장과 관련된 통신은 제어되지 않습니다.</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">휴대전화로 나가는 통신은 제어되지 않습니다.</string>
+    <string name="summary_off_phone_goggles_other_filtered">기타 나가는 통신은 제어되지 않습니다</string>
+    <string name="phone_goggles_maths_level_easy">쉬움</string>
+    <string name="phone_goggles_maths_level_medium">중간</string>
+    <string name="phone_goggles_maths_level_hard">어려움</string>
+    <string name="phone_goggles_confirmation_none">없음</string>
+    <string name="phone_goggles_confirmation_prompt">확인</string>
+    <string name="phone_goggles_confirmation_maths">산수 문제</string>
+
+    <string name="pref_volbtn_music_controls_title">음량 버튼으로 음악 제어</string>
+    <string name="pref_volbtn_music_controls_summary">화면이 꺼져있을 때 음량 버튼을 길게 눌러 다음 곡/이전 곡을 선택합니다.</string>
+    <string name="pref_cambtn_music_controls_title">카메라 버튼 음악 제어</string>
+    <string name="pref_cambtn_music_controls_summary">화면이 꺼져있을 때 카메라 버튼을 길게 눌러 재생/일시 중지를 선택합니다.</string>
+
+    <!-- CPU Settings strings -->
+    <string name="cpu_settings_title">CPU 설정</string>
+    <string name="cpu_title">CPU 설정</string>
+    <string name="cpu_summary">규칙 밑 클럭 설정</string>
+    <string name="cpu_governors_title">이용 가능한 규칙</string>
+    <string name="cpu_governors_summary">이용 가능한 규칙\n현재 선택: %S</string>
+    <string name="cpu_min_freq_title">최소 CPU 클럭</string>
+    <string name="cpu_min_freq_summary">최소 CPU 클럭\n현재: %s</string>
+    <string name="cpu_max_freq_title">최대 CPU 클럭</string>
+    <string name="cpu_max_freq_summary">최대 CPU 클럭\n현재: %s</string>
+    <string name="cpu_set_on_boot">시작 시 설정</string>
+    <string name="cpu_set_on_boot_summary">휴대전화를 켤 때 이 CPU 설정을 적용합니다.</string>
+
+    <string name="pref_lockscreen_music_headset_title">헤드셋이 연결돼 있을때 음악 제어 표시</string>
+    <string name="pref_lockscreen_music_headset_summary">유선이나 블루투스 헤드셋이 연결되어 있을 때 음악 제어 표시</string>
+
+    <string name="pref_lockscreen_custom_app_toggle_title">사용자 지정 앱</string>
+    <string name="pref_lockscreen_custom_app_toggle_summary">두번째 슬라이더나 추가 구멍을 이용하여 사용자 지정 앱을 실행합니다.</string>
+    <string name="pref_lockscreen_custom_app_activity_title">사용자 지정 앱</string>
+
+    <string name="input_search_key_title">검색 버튼 동작</string>
+    <string name="input_search_key_summary">검색 버튼을 누를 때나 길게 눌렀을때 수행할 동작을 지정합니다.</string>
+    <string name="pref_input_custom_search_app_toggle_title">검색 키 앱</string>
+    <string name="pref_input_custom_search_app_toggle_summary">검색 키를 눌렀을 때 사용자 지정 앱을 실행합니다.</string>
+    <string name="pref_input_custom_search_app_activity_title">사용자 지정 앱</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">길게 눌렀을때 실행할 앱</string>
+
+    <string name="pref_lockscreen_now_playing_title">노래 제목 표시</string>
+    <string name="pref_lockscreen_now_playing_summary">현재 재생 중인 노래의 제목과 아티스트 표시</string>
+    <string name="pref_lockscreen_album_art_title">앨범 아트 표시</string>
+    <string name="pref_lockscreen_album_art_summary">현재 노래의 앨범 아트를 표시합니다. 세로 모드에서 기본 음악 플레이어로만 작동합니다.</string>
+
+    <string name="pref_lockscreen_stylecfg_title">모양 설정</string>
+    <string name="pref_lockscreen_stylecfg_summary">잠금 화면 모양과 설정을 조정합니다.</string>
+    <string name="pref_lockscreen_widgets_title">위젯 옵션</string>
+    <string name="pref_lockscreen_widgets_summary">잠금 화면의 다양한 위젯 활성화/비활성화</string>
+    <string name="pref_lockscreen_unlock_title">잠금 해제 옵션</string>
+    <string name="pref_lockscreen_unlock_summary">버튼 잠금 해제 및 빠른 잠금 해제 설정</string>
+    <string name="pref_lockscreen_gesture_title">잠금 화면 손동작</string>
+    <string name="pref_lockscreen_gesture_summary">잠금 화면 손동작을 활성화/설정하여 사용자가 원하는 동작을 수행합니다.</string>
+    <string name="pref_lockscreen_timeout_title">지연 및 시간초과</string>
+    <string name="pref_lockscreen_timeout_summary">화면 시간초과 시간과 화면 꺼짐 대기 시간을 조정합니다.</string>
+
+    <string name="lockscreen_widgets_note_title">안내</string>
+    <string name="lockscreen_widgets_note_summary">가장 단순한 Lense를 사용할 경우 음악 제어를 제외한 다른 위젯을 숨깁니다. 아래의 다른 설정은 다른 스타일로의 변경을 쉽게 하기 위하여 설정 해제가 되지 않았습니다.</string>
 
 </resources>
