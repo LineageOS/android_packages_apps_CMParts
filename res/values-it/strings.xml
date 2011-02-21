@@ -503,7 +503,7 @@
     <string name="title_phone_goggles_mobile_filtered">Mobile</string>
     <string name="title_phone_goggles_other_filtered">Altro</string>
     <string name="summary_phone_goggles">Filtra comunicazioni in uscita</string>
-    <string name="summary_phone_goggles_default">Ripristina le impostazioni di default</string>
+    <string name="summary_phone_goggles_default">Configura le impostazioni di default</string>
     <string name="summary_phone_goggles_filter">Seleziona il tipo di numeri telefonici che vuoi filtrare</string>
     <string name="summary_phone_goggles_start">Quando iniziare a filtrare le chiamate in uscita</string>
     <string name="summary_phone_goggles_end">Quando smettere di filtrare le chiamate in uscita</string>
