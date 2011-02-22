@@ -25,6 +25,13 @@
 				android:targetClass="com.cyanogenmod.cmparts.activities.UIPowerWidgetActivity" />
 		</PreferenceScreen>
 
+        <PreferenceScreen android:key="ui_status_bar_menu"
+            android:title="@string/ui_status_bar_title">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.UIStatusBarActivity" />
+        </PreferenceScreen>
+
 		<!-- Render effect -->
 		<ListPreference android:key="pref_render_effect"
 			android:dialogTitle="@string/pref_render_effect_title" android:title="@string/pref_render_effect_title"

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- Status bar tweaks -->
+	<PreferenceCategory android:title="@string/general_title">
+		<CheckBoxPreference android:key="pref_status_bar_clock"
+			android:title="@string/ui_status_bar_clock_title"
+			android:summary="@string/ui_status_bar_clock_summary"
+			android:defaultValue="true" />
+		<CheckBoxPreference android:key="pref_status_bar_cm_battery"
+			android:title="@string/ui_status_bar_cm_battery_title"
+			android:summary="@string/ui_status_bar_cm_battery_summary"
+			android:defaultValue="true" />
+	</PreferenceCategory>
+
+</PreferenceScreen>
