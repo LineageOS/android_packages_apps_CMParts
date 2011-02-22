@@ -46,6 +46,13 @@
     <string name="pref_rotate_180_title">Um 180 Grad drehen</string>
     <string name="pref_rotate_180_summary">Zusätzlich Drehung um 180 Grad erlauben, wenn Autorotation eingeschaltet ist</string>
 
+    <!-- User interface: Status bar tweaks -->
+    <string name="ui_status_bar_title">Statuszeile</string>
+    <string name="ui_status_bar_clock_title">Zeige Uhr</string>
+    <string name="ui_status_bar_clock_summary">Die Uhrzeit wird nicht angezeigt, wenn deaktiviert</string>
+    <string name="ui_status_bar_cm_battery_title">Batterie-Prozentanzeige</string>
+    <string name="ui_status_bar_cm_battery_summary">Zeige den Ladeszustand der Batterie in Prozent und ein kleineres Batteriesymbol. Ausschalten bei Anzeigeproblemen mit anderen Themes</string>
+
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED-Benachrichtigungen</string>
     <string name="trackball_summary">Trackball/LED-Benachrichtigungen kontrollieren</string>
