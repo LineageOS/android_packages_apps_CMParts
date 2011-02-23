@@ -44,6 +44,13 @@
     <string name="pref_rotate_180_title">Rotazione 180 gradi</string>
     <string name="pref_rotate_180_summary">Permette una rotazione di 180 gradi se la rotazione automatica è attiva</string>
 
+    <!-- User interface: Status bar tweaks -->
+    <string name="ui_status_bar_title">Modifiche status bar</string>
+    <string name="ui_status_bar_clock_title">Mostra orologio</string>
+    <string name="ui_status_bar_clock_summary">Se disattivato l\'orologio verrà nascosto</string>
+    <string name="ui_status_bar_cm_battery_title">Percentuale batteria</string>
+    <string name="ui_status_bar_cm_battery_summary">Visualizza la percentuale di carica rimanente e un\'icona più piccola per la batteria. Disattiva se non compatibile col tema utilizzato</string>
+
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notifiche LED</string>
     <string name="trackball_summary">Imposta colore e pulsazione delle notifiche trackball/LED</string>
@@ -342,6 +349,7 @@
     <string name="title_toggle_media_play_pause">Media: Play/Pause</string>
     <string name="title_toggle_media_previous">Media: Torna al precedente</string>
     <string name="title_toggle_media_next">Media: Passa al successivo</string>
+    <string name="title_toggle_wimax">WiMAX</string>
     <string name="title_button_modes">Modalità di funzionamento dei tasti</string>
     <string name="pref_brightness_mode_title">Mod. Luminosità</string>
     <string name="pref_brightness_mode_summary">Scegli le modalità del tasto per la luminosità</string>
