@@ -651,4 +651,11 @@
     <string name="lockscreen_widgets_note_title">안내</string>
     <string name="lockscreen_widgets_note_summary">가장 단순한 Lense를 사용할 경우 음악 제어를 제외한 다른 위젯을 숨깁니다. 아래의 다른 설정은 다른 스타일로의 변경을 쉽게 하기 위하여 설정 해제가 되지 않았습니다.</string>
 
+    <!-- User interface: Status bar tweaks -->
+    <string name="ui_status_bar_title">상태 표시줄 조정</string>
+    <string name="ui_status_bar_clock_title">시계 보이기</string>
+    <string name="ui_status_bar_clock_summary">비활성화되어있으면 시계가 보이지 않습니다.</string>
+    <string name="ui_status_bar_cm_battery_title">배터리 백분율</string>
+    <string name="ui_status_bar_cm_battery_summary">작은 배터리 아이콘과 배터리 백분율을 표시합니다. 일부 테마와 충돌할 수 있습니다.</string>
+
 </resources>
