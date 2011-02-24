@@ -17,6 +17,7 @@
 package com.cyanogenmod.cmparts.activities;
 
 import com.android.internal.telephony.Phone;
+import com.android.wimax.WimaxConstants;
 import com.cyanogenmod.cmparts.R;
 import com.cyanogenmod.cmparts.utils.PowerWidgetUtil;
 
@@ -134,6 +135,10 @@ public class PowerWidgetActivity extends PreferenceActivity implements OnPrefere
                     default:
                         cb.setEnabled(false);
                         break;
+                }
+            } else if (PowerWidgetUtil.BUTTON_WIMAX.equals(button.getId())) {
+                if (!WimaxConstants.isWimaxSupported(this)) {
+                    cb.setEnabled(false);
                 }
             }
 
