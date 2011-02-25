@@ -65,7 +65,10 @@ public class CPUActivity extends PreferenceActivity implements
         mMaxFrequencyFormat = getString(R.string.cpu_max_freq_summary);
 
         String[] availableGovernors = readOneLine(GOVERNORS_LIST_FILE).split(" ");
-        String[] availableFrequencies = readOneLine(FREQ_LIST_FILE).split(" ");
+        String[] availableFrequencies = new String[0];
+        String availableFrequenciesLine = readOneLine(FREQ_LIST_FILE);
+        if (availableFrequenciesLine != null)
+             availableFrequencies = availableFrequenciesLine.split(" ");
         String[] frequencies;
         String temp;
 
