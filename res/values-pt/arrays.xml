@@ -17,18 +17,6 @@
 
 <resources>
 
-    <string-array name="entries_recent_apps_num">
-        <item>8</item>
-        <item>12</item>
-        <item>15</item>
-    </string-array>
-  
-    <string-array name="entries_heapsize">
-        <item>12m</item>
-        <item>16m</item>
-        <item>24m</item>
-        <item>32m</item>
-    </string-array>
 
     <string-array name="entries_install_location">
         <item>Automático</item>
@@ -67,28 +55,40 @@
         <item>Vermelho</item>
         <item>Azul</item>
         <item>Amarelo</item>
-        <item>Azul Piscina</item>
+        <item>Ciano</item>
+        <item>Magenta</item>
         <item>Rosa</item>
-        <item>Pink</item>
         <item>Laranja</item>
         <item>Azul Claro</item>
-    <item>Aleatório</item>
-    <item>Nenhum</item>
+    	<item>Aleatório</item>
+    	<item>Nenhum</item>
     </string-array>
 
     <string-array name="pref_trackball_colors_values" translatable="false">
-        <item>green</item>
-        <item>white</item>
-        <item>red</item>
-        <item>blue</item>
-        <item>yellow</item>
-        <item>cyan</item>
+        <item>Verde</item>
+        <item>Branco</item>
+        <item>Vermelho</item>
+        <item>Azul</item>
+        <item>Amarelo</item>
+        <item>Ciano</item>
         <item>#800080</item>
         <item>#ffc0cb</item>
         <item>#ffa500</item>
         <item>#add8e6</item>
-        <item>random</item>
-        <item>none</item>
+        <item>Aleatório</item>
+        <item>Nenhuma</item>
+    </string-array>
+
+    <string-array name="entries_dual_led_colors">
+        <item>Verde</item>
+        <item>Âmbar</item>
+        <item>Nenhuma</item>
+    </string-array>
+
+    <string-array name="values_dual_led_colors" translatable="false">
+        <item>Verde</item>
+        <item>Vermelho</item>
+        <item>Nenhuma</item>
     </string-array>
 
     <string-array name="pref_trackball_blink_rate_entries">
@@ -119,15 +119,6 @@
         <item>26%</item>
     </string-array>
 
-    <string-array name="entries_light_filter_window">
-        <item>10 s</item>
-        <item>20 s</item>
-        <item>30 s</item>
-        <item>40 s</item>
-        <item>50 s</item>
-        <item>60 s</item>
-    </string-array>
-
     <string-array name="entries_light_filter_reset">
         <item>Desabilitado</item>
         <item>400 lux</item>
@@ -140,14 +131,6 @@
         <item>1500 lux</item>
         <item>2000 lux</item>
         <item>2500 lux</item>
-    </string-array>
-
-    <string-array name="entries_light_filter_interval">
-        <item>0.5 s</item>
-        <item>1 s</item>
-        <item>2 s</item>
-        <item>5 s</item>
-        <item>10 s</item>
     </string-array>
 
     <string-array name="entries_light_levels_dim">
@@ -169,18 +152,6 @@
         <item>26</item>
     </string-array>
 
-    <string-array name="entries_light_decrease_hysteresis">
-        <item>0 %</item>
-        <item>10 %</item>
-        <item>20 %</item>
-        <item>30 %</item>
-        <item>40 %</item>
-        <item>50 %</item>
-        <item>60 %</item>
-        <item>70 %</item>
-        <item>80 %</item>
-        <item>90 %</item>
-    </string-array>
 
     <string-array name="entries_sound_attenuation">
         <item>0 dB</item>
@@ -195,4 +166,67 @@
         <item>Volume de músicas (padrão)</item>
     </string-array>
 
+    <string-array name="entries_network_widget">
+        <item>2G/3G+2G</item>
+        <item>2G/3G Apenas</item>
+        <item>2G/3G Apenas/3G+2G</item>
+    </string-array>
+
+    <string-array name="entries_ring_widget">
+        <item>Som+Vibrar/Vibrar</item>
+        <item>Som/Vibrar</item>
+        <item>Som/Vibrar</item>
+        <item>Som+Vib/Vib/Silencioso</item>
+        <item>Som/Vibrar/Silencioso</item>
+        <item>Som+Vibrar/Som/Vibrar/Silencioso</item>
+    </string-array>
+
+    <string-array name="entries_flash_widget">
+        <item>Normal</item>
+        <item>Alto / Raio da Morte</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_gestures_sensitivity_entries">
+        <item>1 (mais amplo)</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12 (estrita)</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_style_entries">
+        <item>Aba Deslizante</item>
+        <item>Rotativo</item>
+        <item>Rotativo Remodelado</item>
+        <item>Lente</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>Desabilitado</item>
+        <item>Fone de Ouvido com fio</item>
+        <item>Fone de Ouvido Bluetooth A2DP</item>
+        <item>Ambos</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Nenhum</item>
+        <item>Brilhar Borda</item>
+        <item>Elasticidade e Brilhar</item>
+        <item>Elasticidade</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>Mais Pesado</item>
+        <item>Pesado</item>
+        <item>Médio</item>
+        <item>Leve</item>
+        <item>Mais Leve</item>
+    </string-array>
 </resources>
