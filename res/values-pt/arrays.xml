@@ -16,8 +16,6 @@
  -->
 
 <resources>
-
-
     <string-array name="entries_install_location">
         <item>Automático</item>
         <item>Memória interna</item>

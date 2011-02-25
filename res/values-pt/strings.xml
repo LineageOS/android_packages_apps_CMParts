@@ -618,7 +618,7 @@
     <string name="summary_off_phone_goggles_other_filtered">Nenhuma comunicação para outros telefones vai ser filtrada</string>
     <string name="phone_goggles_maths_level_easy">Fácil</string>
     <string name="phone_goggles_maths_level_medium">Médio</string>
-    <string name="phone_goggles_maths_level_hard">Difícil </string>
+    <string name="phone_goggles_maths_level_hard">Difícil</string>
     <string name="phone_goggles_confirmation_none">Nenhum</string>
     <string name="phone_goggles_confirmation_prompt">Verificação</string>
     <string name="phone_goggles_confirmation_maths">Problemas matemáticos</string>
