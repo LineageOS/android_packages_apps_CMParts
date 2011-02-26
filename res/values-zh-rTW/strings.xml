@@ -44,6 +44,13 @@
     <string name="pref_rotate_180_title">180 度旋轉</string>
     <string name="pref_rotate_180_summary">在自動旋轉螢幕啟用時允許額外的 180 度旋轉</string>
 
+    <!-- User interface: Status bar tweaks -->
+    <string name="ui_status_bar_title">通知列調整</string>
+    <string name="ui_status_bar_clock_title">顯示時鐘</string>
+    <string name="ui_status_bar_clock_summary">在通知列顯示時鐘</string>
+    <string name="ui_status_bar_cm_battery_title">電池百分比</string>
+    <string name="ui_status_bar_cm_battery_summary">顯示電池百分比和幼細的電池圖示。如佈景主題使這個不美觀，請停用這選項</string>
+
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED 通知</string>
     <string name="trackball_summary">控製軌跡球／LED 通知的色彩和閃爍</string>
@@ -342,6 +349,7 @@
     <string name="title_toggle_media_play_pause">媒體：切換播放／暫停</string>
     <string name="title_toggle_media_previous">媒體：跳轉上一首</string>
     <string name="title_toggle_media_next">媒體：跳轉下一首</string>
+    <string name="title_toggle_wimax">開關 WiMAX</string>
     <string name="title_button_modes">按鈕模式</string>
     <string name="pref_brightness_mode_title">顯示亮度模式</string>
     <string name="pref_brightness_mode_summary">選擇顯示亮度按鈕如何切換模式</string>
