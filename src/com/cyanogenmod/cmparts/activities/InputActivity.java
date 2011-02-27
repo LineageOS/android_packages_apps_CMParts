@@ -35,6 +35,8 @@ public class InputActivity extends PreferenceActivity {
 
     private static final String TRACKBALL_WAKE_PREF = "pref_trackball_wake";
 
+    private static final String MENU_WAKE_PREF = "pref_menu_wake";
+
     private static final String VOLBTN_MUSIC_CTRL_PREF = "pref_volbtn_music_controls";
 
     private static final String CAMBTN_MUSIC_CTRL_PREF = "pref_cambtn_music_controls";
@@ -48,6 +50,8 @@ public class InputActivity extends PreferenceActivity {
     private static final String USER_DEFINED_KEY3 = "pref_user_defined_key3";
 
     private CheckBoxPreference mTrackballWakePref;
+
+    private CheckBoxPreference mMenuWakePref;
 
     private CheckBoxPreference mVolBtnMusicCtrlPref;
 
@@ -81,6 +85,11 @@ public class InputActivity extends PreferenceActivity {
         mTrackballWakePref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.TRACKBALL_WAKE_SCREEN, 0) == 1);
 
+        /* Menu Wake */
+	mMenuWakePref = (CheckBoxPreference) prefSet.findPreference(MENU_WAKE_PREF);
+        mMenuWakePref.setChecked(Settings.System.getInt(getContentResolver(),
+	        Settings.System.MENU_WAKE_SCREEN, 0) == 1);
+
         /* Volume button music controls */
         mVolBtnMusicCtrlPref = (CheckBoxPreference) prefSet.findPreference(VOLBTN_MUSIC_CTRL_PREF);
         mVolBtnMusicCtrlPref.setChecked(Settings.System.getInt(getContentResolver(),
@@ -98,6 +107,9 @@ public class InputActivity extends PreferenceActivity {
 
         if (!getResources().getBoolean(R.bool.has_trackball)) {
             buttonCategory.removePreference(mTrackballWakePref);
+        }
+        if (!getResources().getBoolean(R.bool.has_menu_button)) {
+            buttonCategory.removePreference(mMenuWakePref);
         }
         if (!getResources().getBoolean(R.bool.has_camera_button)) {
             buttonCategory.removePreference(mCamBtnMusicCtrlPref);
@@ -127,6 +139,10 @@ public class InputActivity extends PreferenceActivity {
             Settings.System.putInt(getContentResolver(), Settings.System.TRACKBALL_WAKE_SCREEN,
                     value ? 1 : 0);
             return true;
+        } else if (preference == mMenuWakePref) {
+	    value = mMenuWakePref.isChecked();
+	    Settings.System.putInt(getContentResolver(), Settings.System.MENU_WAKE_SCREEN,
+		    value ? 1 : 0);
         } else if (preference == mVolBtnMusicCtrlPref) {
             value = mVolBtnMusicCtrlPref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.VOLBTN_MUSIC_CONTROLS,

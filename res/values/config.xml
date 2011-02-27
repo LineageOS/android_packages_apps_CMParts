@@ -11,4 +11,7 @@
 
     <!-- LED Flashlight -->
     <bool name="has_led_flash">false</bool>
+
+    <!-- Disable menu unlock/Menu wake by default -->
+    <bool name="has_menu_button">false</bool>
 </resources>
