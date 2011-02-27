@@ -87,7 +87,9 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
         if (!getResources().getBoolean(R.bool.has_trackball)) {
             generalCategory.removePreference(mTrackballUnlockPref);
         }
-
+        if (!getResources().getBoolean(R.bool.has_menu_button)) {
+            generalCategory.removePreference(mMenuUnlockPref);
+        }
     }
 
     @Override

@@ -11,4 +11,7 @@
 
     <!-- LED Flashlight -->
     <bool name="has_led_flash">false</bool>
+
+    <!-- Should have menu by default, override in device otherwise-->
+    <bool name="has_menu_button">true</bool>
 </resources>
