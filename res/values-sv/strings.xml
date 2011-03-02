@@ -44,6 +44,13 @@
     <string name="pref_rotate_180_title">Rotera 180 grader</string>
     <string name="pref_rotate_180_summary">Tillåter ytterligare 180 graders rotation när auto-rotation av skärmen är aktiverad</string>
 
+    <!-- User interface: Status bar tweaks -->
+    <string name="ui_status_bar_title">Anpassningar för statusraden</string>
+    <string name="ui_status_bar_clock_title">Visa klockan</string>
+    <string name="ui_status_bar_clock_summary">Klockan i statusraden kommer att vara gömd om detta inaktiveras</string>
+    <string name="ui_status_bar_cm_battery_title">Batteriprocent</string>
+    <string name="ui_status_bar_cm_battery_summary">Visa batteriprocent samt mini-ikon för batteriet. Inaktivera om temat får detta att se trasigt ut</string>
+
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED-aviseringar</string>
     <string name="trackball_summary">Kontrollera styrkula/LED aviseringsfärger och puls</string>
@@ -118,6 +125,17 @@
     <string name="notification_battery_warning_title">VARNING: Kan orsaka ökad batteriförbrukning</string>
     <string name="notification_battery_warning">Denna inställningar har visats öka batteriförbrukningen med ca 3% per timme. Om du upplever en ökad förbrukning medans styrkulans lampa pulserar så är detta varför. Aktivera inte om du inte vill öka förbrukningen.</string>
 
+    <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_stylecfg_title">Stilalternativ</string>
+    <string name="pref_lockscreen_stylecfg_summary">Konfigurera låsskärmsstilen och tillhörande inställningar</string>
+    <string name="pref_lockscreen_widgets_title">Widget-alternativ</string>
+    <string name="pref_lockscreen_widgets_summary">Aktivera eller inaktivera diverse widgets på låsskärmen</string>
+    <string name="pref_lockscreen_unlock_title">Upplåsningsalternativ</string>
+    <string name="pref_lockscreen_unlock_summary">Kontrollerar knappupplåsning och snabbupplåsning</string>
+    <string name="pref_lockscreen_gesture_title">Låsskärmsgester</string>
+    <string name="pref_lockscreen_gesture_summary">Aktivera och konfigurera gester för låsskärmen för att kontrollera anpassat beteende</string>
+    <string name="pref_lockscreen_timeout_title">Fördröjning och tidsgräns</string>
+    <string name="pref_lockscreen_timeout_summary">Ställ in fördröjningar för skärmtidsgräns och skärmavstängning</string>
 
     <!-- Lockscreen Settings -->
     <string name="lockscreen_settings_title">Låsskärmsinställningar</string>
@@ -125,6 +143,10 @@
     <string name="pref_lockscreen_always_battery_summary">Visa alltid batteristatus på låsskärmen</string>
     <string name="pref_lockscreen_music_controls_title">Musikkontroller på låsskärmen</string>
     <string name="pref_lockscreen_music_controls_summary">Visar musikkontroller på låsskärmen</string>
+    <string name="pref_lockscreen_now_playing_title">Visa låttitel</string>
+    <string name="pref_lockscreen_now_playing_summary">Visa titel och artist för låten som spelas</string>
+    <string name="pref_lockscreen_album_art_title">Visa skivomslag</string>
+    <string name="pref_lockscreen_album_art_summary">Visa skivomslaget för låten som spelas. Fungerar endast med den inbyggda musikspelaren i porträttläge</string>
     <string name="pref_lockscreen_music_headset_title">Visa musikkontroller med headset</string>
     <string name="pref_lockscreen_music_headset_summary">Visa musikkontroller när ett headset med sladd eller ett Bluetooth headset är inkopplat</string>
     <string name="pref_lockscreen_always_music_controls_title">Visa alltid musikkontroller</string>
@@ -154,6 +176,8 @@
     <string name="pref_volbtn_music_controls_summary">Gå till föregående/nästa låt med långa tryck på volymknapparna när skärmen är avstängd</string>
     <string name="pref_cambtn_music_controls_title">Musikkontroller med kameraknappen</string>
     <string name="pref_cambtn_music_controls_summary">Växla mellan play/pause med långt tryck på kameraknappen när skärmen är avstängd</string>
+    <string name="lockscreen_widgets_note_title">OBS</string>
+    <string name="lockscreen_widgets_note_summary">Vid val av minimalistisk Lense-stil göms alla widgets utom musikkontroll. Dock avaktiveras inte valen nedan för att underlätta byte mellan stilar.</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Inmatningsinställningar</string>
@@ -164,6 +188,7 @@
     <string name="long_press_home_title">Inställningar för långt tryck på hem</string>
     <string name="long_press_home_summary">Antalet nyligen använda applikationer, etc</string>
     <string name="input_search_key_title">Sökknappsbeteende</string>
+    <string name="input_search_key_summary">Ställ in anpassade händelser för sökknapp och långt tryck på sökknapp</string>
     <string name="pref_input_custom_search_app_toggle_title">Sökknapps-app</string>
     <string name="pref_input_custom_search_app_toggle_summary">Startar en anpassad app när man trycker på sökknappen</string>
     <string name="pref_input_custom_search_app_activity_title">Anpassad applikation</string>
@@ -324,6 +349,7 @@
     <string name="title_toggle_media_play_pause">Media: Växla mellan Play/Pause</string>
     <string name="title_toggle_media_previous">Media: Hoppa till föregående</string>
     <string name="title_toggle_media_next">Media: Hoppa till nästa</string>
+    <string name="title_toggle_wimax">Växla WiMAX</string>
     <string name="title_button_modes">Knapplägen</string>
     <string name="pref_brightness_mode_title">Lägen för ljusstyrka</string>
     <string name="pref_brightness_mode_summary">Välj hur knappen för ljusstyrka ändrar lägen</string>
@@ -400,6 +426,8 @@
     <string name="sound_alarms_limitvol_dialog">Alarmvolym</string>
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">Tysta timmar</string>
+    <string name="quiet_hours_note_title">OBS</string>
+    <string name="quiet_hours_note_summary">Inkommande samtal kommer bete sig som vanligt under tysta timmar</string>
     <string name="quiet_hours_enabled">Aktivera tysta timmar</string>
     <string name="quiet_hours_enabled_on">Tysta timmar kommer att gälla</string>
     <string name="quiet_hours_enabled_off">Aviseringar kommer bete sig normalt</string>
@@ -426,7 +454,6 @@
     <string name="user_defined_not_set">Inget inställt</string>
 
     <!--  Lockscreen gesture strings -->
-    <string name="pref_lockscreen_title">Låsskärmsgester</string>
     <string name="pref_lockscreen_gestures_enable_title">Använd låsskärmsgester</string>
     <string name="pref_lockscreen_gestures_trail_title">Visa gestspår</string>
     <string name="pref_lockscreen_gestures_builder_title">Bygg gester</string>
