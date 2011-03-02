@@ -88,6 +88,11 @@ public class PowerWidgetActivity extends PreferenceActivity implements OnPrefere
         // get our list of buttons
         ArrayList<String> buttonList = PowerWidgetUtil.getButtonListFromString(PowerWidgetUtil.getCurrentButtons(this));
 
+        // Don't show WiMAX option if not supported
+        if (!WimaxConstants.isWimaxSupported(this)) {
+            PowerWidgetUtil.BUTTONS.remove(PowerWidgetUtil.BUTTON_WIMAX);
+        }
+
         // fill that checkbox map!
         for(PowerWidgetUtil.ButtonInfo button : PowerWidgetUtil.BUTTONS.values()) {
             // create a checkbox
