@@ -35,7 +35,7 @@
         <item>Калиброванный (N1) Красноватый</item>
         <item>Калиброванный (N1) Холодный</item>
     </string-array>
-    
+
     <string-array name="render_entries">
         <item>Ночной (красный)</item>
         <item>Терминал (зелёный)</item>
@@ -47,7 +47,7 @@
         <item>Калиброванный (N1) Красноватый</item>
         <item>Калиброванный (N1) Холодный</item>
     </string-array>
-    
+
     <string-array name="entries_trackball_colors">
         <item>Зелёный</item>
         <item>Белый</item>
@@ -70,7 +70,7 @@
         <item>5</item>
         <item>6 (Медленно)</item>
     </string-array>
-    
+
     <string-array name="pref_lockscreen_delay_entries">
         <item>Немедленно</item>
         <item>1 секунда</item>
@@ -146,7 +146,7 @@
         <item>Пониженная громкость</item>
         <item>Громкость музыки (по умолчанию)</item>
     </string-array>
-    
+
     <string-array name="pref_compcache_size_entries">
         <item>Отключенно</item>
         <item>10%</item>
@@ -181,12 +181,12 @@
         <item>Только 2G/3G</item>   
         <item>2G/3G Только/3G+2G</item>
     </string-array>
-	
+
     <string-array name="entries_screentimeout_widget" translatable="false">
         <item>15сек/1мин/5мин</item>
         <item>30сек/2мин/5мин</item>
     </string-array>
-	
+
     <string-array name="entries_ring_widget" translatable="false">
         <item>Звук+Вибро/Вибро</item>
         <item>Звук/Вибро</item>
@@ -195,26 +195,26 @@
         <item>Звук/Вибро/Беззвучный</item>
         <item>Звук+Вибро/Звук/Вибро/Беззвучный</item>
     </string-array>
-	
+
     <string-array name="entries_flash_widget" translatable="false">
         <item>Обычный</item>
         <item>Полная яркость</item>
     </string-array>
-	
+
     <string-array name="pref_lockscreen_style_entries">
         <item>Ползунки</item>
         <item>Вращение</item>
-        <item>Rotary revamped</item>
-        <item>Lense</item>
+        <item>Вращение (новый)</item>
+        <item>Линза</item>
     </string-array>
-	
+
     <string-array name="pref_overscroll_effect_entries">
         <item>Нет</item>
         <item>Свечение</item>
         <item>Отскок и свечение</item>
         <item>Отскок</item>
     </string-array>
-	
+
     <string-array name="entries_overscroll_weight">
         <item>Супер сильная</item>
         <item>Сильная</item>
@@ -229,5 +229,5 @@
         <item>Bluetooth A2DP наушники</item>
         <item>Все</item>
     </string-array>
-	
+
 </resources>

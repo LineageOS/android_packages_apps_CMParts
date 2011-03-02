@@ -28,7 +28,7 @@
     <string name="system_settings_title_head">Система</string>
     <string name="system_settings_title_subhead">Настройки системы</string>
     <string name="system_settings_summary_head">Системные изменения, статистика, уведомления об обновлении</string>
-	
+
     <!--  Update Notifications -->
     <string name="updatenotify_title">Уведомления об обновлениях</string>
     <string name="updatenotify_summary">Получать уведомления об обновлениях.</string>
@@ -43,7 +43,14 @@
     <!-- User interface : 180 degree rotation -->
     <string name="pref_rotate_180_title">Поворот на 180 градусов</string>
     <string name="pref_rotate_180_summary">Дополнительное вращение на 180 градусов при включенном автоповороте экрана</string>
-	
+
+   <!-- User interface: Status bar tweaks -->
+    <string name="ui_status_bar_title">Настроки статус бара</string>
+    <string name="ui_status_bar_clock_title">Показывать часы</string>
+    <string name="ui_status_bar_clock_summary">Часы из статус бара будут скрыты, если отключено</string>
+    <string name="ui_status_bar_cm_battery_title">Батарея в процентах</string>
+    <string name="ui_status_bar_cm_battery_summary">Показывать батарею в процентах и мини-индикатор</string>
+
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED уведомления</string>
     <string name="trackball_summary">Настройка цветов и ритма уведомлений через Trackball/LED</string> 
@@ -56,10 +63,10 @@
     <!-- User interface : Overscroll -->
     <string name="ui_overscroll_title">Перепрокрутка</string>
     <string name="pref_overscroll_title">Эффект перепрокрутки</string>
-    <string name="pref_overscroll_summary">Choose how scrollable objects look when they overshoot</string>
+    <string name="pref_overscroll_summary">Выбор стиля эфекта перепрокрутки</string>
     <string name="pref_overscroll_weight_title">Размер перепрокрутки</string>
     <string name="pref_overscroll_weight_summary">Выбор размера прокручиваемых объектов</string>
-	
+
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Настройка блокировки экрана</string>
     <string name="pref_lockscreen_delay_title">Задержка</string>
@@ -118,7 +125,26 @@
     <string name="notification_battery_warning_title">Внимание: может вызвать разрядку батареи</string>
     <string name="notification_battery_warning">Эта настройка может потреблять ~3% заряда батареи в час. Не включайте ее, если не хотите быстрой разрядки.</string>
 
-	
+    <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_stylecfg_title">Стиль</string>
+    <string name="pref_lockscreen_stylecfg_summary">Стиль экрана блокировки и соответствующие настройки</string>
+    <string name="pref_lockscreen_widgets_title">Виджеты</string>
+    <string name="pref_lockscreen_widgets_summary">Включение или отключение разных виджетов для экрана блокировки</string>
+    <string name="pref_lockscreen_unlock_title">Разблокировка</string>
+    <string name="pref_lockscreen_unlock_summary">Разблокировка кнопками и быстрая разблокировка</string>
+    <string name="pref_lockscreen_gesture_title">Жесты</string>
+    <string name="pref_lockscreen_gesture_summary">Включение и настройка жестов для экрана блокировки</string>
+    <string name="pref_lockscreen_timeout_title">Задержки и таймауты</string>
+    <string name="pref_lockscreen_timeout_summary">Настройки времени задержки блокировки экрана</string>
+
+    <!-- Lockscreen Settings -->
+    <string name="pref_lockscreen_now_playing_title">Название песни</string>
+    <string name="pref_lockscreen_now_playing_summary">Показывать название и исполнителя текущей песни</string>
+    <string name="pref_lockscreen_album_art_title">Обложка альбома</string>
+    <string name="pref_lockscreen_album_art_summary">Показывать обложку текущего альбома. Работает только с встроенным плеером и только в портретном режиме.</string>
+    <string name="lockscreen_widgets_note_title">Примечание</string>
+    <string name="lockscreen_widgets_note_summary">Использование минималистичного стиля \"Линза\" скрывает все виджеты кроме управлениея плеером. Но настройки ниже продолжают быть доступны, что позволяет легко переходить на другие стили.</string>
+
     <!-- Input Settings -->
     <string name="input_settings_title">Ввод</string>
     <string name="input_settings_summary">Настройка поведения кнопок</string>
@@ -128,7 +154,7 @@
     <string name="pref_lockscreen_always_battery_summary">Всегда показывать состояние батареи на экране блокировки</string>
     <string name="pref_lockscreen_music_controls_title">Управление плеером</string>
     <string name="pref_lockscreen_music_controls_summary">Показывать на экране блокировки элементы управления плеером</string>
-    <string name="pref_lockscreen_music_headset_title">Управление плеером с подключенными наушниками</string>
+    <string name="pref_lockscreen_music_headset_title">Показывать если подключены:</string>
     <string name="pref_lockscreen_music_headset_summary">Показывать на экране блокировки элементы управления плеером, когда подключены проводные и(или) Bluetooth A2DP наушники</string>
     <string name="pref_lockscreen_always_music_controls_title">Показывать всегда</string>
     <string name="pref_lockscreen_always_music_controls_summary">Всегда показывать управление плеером, даже если музыка не играет</string>
@@ -157,6 +183,13 @@
     <string name="pref_volbtn_music_controls_summary">Листать треки долгим нажатие на кнопку громкости при выключенном экране</string>
     <string name="pref_cambtn_music_controls_title">Управление музыкой кнопкой камеры</string>
     <string name="pref_cambtn_music_controls_summary">Воспроизведение/пауза долгим нажатие на кнопку камеры при выключенном экране</string>
+    <string name="input_search_key_title">Настройки кнопки поиск</string>
+    <string name="input_search_key_summary">Задайте действие на нажатие и долгое нажатие кнопки поиск</string>
+    <string name="pref_input_custom_search_app_toggle_title">Приложение по нажатию</string>
+    <string name="pref_input_custom_search_app_toggle_summary">Запуск своего приложения по нажатию кнопки поиск</string>
+    <string name="pref_input_custom_search_app_activity_title">Выбрать своё приложение</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">Долгое нажатие</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">Запуск своего приложения по долгому нажатию на кнопку поиск</string>
 
     <!-- Long Press Home -->
     <string name="long_press_home_title">Долгое нажатие на Home</string>
@@ -189,7 +222,7 @@
     <!-- Performance Settings : VM Heap Size -->
     <string name="pref_heapsize_title">Размер VM heap</string>
     <string name="pref_heapsize_summary">Максимум допустимой памяти для VM heap (требуется перезагрузка)</string>
-	
+
     <!-- Performance : Lock home memory -->
     <string name="pref_lock_home_title">Блокировать рабочий стол в памяти</string>
     <string name="pref_lock_home_summary">Пытаться не давать системе выгружать ваш текущий рабочий стол из памяти</string>
@@ -285,10 +318,10 @@
     <string name="amber">Жёлтый</string>
     <string name="salmon">Salmon</string>
     <string name="fuscia">Розовый</string>
-	
+
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Виджет в панели</string>
-	<string name="title_expanded_widget">Виджет в панели</string>
+    <string name="title_expanded_widget">Виджет в панели</string>
     <string name="summary_expanded_widget">Использовать элементы управления питанием в выпадающей панели</string>
     <string name="title_expanded_hide_onchange">Скрывать панель</string>
     <string name="summary_expanded_hide_onchange">Скрывать выпадающую панель уведомлений, после переключения кнопки виджета</string>
@@ -297,7 +330,7 @@
     <string name="summary_widget_picker">Выберите кнопки, которые будут отображаться в этом виджете.</string>
     <string name="title_widget_order">Упорядочить кнопки виджета</string>
     <string name="summary_widget_order">Упорядочить кнопки на виджете</string>
-    <string name="title_buttons">Кнопки</string>	
+    <string name="title_buttons">Кнопки</string>
     <string name="title_toggle_wifi">WiFi</string>
     <string name="title_toggle_bluetooth">Bluetooth</string>
     <string name="title_toggle_gps">GPS</string>
@@ -392,6 +425,8 @@
     <string name="sound_alarms_limitvol_dialog">Громкость будильников</string>
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">Тихие часы</string>
+    <string name="quiet_hours_note_title">Примечание</string>
+    <string name="quiet_hours_note_summary">Входящие звонки будут вести себя как обычно во время тихих часов</string>
     <string name="quiet_hours_enabled">Включить тихие часы</string>
     <string name="quiet_hours_enabled_on">Тихие часы активированы</string>
     <string name="quiet_hours_enabled_off">Уведомления будут вести себя как обычно</string>
@@ -411,7 +446,7 @@
 
     <string name="cmstats_title">Анонимная статистика</string>
     <string name="cmstats_summary">Помогите сделать CM лучше, включите отправку анонимных отчётов</string>
-	
+
     <string name="user_defined_key1">Горячая клавиша 1</string>
     <string name="user_defined_key2">Горячая клавиша 2</string>
     <string name="user_defined_key3">Горячая клавиша 3</string>
@@ -445,7 +480,7 @@
     <string name="pref_lockscreen_disable_unlock_tab_summary">Примечание: Вы должны включить разблокировку через trackball, кнопку menu или жесты - для того что бы эта опция была доступна.</string>
     <string name="gestures_explain_create_screen">Выберите действие для выполнения (или выберите Разблокировать или Переключить звук) и нарисуйте жест на экране.\nПримечание: одиночный вертикальный (верх или вниз) жест не поддерживается.</string>
     <string name="gestures_already_present">Внимание: аналогичный жест связан с другим действием!</string>
-	
+
     <!-- Change Log strings -->
     <string name="changelog_title">Посмотреть список изменений</string>
     <string name="changelog_dialog">Список изменений</string>
