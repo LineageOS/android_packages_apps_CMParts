@@ -452,6 +452,7 @@
     <string name="title_toggle_media_play_pause">Medien: Play/Pause</string>
     <string name="title_toggle_media_previous">Medien: Letzter Titel</string>
     <string name="title_toggle_media_next">Medien: Nächster Titel</string>
+    <string name="title_toggle_wimax">WiMAX</string>
     <string name="title_button_modes">Modi für Tasten</string>
     <string name="pref_brightness_mode_title">Helligkeitsmodi</string>
     <string name="pref_brightness_mode_summary">Helligkeitsstufen auswählen</string>
