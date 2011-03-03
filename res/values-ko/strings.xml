@@ -608,9 +608,9 @@
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU 설정</string>
     <string name="cpu_title">CPU 설정</string>
-    <string name="cpu_summary">규칙 밑 클럭 설정</string>
+    <string name="cpu_summary">규칙 및 클럭 설정</string>
     <string name="cpu_governors_title">이용 가능한 규칙</string>
-    <string name="cpu_governors_summary">이용 가능한 규칙\n현재 선택: %S</string>
+    <string name="cpu_governors_summary">이용 가능한 규칙\n현재 선택: %s</string>
     <string name="cpu_min_freq_title">최소 CPU 클럭</string>
     <string name="cpu_min_freq_summary">최소 CPU 클럭\n현재: %s</string>
     <string name="cpu_max_freq_title">최대 CPU 클럭</string>
