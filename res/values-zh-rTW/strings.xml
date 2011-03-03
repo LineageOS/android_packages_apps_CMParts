@@ -53,7 +53,7 @@
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED 通知</string>
-    <string name="trackball_summary">控製軌跡球／LED 通知的色彩和閃爍</string>
+    <string name="trackball_summary">控制軌跡球／LED 通知的色彩和閃爍</string>
 
     <!-- User interface : WebView -->
     <string name="ui_webview_title">網頁檢視</string>
