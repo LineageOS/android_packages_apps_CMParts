@@ -202,10 +202,10 @@
     </string-array>
 
     <string-array name="entries_overscroll_weight">
-        <item>Mais Pesado</item>
+        <item>Muito Pesado</item>
         <item>Pesado</item>
         <item>Médio</item>
         <item>Leve</item>
-        <item>Mais Leve</item>
+        <item>Muito Leve</item>
     </string-array>
 </resources>
