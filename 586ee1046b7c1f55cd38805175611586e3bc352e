@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAACn//+pc\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenUnlockActivity.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2011-03-04T15:31:30Z",
+      "side": 1,
+      "message": "Why comment this out? It defaults to false which is good- only a handful of devices have hardkeys these days.",
+      "revId": "586ee1046b7c1f55cd38805175611586e3bc352e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
