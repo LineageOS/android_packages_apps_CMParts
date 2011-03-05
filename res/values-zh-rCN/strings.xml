@@ -44,6 +44,13 @@
     <string name="pref_rotate_180_title">旋转 180 度</string>
     <string name="pref_rotate_180_summary">当自动转屏激活时允许 180 度旋转</string>
 
+    <!-- User interface: Status bar tweaks -->
+    <string name="ui_status_bar_title">状态栏调整</string>
+    <string name="ui_status_bar_clock_title">显示时钟</string>
+    <string name="ui_status_bar_clock_summary">如果禁用，状态栏中的时钟将不会显示</string>
+    <string name="ui_status_bar_cm_battery_title">电量百分比</string>
+    <string name="ui_status_bar_cm_battery_summary">在小电池图标上显示电量百分比。如果主题破坏了外观则禁用它</string>
+
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED 通知</string>
     <string name="trackball_summary">控制轨迹球和 LED 通知的颜色和闪烁频率</string>
@@ -118,18 +125,30 @@
     <string name="notification_battery_warning_title">警告：可能会增加耗电量</string>
     <string name="notification_battery_warning">测试显示本功能会每小时增加 3% 左右的耗电量。如果你发现在轨迹球闪动时耗电量有所增加，应该是本功能所导致的。如果您不想增加耗电量，请不要开启本功能。</string>
 
+    <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_stylecfg_title">风格选项</string>
+    <string name="pref_lockscreen_stylecfg_summary">配置锁屏风格和相应的设置</string>
+    <string name="pref_lockscreen_widgets_title">小工具选项</string>
+    <string name="pref_lockscreen_widgets_summary">在锁屏上启用或禁用各种小工具</string>
+    <string name="pref_lockscreen_unlock_title">解锁选项</string>
+    <string name="pref_lockscreen_unlock_summary">控制按键解锁和快速解锁</string>
+    <string name="pref_lockscreen_gesture_title">锁屏手势</string>
+    <string name="pref_lockscreen_gesture_summary">在锁屏上启用并配置手势并控制自定义行为</string>
+    <string name="pref_lockscreen_timeout_title">延迟和超时</string>
+    <string name="pref_lockscreen_timeout_summary">配置屏幕超时时间和屏幕关闭延迟</string>
 
-    <!-- Input Settings -->
-    <string name="input_settings_title">输入设置</string>
-    <string name="input_settings_summary">设备按键行为选项</string>
-    <string name="button_settings_title">按键设置</string>
+    <!-- Lockscreen Settings -->
     <string name="lockscreen_settings_title">锁屏设置</string>
     <string name="pref_lockscreen_always_battery_title">总是显示电池状态</string>
     <string name="pref_lockscreen_always_battery_summary">在锁屏画面一直显示电池状态</string>
     <string name="pref_lockscreen_music_controls_title">锁屏音乐播放控制按钮</string>
     <string name="pref_lockscreen_music_controls_summary">在锁屏画面上显示音乐播放控制按钮</string>
+    <string name="pref_lockscreen_now_playing_title">显示歌曲名</string>
+    <string name="pref_lockscreen_now_playing_summary">显示正在播放的歌曲名和艺术家</string>
+    <string name="pref_lockscreen_album_art_title">显示专辑封面</string>
+    <string name="pref_lockscreen_album_art_summary">显示当前歌曲的专辑封面。仅对内置的音乐播放器有效。</string>
     <string name="pref_lockscreen_music_headset_title">使用耳机时显示音乐控制</string>
-    <string name="pref_lockscreen_music_headset_summary">当佩戴耳机或连接蓝牙耳机时显示音乐控制</string>
+    <string name="pref_lockscreen_music_headset_summary">当连接有线耳机或蓝牙耳机时显示音乐控制</string>
     <string name="pref_lockscreen_always_music_controls_title">总是显示音乐播放控制按钮</string>
     <string name="pref_lockscreen_always_music_controls_summary">无论是否正在播放音乐，总是显示音乐播放控制按钮</string>
     <string name="pref_trackball_wake_title">轨迹球唤醒</string>
@@ -157,10 +176,26 @@
     <string name="pref_volbtn_music_controls_summary">在屏幕关闭时长按音量键寻找音乐曲目</string>
     <string name="pref_cambtn_music_controls_title">照相键音乐控制</string>
     <string name="pref_cambtn_music_controls_summary">在屏幕关闭时长按照相键切换播放/暂停</string>
+    <string name="lockscreen_widgets_note_title">注意</string>
+    <string name="lockscreen_widgets_note_summary">选择简约 lense 风格仅显示音乐控制。但以下选项不会取消设置而方便地转换到其它风格。</string>
+
+    <!-- Input Settings -->
+    <string name="input_settings_title">输入设置</string>
+    <string name="input_settings_summary">设备按键行为选项</string>
+    <string name="haptic_title">振动反馈微调</string>
+    <string name="haptic_summary">调节振动反馈的发生条件和方式</string>
+    <string name="button_settings_title">按键设置</string>
+    <string name="long_press_home_title">长按 Home 键设置</string>
+    <string name="long_press_home_summary">最近打开的程序数等</string>
+    <string name="input_search_key_title">搜索键行为</string>
+    <string name="input_search_key_summary">自定义搜索键和长按搜索键</string>
+    <string name="pref_input_custom_search_app_toggle_title">搜索键应用程序</string>
+    <string name="pref_input_custom_search_app_toggle_summary">当按下搜索键时启动自定义程序</string>
+    <string name="pref_input_custom_search_app_activity_title">自定义程序</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">长按搜索键</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">当长按搜索键时启动自定义程序</string>
 
     <!-- Long Press Home -->
-    <string name="long_press_home_title">长按 Home 键设置</string>
-    <string name="long_press_home_summary">调整最近打开程序显示数量等设置</string>
     <string name="recent_apps_show_title">显示最近打开程序名称</string>
     <string name="recent_apps_num_title">最近打开程序数量</string>
     <string name="recent_apps_num_summary">设置长按 Home 键打开最近程序列表中显示的程序数量</string>
@@ -169,6 +204,51 @@
     <string name="use_custom_app_summary">启动自定义程序，而不是打开最近程序列表</string>
     <string name="select_custom_app_title">选择自定义程序</string>
     <string name="group_applications">应用程序</string>
+
+    <!-- HapticTweaks -->
+    <string name="title_haptic_feedback">振动反馈</string>
+    <string name="summary_on_haptic_feedback">在软按键按下和部分界面操作时启用振动反馈</string>
+    <string name="summary_off_haptic_feedback">在软按键按下和部分界面操作时禁用振动反馈</string>
+
+    <string name="title_haptic_feedback_up">按键释放振动反馈</string>
+    <string name="summary_on_haptic_feedback_up">在松开软按键和部分界面操作时启用振动反馈</string>
+    <string name="summary_off_haptic_feedback_up">在松开软按键和部分界面操作时禁用振动反馈</string>
+
+    <string name="title_haptic_feedback_all">触摸屏振动反馈</string>
+    <string name="summary_on_haptic_feedback_all">在触摸屏进行操作时启用振动反馈</string>
+    <string name="summary_off_haptic_feedback_all">在触摸屏进行操作时禁用振动反馈</string>
+
+    <string name="title_haptic_down_decider">按键振动方式</string>
+    <string name="title_haptic_up_decider">按键释放振动方式</string>
+    <string name="title_haptic_long_decider">长按键振动方式</string>
+    <string name="title_haptic_tap_decider">屏幕键盘振动方式</string>
+
+    <string name="title_haptic_menu">振动调节</string>
+    <string name="title_haptic_notice">重启后才能使设置在全局生效</string>
+
+    <string name="haptic_delay_desc">毫秒 停止时间</string>
+    <string name="haptic_vibe_desc">毫秒 振动时间</string>
+
+    <string name="haptic_down_description">调节按下按键时的振动数值\n（虚拟硬键及部分界面操作）</string>
+    <string name="haptic_up_description">调节松开按键时的振动数值\n（虚拟硬键及大部分屏幕操作）</string>
+    <string name="haptic_long_description">调节长按按键时的振动数值</string>
+    <string name="haptic_tap_description">调节屏幕键盘的振动数值</string>
+
+    <string name="haptic_plus_minus_desc">请点击加号或减号按钮在序列中添加或删除步骤</string>
+
+    <string name="haptic_button_plus">+</string>
+    <string name="haptic_button_minus">-</string>
+
+    <string name="haptic_button_save">保存</string>
+    <string name="haptic_button_test">测试</string>
+    <string name="haptic_button_cancel">取消</string>
+    <string name="haptic_button_revert">撤销变更</string>
+    <string name="haptic_button_default">读取默认值</string>
+
+    <string name="haptic_save_toast">正在保存振动数值：</string>
+    <string name="haptic_cancel_toast">振动数值未更改</string>
+    <string name="haptic_revert_toast">正在恢复上次使用数值</string>
+    <string name="haptic_default_toast">正在恢复默认值</string>
 
     <!-- Performance Settings -->
     <string name="performance_settings_title">性能设置</string>
@@ -213,54 +293,6 @@
     <!-- Application Settings : Install Location -->
     <string name="pref_install_location_title">安装位置</string>
     <string name="pref_install_location_summary">选择新安装程序的安装位置</string>
-
-    <!-- HapticTweaks -->
-    <string name="haptic_title">振动反馈微调</string>
-    <string name="haptic_summary">调节振动反馈的发生条件和方式</string>
-
-    <string name="title_haptic_feedback">振动反馈</string>
-    <string name="summary_on_haptic_feedback">在软按键按下和部分界面操作时启用振动反馈</string>
-    <string name="summary_off_haptic_feedback">在软按键按下和部分界面操作时禁用振动反馈</string>
-
-    <string name="title_haptic_feedback_up">按键释放振动反馈</string>
-    <string name="summary_on_haptic_feedback_up">在松开软按键和部分界面操作时启用振动反馈</string>
-    <string name="summary_off_haptic_feedback_up">在松开软按键和部分界面操作时禁用振动反馈</string>
-
-    <string name="title_haptic_feedback_all">触摸屏振动反馈</string>
-    <string name="summary_on_haptic_feedback_all">在触摸屏进行操作时启用振动反馈</string>
-    <string name="summary_off_haptic_feedback_all">在触摸屏进行操作时禁用振动反馈</string>
-
-    <string name="title_haptic_down_decider">按键振动方式</string>
-    <string name="title_haptic_up_decider">按键释放振动方式</string>
-    <string name="title_haptic_long_decider">长按键振动方式</string>
-    <string name="title_haptic_tap_decider">屏幕键盘振动方式</string>
-
-    <string name="title_haptic_menu">振动调节</string>
-    <string name="title_haptic_notice">重启后才能使设置在全局生效</string>
-
-    <string name="haptic_delay_desc">毫秒 停止时间</string>
-    <string name="haptic_vibe_desc">毫秒 振动时间</string>
-
-    <string name="haptic_down_description">调节按下按键时的振动数值\n（虚拟硬键及部分界面操作）</string>
-    <string name="haptic_up_description">调节松开按键时的振动数值\n（虚拟硬键及大部分屏幕操作）</string>
-    <string name="haptic_long_description">调节长按按键时的振动数值</string>
-    <string name="haptic_tap_description">调节屏幕键盘的振动数值</string>
-
-    <string name="haptic_plus_minus_desc">请点击加号或减号按钮在序列中添加或删除步骤</string>
-
-    <string name="haptic_button_plus">+</string>
-    <string name="haptic_button_minus">-</string>
-
-    <string name="haptic_button_save">保存</string>
-    <string name="haptic_button_test">测试</string>
-    <string name="haptic_button_cancel">取消</string>
-    <string name="haptic_button_revert">撤销变更</string>
-    <string name="haptic_button_default">读取默认值</string>
-
-    <string name="haptic_save_toast">正在保存振动数值：</string>
-    <string name="haptic_cancel_toast">振动数值未更改</string>
-    <string name="haptic_revert_toast">正在恢复上次使用数值</string>
-    <string name="haptic_default_toast">正在恢复默认值</string>
 
     <string name="general_title">通用设置</string>
     <string name="buttons_title">按键</string>
@@ -317,6 +349,7 @@
     <string name="title_toggle_media_play_pause">媒体: 切换播放/暂停</string>
     <string name="title_toggle_media_previous">媒体: 跳到前一首</string>
     <string name="title_toggle_media_next">媒体: 跳到下一首</string>
+    <string name="title_toggle_wimax">切换 WiMAX</string>
     <string name="title_button_modes">按钮切换模式</string>
     <string name="pref_brightness_mode_title">亮度切换模式</string>
     <string name="pref_brightness_mode_summary">选择亮度按钮的切换方式</string>
@@ -393,6 +426,8 @@
     <string name="sound_alarms_limitvol_dialog">闹钟音量</string>
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">静音时间</string>
+    <string name="quiet_hours_note_title">注意</string>
+    <string name="quiet_hours_note_summary">在静音时间来电将和平时的行为一样</string>
     <string name="quiet_hours_enabled">启用静音时间</string>
     <string name="quiet_hours_enabled_on">已启用静音时间</string>
     <string name="quiet_hours_enabled_off">通知声音将正常播放</string>
@@ -419,7 +454,6 @@
     <string name="user_defined_not_set">没有设置</string>
 
     <!--  Lockscreen gesture strings -->
-    <string name="pref_lockscreen_title">锁屏手势</string>
     <string name="pref_lockscreen_gestures_enable_title">使用锁屏手势</string>
     <string name="pref_lockscreen_gestures_trail_title">显示手势路径</string>
     <string name="pref_lockscreen_gestures_builder_title">建立手势</string>
