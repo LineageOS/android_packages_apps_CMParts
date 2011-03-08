@@ -35,6 +35,11 @@
   <string name="pref_rotate_180_summary">Дозволяє обернення на 180 градусів за увімкненого автообернення екрана</string>
   <string name="trackball_title">Світлові сповіщення</string>
   <string name="trackball_summary">Управління кольором та миготінням трекболу чи світлодіода</string>
+  <string name="ui_status_bar_title">Рядок стану</string>
+  <string name="ui_status_bar_clock_title">Годинник</string>
+  <string name="ui_status_bar_clock_summary">Годинник рядка стану</string>
+  <string name="ui_status_bar_cm_battery_title">Відсоток заряду</string>
+  <string name="ui_status_bar_cm_battery_summary">Відсоток заряду та мінііконка батареї відображатиметься в рядкові стану. Вимкніть, якщо псує вигляд</string>
   <string name="ui_webview_title">Веб-перегляд</string>
   <string name="pref_pinch_reflow_title">Перекомпонування</string>
   <string name="pref_pinch_reflow_summary">Перекомпонування вмісту відразу після збільшення</string>
@@ -266,6 +271,7 @@
   <string name="title_toggle_media_play_pause">Відтворення/Пауза</string>
   <string name="title_toggle_media_previous">Попередній трек</string>
   <string name="title_toggle_media_next">Наступний трек</string>
+  <string name="title_toggle_wimax">WiMAX</string>
   <string name="title_button_modes">Режими кнопок</string>
   <string name="pref_brightness_mode_title">Яскравість</string>
   <string name="pref_brightness_mode_summary">Виберіть значення, які може набути яскравсть, за натисканням одноіменної кнопки</string>
