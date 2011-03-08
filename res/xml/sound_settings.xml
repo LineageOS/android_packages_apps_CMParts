@@ -17,6 +17,13 @@
 			android:summary="@string/sound_volume_control_silent_summary"
 			android:persistent="false" />
 
+        <!-- Vibrate on call -->
+		<CheckBoxPreference android:key="vibrate-in-call"
+			android:title="@string/sound_vibrate_in_call_title"
+			android:summaryOn="@string/sound_vibrate_in_call_summary_on"
+			android:summaryOff="@string/sound_vibrate_in_call_summary_off"
+			android:persistent="false" />
+
 		<PreferenceScreen android:key="sound_category_quiet_hours"
 			android:title="@string/sound_category_quiet_hours_title">
 			<intent android:action="android.intent.action.MAIN"

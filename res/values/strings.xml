@@ -410,6 +410,9 @@
     <string name="sound_notifications_focus_summary">Audio focus requests causes compatible apps to lower the volume while notifications play.</string>
     <string name="sound_volume_control_silent_title">Silent state</string>
     <string name="sound_volume_control_silent_summary">Add a state for complete silence to volume control</string>
+    <string name="sound_vibrate_in_call_title">Vibrate during calls</string>
+    <string name="sound_vibrate_in_call_summary_off">Notifications will not vibrate during while in a call</string>
+    <string name="sound_vibrate_in_call_summary_on">Notifications will vibrate normally</string>
     <string name="sound_to_speaker_title">Always play on speaker</string>
     <string name="sound_notifications_title">Notifications</string>
     <string name="sound_rings_title">Ring tones</string>
