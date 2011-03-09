@@ -6,10 +6,10 @@
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Aplicação</string>
     <string name="application_settings_title_subhead">Configurações de Aplicação</string>
-    <string name="application_settings_summary_head">Mover, local de instalação e filtro de comunicação da Aplicação</string>
+    <string name="application_settings_summary_head">Mover aplicação, local de instalação e filtro de comunicação</string>
     <string name="display_settings_title_head">Exibição</string>
     <string name="display_settings_title_subhead">Configurações de exibição</string>
-    <string name="display_settings_summary_head">Animações, rotação e intervalos de exibição</string>
+    <string name="display_settings_summary_head">Animações, girar e intervalos de exibição</string>
     <string name="input_settings_title_head">Entrada</string>
     <string name="input_settings_title_subhead">Configurações de entrada</string>
     <string name="input_settings_summary_head">Comportamento, botões e feedback de toque</string>
@@ -29,18 +29,18 @@
     <string name="system_settings_title_subhead">Configurações de sistema</string>
     <string name="system_settings_summary_head">Changelog, estatísticas e notificações de atualização</string>
 
-	 <!--  Update Notifications -->
+	  <!--  Update Notifications -->
     <string name="updatenotify_title">Notificações de atualização</string>
     <string name="updatenotify_summary">Receber notificações de atualização.</string>
 
     <!-- User interface -->
     <string name="ui_title">Interface de usuário</string>
     <string name="ui_summary">Configurações da aparência e comportamento da interface</string>
-    <string name="pref_electron_beam_animation_on">Animação ao acender a tela</string>
-    <string name="pref_electron_beam_animation_off">Animação ao desligar a tela</string>
+    <string name="pref_electron_beam_animation_on">Animação ao acender</string>
+    <string name="pref_electron_beam_animation_off">Animação ao desligar</string>
 
     <!-- User interface : 180 degree rotation -->
-    <string name="pref_rotate_180_title">Rotacionar 180 graus</string>
+    <string name="pref_rotate_180_title">Girar 180 graus</string>
     <string name="pref_rotate_180_summary">Permitir 180 graus adicionais quando auto-rotacionar tela is ativado</string>
 
     <!-- User interface: Status bar tweaks -->
@@ -48,7 +48,7 @@
     <string name="ui_status_bar_clock_title">Mostrar relógio</string>
     <string name="ui_status_bar_clock_summary">Se desabilitado, esconde relógio da barra de status</string>
     <string name="ui_status_bar_cm_battery_title">Percentual de bateria</string>
-    <string name="ui_status_bar_cm_battery_summary">Mostrar percentual de bateria e um mini ícone de bateria. Desabilite se o tema quebrar a layout</string>
+    <string name="ui_status_bar_cm_battery_summary">Mostrar percentual de bateria e um mini ícone de bateria. Desabilite se o tema quebrar o layout</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notificações de LED</string>
@@ -63,8 +63,8 @@
     <string name="ui_lockscreen_title">Configurações de bloqueio de tela</string>
     <string name="pref_lockscreen_delay_title">Espera</string>
     <string name="pref_lockscreen_timeout_lock_delay">Tempo de espera</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Tempo para desligar a tela</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Quanto tempo aguardar antes de habilitar tela de bloqueio quando o tempo limite da tela esgota</string>
+    <string name="pref_lockscreen_screenoff_lock_delay">Tempo para desligar tela</string>
+    <string name="pref_lockscreen_timeout_lock_delay_summary">Quanto tempo aguardar antes de ativar tela de bloqueio quando o tempo limite da tela esgota</string>
     <string name="pref_lockscreen_screenoff_lock_delay_summary">Quanto tempo aguardar antes de a tela de bloqueio aparecer quando a tela desliga</string>
 
     <!-- Color Picker -->
@@ -188,7 +188,7 @@
     <string name="pref_lockscreen_stylecfg_title">Configurações de estilo</string>
     <string name="pref_lockscreen_stylecfg_summary">Configure opções relacionadas a tela bloqueada</string>
     <string name="pref_lockscreen_widgets_title">Opções de Widget</string>
-    <string name="pref_lockscreen_widgets_summary">Habilitar ou desabilitar diversos widgets na tela de bloqueio</string>
+    <string name="pref_lockscreen_widgets_summary">Ativar ou desativar diversos widgets na tela de bloqueio</string>
     <string name="pref_lockscreen_unlock_title">Opções de destravamento</string>
     <string name="pref_lockscreen_unlock_summary">Controla destravamento por botão e destravamento rápido</string>
     <string name="pref_lockscreen_gesture_title">Gesto na tela de bloqueio</string>
@@ -208,20 +208,20 @@
     <string name="pref_lockscreen_album_art_summary">Mostra a arte do álbum da música atual. Só funciona em modo retrato com o tocador padrão</string>
     <string name="pref_lockscreen_music_headset_title">Mostrar controles de música com fone de ouvido</string>
     <string name="pref_lockscreen_music_headset_summary">Mostra controle de música quando fone de ouvido com fio e/ou fone de ouvido Bluetooth A2DP está conectado</string>
-    <string name="pref_lockscreen_always_music_controls_title">Sempre mostrar controles de música</string>
+    <string name="pref_lockscreen_always_music_controls_title">Sempre mostrar</string>
     <string name="pref_lockscreen_always_music_controls_summary">Mostra os controles de música mesmo que não esteja tocando música</string>
     <string name="pref_trackball_wake_title">Despertar com trackball</string>
     <string name="pref_trackball_wake_summary">Desperta o aparelho ao pressionar o trackball</string>
     <string name="pref_trackball_unlock_title">Destravar com trackball</string>
     <string name="pref_trackball_unlock_summary">Destrava o aparelho ao pressionar o trackball</string>
-    <string name="pref_menu_unlock_title">Menu para destravar</string>
+    <string name="pref_menu_unlock_title">Destravar com Menu</string>
     <string name="pref_menu_unlock_summary">Destravar o aparelho ao pressionar o botão Menu</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Destravamento rápido</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Não é necessário pressionar OK quando digitar PIN ou Senha. Deletar conta como tentativa incorreta</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Inicializador de aplicação personalizada</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">Mostra um estilo de rolagem, mostra uma ondulação em estilo rotativo no aplicativo personalizado </string>
     <string name="pref_lockscreen_custom_app_activity_title">Aplicativo personalizado</string>
-    <string name="pref_lockscreen_custom_icon_style_title">Ícone de mensagem para aplicativo personalizado</string>
+    <string name="pref_lockscreen_custom_icon_style_title">Ícone de mensagem</string>
     <string name="pref_lockscreen_custom_icon_style_summary">Usa ícone de mensagem ao invés do ícone do CM para inicializar um aplicativo personalizado</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Arraste para baixo para destravar</string>
     <string name="pref_lockscreen_rotary_unlock_down_summary">Desbloqueia ao arrastar para baixo a roda giratória. Arrastando para a direita inicializa aplicativo personalizado</string>
@@ -239,7 +239,7 @@
     <string name="lockscreen_widgets_note_summary">Escolhendo estilo minimalistico esconde todos os widgets menos o controle de música. As opções abaixo não estão desmarcadas para permitir fácil mudança para outros estilos</string>
 
     <!-- Input Settings -->
-    <string name="long_press_home_title">Configurações do botão Home quando pressionado</string>
+    <string name="long_press_home_title">Conf. do botão Home</string>
     <string name="long_press_home_summary">Aplicações atuais, etc</string>
     <string name="input_settings_title">Configurações de entrada</string>
     <string name="input_settings_summary">Controle do comportamento de entrada</string>
@@ -280,13 +280,13 @@
     <string name="summary_save_theme">Salvar as configurações de cores atuais no seu cartão SD</string>
 
     <!-- Long Press Home -->
-    <string name="recent_apps_show_title">Mostra o título de aplicações recentes</string>
+    <string name="recent_apps_show_title">Mostra o título dos apps</string>
     <string name="recent_apps_num_title">Número de aplicações recentes</string>
     <string name="recent_apps_num_summary">Número de aplicações recentes para serem exibidas com o botão Home pressionado</string>
     <string name="dialog_recent_apps_num_title">Especificar o número de aplicações recentes</string>
-    <string name="use_custom_app_title">Usar aplicação personalizada</string>
+    <string name="use_custom_app_title">Aplicação personalizada</string>
     <string name="use_custom_app_summary">Usar aplicação personalizada em vez da caixa de aplicações atuais</string>
-    <string name="select_custom_app_title">Selecione a aplicação personizalida</string>
+    <string name="select_custom_app_title">Selecione a aplicação</string>
     <string name="group_applications">Aplicações</string>
 
     <!-- Performance Settings -->
@@ -302,11 +302,11 @@
     <string name="pref_jit_mode_summary">Usar o compilador Dalvik em tempo real (requer reinicio)</string>
 
     <!-- Performance Settings : Dithering -->
-    <string name="pref_use_dithering_title">Melhorar qualidade de imagem</string>
+    <string name="pref_use_dithering_title">Qualidade de imagem</string>
     <string name="pref_use_dithering_summary">Melhora a qualidade de imagem a custo de performance (requer reinício)</string>
 
     <!-- Performance Settings : VM Heap Size -->
-    <string name="pref_heapsize_title">Tamanho da Memória Virtual</string>
+    <string name="pref_heapsize_title">Memória Virtual</string>
     <string name="pref_heapsize_summary">Quantidade máxima de memória por pilha de Máquina Virtual (requer reinício)</string>
 
     <!-- Performance Settings : Warning dialog -->
@@ -326,20 +326,20 @@
     <string name="pref_install_location_summary">Escolha onde novas aplicações devem ser instaladas</string>
 
     <!-- HapticTweaks -->
-    <string name="haptic_title">Ajustes de feedback de toque</string>
-    <string name="haptic_summary">Ajustar quando e quão forte ocorre o feedback ao toque</string>
+    <string name="haptic_title">Ajustes de vibração</string>
+    <string name="haptic_summary">Ajustar quando e quão forte ocorre vibração</string>
 
-    <string name="title_haptic_feedback">Retorno com vibração - principal</string>
-    <string name="summary_on_haptic_feedback">Usar retorno com vibração ao pressionar teclas de funções e em certas interações com interface de usuário</string>
-    <string name="summary_off_haptic_feedback">Não usar retorno com vibração ao soltar tecla de funções e em certas interações com interface de usuário</string>
+    <string name="title_haptic_feedback">Vibração principal</string>
+    <string name="summary_on_haptic_feedback">Vibrar ao pressionar teclas de funções e em certas interações com interface de usuário</string>
+    <string name="summary_off_haptic_feedback">Não vibrar ao soltar tecla de funções e em certas interações com interface de usuário</string>
 
-    <string name="title_haptic_feedback_up">Retorno com vibração</string>
-    <string name="summary_on_haptic_feedback_up">Usar retorno com vibração ao pressionar teclas de funções e em certas interações com interface de usuário</string>
-    <string name="summary_off_haptic_feedback_up">Não usar retorno com vibração ao soltar tecla de funções e em certas interações com interface de usuário</string>
+    <string name="title_haptic_feedback_up">Vibração</string>
+    <string name="summary_on_haptic_feedback_up">Vibrar ao pressionar teclas de funções e em certas interações com interface de usuário</string>
+    <string name="summary_off_haptic_feedback_up">Não vibrar ao soltar tecla de funções e em certas interações com interface de usuário</string>
 
-    <string name="title_haptic_feedback_all">Itens de tela</string>
-    <string name="summary_on_haptic_feedback_all">Usar retorno com vibração quando fizer seleção na tela</string>
-    <string name="summary_off_haptic_feedback_all">Não usar retorno com vibração quando fizer seleção na tela</string>
+    <string name="title_haptic_feedback_all">Ítens de tela</string>
+    <string name="summary_on_haptic_feedback_all">Vibrar quando fizer seleção na tela</string>
+    <string name="summary_off_haptic_feedback_all">Não vibrar quando fizer seleção na tela</string>
 
     <string name="title_haptic_down_decider">Padrão botão apertado</string>
     <string name="title_haptic_up_decider">Padrão botão solto</string>
@@ -352,10 +352,10 @@
     <string name="haptic_delay_desc">ms tempo desligado</string>
     <string name="haptic_vibe_desc">ms tempo ligado</string>
 
-    <string name="haptic_down_description">Ajustando valores de vibração para apertar botão\n(Hardkeys virtuais e certas interações com interface de usuário.)</string>
-    <string name="haptic_up_description">Ajustando valores de vibração para soltar botão\n(Hardkeys virtuais e a maioria dos toques na tela.)</string>
+    <string name="haptic_down_description">Ajustando valores de vibração para apertar botão\n(Teclas virtuais e certas interações com interface de usuário.)</string>
+    <string name="haptic_up_description">Ajustando valores de vibração para soltar botão\n(Teclas virtuais e a maioria dos toques na tela.)</string>
     <string name="haptic_long_description">Ajustando valores de vibração para toque longo.</string>
-    <string name="haptic_tap_description">Ajustante valores de vibração para toque rápido.</string>
+    <string name="haptic_tap_description">Ajustando valores de vibração para toque rápido.</string>
 
     <string name="haptic_plus_minus_desc">Pressione os botões Mais ou Menos para diminuir ou aumentar os valores.</string>
 
@@ -398,7 +398,6 @@
     <string name="fuscia">Fuscia</string>
 
     <!-- Notification Bar Colors -->
-
     <string name="title_notification_bar">Barra de notificações</string>
     <string name="title_custom_not_bar">Barra de notificações customizada</string>
     <string name="summary_custom_not_bar_on">Usando cor e estilo customizado na barra de notificações</string>
@@ -433,7 +432,7 @@
     <string name="title_toggle_autorotate">Alternar Orientação</string>
     <string name="title_toggle_airplane">Alternar Modo Avião</string>
     <string name="title_toggle_flashlight">Alternar LED da Lanterna</string>
-    <string name="title_toggle_sleep">Entrar em sleep</string>
+    <string name="title_toggle_sleep">Entrar em descanso</string>
     <string name="title_button_modes">Modos do Botão</string>
     <string name="pref_brightness_mode_title">Modos de Brilho</string>
     <string name="pref_brightness_mode_summary">Escolha como o botão de brilho alterna o modo</string>
@@ -449,18 +448,18 @@
 
 
     <!-- Performance : Lock home memory -->
-    <string name="pref_lock_home_title">Manter home na memória</string>
+    <string name="pref_lock_home_title">Manter home</string>
     <string name="pref_lock_home_summary">Tenta manter a a home atual sempre na memória</string>
 
     <!-- Performance : Lock mms app in memory -->
-    <string name="pref_lock_mms_title">Manter mensagens na memória</string>
+    <string name="pref_lock_mms_title">Manter mensagens</string>
     <string name="pref_lock_mms_summary">Evita perder mensagens em situações de pouca memória</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Iluminação das teclas</string>
     <string name="backlight_summary">Ajustar níveis e filtros de aplicação</string>
     <string name="light_filter_title">Filtro do sensor de luz</string>
-    <string name="light_filter_enabled_title">Habilitar</string>
+    <string name="light_filter_enabled_title">Ativar</string>
     <string name="light_filter_enabled_summary">Filtrar movimento do sensor para reduzir tremores</string>
     <string name="light_filter_window_title">Comprimento da janela</string>
     <string name="light_filter_window_summary">O valor é a média do sensor durante este período</string>
@@ -470,7 +469,7 @@
     <string name="light_filter_interval_summary">Valores menores melhoram a precisão mas consomem mais CPU</string>
     <string name="light_levels_title">Níveis de luz</string>
     <string name="light_levels_enabled_title">Usar personalizado</string>
-    <string name="light_levels_dim_title">Nivel de escurecimento da tela</string>
+    <string name="light_levels_dim_title">Nível de escurecimento</string>
     <string name="light_levels_dim_summary">Brilho usado para escurecer a tela</string>
     <string name="light_levels_editor_title">Editar outros níveis...</string>
     <string name="light_decrease_enabled_title">Permitir redução de luz</string>
@@ -489,7 +488,7 @@
     <string name="ll_lcd">Tela:</string>
     <string name="ll_btn">Botões:</string>
     <string name="ll_kb">Teclado:</string>
-    <string name="ll_disabled">desabilitado</string>
+    <string name="ll_disabled">desativado</string>
     <string name="ll_default">Carregar padrões</string>
     <string name="ll_save">Salvar e aplicar</string>
     <string name="ll_reload">Recarregar atual</string>
@@ -501,7 +500,7 @@
     <string name="sound_summary">Configurações de som e foco sonoro</string>
     <string name="sound_notifications_focus_title">Notificação de foco</string>
     <string name="sound_notifications_focus_summary">Pedido de foco sonoro fazem com que aplicações compatíveis baixem o volume enquanto as notificações são tocadas.</string>
-    <string name="sound_to_speaker_title">Sempre tocar no speaker</string>
+    <string name="sound_to_speaker_title">Sempre tocar no alto falante</string>
     <string name="sound_notifications_title">Notificações</string>
     <string name="sound_rings_title">Ringtones</string>
     <string name="sound_alarms_title">Alarmes</string>
@@ -518,7 +517,7 @@
 
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">Horas de Silêncio</string>
-    <string name="quiet_hours_enabled">Habilitar horas de silêncio</string>
+    <string name="quiet_hours_enabled">Ativar horas de silêncio</string>
     <string name="quiet_hours_enabled_on">Horas de Silêncio será imposto</string>
     <string name="quiet_hours_enabled_off">Notificações vão se comportar normalmente</string>
     <string name="quiet_hours_start">Início do horas de silêncio</string>
@@ -528,7 +527,7 @@
     <string name="quiet_hours_mute">Silenciar notificações</string>
     <string name="quiet_hours_mute_on">Nenhum som será tocado</string>
     <string name="quiet_hours_mute_off">Os sons tocarão normalmente</string>
-    <string name="quiet_hours_still">Desabilitar vibrações</string>
+    <string name="quiet_hours_still">Desativar vibrações</string>
     <string name="quiet_hours_still_on">O aparelho não vibrará</string>
     <string name="quiet_hours_still_off">O aparelho vibrará normalmente</string>
     <string name="quiet_hours_dim">Escurecer LED</string>
@@ -544,8 +543,8 @@
 
     <!--  Lockscreen gesture strings -->
     <string name="pref_lockscreen_title">Gestos da tela de bloqueio</string>
-    <string name="pref_lockscreen_gestures_enable_title">Usar gestos na tela de bloqueio</string>
-    <string name="pref_lockscreen_gestures_trail_title">Mostrar traçado dos gestos</string>
+    <string name="pref_lockscreen_gestures_enable_title">Usar gestos</string>
+    <string name="pref_lockscreen_gestures_trail_title">Mostrar traçado</string>
     <string name="pref_lockscreen_gestures_builder_title">Criar gestos</string>
     <string name="pref_lockscreen_gestures_sensitivity_title">Sensibilidade</string>
     <string name="label_create_gesture">Criar um gesto</string>
@@ -564,7 +563,7 @@
     <string name="gestures_error_loading">Problema com operação de arquivo do gesto.</string>
     <string name="gestures_unlock_only">Desbloquear telefone</string>
     <string name="gestures_toggle_sound">Alternar som</string>
-    <string name="pref_lockscreen_disable_unlock_tab">Desabilitar trava de puxar</string>
+    <string name="pref_lockscreen_disable_unlock_tab">Desativar trava de puxar</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Nota: Você precisa ligar o trackball, tecla de menu ou gesto de destravar para que essa opção fique disponível</string>
     <string name="gestures_explain_create_screen">Escolha uma ação para ser feita (ou selecione Desbloquear ou Som) e desenhe o gesto na tela.</string>
 
@@ -583,10 +582,10 @@
     <string name="title_phone_goggles">Phone Goggles</string>
     <string name="title_phone_goggles_default">Configurações padrão</string>
     <string name="title_phone_goggles_apps">Aplicações filtradas</string>
-    <string name="title_phone_goggles_app_enabled">Habilitar Phone Goggles</string>
+    <string name="title_phone_goggles_app_enabled">Ativar Phone Goggles</string>
     <string name="title_phone_goggles_use_custom">Usar configurações personalizadas</string>
     <string name="title_phone_goggles_filter">Números filtrados</string>
-    <string name="title_phone_goggles_enabled">Habilitar phone goggles</string>
+    <string name="title_phone_goggles_enabled">Ativar phone goggles</string>
     <string name="title_phone_goggles_start">Início de modo phone goggles</string>
     <string name="title_phone_goggles_end">Fim de modo goggles</string>
     <string name="title_phone_goggles_confirmation_enabled">Requisitar confirmação</string>
@@ -612,7 +611,7 @@
     <string name="summary_off_phone_goggles_enabled">Nenhuma comunicação vai ser filtrada</string>
     <string name="summary_off_phone_goggles_use_custom">Usar configurações padrões</string>
     <string name="summary_off_phone_goggles_app_enabled">Phone Goggles está desabilitado para esta aplicação</string>
-    <string name="summary_off_phone_goggles_work_filtered">Comunicação com trabalho não vai ser filtrada</string>
+    <string name="summary_off_phone_goggles_work_filtered">Nenhuma comunicação com trabalho vai ser filtrada</string>
     <string name="summary_off_phone_goggles_mobile_filtered">Nenhuma comunicação para celulares vai ser filtrada</string>
     <string name="summary_off_phone_goggles_other_filtered">Nenhuma comunicação para outros telefones vai ser filtrada</string>
     <string name="phone_goggles_maths_level_easy">Fácil</string>
@@ -653,9 +652,9 @@
     <string name="title_expanded_hide_onchange">Esconder ao mudar</string>
     <string name="summary_expanded_hide_onchange">Esconde a notificação após acionar um botão do widget</string>
     <string name="trackball_color_notice_summary">Não são todas as cores disponíveis para todos dispositivos.</string>
-    <string name="pref_overscroll_weight_title">Peso do overscroll</string>
-    <string name="pref_overscroll_weight_summary">Selecione o peso do overscroll</string>
-    <string name="pref_overscroll_summary">Escolhe o tipo de overscroll</string>
-    <string name="pref_overscroll_title">Efeito overscroll</string>
-    <string name="ui_overscroll_title">Overscroll</string>
+    <string name="pref_overscroll_weight_title">Peso de sobrerolagem</string>
+    <string name="pref_overscroll_weight_summary">Selecione o peso de sobrerolagem</string>
+    <string name="pref_overscroll_summary">Escolhe o tipo de sobrerolagem</string>
+    <string name="pref_overscroll_title">Efeito sobrerolagem</string>
+    <string name="ui_overscroll_title">Sobrerolagem</string>
 </resources>
