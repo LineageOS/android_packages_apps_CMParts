@@ -64,7 +64,7 @@
     <string name="pref_lockscreen_delay_title">Espera</string>
     <string name="pref_lockscreen_timeout_lock_delay">Tempo de espera</string>
     <string name="pref_lockscreen_screenoff_lock_delay">Tempo para desligar tela</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Quanto tempo aguardar antes de habilitar tela de bloqueio quando o tempo limite da tela esgota</string>
+    <string name="pref_lockscreen_timeout_lock_delay_summary">Quanto tempo aguardar antes de ativar tela de bloqueio quando o tempo limite da tela esgota</string>
     <string name="pref_lockscreen_screenoff_lock_delay_summary">Quanto tempo aguardar antes de a tela de bloqueio aparecer quando a tela desliga</string>
 
     <!-- Color Picker -->
@@ -188,7 +188,7 @@
     <string name="pref_lockscreen_stylecfg_title">Configurações de estilo</string>
     <string name="pref_lockscreen_stylecfg_summary">Configure opções relacionadas a tela bloqueada</string>
     <string name="pref_lockscreen_widgets_title">Opções de Widget</string>
-    <string name="pref_lockscreen_widgets_summary">Habilitar ou desabilitar diversos widgets na tela de bloqueio</string>
+    <string name="pref_lockscreen_widgets_summary">Ativar ou desativar diversos widgets na tela de bloqueio</string>
     <string name="pref_lockscreen_unlock_title">Opções de destravamento</string>
     <string name="pref_lockscreen_unlock_summary">Controla destravamento por botão e destravamento rápido</string>
     <string name="pref_lockscreen_gesture_title">Gesto na tela de bloqueio</string>
@@ -460,7 +460,7 @@
     <string name="backlight_title">Iluminação das teclas</string>
     <string name="backlight_summary">Ajustar níveis e filtros de aplicação</string>
     <string name="light_filter_title">Filtro do sensor de luz</string>
-    <string name="light_filter_enabled_title">Habilitar</string>
+    <string name="light_filter_enabled_title">Ativar</string>
     <string name="light_filter_enabled_summary">Filtrar movimento do sensor para reduzir tremores</string>
     <string name="light_filter_window_title">Comprimento da janela</string>
     <string name="light_filter_window_summary">O valor é a média do sensor durante este período</string>
@@ -518,7 +518,7 @@
 
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">Horas de Silêncio</string>
-    <string name="quiet_hours_enabled">Habilitar horas de silêncio</string>
+    <string name="quiet_hours_enabled">Ativar horas de silêncio</string>
     <string name="quiet_hours_enabled_on">Horas de Silêncio será imposto</string>
     <string name="quiet_hours_enabled_off">Notificações vão se comportar normalmente</string>
     <string name="quiet_hours_start">Início do horas de silêncio</string>
@@ -583,10 +583,10 @@
     <string name="title_phone_goggles">Phone Goggles</string>
     <string name="title_phone_goggles_default">Configurações padrão</string>
     <string name="title_phone_goggles_apps">Aplicações filtradas</string>
-    <string name="title_phone_goggles_app_enabled">Habilitar Phone Goggles</string>
+    <string name="title_phone_goggles_app_enabled">Ativar Phone Goggles</string>
     <string name="title_phone_goggles_use_custom">Usar configurações personalizadas</string>
     <string name="title_phone_goggles_filter">Números filtrados</string>
-    <string name="title_phone_goggles_enabled">Habilitar phone goggles</string>
+    <string name="title_phone_goggles_enabled">Ativar phone goggles</string>
     <string name="title_phone_goggles_start">Início de modo phone goggles</string>
     <string name="title_phone_goggles_end">Fim de modo goggles</string>
     <string name="title_phone_goggles_confirmation_enabled">Requisitar confirmação</string>
