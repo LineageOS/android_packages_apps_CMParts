@@ -146,7 +146,8 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
         GestureLibrary gl = GestureLibraries.fromFile(mStoreFile);
         if (gl.load()) {
             for (String name : gl.getGestureEntries()) {
-                if ("UNLOCK___UNLOCK".equals(name)) {
+                String[] payload = name.split("___", 2);
+                if ("UNLOCK".equals(payload[1])) {
                     GestureCanUnlock = true;
                     break;
                 }

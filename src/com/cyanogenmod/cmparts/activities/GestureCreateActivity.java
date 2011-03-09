@@ -191,18 +191,21 @@ public class GestureCreateActivity extends Activity {
     }
 
     public void pickUnlockOnly(View v) {
-        mShortcutButton.setText(getString(R.string.gestures_unlock_only));
-        mUri = "UNLOCK___UNLOCK";
+        mFriendlyName = getString(R.string.gestures_unlock_only);
+        mShortcutButton.setText(mFriendlyName);
+        mUri = mFriendlyName + "___UNLOCK";
     }
 
     public void pickSoundOnly(View v) {
-        mShortcutButton.setText(getString(R.string.gestures_toggle_sound));
-        mUri = "SOUND___SOUND";
+        mFriendlyName = getString(R.string.gestures_toggle_sound);
+        mShortcutButton.setText(mFriendlyName);
+        mUri = mFriendlyName + "___SOUND";
     }
 
     public void pickFlashlight(View v) {
-        mShortcutButton.setText(getString(R.string.gestures_flashlight));
-        mUri = "FLASHLIGHT___FLASHLIGHT";
+        mFriendlyName = getString(R.string.gestures_flashlight);
+        mShortcutButton.setText(mFriendlyName);
+        mUri = mFriendlyName + "___FLASHLIGHT";
     }
 
     @Override
