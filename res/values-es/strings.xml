@@ -405,11 +405,11 @@
     <string name="backlight_summary">Modificar niveles y filtros</string>
     <string name="light_filter_title">Filtro del sensor de luz</string>
     <string name="light_filter_enabled_title">Activado</string>
-    <string name="light_filter_enabled_summary">Apply moving average filter to sensor data to reduce flicker.</string>
+    <string name="light_filter_enabled_summary">Aplicar filtro cambiando los datos del sensor para reducir el parpadeo.</string>
     <string name="light_filter_window_title">Tamaño de la ventana</string>
     <string name="light_filter_window_summary">El valor filtrado es la media del valor del sensor durante este período.</string>
     <string name="light_filter_reset_title">Reiniciar umbral</string>
-    <string name="light_filter_reset_summary">Samples deviating this much from current average resets the filter.</string>
+    <string name="light_filter_reset_summary">Si se desvía mucho del promedio actual se restablece el filtro.</string>
     <string name="light_filter_interval_title">Intervalo de ejemplo</string>
     <string name="light_filter_interval_summary">Valores bajos pueden mejorar la precisión pero usan más CPU.</string>
     <string name="light_levels_title">Niveles de luz</string>
@@ -420,10 +420,10 @@
     <string name="light_decrease_enabled_title">Permitir descenso de la luz</string>
     <string name="light_decrease_enabled_summary">Activar para permitir descenso de las luces. Usar histéresis para reducir parpadeo.</string>
     <string name="light_decrease_hysteresis_title">Disminuir histéresis</string>
-    <string name="light_decrease_hysteresis_summary">Sensor levels overlap this much downwards.</string>
+    <string name="light_decrease_hysteresis_summary">Los niveles de este sensor se superponen a la baja.</string>
 
     <!-- Light sensor levels -->
-    <string name="ll_title">Light sensor levels</string>
+    <string name="ll_title">Niveles de iluminación del sensor</string>
     <string name="ll_header_upper">Alto</string>
     <string name="ll_header_lower">Bajo</string>
     <string name="ll_header_lcd">Pantalla</string>
@@ -433,7 +433,7 @@
     <string name="ll_lcd">Pantalla:</string>
     <string name="ll_btn">Botones:</string>
     <string name="ll_kb">Teclado:</string>
-    <string name="ll_disabled">desactivao</string>
+    <string name="ll_disabled">desactivado</string>
     <string name="ll_default">Cargar predeterminados</string>
     <string name="ll_save">Guardar y aplicar</string>
     <string name="ll_reload">Restaurar actuales</string>
