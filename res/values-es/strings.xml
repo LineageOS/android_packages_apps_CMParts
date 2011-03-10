@@ -38,6 +38,17 @@
     <string name="ui_summary">Ajustes de interfaz de usuario</string>
     <string name="ui_status_bar">Personalizar barra de usuario</string>
 
+    <!-- User interface : 180 degree rotation -->
+    <string name="pref_rotate_180_title">Girar 180 grados</string>
+    <string name="pref_rotate_180_summary">Permitir rotación adicional de 180 grados cuando se activa auto-rotación</string>
+
+    <!-- User interface: Status bar tweaks -->
+    <string name="ui_status_bar_title">Ajustes de la barra de estado</string>
+    <string name="ui_status_bar_clock_title">Mostrar reloj</string>
+    <string name="ui_status_bar_clock_summary">Se esconde si se deshabilita</string>
+    <string name="ui_status_bar_cm_battery_title">Porcentaje de batería</string>
+    <string name="ui_status_bar_cm_battery_summary">Mostrar el porcentaje de batería y un icono pequeño. Deshabilitar si no aparece bien el tema</string>
+
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notificaciones LED</string>
     <string name="trackball_summary">Colores y frecuencia de Bola de navegación/LED en notificaciones</string>
@@ -172,6 +183,62 @@
     <string name="notification_battery_warning_title">ATENCION: Puede aumentar el consumo de la batería</string>
     <string name="notification_battery_warning">Esta opción incrementa el consumo de batería en ~3% por hora. Si nota un incremento del consumo durante el parpadeo de las luces de la bola de navegación desactive esta opción.</string>
 
+    <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_stylecfg_title">Configuración de estilo</string>
+    <string name="pref_lockscreen_stylecfg_summary">Establecer las opciones relacionadas con la pantalla bloqueada</string>
+    <string name="pref_lockscreen_widgets_title">Opciones de Widget</string>
+    <string name="pref_lockscreen_widgets_summary">Activar o desactivar varios widgets en el bloqueo de la pantalla</string>
+    <string name="pref_lockscreen_unlock_title">Opciones de desbloqueo</string>
+    <string name="pref_lockscreen_unlock_summary">Controles para el desbloqueo y botón de liberación rápida</string>
+    <string name="pref_lockscreen_gesture_title">Gesto en el bloqueo de la pantalla</string>
+    <string name="pref_lockscreen_gesture_summary">Activa y configura los gestos pantalla de bloqueo para controlar el comportamiento personalizado</string>
+    <string name="pref_lockscreen_timeout_title">Tiempo de espera y tiempo de apagado</string>
+    <string name="pref_lockscreen_timeout_summary">Establecer el tiempo de espera para la pantalla y el tiempo de apagado</string>
+
+    <!-- Lockscreen Settings -->
+    <string name="lockscreen_settings_title">Ajustes del protector de pantalla</string>
+    <string name="pref_lockscreen_music_controls_title">Controles de música del protector de pantalla</string>
+    <string name="pref_lockscreen_music_controls_summary">Muestra los controles de música en el protector de pantalla</string>
+    <string name="pref_lockscreen_always_music_controls_title">Mostrar siempre los controles de música</string>
+    <string name="pref_lockscreen_always_music_controls_summary">Mostrar los controles de música sin importar si está sonando</string>
+    <string name="pref_trackball_wake_title">Activación con bola de navegación</string>
+    <string name="pref_trackball_wake_summary">Pulsar la bola de navegación activa el dispositivo</string>
+    <string name="pref_trackball_unlock_title">Desbloqueo con bola de navegación</string>
+    <string name="pref_trackball_unlock_summary">Pulsar la bola de navegación desbloquea el dispositivo</string>
+    <string name="pref_menu_unlock_title">Desbloqueo con menú</string>
+    <string name="pref_menu_unlock_summary">Pulsar el boton menú desbloquea el dispositivo</string>
+    <string name="pref_lockscreen_quick_unlock_control_title">Desbloqueo rápido</string>
+    <string name="pref_lockscreen_quick_unlock_control_summary">No es necesario pulsar OK al introducir PIN o Contraseña. Borra contador de intentos.</string>
+    <string name="pref_lockscreen_phone_messaging_control_title">Teléfono y Mensajes</string>
+    <string name="pref_lockscreen_phone_messaging_control_summary">Teléfono y Mensajes accesible desde el protector de pantalla.</string>
+    <string name="pref_messaging_tab_app_title">Aplicación de mensajería</string>
+    <string name="pref_lockscreen_always_battery_title">Situación de la bateria</string>
+    <string name="pref_lockscreen_always_battery_summary">Muestra el estado de la batería todo el tiempo de bloqueo de pantalla</string>
+    <string name="pref_lockscreen_now_playing_title">Mostrar nombre de la canción</string>
+    <string name="pref_lockscreen_now_playing_summary">Muestra el nombre de la canción que se está reproduciendo</string>
+    <string name="pref_lockscreen_album_art_title">Mostrar la carátula del álbum</string>
+    <string name="pref_lockscreen_album_art_summary">Muestra la carátula del álbum de la música actual. Sólo funciona en el modo de retrato con el reproductor estándar</string>
+    <string name="pref_lockscreen_music_headset_title">Mostrar los controles de música con auriculares</string>
+    <string name="pref_lockscreen_music_headset_summary">Mostrar los controles de música cuando los auriculares con cable y/o el Bluetooth A2DP está conectado</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">Lanzador de aplicaciones personalizadas</string>
+    <string name="pref_lockscreen_custom_app_toggle_summary">Muestra un estilo de desplazamiento, muestra una onda al estilo de rotación en la aplicación personalizada </string>
+    <string name="pref_lockscreen_custom_app_activity_title">Aplicación personalizada</string>
+    <string name="pref_lockscreen_custom_icon_style_title">Icono del mensaje</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">Utiliza el icono de mensaje en lugar del icono de la CM para arrancar una aplicación personalizada</string>
+    <string name="pref_lockscreen_rotary_unlock_down_title">Arrastre hacia abajo para desbloquear</string>
+    <string name="pref_lockscreen_rotary_unlock_down_summary">Desbloquear arrastrando la rueda giratoria. Arrastrando desde la derecha para aplicación personalizada</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_title">Ocultar flechas</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_summary">Ocultar las flechas de ayuda de dirección</string>
+    <string name="lockscreen_style_header">Preferencias de estilo</string>
+    <string name="lockscreen_delay_header">Retardo y tiempo de espera</string>
+    <string name="pref_lockscreen_style_title">Estilo de bloqueo de pantalla</string>
+    <string name="pref_lockscreen_style_summary">Escoja el estilo de pantalla de bloqueo</string>
+    <string name="pref_volbtn_music_controls_title">Controles de música</string>
+    <string name="pref_volbtn_music_controls_summary">Cuando la pantalla está apagada, buscar pistas de música al pulsar los botones de volumen durante un largo periodo</string>
+    <string name="pref_cambtn_music_controls_title">Control de música con botón de la cámara</string>
+    <string name="pref_cambtn_music_controls_summary">Alternar entre reproducción y pausa al pulsar el botón de la cámara durante mucho tiempo, mientras que la pantalla está apagada</string>
+    <string name="lockscreen_widgets_note_title">Nota</string>
+    <string name="lockscreen_widgets_note_summary">Selección de estilo minimalista esconde todos los widgets menos el control de música. Las siguientes opciones no se borran para permitir cambiar a otros estilos</string>
 
     <!-- Tweaks Extras -->
     <string name="te_title">Modificaciones extra</string>
@@ -203,23 +270,6 @@
     <string name="input_settings_title">Ajustes de entrada</string>
     <string name="input_settings_summary">Comportamiento de los botones de control</string>
     <string name="button_settings_title">Ajustes de botón</string>
-    <string name="lockscreen_settings_title">Ajustes del protector de pantalla</string>
-    <string name="pref_lockscreen_music_controls_title">Controles de música del protector de pantalla</string>
-    <string name="pref_lockscreen_music_controls_summary">Muestra los controles de música en el protector de pantalla</string>
-    <string name="pref_lockscreen_always_music_controls_title">Mostrar siempre los controles de música</string>
-    <string name="pref_lockscreen_always_music_controls_summary">Mostrar los controles de música sin importar si está sonando</string>
-    <string name="pref_trackball_wake_title">Activación con bola de navegación</string>
-    <string name="pref_trackball_wake_summary">Pulsar la bola de navegación activa el dispositivo</string>
-    <string name="pref_trackball_unlock_title">Desbloqueo con bola de navegación</string>
-    <string name="pref_trackball_unlock_summary">Pulsar la bola de navegación desbloquea el dispositivo</string>
-    <string name="pref_menu_unlock_title">Desbloqueo con menú</string>
-    <string name="pref_menu_unlock_summary">Pulsar el boton menú desbloquea el dispositivo</string>
-    <string name="pref_lockscreen_quick_unlock_control_title">Desbloqueo rápido</string>
-    <string name="pref_lockscreen_quick_unlock_control_summary">No es necesario pulsar OK al introducir PIN o Contraseña. Borra contador de intentos.</string>
-    <string name="pref_lockscreen_phone_messaging_control_title">Teléfono y Mensajes</string>
-    <string name="pref_lockscreen_phone_messaging_control_summary">Teléfono y Mensajes accesible desde el protector de pantalla.</string>
-    <string name="pref_messaging_tab_app_title">Aplicación de mensajería</string>
-
 
     <!-- Long Press Home -->
     <string name="long_press_home_title">Ajustes de pulsación larga de Inicio</string>
@@ -405,11 +455,11 @@
     <string name="backlight_summary">Modificar niveles y filtros</string>
     <string name="light_filter_title">Filtro del sensor de luz</string>
     <string name="light_filter_enabled_title">Activado</string>
-    <string name="light_filter_enabled_summary">Apply moving average filter to sensor data to reduce flicker.</string>
+    <string name="light_filter_enabled_summary">Aplicar filtro cambiando los datos del sensor para reducir el parpadeo.</string>
     <string name="light_filter_window_title">Tamaño de la ventana</string>
     <string name="light_filter_window_summary">El valor filtrado es la media del valor del sensor durante este período.</string>
     <string name="light_filter_reset_title">Reiniciar umbral</string>
-    <string name="light_filter_reset_summary">Samples deviating this much from current average resets the filter.</string>
+    <string name="light_filter_reset_summary">Si se desvía mucho del promedio actual se restablece el filtro.</string>
     <string name="light_filter_interval_title">Intervalo de ejemplo</string>
     <string name="light_filter_interval_summary">Valores bajos pueden mejorar la precisión pero usan más CPU.</string>
     <string name="light_levels_title">Niveles de luz</string>
@@ -420,10 +470,10 @@
     <string name="light_decrease_enabled_title">Permitir descenso de la luz</string>
     <string name="light_decrease_enabled_summary">Activar para permitir descenso de las luces. Usar histéresis para reducir parpadeo.</string>
     <string name="light_decrease_hysteresis_title">Disminuir histéresis</string>
-    <string name="light_decrease_hysteresis_summary">Sensor levels overlap this much downwards.</string>
+    <string name="light_decrease_hysteresis_summary">Los niveles de este sensor se superponen a la baja.</string>
 
     <!-- Light sensor levels -->
-    <string name="ll_title">Light sensor levels</string>
+    <string name="ll_title">Niveles de iluminación del sensor</string>
     <string name="ll_header_upper">Alto</string>
     <string name="ll_header_lower">Bajo</string>
     <string name="ll_header_lcd">Pantalla</string>
@@ -433,7 +483,7 @@
     <string name="ll_lcd">Pantalla:</string>
     <string name="ll_btn">Botones:</string>
     <string name="ll_kb">Teclado:</string>
-    <string name="ll_disabled">desactivao</string>
+    <string name="ll_disabled">desactivado</string>
     <string name="ll_default">Cargar predeterminados</string>
     <string name="ll_save">Guardar y aplicar</string>
     <string name="ll_reload">Restaurar actuales</string>
