@@ -627,9 +627,9 @@
     <string name="cpu_summary">Gerenciador e configurações de clock</string>
     <string name="cpu_governors_title">Gerenciadores disponíveis</string>
     <string name="cpu_governors_summary">Lista de gerenciadores disponíveis\nSelecionado atualmente: %S</string>
-    <string name="cpu_min_freq_title">Frequência mínima da CPU</string>
+    <string name="cpu_min_freq_title">Frequência mínima</string>
     <string name="cpu_min_freq_summary">Frequência mínima da CPU\nAtualmente: %s</string>
-    <string name="cpu_max_freq_title">Frequência máxima da CPU</string>
+    <string name="cpu_max_freq_title">Frequência máxima</string>
     <string name="cpu_max_freq_summary">Frequência máxima da CPU\nAtualmente: %s</string>
     <string name="cpu_set_on_boot">Definido na inicialização</string>
     <string name="cpu_set_on_boot_summary">Restaura as configurações de CPU na inicilização</string>
