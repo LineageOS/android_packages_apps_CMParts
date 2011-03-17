@@ -256,19 +256,23 @@
 
     <!-- Performance Settings : Compcache -->
     <string name="pref_compcache_title">運用 Compcache RAM</string>
-    <string name="pref_compcache_summary">壓縮記憶體以增加虛擬容量（需要重新啟動）</string>
+    <string name="pref_compcache_summary">壓縮記憶體以增加虛擬容量\n（需要重新啟動）</string>
 
     <!-- Performance Settings : JIT Mode -->
     <string name="pref_jit_mode_title">使用 JIT</string>
-    <string name="pref_jit_mode_summary">使用 Dalvik 即時編譯器（需要重新啟動）</string>
+    <string name="pref_jit_mode_summary">使用 Dalvik 即時編譯器\n（需要重新啟動）</string>
 
     <!-- Performance Settings : Dithering -->
     <string name="pref_use_dithering_title">啟用表面抖動</string>
-    <string name="pref_use_dithering_summary">抖動表面會以效能作為代價來提升圖像的品質（需要重新啟動）</string>
+    <string name="pref_use_dithering_summary">抖動表面會以效能作為代價來提升圖像的品質\n（需要重新啟動）</string>
+
+    <!-- Performance Settings : Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">允許清除資源</string>
+    <string name="pref_purgeable_assets_summary">如果點陣圖資源的記憶體可以被回收，讓系統能夠視乎需要釋放更多的記憶體\n（需要重新啟動）</string>
 
     <!-- Performance Settings : VM Heap Size -->
     <string name="pref_heapsize_title">VM heap 大小</string>
-    <string name="pref_heapsize_summary">每一 VM heap 的記憶體上限值（需要重新啟動）</string>
+    <string name="pref_heapsize_summary">每一 VM heap 的記憶體上限值\n（需要重新啟動）</string>
 
     <!-- Performance : Lock home memory -->
     <string name="pref_lock_home_title">主介面常駐於記憶體</string>
