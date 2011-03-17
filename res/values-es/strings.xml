@@ -38,6 +38,9 @@
     <string name="ui_summary">Ajustes de interfaz de usuario</string>
     <string name="ui_status_bar">Personalizar barra de usuario</string>
 
+    <string name="pref_electron_beam_animation_on">Animación al encender pantalla</string>
+    <string name="pref_electron_beam_animation_off">Animación al apagar pantalla</string>
+
     <!-- User interface : 180 degree rotation -->
     <string name="pref_rotate_180_title">Girar 180 grados</string>
     <string name="pref_rotate_180_summary">Permitir rotación adicional de 180 grados cuando se activa auto-rotación</string>
@@ -57,6 +60,13 @@
     <string name="ui_webview_title">WebView</string>
     <string name="pref_pinch_reflow_title">Regenerar después de zoom</string>
     <string name="pref_pinch_reflow_summary">Regenerar contenido inmediatamente después de pellizcar para hacer zoom</string>
+
+    <!-- User interface : Overscroll -->
+    <string name="ui_overscroll_title">Superposición</string>
+    <string name="pref_overscroll_title">Efecto superposición</string>
+    <string name="pref_overscroll_summary">Elija como se ven los objetos cuando se superponen</string>
+    <string name="pref_overscroll_weight_title">Anchura superposición</string>
+    <string name="pref_overscroll_weight_summary">Seleccione el ancho de los objetos superpuestos</string>
 
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Ajustes de protector de pantalla</string>
@@ -270,6 +280,13 @@
     <string name="input_settings_title">Ajustes de entrada</string>
     <string name="input_settings_summary">Comportamiento de los botones de control</string>
     <string name="button_settings_title">Ajustes de botón</string>
+    <string name="input_search_key_title">Comportamiento botón Búsqueda</string>
+    <string name="input_search_key_summary">Definir acción para la pulsación larga del botón Búsqueda</string>
+    <string name="pref_input_custom_search_app_toggle_title">Aplicación botón de búsqueda</string>
+    <string name="pref_input_custom_search_app_toggle_summary">Inicia una aplicación personalizada cuando se pulsa la tecla de búsqueda</string>
+    <string name="pref_input_custom_search_app_activity_title">Aplicación personalizada</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">Aplicación pulsación larga Búsqueda</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">Inicia una aplicación personalizada cuando se deja pulsada la tecla de búsqueda</string>
 
     <!-- Long Press Home -->
     <string name="long_press_home_title">Ajustes de pulsación larga de Inicio</string>
@@ -381,7 +398,7 @@
     <string name="renderfx_temp">RenderFX</string>
     <string name="prefs_render_effect">Efecto Render</string>
     <string name="notify_render_effect">Efecto Render activado</string>
-        <string name="add_widget">Añadir widget</string>
+    <string name="add_widget">Añadir widget</string>
 
     <!--  Widget Types -->
     <string name="night">Noche</string>
@@ -619,9 +636,11 @@
     <string name="cpu_settings_title">Ajustes CPU</string>
     <string name="cpu_title">Ajustes CPU</string>
     <string name="cpu_summary">Ajustes de reloj y control (governor)</string>
+    <string name="cpu_governors_title">Gobernadores disponibles</string>
+    <string name="cpu_governors_summary">Lista de gobernadores disponibles\nSeleccionado ahora: %S</string>
     <string name="cpu_governors_list">Lista de controles\nSeleccionado ahora: %S</string>
-    <string name="cpu_min_freq">Mínima freq. CPU\nActualmente: %s</string>
-    <string name="cpu_max_freq">Máxima freq. CPU\nActualmente: %s</string>
+    <string name="cpu_min_freq">Freq. CPU Mínima\nActualmente: %s</string>
+    <string name="cpu_max_freq">Freq. CPU Máxima\nActualmente: %s</string>
     <string name="cpu_set_on_boot">Activar al arranque</string>
     <string name="cpu_set_on_boot_summary">Restaura Ajustes CPU al arrancar</string>
 </resources>
