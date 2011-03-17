@@ -657,4 +657,6 @@
     <string name="pref_overscroll_summary">Escolhe o tipo de sobrerolagem</string>
     <string name="pref_overscroll_title">Efeito sobrerolagem</string>
     <string name="ui_overscroll_title">Sobrerolagem</string>
+    <string name="pref_purgeable_assets_summary">Sistema pode liberar mais memória RAM quando puder recuperar a memória de bitmaps ativos (requer reiniciar)</string>
+    <string name="pref_purgeable_assets_title">Permitir liberar bitmaps ativos</string>
 </resources>
