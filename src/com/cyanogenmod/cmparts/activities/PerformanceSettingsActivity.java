@@ -69,6 +69,12 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
     
     private static final String USE_DITHERING_DEFAULT = "1";
 
+    private static final String PURGEABLE_ASSETS_PREF = "pref_purgeable_assets";
+
+    private static final String PURGEABLE_ASSETS_PERSIST_PROP = "persist.sys.purgeable_assets";
+
+    private static final String PURGEABLE_ASSETS_DEFAULT = "0";
+
     private static final String LOCK_HOME_PREF = "pref_lock_home";
 
     private static final String LOCK_MMS_PREF = "pref_lock_mms";
@@ -82,6 +88,8 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
     private CheckBoxPreference mJitPref;
 
     private CheckBoxPreference mUseDitheringPref;
+
+    private CheckBoxPreference mPurgeableAssetsPref;
 
     private CheckBoxPreference mLockHomePref;
 
@@ -124,6 +132,10 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
         String useDithering = SystemProperties.get(USE_DITHERING_PERSIST_PROP, USE_DITHERING_DEFAULT);
         mUseDitheringPref.setChecked("1".equals(useDithering));
 
+        mPurgeableAssetsPref = (CheckBoxPreference) prefSet.findPreference(PURGEABLE_ASSETS_PREF);
+        String purgeableAssets = SystemProperties.get(PURGEABLE_ASSETS_PERSIST_PROP, PURGEABLE_ASSETS_DEFAULT);
+        mPurgeableAssetsPref.setChecked("1".equals(purgeableAssets));
+
         mHeapsizePref = (ListPreference) prefSet.findPreference(HEAPSIZE_PREF);
         mHeapsizePref.setValue(SystemProperties.get(HEAPSIZE_PERSIST_PROP,
                 SystemProperties.get(HEAPSIZE_PROP, HEAPSIZE_DEFAULT)));
@@ -160,6 +172,12 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
         if (preference == mUseDitheringPref) {
             SystemProperties.set(USE_DITHERING_PERSIST_PROP,
                     mUseDitheringPref.isChecked() ? "1" : "0");
+            return true;
+        }
+
+        if (preference == mPurgeableAssetsPref) {
+            SystemProperties.set(PURGEABLE_ASSETS_PERSIST_PROP,
+                    mPurgeableAssetsPref.isChecked() ? "1" : "0");
             return true;
         }
 
