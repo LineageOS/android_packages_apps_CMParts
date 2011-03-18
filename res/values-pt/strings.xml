@@ -418,13 +418,13 @@
     <string name="expanded_color_mask">Cor da indicação</string>
     <string name="title_widget_picker">Botões do widget</string>
     <string name="summary_widget_picker">Escolha os botões do seu widget</string>
-    <string name="title_toggle_wifi">Alternar Wifi</string>
+    <string name="title_toggle_wifi">Alternar Wi-Fi</string>
     <string name="title_toggle_bluetooth">Alternar Bluetooth</string>
     <string name="title_toggle_gps">Alternar GPS</string>
     <string name="title_toggle_sound">Alternar Som</string>
     <string name="title_toggle_brightness">Alternar Brilho</string>
     <string name="title_toggle_sync">Alternar Sync</string>
-    <string name="title_toggle_wifiap">Alternar Wifi AP</string>
+    <string name="title_toggle_wifiap">Alternar Wi-Fi AP</string>
     <string name="title_toggle_screentimeout">Alternar Tempo Esgotado da Tela</string>
     <string name="title_toggle_mobiledata">Alternar Dados Móveis</string>
     <string name="title_toggle_lockscreen">Alternar Tela de Bloqueio</string>
@@ -657,4 +657,6 @@
     <string name="pref_overscroll_summary">Escolhe o tipo de sobrerolagem</string>
     <string name="pref_overscroll_title">Efeito sobrerolagem</string>
     <string name="ui_overscroll_title">Sobrerolagem</string>
+    <string name="pref_purgeable_assets_summary">Sistema pode liberar mais memória RAM quando puder recuperar a memória de bitmaps ativos (requer reiniciar)</string>
+    <string name="pref_purgeable_assets_title">Permitir liberar bitmaps ativos</string>
 </resources>
