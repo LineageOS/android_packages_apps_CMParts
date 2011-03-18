@@ -14,8 +14,8 @@
     <string name="input_settings_title_subhead">Definições de entrada</string>
     <string name="input_settings_summary_head">Comportamento de entrada, botões, resposta tátil</string>
     <string name="interface_settings_title_head">Interface</string>
-    <string name="interface_settings_title_subhead">Definições do interface</string>
-    <string name="interface_settings_summary_head">Ajustes do interface, overscrolling, efeitos</string>
+    <string name="interface_settings_title_subhead">Definições da interface</string>
+    <string name="interface_settings_summary_head">Ajustes da interface, overscrolling, efeitos</string>
     <string name="lockscreen_settings_title_head">Ecrã de bloqueio</string>
     <string name="lockscreen_settings_title_subhead">Definições do ecrã de bloqueio</string>
     <string name="lockscreen_settings_summary_head">Gestos, temas, opções de desbloqueio</string>
@@ -36,7 +36,6 @@
     <!-- User interface -->
     <string name="ui_title">Interface de utilizador</string>
     <string name="ui_summary">Definições de interface de utilizador &amp; ajustes</string>
-
     <string name="pref_electron_beam_animation_on">Animação ao ligar o ecrã</string>
     <string name="pref_electron_beam_animation_off">Animação ao desligar o ecrã</string>
 
@@ -44,12 +43,19 @@
     <string name="pref_rotate_180_title">Rotação de 180 graus</string>
     <string name="pref_rotate_180_summary">Permite rotação extra de 180 graus quando a rotação automática está activa</string>
 
+    <!-- User interface: Status bar tweaks -->
+    <string name="ui_status_bar_title">Ajustar barra notificações</string>
+    <string name="ui_status_bar_clock_title">Mostrar relógio</string>
+    <string name="ui_status_bar_clock_summary">Se desactivado, o relógio ficará escondido</string>
+    <string name="ui_status_bar_cm_battery_title">Percentagem da bateria</string>
+    <string name="ui_status_bar_cm_battery_summary">Mostrar percentagem da bateria e um mini icon vertical da bateria actual. Desactivar se os temas criarem problemas.</string>
+
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notificações LED</string>
     <string name="trackball_summary">Controlar LEDs na trackball/botões e som das notificações</string>
 
     <!-- User interface : WebView -->
-    <string name="ui_webview_title">WebView</string>
+    <string name="ui_webview_title">Vista de web</string>
     <string name="pref_pinch_reflow_title">Reajustar após toque</string>
     <string name="pref_pinch_reflow_summary">Reajustar conteúdo imediatamente após o toque para fazer zoom</string>
 
@@ -249,6 +255,10 @@
     <string name="pref_use_dithering_title">Activar sobreposição da superfície</string>
     <string name="pref_use_dithering_summary">Sobreposição da superfície aumenta a qualidade de imagem à custa do desempenho (requer reinício)</string>
 
+    <!-- Performance Settings : Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">Permitir limpeza de recursos</string>
+    <string name="pref_purgeable_assets_summary">Sistema pode libertar mais RAM quando necessário se a memória dos recursos bitmap seja recuperada(requer reinício)</string>
+
     <!-- Performance Settings : VM Heap Size -->
     <string name="pref_heapsize_title">Tamanho da VM heap</string>
     <string name="pref_heapsize_summary">Quantidade máxima de memória por VM heap (requer reinício)</string>
@@ -263,7 +273,7 @@
 
     <!-- Performance Settings : Warning dialog -->
     <string name="performance_settings_warning_title">AVISO: Opções Avançadas!</string>
-    <string name="performance_settings_warning">As opções aqui irão alterar a performance do sistema, possivelmente para o pior. Estão incluidas para teste e pedimos que não preencha nenhum relatório de bug se alterou as definições padrão.</string>
+    <string name="performance_settings_warning">As opções aqui irão alterar a performance do sistema, possivelmente para o pior se não forem as mais correctas. Qualquer alteração fica ao critério do utilizador e as suas devidas consequências.</string>
 
     <!-- Application Settings -->
     <string name="application_settings_title">Definições de aplicação</string>
