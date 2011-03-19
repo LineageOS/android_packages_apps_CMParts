@@ -266,6 +266,10 @@
     <string name="pref_use_dithering_title">Abilita dithering</string>
     <string name="pref_use_dithering_summary">Il dithering migliora la qualità dell\'immagine a scapito delle performance (riavvio richiesto)</string>
 
+    <!-- Performance Settings : Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">Recupera memoria bitmap</string>
+    <string name="pref_purgeable_assets_summary">Permette al sistema di recuperare la memoria occupata dalle bitmap (riavvio richiesto)</string>
+
     <!-- Performance Settings : VM Heap Size -->
     <string name="pref_heapsize_title">Dimensione heap VM</string>
     <string name="pref_heapsize_summary">Massima quantità di memoria per heap VM (riavvio richiesto)</string>
@@ -488,7 +492,6 @@
     <string name="changelog_error">Errore nel caricare il changelog...</string>
     <string name="changelog_unknown">Sconosciuto</string>
     <string name="changelog_version">Versione</string>
-
 
     <!-- Phone goggles -->
     <string name="category_phone_goggles_period">Intervallo</string>
