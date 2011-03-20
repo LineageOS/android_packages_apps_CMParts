@@ -266,6 +266,10 @@
     <string name="pref_use_dithering_title">Aktivera ytgråtonsändring</string>
     <string name="pref_use_dithering_summary">Gråtonsändring av ytor förbättrar bildkvaliteten på bekostnad av prestanda (kräver omstart)</string>
 
+    <!-- Performance Settings : Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">Tillåt utrensning av tillgångar</string>
+    <string name="pref_purgeable_assets_summary">Systemet kan fria upp mer minne när det behövs, om minnet med bitmap-tillgångarna kan återtas. (kräver omstart)</string>
+
     <!-- Performance Settings : VM Heap Size -->
     <string name="pref_heapsize_title">VM heap size</string>
     <string name="pref_heapsize_summary">Största storlek av minne per VM heap (kräver omstart)</string>
