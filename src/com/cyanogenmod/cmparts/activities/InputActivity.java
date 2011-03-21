@@ -37,6 +37,8 @@ public class InputActivity extends PreferenceActivity {
 
     private static final String VOLBTN_MUSIC_CTRL_PREF = "pref_volbtn_music_controls";
 
+    private static final String VOLPAUSE_CTRL_PREF = "pref_volpause_control";
+
     private static final String CAMBTN_MUSIC_CTRL_PREF = "pref_cambtn_music_controls";
 
     private static final String BUTTON_CATEGORY = "pref_category_button_settings";
@@ -50,6 +52,8 @@ public class InputActivity extends PreferenceActivity {
     private CheckBoxPreference mTrackballWakePref;
 
     private CheckBoxPreference mVolBtnMusicCtrlPref;
+
+    private CheckBoxPreference mVolPauseCtrlPref;
 
     private CheckBoxPreference mCamBtnMusicCtrlPref;
 
@@ -85,6 +89,9 @@ public class InputActivity extends PreferenceActivity {
         mVolBtnMusicCtrlPref = (CheckBoxPreference) prefSet.findPreference(VOLBTN_MUSIC_CTRL_PREF);
         mVolBtnMusicCtrlPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.VOLBTN_MUSIC_CONTROLS, 1) == 1);
+        mVolPauseCtrlPref = (CheckBoxPreference) prefSet.findPreference(VOLPAUSE_CTRL_PREF);
+        mVolPauseCtrlPref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.VOLPAUSE_CONTROL, 1) == 1);
         mCamBtnMusicCtrlPref = (CheckBoxPreference) prefSet.findPreference(CAMBTN_MUSIC_CTRL_PREF);
         mCamBtnMusicCtrlPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.CAMBTN_MUSIC_CONTROLS, 0) == 1);
@@ -130,6 +137,11 @@ public class InputActivity extends PreferenceActivity {
         } else if (preference == mVolBtnMusicCtrlPref) {
             value = mVolBtnMusicCtrlPref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.VOLBTN_MUSIC_CONTROLS,
+                    value ? 1 : 0);
+            return true;
+        } else if (preference == mVolPauseCtrlPref) {
+            value = mVolPauseCtrlPref.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.VOLPAUSE_CONTROL,
                     value ? 1 : 0);
             return true;
         } else if (preference == mCamBtnMusicCtrlPref) {
