@@ -40,7 +40,11 @@
 		<CheckBoxPreference android:key="pref_volbtn_music_controls"
 			android:title="@string/pref_volbtn_music_controls_title"
 			android:summary="@string/pref_volbtn_music_controls_summary" />
-
+		
+		<CheckBoxPreference android:key="pref_volpause_control"
+			android:title="@string/pref_volpause_control_title"
+			android:summary="@string/pref_volpause_control_summary" />
+			
 		<CheckBoxPreference android:key="pref_cambtn_music_controls"
 			android:title="@string/pref_cambtn_music_controls_title"
 			android:summary="@string/pref_cambtn_music_controls_summary" />
