@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAADX///nc\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 325
+      },
+      "writtenOn": "2011-03-21T14:31:02Z",
+      "side": 1,
+      "message": "you dont wanna use the term \"depressed\" here (:\ni know you mean a key up event, but from point of a non-dev user, its just \"pressed\" - depressed is something completly different.",
+      "revId": "39411e366f255e8514e0649664c874fd94b32173",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAADX///nY\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/InputActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 325
+      },
+      "writtenOn": "2011-03-21T14:31:02Z",
+      "side": 1,
+      "message": "perhaps shouldn\u0027t default to true. but i got no overview of the 29 official cm7 devices and their ability to press those two buttons at once. since volume control also defaults to true, leave it for now i guess.\n\njust wanted to leave a smart comment to show off anyways :P",
+      "revId": "39411e366f255e8514e0649664c874fd94b32173",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
