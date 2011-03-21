@@ -174,6 +174,8 @@
     <string name="pref_lockscreen_style_summary">Choose the style of the lockscreen</string>
     <string name="pref_volbtn_music_controls_title">Volume button music controls</string>
     <string name="pref_volbtn_music_controls_summary">Seek music tracks when long-pressing the volume buttons while screen off</string>
+    <string name="pref_volpause_control_title">Volume button play/pause</string>
+    <string name="pref_volpause_control_summary">Toggle play/pause when both volume buttons are depressed. The buttons may not be able to be simultaneously depressed on all devices.</string>
     <string name="pref_cambtn_music_controls_title">Camera button music control</string>
     <string name="pref_cambtn_music_controls_summary">Toggle play/pause when long-pressing the camera button while screen off</string>
     <string name="lockscreen_widgets_note_title">Note</string>
