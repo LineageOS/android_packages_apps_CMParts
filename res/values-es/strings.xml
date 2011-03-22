@@ -572,8 +572,8 @@
     <string name="gestures_delete">Eleminar</string>
     <string name="gestures_delete_success">Gesto eliminado</string>
     <string name="gestures_error_loading">Problema en operación con archivo de gestos.</string>
-    <string name="gestures_unlock_only">Desbloquear teléfono</string>
-    <string name="gestures_toggle_sound">Interruptor de sonido</string>
+    <string name="gestures_unlock_only">Desbloquear</string>
+    <string name="gestures_toggle_sound">Invertir sonido</string>
     <string name="pref_lockscreen_disable_unlock_tab">Desactivar deslizador de desbloqueo</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Nota: Es necesario acivar el desbloqueo por la bola de navegación, la tecla menú, or gestos pra activar esta opción</string>
     <string name="gestures_explain_create_screen">Seleccione una acción a realizar (o seccione Desbloqueo o Sonido) y trace un gesto en la pantalla.\nLos gestos de linea simple vertical no son válidos.</string>
