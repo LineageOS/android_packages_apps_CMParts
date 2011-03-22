@@ -405,7 +405,6 @@
     <string name="pref_ring_mode_summary">Choisir comment le bouton Sonnerie se comportera</string>
     <string name="pref_flash_mode_title">Mode flash</string>
     <string name="pref_flash_mode_summary">Choisir la puissance du flash : Haute ou Death Ray (Evo uniquement)</string>
-    <string name="widget_max_buttons">Le nombre maximum de boutons est de 6</string>
 
     <!-- Performance : Lock home memory -->
     <string name="pref_lock_home_title">Garder l\'accueil en RAM</string>
@@ -504,7 +503,6 @@
     <string name="user_defined_not_set">Non configuré</string>
 
     <!--  Lockscreen gesture strings -->
-    <string name="pref_lockscreen_title">Gestes sur écran de verrouillage</string>
     <string name="pref_lockscreen_gestures_enable_title">Utiliser les gestes</string>
     <string name="pref_lockscreen_gestures_trail_title">Afficher parcours gestes</string>
     <string name="pref_lockscreen_gestures_builder_title">Créer des gestes</string>

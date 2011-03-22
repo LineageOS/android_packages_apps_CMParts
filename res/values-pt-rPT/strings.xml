@@ -352,7 +352,6 @@
     <string name="pref_ring_mode_summary">Escolher como o botão de som altera o som</string>
     <string name="pref_flash_mode_title">Modo flash</string>
     <string name="pref_flash_mode_summary">Escolher elevado/raio mortal</string>
-    <string name="widget_max_buttons">6 é o número máximo de botões.</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Luz de fundo automática</string>

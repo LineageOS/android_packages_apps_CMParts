@@ -456,7 +456,6 @@
     <string name="pref_ring_mode_summary">Elegir como cambia el sonido con el botón</string>
     <string name="pref_flash_mode_title">Modo de flash</string>
     <string name="pref_flash_mode_summary">Elegir Alto / Rayo Mortal(Evo)</string>
-    <string name="widget_max_buttons">No se permiten más de 6 botones.</string>
 
 
     <!-- Performance : Lock home memory -->
@@ -553,7 +552,6 @@
     <string name="user_defined_not_set">Sin establecer</string>
 
     <!--  Lockscreen gesture strings -->
-    <string name="pref_lockscreen_title">Gestos de bloqueo de pantalla</string>
     <string name="pref_lockscreen_gestures_enable_title">Usar gestos para bloquear la pantalla</string>
     <string name="pref_lockscreen_gestures_trail_title">Mostrar pistas de gestos</string>
     <string name="pref_lockscreen_gestures_builder_title">Crear gesto</string>

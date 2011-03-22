@@ -365,7 +365,6 @@
     <string name="pref_ring_mode_summary">選擇音效按鈕如何切換模式</string>
     <string name="pref_flash_mode_title">手電筒模式</string>
     <string name="pref_flash_mode_summary">選擇強／死光（Evo）</string>
-    <string name="widget_max_buttons">最多只能使用 6 個按鈕。</string>
 
     <!-- Backlight -->
     <string name="backlight_title">自動亮度</string>

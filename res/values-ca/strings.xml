@@ -273,7 +273,6 @@
   <string name="pref_ring_mode_summary">Escolliu de quina manera els botons de so canvien els modes</string>
   <string name="pref_flash_mode_title">Mode de flaix</string>
   <string name="pref_flash_mode_summary">Tria Alt/Raig de la Mort(Evo)</string>
-  <string name="widget_max_buttons">La quantitat màxima de botons és 6.</string>
   <string name="pref_lock_home_title">Pantalla d\'inici en memòria</string>
   <string name="pref_lock_home_summary">Intenta mantenir l\'aplicació actual de la pantalla d\'inici sempre en memòria</string>
   <string name="pref_lock_mms_title">Aplicació de missatgeria en memòria</string>
