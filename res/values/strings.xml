@@ -31,7 +31,7 @@
 
     <!--  Update Notifications -->
     <string name="updatenotify_title">Update notifications</string>
-    <string name="updatenotify_summary">Get push notifications of updates.</string>
+    <string name="updatenotify_summary">Get push notifications of updates</string>
 
     <!-- User interface -->
     <string name="ui_title">User interface</string>
@@ -79,7 +79,7 @@
     <string name="title_color_picker">Pick a color</string>
     <string name="msg_color_picker">Tap on center color to confirm.\nPress back to cancel</string>
 
-    <!-- User interface: LED notifcations -->
+    <!-- User interface: LED notifications -->
     <string name="trackball_notifications_title">LED notification colors</string>
     <string name="dialog_color_trackball">Choose a color</string>
     <string name="dialog_blink_trackball">Choose a blink rate</string>
@@ -96,9 +96,9 @@
     <string name="pref_trackball_screen_title">Always pulse</string>
     <string name="pref_trackball_screen_summary">LED will pulse while screen is on</string>
     <string name="pref_trackball_blend_title">Blend notifications</string>
-    <string name="pref_trackball_blend_summary">Blend notification colors. Overrides succession.</string>
+    <string name="pref_trackball_blend_summary">Blend notification colors. Overrides succession</string>
     <string name="pref_trackball_sucess_title">Succession</string>
-    <string name="pref_trackball_sucess_summary">Pulse notifications in succession.</string>
+    <string name="pref_trackball_sucess_summary">Pulse notifications in succession</string>
     <string name="pref_trackball_random_title">Random colors</string>
     <string name="pref_trackball_random_summary">Pulses the LED in random colors for all notifications</string>
     <string name="pref_trackball_order_title">Pulse in order</string>
@@ -115,11 +115,11 @@
     <string name="trackball_category_add_summary">Add a category to the list</string>
     <string name="trackball_category_remove_title">Remove category</string>
     <string name="trackball_category_remove_summary">Remove a category from the list</string>
-    <string name="trackball_remove_default_toast">Can\'t remove this category as its the default one.</string>
+    <string name="trackball_remove_default_toast">Can\'t remove this category as it is the default one.</string>
     <string name="trackball_reset_all">Reset all colors and categories.</string>
     <string name="trackball_array_error">Unfortunately there was an array error. This package has been forced into the Miscellaneous category.</string>
     <string name="trackball_color_notice_title">NOTE:</string>
-    <string name="trackball_color_notice_summary">Not all colors will display on all devices.</string>
+    <string name="trackball_color_notice_summary">Not all colors will display on all devices</string>
 
     <!-- Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">WARNING: May cause battery drain</string>
@@ -135,7 +135,7 @@
     <string name="pref_lockscreen_gesture_title">Lockscreen gestures</string>
     <string name="pref_lockscreen_gesture_summary">Enable and configure gestures on the lockscreen to control custom behavior</string>
     <string name="pref_lockscreen_timeout_title">Delay and timeout</string>
-    <string name="pref_lockscreen_timeout_summary">Configure screen timout delay and screen turn off delay</string>
+    <string name="pref_lockscreen_timeout_summary">Configure screen timeout delay and screen turn off delay</string>
 
     <!-- Lockscreen Settings -->
     <string name="lockscreen_settings_title">Lockscreen settings</string>
@@ -158,7 +158,7 @@
     <string name="pref_menu_unlock_title">Menu unlock</string>
     <string name="pref_menu_unlock_summary">Pressing the menu button unlocks the device</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Quick Unlock</string>
-    <string name="pref_lockscreen_quick_unlock_control_summary">No need to press OK when entering Pin or Password. Delete counts as bad try.</string>
+    <string name="pref_lockscreen_quick_unlock_control_summary">No need to press OK when entering Pin or Password. Delete counts as bad try</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Custom app starter</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">Shows a second slider on sliding style, shows a custom app dimple on rotary style</string>
     <string name="pref_lockscreen_custom_app_activity_title">Custom application</string>
@@ -177,7 +177,7 @@
     <string name="pref_cambtn_music_controls_title">Camera button music control</string>
     <string name="pref_cambtn_music_controls_summary">Toggle play/pause when long-pressing the camera button while screen off</string>
     <string name="lockscreen_widgets_note_title">Note</string>
-    <string name="lockscreen_widgets_note_summary">Choosing minimalistic lense style hides all widgets except music control. Yet below options are not unset to allow easy switching to other styles.</string>
+    <string name="lockscreen_widgets_note_summary">Choosing minimalistic lense style hides all widgets except music control. Yet below options are not unset to allow easy switching to other styles</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Input settings</string>
@@ -231,10 +231,10 @@
 
     <string name="haptic_down_description">Adjusting haptic values for button DOWN-PRESSES\n(Virtual hardkeys and certain UI interactions.)</string>
     <string name="haptic_up_description">Adjusting haptic values for button RELEASES\n(Virtual hardkeys and most screen presses.)</string>
-    <string name="haptic_long_description">Adjusting haptic values for LONG-PRESSES.</string>
+    <string name="haptic_long_description">Adjusting haptic values for LONG-PRESSES</string>
     <string name="haptic_tap_description">Adjusting haptic values for on-screen keyboard taps</string>
 
-    <string name="haptic_plus_minus_desc">Press the Plus or Minus Buttons to add or remove steps in the sequence.</string>
+    <string name="haptic_plus_minus_desc">Press the Plus or Minus Buttons to add or remove steps in the sequence</string>
 
     <string name="haptic_button_plus">+</string>
     <string name="haptic_button_minus">-</string>
@@ -284,7 +284,7 @@
 
     <!-- Performance Settings : Warning dialog -->
     <string name="performance_settings_warning_title">WARNING: Dragons Ahead!</string>
-    <string name="performance_settings_warning">The options in here will change the performance of your system, potentially for the worse. They are included for experimentation and we request that you do not file bug reports if you have changed any from the defaults.</string>
+    <string name="performance_settings_warning">The options in here will change the performance of your system, potentially for the worse. They are included for experimentation and we request that you do not file bug reports if you have changed any from the defaults</string>
 
     <!-- Application Settings -->
     <string name="application_settings_title">Application settings</string>
@@ -364,30 +364,29 @@
     <string name="pref_ring_mode_title">Sound modes</string>
     <string name="pref_ring_mode_summary">Choose how the sound button changes modes</string>
     <string name="pref_flash_mode_title">Flash mode</string>
-    <string name="pref_flash_mode_summary">Choose High / Death Ray(Evo)</string>
-    <string name="widget_max_buttons">6 is the max amount of buttons.</string>
+    <string name="pref_flash_mode_summary">Choose High / Death Ray (Evo)</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Automatic backlight</string>
     <string name="backlight_summary">Tweak levels and filtering</string>
     <string name="light_filter_title">Light sensor filter</string>
     <string name="light_filter_enabled_title">Enabled</string>
-    <string name="light_filter_enabled_summary">Apply moving average filter to sensor data to reduce flicker.</string>
+    <string name="light_filter_enabled_summary">Apply moving average filter to sensor data to reduce flicker</string>
     <string name="light_filter_window_title">Window length</string>
-    <string name="light_filter_window_summary">Filtered value is the average sensor value during this period.</string>
+    <string name="light_filter_window_summary">Filtered value is the average sensor value during this period</string>
     <string name="light_filter_reset_title">Reset threshold</string>
-    <string name="light_filter_reset_summary">Samples deviating this much from current average resets the filter.</string>
+    <string name="light_filter_reset_summary">Samples deviating this much from current average resets the filter</string>
     <string name="light_filter_interval_title">Sample interval</string>
-    <string name="light_filter_interval_summary">Low value can improve accuracy but uses some more CPU.</string>
+    <string name="light_filter_interval_summary">Low value can improve accuracy but uses some more CPU</string>
     <string name="light_levels_title">Light levels</string>
     <string name="light_levels_enabled_title">Use custom</string>
     <string name="light_levels_dim_title">Screen dim level</string>
     <string name="light_levels_dim_summary">Brightness used to dim the screen</string>
     <string name="light_levels_editor_title">Edit other levels...</string>
     <string name="light_decrease_enabled_title">Allow light decrease</string>
-    <string name="light_decrease_enabled_summary">Enable to allow lights to decrease. Use hysteresis to reduce flicker.</string>
+    <string name="light_decrease_enabled_summary">Enable to allow lights to decrease. Use hysteresis to reduce flicker</string>
     <string name="light_decrease_hysteresis_title">Decrease hysteresis</string>
-    <string name="light_decrease_hysteresis_summary">Sensor levels overlap this much downwards.</string>
+    <string name="light_decrease_hysteresis_summary">Sensor levels overlap this much downwards</string>
 
     <!-- Light sensor levels -->
     <string name="ll_title">Light sensor levels</string>
@@ -411,7 +410,7 @@
     <string name="sound_title">Sound settings</string>
     <string name="sound_summary">Sound and audio focus settings</string>
     <string name="sound_notifications_focus_title">Notification focus</string>
-    <string name="sound_notifications_focus_summary">Audio focus requests causes compatible apps to lower the volume while notifications play.</string>
+    <string name="sound_notifications_focus_summary">Audio focus requests causes compatible apps to lower the volume while notifications play</string>
     <string name="sound_volume_control_silent_title">Silent state</string>
     <string name="sound_volume_control_silent_summary">Add a state for complete silence to volume control</string>
     <string name="sound_to_speaker_title">Always play on speaker</string>
