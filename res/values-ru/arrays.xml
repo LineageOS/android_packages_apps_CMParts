@@ -24,7 +24,7 @@
     </string-array>
 
     <string-array name="entries_render_effect">
-        <item>Без эфекта</item>
+        <item>Без эффекта</item>
         <item>Ночной (красный)</item>
         <item>Терминал (зелёный)</item>
         <item>Синий</item>
@@ -94,7 +94,7 @@
     </string-array>
 
     <string-array name="entries_light_filter_reset">
-        <item>Отключенно</item>
+        <item>Отключено</item>
         <item>400 lux</item>
         <item>500 lux</item>
         <item>600 lux</item>
@@ -148,7 +148,7 @@
     </string-array>
 
     <string-array name="pref_compcache_size_entries">
-        <item>Отключенно</item>
+        <item>Отключено</item>
         <item>10%</item>
         <item>18% (по умолчанию)</item>
         <item>26%</item>
@@ -202,7 +202,7 @@
     </string-array>
 
     <string-array name="pref_lockscreen_style_entries">
-        <item>Ползунки</item>
+        <item>Ползунок</item>
         <item>Вращение</item>
         <item>Вращение (новый)</item>
         <item>Линза</item>
