@@ -283,7 +283,6 @@
   <string name="pref_ring_mode_summary">Виберіть режими, які встановлюватимуться за натисканням кнопки \u201CЗвук\u201D</string>
   <string name="pref_flash_mode_title">Ліхтарик</string>
   <string name="pref_flash_mode_summary">Виберіть інтенсивність світіння ліхтарика</string>
-  <string name="widget_max_buttons">Максимальна кількість кнопок - шість.</string>
   <string name="backlight_title">Автоматичне підсвічування</string>
   <string name="backlight_summary">Налаштування автоматичного регулювання яскравості екрана</string>
   <string name="light_filter_title">Фільтр датчика освітлення</string>

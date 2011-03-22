@@ -323,7 +323,6 @@
     <string name="pref_ring_mode_summary">Valitse miten äänipainike muuttaa tiloja</string>
     <string name="pref_flash_mode_title">Lampputilat</string>
     <string name="pref_flash_mode_summary">Valitse suuri / kuolonsäde(Evo)</string>
-    <string name="widget_max_buttons">6 on suurin sallittu määrä painikkeita.</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Automaattinen taustavalo</string>
@@ -414,7 +413,6 @@
     <string name="user_defined_not_set">Mitään ei asetettu</string>
 
     <!--  Lockscreen gesture strings -->
-    <string name="pref_lockscreen_title">Lukitusnäytön eleet</string>
     <string name="pref_lockscreen_gestures_enable_title">Käytä lukitusnäytön eleitä</string>
     <string name="pref_lockscreen_gestures_trail_title">Näytä eleiden jäljet</string>
     <string name="pref_lockscreen_gestures_builder_title">Rakenna eleitä</string>

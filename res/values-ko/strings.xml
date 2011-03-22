@@ -381,7 +381,6 @@
     <string name="pref_ring_mode_summary">소리 버튼의 작용을 선택합니다.</string>
     <string name="pref_flash_mode_title">플래시 버튼</string>
     <string name="pref_flash_mode_summary">High / Death Ray(Evo) 선택</string>
-    <string name="widget_max_buttons">버튼은 6개까지 선택할 수 있습니다.</string>
 
 
     <!-- Performance : Lock home memory -->
@@ -478,7 +477,6 @@
     <string name="user_defined_not_set">설정 안됨</string>
 
     <!--  Lockscreen gesture strings -->
-    <string name="pref_lockscreen_title">잠금 화면 손동작</string>
     <string name="pref_lockscreen_gestures_enable_title">잠금 화면 손동작 사용</string>
     <string name="pref_lockscreen_gestures_trail_title">손동작 자취 보이기</string>
     <string name="pref_lockscreen_gestures_builder_title">손동작 만들기</string>

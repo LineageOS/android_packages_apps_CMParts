@@ -313,7 +313,6 @@
     <string name="pref_ring_mode_summary">Wybierz tryby</string>
     <string name="pref_flash_mode_title">Latarka</string>
     <string name="pref_flash_mode_summary">Dostosuj siłę</string>
-    <string name="widget_max_buttons">Maksymalnie 6 przycisków.</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Automatyczna jasność</string>
@@ -403,7 +402,6 @@
     <string name="user_defined_not_set">Nie ustawiono</string>
 
     <!--  Lockscreen gesture strings -->
-    <string name="pref_lockscreen_title">Gesty ekranu blokady</string>
     <string name="pref_lockscreen_gestures_enable_title">Użyj gestów</string>
     <string name="pref_lockscreen_gestures_trail_title">Pokaż ślad</string>
     <string name="pref_lockscreen_gestures_builder_title">Dodaj gesty</string>
