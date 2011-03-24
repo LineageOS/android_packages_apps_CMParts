@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- General options -->
+    <PreferenceCategory android:title="@string/general_title">
+        <CheckBoxPreference android:key="pref_status_bar_bottom"
+            android:title="@string/tablet_tweaks_sb_bottom_title"
+            android:summary="@string/tablet_tweaks_sb_bottom_summary" />
+        <CheckBoxPreference android:key="pref_status_bar_dead_zone"
+            android:title="@string/tablet_tweaks_status_bar_dead_zone_title"
+            android:summary="@string/tablet_tweaks_status_bar_dead_zone_summary"
+            android:dependency="pref_status_bar_bottom" />
+        <CheckBoxPreference android:key="pref_soft_buttons_left"
+            android:title="@string/tablet_tweaks_soft_buttons_left_title"
+            android:summary="@string/tablet_tweaks_soft_buttons_left_summary" />
+        <PreferenceScreen android:key="pref_soft_button_list"
+            android:title="@string/tablet_tweaks_soft_button_list_title">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.TabletSoftButtonsActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/tablet_tweaks_interface_head">
+        <CheckBoxPreference android:key="pref_disable_lockscreen"
+            android:title="@string/tablet_tweaks_disable_lockscreen_title"
+            android:summary="@string/tablet_tweaks_disable_lockscreen_summary" />
+        <CheckBoxPreference android:key="pref_disable_fullscreen"
+            android:title="@string/tablet_tweaks_disable_fullscreen_title"
+            android:summary="@string/tablet_tweaks_disable_fullscreen_summary" />
+    </PreferenceCategory>
+
+    <!-- Button options -->
+    <PreferenceCategory android:title="@string/buttons_title">
+        <CheckBoxPreference android:key="pref_extend_pm"
+            android:title="@string/tablet_tweaks_extend_pm_title"
+            android:summary="@string/tablet_tweaks_extend_pm_summary"
+            android:defaultValue="true" />
+        <PreferenceScreen android:key="pref_extend_pm_list"
+            android:title="@string/tablet_tweaks_extend_pm_list_title"
+            android:dependency="pref_extend_pm" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.TabletExtendPmActivity" />
+        </PreferenceScreen>
+        <CheckBoxPreference android:key="pref_reverse_volume_behavior"
+            android:title="@string/tablet_tweaks_reverse_volume_behavior_title"
+            android:summary="@string/tablet_tweaks_reverse_volume_behavior_summary_off"
+            android:defaultValue="true" />
+        <PreferenceScreen android:key="pref_tablet_input"
+            android:title="@string/tablet_tweaks_input_head">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.TabletInputActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
