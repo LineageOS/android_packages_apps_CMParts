@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+ * Created by Sven Dawitz; Copyright (C) 2011 CyanogenMod Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */ -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Button options -->
+    <PreferenceCategory android:title="@string/general_title">
+        <ListPreference android:key="pref_long_volp_action"
+            android:dialogTitle="@string/tablet_tweaks_long_volp_action_title"
+            android:title="@string/tablet_tweaks_long_volp_action_title"
+            android:summary="@string/tablet_tweaks_long_volp_action_summary"
+            android:entries="@array/entries_vol_actions"
+            android:entryValues="@array/values_vol_actions" />
+        <ListPreference android:key="pref_long_volm_action"
+            android:dialogTitle="@string/tablet_tweaks_long_volm_action_title"
+            android:title="@string/tablet_tweaks_long_volm_action_title"
+            android:entries="@array/entries_vol_actions"
+            android:entryValues="@array/values_vol_actions" />
+        <ListPreference android:key="pref_vol_both_action"
+            android:dialogTitle="@string/tablet_tweaks_vol_both_action_title"
+            android:title="@string/tablet_tweaks_vol_both_action_title"
+            android:summary="@string/tablet_tweaks_vol_both_action_summary"
+            android:entries="@array/entries_vol_actions"
+            android:entryValues="@array/values_vol_actions" />
+        <ListPreference android:key="pref_long_vol_both_action"
+            android:dialogTitle="@string/tablet_tweaks_long_vol_both_action_title"
+            android:title="@string/tablet_tweaks_long_vol_both_action_title"
+            android:entries="@array/entries_vol_actions"
+            android:entryValues="@array/values_vol_actions" />
+    </PreferenceCategory>
+</PreferenceScreen>
