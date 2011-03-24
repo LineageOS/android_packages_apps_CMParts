@@ -40,6 +40,17 @@
     <string name="pref_electron_beam_animation_on">Screen-on animation</string>
     <string name="pref_electron_beam_animation_off">Screen-off animation</string>
 
+    <!-- User interface: Tablet tweaks -->
+    <string name="tablet_tweaks_title_head">Tablet tweaks</string>
+    <string name="tablet_tweaks_summary_head">Settings most useful for tablet devices collected in one place. Also working for phones</string>
+    <string name="tablet_tweaks_sb_bottom_title">Bottom status bar</string>
+    <string name="tablet_tweaks_sb_bottom_summary">Show status bar on bottom. Useful for tablets which use soft buttons for home, menu, etc on status bar</string>
+    <string name="tablet_tweaks_extend_pm_title">Extended power menu</string>
+    <string name="tablet_tweaks_extend_pm_summary">Add home/back/menu actions to the power menu</string>
+    <string name="tablet_tweaks_long_volp_action_title">Long press volume up</string>
+    <string name="tablet_tweaks_long_volp_action_summary">Assign home/back/menu/etc action to volume button up long press. Limited to screen on</string>
+    <string name="tablet_tweaks_long_volm_action_title">Long press volume down</string>
+
     <!-- User interface : 180 degree rotation -->
     <string name="pref_rotate_180_title">Rotate 180 degrees</string>
     <string name="pref_rotate_180_summary">Allows additional 180 degree rotation when auto-rotate screen is activated</string>
