@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- General options -->
+	<PreferenceCategory android:title="@string/general_title">
+        <CheckBoxPreference android:key="pref_status_bar_bottom"
+            android:title="@string/tablet_tweaks_sb_bottom_title"
+            android:summary="@string/tablet_tweaks_sb_bottom_summary"
+            android:defaultValue="true" />
+	</PreferenceCategory>
+
+    <!-- Button options -->
+    <PreferenceCategory android:title="@string/buttons_title">
+        <CheckBoxPreference android:key="pref_extend_pm"
+            android:title="@string/tablet_tweaks_extend_pm_title"
+            android:summary="@string/tablet_tweaks_extend_pm_summary"
+            android:defaultValue="true" />
+        <ListPreference android:key="pref_long_volp_action"
+            android:dialogTitle="@string/tablet_tweaks_long_volp_action_title"
+            android:title="@string/tablet_tweaks_long_volp_action_title"
+            android:summary="@string/tablet_tweaks_long_volp_action_summary"
+            android:entries="@array/entries_vol_actions"
+            android:entryValues="@array/values_vol_actions" />
+        <ListPreference android:key="pref_long_volm_action"
+            android:dialogTitle="@string/tablet_tweaks_long_volm_action_title"
+            android:title="@string/tablet_tweaks_long_volm_action_title"
+            android:entries="@array/entries_vol_actions"
+            android:entryValues="@array/values_vol_actions" />
+    </PreferenceCategory>
+</PreferenceScreen>
