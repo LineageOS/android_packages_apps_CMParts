@@ -46,6 +46,8 @@
 
     <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">Status bar tweaks</string>
+    <string name="ui_status_bar_bottom_title">Bottom status bar</string>
+    <string name="ui_status_bar_bottom_summary">Show status bar on bottom. Useful for tablets which use soft buttons for home, menu, etc on status bar</string>
     <string name="ui_status_bar_clock_title">Show clock</string>
     <string name="ui_status_bar_clock_summary">Status bar clock will be hidden, if disabled</string>
     <string name="ui_status_bar_cm_battery_title">Battery percentage</string>

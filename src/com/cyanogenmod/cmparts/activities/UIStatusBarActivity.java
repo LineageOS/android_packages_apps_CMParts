@@ -22,15 +22,18 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
-import android.provider.Settings.SettingNotFoundException;
 
 import com.cyanogenmod.cmparts.R;
 
 public class UIStatusBarActivity extends PreferenceActivity {
 
+    private static final String PREF_STATUS_BAR_BOTTOM = "pref_status_bar_bottom";
+
     private static final String PREF_STATUS_BAR_CLOCK = "pref_status_bar_clock";
 
     private static final String PREF_STATUS_BAR_CM_BATTERY = "pref_status_bar_cm_battery";
+
+    private CheckBoxPreference mStatusBarBottom;
 
     private CheckBoxPreference mStatusBarClock;
 
@@ -45,22 +48,30 @@ public class UIStatusBarActivity extends PreferenceActivity {
 
         PreferenceScreen prefSet = getPreferenceScreen();
 
+        mStatusBarBottom = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_BOTTOM);
         mStatusBarClock = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_CLOCK);
         mStatusBarCmBattery = (CheckBoxPreference) prefSet
                 .findPreference(PREF_STATUS_BAR_CM_BATTERY);
 
+        int defBottom=getResources().getBoolean(R.bool.default_status_bar_bottom) ? 1 : 0;
+        mStatusBarClock.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_BOTTOM, defBottom) == 1));
         mStatusBarClock.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_CLOCK, 1) == 1));
         mStatusBarCmBattery.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_CM_BATTERY, 0) == 1));
-
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         boolean value;
 
         /* Preference Screens */
-        if (preference == mStatusBarClock) {
+        if (preference == mStatusBarBottom) {
+            value = mStatusBarBottom.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_BOTTOM,
+                    value ? 1 : 0);
+            return true;
+        } else if (preference == mStatusBarClock) {
             value = mStatusBarClock.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_CLOCK,
                     value ? 1 : 0);

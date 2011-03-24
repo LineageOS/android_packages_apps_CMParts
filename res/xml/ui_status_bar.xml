@@ -3,6 +3,10 @@
 
 	<!-- Status bar tweaks -->
 	<PreferenceCategory android:title="@string/general_title">
+        <CheckBoxPreference android:key="pref_status_bar_bottom"
+            android:title="@string/ui_status_bar_bottom_title"
+            android:summary="@string/ui_status_bar_bottom_summary"
+            android:defaultValue="true" />
 		<CheckBoxPreference android:key="pref_status_bar_clock"
 			android:title="@string/ui_status_bar_clock_title"
 			android:summary="@string/ui_status_bar_clock_summary"
