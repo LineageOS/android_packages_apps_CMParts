@@ -70,6 +70,15 @@
             android:targetClass="com.cyanogenmod.cmparts.activities.SystemActivity" />
     </PreferenceScreen>
 
+    <!-- Tablet Tweaks -->
+    <PreferenceScreen android:key="tablet_settings"
+        android:title="@string/tablet_tweaks_title_head"
+        android:summary="@string/tablet_tweaks_summary_head">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.cyanogenmod.cmparts"
+            android:targetClass="com.cyanogenmod.cmparts.activities.TabletTweaksActivity" />
+    </PreferenceScreen>
+
     <!-- Possible future Use: Pedlar <PreferenceScreen android:key="battery_tester" 
         android:title="Test Battery" android:summary="Battery Drain Tester"> <intent 
         android:action="android.intent.action.MAIN" android:targetPackage="com.cyanogenmod.cmparts" 
