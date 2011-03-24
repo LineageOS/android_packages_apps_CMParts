@@ -517,4 +517,54 @@
         <item>@string/phone_goggles_maths_level_medium</item>
         <item>@string/phone_goggles_maths_level_hard</item>
     </string-array>
+
+    <string-array name="entries_vol_actions">
+        <item>None/Default</item>
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Back</item>
+        <item>Search</item>
+        <item>Power</item>
+        <item>Call</item>
+        <item>End call</item>
+        <item>Play/Pause</item>
+        <item>Next track</item>
+        <item>Prev track</item>
+        <item>Long press home</item>
+    </string-array>
+
+    <string-array name="values_vol_actions" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Back</item>
+        <item>Search</item>
+        <item>Camera</item>
+        <item>Volume Up</item>
+        <item>Volume Down</item>
+    </string-array>
+
+    <string-array name="values_unhide_button" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
 </resources>

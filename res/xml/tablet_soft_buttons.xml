@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- General options -->
+    <PreferenceCategory android:title="@string/general_title">
+        <CheckBoxPreference android:key="pref_soft_buttons_home"
+            android:title="@string/tablet_soft_buttons_home_title" />
+        <CheckBoxPreference android:key="pref_soft_buttons_menu"
+            android:title="@string/tablet_soft_buttons_menu_title" />
+        <CheckBoxPreference android:key="pref_soft_buttons_back"
+            android:title="@string/tablet_soft_buttons_back_title" />
+        <CheckBoxPreference android:key="pref_soft_buttons_search"
+            android:title="@string/tablet_soft_buttons_search_title" />
+        <CheckBoxPreference android:key="pref_soft_buttons_quick_na"
+            android:title="@string/tablet_soft_buttons_quick_na_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

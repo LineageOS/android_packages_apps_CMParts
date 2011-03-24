@@ -40,6 +40,50 @@
     <string name="pref_electron_beam_animation_on">Screen-on animation</string>
     <string name="pref_electron_beam_animation_off">Screen-off animation</string>
 
+    <!-- User interface: Tablet tweaks -->
+    <string name="tablet_tweaks_title_head">Tablet tweaks</string>
+    <string name="tablet_tweaks_summary_head">Settings most useful for tablet devices collected in one place. Also working for phones</string>
+    <string name="tablet_tweaks_sb_bottom_title">Bottom status bar</string>
+    <string name="tablet_tweaks_sb_bottom_summary">Show status bar on bottom. Useful for tablets which use soft-buttons for home, menu, etc on status bar</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">Dead zone</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">Add a dead zone of half screen width to the middle of the status bar</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">Soft-buttons left</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">Put soft-buttons on left side of status bar</string>
+    <string name="tablet_tweaks_soft_button_list_title">Choose soft-buttons</string>
+    <string name="tablet_tweaks_interface_head">Interface</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">Disable lockscreen</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">When enabled, does not show the lockscreen or pattern screen. Neither on boot, nor when waking the device</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">Disable fullscreen</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">Override the fullscreen request of applications. When enabled, status bar is always visible until hidden by button</string>
+    <string name="tablet_tweaks_unhide_button_list_head">Unhide button</string>
+    <string name="tablet_tweaks_unhide_button_list_title">Choose unhide button</string>
+    <string name="tablet_tweaks_extend_pm_title">Extend power menu</string>
+    <string name="tablet_tweaks_extend_pm_summary">Add home/back/menu actions to the power menu</string>
+    <string name="tablet_tweaks_extend_pm_list_title">Choose power menu buttons</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">Volume behavior reverse</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Volume buttons behave normal. Press for volume change, long press for user action</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Volume buttons behave reversed. Press for user action, long press for volume change</string>
+
+    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <string name="tablet_tweaks_input_head">Remap volume keys</string>
+    <string name="tablet_tweaks_long_volp_action_title">Long press volume up</string>
+    <string name="tablet_tweaks_long_volp_action_summary">Assign home/back/menu/etc action to volume button up long press. Limited to screen on</string>
+    <string name="tablet_tweaks_long_volm_action_title">Long press volume down</string>
+    <string name="tablet_tweaks_vol_both_action_title">Both volume buttons</string>
+    <string name="tablet_tweaks_vol_both_action_summary">Note: Some devices do a hard wired reset on both volume buttons+power pressed</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">Long press both volume buttons</string>
+
+    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <string name="tablet_tweaks_extend_pm_list_head">Power menu buttons</string>
+
+    <!-- User interface: Tablet tweaks -> soft buttons -->
+    <string name="tablet_tweaks_soft_buttons_list_head">Soft-buttons</string>
+    <string name="tablet_soft_buttons_home_title">Home</string>
+    <string name="tablet_soft_buttons_menu_title">Menu</string>
+    <string name="tablet_soft_buttons_back_title">Back</string>
+    <string name="tablet_soft_buttons_search_title">Search</string>
+    <string name="tablet_soft_buttons_quick_na_title">Quick notifications</string>
+
     <!-- User interface : 180 degree rotation -->
     <string name="pref_rotate_180_title">Rotate 180 degrees</string>
     <string name="pref_rotate_180_summary">Allows additional 180 degree rotation when auto-rotate screen is activated</string>
