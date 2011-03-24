@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- General options -->
+    <!-- Use string resources from soft-buttons menu to be not redundant -->
+    <PreferenceCategory android:title="@string/general_title">
+        <CheckBoxPreference android:key="pref_extend_pm_home"
+            android:title="@string/tablet_soft_buttons_home_title" />
+        <CheckBoxPreference android:key="pref_extend_pm_menu"
+            android:title="@string/tablet_soft_buttons_menu_title" />
+        <CheckBoxPreference android:key="pref_extend_pm_back"
+            android:title="@string/tablet_soft_buttons_back_title" />
+    </PreferenceCategory>
+</PreferenceScreen>
