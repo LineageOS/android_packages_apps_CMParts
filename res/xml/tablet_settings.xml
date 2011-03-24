@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- General options -->
+    <PreferenceCategory android:title="@string/general_title">
+        <CheckBoxPreference android:key="pref_status_bar_bottom"
+            android:title="@string/tablet_tweaks_sb_bottom_title"
+            android:summary="@string/tablet_tweaks_sb_bottom_summary" />
+        <CheckBoxPreference android:key="pref_status_bar_dead_zone"
+            android:title="@string/tablet_tweaks_status_bar_dead_zone_title"
+            android:summary="@string/tablet_tweaks_status_bar_dead_zone_summary"
+            android:dependency="pref_status_bar_bottom" />
+        <CheckBoxPreference android:key="pref_soft_buttons_left"
+            android:title="@string/tablet_tweaks_soft_buttons_left_title"
+            android:summary="@string/tablet_tweaks_soft_buttons_left_summary" />
+        <PreferenceScreen android:key="pref_soft_button_list"
+            android:title="@string/tablet_tweaks_soft_button_list_title">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.TabletSoftButtonsActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <!-- Button options -->
+    <PreferenceCategory android:title="@string/buttons_title">
+        <CheckBoxPreference android:key="pref_extend_pm"
+            android:title="@string/tablet_tweaks_extend_pm_title"
+            android:summary="@string/tablet_tweaks_extend_pm_summary"
+            android:defaultValue="true" />
+        <ListPreference android:key="pref_long_volp_action"
+            android:dialogTitle="@string/tablet_tweaks_long_volp_action_title"
+            android:title="@string/tablet_tweaks_long_volp_action_title"
+            android:summary="@string/tablet_tweaks_long_volp_action_summary"
+            android:entries="@array/entries_vol_actions"
+            android:entryValues="@array/values_vol_actions" />
+        <ListPreference android:key="pref_long_volm_action"
+            android:dialogTitle="@string/tablet_tweaks_long_volm_action_title"
+            android:title="@string/tablet_tweaks_long_volm_action_title"
+            android:entries="@array/entries_vol_actions"
+            android:entryValues="@array/values_vol_actions" />
+        <ListPreference android:key="pref_vol_both_action"
+            android:dialogTitle="@string/tablet_tweaks_vol_both_action_title"
+            android:title="@string/tablet_tweaks_vol_both_action_title"
+            android:summary="@string/tablet_tweaks_vol_both_action_summary"
+            android:entries="@array/entries_vol_actions"
+            android:entryValues="@array/values_vol_actions" />
+        <ListPreference android:key="pref_long_vol_both_action"
+            android:dialogTitle="@string/tablet_tweaks_long_vol_both_action_title"
+            android:title="@string/tablet_tweaks_long_vol_both_action_title"
+            android:entries="@array/entries_vol_actions"
+            android:entryValues="@array/values_vol_actions" />
+    </PreferenceCategory>
+</PreferenceScreen>

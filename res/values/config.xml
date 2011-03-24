@@ -3,6 +3,20 @@
     <!-- Whether or not to display the trackball settings -->
     <bool name="has_trackball">true</bool>
 
+    <!-- Whether the status bar should default to bottom display
+         for tablet devices with soft keys -->
+    <bool name="default_status_bar_bottom">false</bool>
+    <!-- Whether the soft buttons are left -->
+    <bool name="default_soft_buttons_left">true</bool>
+    <!-- Whether the power menu should default to extended options -->
+    <bool name="default_extend_pm">false</bool>
+
+    <!-- Toggle display of soft buttons - which should be shown by default? -->
+    <bool name="default_soft_button_home">true</bool>
+    <bool name="default_soft_button_menu">true</bool>
+    <bool name="default_soft_button_back">true</bool>
+    <bool name="default_soft_button_quick_na">true</bool>
+
     <!-- Whether or not to display the camera button settings -->
     <bool name="has_camera_button">false</bool>
 
