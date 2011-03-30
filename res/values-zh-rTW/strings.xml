@@ -90,6 +90,8 @@
 
     <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">通知列調整</string>
+    <string name="ui_status_bar_am_pm_title">上午／下午格式</string>
+    <string name="ui_status_bar_am_pm_summary">時鐘旁邊的上午／下午的顯示格式</string>
     <string name="ui_status_bar_clock_title">顯示時鐘</string>
     <string name="ui_status_bar_clock_summary">在通知列顯示時鐘</string>
     <string name="ui_status_bar_cm_battery_title">電池百分比</string>
