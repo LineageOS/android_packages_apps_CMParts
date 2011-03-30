@@ -18,7 +18,9 @@ package com.cyanogenmod.cmparts.activities;
 
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
+import android.preference.ListPreference;
 import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
@@ -26,13 +28,17 @@ import android.provider.Settings.SettingNotFoundException;
 
 import com.cyanogenmod.cmparts.R;
 
-public class UIStatusBarActivity extends PreferenceActivity {
+public class UIStatusBarActivity extends PreferenceActivity implements OnPreferenceChangeListener {
+
+    private static final String PREF_STATUS_BAR_AM_PM = "pref_status_bar_am_pm";
 
     private static final String PREF_STATUS_BAR_CLOCK = "pref_status_bar_clock";
 
     private static final String PREF_STATUS_BAR_CM_BATTERY = "pref_status_bar_cm_battery";
 
     private static final String PREF_STATUS_BAR_COMPACT_CARRIER = "pref_status_bar_compact_carrier";
+
+    private ListPreference mStatusBarAmPm;
 
     private CheckBoxPreference mStatusBarClock;
 
@@ -61,6 +67,21 @@ public class UIStatusBarActivity extends PreferenceActivity {
         mStatusBarCompactCarrier.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_COMPACT_CARRIER, 0) == 1));
 
+        mStatusBarAmPm = (ListPreference) prefSet.findPreference(PREF_STATUS_BAR_AM_PM);
+        int statusBarAmPm = Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_AM_PM, 2);
+        mStatusBarAmPm.setValue(String.valueOf(statusBarAmPm));
+        mStatusBarAmPm.setOnPreferenceChangeListener(this);
+    }
+
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mStatusBarAmPm) {
+            int statusBarAmPm = Integer.valueOf((String) newValue);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_AM_PM, statusBarAmPm);
+            return true;
+        }
+        return false;
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
