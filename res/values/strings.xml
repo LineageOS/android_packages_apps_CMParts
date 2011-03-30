@@ -90,6 +90,8 @@
 
     <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">Status bar tweaks</string>
+    <string name="ui_status_bar_am_pm_title">AM/PM style</string>
+    <string name="ui_status_bar_am_pm_summary">Display style of AM/PM next to clock</string>
     <string name="ui_status_bar_clock_title">Show clock</string>
     <string name="ui_status_bar_clock_summary">Status bar clock will be hidden, if disabled</string>
     <string name="ui_status_bar_cm_battery_title">Battery percentage</string>
