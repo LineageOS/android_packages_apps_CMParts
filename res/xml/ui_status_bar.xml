@@ -11,6 +11,10 @@
 			android:title="@string/ui_status_bar_cm_battery_title"
 			android:summary="@string/ui_status_bar_cm_battery_summary"
 			android:defaultValue="true" />
+		<CheckBoxPreference android:key="pref_status_bar_phone_signal"
+			android:title="@string/ui_status_bar_phone_signal_title"
+			android:summary="@string/ui_status_bar_phone_signal_summary"
+			android:defaultValue="true" />
 	</PreferenceCategory>
 
 </PreferenceScreen>

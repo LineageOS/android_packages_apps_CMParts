@@ -32,9 +32,13 @@ public class UIStatusBarActivity extends PreferenceActivity {
 
     private static final String PREF_STATUS_BAR_CM_BATTERY = "pref_status_bar_cm_battery";
 
+    private static final String PREF_STATUS_BAR_PHONE_SIGNAL = "pref_status_bar_phone_signal";
+
     private CheckBoxPreference mStatusBarClock;
 
     private CheckBoxPreference mStatusBarCmBattery;
+
+    private CheckBoxPreference mStatusBarPhoneSignal;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -46,13 +50,15 @@ public class UIStatusBarActivity extends PreferenceActivity {
         PreferenceScreen prefSet = getPreferenceScreen();
 
         mStatusBarClock = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_CLOCK);
-        mStatusBarCmBattery = (CheckBoxPreference) prefSet
-                .findPreference(PREF_STATUS_BAR_CM_BATTERY);
+        mStatusBarCmBattery = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_CM_BATTERY);
+        mStatusBarPhoneSignal = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_PHONE_SIGNAL);
 
         mStatusBarClock.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_CLOCK, 1) == 1));
         mStatusBarCmBattery.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_CM_BATTERY, 0) == 1));
+        mStatusBarPhoneSignal.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_PHONE_SIGNAL, 0) == 1));
 
     }
 
@@ -68,6 +74,11 @@ public class UIStatusBarActivity extends PreferenceActivity {
         }else if (preference == mStatusBarCmBattery) {
             value = mStatusBarCmBattery.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_CM_BATTERY,
+                    value ? 1 : 0);
+            return true;
+        }else if (preference == mStatusBarPhoneSignal) {
+            value = mStatusBarPhoneSignal.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_PHONE_SIGNAL,
                     value ? 1 : 0);
             return true;
         }
