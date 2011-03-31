@@ -208,6 +208,10 @@
     <string name="pref_jit_mode_title">JITを使用する</string>
     <string name="pref_jit_mode_summary">Dalvik just-in-timeコンパイラを使用する(再起動が必要)</string>
 
+    <!-- Performance Settings : Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">アセットの排除を許可</string>
+    <string name="pref_purgeable_assets_summary">メモリ内に解放可能なビットマップアセットがあれば、システムは必要に応じてRAMを確保できます(再起動が必要)</string>
+
     <!-- Performance Settings : Dithering -->
     <string name="pref_use_dithering_title">サーフェスディザリング</string>
     <string name="pref_use_dithering_summary">ディザリングは画像品質が向上するが相応のパフォーマンスが必要(再起動が必要)</string>
@@ -336,6 +340,7 @@
     <string name="title_toggle_media_play_pause">メディア: 再生/停止トグル</string>
     <string name="title_toggle_media_previous">メディア: 前に戻る</string>
     <string name="title_toggle_media_next">メディア: 次に進む</string>
+    <string name="title_toggle_wimax">WiMAXトグル</string>
     <string name="title_button_modes">ボタンモード</string>
     <string name="pref_brightness_mode_title">明るさ</string>
     <string name="pref_brightness_mode_summary">明るさトグルで変更するモードの選択</string>
