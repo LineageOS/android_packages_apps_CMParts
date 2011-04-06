@@ -32,6 +32,8 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
 
     private static final String UI_EXP_WIDGET_HIDE_ONCHANGE = "expanded_hide_onchange";
 
+    private static final String UI_EXP_WIDGET_HIDE_SCROLLBAR = "expanded_hide_scrollbar";
+
     private static final String UI_EXP_WIDGET_COLOR = "expanded_color_mask";
 
     private static final String UI_EXP_WIDGET_PICKER = "widget_picker";
@@ -41,6 +43,8 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
     private CheckBoxPreference mPowerWidget;
 
     private CheckBoxPreference mPowerWidgetHideOnChange;
+
+    private CheckBoxPreference mPowerWidgetHideScrollBar;
 
     private Preference mPowerWidgetColor;
 
@@ -61,6 +65,8 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
         mPowerWidget = (CheckBoxPreference) prefSet.findPreference(UI_EXP_WIDGET);
         mPowerWidgetHideOnChange = (CheckBoxPreference) prefSet
                 .findPreference(UI_EXP_WIDGET_HIDE_ONCHANGE);
+        mPowerWidgetHideScrollBar = (CheckBoxPreference) prefSet
+                .findPreference(UI_EXP_WIDGET_HIDE_SCROLLBAR);
 
         mPowerWidgetColor = prefSet.findPreference(UI_EXP_WIDGET_COLOR);
         mPowerPicker = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_PICKER);
@@ -70,6 +76,8 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
                 Settings.System.EXPANDED_VIEW_WIDGET, 1) == 1));
         mPowerWidgetHideOnChange.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.EXPANDED_HIDE_ONCHANGE, 0) == 1));
+        mPowerWidgetHideScrollBar.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.EXPANDED_HIDE_SCROLLBAR, 0) == 1));
 
     }
 
@@ -93,6 +101,12 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
         if (preference == mPowerWidgetHideOnChange) {
             value = mPowerWidgetHideOnChange.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.EXPANDED_HIDE_ONCHANGE,
+                    value ? 1 : 0);
+        }
+
+        if (preference == mPowerWidgetHideScrollBar) {
+            value = mPowerWidgetHideScrollBar.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.EXPANDED_HIDE_SCROLLBAR,
                     value ? 1 : 0);
         }
 
