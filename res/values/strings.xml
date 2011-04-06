@@ -94,6 +94,8 @@
     <string name="ui_status_bar_clock_summary">Status bar clock will be hidden, if disabled</string>
     <string name="ui_status_bar_cm_battery_title">Battery percentage</string>
     <string name="ui_status_bar_cm_battery_summary">Show battery percentage plus mini battery icon. Disable if themes make this look broken</string>
+    <string name="ui_status_bar_compact_carrier_title">Compact carrier label</string>
+    <string name="ui_status_bar_compact_carrier_summary">Use alternate notification dropdown layout with mini carrier label. Looks best with power widget. (Requires reboot)</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED notifications</string>
@@ -373,6 +375,8 @@
     <string name="summary_expanded_widget">Use the expanded views power widget</string>
     <string name="title_expanded_hide_onchange">Hide on change</string>
     <string name="summary_expanded_hide_onchange">Hide the notification pulldown after toggling a widget button</string>
+    <string name="title_expanded_hide_scrollbar">Hide scrollbar</string>
+    <string name="summary_expanded_hide_scrollbar">Hide scrollbar when more than the maximum number of widget buttons are present.</string>
     <string name="expanded_color_mask">Indicator color</string>
     <string name="title_widget_picker">Widget buttons</string>
     <string name="summary_widget_picker">Pick your widget buttons</string>
