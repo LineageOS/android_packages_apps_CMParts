@@ -364,6 +364,10 @@
     <string name="pref_use_dithering_title">Dithering</string>
     <string name="pref_use_dithering_summary">Dithering von Oberflächen verbessert die Bildqualität auf Kosten der Geräteleistung (Neustart erforderlich)</string>
 
+    <!-- Performance Settings : Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">Freigabe von Resourcen</string>
+    <string name="pref_purgeable_assets_summary">Erlaubt dem System, Speicherbereiche von nicht mehr benutzen Bildern freizugeben, um damit mehr RAM bereitzustellen (Neustart erforderlich)</string>
+
     <!-- Performance Settings : VM Heap Size -->
     <string name="pref_heapsize_title">Größe VM-Heaps</string>
     <string name="pref_heapsize_summary">Maximale Speichernutzung pro VM-Heap (Neustart erforderlich)</string>
