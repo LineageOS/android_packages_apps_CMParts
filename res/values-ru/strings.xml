@@ -16,7 +16,7 @@
     <string name="interface_settings_title_head">Интерфейс</string>
     <string name="interface_settings_title_subhead">Настройки интерфейса</string>
     <string name="interface_settings_summary_head">Настройки интерфейса, перепрокрутки, эффектов экрана</string>
-    <string name="lockscreen_settings_title_head">Экран блокировки</string>
+    <string name="lockscreen_settings_title_head">Экран блокировки</string>    
     <string name="lockscreen_settings_title_subhead">Настройки экрана блокировки</string>
     <string name="lockscreen_settings_summary_head">Настройки разблокировки, жестов, стиля</string>
     <string name="performance_settings_title_head">Производительность</string>
@@ -39,6 +39,50 @@
 
     <string name="pref_electron_beam_animation_on">Анимация включения экрана</string>
     <string name="pref_electron_beam_animation_off">Анимация выключения экрана</string>
+
+    <!-- User interface: Tablet tweaks -->
+    <string name="tablet_tweaks_title_head">Настройки для планшетов</string>
+    <string name="tablet_tweaks_summary_head">Очень полезные настройки для планшетов, собранные в одном месте. Также работают на телефонах</string>
+    <string name="tablet_tweaks_sb_bottom_title">Статус бар внизу</string>
+    <string name="tablet_tweaks_sb_bottom_summary">Отображать статус бар внизу. Полезно для планшетов, использующих софт-кнопки домой, меню и т.д. в статус баре</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">Мёртвая зона</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">Добавить мёртвую зону в половину ширины экрана к середине статус бара</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">Софт-кнопки слева</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">Переместить софт-кнопки на левую сторону статус бара</string>
+    <string name="tablet_tweaks_soft_button_list_title">Выберите софт-кнопки</string>
+    <string name="tablet_tweaks_interface_head">Интерфейс</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">Отключить экран блокировки</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">Когда включено, экран блокировки или графический ключ не показываются. Ни при загрузки, ни при пробуждении устройства</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">Отключить полноэкранный режим</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary"> Полноэкранный режим приложений. Когда включен, статус бар всегда виден, но его можно скрыть нажатием кнопки</string>
+    <string name="tablet_tweaks_unhide_button_list_head">Кнопка отображения</string>
+    <string name="tablet_tweaks_unhide_button_list_title">Выбрать кнопку отображения</string>
+    <string name="tablet_tweaks_extend_pm_title">Расширение меню \"Параметры планшета\"</string>
+    <string name="tablet_tweaks_extend_pm_summary">Добавить Домой/Назад/Меню в \"Параметры планшета\"</string>
+    <string name="tablet_tweaks_extend_pm_list_title">Выберите кнопки меню</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">Изменение поведения кнопок громкости</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Нормальное поведение. Нажатие для изменения громкости, удержание для действия пользователя</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Обратное поведение. Нажатие для действия пользователя, удержание для изменения громкости</string>
+
+    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <string name="tablet_tweaks_input_head">Переназначить кнопки громкости</string>
+    <string name="tablet_tweaks_long_volp_action_title">Удержание кнопки \"Громче\"</string>
+    <string name="tablet_tweaks_long_volp_action_summary">Назначение Домой/Назад/Меню и других действий на удержание кнопки \"Громче\". Ограничен экраном</string>
+    <string name="tablet_tweaks_long_volm_action_title">Удержание кнопки \"Тише\"</string>
+    <string name="tablet_tweaks_vol_both_action_title">Обе кнопки громкости</string>
+    <string name="tablet_tweaks_vol_both_action_summary">Примечание: На некоторых устройствах нажатие обеих кнопок громкости+кнопки Power (Включение) приводят к Хард резету (К сбросу на заводские настройки)</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">Удержание обеих кнопок регулироки громкости</string>
+
+    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <string name="tablet_tweaks_extend_pm_list_head">Кнопки меню \"Параметры планшета\"</string>
+
+    <!-- User interface: Tablet tweaks -> soft buttons -->
+    <string name="tablet_tweaks_soft_buttons_list_head">Софт-кнопки</string>
+    <string name="tablet_soft_buttons_home_title">Домой</string>
+    <string name="tablet_soft_buttons_menu_title">Меню</string>
+    <string name="tablet_soft_buttons_back_title">Назад</string>
+    <string name="tablet_soft_buttons_search_title">Поиск</string>
+    <string name="tablet_soft_buttons_quick_na_title">Быстрое уведомление</string>
 
     <!-- User interface : 180 degree rotation -->
     <string name="pref_rotate_180_title">Поворот на 180 градусов</string>

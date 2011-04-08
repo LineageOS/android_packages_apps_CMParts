@@ -230,4 +230,29 @@
         <item>Все</item>
     </string-array>
 
+    <string-array name="entries_vol_actions">
+        <item>Ничего/По умолчанию</item>
+        <item>Домой</item>
+        <item>Меню</item>
+        <item>Назад</item>
+        <item>Поиск</item>
+        <item>Питание</item>
+        <item>Вызов</item>
+        <item>Отбой</item>
+        <item>Воспр./Пауза</item>
+        <item>След. трек</item>
+        <item>Пред. трек</item>
+        <item>Долгое нажатие домой</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>Домой</item>
+        <item>Меню</item>
+        <item>Назад</item>
+        <item>Поиск</item>
+        <item>Камера</item>
+        <item>Громче</item>
+        <item>Тише</item>
+    </string-array>
+
 </resources>
