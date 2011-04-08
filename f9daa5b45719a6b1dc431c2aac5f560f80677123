@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAADn///2c\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 325
+      },
+      "writtenOn": "2011-04-08T17:04:11Z",
+      "side": 1,
+      "message": "besser \"statuszeile unten\" denk ich?",
+      "revId": "f9daa5b45719a6b1dc431c2aac5f560f80677123",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAADn///2g\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 325
+      },
+      "writtenOn": "2011-04-08T17:04:11Z",
+      "side": 1,
+      "message": "mit \"virtuelle tasten\" sträuben sich bei mir die nakenhaare - besseren vorschlag hab ich aber grad auch nicht",
+      "revId": "f9daa5b45719a6b1dc431c2aac5f560f80677123",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
