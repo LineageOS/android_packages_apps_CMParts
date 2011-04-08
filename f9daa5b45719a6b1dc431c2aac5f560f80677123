@@ -33,6 +33,24 @@
       "revId": "f9daa5b45719a6b1dc431c2aac5f560f80677123",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAADn///2U\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 73
+      },
+      "writtenOn": "2011-04-08T17:07:47Z",
+      "side": 1,
+      "message": "wie wärs mit nur \"Tasten\"?",
+      "parentUuid": "AAAADn///2g\u003d",
+      "revId": "f9daa5b45719a6b1dc431c2aac5f560f80677123",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
