@@ -79,7 +79,7 @@
     <string name="title_color_picker">选择颜色</string>
     <string name="msg_color_picker">点击中间的颜色进行确认。\n点击返回键取消。</string>
 
-    <!-- User interface: LED notifcations -->
+    <!-- User interface: LED notifications -->
     <string name="trackball_notifications_title">轨迹球通知颜色</string>
     <string name="dialog_color_trackball">选择颜色</string>
     <string name="dialog_blink_trackball">选择闪烁频率</string>
@@ -266,7 +266,11 @@
     <string name="pref_use_dithering_title">启用贴图插值抖动</string>
     <string name="pref_use_dithering_summary">启用贴图插值抖动可以提高图像质量，但会影响性能 (需要重启)</string>
 
-    <!-- Performance Setting : VM Heap Size -->
+    <!-- Performance Settings : Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">允许清理图片</string>
+    <string name="pref_purgeable_assets_summary">当系统需要时可以清理未使用的图片来提供更多内存(需要重启)</string>
+
+    <!-- Performance Settings : VM Heap Size -->
     <string name="pref_heapsize_title">虚拟机内存大小</string>
     <string name="pref_heapsize_summary">设置每个虚拟机进程的可用内存最大值（需要重启）</string>
 
