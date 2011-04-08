@@ -208,4 +208,29 @@
         <item>Leve</item>
         <item>Muito Leve</item>
     </string-array>
+
+    <string-array name="entries_vol_actions">
+        <item>Nenhum/Padrão</item>
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Voltar</item>
+        <item>Buscar</item>
+        <item>Energia</item>
+        <item>Chamar</item>
+        <item>Encerrar chamada</item>
+        <item>Tocar/Pausar</item>
+        <item>Próxima faixa</item>
+        <item>Faixa anterior</item>
+        <item>Aperto longo home</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Voltar</item>
+        <item>Buscar</item>
+        <item>Câmera</item>
+        <item>Aumentar Volume</item>
+        <item>Diminuir Volume</item>
+    </string-array>
 </resources>
