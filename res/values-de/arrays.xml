@@ -228,4 +228,29 @@
     <item>Kopfhörer (Bluetooth)</item>
     <item>Beide</item>
   </string-array>
+
+  <string-array name="entries_vol_actions">
+    <item>Standard</item>
+    <item>Homescreen</item>
+    <item>Menü</item>
+    <item>Zurück</item>
+    <item>Suche</item>
+    <item>Ausschalten</item>
+    <item>Anruf</item>
+    <item>Anruf beenden</item>
+    <item>Wiedergabe/Pause</item>
+    <item>Nächster Titel</item>
+    <item>Letzter Titel</item>
+    <item>Homescreen (gedrückhalten)</item>
+  </string-array>
+
+  <string-array name="entries_unhide_button">
+    <item>Homescreen</item>
+    <item>Menü</item>
+    <item>Zurück</item>
+    <item>Suche</item>
+    <item>Kamera</item>
+    <item>Lauter</item>
+    <item>Leiser</item>
+  </string-array>
 </resources>
