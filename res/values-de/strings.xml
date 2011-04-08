@@ -42,6 +42,50 @@
     <string name="pref_electron_beam_animation_on">Einschalten animieren</string>
     <string name="pref_electron_beam_animation_off">Ausschalten animieren</string>
 
+    <!-- User interface: Tablet tweaks -->
+    <string name="tablet_tweaks_title_head">Tweaks für Tablets</string>
+    <string name="tablet_tweaks_summary_head">Die nützlichsten Einstellungen für Tablets zusammengefasst. Funktionieren auch für andere Geräte.</string>
+    <string name="tablet_tweaks_sb_bottom_title">Untere Statuszeile</string>
+    <string name="tablet_tweaks_sb_bottom_summary">Zeige Statuszeile am unteren Rand. Nützlich für Tablets, die virtuelle Tasten für Home, Menü, etc inder Statuszeile nutzen.</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">Inaktiver Bereich</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">Fügt der Statuszeile mittig einen inaktiven Bereich halber Bildschirmbreite hinzu.</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">Virtuelle Tasten links</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">Die virtuellen Tasten auf die linke Seite der Statuszeile verlagern.</string>
+    <string name="tablet_tweaks_soft_button_list_title">Virtuelle Tasten wählen</string>
+    <string name="tablet_tweaks_interface_head">Öberfläche</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">Lockscreen deaktivieren</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">Nach Bootvorgang oder bei Aufwachen weder den Lockscreen noch das Feld für das Entsperrmuster anzeigen.</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">Vollbild verhindern</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">Anfrage einer App nach Vollbildmodus blockieren. Statuszeile bleibt immer sichtbar, ausser wenn sie manuell ausgeblendet wird.</string>
+    <string name="tablet_tweaks_unhide_button_list_head">Verstecken-Taste</string>
+    <string name="tablet_tweaks_unhide_button_list_title">Die Taste zum Verstecken wählen</string>
+    <string name="tablet_tweaks_extend_pm_title">Erweitertes Ausschaltmenü</string>
+    <string name="tablet_tweaks_extend_pm_summary">Aktionen für Home/Zurück/Menü dem Ausschaltmenü hinzufügen.</string>
+    <string name="tablet_tweaks_extend_pm_list_title">Tasten wählen</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">Lautstärkeregelung umkehren</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Lautstärketasten verhalten sich normal: Drücken für Änderung der Lautstärke. Gedrückhalten für Aktion.</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Lautstärketasten verhalten sich umgekehrt: Drücken für Aktion. Gedrückhalten für Änderung der Lautstärke.</string>
+
+    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <string name="tablet_tweaks_input_head">Lautstärketasten belegen</string>
+    <string name="tablet_tweaks_long_volp_action_title">Gedrückhalten für lauter</string>
+    <string name="tablet_tweaks_long_volp_action_summary">Aktion für Home/Zurück/Menü/etc an Gedrückhalten der Lauter-Taste binden. (Begrenzter Zugriff auf einschalten des Bildsschirms)</string>
+    <string name="tablet_tweaks_long_volm_action_title">Gedrückhalten für leiser</string>
+    <string name="tablet_tweaks_vol_both_action_title">Beide Lautstärketasten</string>
+    <string name="tablet_tweaks_vol_both_action_summary">Hinweis: Einige Geräte führen einen Reset bei gleichzeitigem Drücken der Lautstärke und Ein/Ausschalttaste durch.</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">Gedrückthalten beider Lautstärketasten</string>
+
+    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <string name="tablet_tweaks_extend_pm_list_head">Ausschaltmenü-Tasten</string>
+
+    <!-- User interface: Tablet tweaks -> soft buttons -->
+    <string name="tablet_tweaks_soft_buttons_list_head">Virtuelle Tasten</string>
+    <string name="tablet_soft_buttons_home_title">Home</string>
+    <string name="tablet_soft_buttons_menu_title">Menü</string>
+    <string name="tablet_soft_buttons_back_title">Zurück</string>
+    <string name="tablet_soft_buttons_search_title">Suche</string>
+    <string name="tablet_soft_buttons_quick_na_title">Schnelle Benachrichtigungen</string>
+
     <!-- User interface : 180 degree rotation -->
     <string name="pref_rotate_180_title">Um 180 Grad drehen</string>
     <string name="pref_rotate_180_summary">Zusätzlich Drehung um 180 Grad erlauben, wenn Autorotation eingeschaltet ist</string>
