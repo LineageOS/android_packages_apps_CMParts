@@ -198,4 +198,29 @@
         <item>Molto leggero</item>
     </string-array>
 
+    <string-array name="entries_vol_actions">
+        <item>Niente/Default</item>
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Indietro</item>
+        <item>Cerca</item>
+        <item>Power</item>
+        <item>Chiama</item>
+        <item>Termina chiamata</item>
+        <item>Play/Pause</item>
+        <item>Brano successivo</item>
+        <item>Brano precedente</item>
+        <item>Long press home</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Indietro</item>
+        <item>Cerca</item>
+        <item>Camera</item>
+        <item>Volume più</item>
+        <item>Volume meno</item>
+    </string-array>
+
 </resources>
