@@ -79,7 +79,7 @@ public class InputActivity extends PreferenceActivity {
         /* Trackball Wake */
         mTrackballWakePref = (CheckBoxPreference) prefSet.findPreference(TRACKBALL_WAKE_PREF);
         mTrackballWakePref.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.TRACKBALL_WAKE_SCREEN, 0) == 1);
+                Settings.System.TRACKBALL_WAKE_SCREEN, 1) == 1);
 
         /* Volume button music controls */
         mVolBtnMusicCtrlPref = (CheckBoxPreference) prefSet.findPreference(VOLBTN_MUSIC_CTRL_PREF);
