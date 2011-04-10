@@ -693,4 +693,11 @@
     <string name="tablet_tweaks_long_volm_action_title">Aperto longo diminuir volume</string>
     <string name="tablet_soft_buttons_search_title">Buscar</string>
     <string name="tablet_soft_buttons_quick_na_title">Notificações rápidas</string>
+    <string name="ui_status_bar_compact_carrier_title">Rótulo compacto da operadora</string>
+    <string name="ui_status_bar_compact_carrier_summary">Usar layout alternativo de notificação de status com mini rótulo da operadora. Fica melhor com widget de energia. (Requer reiniciar)</string>
+    <string name="title_expanded_hide_scrollbar">Esconde barra de rolagem</string>
+    <string name="summary_expanded_hide_scrollbar">Esconder barra de rolagem quando mais que o número máximo de butões de widgets estão presentes.</string>
+    <string name="sound_vibrate_in_call_title">Vibrar durante ligações</string>
+    <string name="sound_vibrate_in_call_summary_off">Notificações não irão vibrar o telefone durante uma ligação.</string>
+    <string name="sound_vibrate_in_call_summary_on">Notificações irão vibrar o telefone normalmente.</string>
 </resources>
