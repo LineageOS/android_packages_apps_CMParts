@@ -161,12 +161,6 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.NotificationsActivity"
-            android:label="@string/title_notifications_color_tweaks">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
         <activity android:name=".activities.PerformanceSettingsActivity"
             android:label="@string/performance_settings_title">
             <intent-filter>

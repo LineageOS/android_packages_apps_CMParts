@@ -127,75 +127,6 @@
     <string name="title_color_picker">Farbe wählen</string>
     <string name="msg_color_picker">Zum Bestätigen auf Mitte der Farbe tippen.\nZum Abbrechen Zurück-Taste drücken.</string>
 
-    <!-- Status Bar -->
-    <string name="status_bar_title">Statuszeile</string>
-    <string name="status_bar_summary">Tweaks für die Statuszeile</string>
-
-    <!-- Status Bar, Battery -->
-    <string name="battery_title">Batterie</string>
-    <string name="pref_battery_percentage_title">Batterie-Prozentanzeige</string>
-    <string name="pref_battery_percentage_summary">Prozentanzeige für Ladezustand in Statuszeile anzeigen</string>
-    <string name="battery_status_color_title">Farbe Batterieladung</string>
-
-    <!-- Status Bar, Clock -->
-    <string name="clock_title">Uhr</string>
-    <string name="title_show_clock">Zeige Uhr</string>
-    <string name="title_clock_color">Farbe Uhr</string>
-    <string name="clock_show_am_pm">AM/PM für 12h-Uhr zeigen</string>
-
-    <!-- Status Bar, dBm Signal -->
-    <string name="dbm_title">dBm Signalstärke</string>
-    <string name="title_show_dbm">Zeige Signalstärke</string>
-    <string name="summary_on_show_dbm">Signalstärke in dBm wird in der Statuszeile angezeigt.</string>
-    <string name="summary_off_show_dbm">Signalstärke in dBm wird nicht in der Statuszeile angezeigt.</string>
-    <string name="title_hide_signal_dbm">Signalstärke verstecken</string>
-    <string name="summary_on_hide_signal_dbm">Das Symbol für die Signalstärke wird ausgeblendet. Nur dBM-Anzeige.</string>
-    <string name="summary_off_hide_signal_dbm">Ein Symbol für die Signalstärke wird eingeblendet.</string>
-    <string name="title_dbm_color">Farbe dBm</string>
-
-    <!-- Date and Provider -->
-    <string name="dp_title">Datum und Betreiber</string>
-    <string name="dp_summary">Tweaks für Datum und Betreiber</string>
-
-    <!-- Date and Provider, Date -->
-    <string name="date_title">Datum</string>
-    <string name="title_date_color">Farbe Datum</string>
-
-    <!-- Date and Provider, PLMN -->
-    <string name="plmn_title">Anzeige des Netzbetreibers</string>
-    <string name="title_show_plmn_ls">Netzbetreiber (Lockscreen)</string>
-    <string name="summary_on_show_plmn_ls">Netzbetreiber wird angezeigt auf dem Lockscreen</string>
-    <string name="summary_off_show_plmn_ls">Netzbetreiber wird nicht angezeigt auf dem Lockscreen</string>
-    <string name="title_show_plmn_sb">Netzbetreiber (Statuszeile)</string>
-    <string name="summary_on_show_plmn_sb">Netzbetreiber wird angezeigt in der Statuszeile</string>
-    <string name="summary_off_show_plmn_sb">Netzbetreiber wird nicht angezeigt in der Statuszeile</string>
-    <string name="title_plmn_label_color">Farbe Netzbetreiber</string>
-
-    <!-- Date and Provider, SPN -->
-    <string name="spn_title">Anzeige des Anbieters</string>
-    <string name="title_show_spn_ls">Anbieter (Lockscreen)</string>
-    <string name="summary_on_show_spn_ls">Anbieter wird angezeigt auf dem Lockscreen</string>
-    <string name="summary_off_show_spn_ls">Anbieter wird nicht angezeigt auf dem Lockscreen</string>
-    <string name="title_show_spn_sb">Anbieter (Statuszeile)</string>
-    <string name="summary_on_show_spn_sb">Anbieter wird angezeigt in der Statuszeile</string>
-    <string name="summary_off_show_spn_sb">Anbieter wird nicht angezeigt in der Statuszeile</string>
-    <string name="title_spn_label_color">Farbe Anbieter</string>
-
-    <!-- Notifications -->
-    <string name="title_notifications_sb">Nachrichten in Statuszeile</string>
-    <string name="title_notifications_color_tweaks">Farben für Nachrichten</string>
-    <string name="summary_notifications_color_tweaks">Ticker, dauerhafte und letzte Benachrichtigung, Löschen, etc.</string>
-    <string name="title_notifications_ticker_color">Benachrichtigungsticker</string>
-    <string name="title_notifications_count_color">Farbe für Anzahl Nachrichten</string>
-    <string name="title_no_notifications_color">Keine Benachrichtigungen</string>
-    <string name="title_clear_button_label_color">Löschen-Schaltfläche</string>
-    <string name="title_ongoing_notifications_color">Dauerhafte Benachrichtigungen</string>
-    <string name="title_latest_notifications_color">Letzte Benachrichtigung</string>
-    <string name="title_notifications_items">Nachrichtenelemente</string>
-    <string name="title_notifications_items_title">Titelelement</string>
-    <string name="title_notifications_items_text">Textelement</string>
-    <string name="title_notifications_items_time">Zeitelement</string>
-
     <!-- User interface: Trackball notifcations -->
     <string name="trackball_notifications_title">Farbe der Trackball-Benachrichtigungen</string>
     <string name="dialog_color_trackball">Wähle eine Farbe</string>
@@ -254,31 +185,6 @@
     <string name="pref_lockscreen_gesture_summary">Gesten auf dem Lockscreen aktivieren und anpassen</string>
     <string name="pref_lockscreen_timeout_title">Display-Timeout und Sperre</string>
     <string name="pref_lockscreen_timeout_summary">Verzögerung vor automatischer Bildschirmabschaltung und Sperre anpassen</string>
-
-    <!-- Tweaks Extras -->
-    <string name="te_title">Extra-Tweaks</string>
-    <string name="te_title_summary">Tweaks für Benutzeroberfläche</string>
-    <string name="te_reset">Zurücksetzen</string>
-    <string name="title_reset_ui_tweaks_to_defaults">Änderungen zurücksetzen</string>
-    <string name="te_xml">XML-Tools</string>
-    <string name="title_dialog_ui_interface">Tweaks für Benutzeroberfläche</string>
-    <string name="message_dialog_reset">Alle Tweaks zurücksetzen? Neustart erforderlich.</string>
-    <string name="reset_ui_success">Tweaks zurückgesetzt! Neu starten um Änderungen anzuwenden.</string>
-    <string name="message_dialog_export">Einen Namen für die Datei angeben. Wenn schon vorhanden, wird die Datei überschrieben.</string>
-    <string name="xml_sdcard_unmounted">SD-Karte ist nicht eingebunden!</string>
-    <string name="xml_write_error">Fehler beim Schreiben der XML-Datei!</string>
-    <string name="xml_export_success">XML-Export war erfolgreich!</string>
-    <string name="message_dialog_import">Soll dieses Farbschema wirklich importiert werden?</string>
-    <string name="xml_file_not_found">XML-Datei nicht gefunden!</string>
-    <string name="xml_io_exception">Fehler beim Lesen der XML-Datei!</string>
-    <string name="xml_parse_error">Fehler beim Verarbeiten der XML-Datei!</string>
-    <string name="xml_invalid_color">Ungültiger Farbcode im XML!</string>
-    <string name="xml_import_success">XML-Import erfolgreich! Neustart erforderlich um Änderungen anzuwenden.</string>
-    <string name="xml_run_helper">Einstellungshelfer ausführen</string>
-    <string name="title_apply_theme">Farbthema auswählen</string>
-    <string name="summary_apply_theme">Ein vorgefertigtes oder auf der SD-Karte gespeichertes Thema auswählen.</string>
-    <string name="title_save_theme">Farben speichern</string>
-    <string name="summary_save_theme">Die derzeitigen Farbeinstellungen auf der SD-Karte speichern</string>
 
     <!-- Input Settings -->
     <string name="lockscreen_settings_title">Bildschirmsperre-Einstellungen</string>
@@ -458,19 +364,6 @@
     <string name="amber">Amber</string>
     <string name="salmon">Lachs</string>
     <string name="fuscia">Pink</string>
-
-    <!-- Notification Bar Colors -->
-    <string name="title_notification_bar">Statuszeile</string>
-    <string name="title_custom_not_bar">Eigene Statuszeile</string>
-    <string name="summary_custom_not_bar_on">Angepasste Farben und Aussehen der Statuszeile verwenden</string>
-    <string name="summary_custom_not_bar_off">Klassische Statuszeile von CyanogenMod verwenden</string>
-    <string name="title_not_bar_color_mask">Farbe Statuszeile</string>
-    <string name="summary_not_bar_color_mask">Hinweis: Transparenzwert (alpha) wird nicht angewendet</string>
-    <string name="title_custom_exp_not_bar">Ausrollbare Statuszeile anpassen</string>
-    <string name="summary_custom_exp_not_bar_on">Farbe und Aussehen der runtergezogenen Statuszeile anpassen</string>
-    <string name="summary_custom_exp_not_bar_off">Klassische runtergezogene CyanogenMod-Stauszeile verwenden</string>
-    <string name="title_not_exp_bar_color_mask">Farbe der Elemente</string>
-    <string name="summary_not_exp_bar_color_mask">Farbe für Elemente der runtergezogenen Statuszeile wählen</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Energie-Widget</string>
