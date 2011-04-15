@@ -183,4 +183,30 @@
         <item>모두</item>
     </string-array>
 
+    <string-array name="entries_vol_actions">
+        <item>없음/기본값</item>
+        <item>홈</item>
+        <item>메뉴</item>
+        <item>뒤로</item>
+        <item>검색</item>
+        <item>전원</item>
+        <item>전화 걸기</item>
+        <item>전화 끊기</item>
+        <item>재생/일시 중지</item>
+        <item>다음 곡 재생</item>
+        <item>이전 곡 재생</item>
+        <item>홈버튼 길게 누르기</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>홈</item>
+        <item>메뉴</item>
+        <item>뒤로</item>
+        <item>검색</item>
+        <item>카메라</item>
+        <item>음량 올리기</item>
+        <item>음량 낮추기</item>
+    </string-array>
+
+
 </resources>

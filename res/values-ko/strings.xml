@@ -353,6 +353,7 @@
 
     <string name="title_toggle_wifi">와이파이</string>
     <string name="title_toggle_bluetooth">블루투스</string>
+    <string name="title_toggle_wimax">와이맥스</string>
     <string name="title_toggle_gps">GPS</string>
     <string name="title_toggle_sound">소리</string>
     <string name="title_toggle_brightness">밝기</string>
@@ -435,7 +436,7 @@
     <string name="sound_title">소리 설정</string>
     <string name="sound_summary">소리와 오디오 집중 설정</string>
     <string name="sound_notifications_focus_title">알림 집중</string>
-    <string name="sound_notifications_focus_summary">오디오 집중은 알림 소리가 재생될 때 호환되는 어플리케이션이 볼륨을 낮추도록 요청하는 기능입니다.</string>
+    <string name="sound_notifications_focus_summary">오디오 집중은 알림 소리가 재생될 때 호환되는 어플리케이션이 음량을 낮추도록 요청하는 기능입니다.</string>
     <string name="sound_to_speaker_title">항상 스피커로 재생</string>
     <string name="sound_notifications_title">알림</string>
     <string name="sound_rings_title">벨소리</string>
@@ -447,9 +448,9 @@
     <string name="sound_notifications_attenuation_dialog">알림 감쇠</string>
     <string name="sound_rings_attenuation_dialog">벨소리 감쇠</string>
     <string name="sound_alarms_attenuation_dialog">알람 감쇠</string>
-    <string name="sound_notifications_limitvol_dialog">알림 볼륨</string>
-    <string name="sound_rings_limitvol_dialog">벨소리 볼륨</string>
-    <string name="sound_alarms_limitvol_dialog">알람 볼륨</string>
+    <string name="sound_notifications_limitvol_dialog">알림 음량</string>
+    <string name="sound_rings_limitvol_dialog">벨소리 음량</string>
+    <string name="sound_alarms_limitvol_dialog">알람 음량</string>
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">조용한 시간</string>
     <string name="quiet_hours_enabled">조용한 시간 사용</string>
@@ -463,7 +464,7 @@
     <string name="quiet_hours_mute_on">소리가 재생되지 않습니다.</string>
     <string name="quiet_hours_mute_off">평상시처럼 소리가 재생됩니다.</string>
     <string name="quiet_hours_still">진동 비활성화</string>
-    <string name="quiet_hours_still_on">장치는 진동하지 않을 것입니다.</string>
+    <string name="quiet_hours_still_on">휴대전화는 진동하지 않을 것입니다.</string>
     <string name="quiet_hours_still_off">평상시처럼 진동합니다.</string>
     <string name="quiet_hours_dim">LED 희미하게</string>
     <string name="quiet_hours_dim_on">가능하면 LED는 희미해질 것입니다.</string>
@@ -525,7 +526,7 @@
     <string name="pref_overscroll_weight_title">초과 스크롤 무게</string>
     <string name="pref_overscroll_weight_summary">초과 스크롤을 했을 때 창이 얼마나 빨리 움직일지 선택합니다.</string>
     <string name="sound_volume_control_silent_title">음소거 상태</string>
-    <string name="sound_volume_control_silent_summary">볼륨 조절에 완전한 음소거 상태(진동 및 소리 끔)를 추가합니다.</string>
+    <string name="sound_volume_control_silent_summary">음량 조절에 완전한 음소거 상태(진동 및 소리 없음)를 추가합니다.</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">어플리케이션</string>
@@ -655,5 +656,53 @@
     <string name="ui_status_bar_clock_summary">비활성화되어있으면 시계가 보이지 않습니다.</string>
     <string name="ui_status_bar_cm_battery_title">배터리 백분율</string>
     <string name="ui_status_bar_cm_battery_summary">작은 배터리 아이콘과 배터리 백분율을 표시합니다. 일부 테마와 충돌할 수 있습니다.</string>
+
+    <!-- User interface: Tablet tweaks -->
+    <string name="tablet_tweaks_title_head">태블릿 조정</string>
+    <string name="tablet_tweaks_summary_head">태블릿 장비에 관한 설정들을 한 곳에 모았습니다. 태블릿 장비에 주로 쓰이지만, 휴대전화에서도 작동합니다.</string>
+    <string name="tablet_tweaks_sb_bottom_title">하단 상태 표시줄</string>
+    <string name="tablet_tweaks_sb_bottom_summary">상태 표시줄을 하단에 표시합니다. 홈 버튼이나 메뉴 버튼 등이 상태 표시줄에 있는 태블릿일 경우에 유용합니다.</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">미사용 지역</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">상태 표시줄의 중간에 화면 너비의 절반 크기의 미사용 지역을 추가합니다.</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">버튼을 왼쪽에</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">상태 표시줄의 왼쪽에 버튼을 표시합니다</string>
+    <string name="tablet_tweaks_soft_button_list_title">버튼 선택</string>
+    <string name="tablet_tweaks_interface_head">환경</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">잠금 화면 사용 안함</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">이 옵션을 활성화하면 잠금 화면이나 패턴 화면을 보여주지 않습니다.</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">전체 화면 사용 안함</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">어플리케이션의 전체 화면 요청을 무효화합니다. 이 옵션을 활성화하면 버튼을 눌러 상태 표시줄을 숨기기 전까지 상태 표시줄을 항상 보이게 합니다.</string>
+    <string name="tablet_tweaks_unhide_button_list_head">버튼 안숨기기 취소</string>
+    <string name="tablet_tweaks_unhide_button_list_title">버튼 숨기기를 취소할 것을 고르세요</string>
+    <string name="tablet_tweaks_extend_pm_title">전원 메뉴 확장</string>
+    <string name="tablet_tweaks_extend_pm_summary">홈/뒤로/메뉴 동작을 전원 메뉴에 추가합니다.</string>
+    <string name="tablet_tweaks_extend_pm_list_title">전원 메뉴 버튼 선택</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">음량 버튼 작동 뒤집기</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">음량 버튼 작동 방식이 변하지 않습니다. 눌러서 음량을 변경하고, 길게 눌러서 사용자 지정 동작을 수행합니다.</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">음량 버튼 작동 방식이 바뀌었습니다. 눌러서 사용자 지정 동작을 수행하고, 길게 눌러서 음량을 변경합니다.</string>
+
+    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <string name="tablet_tweaks_input_head">음량 버튼 동작 재지정</string>
+    <string name="tablet_tweaks_long_volp_action_title">음량 높임 버튼 길게 누르기</string>
+    <string name="tablet_tweaks_long_volp_action_summary">음량 높임 버튼을 길게 눌렀을때 수행할 동작을 지정합니다. 홈, 뒤로, 메뉴 등의 동작을 지정할 수 있습니다. 화면이 켜져있을 때만 작동합니다.</string>
+    <string name="tablet_tweaks_long_volm_action_title">음량 낮춤 버튼 길게 누르기</string>
+    <string name="tablet_tweaks_vol_both_action_title">버튼 두개 동시 누르기</string>
+    <string name="tablet_tweaks_vol_both_action_summary">안내: 일부 장비는 볼륨 버튼 두개와 전원 버튼을 동시에 누르면 강제 재시작을 수행합니다.</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">버튼 두개 동시에 길게 누르기</string>
+
+    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <string name="tablet_tweaks_extend_pm_list_head">전원 메뉴 버튼</string>
+
+    <!-- User interface: Tablet tweaks -> soft buttons -->
+    <string name="tablet_tweaks_soft_buttons_list_head">소프트 버튼</string>
+    <string name="tablet_soft_buttons_home_title">홈</string>
+    <string name="tablet_soft_buttons_menu_title">메뉴</string>
+    <string name="tablet_soft_buttons_back_title">뒤로</string>
+    <string name="tablet_soft_buttons_search_title">검색</string>
+    <string name="tablet_soft_buttons_quick_na_title">빠른 알림</string>
+
+    <!-- Performance Settings : Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">자원 제거 허용</string>
+    <string name="pref_purgeable_assets_summary">시스템이 자원 비트맵 메모리를 해제하여 사용 가능한 메모리를 더 늘릴 수 있습니다. (다시 시작 필요)</string>
 
 </resources>
