@@ -46,12 +46,16 @@ public class InputActivity extends PreferenceActivity {
     private static final String USER_DEFINED_KEY2 = "pref_user_defined_key2";
 
     private static final String USER_DEFINED_KEY3 = "pref_user_defined_key3";
+    
+    private static final String MOUSE_POINTER_PREF = "pref_mouse_pointer";
 
     private CheckBoxPreference mTrackballWakePref;
 
     private CheckBoxPreference mVolBtnMusicCtrlPref;
 
     private CheckBoxPreference mCamBtnMusicCtrlPref;
+
+    private CheckBoxPreference mMousePointerPref;
 
     private Preference mUserDefinedKey1Pref;
 
@@ -80,6 +84,11 @@ public class InputActivity extends PreferenceActivity {
         mTrackballWakePref = (CheckBoxPreference) prefSet.findPreference(TRACKBALL_WAKE_PREF);
         mTrackballWakePref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.TRACKBALL_WAKE_SCREEN, 1) == 1);
+
+        /* Mouse Pointer */
+        mMousePointerPref = (CheckBoxPreference) prefSet.findPreference(MOUSE_POINTER_PREF);
+        mMousePointerPref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.MOUSE_POINTER, 0) == 1);
 
         /* Volume button music controls */
         mVolBtnMusicCtrlPref = (CheckBoxPreference) prefSet.findPreference(VOLBTN_MUSIC_CTRL_PREF);
@@ -125,6 +134,11 @@ public class InputActivity extends PreferenceActivity {
         if (preference == mTrackballWakePref) {
             value = mTrackballWakePref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.TRACKBALL_WAKE_SCREEN,
+                    value ? 1 : 0);
+            return true;
+        } else if (preference == mMousePointerPref) {
+            value = mMousePointerPref.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.MOUSE_POINTER,
                     value ? 1 : 0);
             return true;
         } else if (preference == mVolBtnMusicCtrlPref) {

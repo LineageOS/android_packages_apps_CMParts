@@ -29,6 +29,10 @@
 				android:targetClass="com.cyanogenmod.cmparts.activities.HapticTweaksActivity" />
 		</PreferenceScreen>
 
+		<CheckBoxPreference android:key="pref_mouse_pointer"
+			android:title="@string/pref_mouse_pointer_title"
+			android:summary="@string/pref_mouse_pointer_summary" />
+
 	</PreferenceCategory>
 
 	<PreferenceCategory android:title="@string/buttons_title"

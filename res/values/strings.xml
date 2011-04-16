@@ -233,6 +233,8 @@
     <string name="long_press_home_summary">Number of recent applications, etc</string>
     <string name="input_search_key_title">Search key behaviour</string>
     <string name="input_search_key_summary">Define custom actions for search key and long-press search key</string>
+    <string name="pref_mouse_pointer_title">Enable mouse pointer</string>
+    <string name="pref_mouse_pointer_summary">Show a pointer on the screen for a connected mouse</string>
     <string name="pref_input_custom_search_app_toggle_title">Search key app</string>
     <string name="pref_input_custom_search_app_toggle_summary">Starts a custom app when pressing the search key</string>
     <string name="pref_input_custom_search_app_activity_title">Custom application</string>
