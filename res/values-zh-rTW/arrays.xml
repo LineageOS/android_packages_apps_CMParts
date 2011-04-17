@@ -17,11 +17,26 @@
 
 <resources>
 
+    <string-array name="entries_recent_apps_num">
+        <item>8</item>
+        <item>12</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="entries_heapsize">
+        <item>12m</item>
+        <item>16m</item>
+        <item>24m</item>
+        <item>32m</item>
+    </string-array>
+
     <string-array name="entries_install_location">
         <item>自動</item>
         <item>內存空間</item>
         <item>SD 卡</item>
     </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=values_install_location -->
 
     <string-array name="entries_render_effect">
         <item>無渲染效果</item>
@@ -36,6 +51,8 @@
         <item>校準的（N1）冷酷</item>
     </string-array>
 
+    <!-- skipping untranslatable /resources:0/string-array:name=values_render_effect -->
+
     <string-array name="render_entries">
         <item>夜視模式（紅）</item>
         <item>終端機（綠）</item>
@@ -47,6 +64,8 @@
         <item>校準的（N1）低紅</item>
         <item>校準的（N1）冷酷</item>
     </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=render_values -->
 
     <string-array name="entries_trackball_colors">
         <item>綠</item>
@@ -63,11 +82,15 @@
         <item>無</item>
     </string-array>
 
+    <!-- skipping untranslatable /resources:0/string-array:name=pref_trackball_colors_values -->
+
     <string-array name="entries_dual_led_colors">
         <item>綠</item>
         <item>琥珀</item>
         <item>無</item>
     </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=values_dual_led_colors -->
 
     <string-array name="pref_trackball_blink_rate_entries">
         <item>2（快）</item>
@@ -77,12 +100,14 @@
         <item>6（慢）</item>
     </string-array>
 
+    <!-- skipping untranslatable /resources:0/string-array:name=pref_trackball_blink_rate_values -->
+
     <string-array name="pref_lockscreen_delay_entries">
         <item>立即</item>
         <item>1秒</item>
         <item>5秒</item>
         <item>10秒</item>
-        <item>15秒</item>  
+        <item>15秒</item>
         <item>30秒</item>
         <item>1分鐘</item>
         <item>5分鐘</item>
@@ -90,12 +115,16 @@
         <item>30分鐘</item>
     </string-array>
 
+    <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_delay_values -->
+
     <string-array name="pref_compcache_size_entries">
         <item>停用</item>
         <item>10％</item>
         <item>18％（預設）</item>
         <item>26％</item>
     </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=pref_compcache_size_values -->
 
     <string-array name="entries_light_filter_window">
         <item>10秒</item>
@@ -105,6 +134,8 @@
         <item>50秒</item>
         <item>60秒</item>
     </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=values_light_filter_window -->
 
     <string-array name="entries_light_filter_reset">
         <item>停用</item>
@@ -120,6 +151,8 @@
         <item>2500 lux</item>
     </string-array>
 
+    <!-- skipping untranslatable /resources:0/string-array:name=values_light_filter_reset -->
+
     <string-array name="entries_light_filter_interval">
         <item>0.5秒</item>
         <item>1秒</item>
@@ -127,6 +160,8 @@
         <item>5秒</item>
         <item>10秒</item>
     </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=values_light_filter_interval -->
 
     <string-array name="entries_light_levels_dim">
         <item>1</item>
@@ -147,6 +182,8 @@
         <item>26</item>
     </string-array>
 
+    <!-- skipping untranslatable /resources:0/string-array:name=values_light_levels_dim -->
+
     <string-array name="entries_light_decrease_hysteresis">
         <item>0％</item>
         <item>10％</item>
@@ -160,6 +197,8 @@
         <item>90％</item>
     </string-array>
 
+    <!-- skipping untranslatable /resources:0/string-array:name=values_light_decrease_hysteresis -->
+
     <string-array name="entries_sound_attenuation">
         <item>0 dB</item>
         <item>4 dB</item>
@@ -168,10 +207,14 @@
         <item>10 dB</item>
     </string-array>
 
+    <!-- skipping untranslatable /resources:0/string-array:name=values_sound_attenuation -->
+
     <string-array name="entries_sound_limitvol">
         <item>減弱的系統設定</item>
         <item>媒體音量（預設）</item>
     </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=values_sound_limitvol -->
 
    <string-array name="entries_brightness_widget" formatted="false">
         <item>自動/暗淡/40%/100%</item>
@@ -180,16 +223,22 @@
         <item>暗淡/100%</item>
     </string-array>
 
+   <!-- skipping untranslatable /resources:0/string-array:name=values_brightness_widget -->
+
     <string-array name="entries_network_widget">
-        <item>2G／3G＋2G</item>  
-        <item>2G／僅 3G</item>   
+        <item>2G／3G＋2G</item>
+        <item>2G／僅 3G</item>
         <item>2G／僅 3G／3G＋2G</item>
     </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=values_network_widget -->
 
     <string-array name="entries_screentimeout_widget">
         <item>15秒／1分鐘／5分鐘</item>
         <item>30秒／2分鐘／5分鐘</item>
     </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=values_screentimeout_widget -->
 
     <string-array name="entries_ring_widget">
         <item>聲音＋震動／僅震動</item>
@@ -200,10 +249,14 @@
         <item>聲音＋震動／僅聲音／僅震動／靜音</item>
     </string-array>
 
+    <!-- skipping untranslatable /resources:0/string-array:name=values_ring_widget -->
+
     <string-array name="entries_flash_widget">
         <item>正常</item>
         <item>強／死光</item>
     </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=values_flash_widget -->
 
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
         <item>1（最寬鬆）</item>
@@ -220,12 +273,16 @@
         <item>12（最嚴謹）</item>
     </string-array>
 
+    <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_gestures_sensitivity_values -->
+
     <string-array name="pref_lockscreen_style_entries">
         <item>滑桿</item>
         <item>撥輪</item>
         <item>撥輪（改）</item>
         <item>透鏡</item>
     </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_style_values -->
 
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>不顯示</item>
@@ -234,12 +291,16 @@
         <item>均顯示</item>
     </string-array>
 
+    <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_music_headset_values -->
+
     <string-array name="pref_overscroll_effect_entries">
         <item>無</item>
         <item>邊緣發亮</item>
         <item>反彈和發亮</item>
         <item>反彈</item>
     </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=pref_overscroll_effect_values -->
 
     <string-array name="entries_overscroll_weight">
         <item>最重</item>
@@ -249,4 +310,50 @@
         <item>最輕</item>
     </string-array>
 
+    <!-- skipping untranslatable /resources:0/string-array:name=values_overscroll_weight -->
+
+    <!-- skipping untranslatable /resources:0/string-array:name=phone_goggles_confirmation_values -->
+
+    <string-array name="phone_goggles_confirmation_entries" translatable="true">
+        <item>@string/phone_goggles_confirmation_none</item>
+        <item>@string/phone_goggles_confirmation_prompt</item>
+        <item>@string/phone_goggles_confirmation_maths</item>
+    </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=phone_goggles_maths_level_values -->
+
+    <string-array name="phone_goggles_maths_level_entries" translatable="true">
+        <item>@string/phone_goggles_maths_level_easy</item>
+        <item>@string/phone_goggles_maths_level_medium</item>
+        <item>@string/phone_goggles_maths_level_hard</item>
+    </string-array>
+
+    <string-array name="entries_vol_actions">
+        <item>無／預設</item>
+        <item>主頁</item>
+        <item>選單</item>
+        <item>返回</item>
+        <item>搜尋</item>
+        <item>電源</item>
+        <item>通話</item>
+        <item>結束通話</item>
+        <item>播放／暫停</item>
+        <item>下一首</item>
+        <item>上一首</item>
+        <item>長按主頁</item>
+    </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=values_vol_actions -->
+
+    <string-array name="entries_unhide_button">
+        <item>主頁</item>
+        <item>選單</item>
+        <item>返回</item>
+        <item>搜尋</item>
+        <item>相機</item>
+        <item>提升音量</item>
+        <item>降低音量</item>
+    </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=values_unhide_button -->
 </resources>
