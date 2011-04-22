@@ -94,6 +94,8 @@
     <string name="ui_status_bar_clock_summary">Se disattivato l\'orologio verrà nascosto</string>
     <string name="ui_status_bar_cm_battery_title">Percentuale batteria</string>
     <string name="ui_status_bar_cm_battery_summary">Visualizza la percentuale di carica rimanente e un\'icona più piccola per la batteria. Disattiva se non compatibile col tema utilizzato</string>
+    <string name="ui_status_bar_compact_carrier_title">Etichetta operatore compatta</string>
+    <string name="ui_status_bar_compact_carrier_summary">Utilizza un layout alternativo per l\'area delle notifiche rimpicciolendo l\'etichetta operatore. (Riavvio richiesto)</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notifiche LED</string>
@@ -373,6 +375,8 @@
     <string name="summary_expanded_widget">Visualizza il widget per il risparmio energetico nell\'area delle notifiche</string>
     <string name="title_expanded_hide_onchange">Ritira barra</string>
     <string name="summary_expanded_hide_onchange">Ritira la barra scorrevole delle notifiche dopo aver premuto un tasto del widget</string>
+    <string name="title_expanded_hide_scrollbar">Nascondi barra scorrevole</string>
+    <string name="summary_expanded_hide_scrollbar">Non visualizzare la barra scorrevole del widget per il risparmio energetico.</string>
     <string name="expanded_color_mask">Colore indicatore</string>
     <string name="title_widget_picker">Tasti del widget</string>
     <string name="summary_widget_picker">Scegli i tasti da aggiungere al widget</string>
@@ -457,6 +461,9 @@
     <string name="sound_notifications_focus_summary">L\'Audio focus fa in modo che durante una notifica venga diminuito il volume delle app compatibili.</string>
     <string name="sound_volume_control_silent_title">Stato silenzioso</string>
     <string name="sound_volume_control_silent_summary">Aggiungi uno stato completamente silenzioso al controllo volume</string>
+    <string name="sound_vibrate_in_call_title">Vibra durante chiamata</string>
+    <string name="sound_vibrate_in_call_summary_off">Nessuna vibrazione in caso di notifiche durante una chiamata</string>
+    <string name="sound_vibrate_in_call_summary_on">Vibrazione attiva in caso di notifiche durante una chiamata</string>
     <string name="sound_to_speaker_title">Riproduci solo tramite speaker</string>
     <string name="sound_notifications_title">Notifiche</string>
     <string name="sound_rings_title">Suonerie</string>
