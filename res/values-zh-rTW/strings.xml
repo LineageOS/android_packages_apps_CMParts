@@ -40,6 +40,50 @@
     <string name="pref_electron_beam_animation_on">喚醒動畫</string>
     <string name="pref_electron_beam_animation_off">睡眠動畫</string>
 
+    <!-- User interface: Tablet tweaks -->
+    <string name="tablet_tweaks_title_head">平板優化</string>
+    <string name="tablet_tweaks_summary_head">最有用的平板裝置設定都集中在此處，手機亦可以使用這些設定</string>
+    <string name="tablet_tweaks_sb_bottom_title">底部狀態列</string>
+    <string name="tablet_tweaks_sb_bottom_summary">將狀態列顯示在底部。這對於會把主頁、選單之類的軟體鍵置放在狀態列的平板來說會很有用</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">忽略區域</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">加入一個闊度為半個螢幕的忽略區域到狀態列中間位置</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">軟體按鍵靠左</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">將軟體鍵置放在狀態列的左邊</string>
+    <string name="tablet_tweaks_soft_button_list_title">選擇軟體按鍵</string>
+    <string name="tablet_tweaks_interface_head">介面</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">停用鎖定螢幕</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">當這勾選時，無論在裝置啟動時抑或運行期間，均不顯示鎖定／解鎖螢幕</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">停用全螢幕</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">忽略應用程式的全螢幕要求。當這勾選時總是顯示狀態列，直至透過按鈕來隱藏</string>
+    <string name="tablet_tweaks_unhide_button_list_head">展現按鈕</string>
+    <string name="tablet_tweaks_unhide_button_list_title">選擇展現按鈕</string>
+    <string name="tablet_tweaks_extend_pm_title">擴充電源選單</string>
+    <string name="tablet_tweaks_extend_pm_summary">將主頁、返回或選單等動作加入到電源選單</string>
+    <string name="tablet_tweaks_extend_pm_list_title">選擇電源選單按鈕</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">音量鍵行為相反</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">音量鍵行為正常。按下變更音量，長按執行使用者動作</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">音量鍵行為相反。按下執行使用者動作，長按變更音量</string>
+
+    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <string name="tablet_tweaks_input_head">重新指定音量鍵動作</string>
+    <string name="tablet_tweaks_long_volp_action_title">長按提升音量鍵</string>
+    <string name="tablet_tweaks_long_volp_action_summary">設定當長按提升音量鍵時執行主頁、返回、選單或之類的動作，但只限在螢幕開啟的情況下</string>
+    <string name="tablet_tweaks_long_volm_action_title">長按降低音量鍵</string>
+    <string name="tablet_tweaks_vol_both_action_title">兩個音量鍵</string>
+    <string name="tablet_tweaks_vol_both_action_summary">注意：有些裝置在同時按下兩個音量鍵加電源鍵時會作出實體電路重設</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">長按兩個音量鍵</string>
+
+    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <string name="tablet_tweaks_extend_pm_list_head">電源選單按鈕</string>
+
+    <!-- User interface: Tablet tweaks -> soft buttons -->
+    <string name="tablet_tweaks_soft_buttons_list_head">軟體按鍵</string>
+    <string name="tablet_soft_buttons_home_title">主頁</string>
+    <string name="tablet_soft_buttons_menu_title">選單</string>
+    <string name="tablet_soft_buttons_back_title">返回</string>
+    <string name="tablet_soft_buttons_search_title">搜尋</string>
+    <string name="tablet_soft_buttons_quick_na_title">快速通知</string>
+
     <!-- User interface : 180 degree rotation -->
     <string name="pref_rotate_180_title">180 度旋轉</string>
     <string name="pref_rotate_180_summary">在自動旋轉螢幕啟用時允許額外的 180 度旋轉</string>
@@ -50,6 +94,8 @@
     <string name="ui_status_bar_clock_summary">在通知列顯示時鐘</string>
     <string name="ui_status_bar_cm_battery_title">電池百分比</string>
     <string name="ui_status_bar_cm_battery_summary">顯示電池百分比和幼細的電池圖示。如佈景主題使這個不美觀，請停用這選項</string>
+    <string name="ui_status_bar_compact_carrier_title">縮小電信業者名稱</string>
+    <string name="ui_status_bar_compact_carrier_summary">使用替代的下拉通知列格式，將電信業者名稱縮小顯示。配搭電源小工具一起使用時最為美觀\n（需要重新啟動）</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED 通知</string>
@@ -79,7 +125,7 @@
     <string name="title_color_picker">挑選顏色</string>
     <string name="msg_color_picker">輕按中央顏色來確定。\n要取消請按返回鍵。</string>
 
-    <!-- User interface: LED notifcations -->
+    <!-- User interface: LED notifications -->
     <string name="trackball_notifications_title">LED 通知色彩</string>
     <string name="dialog_color_trackball">選擇顏色</string>
     <string name="dialog_blink_trackball">選擇閃爍速率</string>
@@ -329,6 +375,8 @@
     <string name="summary_expanded_widget">使用擴充檢視中的電源小工具</string>
     <string name="title_expanded_hide_onchange">變更後隱藏</string>
     <string name="summary_expanded_hide_onchange">使用小工具按鈕進行切換後隱藏通知選單</string>
+    <string name="title_expanded_hide_scrollbar">隱藏捲軸</string>
+    <string name="summary_expanded_hide_scrollbar">當選用的小工具按鈕數目超過上限值時隱藏捲軸</string>
     <string name="expanded_color_mask">表示色彩</string>
     <string name="title_widget_picker">小工具按鈕</string>
     <string name="summary_widget_picker">挑選您的小工具按鈕</string>
@@ -413,6 +461,9 @@
     <string name="sound_notifications_focus_summary">音效聚焦請求使相容的應用程式在有通知播放時減低其本身音量</string>
     <string name="sound_volume_control_silent_title">靜音狀態</string>
     <string name="sound_volume_control_silent_summary">在音量控制中加一個完全靜音狀態</string>
+    <string name="sound_vibrate_in_call_title">通話中震動</string>
+    <string name="sound_vibrate_in_call_summary_off">在通話期間作出的通知不會震動</string>
+    <string name="sound_vibrate_in_call_summary_on">通知會如常震動</string>
     <string name="sound_to_speaker_title">總是以揚聲器播放</string>
     <string name="sound_notifications_title">通知</string>
     <string name="sound_rings_title">鈴聲</string>
@@ -449,7 +500,7 @@
     <string name="quiet_hours_dim_off">LED 將會如常發光</string>
 
     <string name="cmstats_title">匿名資料統計</string>
-    <string name="cmstats_summary">參與志願性的匿名資料滙報來協助 CyanogenMod 的改進</string>
+    <string name="cmstats_summary">參與志願性的匿名資料統計來協助 CyanogenMod 的改進</string>
 
     <string name="user_defined_key1">快速鍵 1</string>
     <string name="user_defined_key2">快速鍵 2</string>
