@@ -64,14 +64,14 @@
         <item>Жоден</item>
     </string-array>
     <string-array name="entries_dual_led_colors">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
+        <item>Зелений</item>
+        <item>Бурштиновий</item>
+        <item>Немає</item>
     </string-array>
     <string-array name="pref_trackball_blink_rate_entries">
         <item>2 (швидко)</item>
         <item>3</item>
-        <item>5 (помірно)</item>
+        <item>4 (помірно)</item>
         <item>5</item>
         <item>6 (повільно)</item>
     </string-array>
@@ -227,5 +227,28 @@
         <item>Помірний</item>
         <item>Малий</item>
         <item>Дуже малий</item>
+    </string-array>
+    <string-array name="entries_vol_actions">
+        <item>Немає (типове значення)</item>
+        <item>Домівка</item>
+        <item>Меню</item>
+        <item>Назад</item>
+        <item>Пошук</item>
+        <item>Живлення</item>
+        <item>Виклик</item>
+        <item>Завершити виклик</item>
+        <item>Відтворення/Пауза</item>
+        <item>Наступний трек</item>
+        <item>Попередній трек</item>
+        <item>Довге натис. кн. \u201CДомівка\u201D</item>
+    </string-array>
+    <string-array name="entries_unhide_button">
+        <item>Домівка</item>
+        <item>Меню</item>
+        <item>Назад</item>
+        <item>Пошук</item>
+        <item>Камера</item>
+        <item>Голосніше</item>
+        <item>Тихіше</item>
     </string-array>
 </resources>
