@@ -95,7 +95,7 @@
     <string name="ui_status_bar_cm_battery_title">Battery percentage</string>
     <string name="ui_status_bar_cm_battery_summary">Show battery percentage plus mini battery icon. Disable if themes make this look broken</string>
     <string name="ui_status_bar_compact_carrier_title">Compact carrier label</string>
-    <string name="ui_status_bar_compact_carrier_summary">Use alternate notification dropdown layout with mini carrier label. Looks best with power widget. (Requires reboot)</string>
+    <string name="ui_status_bar_compact_carrier_summary">Use alternate notification dropdown layout with mini carrier label</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED notifications</string>
