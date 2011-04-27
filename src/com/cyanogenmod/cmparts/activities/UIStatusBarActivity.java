@@ -33,12 +33,16 @@ public class UIStatusBarActivity extends PreferenceActivity {
     private static final String PREF_STATUS_BAR_CM_BATTERY = "pref_status_bar_cm_battery";
 
     private static final String PREF_STATUS_BAR_COMPACT_CARRIER = "pref_status_bar_compact_carrier";
+    
+    private static final String PREF_FORCE_PLMN_DISPLAY = "pref_status_bar_force_plmn_display";
 
     private CheckBoxPreference mStatusBarClock;
 
     private CheckBoxPreference mStatusBarCmBattery;
 
     private CheckBoxPreference mStatusBarCompactCarrier;
+    
+    private CheckBoxPreference mStatusBarForcePlmnDisplay;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -53,6 +57,7 @@ public class UIStatusBarActivity extends PreferenceActivity {
         mStatusBarCompactCarrier = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_COMPACT_CARRIER);
         mStatusBarCmBattery = (CheckBoxPreference) prefSet
                 .findPreference(PREF_STATUS_BAR_CM_BATTERY);
+        mStatusBarForcePlmnDisplay = (CheckBoxPreference) prefSet.findPreference(PREF_FORCE_PLMN_DISPLAY);
 
         mStatusBarClock.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_CLOCK, 1) == 1));
@@ -60,6 +65,8 @@ public class UIStatusBarActivity extends PreferenceActivity {
                 Settings.System.STATUS_BAR_CM_BATTERY, 0) == 1));
         mStatusBarCompactCarrier.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_COMPACT_CARRIER, 0) == 1));
+        mStatusBarForcePlmnDisplay.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_FORCE_PLMN_DISPLAY, 0) == 1));
 
     }
 
@@ -80,6 +87,11 @@ public class UIStatusBarActivity extends PreferenceActivity {
         } else if (preference == mStatusBarCompactCarrier) {
             value = mStatusBarCompactCarrier.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_COMPACT_CARRIER,
+                    value ? 1 : 0);
+            return true;
+        } else if (preference == mStatusBarForcePlmnDisplay) {
+            value = mStatusBarForcePlmnDisplay.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_FORCE_PLMN_DISPLAY,
                     value ? 1 : 0);
             return true;
         }
