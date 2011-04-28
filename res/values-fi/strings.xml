@@ -38,6 +38,49 @@
     <string name="pref_electron_beam_animation_on">Näyttö päälle -animaatio</string>
     <string name="pref_electron_beam_animation_off">Näyttö pois päältä -animaatio</string>
 
+<string name="tablet_tweaks_title_head">Tablet säädöt</string>
+    <string name="tablet_tweaks_summary_head">Tablet-laitteiden hyödyllisimmät asetukset yhdessä paikassa. Pätevät myös puhelimiin</string>
+    <string name="tablet_tweaks_sb_bottom_title">Tilapalkki alhaalla</string>
+    <string name="tablet_tweaks_sb_bottom_summary">Näyttää tilapalkin ruudun alareunassa.</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">Kuollut alue</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">Lisää puolen ruudun levyisen kuolleen alueen tilapalkin keskelle.</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">Kosketusnäppäimet vasemmalla</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">Asettaa kosketusnäppäimet tilapalkin vasempaan reunaan</string>
+    <string name="tablet_tweaks_soft_button_list_title">Valitse kosketusnäppäimet</string>
+    <string name="tablet_tweaks_interface_head">Käyttöliittymä</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">Estä lukitusnäyttö</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">Päällä ollessaan estää lukitusnäytön tai kuviolukituksen.</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">Estä kokonäyttö</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">Ohittaa sovellusten kokonäyttöpyynnön. Näyttää tilapalkin aina kunnes se piilotetaan valinnalla</string>
+    <string name="tablet_tweaks_unhide_button_list_head">Näytä-nappi</string>
+    <string name="tablet_tweaks_unhide_button_list_title">Valitse Näytä-nappi</string>
+    <string name="tablet_tweaks_extend_pm_title">Laajenna virtavalikko</string>
+    <string name="tablet_tweaks_extend_pm_summary">Lisää koti/takaisin/menu toiminnot virtavalikkoon</string>
+    <string name="tablet_tweaks_extend_pm_list_title">Valitse virtavalikon näppäimet</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">Käänteiset äänenvoimakkuuspainikkeet</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Äänenvoimakkuuspainikkeet käyttäytyvät normaalisti. Paina muuttaaksesi äänenvoimakkuutta, pitkä painallus omavalintaiselle toiminnolle.</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Äänenvoimakkuuspainikkeet toimivat käänteisesti. Paina suorittaaksesi omavalintaisen toiminnon, pitkä painallus äänenvoimakkuuden muutokselle.</string>
+
+    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <string name="tablet_tweaks_input_head">Määritä äänenvoimakkuuspainikkeet</string>
+    <string name="tablet_tweaks_long_volp_action_title">Pitkä painallus ylös</string>
+    <string name="tablet_tweaks_long_volp_action_summary">Aseta koti/takaisin/menu/jne toiminnot äänenvoimakkuuden lisäämispainikkeen pitkään painallukseen. Vain näytön ollessa päällä</string>
+    <string name="tablet_tweaks_long_volm_action_title">Pitkä painallus alas</string>
+    <string name="tablet_tweaks_vol_both_action_title">Molemmat äänenvoimakkuuspainikkeet</string>
+    <string name="tablet_tweaks_vol_both_action_summary">Huomautus: Jotkin laitteet resetoituvat kun molemmat äänenvoimakkuuspainikkeet ja virtapainike painetaan pohjaan.</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">Molempien äänenvoimakkuuspainikkeiden pitkä painallus</string>
+
+    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <string name="tablet_tweaks_extend_pm_list_head">Virtavalikon painikkeet</string>
+
+    <!-- User interface: Tablet tweaks -> soft buttons -->
+    <string name="tablet_tweaks_soft_buttons_list_head">Kosketusnäppäimet</string>
+    <string name="tablet_soft_buttons_home_title">Koti</string>
+    <string name="tablet_soft_buttons_menu_title">Menu</string>
+    <string name="tablet_soft_buttons_back_title">Takaisin</string>
+    <string name="tablet_soft_buttons_search_title">Haku</string>
+    <string name="tablet_soft_buttons_quick_na_title">Nopeat ilmoitukset</string>
+
     <!-- User interface : 180 degree rotation -->
     <string name="pref_rotate_180_title">Kierrä 180-astetta</string>
     <string name="pref_rotate_180_summary">Sallii ylimääräisen 180-asteen kierron kun automaattinen näytönkierto on päällä</string>
@@ -128,6 +171,19 @@
     <string name="pref_lockscreen_music_headset_summary">Näyttää musiikkihojaimet kun johdolliset kuulokkeet tai bluetooth-kuulokkeet ovat liitettynä</string>
     <string name="pref_lockscreen_always_music_controls_title">Näytä aina musiikkiohjaimet</string>
     <string name="pref_lockscreen_always_music_controls_summary">Näyttää musiikkiohjaimet aina, vaikkei musiikkia soitettaisikaan</string>
+
+    <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_stylecfg_title">Ulkoasu-asetukset</string>
+    <string name="pref_lockscreen_stylecfg_summary">Muokkaa lukitusnäytön ulkoasua ja asetuksia</string>
+    <string name="pref_lockscreen_widgets_title">Widget-asetukset</string>
+    <string name="pref_lockscreen_widgets_summary">Lisää tai poista lukitusnäytön widgettejä</string>
+    <string name="pref_lockscreen_unlock_title">Lukituksen avaaminen</string>
+    <string name="pref_lockscreen_unlock_summary">Valitse lukituksen avaavat painikkeet sekä hallitse nopeaa avaamista</string>
+    <string name="pref_lockscreen_gesture_title">Lukitusnäytön eleet</string>
+    <string name="pref_lockscreen_gesture_summary">Hallitse lukitusnäytön eleitä käyttääksesi omavalintaisia toimintoja</string>
+    <string name="pref_lockscreen_timeout_title">Viive ja aikakatkaisu</string>
+    <string name="pref_lockscreen_timeout_summary">Hallitse näytön aikakatkaisun viivettä sekä näytön sulkemisen viivettä</string>
+
     <string name="pref_trackball_wake_title">Trackball-herätys</string>
     <string name="pref_trackball_wake_summary">Trackballin painaminen herättää laitteen</string>
     <string name="pref_trackball_unlock_title">Trackball avaa lukituksen</string>
@@ -154,11 +210,11 @@
     <string name="pref_cambtn_music_controls_title">Kamerapainike musiikkiohjaimena</string>
     <string name="pref_cambtn_music_controls_summary">Valitse toista/tauko kun painetaan kamerapainiketta näytön ollessa sammuneena</string>
 
-    <string name="long_press_home_title">Home-painikkeen asetukset</string>
+    <string name="long_press_home_title">Koti-painikkeen asetukset</string>
     <string name="long_press_home_summary">Viimeisten sovellusten määrä jne.</string>
     <string name="recent_apps_show_title">Näytä viimeiset sovellukset -otsikko</string>
     <string name="recent_apps_num_title">Viimeisten sovellusten määrä</string>
-    <string name="recent_apps_num_summary">Viimeksi käytettyjen sovellusten määrä kun Homea painetaan pitkään</string>
+    <string name="recent_apps_num_summary">Viimeksi käytettyjen sovellusten määrä kun Kotia painetaan pitkään</string>
     <string name="dialog_recent_apps_num_title">Määritä viimeisten sovellusten määrä</string>
     <string name="use_custom_app_title">Käytä omaa sovellusta</string>
     <string name="use_custom_app_summary">Käytä omaa sovellusta viimeisten sovellusten näyttämisen sijaan</string>
@@ -283,9 +339,9 @@
     <string name="fuscia">Fuksia</string>
 
     <!-- Expanded View Power Widget -->
-    <string name="title_widget_buttons">Expanded View Widget</string>
-    <string name="title_expanded_widget">Notification power widget</string>
-    <string name="summary_expanded_widget">Use the expanded views power widget</string>
+    <string name="title_widget_buttons">Laajennettu näkymä -widget</string>
+    <string name="title_expanded_widget">Ilmoitusnäkymän virtavalikko -widget</string>
+    <string name="summary_expanded_widget">Käytä ilmoitusnäkymän virtavalikkoa</string>
     <string name="title_expanded_hide_onchange">Piilota muutettaessa</string>
     <string name="summary_expanded_hide_onchange">Piilottaan ilmoitusikkunan kun painetaan painiketta</string>
     <string name="expanded_color_mask">Osoitinväri</string>
@@ -441,7 +497,7 @@
     <string name="gestures_already_present">Varoitus: samankaltainen ele on yhdistettu toiseen toimintoon!</string>
 
     <!-- Change Log strings -->
-    <string name="changelog_title">Näytä muutoslokiView changelog</string>
+    <string name="changelog_title">Näytä muutosloki</string>
     <string name="changelog_dialog">Muutosloki</string>
     <string name="changelog_loading">Ladataan muutoslokia...</string>
     <string name="changelog_error">Virhe ladattaessa muutoslokia...</string>
