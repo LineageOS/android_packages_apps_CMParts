@@ -375,6 +375,8 @@
     <string name="summary_expanded_widget">Use the expanded views power widget</string>
     <string name="title_expanded_hide_onchange">Hide on change</string>
     <string name="summary_expanded_hide_onchange">Hide the notification pulldown after toggling a widget button</string>
+    <string name="title_expanded_hide_indicator">Hide indicator</string>
+    <string name="summary_expanded_hide_indicator">Hide the notification widgets indicators</string>
     <string name="title_expanded_hide_scrollbar">Hide scrollbar</string>
     <string name="summary_expanded_hide_scrollbar">Hide scrollbar when more than the maximum number of widget buttons are present.</string>
     <string name="expanded_color_mask">Indicator color</string>
