@@ -29,6 +29,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.IPowerManager;
 import android.os.ServiceManager;
+import android.os.SystemProperties;
 import android.provider.Settings;
 import android.text.InputType;
 import android.view.Gravity;
@@ -81,8 +82,8 @@ public class LightLevelsActivity extends Activity implements OnClickListener {
         setTitle(R.string.ll_title);
         setContentView(R.layout.lightlevels);
 
-        mSensorRange = (int) ((SensorManager) getSystemService(SENSOR_SERVICE)).getDefaultSensor(
-                Sensor.TYPE_LIGHT).getMaximumRange();
+        mSensorRange = SystemProperties.getInt("ro.sensors.light.maxrange",
+                                               (int) ((SensorManager) getSystemService(SENSOR_SERVICE)).getDefaultSensor(Sensor.TYPE_LIGHT).getMaximumRange());
         mHandler = new Handler();
         mSave = (Button) findViewById(R.id.btn_save);
         mSave.setOnClickListener(this);
