@@ -63,6 +63,7 @@
     <string name="tablet_tweaks_reverse_volume_behavior_title">Изменение поведения кнопок громкости</string>
     <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Нормальное поведение. Нажатие для изменения громкости, удержание для действия пользователя</string>
     <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Обратное поведение. Нажатие для действия пользователя, удержание для изменения громкости</string>
+
     <!-- User interface: Tablet tweaks -> volume remapping -->
     <string name="tablet_tweaks_input_head">Переназначить кнопки громкости</string>
     <string name="tablet_tweaks_long_volp_action_title">Удержание кнопки \"Громче\"</string>
@@ -93,6 +94,8 @@
     <string name="ui_status_bar_clock_summary">Часы в строке состояния будут скрыты, если отключено</string>
     <string name="ui_status_bar_cm_battery_title">Батарея в процентах</string>
     <string name="ui_status_bar_cm_battery_summary">Показыеать батарею в процентах и мини-индикатор. Отключите, если это портит вид установленной темы</string>
+    <string name="ui_status_bar_compact_carrier_title">Компактное имя оператора</string>
+    <string name="ui_status_bar_compact_carrier_summary">Использовать альтернативный стиль панели уведомления с маленьким именем оператора. Хорошо смотрится с кнопками в панели уведомления. (требуется перезагрузка)</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Уведомления светодиодом трекбола</string>
@@ -373,6 +376,8 @@
     <string name="summary_expanded_widget">Показывать виджет с кнопками в выпадающей панели уведомлений</string>
     <string name="title_expanded_hide_onchange">Скрывать при изменении</string>
     <string name="summary_expanded_hide_onchange">Скрывать выпадающую панель после нажатия любой кнопки виджета</string>
+    <string name="title_expanded_hide_scrollbar">Скрывать полосу прокрутки</string>
+    <string name="summary_expanded_hide_scrollbar">Скрывать полосу прокрутки, когда присутствует больше максимально возможных кнопок в панели.</string>
     <string name="expanded_color_mask">Цвет индикатора</string>
     <string name="title_widget_picker">Кнопки виджета</string>
     <string name="summary_widget_picker">Выберите кнопки, которые будут отображаться на этом виджете</string>
@@ -457,6 +462,9 @@
     <string name="sound_notifications_focus_summary">Приложения будут приглушать звук, когда проигрывается уведомление</string>
     <string name="sound_volume_control_silent_title">Состояние тишины</string>
     <string name="sound_volume_control_silent_summary">Добавить к управлению громкостью состояние полной тишины</string>
+    <string name="sound_vibrate_in_call_title">Вибрация во время разговора</string>
+    <string name="sound_vibrate_in_call_summary_off">Не вибрировать при уведомлениях во время разговора</string>
+    <string name="sound_vibrate_in_call_summary_on">Вибрировать при уведомлениях</string>
     <string name="sound_to_speaker_title">Всегда проигрывать через динамик</string>
     <string name="sound_notifications_title">Уведомления</string>
     <string name="sound_rings_title">Звонки</string>
