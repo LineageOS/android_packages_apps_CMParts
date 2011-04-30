@@ -236,4 +236,29 @@
         <item>ハイ / デスレイ</item>
     </string-array>
 
+    <string-array name="entries_vol_actions">
+        <item>なし/デフォルト</item>
+        <item>ホーム</item>
+        <item>メニュー</item>
+        <item>戻る</item>
+        <item>検索</item>
+        <item>電源</item>
+        <item>通話</item>
+        <item>通話終了</item>
+        <item>再生/停止</item>
+        <item>次の曲</item>
+        <item>前の曲</item>
+        <item>長押しでホーム</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>ホーム</item>
+        <item>メニュー</item>
+        <item>戻る</item>
+        <item>検索</item>
+        <item>カメラ</item>
+        <item>ボリュームアップ</item>
+        <item>ボリュームダウン</item>
+    </string-array>
+
 </resources>

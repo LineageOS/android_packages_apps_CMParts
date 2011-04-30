@@ -40,6 +40,50 @@
     <string name="pref_electron_beam_animation_on">スクリーンオンアニメ</string>
     <string name="pref_electron_beam_animation_off">スクリーンオフアニメ</string>
 
+    <!-- User interface: Tablet tweaks -->
+    <string name="tablet_tweaks_title_head">タブレット調整</string>
+    <string name="tablet_tweaks_summary_head">タブレット端末に有用な調整の設定群、携帯電話にも有効</string>
+    <string name="tablet_tweaks_sb_bottom_title">下部のステータスバー</string>
+    <string name="tablet_tweaks_sb_bottom_summary">ステータスバーを下部に表示、ステータスバーのソフトボタンでホーム、メニューなどを使用しているデバイスに有用</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">デッドゾーン</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">ステータスバーの中央にスクリーン幅の半分ほどデッドゾーンを追加する</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">ソフトボタンを左に</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">ソフトボタンをステータスバーの左側に配置する</string>
+    <string name="tablet_tweaks_soft_button_list_title">ソフトボタンを選択</string>
+    <string name="tablet_tweaks_interface_head">インターフェース</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">ロックスクリーンを無効にする</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">オンにするとロックスクリーンや、ロックパターンの画面を表示しない(端末のブートシーケンス中や起動後のどちらにおいても)</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">フルスクリーンを無効</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">アプリケーションからのフルスクリーン要求をオーバーライドする。有効の場合、ボタンにより非表示にするまでステータスバーは常に表示される</string>
+    <string name="tablet_tweaks_unhide_button_list_head">表示しておくボタン</string>
+    <string name="tablet_tweaks_unhide_button_list_title">表示しておくボタンを選択</string>
+    <string name="tablet_tweaks_extend_pm_title">追加の電源メニュー</string>
+    <string name="tablet_tweaks_extend_pm_summary">電源メニューに ホーム/戻る/メニュー アクションを追加する</string>
+    <string name="tablet_tweaks_extend_pm_list_title">電源メニューボタンを選択</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">ボリュームキーの挙動を逆にする</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">ボリュームキーは通常動作. ボリュームの調整, 長押しでユーザーアクション</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">ボリュームキーは逆の動作. ユーザーアクション, 長押しでボリュームの調整</string>
+
+    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <string name="tablet_tweaks_input_head">ボリュームキーの設定</string>
+    <string name="tablet_tweaks_long_volp_action_title">ボリュームアップの長押し</string>
+    <string name="tablet_tweaks_long_volp_action_summary">ボリュームアップの長押しに ホーム/バック/メニュー/その他 のアクションを割り当てる(スクリーンオン時のみ)</string>
+    <string name="tablet_tweaks_long_volm_action_title">ボリュームダウンの長押し</string>
+    <string name="tablet_tweaks_vol_both_action_title">ボリュームの同時押し</string>
+    <string name="tablet_tweaks_vol_both_action_summary">ノート: いくつかのデバイスはハードリセットにボリューム上下+電源ボタン同時押しが割り当てられています</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">ボリュームキーの同時長押し</string>
+
+    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <string name="tablet_tweaks_extend_pm_list_head">電源メニューボタン</string>
+
+    <!-- User interface: Tablet tweaks -> soft buttons -->
+    <string name="tablet_tweaks_soft_buttons_list_head">ソフトボタン</string>
+    <string name="tablet_soft_buttons_home_title">ホーム</string>
+    <string name="tablet_soft_buttons_menu_title">メニュー</string>
+    <string name="tablet_soft_buttons_back_title">戻る</string>
+    <string name="tablet_soft_buttons_search_title">検索</string>
+    <string name="tablet_soft_buttons_quick_na_title">クイック通知</string>
+
     <!-- User interface : 180 degree rotation -->
     <string name="pref_rotate_180_title">180度回転</string>
     <string name="pref_rotate_180_summary">自動回転が有効な場合に180度の回転を追加する</string>
@@ -50,6 +94,8 @@
     <string name="ui_status_bar_clock_summary">無効にするとステータスバーの時計を隠します</string>
     <string name="ui_status_bar_cm_battery_title">バッテリー残量数値</string>
     <string name="ui_status_bar_cm_battery_summary">バッテリー残量をパーセンテージと小さなアイコンで表示する。テーマが壊れて見えるようであれば無効にしてください。</string>
+    <string name="ui_status_bar_compact_carrier_title">コンパクトなキャリアラベル</string>
+    <string name="ui_status_bar_compact_carrier_summary">小さなキャリアラベルを用いた代替のドロップダウンレイアウトを使用する</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED通知</string>
@@ -315,7 +361,8 @@
     <string name="summary_expanded_widget">通知領域を伸ばしたときに電源ウィジェットを表示する</string>
     <string name="title_expanded_hide_onchange">変更したら隠す</string>
     <string name="summary_expanded_hide_onchange">トグルウィジェットボタンを押したら伸ばした通知領域を隠す</string>
-
+    <string name="title_expanded_hide_scrollbar">スクロールバーを隠す</string>
+    <string name="summary_expanded_hide_scrollbar">配置できる最大数より多くボタンを配置したときにスクロールバーを表示しない</string>
     <string name="expanded_color_mask">インジケータの色</string>
     <string name="title_widget_picker">ウィジェットボタン</string>
     <string name="summary_widget_picker">ウィジェットボタンを選択</string>
@@ -417,6 +464,9 @@
     <string name="sound_notifications_focus_summary">通知音再生時に、オーディオフォーカスリクエストに対応しているアプリの音量を下げる</string>
     <string name="sound_volume_control_silent_title">消音状態</string>
     <string name="sound_volume_control_silent_summary">ボリュームコントロールに完全な消音状態を追加する</string>
+    <string name="sound_vibrate_in_call_title">電話中の振動</string>
+    <string name="sound_vibrate_in_call_summary_off">電話中の通知は振動しない</string>
+    <string name="sound_vibrate_in_call_summary_on">通知は通常通り振動する</string>
     <string name="sound_to_speaker_title">常にスピーカーで再生する</string>
     <string name="sound_notifications_title">通知音</string>
     <string name="sound_rings_title">着信音</string>
