@@ -96,6 +96,8 @@
     <string name="ui_status_bar_clock_summary">Die Uhrzeit wird nicht angezeigt, wenn deaktiviert</string>
     <string name="ui_status_bar_cm_battery_title">Batterie-Prozentanzeige</string>
     <string name="ui_status_bar_cm_battery_summary">Zeige den Ladeszustand der Batterie in Prozent und ein kleineres Batteriesymbol. Ausschalten bei Anzeigeproblemen mit anderen Themes</string>
+    <string name="ui_status_bar_compact_carrier_title">Kompakter Betreibername</string>
+    <string name="ui_status_bar_compact_carrier_summary">Alternatives Layout des Benachrichtigungsbereichs mit kürzerem Betreibernamen.</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED-Benachrichtigungen</string>
@@ -476,6 +478,8 @@
     <string name="summary_expanded_widget">Tasten für Energiesteuerung in aufgeklappter Benachrichtigungsanzeige</string>
     <string name="title_expanded_hide_onchange">Nach Änderung verbergen</string>
     <string name="summary_expanded_hide_onchange">Die Benachrichtigungsanzeige sofort wieder verbergen, nachdem eine Änderung an der Energiesteuerung vorgenommen wurde.</string>
+    <string name="title_expanded_hide_scrollbar">Scrollbar verstecken</string>
+    <string name="summary_expanded_hide_scrollbar">Die Scrollbar verstecken, wenn mehr Widgets vorhanden sind als maximal möglich.</string>
     <string name="expanded_color_mask">Farbe der Anzeige</string>
     <string name="title_widget_picker">Anzuzeigende Tasten</string>
     <string name="summary_widget_picker">Tasten auswählen, die angezeigt werden sollen.</string>
@@ -568,6 +572,9 @@
     <string name="sound_notifications_focus_summary">Verringert die Lautstärke kompatibler Apps um die Benachrichtigung deutlicher hörbar zu machen</string>
     <string name="sound_volume_control_silent_title">Absolute Ruhe</string>
     <string name="sound_volume_control_silent_summary">Der Lautstärkeregelung einen Zustand für absolute Ruhe hinzufügen.</string>
+    <string name="sound_vibrate_in_call_title">Während Anruf vibrieren</string>
+    <string name="sound_vibrate_in_call_summary_on">Normale Vibration bei Benachrichtigunen während eines Gesprächs</string>
+    <string name="sound_vibrate_in_call_summary_off">Keine Vibration bei Benachrichtigunen während eines Gesprächs</string>
     <string name="sound_to_speaker_title">Immer über Lautsprecher</string>
     <string name="sound_notifications_title">Benachrichtigungen</string>
     <string name="sound_rings_title">Klingeltöne</string>
