@@ -17,10 +17,10 @@
 package com.cyanogenmod.cmparts.activities;
 
 import com.android.internal.telephony.Phone;
-import com.android.wimax.WimaxConstants;
 import com.cyanogenmod.cmparts.R;
 import com.cyanogenmod.cmparts.utils.PowerWidgetUtil;
 
+import android.net.wimax.WimaxHelper;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
@@ -89,7 +89,8 @@ public class PowerWidgetActivity extends PreferenceActivity implements OnPrefere
         ArrayList<String> buttonList = PowerWidgetUtil.getButtonListFromString(PowerWidgetUtil.getCurrentButtons(this));
 
         // Don't show WiMAX option if not supported
-        if (!WimaxConstants.isWimaxSupported(this)) {
+        boolean isWimaxEnabled = WimaxHelper.isWimaxSupported(this);
+        if (!isWimaxEnabled) {
             PowerWidgetUtil.BUTTONS.remove(PowerWidgetUtil.BUTTON_WIMAX);
         }
 
@@ -142,7 +143,7 @@ public class PowerWidgetActivity extends PreferenceActivity implements OnPrefere
                         break;
                 }
             } else if (PowerWidgetUtil.BUTTON_WIMAX.equals(button.getId())) {
-                if (!WimaxConstants.isWimaxSupported(this)) {
+                if (!isWimaxEnabled) {
                     cb.setEnabled(false);
                 }
             }
