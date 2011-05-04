@@ -41,12 +41,12 @@
 
     <!-- User interface : 180 degree rotation -->
     <string name="pref_rotate_180_title">Girar 180 graus</string>
-    <string name="pref_rotate_180_summary">Permitir 180 graus adicionais quando auto-rotacionar tela is ativado</string>
+    <string name="pref_rotate_180_summary">Permitir 180 graus adicionais quando auto-rotacionar tela está ativado</string>
 
     <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">Ajustes na barra de status</string>
     <string name="ui_status_bar_clock_title">Mostrar relógio</string>
-    <string name="ui_status_bar_clock_summary">Se desabilitado, esconde relógio da barra de status</string>
+    <string name="ui_status_bar_clock_summary">Se desabilitado, esconde o relógio da barra de status</string>
     <string name="ui_status_bar_cm_battery_title">Percentual de bateria</string>
     <string name="ui_status_bar_cm_battery_summary">Mostrar percentual de bateria e um mini ícone de bateria. Desabilite se o tema quebrar o layout</string>
 
@@ -57,7 +57,7 @@
     <!-- User interface : WebView -->
     <string name="ui_webview_title">Páginas web</string>
     <string name="pref_pinch_reflow_title">Reposicionar após zoom</string>
-    <string name="pref_pinch_reflow_summary">Reposicionar conteúdo imediatamente após zoom em pinça</string>
+    <string name="pref_pinch_reflow_summary">Reposicionar conteúdo imediatamente após aumentar zoom</string>
 
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Configurações de bloqueio de tela</string>
@@ -225,7 +225,7 @@
     <string name="pref_lockscreen_custom_icon_style_summary">Usa ícone de mensagem ao invés do ícone do CM para inicializar um aplicativo personalizado</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Arraste para baixo para destravar</string>
     <string name="pref_lockscreen_rotary_unlock_down_summary">Desbloqueia ao arrastar para baixo a roda giratória. Arrastando para a direita inicializa aplicativo personalizado</string>
-    <string name="pref_lockscreen_rotary_hide_arrows_title">Esconde setas de rotação</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_title">Esconde as setas de rotação</string>
     <string name="pref_lockscreen_rotary_hide_arrows_summary">Esconde as setas de ajuda direcionais</string>
     <string name="lockscreen_style_header">Preferências de estilo</string>
     <string name="lockscreen_delay_header">Atraso e tempo esgotado</string>
@@ -233,10 +233,10 @@
     <string name="pref_lockscreen_style_summary">Escolhe o estilo da tela de bloqueio</string>
     <string name="pref_volbtn_music_controls_title">Controle de música</string>
     <string name="pref_volbtn_music_controls_summary">Quando a tela está desligada, procura faixas de música quando pressiona os botões de volume por um longo período</string>
-    <string name="pref_cambtn_music_controls_title">Controle a música com botão da câmera</string>
+    <string name="pref_cambtn_music_controls_title">Controle a música com o botão da câmera</string>
     <string name="pref_cambtn_music_controls_summary">Alterna entre play/pause quando pressionando o botão da câmera por um longo período enquanto a tela está desligada</string>
     <string name="lockscreen_widgets_note_title">Nota</string>
-    <string name="lockscreen_widgets_note_summary">Escolhendo estilo minimalistico esconde todos os widgets menos o controle de música. As opções abaixo não estão desmarcadas para permitir fácil mudança para outros estilos</string>
+    <string name="lockscreen_widgets_note_summary">Escolhendo o estilo minimalístico, esconde todos os widgets menos o controle de música. As opções abaixo não estão desmarcadas para permitir a fácil mudança para outros estilos</string>
 
     <!-- Input Settings -->
     <string name="long_press_home_title">Conf. do botão Home</string>
@@ -247,7 +247,7 @@
     <string name="pref_lockscreen_phone_messaging_control_title">Telefone e Mensagens</string>
     <string name="pref_lockscreen_phone_messaging_control_summary">Telefone e Mensagens acessiveis na tela de bloqueio.</string>
     <string name="input_search_key_title">Botão de pesquisa</string>
-    <string name="input_search_key_summary">Define ações personalizadas para botão de pesquisa e pressione e seugure o botão pesquisa</string>
+    <string name="input_search_key_summary">Define ações personalizadas para o botão de pesquisa e pressione e segure o botão pesquisa</string>
     <string name="pref_input_custom_search_app_toggle_title">Aplicação do botão de pesquisa</string>
     <string name="pref_input_custom_search_app_toggle_summary">Inicializa um aplicativo personalizado quando pressiona o botão de pesquisa</string>
     <string name="pref_input_custom_search_app_activity_title">Aplicação personalizada</string>
@@ -331,11 +331,11 @@
 
     <string name="title_haptic_feedback">Vibração principal</string>
     <string name="summary_on_haptic_feedback">Vibrar ao pressionar teclas de funções e em certas interações com interface de usuário</string>
-    <string name="summary_off_haptic_feedback">Não vibrar ao soltar tecla de funções e em certas interações com interface de usuário</string>
+    <string name="summary_off_haptic_feedback">Não vibrar ao soltar as teclas de funções e em certas interações com interface de usuário</string>
 
     <string name="title_haptic_feedback_up">Vibração</string>
     <string name="summary_on_haptic_feedback_up">Vibrar ao pressionar teclas de funções e em certas interações com interface de usuário</string>
-    <string name="summary_off_haptic_feedback_up">Não vibrar ao soltar tecla de funções e em certas interações com interface de usuário</string>
+    <string name="summary_off_haptic_feedback_up">Não vibrar ao soltar as teclas de funções e em certas interações com interface de usuário</string>
 
     <string name="title_haptic_feedback_all">Ítens de tela</string>
     <string name="summary_on_haptic_feedback_all">Vibrar quando fizer seleção na tela</string>
@@ -347,7 +347,7 @@
     <string name="title_haptic_tap_decider">Definir padrão toque rapido</string>
 
     <string name="title_haptic_menu">Ajustes do retorno com vibração</string>
-    <string name="title_haptic_notice">REINICIAR PARA PARA APLICAR AS MUDANÇAS GLOBALMENTE</string>
+    <string name="title_haptic_notice">REINICIAR PARA APLICAR AS MUDANÇAS GLOBALMENTE</string>
 
     <string name="haptic_delay_desc">ms tempo desligado</string>
     <string name="haptic_vibe_desc">ms tempo ligado</string>
@@ -448,7 +448,7 @@
 
     <!-- Performance : Lock home memory -->
     <string name="pref_lock_home_title">Manter home</string>
-    <string name="pref_lock_home_summary">Tenta manter a a home atual sempre na memória</string>
+    <string name="pref_lock_home_summary">Tenta manter a home atual sempre na memória</string>
 
     <!-- Performance : Lock mms app in memory -->
     <string name="pref_lock_mms_title">Manter mensagens</string>
@@ -554,14 +554,14 @@
     <string name="gestures_save_success">Gesto gravado como %s</string>
     <string name="gestures_cancel_action">Cancelar</string>
     <string name="gestures_loading">Carregando gestos...</string>
-    <string name="gestures_empty">Nenhum gestos</string>
+    <string name="gestures_empty">Nenhum gesto</string>
     <string name="gestures_activity">Gestos</string>
     <string name="gestures_delete">Apagar</string>
     <string name="gestures_delete_success">Gesto apagado</string>
     <string name="gestures_error_loading">Problema com operação de arquivo do gesto.</string>
     <string name="gestures_unlock_only">Desbloquear telefone</string>
     <string name="gestures_toggle_sound">Alternar som</string>
-    <string name="pref_lockscreen_disable_unlock_tab">Desativar trava de puxar</string>
+    <string name="pref_lockscreen_disable_unlock_tab">Desativar trava deslizante</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Nota: Você precisa ligar o trackball, tecla de menu ou gesto de destravar para que essa opção fique disponível</string>
     <string name="gestures_explain_create_screen">Escolha uma ação para ser feita (ou selecione Desbloquear ou Som) e desenhe o gesto na tela.</string>
 
@@ -629,7 +629,7 @@
     <string name="cpu_min_freq_summary">Frequência mínima da CPU\nAtualmente: %s</string>
     <string name="cpu_max_freq_title">Frequência máxima</string>
     <string name="cpu_max_freq_summary">Frequência máxima da CPU\nAtualmente: %s</string>
-    <string name="cpu_set_on_boot">Definido na inicialização</string>
+    <string name="cpu_set_on_boot">Definir na inicialização</string>
     <string name="cpu_set_on_boot_summary">Restaura as configurações de CPU na inicilização</string>
     <string name="gestures_already_present">Aviso: Um gesto similar está associado a outra ação!</string>
     <string name="gestures_flashlight">Lanterna</string>
@@ -696,7 +696,7 @@
     <string name="ui_status_bar_compact_carrier_title">Rótulo compacto da operadora</string>
     <string name="ui_status_bar_compact_carrier_summary">Usar layout alternativo de notificação de status com mini rótulo da operadora. Fica melhor com widget de energia. (Requer reiniciar)</string>
     <string name="title_expanded_hide_scrollbar">Esconde barra de rolagem</string>
-    <string name="summary_expanded_hide_scrollbar">Esconder barra de rolagem quando mais que o número máximo de butões de widgets estão presentes.</string>
+    <string name="summary_expanded_hide_scrollbar">Esconder barra de rolagem quando tem mais botões de widget que caiba.</string>
     <string name="sound_vibrate_in_call_title">Vibrar durante ligações</string>
     <string name="sound_vibrate_in_call_summary_off">Notificações não irão vibrar o telefone durante uma ligação.</string>
     <string name="sound_vibrate_in_call_summary_on">Notificações irão vibrar o telefone normalmente.</string>
