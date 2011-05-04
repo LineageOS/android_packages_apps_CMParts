@@ -79,6 +79,14 @@
             android:targetClass="com.cyanogenmod.cmparts.activities.TabletTweaksActivity" />
     </PreferenceScreen>
 
+    <PreferenceScreen android:key="permissions_settings"
+        android:title="@string/permissions_settings_title_head"
+        android:summary="@string/permissions_settings_title_subhead">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.cyanogenmod.cmparts"
+            android:targetClass="com.cyanogenmod.cmparts.activities.PermissionsActivity" />
+    </PreferenceScreen>
+
     <!-- Possible future Use: Pedlar <PreferenceScreen android:key="battery_tester" 
         android:title="Test Battery" android:summary="Battery Drain Tester"> <intent 
         android:action="android.intent.action.MAIN" android:targetPackage="com.cyanogenmod.cmparts" 

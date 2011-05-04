@@ -28,6 +28,8 @@
     <string name="system_settings_title_head">System</string>
     <string name="system_settings_title_subhead">System settings</string>
     <string name="system_settings_summary_head">System changelog, stats, update notifications</string>
+    <string name="permissions_settings_title_head">Permissions</string>
+    <string name="permissions_settings_title_subhead">Permissions managment settings</string>
 
     <!--  Update Notifications -->
     <string name="updatenotify_title">Update notifications</string>
@@ -607,4 +609,11 @@
     <string name="cpu_max_freq_summary">Maximum CPU frequency\nCurrently: %s</string>
     <string name="cpu_set_on_boot">Set on boot</string>
     <string name="cpu_set_on_boot_summary">Restore CPU settings on boot</string>
+
+    <!-- Permissions Managment Settings strings -->
+    <string name="perm_enable_managment">Enable managment</string>
+    <string name="perm_enable_managment_summary">Enables permissions managment</string>
+    <string name="perm_enable_warning_message">Warning!\nRevoking most permissions will most likely cause applications to malfunction. If an application with revoked permissions force-closes please grant the expected permissions or don\'t use the application.\nPlease DO NOT send bug reports to Cyanogenmod if an application with revoked permissions is not working as expected!</string>
+    <string name="perm_enable_warning_title">Are you sure?</string>
+
 </resources>
