@@ -284,6 +284,14 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".activities.PermissionsActivity"
+            android:label="@string/permissions_settings_title_head">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.cyanogenmod.cmparts.SHORTCUT" />
+            </intent-filter>
+        </activity>
+
         <receiver android:label="@string/widget_name" android:name=".provider.RenderFXWidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
