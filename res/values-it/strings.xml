@@ -95,7 +95,7 @@
     <string name="ui_status_bar_cm_battery_title">Percentuale batteria</string>
     <string name="ui_status_bar_cm_battery_summary">Visualizza la percentuale di carica rimanente e un\'icona più piccola per la batteria. Disattiva se non compatibile col tema utilizzato</string>
     <string name="ui_status_bar_compact_carrier_title">Etichetta operatore compatta</string>
-    <string name="ui_status_bar_compact_carrier_summary">Utilizza un layout alternativo per l\'area delle notifiche rimpicciolendo l\'etichetta operatore. (Riavvio richiesto)</string>
+    <string name="ui_status_bar_compact_carrier_summary">Utilizza un layout alternativo per l\'area delle notifiche rimpicciolendo l\'etichetta operatore.</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notifiche LED</string>
