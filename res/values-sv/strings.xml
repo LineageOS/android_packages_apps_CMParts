@@ -6,7 +6,7 @@
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Applikation</string>
     <string name="application_settings_title_subhead">Applikations inställningar</string>
-    <string name="application_settings_summary_head">Applicationsflyttning, installationsplats</string>
+    <string name="application_settings_summary_head">Applikationsflyttning, installationsplats</string>
     <string name="display_settings_title_head">Skärm</string>
     <string name="display_settings_title_subhead">Skärminställningar</string>
     <string name="display_settings_summary_head">Skärmanimeringar, rotation, tidsgränser</string>
