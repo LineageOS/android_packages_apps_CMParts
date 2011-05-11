@@ -208,8 +208,8 @@
     <string name="pref_trackball_wake_summary">Нажатие на трекбол пробуждает устройство</string>
     <string name="pref_trackball_unlock_title">Разблокировка по трекболу</string>
     <string name="pref_trackball_unlock_summary">Нажатие на трекбол разблокирует устройство</string>
-    <string name="pref_menu_unlock_title">Раазблокировка по Menu</string>
-    <string name="pref_menu_unlock_summary">Нажатие на Menu разблокирует устройство</string>
+    <string name="pref_menu_unlock_title">Разблокировка по Меню</string>
+    <string name="pref_menu_unlock_summary">Нажатие кнопки Меню разблокирует устройство</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Не требуется нажимать ОК после ввода пароля или PIN. Стирание засчитывается как неудачная попытка</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Запуск приложения пользователя</string>
