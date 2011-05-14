@@ -172,15 +172,31 @@ public class LongPressHomeActivity extends PreferenceActivity implements Prefere
     
     void completeSetCustomShortcut(Intent data) {
         Intent intent = data.getParcelableExtra(Intent.EXTRA_SHORTCUT_INTENT);
-        
-        if (Settings.System.putString(getContentResolver(), Settings.System.SELECTED_CUSTOM_APP, intent.toUri(0))) {
+        String appUri = formatContacts(intent.toUri(0));
+        if (Settings.System.putString(getContentResolver(), Settings.System.SELECTED_CUSTOM_APP, appUri)) {
             mSelectCustomAppPref.setSummary(intent.toUri(0));
         }
     }
     
     void completeSetCustomApp(Intent data) {
-        if (Settings.System.putString(getContentResolver(), Settings.System.SELECTED_CUSTOM_APP, data.toUri(0))) {
+        String appUri = formatContacts(data.toUri(0));
+        if (Settings.System.putString(getContentResolver(), Settings.System.SELECTED_CUSTOM_APP, appUri)) {
             mSelectCustomAppPref.setSummary(data.toUri(0));
         }        
-    }    
+    }
+
+    static String formatContacts(String str) {
+        String beingReplaced = "com.android.contacts.action.QUICK_CONTACT";
+        String replaceWith = "android.intent.action.VIEW";
+        int index = 0;
+        StringBuffer result = new StringBuffer();
+        if ((index = str.indexOf(beingReplaced))!=-1){
+                result.append(str.substring(0,index));
+                result.append(replaceWith);
+                result.append(str.substring(index+beingReplaced.length()));
+                return result.toString();
+        }else{
+                return str;
+        }
+    }
 }
