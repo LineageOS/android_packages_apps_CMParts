@@ -90,6 +90,8 @@
 
     <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">Modifiche barra di stato</string>
+    <string name="ui_status_bar_am_pm_title">Stile AM/PM</string>
+    <string name="ui_status_bar_am_pm_summary">Scegli come visualizzare l\'indicazione AM/PM accanto all\'orologio</string>
     <string name="ui_status_bar_clock_title">Mostra orologio</string>
     <string name="ui_status_bar_clock_summary">Se disattivato l\'orologio verrà nascosto</string>
     <string name="ui_status_bar_cm_battery_title">Percentuale batteria</string>
