@@ -700,4 +700,6 @@
     <string name="sound_vibrate_in_call_title">Vibrar durante ligações</string>
     <string name="sound_vibrate_in_call_summary_off">Notificações não irão vibrar o telefone durante uma ligação.</string>
     <string name="sound_vibrate_in_call_summary_on">Notificações irão vibrar o telefone normalmente.</string>
+    <string name="ui_status_bar_am_pm_title">Estilo AM/PM</string>
+    <string name="ui_status_bar_am_pm_summary">Mostrar AM/PM ao lado do relógio</string>
 </resources>
