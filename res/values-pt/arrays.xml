@@ -233,4 +233,10 @@
         <item>Aumentar Volume</item>
         <item>Diminuir Volume</item>
     </string-array>
+
+    <string-array name="pref_in_call_style_entries">
+        <item>Aba Deslizante</item>
+        <item>Giratório</item>
+        <item>Giratório renovado</item>
+    </string-array>
 </resources>
