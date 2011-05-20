@@ -72,6 +72,10 @@ public class ApplicationActivity extends PreferenceActivity implements OnPrefere
         mMoveAllAppsPref = (CheckBoxPreference) prefSet.findPreference(MOVE_ALL_APPS_PREF);
         mMoveAllAppsPref.setChecked(Settings.Secure.getInt(getContentResolver(), 
             Settings.Secure.ALLOW_MOVE_ALL_APPS_EXTERNAL, 0) == 1);
+        mEnableManagment.setChecked(Settings.Secure.getInt(getContentResolver(),
+                Settings.Secure.ENABLE_PERMISSIONS_MANAGMENT,
+                getResources().getBoolean(com.android.internal.R.bool.config_enablePermissionsManagment) ? 1 : 0) == 1);
+        mEnableManagment.setOnPreferenceChangeListener(this);
     }
         
     @Override
@@ -94,8 +98,81 @@ public class ApplicationActivity extends PreferenceActivity implements OnPrefere
                     Log.e(LOG_TAG, "Unable to get default install location!", e);
                 }
             }
+        } else if (preference == mEnableManagment) {
+            //final boolean value = mEnableManagment.isChecked();
+            if (((Boolean)newValue).booleanValue()) {
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            showDialog(DIALOG_ENABLE_WARNING);
+                        } catch (Throwable e) {
+                            e.printStackTrace();
+                        }
+                    }
+                });
+            } else {
+                Settings.Secure.putInt(getContentResolver(),
+                        Settings.Secure.ENABLE_PERMISSIONS_MANAGMENT, 0);
+                mEnableManagment.setChecked(false);
+            }
         }
         return false;
     }
 
+    @Override
+    protected Dialog onCreateDialog(int id) {
+        final AlertDialog ad = new AlertDialog.Builder(this).create();
+        switch (id) {
+            case DIALOG_ENABLE_WARNING:
+                ad.setTitle(getResources().getString(R.string.perm_enable_warning_title));
+                ad.setMessage(getResources().getString(R.string.perm_enable_warning_message));
+                ad.setCancelable(false);
+                final Handler handler = new Handler() {
+                    public void handleMessage(final Message msg) {
+                        switch (msg.what) {
+                            case ENABLE:
+                                Button b = ad.getButton(DialogInterface.BUTTON_POSITIVE);
+                                if (b != null) {
+                                    b.setEnabled(true);
+                                }
+                                b = ad.getButton(DialogInterface.BUTTON_NEGATIVE);
+                                if (b != null) {
+                                    b.setEnabled(true);
+                                }
+                                break;
+                            case YES:
+                                mEnableManagment.setChecked(true);
+                                Settings.Secure.putInt(getContentResolver(),
+                                        Settings.Secure.ENABLE_PERMISSIONS_MANAGMENT, 1);
+                                break;
+                            case NO:
+                                mEnableManagment.setChecked(false);
+                                Settings.Secure.putInt(getContentResolver(),
+                                        Settings.Secure.ENABLE_PERMISSIONS_MANAGMENT, 0);
+                                break;
+                        }
+                    }
+                };
+
+                ad.setOnShowListener(new DialogInterface.OnShowListener() {
+                    @Override
+                    public void onShow(DialogInterface dialog) {
+                        Button b = ad.getButton(DialogInterface.BUTTON_POSITIVE);
+                        b.setEnabled(false);
+                        b = ad.getButton(DialogInterface.BUTTON_NEGATIVE);
+                        b.setEnabled(false);
+                        handler.sendMessageDelayed(handler.obtainMessage(ENABLE), 1000);
+                    }
+                });
+
+                // ad.takeKeyEvents(false);
+                ad.setButton(DialogInterface.BUTTON_POSITIVE, "Yes", handler.obtainMessage(YES));
+                ad.setButton(DialogInterface.BUTTON_NEGATIVE, "No", handler.obtainMessage(NO));
+                return ad;
+            case DIALOG_DISABLE_WARNING:
+                break;
+        }
+        return null;
+    }
 }
