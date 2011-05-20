@@ -90,6 +90,8 @@
 
    <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">Настройки строки состояния</string>
+    <string name="ui_status_bar_am_pm_title">Стиль AM/PM</string>
+    <string name="ui_status_bar_am_pm_summary">Стиль отображения AM/PM рядом с часами</string>
     <string name="ui_status_bar_clock_title">Показывать часы</string>
     <string name="ui_status_bar_clock_summary">Часы в строке состояния будут скрыты, если отключено</string>
     <string name="ui_status_bar_cm_battery_title">Батарея в процентах</string>
@@ -206,10 +208,12 @@
     <string name="pref_lockscreen_always_music_controls_summary">Всегда показывать управление плеером, даже если музыка не играет</string>
     <string name="pref_trackball_wake_title">Пробуждение по трекболу</string>
     <string name="pref_trackball_wake_summary">Нажатие на трекбол пробуждает устройство</string>
+    <string name="pref_volume_wake_title">Пробуждение громкостью</string>
+    <string name="pref_volume_wake_summary">Нажатие кнопок громче/тише пробуждает устройство. Предназначено для устройств с труднонажимаемой кнопкой питания</string>
     <string name="pref_trackball_unlock_title">Разблокировка по трекболу</string>
     <string name="pref_trackball_unlock_summary">Нажатие на трекбол разблокирует устройство</string>
-    <string name="pref_menu_unlock_title">Раазблокировка по Menu</string>
-    <string name="pref_menu_unlock_summary">Нажатие на Menu разблокирует устройство</string>
+    <string name="pref_menu_unlock_title">Разблокировка по Меню</string>
+    <string name="pref_menu_unlock_summary">Нажатие кнопки Меню разблокирует устройство</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Не требуется нажимать ОК после ввода пароля или PIN. Стирание засчитывается как неудачная попытка</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Запуск приложения пользователя</string>
@@ -225,6 +229,8 @@
     <string name="lockscreen_delay_header">Задержка и таймаут</string>
     <string name="pref_lockscreen_style_title">Стиль экрана блокировки</string>
     <string name="pref_lockscreen_style_summary">Выбор стиля экрана блокировки</string>
+    <string name="pref_in_call_style_title">Стиль входящего звонка</string>
+    <string name="pref_in_call_style_summary">Выбор стиля виджета принять/отклонить входящего звонка</string>
     <string name="pref_volbtn_music_controls_title">Управление музыкой кнопками громкости</string>
     <string name="pref_volbtn_music_controls_summary">Листать треки долгим нажатие на кнопку громкости при выключенном экране</string>
     <string name="pref_cambtn_music_controls_title">Управление музыкой кнопкой камеры</string>
