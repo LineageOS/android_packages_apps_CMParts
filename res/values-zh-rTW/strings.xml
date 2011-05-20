@@ -90,6 +90,8 @@
 
     <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">通知列調整</string>
+    <string name="ui_status_bar_am_pm_title">上午／下午格式</string>
+    <string name="ui_status_bar_am_pm_summary">時鐘旁邊的上午／下午的顯示格式</string>
     <string name="ui_status_bar_clock_title">顯示時鐘</string>
     <string name="ui_status_bar_clock_summary">在通知列顯示時鐘</string>
     <string name="ui_status_bar_cm_battery_title">電池百分比</string>
@@ -199,6 +201,8 @@
     <string name="pref_lockscreen_always_music_controls_summary">不管音樂是否播放中都總是要顯示音樂控制面版</string>
     <string name="pref_trackball_wake_title">軌跡球喚醒</string>
     <string name="pref_trackball_wake_summary">按一下軌跡球來喚醒裝置</string>
+    <string name="pref_volume_wake_title">音量鍵喚醒</string>
+    <string name="pref_volume_wake_summary">按一下音量的上升／下降鍵來喚醒裝置。適用於難以按壓電源鍵的裝置</string>
     <string name="pref_trackball_unlock_title">軌跡球解鎖</string>
     <string name="pref_trackball_unlock_summary">按一下軌跡球解除裝置鎖定</string>
     <string name="pref_menu_unlock_title">Menu 鍵解鎖</string>
@@ -218,6 +222,8 @@
     <string name="lockscreen_delay_header">延遲與逾時</string>
     <string name="pref_lockscreen_style_title">鎖定螢幕風格</string>
     <string name="pref_lockscreen_style_summary">選擇鎖定螢幕的風格</string>
+    <string name="pref_in_call_style_title">來電螢幕風格</string>
+    <string name="pref_in_call_style_summary">選擇用來接聽／拒絕來電的道具風格</string>
     <string name="pref_volbtn_music_controls_title">音量鍵音樂控制</string>
     <string name="pref_volbtn_music_controls_summary">在螢幕關閉時長按音量鍵來搜尋曲目</string>
     <string name="pref_cambtn_music_controls_title">相機快門鍵音樂控制</string>

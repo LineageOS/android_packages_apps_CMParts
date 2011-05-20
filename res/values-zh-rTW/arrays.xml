@@ -38,6 +38,14 @@
 
     <!-- skipping untranslatable /resources:0/string-array:name=values_install_location -->
 
+    <string-array name="entries_status_bar_am_pm">
+        <item>正常</item>
+        <item>縮小</item>
+        <item>隱藏（預設）</item>
+    </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=values_status_bar_am_pm -->
+
     <string-array name="entries_render_effect">
         <item>無渲染效果</item>
         <item>夜視模式（紅）</item>
@@ -283,6 +291,14 @@
     </string-array>
 
     <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_style_values -->
+
+    <string-array name="pref_in_call_style_entries">
+        <item>滑桿</item>
+        <item>撥輪</item>
+        <item>撥輪（改）</item>
+    </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=pref_in_call_style_values -->
 
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>不顯示</item>
