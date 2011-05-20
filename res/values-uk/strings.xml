@@ -70,6 +70,8 @@
   <string name="pref_rotate_180_title">Обернення на 180\u00B0</string>
   <string name="pref_rotate_180_summary">Дозволяє обернення на 180 градусів за увімкненого автообернення екрана</string>
   <string name="ui_status_bar_title">Рядок стану</string>
+  <string name="ui_status_bar_am_pm_title">Індекси AM/PM</string>
+  <string name="ui_status_bar_am_pm_summary">Відображення індексів AM/PM позаду годинника</string>
   <string name="ui_status_bar_clock_title">Годинник</string>
   <string name="ui_status_bar_clock_summary">Годинник рядка стану</string>
   <string name="ui_status_bar_cm_battery_title">Відсоток заряду</string>
@@ -160,7 +162,9 @@
   <string name="pref_lockscreen_always_music_controls_title">Постійне відображення</string>
   <string name="pref_lockscreen_always_music_controls_summary">Відображення елементів управління плеєром незалежно від того, чи грає музика</string>
   <string name="pref_trackball_wake_title">Пробудження трекболом</string>
-  <string name="pref_trackball_wake_summary">Натискання на трекбол пробуджує пристрій</string>
+  <string name="pref_trackball_wake_summary">Натискання на трекбол пробуджуватиме пристрій</string>
+  <string name="pref_volume_wake_title">Пробудження кн. гучності</string>
+  <string name="pref_volume_wake_summary">Натискання кн. \u201CТихіше\u201D або \u201CГолосніше\u201D пробуджуватиме пристрій. Корисно для пристроїв з невдало розташованою кнопкою живлення</string>
   <string name="pref_trackball_unlock_title">Розблокування трекболом</string>
   <string name="pref_trackball_unlock_summary">Натискання на трекбол розблокує пристрій</string>
   <string name="pref_menu_unlock_title">Розблок. кн. \u201CМеню\u201D</string>
@@ -180,6 +184,8 @@
   <string name="lockscreen_delay_header">Тайм-аути</string>
   <string name="pref_lockscreen_style_title">Стиль вікна блокування</string>
   <string name="pref_lockscreen_style_summary">Установлення стилю вікна блокування</string>
+  <string name="pref_in_call_style_title">Стиль вікна вхідного виклику</string>
+  <string name="pref_in_call_style_summary">Установлення стилю віджета прийняття (відхилення) вхідного виклику</string>
   <string name="pref_volbtn_music_controls_title">Упр. плеєром кн. гучності</string>
   <string name="pref_volbtn_music_controls_summary">Перебирання музичних записів довгим натисканням кнопок гучності за вимкненого екрана</string>
   <string name="pref_cambtn_music_controls_title">Упр. відтв. кн. камери</string>
@@ -434,7 +440,7 @@
   <string name="pref_lockscreen_disable_unlock_tab">Вимк. повзунок розбл.</string>
   <string name="pref_lockscreen_disable_unlock_tab_summary">Примітка: опція доступна лише коли увімкнене розблокування трекболом, кнопкою \u201CМеню\u201D, або жестом</string>
   <string name="gestures_explain_create_screen">Виберіть потрібну дію та намалюйте жест на екрані.</string>
-  <string name="gestures_already_present">УВАГА: аналогічний жест встановлений для іншої дії!</string>
+  <string name="gestures_already_present">УВАГА: аналогічний жест встановлено для іншої дії!</string>
   <string name="changelog_title">Перегляд журналу змін</string>
   <string name="changelog_dialog">Журнал змін</string>
   <string name="changelog_loading">Завантаження журналу змін\u2026</string>
