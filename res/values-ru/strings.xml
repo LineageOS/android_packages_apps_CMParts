@@ -608,4 +608,11 @@
     <string name="cpu_max_freq_summary">Максимальная частота ЦП\nТекущая: %s</string>
     <string name="cpu_set_on_boot">Выставлять при загрузке</string>
     <string name="cpu_set_on_boot_summary">Применить текущие настройки ЦП при загрузке</string>	
+
+	<!-- Permissions Managment Settings strings -->
+	<string name="perm_enable_managment">Управление разрешениями</string>
+    <string name="perm_enable_managment_summary">Включить управление разрешениями приложений</string>
+    <string name="perm_enable_warning_message">Внимание!\nОтмена большинства разрешений может стать причиной сбоев в работе приложений. Если приложение с отменёнными разрешениями выдаёт ошибку, пожалуйста, предоставьте необходимые разрешения или не используйте приложение.\nПожалуйста, не посылайте сообщения об ошибках в CyanogenMod если приложение с отменёнными разрешениями не работает, как и следовало ожидать!</string>
+    <string name="perm_enable_warning_title">Вы уверены?</string>
+
 </resources>
