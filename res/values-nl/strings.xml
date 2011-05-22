@@ -28,8 +28,6 @@
     <string name="system_settings_title_head">Systeem</string>
     <string name="system_settings_title_subhead">Systeem instellingen</string>
     <string name="system_settings_summary_head">Systeem changelog, statistieken, update notificaties</string>
-	<string name="permissions_settings_title_head">Machtigingen</string>
-    <string name="permissions_settings_title_subhead">Machtigingen instellingen</string>
 
     <!--  Update Notifications -->
     <string name="updatenotify_title">Update notificaties</string>
@@ -609,10 +607,10 @@
     <string name="cpu_max_freq_summary">Maximale CPU frequentie\nNu: %s</string>
     <string name="cpu_set_on_boot">Stil in tijdens opstarten</string>
     <string name="cpu_set_on_boot_summary">Herstel CPU instellingen tijdens opstarten</string>
-	
-	<!-- Permissions Managment Settings strings -->
-    <string name="perm_enable_managment">Management inschakelen</string>
-    <string name="perm_enable_managment_summary">Machtigingen management inschakelen</string>
+
+	<!-- Permissions Management Settings strings -->
+    <string name="perm_enable_management">Management inschakelen</string>
+    <string name="perm_enable_management_summary">Machtigingen management inschakelen</string>
     <string name="perm_enable_warning_message">Waarschuwing!\nDeze optie kan er voor zorgen dat applicaties niet juist reageren. \nBij fouten, geen contact opnemen met het CyanogenMod team!</string>
     <string name="perm_enable_warning_title">Weet je het zeker?</string>
 </resources>

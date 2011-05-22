@@ -608,9 +608,9 @@
     <string name="cpu_set_on_boot">Imposta all\'avvio</string>
     <string name="cpu_set_on_boot_summary">Ripristina le impostazioni per la CPU all\'avvio</string>
 
-    <!-- Permissions Managment Settings strings -->
-    <string name="perm_enable_managment">Gestione autorizzazioni</string>
-    <string name="perm_enable_managment_summary">Attiva la gestione delle autorizzazioni</string>
+    <!-- Permissions Management Settings strings -->
+    <string name="perm_enable_management">Gestione autorizzazioni</string>
+    <string name="perm_enable_management_summary">Attiva la gestione delle autorizzazioni</string>
     <string name="perm_enable_warning_message">Attenzione!\nRevocare una o più autorizzazioni può causare il malfunzionamento dell\'applicazione. Se un\'applicazione, alla quale sono state revocate delle autorizzazioni, viene interrotta forzatamente è consigliabile concedere le dovute autorizzazioni o non utilizzare l\'applicazione.\nNon inviare segnalazioni di errori a Cyanogenmod se un\'applicazione alla quale sono state revocate delle autorizzazioni non funziona correttamente!</string>
     <string name="perm_enable_warning_title">Sei sicuro?</string>
 

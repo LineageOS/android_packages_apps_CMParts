@@ -597,9 +597,9 @@
     <string name="cpu_set_on_boot">Ställ in vid uppstart</string>
     <string name="cpu_set_on_boot_summary">Återställ CPU-inställningar vid uppstart</string>
 
-    <!-- Permissions Managment Settings strings -->
-    <string name="perm_enable_managment">Aktivera management</string>
-    <string name="perm_enable_managment_summary">Möjliggör behörighets management</string>
+    <!-- Permissions Management Settings strings -->
+    <string name="perm_enable_management">Aktivera management</string>
+    <string name="perm_enable_management_summary">Möjliggör behörighets management</string>
     <string name="perm_enable_warning_message">Varning! Återkallande av de flesta behörigheter kommer sannolikt leda program inte fungerar. Om ett program med återkallad behörighet tvångs-avslutar,vänligen ge de förväntade tillstånd eller använd inte programmet, Vänligen skicka INTE felrapporter till Cyanogenmod om ett program med återkallat tillstånd inte fungerar som förväntat!</string>
     <string name="perm_enable_warning_title">Är du säker?</string>
 

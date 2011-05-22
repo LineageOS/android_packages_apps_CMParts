@@ -16,6 +16,10 @@
             android:entries="@array/entries_install_location"
             android:entryValues="@array/values_install_location" />
 
+        <CheckBoxPreference android:key="enable_permissions_management"
+            android:title="@string/perm_enable_management"
+            android:summary="@string/perm_enable_management_summary" />
+
         <Preference
             android:key="phone_goggles_settings"
             android:title="@string/title_phone_goggles"
@@ -24,5 +28,6 @@
                     android:targetPackage="com.cyanogenmod.cmparts"
                     android:targetClass="com.cyanogenmod.cmparts.activities.PhoneGogglesActivity" />
         </Preference>
+
     </PreferenceCategory>
 </PreferenceScreen>
