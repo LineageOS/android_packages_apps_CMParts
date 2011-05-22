@@ -41,6 +41,8 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
 
     private static final String LOCKSCREEN_DISABLE_UNLOCK_TAB = "lockscreen_disable_unlock_tab";
 
+    private static final String LOCKSCREEN_VIBRATE = "lockscreen_vibrate";
+
     private static final String LOCKSCREEN_UNLOCK_SETTINGS = "pref_category_unlock_settings";
 
     private CheckBoxPreference mTrackballUnlockPref;
@@ -50,6 +52,8 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
     private CheckBoxPreference mQuickUnlockScreenPref;
 
     private CheckBoxPreference mDisableUnlockTab;
+
+    private CheckBoxPreference mVibratePref;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -80,6 +84,11 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
         mDisableUnlockTab = (CheckBoxPreference) prefSet
                 .findPreference(LOCKSCREEN_DISABLE_UNLOCK_TAB);
         refreshDisableUnlock();
+
+        /* Menu Unlock */
+        mVibratePref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_VIBRATE);
+        mVibratePref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_VIBRATE, 0) == 1);
 
         PreferenceCategory generalCategory = (PreferenceCategory) prefSet
                 .findPreference(LOCKSCREEN_UNLOCK_SETTINGS);
@@ -120,6 +129,10 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
             value = mDisableUnlockTab.isChecked();
             Settings.Secure.putInt(getContentResolver(),
                     Settings.Secure.LOCKSCREEN_GESTURES_DISABLE_UNLOCK, value ? 1 : 0);
+        } else if (preference == mVibratePref) {
+            value = mVibratePref.isChecked();
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_VIBRATE, value ? 1 : 0);
         }
         return false;
     }

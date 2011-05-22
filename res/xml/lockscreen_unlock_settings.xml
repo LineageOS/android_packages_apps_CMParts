@@ -20,6 +20,10 @@
             android:title="@string/pref_lockscreen_disable_unlock_tab"
             android:summary="@string/pref_lockscreen_disable_unlock_tab_summary" />
 
+        <CheckBoxPreference android:key="lockscreen_vibrate"
+            android:title="@string/pref_lockscreen_vibrate_title"
+            android:summary="@string/pref_lockscreen_vibrate_summary" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
