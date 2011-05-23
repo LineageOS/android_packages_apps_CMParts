@@ -600,4 +600,6 @@
     <string name="perm_enable_management_summary">Habilita gerenciamento de permissões</string>
     <string name="perm_enable_warning_title">Você tem certeza?</string>
     <string name="perm_enable_warning_message">Aviso!\nA maioria das permissões ao revogar, provavelmente será a causa de problemas nas aplicações. Se uma aplicação com permissões revogas for forçada a fechar, por favor, conceda as permissões experadas ou não use a aplicação.\Por favor NÃO mande relatórios de erros ao CyanogenMod se uma aplicação com permissões revogas não está funcionando como esperado!</string>
+    <string name="system_settings_title_subhead">Configurações de Sistema</string>
+    <string name="system_settings_summary_head">Log de modificações, statísticas e notificações de atualização de sistema</string>
 </resources>
