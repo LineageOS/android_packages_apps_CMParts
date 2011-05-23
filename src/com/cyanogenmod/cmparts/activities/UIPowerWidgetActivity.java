@@ -19,6 +19,7 @@ package com.cyanogenmod.cmparts.activities;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
+import android.preference.ListPreference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
@@ -34,6 +35,8 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
 
     private static final String UI_EXP_WIDGET_HIDE_SCROLLBAR = "expanded_hide_scrollbar";
 
+    private static final String UI_EXP_WIDGET_HAPTIC_FEEDBACK = "pref_pwrwid_haptic_feedback";
+
     private static final String UI_EXP_WIDGET_COLOR = "expanded_color_mask";
 
     private static final String UI_EXP_WIDGET_PICKER = "widget_picker";
@@ -45,6 +48,8 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
     private CheckBoxPreference mPowerWidgetHideOnChange;
 
     private CheckBoxPreference mPowerWidgetHideScrollBar;
+
+    private ListPreference mPowerWidgetHapticFeedback;
 
     private Preference mPowerWidgetColor;
 
@@ -67,6 +72,8 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
                 .findPreference(UI_EXP_WIDGET_HIDE_ONCHANGE);
         mPowerWidgetHideScrollBar = (CheckBoxPreference) prefSet
                 .findPreference(UI_EXP_WIDGET_HIDE_SCROLLBAR);
+        mPowerWidgetHapticFeedback = (ListPreference) prefSet
+                .findPreference(UI_EXP_WIDGET_HAPTIC_FEEDBACK);
 
         mPowerWidgetColor = prefSet.findPreference(UI_EXP_WIDGET_COLOR);
         mPowerPicker = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_PICKER);
@@ -78,6 +85,8 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
                 Settings.System.EXPANDED_HIDE_ONCHANGE, 0) == 1));
         mPowerWidgetHideScrollBar.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.EXPANDED_HIDE_SCROLLBAR, 0) == 1));
+        mPowerWidgetHapticFeedback.setValue(Integer.toString(Settings.System.getInt(getContentResolver(),
+                Settings.System.EXPANDED_HAPTIC_FEEDBACK, 2)));
 
     }
 
@@ -109,6 +118,12 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
             Settings.System.putInt(getContentResolver(), Settings.System.EXPANDED_HIDE_SCROLLBAR,
                     value ? 1 : 0);
         }
+
+        if (preference == mPowerWidgetHapticFeedback) {
+            int intValue = Integer.parseInt(mPowerWidgetHapticFeedback.getValue());
+            Settings.System.putInt(getContentResolver(), Settings.System.EXPANDED_HAPTIC_FEEDBACK, intValue);
+        }
+
 
         if (preference == mPowerWidgetColor) {
             ColorPickerDialog cp = new ColorPickerDialog(this, mWidgetColorListener,
