@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAFH//+sQ\u003d",
+        "filename": "res/xml/ui_power_widget_settings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2011-05-23T10:31:11Z",
+      "side": 0,
+      "message": "Spaces are better :-D",
+      "revId": "f09ba82008b91382e1e0cc8898ce728922f7abb8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
