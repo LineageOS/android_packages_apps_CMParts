@@ -153,7 +153,9 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
         alertDialog = new AlertDialog.Builder(this).create();
         alertDialog.setTitle(R.string.performance_settings_warning_title);
         alertDialog.setMessage(getResources().getString(R.string.performance_settings_warning));
-        alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, "OK", new DialogInterface.OnClickListener() {
+        alertDialog.setButton(DialogInterface.BUTTON_POSITIVE,
+                getResources().getString(com.android.internal.R.string.ok),
+                new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 return;
             }
