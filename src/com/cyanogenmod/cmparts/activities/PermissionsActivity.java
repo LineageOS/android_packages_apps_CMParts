@@ -47,7 +47,7 @@ public class PermissionsActivity extends PreferenceActivity implements OnPrefere
     /* Preference Screens */
     private static final String GENERAL_CATEGORY = "general_category";
 
-    private static final String ENABLE_PERMISSIONS_MANAGMENT = "enable_permissions_managment";
+    private static final String ENABLE_PERMISSIONS_MANAGEMENT = "enable_permissions_management";
 
     private static final int DIALOG_ENABLE_WARNING = 0;
 
@@ -57,7 +57,7 @@ public class PermissionsActivity extends PreferenceActivity implements OnPrefere
     private final static int YES=1;
     private final static int NO=2;
 
-    private CheckBoxPreference mEnableManagment;
+    private CheckBoxPreference mEnableManagement;
 
     private Context mContext = this;
 
@@ -74,16 +74,16 @@ public class PermissionsActivity extends PreferenceActivity implements OnPrefere
 
         PreferenceScreen prefSet = getPreferenceScreen();
 
-        mEnableManagment = (CheckBoxPreference)prefSet.findPreference(ENABLE_PERMISSIONS_MANAGMENT);
-        mEnableManagment.setChecked(Settings.Secure.getInt(getContentResolver(),
-                Settings.Secure.ENABLE_PERMISSIONS_MANAGMENT,
-                getResources().getBoolean(com.android.internal.R.bool.config_enablePermissionsManagment) ? 1 : 0) == 1);
+        mEnableManagement = (CheckBoxPreference)prefSet.findPreference(ENABLE_PERMISSIONS_MANAGEMENT);
+        mEnableManagmeent.setChecked(Settings.Secure.getInt(getContentResolver(),
+                Settings.Secure.ENABLE_PERMISSIONS_MANAGEMENT,
+                getResources().getBoolean(com.android.internal.R.bool.config_enablePermissionsManagement) ? 1 : 0) == 1);
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
 
-        if (preference == mEnableManagment) {
-            final boolean value = mEnableManagment.isChecked();
+        if (preference == mEnableManagement) {
+            final boolean value = mEnableManagement.isChecked();
             if (value) {
                 runOnUiThread(new Runnable() {
                     @Override
@@ -99,7 +99,7 @@ public class PermissionsActivity extends PreferenceActivity implements OnPrefere
             }
             else {
                 Settings.Secure.putInt(getContentResolver(),
-                        Settings.Secure.ENABLE_PERMISSIONS_MANAGMENT, 0);
+                        Settings.Secure.ENABLE_PERMISSIONS_MANAGEMENT, 0);
             }
         }
 
@@ -135,12 +135,12 @@ public class PermissionsActivity extends PreferenceActivity implements OnPrefere
                         break;
                     case YES:
                         Settings.Secure.putInt(getContentResolver(),
-                                Settings.Secure.ENABLE_PERMISSIONS_MANAGMENT, 1);
+                                Settings.Secure.ENABLE_PERMISSIONS_MANAGEMENT, 1);
                         break;
                     case NO:
-                        mEnableManagment.setChecked(false);
+                        mEnableManagement.setChecked(false);
                         Settings.Secure.putInt(getContentResolver(),
-                                Settings.Secure.ENABLE_PERMISSIONS_MANAGMENT, 0);
+                                Settings.Secure.ENABLE_PERMISSIONS_MANAGEMENT, 0);
                         break;
                     }
                 }

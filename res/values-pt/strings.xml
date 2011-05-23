@@ -598,8 +598,8 @@
     <string name="permissions_settings_title_subhead">Gerenciar confirações de permissões</string>
     <string name="pref_volume_wake_title">Acordar com botão volume</string>
     <string name="pref_volume_wake_summary">Acorda o dispositivo ao apertar o botão de aumentar/abaixar volume. É indicado para dispositivos com botão de ligar difícil de apertar.</string>
-    <string name="perm_enable_managment">Habilitar gerenciamento</string>
-    <string name="perm_enable_managment_summary">Habilita gerenciamento de permissões</string>
+    <string name="perm_enable_management">Habilitar gerenciamento</string>
+    <string name="perm_enable_management_summary">Habilita gerenciamento de permissões</string>
     <string name="perm_enable_warning_title">Você tem certeza?</string>
     <string name="perm_enable_warning_message">Aviso!\nA maioria das permissões ao revogar, provavelmente será a causa de problemas nas aplicações. Se uma aplicação com permissões revogas for forçada a fechar, por favor, conceda as permissões experadas ou não use a aplicação.\Por favor NÃO mande relatórios de erros ao CyanogenMod se uma aplicação com permissões revogas não está funcionando como esperado!</string>
 </resources>
