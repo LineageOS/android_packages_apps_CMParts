@@ -138,9 +138,6 @@
     <string name="pref_menu_unlock_summary">Wciśnięcie przycisku menu wyświetla ekran blokady</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Szybkie odblokowanie</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Nie trzeba wciskać OK podczas wprowadzania pinu lub hasła. Usuwanie traktowane jest jako nieudana próba.</string>
-    <string name="pref_lockscreen_phone_messaging_control_title">Telefon i wiadomości</string>
-    <string name="pref_lockscreen_phone_messaging_control_summary">Telefon i wiadomości są dostępne na ekranie blokady.</string>
-    <string name="pref_messaging_tab_app_title">Aplikacja wiadomości</string>
     <string name="pref_lockscreen_style_title">Styl ekranu blokady</string>
     <string name="pref_lockscreen_style_summary">Wybierz styl ekranu blokady</string>
 

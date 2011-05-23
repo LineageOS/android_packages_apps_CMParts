@@ -136,9 +136,6 @@
   <string name="pref_menu_unlock_summary">לחיצה על כפתור התפריט פותחת את נעילת המכשיר</string>
   <string name="pref_lockscreen_quick_unlock_control_title">ביטול נעילה מהיר</string>
   <string name="pref_lockscreen_quick_unlock_control_summary">.מחיקה איננה נחשבת כנסיון שגוי .PIN אין צורך ללחוץ על אישור כאשר מכניסים סיסמא או קוד</string>
-  <string name="pref_lockscreen_phone_messaging_control_title">שיחות והודעות</string>
-  <string name="pref_lockscreen_phone_messaging_control_summary">.שיחות והודעות נגישות ממסך הנעילה</string>
-  <string name="pref_messaging_tab_app_title">כרטיסיית אפליקציית הודעות</string>
   <string name="pref_lockscreen_style_title">סגנון נעילת מסך</string>
   <string name="pref_lockscreen_style_summary">בחר סיגנון לנעילת מסך</string>
 

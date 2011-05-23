@@ -97,9 +97,6 @@
     <string name="pref_menu_unlock_summary">메뉴 버튼을 눌러 잠금을 해제합니다.</string>
     <string name="pref_lockscreen_quick_unlock_control_title">빠른 잠금 해제</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Pin이나 비밀번호를 입력할 때 확인을 누르지 않아도 됩니다. 단 글자 지우기는 잘못된 시도로 집계됩니다.</string>
-    <string name="pref_lockscreen_phone_messaging_control_title">전화와 메시지</string>
-    <string name="pref_lockscreen_phone_messaging_control_summary">잠금 화면에서 전화와 메시지를 사용할 수 있습니다.</string>
-    <string name="pref_messaging_tab_app_title">메시지 앱 선택</string>
     <string name="pref_lockscreen_style_title">잠금 화면 모양</string>
     <string name="pref_lockscreen_style_summary">잠금 화면의 모양을 선택해 주세요.</string>
 

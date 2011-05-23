@@ -175,8 +175,6 @@
     <string name="input_settings_title">Configurações de entrada</string>
     <string name="input_settings_summary">Controle do comportamento de entrada</string>
     <string name="button_settings_title">Configurações do botão</string>
-    <string name="pref_lockscreen_phone_messaging_control_title">Telefone e Mensagens</string>
-    <string name="pref_lockscreen_phone_messaging_control_summary">Telefone e Mensagens acessiveis na tela de bloqueio.</string>
     <string name="input_search_key_title">Botão de pesquisa</string>
     <string name="input_search_key_summary">Define ações personalizadas para o botão de pesquisa e pressione e segure o botão pesquisa</string>
     <string name="pref_input_custom_search_app_toggle_title">Aplicação do botão de pesquisa</string>

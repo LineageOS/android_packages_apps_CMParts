@@ -149,9 +149,6 @@
     <string name="pref_menu_unlock_summary">Pulsar el boton menú desbloquea el dispositivo</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Desbloqueo rápido</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">No es necesario pulsar OK al introducir PIN o Contraseña. Borra contador de intentos.</string>
-    <string name="pref_lockscreen_phone_messaging_control_title">Teléfono y Mensajes</string>
-    <string name="pref_lockscreen_phone_messaging_control_summary">Teléfono y Mensajes accesible desde el protector de pantalla.</string>
-    <string name="pref_messaging_tab_app_title">Aplicación de mensajería</string>
     <string name="pref_lockscreen_always_battery_title">Situación de la bateria</string>
     <string name="pref_lockscreen_always_battery_summary">Muestra el estado de la batería todo el tiempo de bloqueo de pantalla</string>
     <string name="pref_lockscreen_now_playing_title">Mostrar nombre de la canción</string>
@@ -525,9 +522,6 @@
     <string name="cpu_summary">Ajustes de reloj y control (governor)</string>
     <string name="cpu_governors_title">Gobernadores disponibles</string>
     <string name="cpu_governors_summary">Lista de gobernadores disponibles\nSeleccionado ahora: %S</string>
-    <string name="cpu_governors_list">Lista de controles\nSeleccionado ahora: %S</string>
-    <string name="cpu_min_freq">Freq. CPU Mínima\nActualmente: %s</string>
-    <string name="cpu_max_freq">Freq. CPU Máxima\nActualmente: %s</string>
     <string name="cpu_set_on_boot">Activar al arranque</string>
     <string name="cpu_set_on_boot_summary">Restaura Ajustes CPU al arrancar</string>
 </resources>
