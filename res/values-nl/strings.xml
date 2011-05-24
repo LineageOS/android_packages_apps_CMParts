@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Generic -->
-    <string name="app_name">CyanogenMod instellingen</string>
+    <string name="app_name">CyanogenMod</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Applicatie</string>
@@ -28,6 +28,8 @@
     <string name="system_settings_title_head">Systeem</string>
     <string name="system_settings_title_subhead">Systeem instellingen</string>
     <string name="system_settings_summary_head">Systeem changelog, statistieken, update notificaties</string>
+	<string name="permissions_settings_title_head">Machtigingen</string>
+    <string name="permissions_settings_title_subhead">Machtigingen instellingen</string>
 
     <!--  Update Notifications -->
     <string name="updatenotify_title">Update notificaties</string>
@@ -43,7 +45,7 @@
     <!-- User interface: Tablet tweaks -->
     <string name="tablet_tweaks_title_head">Tablet tweaks</string>
     <string name="tablet_tweaks_summary_head">Tablet instellingen. Mogelijk ook werkend voor telefoons</string>
-    <string name="tablet_tweaks_sb_bottom_title">Statusbalk onderin scherm</string>
+    <string name="tablet_tweaks_sb_bottom_title">Statusbalk onderin</string>
     <string name="tablet_tweaks_sb_bottom_summary">Geef statusbalk onderin scherm weer. Handig voor tablets welke soft-knoppen gebruiken voor home, menu, etc in de statusbalk.</string>
     <string name="tablet_tweaks_status_bar_dead_zone_title">Dead zone</string>
     <string name="tablet_tweaks_status_bar_dead_zone_summary">Voeg een \'dead zone\' ter grote van een half scherm toe aan het midden van de statusbalk.</string>
@@ -118,8 +120,8 @@
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Scherm-vergrendel instellingen</string>
     <string name="pref_lockscreen_delay_title">Vertraging</string>
-    <string name="pref_lockscreen_timeout_lock_delay">Scherm time-out vertraging</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Scherm uitschakel vertraging</string>
+    <string name="pref_lockscreen_timeout_lock_delay">Time-out vertraging</string>
+    <string name="pref_lockscreen_screenoff_lock_delay">Uitschakel vertraging</string>
     <string name="pref_lockscreen_timeout_lock_delay_summary">Vertraging in seconden voordat scherm-vergrendeling geactiveerd wordt</string>
     <string name="pref_lockscreen_screenoff_lock_delay_summary">Vertraging in seconden voordat scherm-vergrendeling geactiveerd wordt wanneer het scherm uit is</string>
 
@@ -189,15 +191,15 @@
     <string name="lockscreen_settings_title">Lockscreen instellingen</string>
     <string name="pref_lockscreen_always_battery_title">Laat batterij status altijd zien</string>
     <string name="pref_lockscreen_always_battery_summary">Laat batterij status altijd op het lockscreen zien</string>
-    <string name="pref_lockscreen_music_controls_title">Lockscreen muziek knoppen</string>
+    <string name="pref_lockscreen_music_controls_title">Muziek knoppen</string>
     <string name="pref_lockscreen_music_controls_summary">Geef muziek knoppen op het lockscreen weer</string>
     <string name="pref_lockscreen_now_playing_title">Geef titel weer</string>
     <string name="pref_lockscreen_now_playing_summary">Geef naam van artiest weer</string>
     <string name="pref_lockscreen_album_art_title">Geef album-art weer</string>
     <string name="pref_lockscreen_album_art_summary">Geef album-art van het huidige nummer weer. Werkt alleen met de standaard muziek-speler in portret-modus</string>
-    <string name="pref_lockscreen_music_headset_title">Geef muziek knoppen weer wanneer headset is aangesloten</string>
+    <string name="pref_lockscreen_music_headset_title">Headset</string>
     <string name="pref_lockscreen_music_headset_summary">Geef muziek knoppen weer wanneer een headset is aangesloten</string>
-    <string name="pref_lockscreen_always_music_controls_title">Laat muziek knoppen altijd zien</string>
+    <string name="pref_lockscreen_always_music_controls_title">Altijd weergeven</string>
     <string name="pref_lockscreen_always_music_controls_summary">Laat muziek knoppen altijd zien, ook wanneer er geen muziek afgespeeld wordt</string>
     <string name="pref_trackball_wake_title">Trackball ontwaken</string>
     <string name="pref_trackball_wake_summary">Wanneer de trackball ingedrukt wordt, ontwaakt het toestel</string>
@@ -212,7 +214,7 @@
     <string name="pref_lockscreen_custom_app_toggle_title">Aangepaste app starter</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">Geef een tweede slider weer, welke een zelf te kiezen app opent</string>
     <string name="pref_lockscreen_custom_app_activity_title">Kies app</string>
-    <string name="pref_lockscreen_custom_icon_style_title">Bericht icoon voor zelf gekozen app</string>
+    <string name="pref_lockscreen_custom_icon_style_title">Custom bericht icoon</string>
     <string name="pref_lockscreen_custom_icon_style_summary">Gebruik bericht icoon inplaats van CM icoon voor het starten van de zelf gekozen app</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Sleep naar beneden om te unlocken</string>
     <string name="pref_lockscreen_rotary_unlock_down_summary">Sleep het draaiwiel naar beneden om te unlocken. Sleep het wiel naar rechts om de zelf gekozen app te starten</string>
@@ -224,7 +226,7 @@
     <string name="pref_lockscreen_style_summary">Kies een thema voor het lockscreen</string>
     <string name="pref_in_call_style_title">Inkomend gesprek stijl</string>
     <string name="pref_in_call_style_summary">Kies de stijl van de inkomende gesprek widget</string>
-	<string name="pref_volbtn_music_controls_title">Gebruik volume knoppen voor muziek beheer</string>
+	<string name="pref_volbtn_music_controls_title">Volume muziek beheer</string>
     <string name="pref_volbtn_music_controls_summary">Door een nummer spoelen wanneer de volume knoppen lang ingedrukt worden terwijl het scherm uit is</string>
     <string name="pref_cambtn_music_controls_title">Gebruik camera knop voor muziek beheer</string>
     <string name="pref_cambtn_music_controls_summary">Druk lang op de camera knop om muziek te starten/pauzeren terwijl het scherm uit is</string>
@@ -237,7 +239,7 @@
     <string name="haptic_title">Haptische feedback tweaks</string>
     <string name="haptic_summary">Bepaal wanneer en hoe hevig haptische feedback optreedt</string>
     <string name="button_settings_title">Knop instellingen</string>
-    <string name="long_press_home_title">Lang drukken home instellingen</string>
+    <string name="long_press_home_title">Lang drukken home knop</string>
     <string name="long_press_home_summary">Aantal recente apps, etc</string>
     <string name="input_search_key_title">Zoek knop gedrag</string>
     <string name="input_search_key_summary">Geef zoek knop een andere functie, zowel kort drukken als lang drukken</string>
@@ -248,30 +250,30 @@
     <string name="pref_input_custom_long_search_app_toggle_summary">Start een zelf gekozen app wanneer er lang op de zoek knop gedrukt wordt</string>
 
     <!-- Long Press Home -->
-    <string name="recent_apps_show_title">Laat namen van recente apps zien</string>
+    <string name="recent_apps_show_title">Geef recente apps weer</string>
     <string name="recent_apps_num_title">Aantal recente apps</string>
     <string name="recent_apps_num_summary">Aantal recente apps om weer te geven bij het lang indrukken van de home knop</string>
     <string name="dialog_recent_apps_num_title">Specifeer het aantal recente apps</string>
-    <string name="use_custom_app_title">Gebruik eigen gekozen app</string>
+    <string name="use_custom_app_title">Gebruik custom app</string>
     <string name="use_custom_app_summary">Gebruik een zelf gekozen app inplaats van het \'recente apps venster\'</string>
     <string name="select_custom_app_title">Kies eigen gekozen app</string>
     <string name="group_applications">Apps</string>
 
     <!-- HapticTweaks -->
-    <string name="title_haptic_feedback">Haptische feedback hoofdscherm</string>
+    <string name="title_haptic_feedback">Softkeys/UI</string>
     <string name="summary_on_haptic_feedback">Gebruik haptische feedback bij het indrukken van softkeys en bij bepaalde UI interacties</string>
     <string name="summary_off_haptic_feedback">Gebruik geen haptische feedback bij het indrukken van softkeys en bij bepaalde UI interacties</string>
 
-    <string name="title_haptic_feedback_up">Haptische feedback instellingen activeren</string>
+    <string name="title_haptic_feedback_up">Activeer instellingen</string>
     <string name="summary_on_haptic_feedback_up">Gebruik haptische feedback bij het loslaten van softkeys en bij bepaalde UI interacties</string>
     <string name="summary_off_haptic_feedback_up">Gebruik geen haptische feedback bij het loslaten van softkeys en bij bepaalde UI interacties</string>
 
-    <string name="title_haptic_feedback_all">Haptische feedback scherm</string>
+    <string name="title_haptic_feedback_all">Scherm</string>
     <string name="summary_on_haptic_feedback_all">Gebruik haptische feedback bij het aanraken van het scherm</string>
     <string name="summary_off_haptic_feedback_all">Gebruik geen haptische feedback bij het aanraken van het scherm</string>
 
-    <string name="title_haptic_down_decider">Haptische feedback instellingen voor indrukken</string>
-    <string name="title_haptic_up_decider">Haptische feedback instellingen voor loslaten</string>
+    <string name="title_haptic_down_decider">Indruk instellingen</string>
+    <string name="title_haptic_up_decider">Loslaat instellingen</string>
     <string name="title_haptic_long_decider">Stel lang indrukken patroon in</string>
     <string name="title_haptic_tap_decider">Stel toetsenbord patroon in</string>
 
@@ -315,11 +317,11 @@
     <string name="pref_jit_mode_summary">Gebruik de Dalvik just-in-time compiler (herstart vereist)</string>
 
     <!-- Performance Settings : Dithering -->
-    <string name="pref_use_dithering_title">Zet \'surface dithering\' aan</string>
+    <string name="pref_use_dithering_title">Surface dithering</string>
     <string name="pref_use_dithering_summary">\'Dithering surfaces\' verhoogt de kwaliteit van afbeelding, maar verlaagt de prestaties van het systeem (herstart vereist)</string>
 
     <!-- Performance Settings : Purgeable Assets -->
-    <string name="pref_purgeable_assets_title">Sta \'purging of assets\' toe</string>
+    <string name="pref_purgeable_assets_title">Purging of assets</string>
     <string name="pref_purgeable_assets_summary">Systeem kan meer RAM geheugen vrij maken wanneer nodig (herstart vereist)</string>
 
     <!-- Performance Settings : VM Heap Size -->
@@ -327,11 +329,11 @@
     <string name="pref_heapsize_summary">Maximaal geheugen per VM heap (herstart vereist)</string>
 
     <!-- Performance : Lock home memory -->
-    <string name="pref_lock_home_title">Zet de launcher vast</string>
+    <string name="pref_lock_home_title">Launcher lock</string>
     <string name="pref_lock_home_summary">Zorgt er ten alle tijde voor dat de standaard launcher in het geheugen vast staat</string>
 
     <!-- Performance : Lock mms app in memory -->
-    <string name="pref_lock_mms_title">Zet de berichten app vast</string>
+    <string name="pref_lock_mms_title">Berichten app lock</string>
     <string name="pref_lock_mms_summary">Voorkomt het verliezen van berichten wanneer het telefoon geheugen bijna vol is</string>
 
     <!-- Performance Settings : Warning dialog -->
@@ -343,7 +345,7 @@
     <string name="application_settings_summary">Verander verschillende applicatie instellingen, zoals bijvoorbeeld de opslaglocatie</string>
 
     <!-- Application Settings : Move any app -->
-    <string name="pref_move_all_apps_title">Sta het verplaatsen van apps toe</string>
+    <string name="pref_move_all_apps_title">Apps verplaatsen</string>
     <string name="pref_move_all_apps_summary">Sta het verplaatsen van apps naar de externe opslag locatie toe</string>
 
     <!-- Application Settings : Install Location -->
@@ -354,7 +356,7 @@
     <string name="buttons_title">Knoppen</string>
 
     <!-- UI Settings : Power off prompt -->
-    <string name="pref_power_prompt_title">Opstarten/afsluiten melding</string>
+    <string name="pref_power_prompt_title">Opstart/afsluit prompt</string>
     <string name="pref_power_prompt_summary">Kies of er wel of geen melding weergegeven wordt bij het opstarten/afsluiten van het toestel</string>
 
     <!-- UI Settings : Render effect -->
@@ -377,7 +379,7 @@
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Meldingen scherm widget</string>
-    <string name="title_expanded_widget">Meldingen scherm bedieningswidget</string>
+    <string name="title_expanded_widget">Meldingen scherm widget</string>
     <string name="summary_expanded_widget">Gebruik de meldingen scherm bedieningswidget</string>
     <string name="title_expanded_hide_onchange">Verberg bij verandering</string>
     <string name="summary_expanded_hide_onchange">Verberg de notificatie balk nadat een widget is ingeschakeld/uitgeschakeld</string>
@@ -389,25 +391,25 @@
     <string name="title_widget_order">Volgorde van widgets</string>
     <string name="summary_widget_order">Sorteer de widgets</string>
     <string name="title_buttons">Knoppen</string>
-    <string name="title_toggle_wifi">Zet Wifi aan/uit</string>
-    <string name="title_toggle_bluetooth">Zet Bluetooth aan/uit</string>
-    <string name="title_toggle_gps">Zet GPS aan/uit</string>
+    <string name="title_toggle_wifi">Wifi aan/uit</string>
+    <string name="title_toggle_bluetooth">Bluetooth aan/uit</string>
+    <string name="title_toggle_gps">GPS aan/uit</string>
     <string name="title_toggle_sound">Kies profiel</string>
-    <string name="title_toggle_brightness">Pas helderheid van scherm aan</string>
-    <string name="title_toggle_sync">Zet synchronisatie aan/uit</string>
-    <string name="title_toggle_wifiap">Zet Wifi tethering aan/uit</string>
-    <string name="title_toggle_screentimeout">Pas scherm time-out instellingen aan</string>
-    <string name="title_toggle_mobiledata">Zet mobiel dataverkeer aan/uit</string>
+    <string name="title_toggle_brightness">Helderheid</string>
+    <string name="title_toggle_sync">Sync aan/uit</string>
+    <string name="title_toggle_wifiap">Wifi tethering aan/uit</string>
+    <string name="title_toggle_screentimeout">Scherm time-out</string>
+    <string name="title_toggle_mobiledata">Dataverkeer aan/uit</string>
     <string name="title_toggle_lockscreen">Activeer lockscreen</string>
-    <string name="title_toggle_networkmode">Zet 2G/3G aan/uit</string>
-    <string name="title_toggle_autorotate">Zet automatische oriëntatie aan/uit</string>
-    <string name="title_toggle_airplane">Zet vliegtuigmodus aan/uit</string>
-    <string name="title_toggle_flashlight">Zet LED flashlight aan/uit</string>
+    <string name="title_toggle_networkmode">2G/3G aan/uit</string>
+    <string name="title_toggle_autorotate">Auto oriëntatie aan/uit</string>
+    <string name="title_toggle_airplane">Vliegtuigmodus aan/uit</string>
+    <string name="title_toggle_flashlight">LED aan/uit</string>
     <string name="title_toggle_sleep">Activeer slaapstand</string>
-    <string name="title_toggle_media_play_pause">Media: Afspelen/pauzeren</string>
-    <string name="title_toggle_media_previous">Media: Ga naar vorige nummer</string>
-    <string name="title_toggle_media_next">Media: Ga naar volgende nummer</string>
-    <string name="title_toggle_wimax">Zet  WiMAX aan/uit</string>
+    <string name="title_toggle_media_play_pause">Afspelen/pauzeren</string>
+    <string name="title_toggle_media_previous">Ga naar vorige nummer</string>
+    <string name="title_toggle_media_next">Ga naar volgende nummer</string>
+    <string name="title_toggle_wimax">WiMAX aan/uit</string>
     <string name="title_button_modes">Knop instellingen</string>
     <string name="pref_brightness_mode_title">Helderheid knop</string>
     <string name="pref_brightness_mode_summary">Stel de helderheid niveaus in welke gekozen kunnen worden met de helderheid knop</string>
@@ -421,7 +423,7 @@
     <string name="pref_flash_mode_summary">Kies fel / Death Ray</string>
 
     <!-- Backlight -->
-    <string name="backlight_title">Automatische achtergrond verlichting</string>
+    <string name="backlight_title">Automatische verlichting</string>
     <string name="backlight_summary">Tweak niveaus en filtering</string>
     <string name="light_filter_title">Licht sensor filter</string>
     <string name="light_filter_enabled_title">Ingeschakeld</string>
@@ -433,11 +435,11 @@
     <string name="light_filter_interval_title">Voorbeeld interval</string>
     <string name="light_filter_interval_summary">Lage waarde kan nauwkeurigheid verhogen, maar zorgt voor een hoger CPU verbruik</string>
     <string name="light_levels_title">Licht niveaus</string>
-    <string name="light_levels_enabled_title">Gebruik aangepaste instellingen</string>
+    <string name="light_levels_enabled_title">Custom instellingen</string>
     <string name="light_levels_dim_title">Scherm dim niveau</string>
     <string name="light_levels_dim_summary">Hoevelheid helderheid wat gebruikt wordt om het scherm te dimmen</string>
     <string name="light_levels_editor_title">Pas andere niveaus aan</string>
-    <string name="light_decrease_enabled_title">Sta toe dat het scherm automatisch gedimt wordt</string>
+    <string name="light_decrease_enabled_title">Automatisch dimmen</string>
     <string name="light_decrease_enabled_summary">Schakel in om er voor te zorgen dat het scherm automatisch gedimt wordt. Gebruik Hysterese om geflikker te voorkomen</string>
     <string name="light_decrease_hysteresis_title">Verlaag hysterese</string>
     <string name="light_decrease_hysteresis_summary">Sensor niveaus overlap</string>
@@ -467,9 +469,9 @@
     <string name="sound_notifications_focus_summary">Geluid focus toestemming zorgt ervoor dat ondersteunde apps het geluid verlagen wanneer een notificatie afgespeeld wordt</string>
     <string name="sound_volume_control_silent_title">Stille modus</string>
     <string name="sound_volume_control_silent_summary">Voeg een modus toe voor het volledig dempen van geluiden</string>
-    <string name="sound_vibrate_in_call_title">Vibreren gedurende telefoon gesprekken</string>
+    <string name="sound_vibrate_in_call_title">Gesprek vibratie</string>
     <string name="sound_vibrate_in_call_summary_off">Notificaties zullen niet vibreren gedurende een telefoon gesprek</string>
-    <string name="sound_vibrate_in_call_summary_on">Notificaties zullen normaal vibreren</string>
+    <string name="sound_vibrate_in_call_summary_on">Notificaties zullen tijdens een telefoon gesprek vibreren</string>
     <string name="sound_to_speaker_title">Speel altijd via speaker af</string>
     <string name="sound_notifications_title">Notificaties</string>
     <string name="sound_rings_title">Ringtones</string>
@@ -514,7 +516,7 @@
     <string name="user_defined_not_set">Niets ingesteld</string>
 
     <!--  Lockscreen gesture strings -->
-    <string name="pref_lockscreen_gestures_enable_title">Gebruik lockstreen gestures</string>
+    <string name="pref_lockscreen_gestures_enable_title">Lockscreen gestures</string>
     <string name="pref_lockscreen_gestures_trail_title">Laat gesture paden zien</string>
     <string name="pref_lockscreen_gestures_builder_title">Ontwikkel gestures</string>
     <string name="pref_lockscreen_gestures_sensitivity_title">Gevoeligheid</string>
@@ -607,4 +609,10 @@
     <string name="cpu_max_freq_summary">Maximale CPU frequentie\nNu: %s</string>
     <string name="cpu_set_on_boot">Stil in tijdens opstarten</string>
     <string name="cpu_set_on_boot_summary">Herstel CPU instellingen tijdens opstarten</string>
+	
+	<!-- Permissions Managment Settings strings -->
+    <string name="perm_enable_managment">Management inschakelen</string>
+    <string name="perm_enable_managment_summary">Machtigingen management inschakelen</string>
+    <string name="perm_enable_warning_message">Waarschuwing!\nDeze optie kan er voor zorgen dat applicaties niet juist reageren. \nBij fouten, geen contact opnemen met het CyanogenMod team!</string>
+    <string name="perm_enable_warning_title">Weet je het zeker?</string>
 </resources>
