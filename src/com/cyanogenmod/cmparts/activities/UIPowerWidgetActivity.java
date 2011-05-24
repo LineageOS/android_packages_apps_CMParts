@@ -22,12 +22,14 @@ import android.preference.Preference;
 import android.preference.ListPreference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
+import android.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
 
 import com.cyanogenmod.cmparts.R;
 
-public class UIPowerWidgetActivity extends PreferenceActivity {
+public class UIPowerWidgetActivity extends PreferenceActivity
+        implements OnPreferenceChangeListener {
 
     private static final String UI_EXP_WIDGET = "expanded_widget";
 
@@ -74,6 +76,7 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
                 .findPreference(UI_EXP_WIDGET_HIDE_SCROLLBAR);
         mPowerWidgetHapticFeedback = (ListPreference) prefSet
                 .findPreference(UI_EXP_WIDGET_HAPTIC_FEEDBACK);
+        mPowerWidgetHapticFeedback.setOnPreferenceChangeListener(this);
 
         mPowerWidgetColor = prefSet.findPreference(UI_EXP_WIDGET_COLOR);
         mPowerPicker = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_PICKER);
@@ -89,6 +92,18 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
                 Settings.System.EXPANDED_HAPTIC_FEEDBACK, 2)));
 
     }
+
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mPowerWidgetHapticFeedback) {
+            int intValue = Integer.parseInt((String)newValue);
+            Settings.System.putInt(getContentResolver(), Settings.System.EXPANDED_HAPTIC_FEEDBACK, intValue);
+            return true;
+        }
+
+        return false;
+    }
+
+
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         boolean value;
@@ -118,12 +133,6 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
             Settings.System.putInt(getContentResolver(), Settings.System.EXPANDED_HIDE_SCROLLBAR,
                     value ? 1 : 0);
         }
-
-        if (preference == mPowerWidgetHapticFeedback) {
-            int intValue = Integer.parseInt(mPowerWidgetHapticFeedback.getValue());
-            Settings.System.putInt(getContentResolver(), Settings.System.EXPANDED_HAPTIC_FEEDBACK, intValue);
-        }
-
 
         if (preference == mPowerWidgetColor) {
             ColorPickerDialog cp = new ColorPickerDialog(this, mWidgetColorListener,
