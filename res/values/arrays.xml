@@ -105,13 +105,13 @@
         <item>9</item>
     </string-array>
 
-    <string-array name="entries_pwrwid_haptic_feedback">
+    <string-array name="haptic_feedback_entries">
         <item>Global Settings</item>
         <item>On</item>
         <item>Off</item>
     </string-array>
 
-    <string-array name="values_pwrwid_haptic_feedback" translatable="false">
+    <string-array name="haptic_feedback_values" translatable="false">
         <item>2</item>
         <item>1</item>
         <item>0</item>

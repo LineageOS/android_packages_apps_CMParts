@@ -37,7 +37,7 @@ public class UIPowerWidgetActivity extends PreferenceActivity
 
     private static final String UI_EXP_WIDGET_HIDE_SCROLLBAR = "expanded_hide_scrollbar";
 
-    private static final String UI_EXP_WIDGET_HAPTIC_FEEDBACK = "pref_pwrwid_haptic_feedback";
+    private static final String UI_EXP_WIDGET_HAPTIC_FEEDBACK = "expanded_haptic_feedback";
 
     private static final String UI_EXP_WIDGET_COLOR = "expanded_color_mask";
 
