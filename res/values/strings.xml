@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic -->
     <string name="app_name">CyanogenMod settings</string>
 
@@ -525,7 +526,6 @@
     <string name="gestures_button_add">Add gesture</string>
     <string name="gestures_button_discard">Discard</string>
     <string name="gestures_button_done">Done</string>
-    <string name="gestures_shortcut_picker_button_label">Pick a shortcut or activity for this gesture</string>
     <string name="gestures_error_missing_shortcut">You must pick an action for this gesture!</string>
     <string name="gestures_save_success">Gesture saved in %s</string>
     <string name="gestures_cancel_action">Cancel</string>
@@ -540,8 +540,11 @@
     <string name="gestures_flashlight">Flashlight</string>
     <string name="pref_lockscreen_disable_unlock_tab">Disable unlock slider</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Note: You need to enable trackball, menu key, or gesture unlocking before this option becomes available</string>
-    <string name="gestures_explain_create_screen">Pick an action to perform (or select Unlock or Sound) and draw a gesture on the screen.</string>
+    <string name="gestures_action_label">Action:</string>
+	<string name="gestures_draw_label">Gesture:</string>
+	<string name="gestures_draw_for_label">Gesture for \"<xliff:g id="action">%s</xliff:g>\":</string>
     <string name="gestures_already_present">Warning: A similar gesture is associated to another action!</string>
+    <string name="gestures_run_in_background">Run in background</string>
 
     <!-- Change Log strings -->
     <string name="changelog_title">View changelog</string>

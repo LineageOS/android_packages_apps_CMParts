@@ -15,60 +15,48 @@
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:orientation="vertical">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/gestures_explain_create_screen"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:paddingBottom="10dip" />
-    <Button android:id="@+id/shortcut_picker"
+        android:text="@string/gestures_action_label"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Spinner
+        android:id="@+id/action_picker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/gestures_shortcut_picker_button_label"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:onClick="pickShortcut" />
-    <LinearLayout
+        android:entries="@array/pref_lockscreen_gesture_action_entries" />
+
+    <CheckBox
+        android:id="@+id/gestures_run_in_background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-        <Button android:id="@+id/unlock_pick"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/gestures_unlock_only"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:onClick="pickUnlockOnly" />
-        <Button android:id="@+id/sound_pick"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/gestures_toggle_sound"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:onClick="pickSoundOnly" />
-        <Button android:id="@+id/flashlight_pick"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/gestures_flashlight"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:onClick="pickFlashlight" />
-    </LinearLayout>
+        android:visibility="gone"
+        android:text="@string/gestures_run_in_background" />
+
+    <TextView
+    	android:id="@+id/gestures_draw_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gestures_draw_label"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
     <android.gesture.GestureOverlayView
         android:id="@+id/gestures_overlay"
+		android:background="@drawable/rectangle"
         android:layout_width="match_parent"
         android:layout_height="0dip"
         android:layout_weight="1.0"
-
         android:gestureStrokeType="multiple" />
 
     <LinearLayout
         style="@android:style/ButtonBar"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:orientation="horizontal">
 
         <Button
@@ -86,7 +74,5 @@
             android:layout_weight="1"
             android:onClick="cancelGesture"
             android:text="@string/gestures_button_discard" />
-
     </LinearLayout>
-
 </LinearLayout>

@@ -449,6 +449,13 @@
         <item>12</item>
     </string-array>
 
+    <string-array name="pref_lockscreen_gesture_action_entries">
+        <item>Unlock phone</item>
+        <item>Toggle sound</item>
+        <item>Shortcut or activity</item>
+        <item>Flashlight</item>
+    </string-array>
+
     <string-array name="pref_lockscreen_style_entries">
         <item>Sliding Tab</item>
         <item>Rotary</item>
