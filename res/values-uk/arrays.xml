@@ -15,12 +15,6 @@
  * limitations under the License.
  -->
 <resources>
-    <string-array name="entries_heapsize">
-        <item>12 Mб</item>
-        <item>16 Mб</item>
-        <item>24 Mб</item>
-        <item>32 Mб</item>
-    </string-array>
     <string-array name="entries_install_location">
         <item>Автоматично</item>
         <item>Внутрішня пам\u2019ять</item>
