@@ -327,7 +327,7 @@
     <string name="pref_heapsize_summary">Massima quantità di memoria per heap VM (riavvio richiesto)</string>
 
     <!-- Performance Settings : Warning dialog -->
-    <string name="performance_settings_warning_title">WARNING: Dragons Ahead!</string>
+    <string name="performance_settings_warning_title">ATTENZIONE: Questi esperimenti possono mordere!</string>
     <string name="performance_settings_warning">Queste opzioni modificheranno le performance del dispositivo, probabilmente anche peggiorandole. Sono incluse per sperimentazione e ti chiediamo di non inviare bug report se hai modificato i valori di default.</string>
 
     <!-- Performance : Lock home memory -->
@@ -591,7 +591,7 @@
     <string name="phone_goggles_maths_level_easy">Facile</string>
     <string name="phone_goggles_maths_level_medium">Medio</string>
     <string name="phone_goggles_maths_level_hard">Difficile</string>
-    <string name="phone_goggles_confirmation_none">Niente</string>
+    <string name="phone_goggles_confirmation_none">Niente</string>a
     <string name="phone_goggles_confirmation_prompt">Prompt</string>
     <string name="phone_goggles_confirmation_maths">Problemi matematici</string>
 
