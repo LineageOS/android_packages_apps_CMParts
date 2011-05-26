@@ -188,8 +188,12 @@ public class ApplicationActivity extends PreferenceActivity implements OnPrefere
                 });
 
                 // ad.takeKeyEvents(false);
-                ad.setButton(DialogInterface.BUTTON_POSITIVE, "Yes", handler.obtainMessage(YES));
-                ad.setButton(DialogInterface.BUTTON_NEGATIVE, "No", handler.obtainMessage(NO));
+                ad.setButton(DialogInterface.BUTTON_POSITIVE,
+                        getResources().getString(com.android.internal.R.string.yes),
+                        handler.obtainMessage(YES));
+                ad.setButton(DialogInterface.BUTTON_NEGATIVE,
+                        getResources().getString(com.android.internal.R.string.no),
+                        handler.obtainMessage(NO));
                 return ad;
             case DIALOG_DISABLE_WARNING:
                 break;
