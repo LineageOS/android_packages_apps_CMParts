@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAF3///5E\u003d",
+        "filename": "res/xml/ui_power_widget_settings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2011-05-27T23:10:18Z",
+      "side": 0,
+      "message": "Spaces are preferred over tabs for the Java and XML files.  Usually all around.",
+      "revId": "e83311d0164cb608b28298d5ac0f84d0a26f6d42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
