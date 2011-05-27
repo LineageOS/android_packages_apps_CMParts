@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAF3///5U\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2011-05-27T20:50:33Z",
+      "side": 1,
+      "message": "Should be lowercase (convention)",
+      "revId": "19af28d2980113d86fcadcb610557506a4df376b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
