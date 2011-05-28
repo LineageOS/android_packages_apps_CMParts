@@ -163,6 +163,7 @@ public class InputSearchKeyActivity extends PreferenceActivity {
 
     void completeSetCustomShortcut(Intent data) {
         Intent intent = data.getParcelableExtra(Intent.EXTRA_SHORTCUT_INTENT);
+        String appUri = Settings.System.formatContacts(intent.toUri(0));
         int keyNumber = mKeyNumber;
         if (keyNumber == 1) {
             if (Settings.System.putString(getContentResolver(),
@@ -179,6 +180,7 @@ public class InputSearchKeyActivity extends PreferenceActivity {
     }
 
     void completeSetCustomApp(Intent data) {
+        String appUri = Settings.System.formatContacts(data.toUri(0));
         int keyNumber = mKeyNumber;
         if (keyNumber == 1) {
             if (Settings.System.putString(getContentResolver(),
