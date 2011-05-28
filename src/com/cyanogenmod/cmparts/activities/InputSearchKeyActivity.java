@@ -163,15 +163,16 @@ public class InputSearchKeyActivity extends PreferenceActivity {
 
     void completeSetCustomShortcut(Intent data) {
         Intent intent = data.getParcelableExtra(Intent.EXTRA_SHORTCUT_INTENT);
+        String appUri = Settings.System.formatContacts(intent.toUri(0));
         int keyNumber = mKeyNumber;
         if (keyNumber == 1) {
             if (Settings.System.putString(getContentResolver(),
-                    Settings.System.USE_CUSTOM_SEARCH_APP_ACTIVITY, intent.toUri(0))) {
+                    Settings.System.USE_CUSTOM_SEARCH_APP_ACTIVITY, appUri)) {
                 mCustomSearchAppActivityPref.setSummary(intent.toUri(0));
             }
         } else if (keyNumber == 2) {
             if (Settings.System.putString(getContentResolver(),
-                    Settings.System.USE_CUSTOM_LONG_SEARCH_APP_ACTIVITY, intent.toUri(0))) {
+                    Settings.System.USE_CUSTOM_LONG_SEARCH_APP_ACTIVITY, appUri)) {
                 mCustomLongSearchAppActivityPref.setSummary(intent.toUri(0));
             }
         }
@@ -179,15 +180,16 @@ public class InputSearchKeyActivity extends PreferenceActivity {
     }
 
     void completeSetCustomApp(Intent data) {
+        String appUri = Settings.System.formatContacts(data.toUri(0));
         int keyNumber = mKeyNumber;
         if (keyNumber == 1) {
             if (Settings.System.putString(getContentResolver(),
-                    Settings.System.USE_CUSTOM_SEARCH_APP_ACTIVITY, data.toUri(0))) {
+                    Settings.System.USE_CUSTOM_SEARCH_APP_ACTIVITY, appUri)) {
                 mCustomSearchAppActivityPref.setSummary(data.toUri(0));
             }
         } else if (keyNumber == 2) {
             if (Settings.System.putString(getContentResolver(),
-                    Settings.System.USE_CUSTOM_LONG_SEARCH_APP_ACTIVITY, data.toUri(0))) {
+                    Settings.System.USE_CUSTOM_LONG_SEARCH_APP_ACTIVITY, appUri)) {
                 mCustomLongSearchAppActivityPref.setSummary(data.toUri(0));
             }
         }
