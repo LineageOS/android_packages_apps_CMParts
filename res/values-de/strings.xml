@@ -56,24 +56,24 @@
     <string name="tablet_tweaks_disable_lockscreen_title">Lockscreen deaktivieren</string>
     <string name="tablet_tweaks_disable_lockscreen_summary">Nach Bootvorgang oder bei Aufwachen weder den Lockscreen noch das Feld für das Entsperrmuster anzeigen.</string>
     <string name="tablet_tweaks_disable_fullscreen_title">Vollbild verhindern</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Anfrage einer App nach Vollbildmodus blockieren. Statuszeile bleibt immer sichtbar, ausser wenn sie manuell ausgeblendet wird.</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">Anfrage einer App nach Vollbildmodus blockieren. Statuszeile bleibt immer sichtbar, außer wenn sie manuell ausgeblendet wird.</string>
     <string name="tablet_tweaks_unhide_button_list_head">Verstecken-Taste</string>
     <string name="tablet_tweaks_unhide_button_list_title">Die Taste zum Verstecken wählen</string>
     <string name="tablet_tweaks_extend_pm_title">Erweitertes Ausschaltmenü</string>
     <string name="tablet_tweaks_extend_pm_summary">Aktionen für Homescreen/Zurück/Menü dem Ausschaltmenü hinzufügen.</string>
     <string name="tablet_tweaks_extend_pm_list_title">Tasten wählen</string>
     <string name="tablet_tweaks_reverse_volume_behavior_title">Lautstärkeregelung umkehren</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Lautstärketasten verhalten sich normal: Drücken für Änderung der Lautstärke. Gedrückhalten für Aktion.</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Lautstärketasten verhalten sich umgekehrt: Drücken für Aktion. Gedrückhalten für Änderung der Lautstärke.</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Lautstärketasten verhalten sich normal: Drücken für Änderung der Lautstärke. Gedrückt halten für Aktion.</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Lautstärketasten verhalten sich umgekehrt: Drücken für Aktion. Gedrückt halten für Änderung der Lautstärke.</string>
 
     <!-- User interface: Tablet tweaks -> volume remapping -->
     <string name="tablet_tweaks_input_head">Lautstärketasten belegen</string>
-    <string name="tablet_tweaks_long_volp_action_title">Gedrückhalten für lauter</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Aktion für Homescreen/Zurück/Menü/etc an Gedrückhalten der Lauter-Taste binden. (Begrenzter Zugriff auf Einschalten des Bildsschirms)</string>
-    <string name="tablet_tweaks_long_volm_action_title">Gedrückhalten für leiser</string>
+    <string name="tablet_tweaks_long_volp_action_title">Gedrückt halten für lauter</string>
+    <string name="tablet_tweaks_long_volp_action_summary">Aktion für Homescreen/Zurück/Menü/etc an Gedrückt halten der Lauter-Taste binden. (Begrenzter Zugriff auf Einschalten des Bildschirms)</string>
+    <string name="tablet_tweaks_long_volm_action_title">Gedrückt halten für leiser</string>
     <string name="tablet_tweaks_vol_both_action_title">Beide Lautstärketasten</string>
     <string name="tablet_tweaks_vol_both_action_summary">Hinweis: Einige Geräte führen einen Reset bei gleichzeitigem Drücken der Lautstärke und Ein/Ausschalttaste durch.</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Gedrückthalten beider Lautstärketasten</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">Gedrückt halten beider Lautstärketasten</string>
 
     <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
     <string name="tablet_tweaks_extend_pm_list_head">Ausschaltmenü-Tasten</string>
@@ -95,7 +95,7 @@
     <string name="ui_status_bar_clock_title">Zeige Uhr</string>
     <string name="ui_status_bar_clock_summary">Die Uhrzeit wird nicht angezeigt, wenn deaktiviert</string>
     <string name="ui_status_bar_cm_battery_title">Batterie-Prozentanzeige</string>
-    <string name="ui_status_bar_cm_battery_summary">Zeige den Ladeszustand der Batterie in Prozent und ein kleineres Batteriesymbol. Ausschalten bei Anzeigeproblemen mit anderen Themes</string>
+    <string name="ui_status_bar_cm_battery_summary">Zeige den Ladezustand der Batterie in Prozent und ein kleineres Batteriesymbol. Ausschalten bei Anzeigeproblemen mit anderen Themes</string>
     <string name="ui_status_bar_compact_carrier_title">Kompakter Betreibername</string>
     <string name="ui_status_bar_compact_carrier_summary">Alternatives Layout des Benachrichtigungsbereichs mit kürzerem Betreibernamen.</string>
 
@@ -197,7 +197,7 @@
     <string name="pref_lockscreen_album_art_title">Cover anzeigen</string>
     <string name="pref_lockscreen_album_art_summary">Das Cover des aktuellen Titels anzeigen. Funktioniert nur mit der originalen Musik-App im Hochformat</string>
     <string name="pref_lockscreen_music_headset_title">Musiksteuerung mit Kopfhörer</string>
-    <string name="pref_lockscreen_music_headset_summary">Zeige die Steuerelemente für Musik, wenn ein Kabel- oder Bluetoothkopfhörer angeschlossen ist</string>
+    <string name="pref_lockscreen_music_headset_summary">Zeige die Steuerelemente für Musik, wenn ein Kabel- oder Bluetooth-Kopfhörer angeschlossen ist</string>
     <string name="pref_lockscreen_always_music_controls_title">Immer anzeigen</string>
     <string name="pref_lockscreen_always_music_controls_summary">Die Steuerelemente für Musik immer anzeigen, egal ob gerade Musik abgespielt wird oder nicht</string>
     <string name="pref_trackball_wake_title">Trackball-Aufwachen</string>
@@ -222,9 +222,9 @@
     <string name="pref_lockscreen_style_title">Lockscreen-Aussehen</string>
     <string name="pref_lockscreen_style_summary">Einen Stil für den Lockscreen auswählen</string>
     <string name="pref_volbtn_music_controls_title">Titelwahl mit Lautstärketasten</string>
-    <string name="pref_volbtn_music_controls_summary">Wenn Bildschirm ausgeschaltet ist, Titel suchen durch Gedrückthalten der Lautstärketasten</string>
+    <string name="pref_volbtn_music_controls_summary">Wenn Bildschirm ausgeschaltet ist, Titel suchen durch Gedrückt halten der Lautstärketasten</string>
     <string name="pref_cambtn_music_controls_title">Play/Pause mit Kamerataste</string>
-    <string name="pref_cambtn_music_controls_summary">Wenn Bildschirm ausgeschaltet ist, Wiedergabe fortsetzen/pausieren durch Gedrückthalten der Kamerataste</string>
+    <string name="pref_cambtn_music_controls_summary">Wenn Bildschirm ausgeschaltet ist, Wiedergabe fortsetzen/pausieren durch Gedrückt halten der Kamerataste</string>
     <string name="lockscreen_widgets_note_title">Hinweis</string>
     <string name="lockscreen_widgets_note_summary">Beim Stil \"Lense\" werden alle Widgets ausgeblendet mit Ausnahme der Musiksteuerung. Für einfacheres Umstellen zwischen den Locksreen-Stilen bleiben die weiteren Optionen dennoch aktiviert.</string>
 
@@ -234,20 +234,20 @@
     <string name="haptic_title">Haptisches Feedback</string>
     <string name="haptic_summary">Anpassungen für Stärke und Auftreten des haptischen Feedbacks (HF)</string>
     <string name="button_settings_title">Tasteneinstellungen</string>
-    <string name="long_press_home_title">HOME Gedrückthalten</string>
+    <string name="long_press_home_title">HOME Gedrückt halten</string>
     <string name="long_press_home_summary">Anzahl letzter Apps, etc...</string>
     <string name="input_search_key_title">Suchen-Taste</string>
     <string name="input_search_key_summary">Aktion für das Drücken der Suchen-Taste anpassen</string>
     <string name="pref_input_custom_search_app_toggle_title">App mit Suchen-Taste verknüpfen</string>
     <string name="pref_input_custom_search_app_toggle_summary">Starten einer festgelegten Anwendung beim Drücken der Suchen-Taste</string>
     <string name="pref_input_custom_search_app_activity_title">App festlegen</string>
-    <string name="pref_input_custom_long_search_app_toggle_title">Suchen-Taste gedrückthalten</string>
-    <string name="pref_input_custom_long_search_app_toggle_summary">Starten einer festgelegten Anwendung beim Gedrückthalten der Suchen-Taste</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">Suchen-Taste gedrückt halten</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">Starten einer festgelegten Anwendung beim Gedrückt halten der Suchen-Taste</string>
 
     <!-- Long Press Home -->
     <string name="recent_apps_show_title">Titel für letzte Apps zeigen</string>
     <string name="recent_apps_num_title">Anzahl letzter Apps</string>
-    <string name="recent_apps_num_summary">Anzahl anzuzeigender Apps nach Gedrückthalten der Home-Taste</string>
+    <string name="recent_apps_num_summary">Anzahl anzuzeigender Apps nach Gedrückt halten der Home-Taste</string>
     <string name="dialog_recent_apps_num_title">Anzahl letzter Apps auswählen</string>
     <string name="use_custom_app_title">Andere Anwendung verwenden</string>
     <string name="use_custom_app_summary">Wähle andere Anwendung anstelle des Letzte-App-Dialogs</string>
@@ -317,7 +317,7 @@
     <string name="pref_use_dithering_summary">Dithering von Oberflächen verbessert die Bildqualität auf Kosten der Geräteleistung (Neustart erforderlich)</string>
 
     <!-- Performance Settings : Purgeable Assets -->
-    <string name="pref_purgeable_assets_title">Freigabe von Resourcen</string>
+    <string name="pref_purgeable_assets_title">Freigabe von Ressourcen</string>
     <string name="pref_purgeable_assets_summary">Erlaubt dem System, Speicherbereiche von nicht mehr benutzen Bildern freizugeben, um damit mehr RAM bereitzustellen (Neustart erforderlich)</string>
 
     <!-- Performance Settings : VM Heap Size -->
@@ -424,7 +424,7 @@
     <string name="light_filter_title">Lichtsensor-Filter</string>
     <string name="light_filter_enabled_title">Einschalten</string>
     <string name="light_filter_enabled_summary">Sensorwerte gleitend mitteln, um Flackern zu vermeiden.</string>
-    <string name="light_filter_window_title">Länges des Zeitfensters</string>
+    <string name="light_filter_window_title">Länge des Zeitfensters</string>
     <string name="light_filter_window_summary">Der gefilterte Wert ist das Mittel während dieser Periode.</string>
     <string name="light_filter_reset_title">Grenzwert zurücksetzen</string>
     <string name="light_filter_reset_summary">Werte, die so stark vom Mittel abweichen, setzen den Filter zurück.</string>
@@ -466,8 +466,8 @@
     <string name="sound_volume_control_silent_title">Absolute Ruhe</string>
     <string name="sound_volume_control_silent_summary">Der Lautstärkeregelung einen Zustand für absolute Ruhe hinzufügen.</string>
     <string name="sound_vibrate_in_call_title">Während Anruf vibrieren</string>
-    <string name="sound_vibrate_in_call_summary_on">Normale Vibration bei Benachrichtigunen während eines Gesprächs</string>
-    <string name="sound_vibrate_in_call_summary_off">Keine Vibration bei Benachrichtigunen während eines Gesprächs</string>
+    <string name="sound_vibrate_in_call_summary_on">Normale Vibration bei Benachrichtigungen während eines Gesprächs</string>
+    <string name="sound_vibrate_in_call_summary_off">Keine Vibration bei Benachrichtigungen während eines Gesprächs</string>
     <string name="sound_to_speaker_title">Immer über Lautsprecher</string>
     <string name="sound_notifications_title">Benachrichtigungen</string>
     <string name="sound_rings_title">Klingeltöne</string>
