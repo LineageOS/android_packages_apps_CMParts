@@ -56,6 +56,14 @@
 		<Preference android:key="pref_user_defined_key3"
 			android:title="@string/user_defined_key3" android:summary="@string/user_defined_not_set" />
 
+		<CheckBoxPreference android:key="pref_long_press_menu"
+			android:title="@string/long_press_menu_title"
+			android:summary="@string/use_custom_app_title" />
+
+		<Preference android:key="pref_user_defined_long_press_menu"
+                        android:dependency="pref_long_press_menu"
+			android:title="@string/pref_input_custom_search_app_activity_title" android:summary="@string/user_defined_not_set" />
+
 	</PreferenceCategory>
 
 </PreferenceScreen>
