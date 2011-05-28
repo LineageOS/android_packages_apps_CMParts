@@ -16,89 +16,87 @@
 
 package com.cyanogenmod.cmparts.activities;
 
-import com.cyanogenmod.cmparts.R;
+import java.util.ArrayList;
 
 import android.content.Intent;
 import android.content.Intent.ShortcutIconResource;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
-import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
-import android.provider.Settings.SettingNotFoundException;
 
-import java.util.ArrayList;
+import com.cyanogenmod.cmparts.R;
 
-public class LongPressHomeActivity extends PreferenceActivity implements Preference.OnPreferenceChangeListener {
+public class LongPressMenuActivity extends PreferenceActivity {
 
-    private static final String RECENT_APPS_SHOW_TITLE_PREF = "pref_show_recent_apps_title";
-    private static final String RECENT_APPS_NUM_PREF= "pref_recent_apps_num";
-    private static final String USE_CUSTOM_APP_PREF = "pref_use_custom_app";
-    private static final String SELECT_CUSTOM_APP_PREF = "pref_select_custom_app";    
-    
-    private CheckBoxPreference mShowRecentAppsTitlePref;
-    private ListPreference mRecentAppsNumPref;
-    private CheckBoxPreference mUseCustomAppPref;
-    private Preference mSelectCustomAppPref;
-    
+    private static final String INPUT_CUSTOM_LONG_MENU_APP_TOGGLE = "pref_long_press_menu";
+
+    private static final String INPUT_CUSTOM_LONG_MENU_APP_AS_SEARCH = "pref_long_press_menu_as_search";
+
+    private static final String USER_DEFINED_LONG_PRESS_MENU = "pref_user_defined_long_press_menu";
+
+    private static final String INPUT_CUSTOM_LONG_MENU_SOFT = "pref_long_press_menu_as_soft";
+
+    private CheckBoxPreference mCustomLongMenuAppTogglePref;
+
+    private CheckBoxPreference mLongMenuAsSearchTogglePref;
+
+    private CheckBoxPreference mLongMenuAsSoftKeyBoard;
+
+    private Preference mUserDefinedLongPressMenu;
+
     private static final int REQUEST_PICK_SHORTCUT = 1;
     private static final int REQUEST_PICK_APPLICATION = 2;
     private static final int REQUEST_CREATE_SHORTCUT = 3;
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setTitle(R.string.long_press_home_title);
-        addPreferencesFromResource(R.xml.long_press_settings);
+        setTitle(R.string.long_press_menu_title);
+        addPreferencesFromResource(R.xml.long_press_menu);
 
         PreferenceScreen prefSet = getPreferenceScreen();
-        
-        mShowRecentAppsTitlePref = (CheckBoxPreference) prefSet.findPreference(RECENT_APPS_SHOW_TITLE_PREF);        
 
-        mRecentAppsNumPref = (ListPreference) prefSet.findPreference(RECENT_APPS_NUM_PREF);
-        mRecentAppsNumPref.setOnPreferenceChangeListener(this);
-        
-        mUseCustomAppPref = (CheckBoxPreference) prefSet.findPreference(USE_CUSTOM_APP_PREF);        
-        mSelectCustomAppPref = (Preference) prefSet.findPreference(SELECT_CUSTOM_APP_PREF);
+        mLongMenuAsSearchTogglePref = (CheckBoxPreference) prefSet.findPreference(INPUT_CUSTOM_LONG_MENU_APP_AS_SEARCH);
 
-        //final PreferenceGroup parentPreference = getPreferenceScreen();
-        //parentPreference.getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
+        mCustomLongMenuAppTogglePref = (CheckBoxPreference) prefSet.findPreference(INPUT_CUSTOM_LONG_MENU_APP_TOGGLE);
+
+        mLongMenuAsSoftKeyBoard = (CheckBoxPreference) prefSet.findPreference(INPUT_CUSTOM_LONG_MENU_SOFT);
+
+        mUserDefinedLongPressMenu = (Preference) prefSet.findPreference(USER_DEFINED_LONG_PRESS_MENU);
+
+        mLongMenuAsSearchTogglePref.setChecked(Settings.System.getInt(getContentResolver(), Settings.System.USE_CUSTOM_LONG_MENU_APP_AS_SEARCH, 0) == 1);
+
+        mCustomLongMenuAppTogglePref.setChecked(Settings.System.getInt(getContentResolver(), Settings.System.USE_CUSTOM_LONG_MENU_APP_TOGGLE, 0) == 1);
+
+        mLongMenuAsSoftKeyBoard.setChecked(Settings.System.getInt(getContentResolver(), Settings.System.USE_CUSTOM_LONG_MENU_SOFT, 0) == 1);
+
     }
-    
+
     @Override
     public void onResume() {
         super.onResume();
-        mUseCustomAppPref.setChecked(Settings.System.getInt(getContentResolver(), Settings.System.USE_CUSTOM_APP, 0) == 1);
-        mSelectCustomAppPref.setSummary(Settings.System.getString(getContentResolver(), Settings.System.SELECTED_CUSTOM_APP));
-        readRecentAppsNumPreference();
-    }
-    
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
-        if (preference == mRecentAppsNumPref) {
-            writeRecentAppsNumPreference(objValue);
-        }
-        
-        // always let the preference setting proceed.
-        return true;
+        mUserDefinedLongPressMenu.setSummary(Settings.System.getString(getContentResolver(),
+                Settings.System.USE_CUSTOM_LONG_MENU_APP_ACTIVITY));
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-        if (preference == mUseCustomAppPref) {
-            Settings.System.putInt(getContentResolver(), Settings.System.USE_CUSTOM_APP, mUseCustomAppPref.isChecked() ? 1 : 0);
+        if (preference == mCustomLongMenuAppTogglePref) {
+            Settings.System.putInt(getContentResolver(), Settings.System.USE_CUSTOM_LONG_MENU_APP_TOGGLE, mCustomLongMenuAppTogglePref.isChecked() ? 1 : 0);
         }
-        else if (preference == mShowRecentAppsTitlePref) {
-            Settings.System.putInt(getContentResolver(), Settings.System.RECENT_APPS_SHOW_TITLE , mShowRecentAppsTitlePref.isChecked() ? 1 : 0);
-        }
-        else if (preference == mSelectCustomAppPref) {
+        else if (preference == mUserDefinedLongPressMenu) {
             pickShortcut();
+        }else if (preference == mLongMenuAsSearchTogglePref){
+            Settings.System.putInt(getContentResolver(), Settings.System.USE_CUSTOM_LONG_MENU_APP_AS_SEARCH, mLongMenuAsSearchTogglePref.isChecked() ? 1 : 0);
+        }else if (preference == mLongMenuAsSoftKeyBoard) {
+            Settings.System.putInt(getContentResolver(), Settings.System.USE_CUSTOM_LONG_MENU_SOFT, mLongMenuAsSoftKeyBoard.isChecked() ? 1 : 0);
         }
         return true;
-    }    
-    
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
@@ -116,24 +114,7 @@ public class LongPressHomeActivity extends PreferenceActivity implements Prefere
             }
         }
     }
-    
-    public void readRecentAppsNumPreference() {
-        try {
-            int value = Settings.System.getInt(getContentResolver(), Settings.System.RECENT_APPS_NUMBER);
-            mRecentAppsNumPref.setValue(Integer.toString(value));
-        } catch (SettingNotFoundException e) {
-            mRecentAppsNumPref.setValue("8");
-        }
-    }
-    
-    private void writeRecentAppsNumPreference(Object objValue) {
-        try {
-            int val = Integer.parseInt(objValue.toString());
-            Settings.System.putInt(getContentResolver(), Settings.System.RECENT_APPS_NUMBER, val);
-        } catch (NumberFormatException e) {
-        }
-    }
-    
+
      private void pickShortcut() {
         Bundle bundle = new Bundle();
 
@@ -152,7 +133,7 @@ public class LongPressHomeActivity extends PreferenceActivity implements Prefere
 
         startActivityForResult(pickIntent, REQUEST_PICK_SHORTCUT);
     }
-    
+
     void processShortcut(Intent intent, int requestCodeApplication, int requestCodeShortcut) {
         // Handle case where user selected "Applications"
         String applicationName = getResources().getString(R.string.group_applications);
@@ -169,19 +150,21 @@ public class LongPressHomeActivity extends PreferenceActivity implements Prefere
             startActivityForResult(intent, requestCodeShortcut);
         }
     }
-    
+
     void completeSetCustomShortcut(Intent data) {
         Intent intent = data.getParcelableExtra(Intent.EXTRA_SHORTCUT_INTENT);
         String appUri = Settings.System.formatContacts(intent.toUri(0));
-        if (Settings.System.putString(getContentResolver(), Settings.System.SELECTED_CUSTOM_APP, appUri)) {
-            mSelectCustomAppPref.setSummary(appUri);
+        if (Settings.System.putString(getContentResolver(),
+                    Settings.System.USE_CUSTOM_LONG_MENU_APP_ACTIVITY, appUri)) {
+                        mUserDefinedLongPressMenu.setSummary(data.toUri(0));
         }
     }
-    
+
     void completeSetCustomApp(Intent data) {
         String appUri = Settings.System.formatContacts(data.toUri(0));
-        if (Settings.System.putString(getContentResolver(), Settings.System.SELECTED_CUSTOM_APP, appUri)) {
-            mSelectCustomAppPref.setSummary(appUri);
+        if (Settings.System.putString(getContentResolver(),
+                    Settings.System.USE_CUSTOM_LONG_MENU_APP_ACTIVITY, appUri)) {
+                        mUserDefinedLongPressMenu.setSummary(data.toUri(0));
         }
     }
 }
