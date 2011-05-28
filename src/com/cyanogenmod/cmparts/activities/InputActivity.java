@@ -43,11 +43,15 @@ public class InputActivity extends PreferenceActivity {
 
     private static final String BUTTON_CATEGORY = "pref_category_button_settings";
 
+    private static final String INPUT_CUSTOM_LONG_MENU_APP_TOGGLE = "pref_long_press_menu";
+
     private static final String USER_DEFINED_KEY1 = "pref_user_defined_key1";
 
     private static final String USER_DEFINED_KEY2 = "pref_user_defined_key2";
 
     private static final String USER_DEFINED_KEY3 = "pref_user_defined_key3";
+
+    private static final String USER_DEFINED_LONG_PRESS_MENU = "pref_user_defined_long_press_menu";
 
     private CheckBoxPreference mTrackballWakePref;
 
@@ -57,11 +61,15 @@ public class InputActivity extends PreferenceActivity {
 
     private CheckBoxPreference mCamBtnMusicCtrlPref;
 
+    private CheckBoxPreference mCustomLongMenuAppTogglePref;
+
     private Preference mUserDefinedKey1Pref;
 
     private Preference mUserDefinedKey2Pref;
 
     private Preference mUserDefinedKey3Pref;
+
+    private Preference mUserDefinedLongPressMenu;
 
     private int mKeyNumber = 1;
 
@@ -98,8 +106,17 @@ public class InputActivity extends PreferenceActivity {
         mCamBtnMusicCtrlPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.CAMBTN_MUSIC_CONTROLS, 0) == 1);
 
+        mCustomLongMenuAppTogglePref = (CheckBoxPreference) prefSet.findPreference(INPUT_CUSTOM_LONG_MENU_APP_TOGGLE);
+        mCustomLongMenuAppTogglePref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.USE_CUSTOM_LONG_MENU_APP_TOGGLE, 0) == 1);
+
+        mUserDefinedLongPressMenu = (Preference) prefSet.findPreference(USER_DEFINED_LONG_PRESS_MENU);
+
         PreferenceCategory buttonCategory = (PreferenceCategory) prefSet
                 .findPreference(BUTTON_CATEGORY);
+        
+        PreferenceCategory generalCategory = (PreferenceCategory) prefSet
+        .findPreference("general_category");
 
         mUserDefinedKey1Pref = (Preference) prefSet.findPreference(USER_DEFINED_KEY1);
         mUserDefinedKey2Pref = (Preference) prefSet.findPreference(USER_DEFINED_KEY2);
@@ -116,6 +133,9 @@ public class InputActivity extends PreferenceActivity {
             buttonCategory.removePreference(mUserDefinedKey2Pref);
             buttonCategory.removePreference(mUserDefinedKey3Pref);
         }
+        if ("galaxysmtd".equals(Build.DEVICE)) {
+            generalCategory.removePreference((Preference) prefSet.findPreference("input_search_key"));
+        }
     }
 
     @Override
@@ -127,6 +147,8 @@ public class InputActivity extends PreferenceActivity {
                 Settings.System.USER_DEFINED_KEY2_APP));
         mUserDefinedKey3Pref.setSummary(Settings.System.getString(getContentResolver(),
                 Settings.System.USER_DEFINED_KEY3_APP));
+        mUserDefinedLongPressMenu.setSummary(Settings.System.getString(getContentResolver(),
+                Settings.System.USE_CUSTOM_LONG_MENU_APP_ACTIVITY));
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
@@ -160,8 +182,15 @@ public class InputActivity extends PreferenceActivity {
         } else if (preference == mUserDefinedKey3Pref) {
             pickShortcut(3);
             return true;
+        } else if (preference == mCustomLongMenuAppTogglePref) {
+            value = mCustomLongMenuAppTogglePref.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.USE_CUSTOM_LONG_MENU_APP_TOGGLE, value ? 1 : 0);
+            return true;
+        } else if (preference == mUserDefinedLongPressMenu) {
+        	pickShortcut(4);
+        	return true;
         }
-
         return false;
     }
 
@@ -232,6 +261,11 @@ public class InputActivity extends PreferenceActivity {
                     Settings.System.USER_DEFINED_KEY3_APP, intent.toUri(0))) {
                 mUserDefinedKey3Pref.setSummary(intent.toUri(0));
             }
+        } else if (keyNumber == 4) {
+                if (Settings.System.putString(getContentResolver(),
+                    Settings.System.USE_CUSTOM_LONG_MENU_APP_ACTIVITY, intent.toUri(0))) {
+                        mUserDefinedLongPressMenu.setSummary(intent.toUri(0));
+            }
         }
     }
 
@@ -251,6 +285,11 @@ public class InputActivity extends PreferenceActivity {
             if (Settings.System.putString(getContentResolver(),
                     Settings.System.USER_DEFINED_KEY3_APP, data.toUri(0))) {
                 mUserDefinedKey3Pref.setSummary(data.toUri(0));
+            }
+        } else if (keyNumber == 4) {
+                if (Settings.System.putString(getContentResolver(),
+                    Settings.System.USE_CUSTOM_LONG_MENU_APP_ACTIVITY, data.toUri(0))) {
+                        mUserDefinedLongPressMenu.setSummary(data.toUri(0));
             }
         }
 
