@@ -521,7 +521,6 @@
     <string name="gestures_button_add">Geste hinzufügen</string>
     <string name="gestures_button_discard">Verwerfen</string>
     <string name="gestures_button_done">Fertig</string>
-    <string name="gestures_shortcut_picker_button_label">Verknüpfung oder Aktivität für diese Geste auswählen</string>
     <string name="gestures_error_missing_shortcut">Es muss noch eine Aktion für die Geste gewählt werden!</string>
     <string name="gestures_save_success">Geste gespeichert in %s</string>
     <string name="gestures_cancel_action">Abbrechen</string>
@@ -536,7 +535,6 @@
     <string name="gestures_flashlight">Taschenlampe</string>
     <string name="pref_lockscreen_disable_unlock_tab">Entsperr-Slider verbergen</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Hinweis: Es muss Trackball-, MENÜ- oder Gesten-Entsperren aktiviert sein bevor diese Option möglich ist</string>
-    <string name="gestures_explain_create_screen">Aktion (oder Entsperren/Klingelton) auswählen und eine Geste auf den Bildschirm zeichnen.</string>
     <string name="gestures_already_present">Warnung: Diese Geste ist bereits mit einer anderen Aktion verknüpft!</string>
 
     <!-- Change Log strings -->
