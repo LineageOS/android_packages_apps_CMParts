@@ -24,6 +24,9 @@
         <CheckBoxPreference android:key="electron_beam_animation_off"
             android:title="@string/pref_electron_beam_animation_off" />
 
+        <CheckBoxPreference android:key="animate_screen_lights"
+            android:title="@string/pref_animate_screen_lights" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

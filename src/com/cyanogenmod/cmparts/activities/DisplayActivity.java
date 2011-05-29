@@ -40,6 +40,8 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
 
     private static final String ELECTRON_BEAM_ANIMATION_OFF = "electron_beam_animation_off";
 
+    private static final String ANIMATE_SCREEN_LIGHTS = "animate_screen_lights";
+
     private PreferenceScreen mBacklightScreen;
 
     /* Other */
@@ -48,6 +50,8 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
     private CheckBoxPreference mElectronBeamAnimationOn;
 
     private CheckBoxPreference mElectronBeamAnimationOff;
+
+    private CheckBoxPreference mAnimateScreenLights;
 
     private CheckBoxPreference mRotate180Pref;
 
@@ -86,6 +90,11 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
             prefSet.removePreference(mElectronBeamAnimationOff);
         }
 
+        mAnimateScreenLights = (CheckBoxPreference)prefSet.findPreference(ANIMATE_SCREEN_LIGHTS);
+        mAnimateScreenLights.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.ANIMATE_SCREEN_LIGHTS,
+                animateScreenLights ? 1 : 0) == 1);
+
         /* Rotate 180 */
         mRotate180Pref = (CheckBoxPreference) prefSet.findPreference(ROTATE_180_PREF);
         mRotate180Pref.setChecked(Settings.System.getInt(getContentResolver(),
@@ -109,6 +118,12 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
             value = mElectronBeamAnimationOff.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.ELECTRON_BEAM_ANIMATION_OFF, value ? 1 : 0);
+        }
+
+        if (preference == mAnimateScreenLights) {
+            value = mAnimateScreenLights.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.ANIMATE_SCREEN_LIGHTS, value ? 1 : 0);
         }
 
         if (preference == mRotate180Pref) {
