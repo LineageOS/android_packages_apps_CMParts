@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic -->    
     <string name="app_name">Настройки CyanogenMod</string>
 
@@ -14,7 +15,7 @@
     <string name="input_settings_title_subhead">Настройки ввода</string>
     <string name="input_settings_summary_head">Настройки ввода, кнопок, тактильного отклика</string>
     <string name="interface_settings_title_head">Интерфейс</string>
-    <string name="interface_settings_title_subhead">Настройки интерфейса</string>
+    <string name="interface_settings_title_subheaHide indicatord">Настройки интерфейса</string>
     <string name="interface_settings_summary_head">Настройки интерфейса, перепрокрутки, эффектов экрана</string>
     <string name="lockscreen_settings_title_head">Экран блокировки</string>
     <string name="lockscreen_settings_title_subhead">Настройки экрана блокировки</string>
@@ -384,6 +385,8 @@
     <string name="summary_expanded_widget">Показывать виджет с кнопками в выпадающей панели уведомлений</string>
     <string name="title_expanded_hide_onchange">Скрывать при изменении</string>
     <string name="summary_expanded_hide_onchange">Скрывать выпадающую панель после нажатия любой кнопки виджета</string>
+    <string name="title_expanded_hide_indicator">Скрыть индикатор</string>
+    <string name="summary_expanded_hide_indicator">Скрыть индикаторы кнопок в панели уведомлений</string>
     <string name="title_expanded_hide_scrollbar">Скрывать полосу прокрутки</string>
     <string name="summary_expanded_hide_scrollbar">Скрывать полосу прокрутки, когда присутствует больше максимально возможных кнопок в панели.</string>
     <string name="expanded_color_mask">Цвет индикатора</string>
@@ -526,7 +529,6 @@
     <string name="gestures_button_add">Добавить жест</string>
     <string name="gestures_button_discard">Отменить</string>
     <string name="gestures_button_done">Готово</string>
-    <string name="gestures_shortcut_picker_button_label">Выберите ярлык или действие для этого жеста</string>
     <string name="gestures_error_missing_shortcut">Вы должны выбрать действия для этого жеста!</string>
     <string name="gestures_save_success">Жест сохранен в %s</string>
     <string name="gestures_cancel_action">Отмена</string>
@@ -540,9 +542,12 @@
     <string name="gestures_toggle_sound">Перекл. звук</string>
     <string name="gestures_flashlight">Фонарик</string>
     <string name="pref_lockscreen_disable_unlock_tab">Отключить слайдер</string>
-    <string name="pref_lockscreen_disable_unlock_tab_summary">Примечание: Вы должны включить разблокировку посредством трекбола, кнопки menu или жест для того, чтобы эта опция была доступна</string>
-    <string name="gestures_explain_create_screen">Выберите действие (или \"Разблок.\" или \"Перекл. звук\") и нарисуйте жест на экране.</string>
+    <string name="pref_lockscreen_disable_unlock_tab_summary">Примечание: Вы должны включить разблокировку посредством трекбола, кнопки Меню или жеста для того, чтобы эта опция была доступна</string>
+    <string name="gestures_action_label">Действие:</string>
+	<string name="gestures_draw_label">Жест:</string>
+	<string name="gestures_draw_for_label">Жест для \"<xliff:g id="action">%s</xliff:g>\":</string>
     <string name="gestures_already_present">Внимание: похожий жест уже связан с другим действием!</string>
+    <string name="gestures_run_in_background">Запустить в фоне</string>
 
     <!-- Change Log strings -->
     <string name="changelog_title">Посмотреть список изменений</string>
