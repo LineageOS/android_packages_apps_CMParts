@@ -175,11 +175,24 @@
         <item>12 (最も狭い)</item>
     </string-array>
 
+    <string-array name="pref_lockscreen_gesture_action_entries">
+        <item>アンロック</item>
+        <item>サウンドトグル</item>
+        <item>ショートカットやアクティビティ</item>
+        <item>フラッシュライト</item>
+    </string-array>
+
     <string-array name="pref_lockscreen_style_entries">
         <item>スライディングタブ</item>
         <item>ロータリー</item>
         <item>ロータリー改</item>
         <item>レンズ</item>
+    </string-array>
+
+    <string-array name="pref_in_call_style_entries">
+        <item>スライディングタブ</item>
+        <item>ロータリー</item>
+        <item>ロータリー改</item>
     </string-array>
 
     <string-array name="pref_overscroll_effect_entries">
