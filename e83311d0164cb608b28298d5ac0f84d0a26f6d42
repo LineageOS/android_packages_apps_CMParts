@@ -16,6 +16,24 @@
       "revId": "e83311d0164cb608b28298d5ac0f84d0a26f6d42",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAGH///k0\u003d",
+        "filename": "res/xml/ui_power_widget_settings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1086
+      },
+      "writtenOn": "2011-06-01T10:48:37Z",
+      "side": 0,
+      "message": "The original file used tabs and I literally copied the code and incorporated my changes.",
+      "parentUuid": "AAAAF3///5E\u003d",
+      "revId": "e83311d0164cb608b28298d5ac0f84d0a26f6d42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
