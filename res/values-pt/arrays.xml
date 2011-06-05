@@ -239,4 +239,11 @@
         <item>Giratório</item>
         <item>Giratório renovado</item>
     </string-array>
+
+    <string-array name="pref_lockscreen_gesture_action_entries">
+        <item>Destravar telefone</item>
+        <item>Alterar som</item>
+        <item>Atalho ou atividade</item>
+        <item>Lanterna</item>
+    </string-array>
 </resources>
