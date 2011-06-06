@@ -73,6 +73,13 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
                 Settings.System.STATUS_BAR_COMPACT_CARRIER, 0) == 1));
         mStatusBarBrightnessControl.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_BRIGHTNESS_TOGGLE, 0) == 1));
+        try {
+            if (Settings.System.getInt(getContentResolver(), Settings.System.SCREEN_BRIGHTNESS_MODE) == Settings.System.SCREEN_BRIGHTNESS_MODE_AUTOMATIC){
+                mStatusBarBrightnessControl.setEnabled(false);
+                mStatusBarBrightnessControl.setSummary(R.string.ui_status_bar_toggle_info);
+            }
+        }catch (SettingNotFoundException e){
+        }
 
         mStatusBarAmPm = (ListPreference) prefSet.findPreference(PREF_STATUS_BAR_AM_PM);
         int statusBarAmPm = Settings.System.getInt(getContentResolver(),
