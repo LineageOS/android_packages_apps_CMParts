@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAGH//+8E\u003d",
+        "filename": "res/xml/long_press_menu.xml",
+        "patchSetId": 16
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-06-07T19:33:38Z",
+      "side": 1,
+      "message": "I wonder whether it would be better to use a single ListPreference (Use for keyboard/Use as search key/Start custom application) instead of the three check boxes.",
+      "revId": "4b13468ce1b95ac6c978f01f93f3bbb88e133cb9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
