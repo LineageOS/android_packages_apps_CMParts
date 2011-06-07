@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAGH//+8o\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/InputActivity.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-06-07T13:52:49Z",
+      "side": 1,
+      "message": "This should be converted to a has_search_button flag in xml, the same way as it\u0027s done for other devices. See e.g.\n\nhttps://github.com/CyanogenMod/android_vendor_cyanogen/blob/gingerbread/overlay/galaxysmtd/packages/apps/CMParts/res/values/config.xml",
+      "revId": "b58673e80da3d847ed8c8beeeac93332d1e6f161",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
