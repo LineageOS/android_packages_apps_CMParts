@@ -251,6 +251,13 @@
     <string name="pref_input_custom_long_search_app_toggle_title">Long-press search app</string>
     <string name="pref_input_custom_long_search_app_toggle_summary">Starts a custom app when long-pressing the search key</string>
 
+    <!-- Double tap home -->
+    <string name="input_double_tap_home_key_title">Double tap home behaviour</string>
+    <string name="input_double_tap_home_key_summary">Define custom actions for double tap on the home key</string>
+    <string name="pref_input_double_tap_home_key_toggle_title">Double tap home action</string>
+    <string name="pref_input_double_tap_home_key_toggle_summary">Starts a custom app when double tapping home key</string>
+    <string name="pref_input_double_tap_home_key_activity_title">Custom application</string>
+
     <!-- Long Press Home -->
     <string name="recent_apps_show_title">Show recent apps title</string>
     <string name="recent_apps_num_title">Number of recent apps</string>

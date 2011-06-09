@@ -45,6 +45,13 @@
                 <category android:name="com.cyanogenmod.cmparts.SHORTCUT" />
             </intent-filter>
         </activity>
+       <activity android:name=".activities.InputDoubleTapHomeActivity"
+            android:label="@string/input_search_key_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.cyanogenmod.cmparts.SHORTCUT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".activities.UIActivity"
             android:label="@string/ui_title">
             <intent-filter>
