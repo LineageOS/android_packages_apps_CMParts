@@ -45,12 +45,16 @@ public class ApplicationActivity extends PreferenceActivity implements OnPrefere
     private static final String MOVE_ALL_APPS_PREF = "pref_move_all_apps";
 
     private static final String ENABLE_PERMISSIONS_MANAGEMENT = "enable_permissions_management";
+    
+    private static final String EMAIL_EXCHANGE_POLICY_IGNORE = "email_exchange_policy_ignore";
 
     private static final String LOG_TAG = "CMParts";
 
     private static final int DIALOG_ENABLE_WARNING = 0;
 
     private static final int DIALOG_DISABLE_WARNING = 1;
+    
+    private static final int DIAGLOG_ENABLE_EXCHANGE_POLICY_WARNING = 2;
 
     private static final int ENABLE = 0;
     private final static int YES=1;
@@ -61,6 +65,8 @@ public class ApplicationActivity extends PreferenceActivity implements OnPrefere
     private ListPreference mInstallLocationPref;
 
     private CheckBoxPreference mEnableManagement;
+
+    private CheckBoxPreference mExchangePolicyIgnore;
 
     private IPackageManager mPm;
 
@@ -97,6 +103,12 @@ public class ApplicationActivity extends PreferenceActivity implements OnPrefere
                 Settings.Secure.ENABLE_PERMISSIONS_MANAGEMENT,
                 getResources().getBoolean(com.android.internal.R.bool.config_enablePermissionsManagement) ? 1 : 0) == 1);
         mEnableManagement.setOnPreferenceChangeListener(this);
+
+        mExchangePolicyIgnore = (CheckBoxPreference) prefSet.findPreference(EMAIL_EXCHANGE_POLICY_IGNORE);
+        mExchangePolicyIgnore.setChecked(Settings.Secure.getInt(getContentResolver(),
+                Settings.Secure.EMAIL_EXCHANGE_POLICY_IGNORE,
+                getResources().getBoolean(com.android.internal.R.bool.config_exchangePolicyIgnore) ? 1 : 0) == 1);
+        mExchangePolicyIgnore.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -137,6 +149,24 @@ public class ApplicationActivity extends PreferenceActivity implements OnPrefere
                         Settings.Secure.ENABLE_PERMISSIONS_MANAGEMENT, 0);
                 mEnableManagement.setChecked(false);
             }
+        } else if (preference == mExchangePolicyIgnore) {
+            //final boolean value = mExchangePolicyIgnore.isChecked();
+            if (((Boolean)newValue).booleanValue()) {
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            showDialog(DIAGLOG_ENABLE_EXCHANGE_POLICY_WARNING);
+                        } catch (Throwable e) {
+                            e.printStackTrace();
+                        }
+                    }
+                });
+            } else {
+                Settings.Secure.putInt(getContentResolver(),
+                        Settings.Secure.EMAIL_EXCHANGE_POLICY_IGNORE, 0);
+                mExchangePolicyIgnore.setChecked(false);
+            }
         }
         return false;
     }
@@ -144,12 +174,13 @@ public class ApplicationActivity extends PreferenceActivity implements OnPrefere
     @Override
     protected Dialog onCreateDialog(int id) {
         final AlertDialog ad = new AlertDialog.Builder(this).create();
+        final Handler handler;
         switch (id) {
             case DIALOG_ENABLE_WARNING:
                 ad.setTitle(getResources().getString(R.string.perm_enable_warning_title));
                 ad.setMessage(getResources().getString(R.string.perm_enable_warning_message));
                 ad.setCancelable(false);
-                final Handler handler = new Handler() {
+                handler = new Handler() {
                     public void handleMessage(final Message msg) {
                         switch (msg.what) {
                             case ENABLE:
@@ -171,6 +202,56 @@ public class ApplicationActivity extends PreferenceActivity implements OnPrefere
                                 mEnableManagement.setChecked(false);
                                 Settings.Secure.putInt(getContentResolver(),
                                         Settings.Secure.ENABLE_PERMISSIONS_MANAGEMENT, 0);
+                                break;
+                        }
+                    }
+                };
+
+                ad.setOnShowListener(new DialogInterface.OnShowListener() {
+                    @Override
+                    public void onShow(DialogInterface dialog) {
+                        Button b = ad.getButton(DialogInterface.BUTTON_POSITIVE);
+                        b.setEnabled(false);
+                        b = ad.getButton(DialogInterface.BUTTON_NEGATIVE);
+                        b.setEnabled(false);
+                        handler.sendMessageDelayed(handler.obtainMessage(ENABLE), 1000);
+                    }
+                });
+
+                // ad.takeKeyEvents(false);
+                ad.setButton(DialogInterface.BUTTON_POSITIVE,
+                        getResources().getString(com.android.internal.R.string.yes),
+                        handler.obtainMessage(YES));
+                ad.setButton(DialogInterface.BUTTON_NEGATIVE,
+                        getResources().getString(com.android.internal.R.string.no),
+                        handler.obtainMessage(NO));
+                return ad;
+            case DIAGLOG_ENABLE_EXCHANGE_POLICY_WARNING:
+                ad.setTitle(getResources().getString(R.string.exchange_policy_warning_title));
+                ad.setMessage(getResources().getString(R.string.exchange_policy_warning_message));
+                ad.setCancelable(false);
+                handler = new Handler() {
+                    public void handleMessage(final Message msg) {
+                        switch (msg.what) {
+                            case ENABLE:
+                                Button b = ad.getButton(DialogInterface.BUTTON_POSITIVE);
+                                if (b != null) {
+                                    b.setEnabled(true);
+                                }
+                                b = ad.getButton(DialogInterface.BUTTON_NEGATIVE);
+                                if (b != null) {
+                                    b.setEnabled(true);
+                                }
+                                break;
+                            case YES:
+                                mExchangePolicyIgnore.setChecked(true);
+                                Settings.Secure.putInt(getContentResolver(),
+                                        Settings.Secure.EMAIL_EXCHANGE_POLICY_IGNORE, 1);
+                                break;
+                            case NO:
+                                mExchangePolicyIgnore.setChecked(false);
+                                Settings.Secure.putInt(getContentResolver(),
+                                        Settings.Secure.EMAIL_EXCHANGE_POLICY_IGNORE, 0);
                                 break;
                         }
                     }

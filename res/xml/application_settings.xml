@@ -28,6 +28,15 @@
                     android:targetPackage="com.cyanogenmod.cmparts"
                     android:targetClass="com.cyanogenmod.cmparts.activities.PhoneGogglesActivity" />
         </Preference>
+    </PreferenceCategory>
+
+    <!-- Email settings -->
+    <PreferenceCategory android:key="email_category"
+        android:title="@string/email_title">
+
+        <CheckBoxPreference android:key="email_exchange_policy_ignore"
+            android:title="@string/email_exchange_policy_ignore"
+            android:summary="@string/email_exchange_policy_ignore_summary" />
 
     </PreferenceCategory>
 </PreferenceScreen>
