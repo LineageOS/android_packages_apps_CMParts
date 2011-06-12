@@ -7,7 +7,7 @@
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Application</string>
     <string name="application_settings_title_subhead">Application settings</string>
-    <string name="application_settings_summary_head">Application moving, install location, communication filtering</string>
+    <string name="application_settings_summary_head">Application moving, install location, communication filtering, and configuration</string>
     <string name="display_settings_title_head">Display</string>
     <string name="display_settings_title_subhead">Display settings</string>
     <string name="display_settings_summary_head">Display animations, rotation, timeouts</string>
@@ -358,6 +358,7 @@
 
     <string name="general_title">General</string>
     <string name="buttons_title">Buttons</string>
+    <string name="email_title">Email</string>
 
     <!-- UI Settings : Power off prompt -->
     <string name="pref_power_prompt_title">Power prompt</string>
@@ -625,4 +626,9 @@
     <string name="perm_enable_warning_message">Warning!\nRevoking most permissions will most likely cause applications to malfunction. If an application with revoked permissions force-closes please grant the expected permissions or don\'t use the application.\nPlease DO NOT send bug reports to Cyanogenmod if an application with revoked permissions is not working as expected!</string>
     <string name="perm_enable_warning_title">Are you sure?</string>
 
+	<!--  Email Management Settings strings -->
+    <string name="email_exchange_policy_ignore">Exchange Policies</string>
+    <string name="email_exchange_policy_ignore_summary">Enable the email application to ignore Exchange security policies which are not supported by this device.</string>
+    <string name="exchange_policy_warning_message">Warning!\n\nDisabling validation and enforcement of security policy on your device may violate your corporate policy or email hosting agreement!\n\nAre you sure you want to disable this security check?</string>
+    <string name="exchange_policy_warning_title">Are you sure?</string>
 </resources>
