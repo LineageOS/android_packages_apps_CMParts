@@ -79,9 +79,13 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
 
     private static final String LOCK_MMS_PREF = "pref_lock_mms";
 
+    private static final String LOCK_PHONE_PREF = "pref_lock_phone";
+
     private static final int LOCK_HOME_DEFAULT = 0;
 
     private static final int LOCK_MMS_DEFAULT = 0;
+
+    private static final int LOCK_PHONE_DEFAULT = 0;
 
     private ListPreference mCompcachePref;
 
@@ -94,6 +98,8 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
     private CheckBoxPreference mLockHomePref;
 
     private CheckBoxPreference mLockMmsPref;
+
+    private CheckBoxPreference mLockPhonePref;
 
     private ListPreference mHeapsizePref;
 
@@ -149,6 +155,10 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
         mLockMmsPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCK_MMS_IN_MEMORY, LOCK_MMS_DEFAULT) == 1);
 
+        mLockPhonePref = (CheckBoxPreference) prefSet.findPreference(LOCK_PHONE_PREF);
+        mLockPhonePref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCK_PHONE_IN_MEMORY, LOCK_PHONE_DEFAULT) == 1);
+
         // Set up the warning
         alertDialog = new AlertDialog.Builder(this).create();
         alertDialog.setTitle(R.string.performance_settings_warning_title);
@@ -192,6 +202,12 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
         if (preference == mLockMmsPref) {
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCK_MMS_IN_MEMORY, mLockMmsPref.isChecked() ? 1 : 0);
+            return true;
+        }
+
+        if (preference == mLockPhonePref) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCK_PHONE_IN_MEMORY, mLockPhonePref.isChecked() ? 1 : 0);
             return true;
         }
 
