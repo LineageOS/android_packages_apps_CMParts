@@ -17,6 +17,13 @@
             android:entries="@array/pref_lockscreen_delay_entries"
             android:entryValues="@array/pref_lockscreen_delay_values" />
 
+        <ListPreference android:key="pref_lockscreen_screenon_timeout"
+            android:dialogTitle="@string/pref_lockscreen_delay_title"
+            android:title="@string/pref_lockscreen_screenon_timeout"
+            android:summary="@string/pref_lockscreen_screenon_timeout_summary"
+            android:entries="@array/pref_lockscreen_screenon_timeout_entries"
+            android:entryValues="@array/pref_lockscreen_screenon_timeout_values" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

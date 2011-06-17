@@ -33,9 +33,13 @@ public class LockscreenTimeoutActivity extends PreferenceActivity implements
 
     private static final String LOCKSCREEN_SCREENOFF_DELAY_PREF = "pref_lockscreen_screenoff_delay";
 
+    private static final String LOCKSCREEN_SCREENON_TIMEOUT_PREF = "pref_lockscreen_screenon_timeout";
+
     private ListPreference mScreenLockTimeoutDelayPref;
 
     private ListPreference mScreenLockScreenOffDelayPref;
+
+    private ListPreference mLockScreenTimeoutPref;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -61,6 +65,12 @@ public class LockscreenTimeoutActivity extends PreferenceActivity implements
         mScreenLockScreenOffDelayPref.setValue(String.valueOf(screenOffDelay));
         mScreenLockScreenOffDelayPref.setOnPreferenceChangeListener(this);
 
+        mLockScreenTimeoutPref = (ListPreference) prefSet
+                .findPreference(LOCKSCREEN_SCREENON_TIMEOUT_PREF);
+        int screenTimeout = Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_SCREENON_TIMEOUT, 5000);
+        mLockScreenTimeoutPref.setValue(String.valueOf(screenTimeout));
+        mLockScreenTimeoutPref.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -73,6 +83,11 @@ public class LockscreenTimeoutActivity extends PreferenceActivity implements
             int screenOffDelay = Integer.valueOf((String) newValue);
             Settings.System.putInt(getContentResolver(),
                     Settings.System.SCREEN_LOCK_SCREENOFF_DELAY, screenOffDelay);
+            return true;
+        } else if (preference == mLockScreenTimeoutPref) {
+            int screenTimeout = Integer.valueOf((String) newValue);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_SCREENON_TIMEOUT, screenTimeout);
             return true;
         }
         return false;

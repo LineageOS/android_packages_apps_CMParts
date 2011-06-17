@@ -616,4 +616,22 @@
         <item>4</item>
     </string-array>
 
+    <string-array name="pref_lockscreen_screenon_timeout_entries">
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>25s</item>
+        <item>30s</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_screenon_timeout_values" translatable="false">
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>25000</item>
+        <item>30000</item>
+    </string-array>
+
 </resources>
