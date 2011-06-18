@@ -48,6 +48,12 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
     private static final String ROTATION_180_PREF = "pref_rotation_180";
     private static final String ROTATION_270_PREF = "pref_rotation_270";
 
+    private static final int ROTATION_0_INTRODUCED_BM = 16;
+    private static final int ROTATION_0_BM = 8;
+    private static final int ROTATION_90_BM = 1;
+    private static final int ROTATION_180_BM = 2;
+    private static final int ROTATION_270_BM = 4;
+
     private CheckBoxPreference mElectronBeamAnimationOn;
 
     private CheckBoxPreference mElectronBeamAnimationOff;
@@ -98,11 +104,12 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
         mRotation180Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_180_PREF);
         mRotation270Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_270_PREF);
         int mode = Settings.System.getInt(getContentResolver(),
-                        Settings.System.ACCELEROMETER_ROTATION_MODE, 13);
-        mRotation0Pref.setChecked((mode & 8) != 0);
-        mRotation90Pref.setChecked((mode & 1) != 0);
-        mRotation180Pref.setChecked((mode & 2) != 0);
-        mRotation270Pref.setChecked((mode & 4) != 0);
+                        Settings.System.ACCELEROMETER_ROTATION_MODE,
+                        ROTATION_0_INTRODUCED_BM|ROTATION_0_BM|ROTATION_90_BM|ROTATION_270_BM);
+        mRotation0Pref.setChecked((mode & ROTATION_0_BM) != 0 || (mode & ROTATION_0_INTRODUCED_BM) == 0);
+        mRotation90Pref.setChecked((mode & ROTATION_90_BM) != 0);
+        mRotation180Pref.setChecked((mode & ROTATION_180_BM) != 0);
+        mRotation270Pref.setChecked((mode & ROTATION_270_BM) != 0);
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
@@ -128,13 +135,13 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
             preference == mRotation90Pref ||
             preference == mRotation180Pref ||
             preference == mRotation270Pref) {
-            int mode = 0;
-            if (mRotation0Pref.isChecked()) mode |= 8;
-            if (mRotation90Pref.isChecked()) mode |= 1;
-            if (mRotation180Pref.isChecked()) mode |= 2;
-            if (mRotation270Pref.isChecked()) mode |= 4;
-            if (mode == 0) {
-                mode |= 8;
+            int mode = ROTATION_0_INTRODUCED_BM;
+            if (mRotation0Pref.isChecked()) mode |= ROTATION_0_BM;
+            if (mRotation90Pref.isChecked()) mode |= ROTATION_90_BM;
+            if (mRotation180Pref.isChecked()) mode |= ROTATION_180_BM;
+            if (mRotation270Pref.isChecked()) mode |= ROTATION_270_BM;
+            if (mode == ROTATION_0_INTRODUCED_BM) {
+                mode |= ROTATION_0_BM;
                 mRotation0Pref.setChecked(true);
             }
             Settings.System.putInt(getContentResolver(),
