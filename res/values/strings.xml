@@ -315,6 +315,9 @@
     <string name="pref_input_custom_long_search_app_toggle_title">Long-press search app</string>
     <string name="pref_input_custom_long_search_app_toggle_summary">Starts a custom app when long-pressing the search key</string>
 
+    <string name="pref_backtrack_title">BackTrack Minipad</string>
+    <string name="pref_backtrack_summary">Enable/disable BackTrack Minipad</string>
+
     <!-- Long Press Menu -->
     <string name="long_press_menu_title">Long-press menu settings</string>
     <string name="long_press_menu_summary">Custom setting for long press menu</string>

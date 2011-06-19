@@ -20,4 +20,7 @@
 
     <!-- Whether or not to display search button settings -->
     <bool name="has_search_button">true</bool>
+
+    <!--Whether or not  -->
+    <bool name="has_backtrack_minipad">false</bool>
 </resources>

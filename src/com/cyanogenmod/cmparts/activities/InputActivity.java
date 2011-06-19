@@ -21,6 +21,7 @@ import java.util.ArrayList;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.SystemProperties;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
@@ -49,6 +50,10 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
 
     private static final String USER_DEFINED_KEY3 = "pref_user_defined_key3";
 
+    private static final String BACKTRACK_MINIPAD_PREF = "pref_backtrack";
+
+    private static final String BACKTRACK_PROP = "persist.service.backtrack";
+
     private CheckBoxPreference mTrackballWakePref;
 
     private CheckBoxPreference mVolumeWakePref;
@@ -62,6 +67,8 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
     private Preference mUserDefinedKey2Pref;
 
     private Preference mUserDefinedKey3Pref;
+
+    private CheckBoxPreference mBackTrackPref;
 
     private ShortcutPickHelper mPicker;
 
@@ -94,6 +101,10 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
         mCamBtnMusicCtrlPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.CAMBTN_MUSIC_CONTROLS, 0) == 1);
 
+        /* Backtrack Minipad */
+        mBackTrackPref = (CheckBoxPreference) prefSet.findPreference(BACKTRACK_MINIPAD_PREF);
+        mBackTrackPref.setChecked(SystemProperties.getInt(BACKTRACK_PROP, 0) == 1);
+
         PreferenceCategory buttonCategory = (PreferenceCategory) prefSet
                 .findPreference(BUTTON_CATEGORY);
 
@@ -115,8 +126,12 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
             buttonCategory.removePreference(mUserDefinedKey2Pref);
             buttonCategory.removePreference(mUserDefinedKey3Pref);
         }
-        if (!getResources().getBoolean(R.bool.has_search_button))
+        if (!getResources().getBoolean(R.bool.has_search_button)) {
                 generalCategory.removePreference((Preference) prefSet.findPreference("input_search_key"));
+        }
+        if (!getResources().getBoolean(R.bool.has_backtrack_minipad)) {
+                generalCategory.removePreference(mBackTrackPref);
+        }
 
         mPicker = new ShortcutPickHelper(this, this);
     }
@@ -174,6 +189,9 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
             mKeyNumber = 3;
             mPicker.pickShortcut();
             return true;
+        } else if (preference == mBackTrackPref) {
+            value = mBackTrackPref.isChecked();
+            SystemProperties.set(BACKTRACK_PROP, value ? String.valueOf(1) : String.valueOf(0));
         }
 
         return false;
