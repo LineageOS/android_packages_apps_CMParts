@@ -16,6 +16,7 @@
 
 package com.cyanogenmod.cmparts.activities;
 
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 
 import android.content.Intent;
@@ -28,6 +29,8 @@ import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
+import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
 
 import com.cyanogenmod.cmparts.R;
 
@@ -204,8 +207,7 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
     public void onResume() {
         super.onResume();
 
-        mCustomAppActivityPref.setSummary(Settings.System.getString(getContentResolver(),
-                Settings.System.LOCKSCREEN_CUSTOM_APP_ACTIVITY));
+        mCustomAppActivityPref.setSummary(getCustomAppName());
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
@@ -310,7 +312,7 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         if (keyNumber == 4) {
             if (Settings.System.putString(getContentResolver(),
                     Settings.System.LOCKSCREEN_CUSTOM_APP_ACTIVITY, intent.toUri(0))) {
-                mCustomAppActivityPref.setSummary(intent.toUri(0));
+                mCustomAppActivityPref.setSummary(getCustomAppName());
             }
         }
     }
@@ -320,8 +322,8 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         if (keyNumber == 4) {
             if (Settings.System.putString(getContentResolver(),
                     Settings.System.LOCKSCREEN_CUSTOM_APP_ACTIVITY, data.toUri(0))) {
-                mCustomAppActivityPref.setSummary(data.toUri(0));
-            }
+                mCustomAppActivityPref.setSummary(getCustomAppName());
+             }
         }
     }
 
@@ -371,5 +373,28 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         value = mCustomIconStyle.isChecked();
         Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_CUSTOM_ICON_STYLE,
                 value ? 2 : 1);
+    }
+    
+    // Retrieve Custom App Name from Preferences
+    private String getCustomAppName()
+    {
+        Intent i;
+        
+        String mCustomAppActivity = Settings.System.getString(getContentResolver(),
+                Settings.System.LOCKSCREEN_CUSTOM_APP_ACTIVITY);
+
+        if (mCustomAppActivity != null) {
+            try {
+                i = Intent.parseUri(Settings.System.getString(getContentResolver(),
+                        Settings.System.LOCKSCREEN_CUSTOM_APP_ACTIVITY), 0);
+                PackageManager pm = getPackageManager();
+                ActivityInfo ai = i.resolveActivityInfo(pm,PackageManager.GET_ACTIVITIES);
+                return ai.loadLabel(pm).toString();
+            } catch (URISyntaxException e) {
+                return null;
+            }
+        }
+
+        return null;
     }
 }
