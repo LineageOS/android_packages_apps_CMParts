@@ -101,6 +101,7 @@ public class ShortcutPickHelper {
     }
 
     private void completeSetCustomApp(Intent data) {
+        data.putExtra(Intent.EXTRA_SHORTCUT_NAME, getFriendlyActivityName(data,false));
         mListener.shortcutPicked(data.toUri(0), getFriendlyActivityName(data, false), true);
     }
 
