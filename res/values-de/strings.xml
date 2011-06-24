@@ -243,8 +243,8 @@
     <string name="haptic_title">Haptisches Feedback</string>
     <string name="haptic_summary">Anpassungen für Stärke und Auftreten des haptischen Feedbacks (HF)</string>
     <string name="button_settings_title">Tasteneinstellungen</string>
-    <string name="long_press_home_title">HOME Gedrückt halten</string>
-    <string name="long_press_home_summary">Anzahl letzter Apps, etc...</string>
+    <string name="long_press_home_title">Home-Taste</string>
+    <string name="long_press_home_summary">Aktion für das Gedrückt halten der Home-Taste anpassen</string>
     <string name="input_search_key_title">Suchen-Taste</string>
     <string name="input_search_key_summary">Aktion für das Drücken der Suchen-Taste anpassen</string>
     <string name="pref_input_custom_search_app_toggle_title">App mit Suchen-Taste verknüpfen</string>
@@ -252,6 +252,13 @@
     <string name="pref_input_custom_search_app_activity_title">App festlegen</string>
     <string name="pref_input_custom_long_search_app_toggle_title">Suchen-Taste gedrückt halten</string>
     <string name="pref_input_custom_long_search_app_toggle_summary">Starten einer festgelegten Anwendung beim Gedrückt halten der Suchen-Taste</string>
+
+    <!-- Long Press Menu -->
+    <string name="long_press_menu_title">Menü-Taste</string>
+    <string name="long_press_menu_summary">Aktion für das Gedrückt halten der Menü-Taste anpassen</string>
+    <string name="pref_user_defined_long_press_menu_title">Wähle andere Anwendung</string>
+    <string name="pref_long_press_menu_title">Wähle Aktion</string>
+    <string name="pref_long_press_menu_summary">Gedrückt halten der Menü-Taste anpassen</string>
 
     <!-- Long Press Home -->
     <string name="recent_apps_show_title">Titel für letzte Apps zeigen</string>
