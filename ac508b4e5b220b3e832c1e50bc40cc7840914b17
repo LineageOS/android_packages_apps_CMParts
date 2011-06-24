@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAHH///Jk\u003d",
+        "filename": "res/values-de/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 1119
+      },
+      "writtenOn": "2011-06-24T23:33:38Z",
+      "side": 1,
+      "message": "Jo, da hab ich lange überlegt. Aber \"Benutzerdef. Anwendung\" wurde bei mir umgebrochen, was komisch aussah. Aber \"Eigene Anwendung find ich gut.",
+      "parentUuid": "AAAAHH///Jw\u003d",
+      "revId": "ac508b4e5b220b3e832c1e50bc40cc7840914b17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHH///Js\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
