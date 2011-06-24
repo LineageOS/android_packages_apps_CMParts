@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHH///Jw\u003d",
+        "filename": "res/values-de/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-06-24T23:19:34Z",
+      "side": 1,
+      "message": "Auch möglich:\n\u0027Eigene Anwendung\u0027\n\u0027Benutzerdefinierte Anwendung\u0027\n\u0027Anwendung\u0027\n\n\u0027Andere\u0027 ist IMO etwas undeutlich....",
+      "revId": "ac508b4e5b220b3e832c1e50bc40cc7840914b17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHH///Js\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-06-24T23:19:34Z",
+      "side": 1,
+      "message": "Besser wäre IMO:\nVerhalten beim Gedrückt halten der Menü-Taste anpassen\n\n(wäre eventuell \u0027beim langen Drücken\u0027 besser als \u0027beim Gedrückt halten\u0027?)",
+      "revId": "ac508b4e5b220b3e832c1e50bc40cc7840914b17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
