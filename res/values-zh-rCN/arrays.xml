@@ -35,31 +35,6 @@
         <item>无 (默认)</item>
     </string-array>
 
-    <string-array name="entries_render_effect">
-        <item>无渲染效果</item>
-        <item>夜间模式 (红色)</item>
-        <item>终端模式 (绿色)</item>
-        <item>蓝色</item>
-        <item>琥珀</item>
-        <item>三文鱼色 (粉红)</item>
-        <item>金钟花色 (紫红)</item>
-        <item>优化颜色 (N1)</item>
-        <item>优化颜色 (N1) 减少红色</item>
-        <item>优化颜色 (N1) 冷色</item>
-    </string-array>
-
-    <string-array name="render_entries">
-        <item>夜间模式 (红色)</item>
-        <item>终端模式 (绿色)</item>
-        <item>蓝色</item>
-        <item>琥珀</item>
-        <item>三文鱼色 (粉红)</item>
-        <item>金钟花色 (紫红)</item>
-        <item>优化颜色 (N1)</item>
-        <item>优化颜色 (N1) 减少红色</item>
-        <item>优化颜色 (N1) 冷色</item>
-    </string-array>
-
     <string-array name="entries_trackball_colors">
         <item>绿色</item>
         <item>白色</item>

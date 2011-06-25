@@ -379,15 +379,32 @@
     <string name="renderfx_temp">RenderFX</string>
     <string name="prefs_render_effect">Render Effect</string>
     <string name="notify_render_effect">Render effect aktywny</string>
-        <string name="add_widget">Dodaj widżet</string>
+    <string name="add_widget">Dodaj widżet</string>
+    <string name="pref_render_effect_none">Bez efektu</string>
+    <string name="pref_render_effect_night">Tryb nocny (3700K)</string>
+    <string name="pref_render_effect_green">Terminal (zielony)</string>
+    <string name="pref_render_effect_blue">Niebieski</string>
+    <string name="pref_render_effect_amber">Bursztynowy</string>
+    <string name="pref_render_effect_salmon">Łososiowy</string>
+    <string name="pref_render_effect_fuscia">Fuksja</string>
+    <string name="pref_render_effect_calibrated">Skalibrowany (N1)</string>
+    <string name="pref_render_effect_calibrated_red">Skalibrowany (N1) Niska Czerwień</string>
+    <string name="pref_render_effect_calibrated_cool">Skalibrowany (N1) Chłodny</string>
+    <string name="pref_render_effect_red">Czerwony</string>
+
 
     <!--  Widget Types -->
-    <string name="night">Noc</string>
-    <string name="terminal">Term</string>
-    <string name="blue">Niebieski</string>
-    <string name="amber">Bursztyn</string>
-    <string name="salmon">Łosoś</string>
-    <string name="fuscia">Fuksja</string>
+    <string name="widget_render_effect_night">Noc</string>
+    <string name="widget_render_effect_terminal">Term</string>
+    <string name="widget_render_effect_blue">Niebieski</string>
+    <string name="widget_render_effect_amber">Bursztyn</string>
+    <string name="widget_render_effect_salmon">Łosoś</string>
+    <string name="widget_render_effect_fuscia">Fuksja</string>
+    <string name="widget_render_effect_red">Czerwony</string>
+    <string name="widget_render_effect_calibrated">Skali</string>
+    <string name="widget_render_effect_calibrated_red">Skali Czerwień</string>
+    <string name="widget_render_effect_calibrated_cool">Skali Chłodny</string>
+
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Widżety obszaru powiadomień</string>
