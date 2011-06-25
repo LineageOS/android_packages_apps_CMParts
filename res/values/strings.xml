@@ -389,6 +389,7 @@
     <string name="amber">Amber</string>
     <string name="salmon">Salmon</string>
     <string name="fuscia">Fuscia</string>
+    <string name="red">Red</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Expanded View Widget</string>

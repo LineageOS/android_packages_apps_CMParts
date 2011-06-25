@@ -374,6 +374,7 @@
     <string name="amber">アンバー</string>
     <string name="salmon">サーモン</string>
     <string name="fuscia">フューシャ</string>
+    <string name="red">赤</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">通知領域ウィジェット</string>

@@ -31,7 +31,7 @@
 
     <string-array name="entries_render_effect">
         <item>Sem efeito</item>
-        <item>Modo nocturno (vermelho)</item>
+        <item>Modo nocturno (3700K)</item>
         <item>Terminal (verde)</item>
         <item>Azul</item>
         <item>Âmbar</item>
@@ -40,10 +40,11 @@
         <item>Calibrado (N1)</item>
         <item>Calibrado (N1) avermelhado</item>
         <item>Calibrado (N1) frio</item>
+	<item>Vermelho</item>
     </string-array>
 
     <string-array name="render_entries">
-        <item>Modo nocturno (vermelho)</item>
+        <item>Modo nocturno (3700K)</item>
         <item>Terminal (verde)</item>
         <item>Azul</item>
         <item>Âmbar</item>
@@ -52,6 +53,7 @@
         <item>Calibrado (N1)</item>
         <item>Calibrado (N1) avermelhado</item>
         <item>Calibrado (N1) frio</item>
+	<item>Vermelho</item>
     </string-array>
 
     <string-array name="entries_trackball_colors">

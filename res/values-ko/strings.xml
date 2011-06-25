@@ -222,6 +222,7 @@
     <string name="amber">주황</string>
     <string name="salmon">황색</string>
     <string name="fuscia">자주색</string>
+    <string name="red">빨강색</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">확장된 위젯</string>

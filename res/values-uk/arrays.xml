@@ -27,7 +27,7 @@
     </string-array>
     <string-array name="entries_render_effect">
         <item>Без ефектів візуалізації</item>
-        <item>Нічний режим (червоний)</item>
+        <item>Нічний режим (3700K)</item>
         <item>Термінал (зелений)</item>
         <item>Синій</item>
         <item>Бурштиновий</item>
@@ -36,9 +36,10 @@
         <item>Калібрований (N1)</item>
         <item>Калібрований (N1) мало червоного</item>
         <item>Калібрований (N1) холодний</item>
+	<item>червоний</item>
     </string-array>
     <string-array name="render_entries">
-        <item>Нічний режим (червоний)</item>
+        <item>Нічний режим (3700K)</item>
         <item>Термінал (зелений)</item>
         <item>Синій</item>
         <item>Бурштиновий</item>
@@ -47,6 +48,7 @@
         <item>Калібрований (N1)</item>
         <item>Калібрований (N1) мало червоного</item>
         <item>Калібрований (N1) холодний</item>
+	<item>червоний</item>
     </string-array>
     <string-array name="entries_trackball_colors">
         <item>Зелений</item>

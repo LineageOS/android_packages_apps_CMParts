@@ -387,6 +387,7 @@
     <string name="amber">琥珀</string>
     <string name="salmon">粉红</string>
     <string name="fuscia">紫红</string>
+    <string name="red">红色</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">扩展视图控件</string>

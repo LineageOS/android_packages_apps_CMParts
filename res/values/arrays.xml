@@ -57,7 +57,7 @@
 
     <string-array name="entries_render_effect">
         <item>No render effect</item>
-        <item>Night mode (red)</item>
+        <item>Night mode (3700K)</item>
         <item>Terminal (green)</item>
         <item>Blue</item>
         <item>Amber</item>
@@ -66,6 +66,7 @@
         <item>Calibrated (N1)</item>
         <item>Calibrated (N1) Low Red</item>
         <item>Calibrated (N1) Cool</item>
+        <item>Red</item>
     </string-array>
 
     <string-array name="values_render_effect" translatable="false">
@@ -79,10 +80,11 @@
         <item>7</item>
         <item>8</item>
         <item>9</item>
+        <item>10</item>
     </string-array>
 
     <string-array name="render_entries">
-        <item>Night Mode (Red)</item>
+        <item>Night Mode (3700K)</item>
         <item>Terminal (Green)</item>
         <item>Blue</item>
         <item>Amber</item>
@@ -91,6 +93,7 @@
         <item>Calibrated (N1)</item>
         <item>Calibrated (N1) Low Red</item>
         <item>Calibrated (N1) Cool</item>
+        <item>Red</item>
     </string-array>
 
     <string-array name="render_values" translatable="false">
@@ -103,6 +106,7 @@
         <item>7</item>
         <item>8</item>
         <item>9</item>
+        <item>10</item>
     </string-array>
 
     <string-array name="entries_trackball_colors">

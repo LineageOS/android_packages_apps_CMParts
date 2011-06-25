@@ -25,7 +25,7 @@
 
     <string-array name="entries_render_effect">
         <item>エフェクトなし</item>
-        <item>ナイトモード (赤)</item>
+        <item>ナイトモード (3700K)</item>
         <item>ターミナル (緑)</item>
         <item>ブルー</item>
         <item>アンバー</item>
@@ -34,10 +34,11 @@
         <item>調整済み(N1)</item>
         <item>調整済み(N1) Low Red</item>
         <item>調整済み(N1) Cold</item>
+	<item>赤</item>
     </string-array>
 
     <string-array name="render_entries">
-        <item>ナイトモード (赤)</item>
+        <item>ナイトモード (3700K)</item>
         <item>ターミナル (緑)</item>
         <item>ブルー</item>
         <item>アンバー</item>
@@ -46,6 +47,7 @@
         <item>調整済み(N1)</item>
         <item>調整済み(N1) Low Red</item>
         <item>調整済み(N1) Cold</item>
+	<item>赤</item>
     </string-array>
 
     <string-array name="entries_trackball_colors">

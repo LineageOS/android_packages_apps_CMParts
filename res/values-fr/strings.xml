@@ -272,6 +272,7 @@
     <string name="amber">Ambre</string>
     <string name="salmon">Saumon</string>
     <string name="fuscia">Fuchsia</string>
+    <string name="red">Rouge</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Boutons à afficher sur le widget</string>

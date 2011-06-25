@@ -300,6 +300,7 @@
   <string name="amber">Бурштиновий</string>
   <string name="salmon">Оранжево-рожевий</string>
   <string name="fuscia">Синяво-рожевий</string>
+  <string name="red">червоний</string>
   <string name="title_widget_buttons">Кнопки віджету панелі</string>
   <string name="title_expanded_widget">Віджет панелі сповіщень</string>
   <string name="summary_expanded_widget">Використання віджета панелі сповіщень</string>

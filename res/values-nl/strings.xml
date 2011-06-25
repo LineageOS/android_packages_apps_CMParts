@@ -366,12 +366,13 @@
         <string name="add_widget">Voeg widget toe</string>
 
     <!--  Widget Types -->
-    <string name="night">Nachtmodus (rood)</string>
+    <string name="night">Nachtmodus</string>
     <string name="terminal">Terminal (groen)</string>
     <string name="blue">Blauw</string>
     <string name="amber">Oranje</string>
     <string name="salmon">Zalm</string>
     <string name="fuscia">Paars</string>
+    <string name="red">Rood</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Meldingen scherm widget</string>

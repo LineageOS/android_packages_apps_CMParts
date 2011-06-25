@@ -24,7 +24,7 @@
 
     <string-array name="entries_render_effect">
         <item>Sense efectes de render</item>
-        <item>Mode nocturn (vermell)</item>
+        <item>Mode nocturn (3700K)</item>
         <item>Terminal (verd)</item>
         <item>Blau</item>
         <item>Ambre</item>
@@ -33,10 +33,11 @@
 	    <item>Calibrat (N1)</item>
 	    <item>Calibrat (N1) Vermell</item>
 	    <item>Calibrat (N1) Fred</item>
+	<item>Vermell</item>
     </string-array>
 
 	<string-array name="render_entries">
-        <item>Mode nocturn (vermell)</item>
+        <item>Mode nocturn (3700K)</item>
         <item>Terminal (verd)</item>
         <item>Blau</item>
         <item>Ambre</item>
@@ -45,6 +46,7 @@
 	    <item>Calibrat (N1)</item>
 	    <item>Calibrat (N1) Vermell</item>
 	    <item>Calibrat (N1) Fred</item>
+	    <item>Vermell</item>
 	</string-array>
 
     <string-array name="entries_trackball_colors">

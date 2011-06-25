@@ -308,6 +308,7 @@
     <string name="amber">Amarelo</string>
     <string name="salmon">Salmão</string>
     <string name="fuscia">Magenta</string>
+    <string name="red">Vermelho</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Vista de widget expandida</string>

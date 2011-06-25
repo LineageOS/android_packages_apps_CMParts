@@ -379,6 +379,7 @@
     <string name="amber">Bärnsten</string>
     <string name="salmon">Lax</string>
     <string name="fuscia">Fuchsia</string>
+    <string name="red">Röd</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Expanderad Vy Widget</string>

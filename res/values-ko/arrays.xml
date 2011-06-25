@@ -25,7 +25,7 @@
 
     <string-array name="entries_render_effect">
         <item>효과 없음</item>
-        <item>야간 모드 (빨강색)</item>
+        <item>야간 모드 (3700K)</item>
         <item>터미널 (녹색)</item>
         <item>파랑색</item>
         <item>황색</item>
@@ -34,10 +34,11 @@
         <item>보정 (N1)</item>
         <item>보정 (N1) 옅은 빨강</item>
         <item>보정 (N1) 시원함</item>
+	<item>빨강색</item>
     </string-array>
 
     <string-array name="render_entries">
-        <item>야간 모드 (빨강색)</item>
+        <item>야간 모드 (3700K)</item>
         <item>터미널 (녹색)</item>
         <item>파랑색</item>
         <item>황색</item>
@@ -46,6 +47,7 @@
         <item>보정 (N1)</item>
         <item>보정 (N1) 옅은 빨강</item>
         <item>보정 (N1) 시원함</item>
+	<item>빨강색</item>
     </string-array>
 
     <string-array name="entries_trackball_colors">

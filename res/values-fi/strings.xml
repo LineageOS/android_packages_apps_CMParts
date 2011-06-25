@@ -335,6 +335,7 @@
     <string name="amber">Meripihka</string>
     <string name="salmon">Lohi</string>
     <string name="fuscia">Fuksia</string>
+    <string name="red">Punainen</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Laajennettu näkymä -widget</string>

@@ -306,6 +306,7 @@
     <string name="amber">Ambar</string>
     <string name="salmon">Salmón</string>
     <string name="fuscia">Fuscia</string>
+    <string name="red">Rojo</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Widget Control de energía expandido</string>

@@ -31,7 +31,7 @@
 
     <string-array name="entries_render_effect">
         <item>Ingen renderingseffekt</item>
-        <item>Nattläge (röd)</item>
+        <item>Nattläge (3700K)</item>
         <item>Terminal (grön)</item>
         <item>Blå</item>
         <item>Bärnsten</item>
@@ -40,10 +40,11 @@
         <item>Kalibrerad (N1)</item>
         <item>Kalibrerad (N1) Lågt röd</item>
         <item>Kalibrerad (N1) Kall</item>
+	<item>Röd</item>
     </string-array>
 
     <string-array name="render_entries">
-        <item>Nattläge (Röd)</item>
+        <item>Nattläge (3700K)</item>
         <item>Terminal (Grön)</item>
         <item>Blå</item>
         <item>Bärnsten</item>
@@ -52,6 +53,7 @@
         <item>Kalibrerad (N1)</item>
         <item>Kalibrerad (N1) Lågt röd</item>
         <item>Kalibrerad (N1) Kall</item>
+	<item>Röd</item>
     </string-array>
 
     <string-array name="entries_trackball_colors">

@@ -113,6 +113,9 @@ public class WidgetOptionsActivity extends PreferenceActivity implements OnPrefe
             case 6:
                 views.setTextViewText(R.id.ind, context.getResources().getString(R.string.fuscia));
                 break;
+            case 10:
+                views.setTextViewText(R.id.ind, context.getResources().getString(R.string.red));
+                break;
             default:
                 views.setTextViewText(R.id.ind,
                         context.getResources().getString(R.string.renderfx_temp));

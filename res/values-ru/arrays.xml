@@ -31,7 +31,7 @@
 
     <string-array name="entries_render_effect">
         <item>Без эффекта</item>
-        <item>Ночной (красный)</item>
+        <item>Ночной (3700K)</item>
         <item>Терминал (зелёный)</item>
         <item>Синий</item>
         <item>Жёлтый</item>
@@ -40,10 +40,11 @@
         <item>Калиброванный (N1)</item>
         <item>Калиброванный (N1) Красноватый</item>
         <item>Калиброванный (N1) Холодный</item>
+	<item>красный</item>
     </string-array>
 
     <string-array name="render_entries">
-        <item>Ночной (красный)</item>
+        <item>Ночной (3700K)</item>
         <item>Терминал (зелёный)</item>
         <item>Синий</item>
         <item>Жёлтый</item>
@@ -52,6 +53,7 @@
         <item>Калиброванный (N1)</item>
         <item>Калиброванный (N1) Красноватый</item>
         <item>Калиброванный (N1) Холодный</item>
+	<item>красный</item>
     </string-array>
 
     <string-array name="entries_trackball_colors">

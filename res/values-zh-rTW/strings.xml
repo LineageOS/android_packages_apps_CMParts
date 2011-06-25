@@ -389,6 +389,7 @@
     <string name="amber">琥珀</string>
     <string name="salmon">鮭紅</string>
     <string name="fuscia">洋紅</string>
+    <string name="red">紅</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">擴充檢視小工具</string>

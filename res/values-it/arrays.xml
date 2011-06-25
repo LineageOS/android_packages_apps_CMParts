@@ -32,7 +32,7 @@
 
     <string-array name="entries_render_effect">
         <item>Nessun effetto render</item>
-        <item>Night mode (rosso)</item>
+        <item>Night mode (3700K)</item>
         <item>Terminale (verde)</item>
         <item>Blu </item>
         <item>Ambra</item>
@@ -41,10 +41,11 @@
         <item>Calibrato (N1)</item>
         <item>Calibrato (N1) Low Red</item>
         <item>Calibrato (N1) Cool</item>
+        <item>Rosso</item>
     </string-array>
 
     <string-array name="render_entries">
-        <item>Night Mode (Rosso)</item>
+        <item>Night Mode (3700K)</item>
         <item>Terminal (Verde)</item>
         <item>Blu</item>
         <item>Ambra</item>
@@ -53,6 +54,7 @@
         <item>Calibrato (N1)</item>
         <item>Calibrato (N1) Low Red</item>
         <item>Calibrato (N1) Cool</item>
+        <item>Rosso</item>
     </string-array>
 
     <string-array name="entries_trackball_colors">

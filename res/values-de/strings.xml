@@ -381,6 +381,7 @@
     <string name="amber">Amber</string>
     <string name="salmon">Lachs</string>
     <string name="fuscia">Pink</string>
+    <string name="red">Rot</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Energie-Widget</string>

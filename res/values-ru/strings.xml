@@ -387,6 +387,7 @@
     <string name="amber">Жёлтый</string>
     <string name="salmon">Оранжево-розовый</string>
     <string name="fuscia">Розовый</string>
+    <string name="red">красный</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Кнопки в панели уведомлений</string>

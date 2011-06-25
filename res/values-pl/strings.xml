@@ -375,6 +375,7 @@
     <string name="amber">Bursztyn</string>
     <string name="salmon">Łosoś</string>
     <string name="fuscia">Fuksja</string>
+    <string name="red">Czerwony</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Widżety obszaru powiadomień</string>
