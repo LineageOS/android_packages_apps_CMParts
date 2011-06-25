@@ -30,28 +30,30 @@
     </string-array>
 
     <string-array name="entries_render_effect">
-        <item>无渲染效果</item>
-        <item>夜间模式 (红色)</item>
-        <item>终端模式 (绿色)</item>
-        <item>蓝色</item>
-        <item>琥珀</item>
-        <item>三文鱼色 (粉红)</item>
-        <item>金钟花色 (紫红)</item>
-        <item>优化颜色 (N1)</item>
-        <item>优化颜色 (N1) 减少红色</item>
-        <item>优化颜色 (N1) 冷色</item>
+        <item>@string/pref_render_effect_none</item>
+        <item>@string/pref_render_effect_night</item>
+        <item>@string/pref_render_effect_green</item>
+        <item>@string/pref_render_effect_blue</item>
+        <item>@string/pref_render_effect_amber</item>
+        <item>@string/pref_render_effect_salmon</item>
+        <item>@string/pref_render_effect_fuscia</item>
+        <item>@string/pref_render_effect_calibrated</item>
+        <item>@string/pref_render_effect_calibrated_red</item>
+        <item>@string/pref_render_effect_calibrated_cool</item>
+        <item>@string/pref_render_effect_red</item>
     </string-array>
 
     <string-array name="render_entries">
-        <item>夜间模式 (红色)</item>
-        <item>终端模式 (绿色)</item>
-        <item>蓝色</item>
-        <item>琥珀</item>
-        <item>三文鱼色 (粉红)</item>
-        <item>金钟花色 (紫红)</item>
-        <item>优化颜色 (N1)</item>
-        <item>优化颜色 (N1) 减少红色</item>
-        <item>优化颜色 (N1) 冷色</item>
+        <item>@string/pref_render_effect_night</item>
+        <item>@string/pref_render_effect_green</item>
+        <item>@string/pref_render_effect_blue</item>
+        <item>@string/pref_render_effect_amber</item>
+        <item>@string/pref_render_effect_salmon</item>
+        <item>@string/pref_render_effect_fuscia</item>
+        <item>@string/pref_render_effect_calibrated</item>
+        <item>@string/pref_render_effect_calibrated_red</item>
+        <item>@string/pref_render_effect_calibrated_cool</item>
+        <item>@string/pref_render_effect_red</item>
     </string-array>
 
     <string-array name="entries_trackball_colors">

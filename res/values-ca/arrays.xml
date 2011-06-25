@@ -22,30 +22,32 @@
         <item>Extern</item>
     </string-array>
 
-    <string-array name="entries_render_effect">
-        <item>Sense efectes de render</item>
-        <item>Mode nocturn (vermell)</item>
-        <item>Terminal (verd)</item>
-        <item>Blau</item>
-        <item>Ambre</item>
-        <item>Salmó</item>
-        <item>Fúcsia</item>
-	    <item>Calibrat (N1)</item>
-	    <item>Calibrat (N1) Vermell</item>
-	    <item>Calibrat (N1) Fred</item>
+   <string-array name="entries_render_effect">
+        <item>@string/pref_render_effect_none</item>
+        <item>@string/pref_render_effect_night</item>
+        <item>@string/pref_render_effect_green</item>
+        <item>@string/pref_render_effect_blue</item>
+        <item>@string/pref_render_effect_amber</item>
+        <item>@string/pref_render_effect_salmon</item>
+        <item>@string/pref_render_effect_fuscia</item>
+        <item>@string/pref_render_effect_calibrated</item>
+        <item>@string/pref_render_effect_calibrated_red</item>
+        <item>@string/pref_render_effect_calibrated_cool</item>
+        <item>@string/pref_render_effect_red</item>
     </string-array>
 
-	<string-array name="render_entries">
-        <item>Mode nocturn (vermell)</item>
-        <item>Terminal (verd)</item>
-        <item>Blau</item>
-        <item>Ambre</item>
-        <item>Salmó</item>
-        <item>Fúcsia</item>
-	    <item>Calibrat (N1)</item>
-	    <item>Calibrat (N1) Vermell</item>
-	    <item>Calibrat (N1) Fred</item>
-	</string-array>
+    <string-array name="render_entries">
+        <item>@string/pref_render_effect_night</item>
+        <item>@string/pref_render_effect_green</item>
+        <item>@string/pref_render_effect_blue</item>
+        <item>@string/pref_render_effect_amber</item>
+        <item>@string/pref_render_effect_salmon</item>
+        <item>@string/pref_render_effect_fuscia</item>
+        <item>@string/pref_render_effect_calibrated</item>
+        <item>@string/pref_render_effect_calibrated_red</item>
+        <item>@string/pref_render_effect_calibrated_cool</item>
+        <item>@string/pref_render_effect_red</item>
+    </string-array>
 
     <string-array name="entries_trackball_colors">
         <item>Verd</item>

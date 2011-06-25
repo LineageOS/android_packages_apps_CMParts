@@ -24,28 +24,30 @@
     </string-array>
 
     <string-array name="entries_render_effect">
-        <item>エフェクトなし</item>
-        <item>ナイトモード (赤)</item>
-        <item>ターミナル (緑)</item>
-        <item>ブルー</item>
-        <item>アンバー</item>
-        <item>サーモン</item>
-        <item>フューシャ</item>
-        <item>調整済み(N1)</item>
-        <item>調整済み(N1) Low Red</item>
-        <item>調整済み(N1) Cold</item>
+        <item>@string/pref_render_effect_none</item>
+        <item>@string/pref_render_effect_night</item>
+        <item>@string/pref_render_effect_green</item>
+        <item>@string/pref_render_effect_blue</item>
+        <item>@string/pref_render_effect_amber</item>
+        <item>@string/pref_render_effect_salmon</item>
+        <item>@string/pref_render_effect_fuscia</item>
+        <item>@string/pref_render_effect_calibrated</item>
+        <item>@string/pref_render_effect_calibrated_red</item>
+        <item>@string/pref_render_effect_calibrated_cool</item>
+        <item>@string/pref_render_effect_red</item>
     </string-array>
 
     <string-array name="render_entries">
-        <item>ナイトモード (赤)</item>
-        <item>ターミナル (緑)</item>
-        <item>ブルー</item>
-        <item>アンバー</item>
-        <item>サーモン</item>
-        <item>フューシャ</item>
-        <item>調整済み(N1)</item>
-        <item>調整済み(N1) Low Red</item>
-        <item>調整済み(N1) Cold</item>
+        <item>@string/pref_render_effect_night</item>
+        <item>@string/pref_render_effect_green</item>
+        <item>@string/pref_render_effect_blue</item>
+        <item>@string/pref_render_effect_amber</item>
+        <item>@string/pref_render_effect_salmon</item>
+        <item>@string/pref_render_effect_fuscia</item>
+        <item>@string/pref_render_effect_calibrated</item>
+        <item>@string/pref_render_effect_calibrated_red</item>
+        <item>@string/pref_render_effect_calibrated_cool</item>
+        <item>@string/pref_render_effect_red</item>
     </string-array>
 
     <string-array name="entries_trackball_colors">

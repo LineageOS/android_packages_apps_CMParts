@@ -24,28 +24,30 @@
     </string-array>
 
     <string-array name="entries_render_effect">
-        <item>Ei renderöintiefektiä</item>
-        <item>Yötila (punainen)</item>
-        <item>Pääte (vihreä)</item>
-        <item>Sininen</item>
-        <item>Meripihka</item>
-        <item>Lohi</item>
-        <item>Fuskia</item>
-        <item>Kalibroitu (N1)</item>
-        <item>Kalibroitu (N1) Matala punainen</item>
-        <item>Kalibroitu (N1) Viileä</item>
+        <item>@string/pref_render_effect_none</item>
+        <item>@string/pref_render_effect_night</item>
+        <item>@string/pref_render_effect_green</item>
+        <item>@string/pref_render_effect_blue</item>
+        <item>@string/pref_render_effect_amber</item>
+        <item>@string/pref_render_effect_salmon</item>
+        <item>@string/pref_render_effect_fuscia</item>
+        <item>@string/pref_render_effect_calibrated</item>
+        <item>@string/pref_render_effect_calibrated_red</item>
+        <item>@string/pref_render_effect_calibrated_cool</item>
+        <item>@string/pref_render_effect_red</item>
     </string-array>
 
     <string-array name="render_entries">
-        <item>Yötila (punainen)</item>
-        <item>Pääte (vihreä)</item>
-        <item>Sininen</item>
-        <item>Meripihka</item>
-        <item>Lohi</item>
-        <item>Fuskia</item>
-        <item>Kalibroitu (N1)</item>
-        <item>Kalibroitu (N1) Matala punainen</item>
-        <item>Kalibroitu (N1) Viileä</item>
+        <item>@string/pref_render_effect_night</item>
+        <item>@string/pref_render_effect_green</item>
+        <item>@string/pref_render_effect_blue</item>
+        <item>@string/pref_render_effect_amber</item>
+        <item>@string/pref_render_effect_salmon</item>
+        <item>@string/pref_render_effect_fuscia</item>
+        <item>@string/pref_render_effect_calibrated</item>
+        <item>@string/pref_render_effect_calibrated_red</item>
+        <item>@string/pref_render_effect_calibrated_cool</item>
+        <item>@string/pref_render_effect_red</item>
     </string-array>
 
     <string-array name="entries_trackball_colors">

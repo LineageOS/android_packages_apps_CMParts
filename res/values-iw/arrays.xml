@@ -12,27 +12,29 @@
     <item>חיצוני</item>
   </string-array>
   <string-array name="entries_render_effect">
-    <item>No render effect</item>
-    <item>מצב לילה (אדום)</item>
-    <item>טרמינל (ירוק)</item>
-    <item>כחול</item>
-    <item>ענבר</item>
-    <item>ורוד אדמדם (אלתית)</item>
-    <item>פוקסיה</item>
-    <item>מכויל (N1)</item>
-    <item>מכויל (Low Red)</item>
-    <item>מכויל (N1) Cool</item>
+    <item>@string/pref_render_effect_none</item>
+    <item>@string/pref_render_effect_night</item>
+    <item>@string/pref_render_effect_green</item>
+    <item>@string/pref_render_effect_blue</item>
+    <item>@string/pref_render_effect_amber</item>
+    <item>@string/pref_render_effect_salmon</item>
+    <item>@string/pref_render_effect_fuscia</item>
+    <item>@string/pref_render_effect_calibrated</item>
+    <item>@string/pref_render_effect_calibrated_red</item>
+    <item>@string/pref_render_effect_calibrated_cool</item>
+    <item>@string/pref_render_effect_red</item>
   </string-array>
   <string-array name="render_entries">
-    <item>מצב לילה (אדום)</item>
-    <item>טרמינל (ירוק)</item>
-    <item>כחול</item>
-    <item>ענבר</item>
-    <item>ורוד אדמדם (אלתית)</item>
-    <item>פוקסיה</item>
-    <item>מכויל (N1)</item>
-    <item>מכויל (N1) Low Red</item>
-    <item>מכויל (N1) Cool</item>
+    <item>@string/pref_render_effect_night</item>
+    <item>@string/pref_render_effect_green</item>
+    <item>@string/pref_render_effect_blue</item>
+    <item>@string/pref_render_effect_amber</item>
+    <item>@string/pref_render_effect_salmon</item>
+    <item>@string/pref_render_effect_fuscia</item>
+    <item>@string/pref_render_effect_calibrated</item>
+    <item>@string/pref_render_effect_calibrated_red</item>
+    <item>@string/pref_render_effect_calibrated_cool</item>
+    <item>@string/pref_render_effect_red</item>
   </string-array>
   <string-array name="entries_trackball_colors">
     <item>ירוק</item>

@@ -23,28 +23,30 @@
     </string-array>
 
     <string-array name="entries_render_effect">
-        <item>Sin efecto de Render</item>
-        <item>Modo noche (rojo)</item>
-        <item>Terminal (verde)</item>
-        <item>Azul</item>
-        <item>Ambar</item>
-        <item>Salmón</item>
-        <item>Fucsia</item>
-        <item>Calibrado (N1)</item>
-        <item>Calibrado (N1) Rojo</item>
-        <item>Calibrado (N1) Frío</item>
+        <item>@string/pref_render_effect_none</item>
+        <item>@string/pref_render_effect_night</item>
+        <item>@string/pref_render_effect_green</item>
+        <item>@string/pref_render_effect_blue</item>
+        <item>@string/pref_render_effect_amber</item>
+        <item>@string/pref_render_effect_salmon</item>
+        <item>@string/pref_render_effect_fuscia</item>
+        <item>@string/pref_render_effect_calibrated</item>
+        <item>@string/pref_render_effect_calibrated_red</item>
+        <item>@string/pref_render_effect_calibrated_cool</item>
+        <item>@string/pref_render_effect_red</item>
     </string-array>
 
     <string-array name="render_entries">
-        <item>Modo noche (rojo)</item>
-        <item>Terminal (verde)</item>
-        <item>Azul</item>
-        <item>Ambar</item>
-        <item>Salmón</item>
-        <item>Fuscia</item>
-        <item>Calibrado (N1)</item>
-        <item>Calibrado (N1) Rojo</item>
-        <item>Calibrato (N1) Frio</item>
+        <item>@string/pref_render_effect_night</item>
+        <item>@string/pref_render_effect_green</item>
+        <item>@string/pref_render_effect_blue</item>
+        <item>@string/pref_render_effect_amber</item>
+        <item>@string/pref_render_effect_salmon</item>
+        <item>@string/pref_render_effect_fuscia</item>
+        <item>@string/pref_render_effect_calibrated</item>
+        <item>@string/pref_render_effect_calibrated_red</item>
+        <item>@string/pref_render_effect_calibrated_cool</item>
+        <item>@string/pref_render_effect_red</item>
     </string-array>
 
     <string-array name="entries_trackball_colors">
