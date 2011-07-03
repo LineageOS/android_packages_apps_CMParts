@@ -16,8 +16,6 @@
 
 package com.cyanogenmod.cmparts.activities;
 
-import java.util.ArrayList;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
