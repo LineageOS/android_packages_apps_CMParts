@@ -17,11 +17,19 @@
 package com.cyanogenmod.cmparts.activities;
 
 import android.os.Bundle;
+import android.preference.CheckBoxPreference;
+import android.preference.Preference;
 import android.preference.PreferenceActivity;
+import android.preference.PreferenceScreen;
+import android.provider.Settings;
 
 import com.cyanogenmod.cmparts.R;
 
 public class LockscreenActivity extends PreferenceActivity {
+
+    private final static String LOCKSCREEN_DISABLE_ON_SECURITY = "pref_lockscreen_disable_on_security";
+
+    private CheckBoxPreference mLockscreenDisableOnSecurity;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -29,5 +37,25 @@ public class LockscreenActivity extends PreferenceActivity {
 
         setTitle(R.string.lockscreen_settings_title_subhead);
         addPreferencesFromResource(R.xml.lockscreen_settings);
+
+        PreferenceScreen prefSet = getPreferenceScreen();
+
+        mLockscreenDisableOnSecurity = (CheckBoxPreference) prefSet
+                .findPreference(LOCKSCREEN_DISABLE_ON_SECURITY);
+
+        mLockscreenDisableOnSecurity.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_DISABLE_ON_SECURITY, 0) == 1);
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+        boolean value;
+        if (preference == mLockscreenDisableOnSecurity) {
+            value = mLockscreenDisableOnSecurity.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_DISABLE_ON_SECURITY, value ? 1 : 0);
+            return true;
+        }
+        return false;
     }
 }
