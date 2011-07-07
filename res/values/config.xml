@@ -23,4 +23,7 @@
 
     <!--Whether or not  -->
     <bool name="has_backtrack_minipad">false</bool>
+
+    <bool name="has_envelope_key">false</bool>
+    <bool name="has_explorer_key">false</bool>
 </resources>
