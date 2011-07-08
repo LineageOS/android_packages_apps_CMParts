@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- 
  * Copyright (C) 2007 The Android Open Source Project
  *
@@ -227,5 +227,10 @@
         <item>Botão de busca</item>
         <item>Aplicação personalizada</item>
         <item>Alternar barra de status</item>
+    </string-array>
+	
+    <string-array name="pref_lockscreen_background_entries">
+        <item>Definir a cor</item>
+        <item>Definir a imagem</item>
     </string-array>
 </resources>
