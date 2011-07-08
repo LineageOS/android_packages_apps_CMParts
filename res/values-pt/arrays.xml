@@ -228,4 +228,9 @@
         <item>Aplicação personalizada</item>
         <item>Alternar barra de status</item>
     </string-array>
+	
+	<string-array name="pref_lockscreen_background_entries">
+        <item>Definir a cor</item>
+        <item>Definir a imagem</item>
+    </string-array>
 </resources>
