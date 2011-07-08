@@ -33,9 +33,17 @@ public class LockscreenTimeoutActivity extends PreferenceActivity implements
 
     private static final String LOCKSCREEN_SCREENOFF_DELAY_PREF = "pref_lockscreen_screenoff_delay";
 
+    private static final String SECURITY_TIMEOUT_DELAY_PREF = "pref_security_timeout_delay";
+
+    private static final String SECURITY_SCREENOFF_DELAY_PREF = "pref_security_screenoff_delay";
+
     private ListPreference mScreenLockTimeoutDelayPref;
 
     private ListPreference mScreenLockScreenOffDelayPref;
+
+    private ListPreference mSecurityLockTimeoutDelayPref;
+
+    private ListPreference mSecurityLockScreenOffDelayPref;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -61,18 +69,42 @@ public class LockscreenTimeoutActivity extends PreferenceActivity implements
         mScreenLockScreenOffDelayPref.setValue(String.valueOf(screenOffDelay));
         mScreenLockScreenOffDelayPref.setOnPreferenceChangeListener(this);
 
+        /* Screen Lock */
+        mSecurityLockTimeoutDelayPref = (ListPreference) prefSet
+                .findPreference(SECURITY_TIMEOUT_DELAY_PREF);
+        int securityTimeoutDelay = Settings.System.getInt(getContentResolver(),
+                Settings.System.SECURITY_LOCK_TIMEOUT_DELAY, 5000);
+        mSecurityLockTimeoutDelayPref.setValue(String.valueOf(securityTimeoutDelay));
+        mSecurityLockTimeoutDelayPref.setOnPreferenceChangeListener(this);
+
+        mSecurityLockScreenOffDelayPref = (ListPreference) prefSet
+                .findPreference(SECURITY_SCREENOFF_DELAY_PREF);
+        int securityScreenOffDelay = Settings.System.getInt(getContentResolver(),
+                Settings.System.SECURITY_LOCK_SCREENOFF_DELAY, 0);
+        mSecurityLockScreenOffDelayPref.setValue(String.valueOf(securityScreenOffDelay));
+        mSecurityLockScreenOffDelayPref.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mScreenLockTimeoutDelayPref) {
-            int timeoutDelay = Integer.valueOf((String) newValue);
+            int value = Integer.valueOf((String) newValue);
             Settings.System.putInt(getContentResolver(), Settings.System.SCREEN_LOCK_TIMEOUT_DELAY,
-                    timeoutDelay);
+                    value);
             return true;
         } else if (preference == mScreenLockScreenOffDelayPref) {
-            int screenOffDelay = Integer.valueOf((String) newValue);
+            int value = Integer.valueOf((String) newValue);
             Settings.System.putInt(getContentResolver(),
-                    Settings.System.SCREEN_LOCK_SCREENOFF_DELAY, screenOffDelay);
+                    Settings.System.SCREEN_LOCK_SCREENOFF_DELAY, value);
+            return true;
+        } else if (preference == mSecurityLockTimeoutDelayPref) {
+            int value = Integer.valueOf((String) newValue);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.SECURITY_LOCK_TIMEOUT_DELAY, value);
+            return true;
+        } else if (preference == mSecurityLockScreenOffDelayPref) {
+            int value = Integer.valueOf((String) newValue);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.SECURITY_LOCK_SCREENOFF_DELAY, value);
             return true;
         }
         return false;
