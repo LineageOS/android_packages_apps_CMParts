@@ -661,4 +661,25 @@
     <string name="pref_lockscreen_custom_background_summary_default">Atual : Padrão</string>
     <string name="pref_lockscreen_background_result_successful">Plano de fundo foi modificado</string>
     <string name="pref_lockscreen_background_result_not_successful">Plano de fundo não foi modificado</string>
+    <string name="pref_lockscreen_security_title">Trava de Segurança</string>
+    <string name="pref_lockscreen_security_delay_note_title">Nota</string>
+    <string name="pref_lockscreen_security_delay_note_summary">Embora a segurança de bloqueio de tela é definida como NENHUM, apenas as configurações de segurança do atraso de bloquio será usado</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay">Tempo limite de tela</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay">Tempo limite de desligamento de tela</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay_summary">Quanto tempo de atraso antes de habilitar a trava de segurança de tela quando o tempo limite de tela expira</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay_summary">Quanto tempo de atraso antes de habilitar a trava de segurança de tela quando a tela desliga</string>
+    <string name="pref_lockscreen_slide_title">Trava ao deslizar</string>
+    <string name="pref_lockscreen_slide_delay_note_title">Nota</string>
+    <string name="pref_lockscreen_slide_delay_note_summary">Mesmo se habilitado, a trava ao desligar insegura só vai aparecer se o atraso da trava de segurança for maior que o atraso da trava ao deslizar</string>
+    <string name="pref_lockscreen_slide_delay_title">Habilitar atraso de trava ao deslizar</string>
+    <string name="pref_lockscreen_slide_delay_summary">Mostra o bloqueio de tela ao deslizar separadamente antes de mostrar a trava de segurança</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay">Tempo limite de tela</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay">Tempo limite de desligamento de tela</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay_summary">Quanto tempo de atraso antes de habilitar a trava de tela ao deslizar quando o tempo limite de tela expira</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay_summary">Quanto tempo de atraso antes de habilitar a trava de tela ao deslizar quando a tela desliga</string>
+    <string name="ui_status_bar_cm_signal_text_title">Alternar exibição de sinal</string>
+    <string name="ui_status_bar_cm_signal_text_summary">Mostrar valor dBm em vez de barras de sinal</string>
+    <string name="ui_status_bar_cm_signal_text_show_bars">Barras de sinal</string>
+    <string name="ui_status_bar_cm_signal_text_show_text">Texto de sinal</string>
+    <string name="ui_status_bar_cm_signal_text_show_text_dbm">Texto de sinal com dBm</string>
 </resources>
