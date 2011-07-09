@@ -115,7 +115,7 @@
     <string name="pref_pinch_reflow_title">Перерисовка после увеличения</string>
     <string name="pref_pinch_reflow_summary">Перерисовывать веб-контент сразу после увеличения</string>
 
-    <!-- User interface : Overscroll -->
+    <!-- User interface : Overscroll --><!-- UI Settings : Haptic feedback -->
     <string name="ui_overscroll_title">Перепрокрутка</string>
     <string name="pref_overscroll_title">Эффект перепрокрутки</string>
     <string name="pref_overscroll_summary">Выбор стиля эффекта перепрокрутки</string>
@@ -374,6 +374,11 @@
     <!-- UI Settings : Render effect -->
     <string name="pref_render_effect_title">Эффекты экрана</string>
     <string name="pref_render_effect_summary">Позволяет изменять цвет прорисовки экрана (возможна экономия батареи)</string>
+
+    <!-- UI Settings : Haptic feedback -->
+    <string name="expanded_haptic_feedback_title">Отклик на нажатие</string>
+    <string name="expanded_haptic_feedback_summary">Вкл/Выкл отклик на нажатие.</string>
+
     <string name="widget_name">Эффекты экрана</string>
     <string name="renderfx_temp">Эффект</string>
     <string name="prefs_render_effect">Эффект экрана</string>
