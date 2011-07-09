@@ -28,6 +28,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.RemoteException;
 import android.os.ServiceManager;
+import android.os.SystemProperties;
 import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
@@ -42,6 +43,8 @@ public class ApplicationActivity extends PreferenceActivity implements OnPrefere
 
     private static final String INSTALL_LOCATION_PREF = "pref_install_location";
 
+    private static final String FORCE_EMMC_PREF = "pref_force_emmc_use";
+
     private static final String MOVE_ALL_APPS_PREF = "pref_move_all_apps";
 
     private static final String ENABLE_PERMISSIONS_MANAGEMENT = "enable_permissions_management";
@@ -55,6 +58,8 @@ public class ApplicationActivity extends PreferenceActivity implements OnPrefere
     private static final int ENABLE = 0;
     private final static int YES=1;
     private final static int NO=2;
+
+    private CheckBoxPreference mForceEmmcPref;
 
     private CheckBoxPreference mMoveAllAppsPref;
 
@@ -88,6 +93,15 @@ public class ApplicationActivity extends PreferenceActivity implements OnPrefere
         mInstallLocationPref.setValue(installLocation);
         mInstallLocationPref.setOnPreferenceChangeListener(this);
 
+        mForceEmmcPref = (CheckBoxPreference) prefSet.findPreference(FORCE_EMMC_PREF);
+        mForceEmmcPref.setChecked(SystemProperties.getBoolean("persist.storage.external",
+            getResources().getBoolean(com.android.internal.R.bool.config_defaultToEMMC)));
+
+        if (System.getenv("PHONE_STORAGE") == null) {
+            mForceEmmcPref.setSummary(R.string.pref_force_emmc_unavailable);
+            mForceEmmcPref.setEnabled(false);
+        }
+
         mMoveAllAppsPref = (CheckBoxPreference) prefSet.findPreference(MOVE_ALL_APPS_PREF);
         mMoveAllAppsPref.setChecked(Settings.Secure.getInt(getContentResolver(),
             Settings.Secure.ALLOW_MOVE_ALL_APPS_EXTERNAL, 0) == 1);
@@ -104,6 +118,10 @@ public class ApplicationActivity extends PreferenceActivity implements OnPrefere
         if (preference == mMoveAllAppsPref) {
             Settings.Secure.putInt(getContentResolver(),
                 Settings.Secure.ALLOW_MOVE_ALL_APPS_EXTERNAL, mMoveAllAppsPref.isChecked() ? 1 : 0);
+            return true;
+        } else if (preference == mForceEmmcPref) {
+            SystemProperties.set("persist.storage.external",
+		mForceEmmcPref.isChecked() ? "true" : "false");
             return true;
         }
         return false;
