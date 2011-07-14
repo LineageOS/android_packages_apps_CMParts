@@ -373,6 +373,13 @@
   <string name="pref_screentimeout_mode_summary">Виберіть значення, які може набути затримка вимк. екрана, за натисканням одноіменної кнопки</string>
   <string name="pref_ring_mode_title">Звук</string>
   <string name="pref_ring_mode_summary">Виберіть режими, які встановлюватимуться за натисканням кнопки \u201CЗвук\u201D</string>
+  <string name="cm_sound_mode_soundVib_vib">Мелодія+вібро/Вібро</string>
+  <string name="cm_sound_mode_sound_vib">Мелодія/Вібро</string>
+  <string name="cm_sound_mode_sound_silent">Мелодія/Без звуку</string>
+  <string name="cm_sound_mode_soundVib_vib_silent">Мелодія+вібро/Вібро/Без звуку</string>
+  <string name="cm_sound_mode_sound_vib_silent">Мелодія/Вібро/Без звуку</string>
+  <string name="cm_sound_mode_soundVib_sound_vib_silent">Мелодія+вібро/Мелодія/Вібро/Без звуку</string>
+  <string name="cm_sound_mode_vib_silent">Вібро/Без звуку</string>
   <string name="pref_flash_mode_title">Ліхтарик</string>
   <string name="pref_flash_mode_summary">Виберіть інтенсивність світіння ліхтарика</string>
   <string name="backlight_title">Автоматичне підсвічування</string>

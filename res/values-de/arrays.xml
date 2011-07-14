@@ -165,15 +165,6 @@
     <item>30Sek/2Min/5Min</item>
   </string-array>
 
-  <string-array name="entries_ring_widget">
-    <item>Töne+Vibration/Vibration</item>
-    <item>Töne/Vibration</item>
-    <item>Töne/Lautlos</item>
-    <item>Töne+Vibration/Vibration/Lautlos</item>
-    <item>Töne/Vibration/Lautlos</item>
-    <item>Töne+Vibration/Töne/Vibration/Lautlos</item>
-  </string-array>
-
   <string-array name="entries_flash_widget">
     <item>Normal</item>
     <item>Hoch</item>

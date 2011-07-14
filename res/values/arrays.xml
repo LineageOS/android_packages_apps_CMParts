@@ -433,13 +433,14 @@
         <item>1</item>
     </string-array>
 
-    <string-array name="entries_ring_widget">
-        <item>Sound+Vibrate/Vibrate</item>
-        <item>Sound/Vibrate</item>
-        <item>Sound/Silent</item>
-        <item>Sound+Vib/Vib/Silent</item>
-        <item>Sound/Vibrate/Silent</item>
-        <item>Sound+Vibrate/Sound/Vibrate/Silent</item>
+    <string-array name="entries_ring_widget" translatable="false">
+        <item>@string/cm_sound_mode_soundVib_vib</item>
+        <item>@string/cm_sound_mode_sound_vib</item>
+        <item>@string/cm_sound_mode_sound_silent</item>
+        <item>@string/cm_sound_mode_soundVib_vib_silent</item>
+        <item>@string/cm_sound_mode_sound_vib_silent</item>
+        <item>@string/cm_sound_mode_soundVib_sound_vib_silent</item>
+        <item>@string/cm_sound_mode_vib_silent</item>
     </string-array>
 
     <string-array name="values_ring_widget" translatable="false">
@@ -449,6 +450,7 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
     </string-array>
 
     <string-array name="entries_flash_widget">

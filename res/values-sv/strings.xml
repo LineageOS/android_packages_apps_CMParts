@@ -456,6 +456,13 @@
     <string name="pref_screentimeout_mode_summary">Välj hur knappen för skärmtidsgräns ändrar lägen</string>
     <string name="pref_ring_mode_title">Ljudlägen</string>
     <string name="pref_ring_mode_summary">Välj hur knappen för ljud ändrar lägen</string>
+    <string name="cm_sound_mode_soundVib_vib">Ljud+Vibration/Vibration</string>
+    <string name="cm_sound_mode_sound_vib">Ljud/Vibration</string>
+    <string name="cm_sound_mode_sound_silent">Ljud/Tyst</string>
+    <string name="cm_sound_mode_soundVib_vib_silent">Ljud+Vibration/Vibration/Tyst</string>
+    <string name="cm_sound_mode_sound_vib_silent">Ljud/Vibration/Tyst</string>
+    <string name="cm_sound_mode_soundVib_sound_vib_silent">Ljud+Vibration/Ljud/Vibration/Tyst</string>
+    <string name="cm_sound_mode_vib_silent">Vibration/Tyst</string>
     <string name="pref_flash_mode_title">Blixtläge</string>
     <string name="pref_flash_mode_summary">Välj Hög / Death Ray</string>
 

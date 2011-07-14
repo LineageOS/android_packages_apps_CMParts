@@ -465,6 +465,13 @@
     <string name="pref_screentimeout_mode_summary">Wybierz tryby</string>
     <string name="pref_ring_mode_title">Profil dźwięku</string>
     <string name="pref_ring_mode_summary">Wybierz tryby</string>
+    <string name="cm_sound_mode_soundVib_vib">Dźwięk+Wibracje/Wibracje</string>
+    <string name="cm_sound_mode_sound_vib">Dźwięk/Wibracje</string>
+    <string name="cm_sound_mode_sound_silent">Dźwięk/Cichy</string>
+    <string name="cm_sound_mode_soundVib_vib_silent">Dźwięk+Wib/Wib/Cichy</string>
+    <string name="cm_sound_mode_sound_vib_silent">Dźwięk/Wibracje/Cichy</string>
+    <string name="cm_sound_mode_soundVib_sound_vib_silent">Dźwięl+Wib/Dźwięk/Wib/Cichy</string>
+    <string name="cm_sound_mode_vib_silent">Wib/Cichy</string>
     <string name="pref_flash_mode_title">Latarka</string>
     <string name="pref_flash_mode_summary">Dostosuj siłę</string>
 
