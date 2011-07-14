@@ -414,6 +414,7 @@
         <item>Sound+Vib/Vib/Silent</item>
         <item>Sound/Vibrate/Silent</item>
         <item>Sound+Vibrate/Sound/Vibrate/Silent</item>
+        <item>Vibrate/Silent</item>
     </string-array>
 
     <string-array name="values_ring_widget" translatable="false">
@@ -423,6 +424,7 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
     </string-array>
 
     <string-array name="entries_flash_widget">
