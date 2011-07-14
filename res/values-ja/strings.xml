@@ -451,6 +451,13 @@
     <string name="pref_screentimeout_mode_summary">スクリーンタイムアウトトグルで変更するモードの選択</string>
     <string name="pref_ring_mode_title">サウンド</string>
     <string name="pref_ring_mode_summary">サウンドトグルで変更するモードの選択</string>
+    <string name="cm_sound_mode_soundVib_vib">音と振動/振動</string>
+    <string name="cm_sound_mode_sound_vib">音/振動</string>
+    <string name="cm_sound_mode_sound_silent">音/サイレント</string>
+    <string name="cm_sound_mode_soundVib_vib_silent">音と振動/振動/サイレント</string>
+    <string name="cm_sound_mode_sound_vib_silent">音/振動/サイレント</string>
+    <string name="cm_sound_mode_soundVib_sound_vib_silent">音と振動/音/振動/サイレント</string>
+    <string name="cm_sound_mode_vib_silent">振動/サイレント</string>
     <string name="pref_flash_mode_title">フラッシュ</string>
     <string name="pref_flash_mode_summary">HighかDeath Rayを選択</string>
 

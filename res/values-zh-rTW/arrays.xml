@@ -221,14 +221,7 @@
 
     <!-- skipping untranslatable /resources:0/string-array:name=values_screentimeout_widget -->
 
-    <string-array name="entries_ring_widget">
-        <item>聲音＋震動／僅震動</item>
-        <item>僅聲音／僅震動</item>
-        <item>僅聲音／靜音</item>
-        <item>聲音＋震動／僅震動／靜音</item>
-        <item>僅聲音／僅震動／靜音</item>
-        <item>聲音＋震動／僅聲音／僅震動／靜音</item>
-    </string-array>
+    <!-- skipping untranslatable /resources:0/string-array:name=entries_ring_widget -->
 
     <!-- skipping untranslatable /resources:0/string-array:name=values_ring_widget -->
 

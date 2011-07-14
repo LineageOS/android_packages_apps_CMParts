@@ -462,6 +462,13 @@
     <string name="pref_screentimeout_mode_summary">选择屏幕超时按钮的切换方式</string>
     <string name="pref_ring_mode_title">声音切换模式</string>
     <string name="pref_ring_mode_summary">选择声音按钮的切换方式</string>
+    <string name="cm_sound_mode_soundVib_vib">铃声 + 震动 / 震动</string>
+    <string name="cm_sound_mode_sound_vib">铃声 / 震动</string>
+    <string name="cm_sound_mode_sound_silent">铃声 / 静音</string>
+    <string name="cm_sound_mode_soundVib_vib_silent">铃声 + 震动 / 震动 / 静音</string>
+    <string name="cm_sound_mode_sound_vib_silent">铃声 / 震动 / 震动 / 静音</string>
+    <string name="cm_sound_mode_soundVib_sound_vib_silent">铃声 + 震动 铃声 / 震动 / 震动 / 静音</string>
+    <string name="cm_sound_mode_vib_silent">震动 / 静音</string>
     <string name="pref_flash_mode_title">手电筒切换模式</string>
     <string name="pref_flash_mode_summary">选择高亮度/死亡射线</string>
 

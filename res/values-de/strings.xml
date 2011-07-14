@@ -409,7 +409,6 @@
     <string name="pref_render_effect_calibrated_cool">Kalibriert (N1) Kalt</string>
     <string name="pref_render_effect_red">Rot</string>
 
-
     <!-- Widget Types -->
     <string name="widget_render_effect_night">Nacht</string>
     <string name="widget_render_effect_terminal">Terminal</string>
@@ -421,7 +420,6 @@
     <string name="widget_render_effect_calibrated">Kal</string>
     <string name="widget_render_effect_calibrated_red">Kal Schwachrot</string>
     <string name="widget_render_effect_calibrated_cool">Kal Kalt</string>
-
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Energie-Widget</string>
@@ -467,6 +465,13 @@
     <string name="pref_screentimeout_mode_summary">Verzögerung vor automatischer Bildschirmabschaltung anpassen</string>
     <string name="pref_ring_mode_title">Klingelmodi</string>
     <string name="pref_ring_mode_summary">Den Klingelmodus wählen</string>
+    <string name="cm_sound_mode_soundVib_vib">Töne+Vibration/Vibration</string>
+    <string name="cm_sound_mode_sound_vib">Töne/Vibration</string>
+    <string name="cm_sound_mode_sound_silent">Töne/Lautlos</string>
+    <string name="cm_sound_mode_soundVib_vib_silent">Töne+Vibration/Vibration/Lautlos</string>
+    <string name="cm_sound_mode_sound_vib_silent">Töne/Vibration/Lautlos</string>
+    <string name="cm_sound_mode_soundVib_sound_vib_silent">Töne+Vibration/Töne/Vibration/Lautlos</string>
+    <string name="cm_sound_mode_vib_silent">Vibration/Lautlos</string>
     <string name="pref_flash_mode_title">Taschenlampe</string>
     <string name="pref_flash_mode_summary">Wähle zwischen normaler und hoher Helligkeit der Taschenlampe</string>
 
@@ -590,8 +595,8 @@
     <string name="pref_lockscreen_disable_unlock_tab">Entsperr-Slider verbergen</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Hinweis: Es muss Trackball-, MENÜ- oder Gesten-Entsperren aktiviert sein bevor diese Option möglich ist</string>
     <string name="gestures_action_label">Aktion:</string>
-        <string name="gestures_draw_label">Geste:</string>
-        <string name="gestures_draw_for_label">Geste für \"<xliff:g id="action">%s</xliff:g>\":</string>
+    <string name="gestures_draw_label">Geste:</string>
+    <string name="gestures_draw_for_label">Geste für \"<xliff:g id="action">%s</xliff:g>\":</string>
     <string name="gestures_already_present">Warnung: Ähnliche Geste ist bereits mit einer anderen Aktion verknüpft!</string>
     <string name="gestures_run_in_background">Im Hintergrund ausführen</string>
 

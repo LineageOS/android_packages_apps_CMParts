@@ -495,6 +495,13 @@
     <string name="pref_screentimeout_mode_summary">選擇螢幕逾時按鈕如何切換模式</string>
     <string name="pref_ring_mode_title">音效模式</string>
     <string name="pref_ring_mode_summary">選擇音效按鈕如何切換模式</string>
+    <string name="cm_sound_mode_soundVib_vib">聲音＋震動／僅震動</string>
+    <string name="cm_sound_mode_sound_vib">僅聲音／僅震動</string>
+    <string name="cm_sound_mode_sound_silent">僅聲音／靜音</string>
+    <string name="cm_sound_mode_soundVib_vib_silent">聲音＋震動／僅震動／靜音</string>
+    <string name="cm_sound_mode_sound_vib_silent">僅聲音／僅震動／靜音</string>
+    <string name="cm_sound_mode_soundVib_sound_vib_silent">聲音＋震動／僅聲音／僅震動／靜音</string>
+    <string name="cm_sound_mode_vib_silent">僅震動／靜音</string>
     <string name="pref_flash_mode_title">手電筒模式</string>
     <string name="pref_flash_mode_summary">選擇強／死光</string>
 
