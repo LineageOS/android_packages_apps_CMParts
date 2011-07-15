@@ -88,7 +88,8 @@ public class TrackballNotificationActivity extends PreferenceActivity implements
     private static final String PULSE_IN_ORDER = "pulse_colors_in_order";
     private static final String RESET_NOTIFS = "reset_notifications";
 
-    private static final boolean SHOLES_DEVICE = Build.DEVICE.contains("sholes");
+    private static final boolean isMotoDevice = Build.DEVICE.contains("sholes") || 
+                Build.DEVICE.contains("droid2") || Build.DEVICE.contains("shadow");
 
     public List<String> uniqueArray(String[] array) {
         Set<String> set = new HashSet<String>(Arrays.asList(array));
@@ -411,7 +412,7 @@ public class TrackballNotificationActivity extends PreferenceActivity implements
             blendPulse.setChecked(getInt(Settings.System.TRACKBALL_NOTIFICATION_BLEND_COLOR, 0) == 1);
             blendPulse.setEnabled(getInt(Settings.System.TRACKBALL_NOTIFICATION_SUCCESSION, 0) != 1);
             advancedScreen.addPreference(blendPulse);
-            if (SHOLES_DEVICE) {
+            if (isMotoDevice) {
                 blendPulse.setEnabled(false);
                 blendPulse.setChecked(false);
                 putInt(Settings.System.TRACKBALL_NOTIFICATION_BLEND_COLOR, 0);
@@ -812,7 +813,7 @@ public class TrackballNotificationActivity extends PreferenceActivity implements
     }
 
     private void blendToggle(boolean toggle) {
-        if (!SHOLES_DEVICE) {
+        if (!isMotoDevice) {
             CheckBoxPreference disablePref = (CheckBoxPreference) getPreferenceScreen().findPreference(BLEND_COLORS);
             disablePref.setEnabled(toggle);
         }
