@@ -43,6 +43,8 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
 
     private static final String LOCKSCREEN_UNLOCK_SETTINGS = "pref_category_unlock_settings";
 
+    private static final String LOCKSCREEN_BEFORE_SECURITY = "pref_lockscreen_before_security";
+
     private CheckBoxPreference mTrackballUnlockPref;
 
     private CheckBoxPreference mMenuUnlockPref;
@@ -50,6 +52,8 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
     private CheckBoxPreference mQuickUnlockScreenPref;
 
     private CheckBoxPreference mDisableUnlockTab;
+
+    private CheckBoxPreference mLockscreenBeforeSecurity;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -80,6 +84,12 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
         mDisableUnlockTab = (CheckBoxPreference) prefSet
                 .findPreference(LOCKSCREEN_DISABLE_UNLOCK_TAB);
         refreshDisableUnlock();
+
+        /* Always show lockscreen before security screen lock */
+        mLockscreenBeforeSecurity = (CheckBoxPreference) prefSet
+                .findPreference(LOCKSCREEN_BEFORE_SECURITY);
+        mLockscreenBeforeSecurity.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_BEFORE_SECURITY, 0) == 1);
 
         PreferenceCategory generalCategory = (PreferenceCategory) prefSet
                 .findPreference(LOCKSCREEN_UNLOCK_SETTINGS);
@@ -120,6 +130,11 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
             value = mDisableUnlockTab.isChecked();
             Settings.Secure.putInt(getContentResolver(),
                     Settings.Secure.LOCKSCREEN_GESTURES_DISABLE_UNLOCK, value ? 1 : 0);
+        } else if (preference == mLockscreenBeforeSecurity) {
+            value = mLockscreenBeforeSecurity.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_BEFORE_SECURITY,
+                    value ? 1 : 0);
+            return true;
         }
         return false;
     }
