@@ -181,6 +181,8 @@
     <string name="notification_battery_warning">這個選項已被證實會增加每小時3％的耗電量。如發現啟用了閃爍後耗電速度增快，那麼這個選項就是原因。如不希望招致耗電加快就請勿啟用。</string>
 
     <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_disable_on_security_title">只顯示解鎖螢幕</string>
+    <string name="pref_lockscreen_disable_on_security_summary">當螢幕安全性（圖形、PIN、密碼）為啟用時不顯示鎖定螢幕，直接顯示解鎖輸入介面</string>
     <string name="pref_lockscreen_stylecfg_title">風格選項</string>
     <string name="pref_lockscreen_stylecfg_summary">鎖定螢幕風格及其相關設定</string>
     <string name="pref_lockscreen_widgets_title">小工具選項</string>
@@ -219,6 +221,9 @@
     <string name="pref_lockscreen_custom_app_toggle_title">啟動自訂應用程式</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">在滑桿模式中以額外的滑桿，或在撥輪模式中以額外的撥孔，來啟動自訂應用程式。</string>
     <string name="pref_lockscreen_custom_app_activity_title">自訂應用程式</string>
+    <string name="pref_lockscreen_custom_background_title">選擇背境</string>
+    <string name="pref_lockscreen_custom_background_dialog_title">選擇背境</string>
+    <string name="pref_lockscreen_custom_background_summary">選擇以圖片或單一色彩作為鎖定螢幕背境</string>
     <string name="pref_lockscreen_custom_icon_style_title">使用應用程式圖示</string>
     <string name="pref_lockscreen_custom_icon_style_summary">以應用程式圖示代替 CyanogenMod 圖示來啟動自訂應用程式</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">拉下解鎖</string>

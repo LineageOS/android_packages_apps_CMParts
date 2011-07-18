@@ -41,9 +41,21 @@
 
     <!-- skipping untranslatable /resources:0/string-array:name=values_status_bar_am_pm -->
 
+    <!-- skipping untranslatable /resources:0/string-array:name=entries_render_effect -->
+
     <!-- skipping untranslatable /resources:0/string-array:name=values_render_effect -->
 
+    <!-- skipping untranslatable /resources:0/string-array:name=render_entries -->
+
     <!-- skipping untranslatable /resources:0/string-array:name=render_values -->
+
+    <string-array name="haptic_feedback_entries">
+        <item>全域設定</item>
+        <item>開啟</item>
+        <item>關閉</item>
+    </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=haptic_feedback_values -->
 
     <string-array name="entries_trackball_colors">
         <item>綠</item>
@@ -272,6 +284,13 @@
 
     <!-- skipping untranslatable /resources:0/string-array:name=pref_in_call_style_values -->
 
+    <string-array name="pref_lockscreen_background_entries">
+        <item>選用色彩</item>
+        <item>選用圖片</item>
+    </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_background_values -->
+
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>不顯示</item>
         <item>有線耳機</item>
@@ -344,5 +363,7 @@
         <item>自訂應用程式</item>
         <item>顯示／隱藏通知列</item>
     </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=values_long_press_menu -->
 
 </resources>
