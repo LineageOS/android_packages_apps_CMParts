@@ -320,8 +320,11 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
                     intent.putExtra(MediaStore.EXTRA_OUTPUT,Uri.fromFile(lockWall));
                     intent.putExtra("return-data", false);
                     startActivityForResult(intent,LOCKSCREEN_BACKGROUND);
-                }else
+                }else{
                     Toast.makeText(this, "Gallery is not installed", Toast.LENGTH_LONG).show();
+                }
+            }else if (mCustomBackground.findIndexOfValue(val) == 2){
+                Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_BACKGROUND,1879048192);
             }
             return true;
         }
