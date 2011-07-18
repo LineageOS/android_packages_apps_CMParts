@@ -26,6 +26,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
@@ -320,8 +321,11 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
                     intent.putExtra(MediaStore.EXTRA_OUTPUT,Uri.fromFile(lockWall));
                     intent.putExtra("return-data", false);
                     startActivityForResult(intent,LOCKSCREEN_BACKGROUND);
-                }else
+                }else{
                     Toast.makeText(this, "Gallery is not installed", Toast.LENGTH_LONG).show();
+                }
+            }else if (mCustomBackground.findIndexOfValue(val) == 2){
+                Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_BACKGROUND,Color.parseColor("#70000000"));
             }
             return true;
         }
