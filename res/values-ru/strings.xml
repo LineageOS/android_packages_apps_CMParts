@@ -176,6 +176,21 @@
     <string name="trackball_color_notice_title">ПРИМЕЧАНИЕ:</string>
     <string name="trackball_color_notice_summary">На некоторых устройствах будут отображаться не все цвета</string>
 
+    <!-- Trackball color entries -->
+    <string name="trackball_color_entry_green">Зелёный</string>
+    <string name="trackball_color_entry_white">Белый</string>
+    <string name="trackball_color_entry_red">Красный</string>
+    <string name="trackball_color_entry_blue">Синий</string>
+    <string name="trackball_color_entry_yellow">Жёлтый</string>
+    <string name="trackball_color_entry_cyan">Голубой</string>
+    <string name="trackball_color_entry_magenta">Фиолетовый</string>
+    <string name="trackball_color_entry_pink">Розовый</string>
+    <string name="trackball_color_entry_orange">Оранжевый</string>
+    <string name="trackball_color_entry_light_blue">Светло-синий</string>
+    <string name="trackball_color_entry_random">Случайно</string>
+    <string name="trackball_color_entry_none">Нет</string>
+    <string name="trackball_color_entry_amber">Жёлтый</string>
+
     <!--Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">Внимание: может вызвать разрядку батареи</string>
     <string name="notification_battery_warning">Эта настройка увеличивает разряд батареи примерно на 3% в час. Если вы заметили, что батарея разряжается быстрее, виновата эта опция. Не включайте, если не хотите быстрой разрядки.</string>
