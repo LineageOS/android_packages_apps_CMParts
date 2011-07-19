@@ -499,9 +499,9 @@
     </string-array>
 
     <string-array name="pref_lockscreen_background_entries">
-        <item>Set color</item>
-        <item>Set image</item>
-        <item>Set default</item>
+        <item>Color fill</item>
+        <item>Custom image</item>
+        <item>Default wallpaper</item>
     </string-array>
 
     <string-array name="pref_lockscreen_background_values" translatable="false">
