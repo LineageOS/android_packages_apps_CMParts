@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHX//+Mg\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 300,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-19T12:26:15Z",
+      "side": 1,
+      "message": "Hardcoding the Gallery3D path for choosing a wallpaper sounds utterly wrong to me. I will lead to effects like this: http://forum.xda-developers.com/showpost.php?p\u003d15782638\u0026postcount\u003d8903\n\nWhy not use the regular wallpaper choosing magic? See e.g. packages/apps/ADWLauncher/src/com/android/launcher/Launcher.java, line 1915.",
+      "revId": "51f937ad322b60287f91d1a4bf8fd3cb12131db0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
