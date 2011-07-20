@@ -644,4 +644,13 @@
         <item>4</item>
     </string-array>
 
+    <string-array name="entries_ext_bt_gps">
+        <item>Use Internal GPS</item>
+    </string-array>
+    
+    <string-array name="values_ext_bt_gps" translatable="false">
+        <item>0</item>
+    </string-array>
+    
+
 </resources>
