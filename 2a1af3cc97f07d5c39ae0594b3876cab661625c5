@@ -19,6 +19,41 @@
     },
     {
       "key": {
+        "uuid": "AAAAHX//+Fs\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-20T13:35:20Z",
+      "side": 1,
+      "message": "Also, a helper function could be useful here, given that you set the summary at a number of points.",
+      "parentUuid": "AAAAHX//+Iw\u003d",
+      "revId": "2a1af3cc97f07d5c39ae0594b3876cab661625c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//+Fc\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-20T13:35:20Z",
+      "side": 1,
+      "message": "Line 229 looks redundant here.",
+      "revId": "2a1af3cc97f07d5c39ae0594b3876cab661625c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAHX//+Is\u003d",
         "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
         "patchSetId": 1
@@ -47,6 +82,74 @@
       "writtenOn": "2011-07-20T00:11:49Z",
       "side": 1,
       "message": "As above... ;)",
+      "revId": "2a1af3cc97f07d5c39ae0594b3876cab661625c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//+Fo\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-20T13:35:20Z",
+      "side": 1,
+      "message": "Also, the wallpaper image should be deleted here.",
+      "revId": "2a1af3cc97f07d5c39ae0594b3876cab661625c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//+FU\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-20T13:35:20Z",
+      "side": 1,
+      "message": "It might be useful to call findIndexOfValue(val) only once and save the result.",
+      "revId": "2a1af3cc97f07d5c39ae0594b3876cab661625c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//+FY\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 314,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-20T13:35:20Z",
+      "side": 1,
+      "message": "http://developer.android.com/reference/java/io/File.html#createNewFile%28%29 says that it doesn\u0027t throw IOException, so the try-catch block is useless.",
+      "revId": "2a1af3cc97f07d5c39ae0594b3876cab661625c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//+FQ\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 324,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-20T13:35:20Z",
+      "side": 1,
+      "message": "Why not set the setting to null here and handle the null value in the framework code accordingly?\nAlso, should delete the wallpaper image/path.",
       "revId": "2a1af3cc97f07d5c39ae0594b3876cab661625c5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
