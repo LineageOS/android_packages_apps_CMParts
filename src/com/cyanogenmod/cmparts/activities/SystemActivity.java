@@ -54,8 +54,10 @@ OnPreferenceChangeListener {
         	if (mBluetoothAdapter != null && mBluetoothAdapter.isEnabled()) {
 	        	ArrayList<CharSequence> entries = new ArrayList<CharSequence>();
 	        	entries.add("Internal GPS");
+	        	//entries.addAll(Arrays.asList(btpref.getEntries()));
 	        	ArrayList<CharSequence> values = new ArrayList<CharSequence>();
 	        	values.add("0");
+	        	//entries.addAll(Arrays.asList(btpref.getEntryValues()));
 	           	ArrayList<BluetoothDevice> tmp = (new ArrayList<BluetoothDevice>(mBluetoothAdapter.getBondedDevices()));
 	           	for (BluetoothDevice d: tmp) {
 	        		String dname = d.getName() + " - " + d.getAddress();
