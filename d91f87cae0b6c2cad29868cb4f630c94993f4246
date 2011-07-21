@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHX//97g\u003d",
+        "filename": "res/xml/performance_settings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 27
+      },
+      "writtenOn": "2011-07-21T22:01:19Z",
+      "side": 1,
+      "message": "White space",
+      "revId": "d91f87cae0b6c2cad29868cb4f630c94993f4246",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
