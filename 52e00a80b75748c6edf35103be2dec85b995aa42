@@ -34,6 +34,24 @@
       "revId": "52e00a80b75748c6edf35103be2dec85b995aa42",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//98M\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 323,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2011-07-21T19:47:43Z",
+      "side": 1,
+      "message": "Woops, u got me confused.\n\nYes this has to be a string.\nmyExtras.getString(\"crop\") is what they read.",
+      "parentUuid": "AAAAHX//98U\u003d",
+      "revId": "52e00a80b75748c6edf35103be2dec85b995aa42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
