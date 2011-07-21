@@ -22,7 +22,7 @@
     <string name="lockscreen_settings_summary_head">Lockscreen gestures, style, unlock options</string>
     <string name="performance_settings_title_head">Performance</string>
     <string name="performance_settings_title_subhead">Performance settings</string>
-    <string name="performance_settings_summary_head">Performance tweaks, JIT, VM heap size</string>
+    <string name="performance_settings_summary_head">Performance tweaks, JIT, VM heap size, wifi scan policy</string>
     <string name="sound_settings_title_head">Sound</string>
     <string name="sound_settings_title_subhead">Sound settings</string>
     <string name="sound_settings_summary_head">Sound volumes, audio focus, quiet hours</string>
@@ -658,6 +658,8 @@
     <string name="perm_enable_warning_message">Warning!\nRevoking most permissions will most likely cause applications to malfunction. If an application with revoked permissions force-closes please grant the expected permissions or don\'t use the application.\nPlease DO NOT send bug reports to Cyanogenmod if an application with revoked permissions is not working as expected!</string>
     <string name="perm_enable_warning_title">Are you sure?</string>
 
-
+    <!-- Wifi scan policy -->
+    <string name="pref_wifi_scan_interval_title">Wifi scan interval</string>
+    <string name="pref_wifi_scan_interval_summary">The time between wifi scans when no stored access points are available (requires reboot)</string>
 
 </resources>

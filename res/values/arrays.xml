@@ -17,6 +17,15 @@
 
 <resources>
 
+    <string-array name="entries_wifi_scan">
+        <item>15</item>
+        <item>30</item>
+        <item>90</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+    </string-array>
+
     <string-array name="entries_recent_apps_num">
         <item>8</item>
         <item>12</item>
