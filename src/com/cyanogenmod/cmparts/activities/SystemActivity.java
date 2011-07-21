@@ -21,16 +21,77 @@ import com.cyanogenmod.cmparts.R;
 import android.os.Bundle;
 import android.os.SystemProperties;
 import android.preference.PreferenceActivity;
+import android.app.AlertDialog;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.content.DialogInterface;
+import android.preference.ListPreference;
+import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
+import android.provider.Settings;
 
+import java.util.ArrayList;
 
-public class SystemActivity extends PreferenceActivity {
+public class SystemActivity extends PreferenceActivity implements
+OnPreferenceChangeListener {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setTitle(R.string.system_settings_title_subhead);
         addPreferencesFromResource(R.xml.system_settings);
-        findPreference("changelog").setSummary(getString(R.string.changelog_version) + ": " +
-            SystemProperties.get("ro.modversion", getResources().getString(R.string.changelog_unknown)));
+        findPreference("changelog").setSummary(getString(R.string.changelog_version)
+                + ": " + SystemProperties.get("ro.modversion",
+                getResources().getString(R.string.changelog_unknown)));
+        ListPreference btpref = (ListPreference) findPreference("pref_ext_bt_gps");
+        if (btpref != null) {
+            // add known bonded BT devices
+            BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+            if ((mBluetoothAdapter != null) && (mBluetoothAdapter.isEnabled())) {
+                ArrayList<CharSequence> entries = new ArrayList<CharSequence>();
+                for (String e : getResources().getStringArray(R.array.entries_ext_bt_gps) ) {
+                    entries.add(e);
+                }
+                ArrayList<CharSequence> values = new ArrayList<CharSequence>();
+                for (String v: getResources().getStringArray(R.array.values_ext_bt_gps)) {
+                    values.add(v);
+                }
+                ArrayList<BluetoothDevice> tmp =
+                    new ArrayList<BluetoothDevice>(mBluetoothAdapter.getBondedDevices());
+                for (BluetoothDevice d : tmp) {
+                    String dname = d.getName() + " - " + d.getAddress();
+                    entries.add(dname);
+                    values.add(d.getAddress());
+                }
+                btpref.setEntries(entries.toArray(new CharSequence[entries.size()]));
+                btpref.setEntryValues(values.toArray(new CharSequence[values.size()]));
+                btpref.setOnPreferenceChangeListener(this);
+            }
+        }
     }
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        String oldPref = Settings.System.getString(getContentResolver(),
+                Settings.System.EXTERNAL_GPS_BT_DEVICE);
+        String newPref = (String) newValue;
+        // "0" represents the internal GPS.
+        Settings.System.putString(getContentResolver(), Settings.System.EXTERNAL_GPS_BT_DEVICE,
+                newPref == null ? "0" : newPref);
+        if (!oldPref.equals(newPref) && ("0".equals(oldPref) || "0".equals(newPref)) ) {
+            // Show dialog to inform user that setting will take affect on boot
+            AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+            alertDialog.setTitle(R.string.pref_ext_bt_gps_notification_title);
+            alertDialog.setMessage(getResources().getString(R.string.pref_ext_bt_gps_notification));
+            alertDialog.setButton(DialogInterface.BUTTON_POSITIVE,
+                    getResources().getString(com.android.internal.R.string.ok),
+                    new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int which) {
+                    return;
+                }
+            });
+            alertDialog.show();
+        }
+        return true;
+    }
+
 }
