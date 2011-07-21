@@ -17,6 +17,15 @@
 
 <resources>
 
+    <string-array name="entries_wifi_scan">
+        <item>15</item>
+        <item>30</item>
+        <item>90</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+    </string-array>
+
     <string-array name="entries_recent_apps_num">
         <item>8</item>
         <item>12</item>
@@ -55,7 +64,7 @@
         <item>2</item>
     </string-array>
 
-    <string-array name="entries_render_effect" translatable="false">
+    <string-array name="entries_render_effect">
         <item>@string/pref_render_effect_none</item>
         <item>@string/pref_render_effect_night</item>
         <item>@string/pref_render_effect_green</item>
@@ -83,7 +92,7 @@
         <item>10</item>
     </string-array>
 
-    <string-array name="render_entries" translatable="false">
+    <string-array name="render_entries">
         <item>@string/pref_render_effect_night</item>
         <item>@string/pref_render_effect_green</item>
         <item>@string/pref_render_effect_blue</item>
@@ -504,7 +513,7 @@
         <item>Set default</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_background_values" translatable="false">
+    <string-array name="pref_lockscreen_background_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -636,7 +645,7 @@
         <item>Toggle statusbar</item>
     </string-array>
 
-    <string-array name="values_long_press_menu" translatable="false">
+    <string-array name="values_long_press_menu">
         <item>0</item>
         <item>1</item>
         <item>2</item>
