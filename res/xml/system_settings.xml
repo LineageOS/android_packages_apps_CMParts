@@ -29,6 +29,13 @@
                 android:targetClass="com.cyanogenmod.cmparts.activities.ChangeLog" />
         </PreferenceScreen>
 
+        <!-- GPS Source pref -->
+        <ListPreference android:key="pref_gps_source"
+            android:dialogTitle="@string/pref_gps_source_title"
+            android:title="@string/pref_gps_source_title"
+            android:summary="@string/pref_gps_source_summary"
+            android:entries="@array/entries_gps_source"
+            android:entryValues="@array/values_gps_source" />
     </PreferenceCategory>
 
 </PreferenceScreen>
