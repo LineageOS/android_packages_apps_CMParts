@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHX//9+k\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2011-07-21T08:42:54Z",
+      "side": 1,
+      "message": "Nitpick- only the first word should be capitalized.",
+      "revId": "a6a75e0f87912b75e2d9710a194ed65b5bce9110",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
