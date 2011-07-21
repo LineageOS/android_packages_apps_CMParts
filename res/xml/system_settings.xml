@@ -28,7 +28,14 @@
                 android:targetPackage="com.cyanogenmod.cmparts"
                 android:targetClass="com.cyanogenmod.cmparts.activities.ChangeLog" />
         </PreferenceScreen>
-
+        
+        <!-- external BT GPS -->
+       <ListPreference android:key="pref_ext_bt_gps"
+            android:dialogTitle="@string/pref_ext_bt_gps_title"
+            android:title="@string/pref_ext_bt_gps_title"
+            android:summary="@string/pref_ext_bt_gps_summary"
+            android:entries="@array/entries_ext_bt_gps"
+            android:entryValues="@array/values_ext_bt_gps" />
     </PreferenceCategory>
 
 </PreferenceScreen>

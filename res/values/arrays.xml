@@ -501,11 +501,13 @@
     <string-array name="pref_lockscreen_background_entries">
         <item>Set color</item>
         <item>Set image</item>
+        <item>Set default</item>
     </string-array>
 
     <string-array name="pref_lockscreen_background_values">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
     </string-array>
 
     <string-array name="pref_lockscreen_music_headset_entries">
@@ -641,5 +643,14 @@
         <item>3</item>
         <item>4</item>
     </string-array>
+
+    <string-array name="entries_ext_bt_gps">
+        <item>Use Internal GPS</item>
+    </string-array>
+    
+    <string-array name="values_ext_bt_gps" translatable="false">
+        <item>0</item>
+    </string-array>
+    
 
 </resources>
