@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHX//90Q\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/PerformanceSettingsActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-22T10:07:44Z",
+      "side": 1,
+      "message": "This method could be refactored.  The newValue check in each if block is redundent and could be moved to the top of this method.\n\n...\nif (newValue \u003d\u003d null) {\n    return false;\n}\n...",
+      "revId": "7696a62652fc291334c14e86ef0964586f46b177",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
