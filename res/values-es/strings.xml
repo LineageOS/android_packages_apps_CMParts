@@ -169,9 +169,7 @@
     <string name="trackball_category_add_summary">Añadir categoría a la lista</string>
     <string name="trackball_category_remove_title">Eliminar categoría</string>
     <string name="trackball_category_remove_summary">Eliminar categoría de la lista</string>
-    <string name="trackball_remove_default_toast">No se puede eliminar la categoría por defecto.</string>
     <string name="trackball_reset_all">Reiniciar todos los colores y categorías.</string>
-    <string name="trackball_array_error">Hay un error en la lista. Este paquete se ha añadido a la categoría Miscelánea.</string>
     <string name="trackball_color_notice_title">NOTA:</string>
     <string name="trackball_color_notice_summary">No todos los colores se verán en todos los dispositivos</string>
 
@@ -187,7 +185,6 @@
     <string name="trackball_color_entry_orange">Naranja</string>
     <string name="trackball_color_entry_light_blue">Celeste</string>
     <string name="trackball_color_entry_random">Aleatorio</string>
-    <string name="trackball_color_entry_none">Ninguno</string>
     <string name="trackball_color_entry_amber">Ambar</string>
 
     <!-- Trackball Settings : Warning dialog -->
