@@ -83,8 +83,9 @@
     <string name="ui_status_bar_cm_signal_text_show_text_dbm">Numérique dBm</string>
 
     <!-- User interface : LED Notifications -->
+    <string name="group_settings">Paramètres</string>
     <string name="trackball_title">Notifications par LED</string>
-    <string name="trackball_summary">Paramètres concernant la couleur des LED et le clignotement</string>
+    <string name="trackball_summary">Couleurs et type de clignotement des notifications par LED</string>
 
     <!-- User interface : Overscroll -->
     <string name="ui_overscroll_title">Surdéfilement</string>
@@ -156,12 +157,22 @@
     <string name="trackball_category_add_summary">Ajoute une catégorie à la liste</string>
     <string name="trackball_category_remove_title">Retirer catégorie</string>
     <string name="trackball_category_remove_summary">Retire une catégorie de la liste</string>
-    <string name="trackball_remove_default_toast">Impossible de retirer la catégorie par défaut.</string>
     <string name="trackball_reset_all">RàZ des couleurs et catégories</string>
     <string name="trackball_color_notice_title">NOTE :</string>
     <string name="trackball_color_notice_summary">Seules certaines couleurs seront visibles sur certains appareils.</string>
+    <string name="trackball_category_unconfigured">Non configurés</string>
+    <string name="trackball_category_misc">Divers</string>
+    <string name="trackball_app_reset_title">Remise à zéro</string>
+    <string name="trackball_app_reset_summary">Retirer les paramètres définis pour cette application</string>
+    <string name="trackball_force_mode_title">Mode LED</string>
+    <string name="trackball_force_mode_dialog">Sélection du mode</string>
+    <string name="trackball_force_mode_summary">Définir le comportement de la LED</string>
+
+    <string name="trackball_app_mms">Messages</string>
+    <string name="trackball_app_dialer">Appels manqués</string>
 
     <!-- Trackball color entries -->
+    <string name="trackball_color_entry_use_app">Paramètre application</string>
     <string name="trackball_color_entry_green">Vert</string>
     <string name="trackball_color_entry_white">Blanc</string>
     <string name="trackball_color_entry_red">Rouge</string>
@@ -173,7 +184,6 @@
     <string name="trackball_color_entry_orange">Orange</string>
     <string name="trackball_color_entry_light_blue">Bleu ciel</string>
     <string name="trackball_color_entry_random">Aléatoire</string>
-    <string name="trackball_color_entry_none">Aucune</string>
     <string name="trackball_color_entry_amber">Orange</string>
 
     <!-- Trackball Settings : Warning dialog -->
