@@ -170,9 +170,7 @@
     <string name="trackball_category_add_summary">Aggiungi una categoria alla lista</string>
     <string name="trackball_category_remove_title">Rimuovi categoria</string>
     <string name="trackball_category_remove_summary">Rimuovi una categoria dalla lista</string>
-    <string name="trackball_remove_default_toast">Non è possibile rimuovere la categoria di default.</string>
     <string name="trackball_reset_all">Ripristina le app e le categorie</string>
-    <string name="trackball_array_error">Purtroppo si è verificato un errore di array. Questa app è stata forzata nella categoria Miscellaneous.</string>
     <string name="trackball_color_notice_title">NOTA:</string>
     <string name="trackball_color_notice_summary">Alcuni dispositivi non sono in grado di visualizzare tutti i colori disponibili.</string>
 
@@ -188,7 +186,6 @@
     <string name="trackball_color_entry_orange">Arancione</string>
     <string name="trackball_color_entry_light_blue">Blu Chiaro</string>
     <string name="trackball_color_entry_random">Random</string>
-    <string name="trackball_color_entry_none">Nessuno</string>
     <string name="trackball_color_entry_amber">Ambra</string>
 
     <!-- Trackball Settings : Warning dialog -->
