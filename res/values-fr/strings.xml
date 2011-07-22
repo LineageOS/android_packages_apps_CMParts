@@ -141,7 +141,6 @@
     <string name="trackball_category_add_summary">Ajoute une catégorie à la liste</string>
     <string name="trackball_category_remove_title">Retirer catégorie</string>
     <string name="trackball_category_remove_summary">Retire une catégorie de la liste</string>
-    <string name="trackball_remove_default_toast">Impossible de retirer la catégorie par défaut.</string>
     <string name="trackball_reset_all">RàZ des couleurs et catégories</string>
     <string name="trackball_color_notice_title">NOTE :</string>
     <string name="trackball_color_notice_summary">Seules certaines couleurs seront visibles sur certains appareils.</string>
@@ -158,7 +157,6 @@
     <string name="trackball_color_entry_orange">Orange</string>
     <string name="trackball_color_entry_light_blue">Bleu ciel</string>
     <string name="trackball_color_entry_random">Aléatoire</string>
-    <string name="trackball_color_entry_none">Aucune</string>
     <string name="trackball_color_entry_amber">Orange</string>
 
     <!-- Trackball Settings : Warning dialog -->
