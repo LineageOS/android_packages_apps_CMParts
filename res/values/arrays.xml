@@ -163,6 +163,20 @@
         <item>none</item>
     </string-array>
 
+    <string-array name="pref_keypad_type_entries">
+        <item>azerty</item>
+        <item>euro-qwerty</item>
+        <item>qwerty</item>
+        <item>qwertz</item>
+    </string-array>
+
+    <string-array name="pref_keypad_type_values" translatable="false">
+        <item>azerty</item>
+        <item>euro-qwerty</item>
+        <item>qwerty</item>
+        <item>qwertz</item>
+    </string-array>
+
     <string-array name="pref_trackball_blink_rate_entries">
         <item>2 (Fast)</item>
         <item>3</item>

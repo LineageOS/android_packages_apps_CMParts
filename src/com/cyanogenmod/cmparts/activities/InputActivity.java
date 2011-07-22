@@ -22,7 +22,9 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
+import android.preference.ListPreference;
 import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
@@ -31,7 +33,8 @@ import android.provider.Settings;
 import com.cyanogenmod.cmparts.R;
 import com.cyanogenmod.cmparts.utils.ShortcutPickHelper;
 
-public class InputActivity extends PreferenceActivity implements ShortcutPickHelper.OnPickListener {
+public class InputActivity extends PreferenceActivity implements
+        OnPreferenceChangeListener {
 
     private static final String TRACKBALL_WAKE_PREF = "pref_trackball_wake";
 
@@ -40,6 +43,12 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
     private static final String VOLBTN_MUSIC_CTRL_PREF = "pref_volbtn_music_controls";
 
     private static final String CAMBTN_MUSIC_CTRL_PREF = "pref_cambtn_music_controls";
+
+    private static final String KEYPAD_TYPE_PREF = "pref_keypad_type";
+
+    private static final String KEYPAD_TYPE_PERSIST_PROP = "persist.sys.keypad_type";
+
+    private static final String KEYPAD_TYPE_DEFAULT = "qwerty";
 
     private static final String BUTTON_CATEGORY = "pref_category_button_settings";
 
@@ -56,6 +65,8 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
     private CheckBoxPreference mVolBtnMusicCtrlPref;
 
     private CheckBoxPreference mCamBtnMusicCtrlPref;
+
+    private ListPreference mKeypadTypePref;
 
     private Preference mUserDefinedKey1Pref;
 
@@ -93,6 +104,11 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
         mCamBtnMusicCtrlPref = (CheckBoxPreference) prefSet.findPreference(CAMBTN_MUSIC_CTRL_PREF);
         mCamBtnMusicCtrlPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.CAMBTN_MUSIC_CONTROLS, 0) == 1);
+
+        mKeypadTypePref = (ListPreference) prefSet.findPreference(KEYPAD_TYPE_PREF);
+        String keypadType = SystemProperties.get(KEYPAD_TYPE_PERSIST_PROP, KEYPAD_TYPE_DEFAULT);
+        mKeypadTypePref.setValue(keypadType);
+        mKeypadTypePref.setOnPreferenceChangeListener(this);
 
         PreferenceCategory buttonCategory = (PreferenceCategory) prefSet
                 .findPreference(BUTTON_CATEGORY);
@@ -177,6 +193,32 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
         }
 
         return false;
+    }
+
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mKeypadTypePref) {
+            String keypadType = (String) newValue;
+            SystemProperties.set(KEYPAD_TYPE_PERSIST_PROP, keypadType);
+            return true;
+        }
+        return false;
+    }
+
+    private void pickShortcut(int keyNumber) {
+        mKeyNumber = keyNumber;
+        Bundle bundle = new Bundle();
+        ArrayList<String> shortcutNames = new ArrayList<String>();
+        shortcutNames.add(getString(R.string.group_applications));
+        bundle.putStringArrayList(Intent.EXTRA_SHORTCUT_NAME, shortcutNames);
+        ArrayList<ShortcutIconResource> shortcutIcons = new ArrayList<ShortcutIconResource>();
+        shortcutIcons.add(ShortcutIconResource
+                .fromContext(this, R.drawable.ic_launcher_application));
+        bundle.putParcelableArrayList(Intent.EXTRA_SHORTCUT_ICON_RESOURCE, shortcutIcons);
+        Intent pickIntent = new Intent(Intent.ACTION_PICK_ACTIVITY);
+        pickIntent.putExtra(Intent.EXTRA_INTENT, new Intent(Intent.ACTION_CREATE_SHORTCUT));
+        pickIntent.putExtra(Intent.EXTRA_TITLE, getText(R.string.select_custom_app_title));
+        pickIntent.putExtras(bundle);
+        startActivityForResult(pickIntent, REQUEST_PICK_SHORTCUT);
     }
 
     @Override
