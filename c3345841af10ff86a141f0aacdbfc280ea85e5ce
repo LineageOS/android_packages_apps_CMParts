@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHX//9zk\u003d",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 650,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-22T10:22:35Z",
+      "side": 1,
+      "message": "Please remove trailing white space.",
+      "revId": "c3345841af10ff86a141f0aacdbfc280ea85e5ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//9zg\u003d",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 654,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-22T10:22:35Z",
+      "side": 1,
+      "message": "here too.",
+      "revId": "c3345841af10ff86a141f0aacdbfc280ea85e5ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//9zo\u003d",
+        "filename": "res/xml/system_settings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-22T10:22:35Z",
+      "side": 1,
+      "message": "Please remove trailing white space.",
+      "revId": "c3345841af10ff86a141f0aacdbfc280ea85e5ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//90A\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SystemActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-22T10:22:35Z",
+      "side": 1,
+      "message": "Please convert tabs to spaces, wrap at 100 cols, and remove trailing whitespace per the android style guide. (http://goo.gl/5mLE)",
+      "revId": "c3345841af10ff86a141f0aacdbfc280ea85e5ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//90I\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SystemActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-22T10:22:35Z",
+      "side": 1,
+      "message": "Please remove commented code if it\u0027s not needed.",
+      "revId": "c3345841af10ff86a141f0aacdbfc280ea85e5ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//9zw\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SystemActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-22T10:22:35Z",
+      "side": 1,
+      "message": "What happens here if newValue is null ?",
+      "revId": "c3345841af10ff86a141f0aacdbfc280ea85e5ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
