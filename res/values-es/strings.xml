@@ -379,14 +379,6 @@
     <string name="notify_render_effect">Efecto Render activado</string>
     <string name="add_widget">Añadir widget</string>
 
-    <!--  Widget Types -->
-    <string name="night">Noche</string>
-    <string name="terminal">Terminal</string>
-    <string name="blue">Azul</string>
-    <string name="amber">Ambar</string>
-    <string name="salmon">Salmón</string>
-    <string name="fuscia">Fuscia</string>
-
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Widget Control de energía expandido</string>
     <string name="title_expanded_widget">Widget de notificación de energía</string>
