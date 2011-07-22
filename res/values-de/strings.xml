@@ -111,8 +111,19 @@
     <string name="ui_status_bar_cm_signal_text_show_text_dbm">Signalstärke inkl. "dBm"</string>
 
     <!-- User interface : LED Notifications -->
+    <string name="group_settings">Einstellungen</string>
     <string name="trackball_title">LED-Benachrichtigungen</string>
     <string name="trackball_summary">Trackball/LED-Benachrichtigungen kontrollieren</string>
+    <string name="trackball_category_misc">Ohne Kategorie</string>
+    <string name="trackball_category_unconfigured">Nicht konfiguriert</string>
+
+    <string name="trackball_app_email">E-Mail</string>
+    <string name="trackball_app_mms">SMS/MMS</string>
+    <string name="trackball_app_gvoice">Google Voice</string>
+    <string name="trackball_app_gmail">Google Mail</string>
+    <string name="trackball_app_gtalk">Google Talk</string>
+    <!-- Say Missed Call instead of "Dialer" as the notification is for the missed call -->
+    <string name="trackball_app_dialer">Verpasster Anruf</string>
 
     <!-- User interface, WebView -->
     <string name="ui_webview_title">WebView</string>
@@ -167,6 +178,10 @@
     <string name="color_trackball_test_title">Teste Blinken</string>
     <string name="color_trackball_test_summary">Das Trackball-Blinken testen</string>
     <string name="dialog_clear_flash">Test beenden</string>
+    <string name="trackball_app_save_title">Speichern</string>
+    <string name="trackball_app_save_summary">Einstellungen für diese Anwendung speichern</string>
+    <string name="trackball_app_reset_title">Zurücksetzen</string>
+    <string name="trackball_app_reset_summary">Alle Einstellungen für diese Anwendung entfernen</string>
     <string name="trackball_advanced_title">Erweitert</string>
     <string name="pref_trackball_screen_title">Immer pulsieren</string>
     <string name="pref_trackball_screen_summary">Trackball-Licht pulsiert auch, wenn der Bildschirm an ist.</string>
@@ -185,19 +200,22 @@
     <string name="trackball_category_dialog_text">Neue Kategorie eingeben</string>
     <string name="trackball_category_list_title">Kategorie</string>
     <string name="trackball_category_list_summary">Kategorie auswählen</string>
-    <string name="trackball_category_screen">Kategorie verwalten</string>
+    <string name="trackball_category_screen">Kategorien verwalten</string>
     <string name="trackball_category_add_title">Kategorie hinzufügen</string>
     <string name="trackball_category_add_summary">Eine Kategorie der Liste hinzufügen</string>
     <string name="trackball_category_remove_title">Kategorie entfernen</string>
     <string name="trackball_category_remove_summary">Eine Kategorie aus der Liste entfernen</string>
-    <string name="trackball_remove_default_toast">Die Standardkategorie kann nicht entfernt werden.</string>
     <string name="trackball_reset_all">Alle Farben und Kategorien zurücksetzen.</string>
-    <string name="trackball_array_error">Leider ist ein Fehler aufgetreten. Dieses Paket ist in die Kategorie \"Verschiedenes\" verschoben worden.</string>
 
     <string name="trackball_color_notice_title">HINWEIS:</string>
     <string name="trackball_color_notice_summary">Auf manchen Geräten sind nicht alle Farben von der LED darstellbar.</string>
 
+    <string name="trackball_force_mode_title">LED-Modus</string>
+    <string name="trackball_force_mode_dialog">Modus auswählen</string>
+    <string name="trackball_force_mode_summary">Verhalten der LED konfigurieren</string>
+
     <!-- Trackball color entries -->
+    <string name="trackball_color_entry_use_app">Anwendungseinstellung</string>
     <string name="trackball_color_entry_green">Grün</string>
     <string name="trackball_color_entry_white">Weiß</string>
     <string name="trackball_color_entry_red">Rot</string>
@@ -209,7 +227,6 @@
     <string name="trackball_color_entry_orange">Orange</string>
     <string name="trackball_color_entry_light_blue">Hellblau</string>
     <string name="trackball_color_entry_random">Zufällig</string>
-    <string name="trackball_color_entry_none">Keine</string>
     <string name="trackball_color_entry_amber">Amber</string>
 
     <!-- Trackball Settings : Warning dialog -->
