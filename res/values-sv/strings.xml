@@ -186,9 +186,7 @@
     <string name="trackball_category_add_summary">Lägg till en kategori till listan</string>
     <string name="trackball_category_remove_title">Ta bort kategori</string>
     <string name="trackball_category_remove_summary">Ta bort en kategori från listan</string>
-    <string name="trackball_remove_default_toast">Kan inte ta denna kategori då det är standardkategorin.</string>
     <string name="trackball_reset_all">Återställ alla färger och kategorier.</string>
-    <string name="trackball_array_error">Tyvärr inträffade ett listfel. Paketet har tvingats läggas i kategorin Övrigt.</string>
     <string name="trackball_color_notice_title">OBS:</string>
     <string name="trackball_color_notice_summary">Alla färger visas inte på alla enheter.</string>
 
@@ -204,7 +202,6 @@
     <string name="trackball_color_entry_orange">Orange</string>
     <string name="trackball_color_entry_light_blue">Ljusblå</string>
     <string name="trackball_color_entry_random">Slumpmässig</string>
-    <string name="trackball_color_entry_none">Ingen</string>
     <string name="trackball_color_entry_amber">Bärnsten</string>
 
     <!-- Trackball Settings : Warning dialog -->
