@@ -186,9 +186,7 @@
     <string name="trackball_category_add_summary">為列表新增一個分類</string>
     <string name="trackball_category_remove_title">移除分類</string>
     <string name="trackball_category_remove_summary">從列表移除一個分類</string>
-    <string name="trackball_remove_default_toast">此為預設分類，無法移除。</string>
     <string name="trackball_reset_all">重設所有色彩與分類</string>
-    <string name="trackball_array_error">由於陣列出現錯誤，這個應用程式已被強制編進雜項分類。</string>
     <string name="trackball_color_notice_title">注意</string>
     <string name="trackball_color_notice_summary">並非每一款裝置都能夠顯示全部每一種色彩</string>
 
@@ -204,7 +202,6 @@
     <string name="trackball_color_entry_orange">橙</string>
     <string name="trackball_color_entry_light_blue">淺藍</string>
     <string name="trackball_color_entry_random">隨機</string>
-    <string name="trackball_color_entry_none">無</string>
     <string name="trackball_color_entry_amber">琥珀</string>
 
     <!-- Trackball Settings : Warning dialog -->
