@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHX//9yQ\u003d",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-22T12:03:20Z",
+      "side": 1,
+      "message": "Please remove trailing white space and convert tabs to spaces.",
+      "revId": "fc1b4495f821ff63504c91934cc6e1879dac952a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//9yU\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-22T12:03:20Z",
+      "side": 1,
+      "message": "Please indent with 4 spaces.",
+      "revId": "fc1b4495f821ff63504c91934cc6e1879dac952a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//9yY\u003d",
+        "filename": "res/xml/ui_status_bar.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-22T12:03:20Z",
+      "side": 1,
+      "message": "Please fix indenting to remain consistent with the rest of this document.",
+      "revId": "fc1b4495f821ff63504c91934cc6e1879dac952a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//9yc\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIStatusBarActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-22T12:03:20Z",
+      "side": 1,
+      "message": "Per android style guide (http://bit.ly/cmstyle), please convert tabs to 4 spaces, wrap lines at 100 cols and remove trailing whit space.",
+      "revId": "fc1b4495f821ff63504c91934cc6e1879dac952a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
