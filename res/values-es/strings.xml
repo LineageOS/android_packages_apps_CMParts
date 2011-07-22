@@ -394,6 +394,7 @@
     <string name="notify_render_effect">Efecto Render activado</string>
     <string name="add_widget">Añadir widget</string>
 
+<<<<<<< HEAD
     <!--  Widget Types -->
     <string name="widget_render_effect_night">Noche</string>
     <string name="widget_render_effect_terminal">Terminal</string>
@@ -402,6 +403,8 @@
     <string name="widget_render_effect_salmon">Salmón</string>
     <string name="widget_render_effect_fuscia">Fuscia</string>
 
+=======
+>>>>>>> c5a5539... french: lockscreen background and other translation fixes
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Widget Control de energía expandido</string>
     <string name="title_expanded_widget">Widget de notificación de energía</string>
