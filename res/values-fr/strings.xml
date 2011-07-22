@@ -155,13 +155,13 @@
     <string name="pref_lockscreen_stylecfg_title">Options principales</string>
     <string name="pref_lockscreen_stylecfg_summary">Configurer l\'apparence de l\'écran de verrouillage et les réglages correspondants</string>
     <string name="pref_lockscreen_widgets_title">Options des widgets</string>
-    <string name="pref_lockscreen_widgets_summary">Activer ou désactiver divers widgets sur l\'écran de verrouillage</string>
+    <string name="pref_lockscreen_widgets_summary">Activer ou désactiver les widgets de l\'écran de verrouillage</string>
     <string name="pref_lockscreen_unlock_title">Options du déverrouillage</string>
     <string name="pref_lockscreen_unlock_summary">Configurer les boutons et le déverrouillage rapide</string>
-    <string name="pref_lockscreen_gesture_title">Geste sur l\'écran de verrouillage</string>
-    <string name="pref_lockscreen_gesture_summary">Activer et personnaliser les gestes de l\'écran de verrouillage</string>
-    <string name="pref_lockscreen_timeout_title">Délai et timeout</string>
-    <string name="pref_lockscreen_timeout_summary">Configurer le timeout et le délai d\'extinction de l\'écran</string>
+    <string name="pref_lockscreen_gesture_title">Gestes sur l\'écran</string>
+    <string name="pref_lockscreen_gesture_summary">Utiliser des gestes personnalisés sur l\'écran de verrouillage</string>
+    <string name="pref_lockscreen_timeout_title">Délais</string>
+    <string name="pref_lockscreen_timeout_summary">Configurer les délais de verrouillage et d\'extinction de l\'écran</string>
 
     <!-- Lockscreen Settings -->
     <string name="pref_lockscreen_always_battery_title">Etat de la batterie</string>
@@ -175,23 +175,35 @@
     <string name="pref_lockscreen_custom_app_activity_title">Sélectionner l\'application</string>
     <string name="pref_lockscreen_custom_icon_style_title">Icône de l\'application</string>
     <string name="pref_lockscreen_custom_icon_style_summary">Utiliser l\'icône de l\'application au lieu de celle par défaut</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">Geste supplémentaire</string>
+    <string name="pref_lockscreen_custom_app_toggle_summary">Utiliser un autre slider pour exécuter une application perso.</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Déverrouiller en bas</string>
-    <string name="pref_lockscreen_rotary_unlock_down_summary">Glisser vers le bas déverrouille. Glisser à droite démarre une application</string>
+    <string name="pref_lockscreen_rotary_unlock_down_summary">Glisser vers le bas déverrouille. Glisser à droite démarre l\'application</string>
     <string name="pref_lockscreen_rotary_hide_arrows_title">Masquer flèches</string>
     <string name="pref_lockscreen_rotary_hide_arrows_summary">Masque les flèches directionnelles de rotation</string>
-    <string name="pref_lockscreen_music_controls_title">Contrôles de la lecture</string>
+    <string name="pref_lockscreen_music_controls_title">Contrôles de la musique</string>
     <string name="pref_lockscreen_music_controls_summary">Afficher les contrôles permettant de commander la musique sur l\'écran de verrouillage</string>
     <string name="pref_lockscreen_always_music_controls_title">Toujours les afficher</string>
     <string name="pref_lockscreen_always_music_controls_summary">Toujours afficher les contrôles permettant de commander la musique, même sans lecture en cours</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Déverrouillage rapide</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Une pression sur OK n\'est plus nécessaire lors de la saisie d\'un PIN ou mot de passe. Effacer compte comme une erreur.</string>
-    <string name="pref_lockscreen_style_title">Style de l\'écran de verrouillage</string>
+    <string name="pref_lockscreen_style_title">Style</string>
     <string name="pref_lockscreen_style_summary">Choisir le style de l\'écran de verrouillage</string>
     <string name="lockscreen_style_header">Style</string>
     <string name="lockscreen_delay_header">Délai et timeout</string>
     <string name="pref_in_call_style_title">Appels entrants</string>
     <string name="pref_in_call_style_summary">Choisir le style du widget accepter/refuser les appels entrants</string>
     <string name="lockscreen_settings_title">Paramètres de l\'écran de verrouillage</string>
+    <string name="pref_lockscreen_custom_background_title">Fond d\'écran</string>
+    <string name="pref_lockscreen_custom_background_dialog_title">Fond d\'écran</string>
+    <string name="pref_lockscreen_custom_background_summary">Modifier l\'image, la couleur ou la teinte de l\'écran de verrouillage</string>
+    <string name="pref_lockscreen_custom_background_summary_color">Mode actuel: Couleur</string>
+    <string name="pref_lockscreen_custom_background_summary_image">Mode actuel: Image</string>
+    <string name="pref_lockscreen_custom_background_summary_default">Mode actuel: Par défault</string>
+    <string name="pref_lockscreen_custom_background_result_successful">Fond d\'écran modifié</string>
+    <string name="pref_lockscreen_custom_background_result_not_successful">Fond d\'écran non modifié</string>
+    <string name="pref_lockscreen_disable_on_security_title">Inactif si sécurisé</string>
+    <string name="pref_lockscreen_disable_on_security_summary">Désactive l\'écran de verrouillage si l\'écran de sécurité est activé (Code PIN, Mot de passe)</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Paramètres des entrées</string>
