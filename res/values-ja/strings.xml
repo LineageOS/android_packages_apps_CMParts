@@ -164,9 +164,7 @@
     <string name="trackball_category_add_summary">リストにカテゴリを追加する</string>
     <string name="trackball_category_remove_title">カテゴリを削除</string>
     <string name="trackball_category_remove_summary">リストからカテゴリを削除する</string>
-    <string name="trackball_remove_default_toast">デフォルトカテゴリを削除することはできません。</string>
     <string name="trackball_reset_all">すべてのカテゴリとカラーをリセット</string>
-    <string name="trackball_array_error">残念なことに配列エラーが発生しました。このパッケージは雑多カテゴリに追加されました。</string>
     <string name="trackball_color_notice_title">ノート</string>
     <string name="trackball_color_notice_summary">すべての色がすべてのデバイスで使用できるわけではありません。</string>
 
@@ -182,7 +180,6 @@
     <string name="trackball_color_entry_orange">オレンジ</string>
     <string name="trackball_color_entry_light_blue">ライトブルー</string>
     <string name="trackball_color_entry_random">ランダム</string>
-    <string name="trackball_color_entry_none">なし</string>
     <string name="trackball_color_entry_amber">アンバー</string>
 
     <!-- Trackball Settings : Warning dialog -->

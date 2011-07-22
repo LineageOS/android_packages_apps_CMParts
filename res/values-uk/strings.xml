@@ -155,9 +155,7 @@
   <string name="trackball_category_add_summary">Додання категорії до списку</string>
   <string name="trackball_category_remove_title">Видалити категорію</string>
   <string name="trackball_category_remove_summary">Видалення категорії зі списку</string>
-  <string name="trackball_remove_default_toast">Неможливо видалити типову категорію.</string>
   <string name="trackball_reset_all">Скидання всіх налаштувань кольорів і категорій.</string>
-  <string name="trackball_array_error">Сталася помилка масиву. Пакет переміщений до категорії Різне.</string>
   <string name="trackball_color_notice_title">ПРИМІТКА:</string>
   <string name="trackball_color_notice_summary">не всі пристрої здатні відтворити усю гаму кольорів.</string>
   <string name="trackball_color_entry_green">Зелений</string>
@@ -173,6 +171,7 @@
   <string name="trackball_color_entry_random">Випадковий</string>
   <string name="trackball_color_entry_none">Жоден</string>
   <string name="trackball_color_entry_amber">Бурштиновий</string>
+
   <string name="notification_battery_warning_title">УВАГА: активація параметра може пришвидшити розряд батареї</string>
   <string name="notification_battery_warning">Активація параметра призводить до збільшення споживання струму на ~ 3% на годину. Якщо ви помітили збільшення споживання під час миготіння трекболу, майте це на увазі. Не вмикайте якщо бажаєте зменшити розряд батареї.</string>
   <string name="pref_lockscreen_disable_on_security_title">Вимк. вікна блокування за блок. з обмеж. доступу</string>

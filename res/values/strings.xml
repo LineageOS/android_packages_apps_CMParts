@@ -151,6 +151,7 @@
     <string name="msg_color_picker">Tap on center color to confirm.\nPress back to cancel</string>
 
     <!-- User interface: LED notifications -->
+    <string name="group_settings">Settings</string>
     <string name="trackball_notifications_title">LED notification colors</string>
     <string name="dialog_color_trackball">Choose a color</string>
     <string name="dialog_blink_trackball">Choose a blink rate</string>
@@ -186,13 +187,32 @@
     <string name="trackball_category_add_summary">Add a category to the list</string>
     <string name="trackball_category_remove_title">Remove category</string>
     <string name="trackball_category_remove_summary">Remove a category from the list</string>
-    <string name="trackball_remove_default_toast">Can\'t remove this category as it is the default one.</string>
     <string name="trackball_reset_all">Reset all colors and categories.</string>
-    <string name="trackball_array_error">Unfortunately there was an array error. This package has been forced into the Miscellaneous category.</string>
     <string name="trackball_color_notice_title">NOTE:</string>
     <string name="trackball_color_notice_summary">Not all colors will display on all devices</string>
+    <string name="trackball_category_unconfigured">Unconfigured</string>
+    <string name="trackball_category_misc">Miscellaneous</string>
+    <string name="trackball_app_save_title">Save</string>
+    <string name="trackball_app_save_summary">Save settings for this application</string>
+    <string name="trackball_app_reset_title">Reset</string>
+    <string name="trackball_app_reset_summary">Remove custom settings for this application</string>
+
+    <string name="trackball_force_mode_title">LED mode</string>
+    <string name="trackball_force_mode_dialog">Please select a mode</string>
+    <string name="trackball_force_mode_summary">Configure how the LED should behave</string>
+
+    <string name="trackball_app_email">Email</string>
+    <string name="trackball_app_mms">Messaging</string>
+    <string name="trackball_app_gvoice">Google Voice</string>
+    <string name="trackball_app_gmail">Gmail</string>
+    <string name="trackball_app_gtalk">GTalk</string>
+    <string name="trackball_app_twitter">Twitter</string>
+    <string name="trackball_app_twicca">Twicca</string>
+    <!-- Say Missed Call instead of "Dialer" as the notification is for the missed call -->
+    <string name="trackball_app_dialer">Missed Call</string>
 
     <!-- Trackball color entries -->
+    <string name="trackball_color_entry_use_app">Use application setting</string>
     <string name="trackball_color_entry_green">Green</string>
     <string name="trackball_color_entry_white">White</string>
     <string name="trackball_color_entry_red">Red</string>
@@ -204,7 +224,6 @@
     <string name="trackball_color_entry_orange">Orange</string>
     <string name="trackball_color_entry_light_blue">Light Blue</string>
     <string name="trackball_color_entry_random">Random</string>
-    <string name="trackball_color_entry_none">None</string>
     <string name="trackball_color_entry_amber">Amber</string>
 
     <!-- Trackball Settings : Warning dialog -->
