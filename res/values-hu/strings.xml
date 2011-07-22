@@ -113,9 +113,7 @@
     <string name="trackball_category_add_summary">Kategória hozzáadása a listához</string>
     <string name="trackball_category_remove_title">Kategória eltávolítása</string>
     <string name="trackball_category_remove_summary">Kategória eltávolítása a listáról</string>
-    <string name="trackball_remove_default_toast">Nem lehet eltávolítani ezt a kategóriát mert ez egy alapértelmezett beállítás.</string>
     <string name="trackball_reset_all">Állítsa alaphelyzetbe a színeket és a kategóriákat.</string>
-    <string name="trackball_array_error">Sajnos ez egy elrendezés hiba volt. Ez a csomag kényszerítve lett az Egyéb kategóriába.</string>
     <string name="trackball_color_notice_title">MEGJEGYZÉS:</string>
     <string name="trackball_color_notice_summary">Nem minden szín jelenik meg a készülékeken.</string>
 
@@ -131,7 +129,6 @@
     <string name="trackball_color_entry_orange">Narancs</string>
     <string name="trackball_color_entry_light_blue">Világoskék</string>
     <string name="trackball_color_entry_random">Véletlenszerű</string>
-    <string name="trackball_color_entry_none">Nincs</string>
     <string name="trackball_color_entry_amber">Sárga</string>
 
     <!-- Trackball Settings : Warning dialog -->

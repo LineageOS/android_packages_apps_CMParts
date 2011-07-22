@@ -103,9 +103,7 @@
     <string name="trackball_category_add_summary">Adicionar uma categoria à lista</string>
     <string name="trackball_category_remove_title">Remover categoria</string>
     <string name="trackball_category_remove_summary">Remover uma categoria da lista</string>
-    <string name="trackball_remove_default_toast">Não pode remover essa categoria pois ela é a padrão.</string>
     <string name="trackball_reset_all">Resetar todas as cores e categorias.</string>
-    <string name="trackball_array_error">Infelizmente houve um erro de array. Esse pacote foi forçado para a categoria Misc.</string>
 
     <!-- Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">ALERTA: Pode consumir mais bateria</string>
@@ -572,7 +570,6 @@
     <string name="trackball_color_entry_orange">Laranja</string>
     <string name="trackball_color_entry_light_blue">Azul Claro</string>
     <string name="trackball_color_entry_random">Aleatório</string>
-    <string name="trackball_color_entry_none">Nenhum</string>
     <string name="trackball_color_entry_amber">Amarelo</string>
     <string name="pref_overscroll_weight_title">Peso de sobrerolagem</string>
     <string name="pref_overscroll_weight_summary">Selecione o peso de sobrerolagem</string>
