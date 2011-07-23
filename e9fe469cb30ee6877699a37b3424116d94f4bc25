@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHX//9to\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIStatusBarActivity.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-23T04:06:01Z",
+      "side": 1,
+      "message": "Please wrap to 100cols",
+      "revId": "e9fe469cb30ee6877699a37b3424116d94f4bc25",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//9tk\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIStatusBarActivity.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-23T04:06:01Z",
+      "side": 1,
+      "message": "Please fix formatting and wrap to 100cols",
+      "revId": "e9fe469cb30ee6877699a37b3424116d94f4bc25",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
