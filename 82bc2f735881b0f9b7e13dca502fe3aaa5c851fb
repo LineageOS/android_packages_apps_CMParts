@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHX//9uE\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 13
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-23T03:43:14Z",
+      "side": 1,
+      "message": "Not your fault, but while your editing this document, could you move the java.* imports to the bottom of the list separated by a space from the com imports please.",
+      "revId": "82bc2f735881b0f9b7e13dca502fe3aaa5c851fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
