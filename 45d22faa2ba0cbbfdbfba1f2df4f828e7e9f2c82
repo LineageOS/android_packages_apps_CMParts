@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHX//9tM\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SystemActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-23T04:11:41Z",
+      "side": 1,
+      "message": "mBluetoothAdapter !\u003d null should be surrounded in parentheses according to java style guidelines (http://goo.gl/iy51P)",
+      "revId": "45d22faa2ba0cbbfdbfba1f2df4f828e7e9f2c82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//9tY\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SystemActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1421
+      },
+      "writtenOn": "2011-07-23T04:11:41Z",
+      "side": 1,
+      "message": "Please remove trailing white-space.",
+      "revId": "45d22faa2ba0cbbfdbfba1f2df4f828e7e9f2c82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
