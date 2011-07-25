@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn///7Y\u003d",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2011-07-25T04:05:33Z",
+      "side": 0,
+      "message": "Why was translatable\u003d\"false\" removed?",
+      "revId": "3176c7e885e5d0a3be77ac82a819880ecb6a75ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn///7Q\u003d",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2011-07-25T04:05:33Z",
+      "side": 0,
+      "message": "Same comment here",
+      "revId": "3176c7e885e5d0a3be77ac82a819880ecb6a75ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn///7M\u003d",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 507,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2011-07-25T04:05:33Z",
+      "side": 0,
+      "message": "And here",
+      "revId": "3176c7e885e5d0a3be77ac82a819880ecb6a75ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn///7I\u003d",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 639,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2011-07-25T04:05:33Z",
+      "side": 0,
+      "message": "and of course here :)",
+      "revId": "3176c7e885e5d0a3be77ac82a819880ecb6a75ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
