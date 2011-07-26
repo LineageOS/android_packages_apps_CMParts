@@ -181,6 +181,8 @@
     <string name="notification_battery_warning">Эта настройка увеличивает разряд батареи примерно на 3% в час. Если вы заметили, что батарея разряжается быстрее, виновата эта опция. Не включайте, если не хотите быстрой разрядки.</string>
 
     <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_disable_on_security_title">Отключить экран блокировки при защите устройства</string>
+    <string name="pref_lockscreen_disable_on_security_summary">Отключить экран блокировки, если включен экран защиты устройства (графический ключ, PIN, пароль)</string>
     <string name="pref_lockscreen_stylecfg_title">Стиль</string>
     <string name="pref_lockscreen_stylecfg_summary">Стиль экрана блокировки и соответствующие настройки</string>
     <string name="pref_lockscreen_widgets_title">Виджеты</string>
@@ -219,6 +221,9 @@
     <string name="pref_lockscreen_custom_app_toggle_title">Запуск приложения пользователя</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">Добавить второй ползунок (для стиля Ползунок) или приложение пользователя (для стиля Вращение)</string>
     <string name="pref_lockscreen_custom_app_activity_title">Выбрать приложение</string>
+    <string name="pref_lockscreen_custom_background_title">Выбрать фон</string>
+    <string name="pref_lockscreen_custom_background_dialog_title">Выбрать фон</string>
+    <string name="pref_lockscreen_custom_background_summary">Выберите изображение или цвет в качестве фона экрана блокировки</string>
     <string name="pref_lockscreen_custom_icon_style_title">Иконка приложения</string>
     <string name="pref_lockscreen_custom_icon_style_summary">Использовать иконку приложения вместо иконки CM для приложения пользователя</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Сдвинуть вниз для разблокировки</string>
