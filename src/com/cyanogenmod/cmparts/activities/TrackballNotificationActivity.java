@@ -73,6 +73,7 @@ public class TrackballNotificationActivity extends PreferenceActivity implements
 
     public String mCatListString;
     public SharedPreferences mPrefs;
+    public boolean noBlendColor;
 
     private static final String CAT_PRIMARY = "Miscellaneous";
     private static final String CAT_KEY = "category_list";
@@ -87,8 +88,6 @@ public class TrackballNotificationActivity extends PreferenceActivity implements
     private static final String PULSE_RANDOM = "pulse_random_colors";
     private static final String PULSE_IN_ORDER = "pulse_colors_in_order";
     private static final String RESET_NOTIFS = "reset_notifications";
-
-    private static final boolean SHOLES_DEVICE = Build.DEVICE.contains("sholes");
 
     public List<String> uniqueArray(String[] array) {
         Set<String> set = new HashSet<String>(Arrays.asList(array));
@@ -411,7 +410,8 @@ public class TrackballNotificationActivity extends PreferenceActivity implements
             blendPulse.setChecked(getInt(Settings.System.TRACKBALL_NOTIFICATION_BLEND_COLOR, 0) == 1);
             blendPulse.setEnabled(getInt(Settings.System.TRACKBALL_NOTIFICATION_SUCCESSION, 0) != 1);
             advancedScreen.addPreference(blendPulse);
-            if (SHOLES_DEVICE) {
+            noBlendColor = (getResources().getBoolean(R.bool.no_blend_notification_led));
+            if (noBlendColor) {
                 blendPulse.setEnabled(false);
                 blendPulse.setChecked(false);
                 putInt(Settings.System.TRACKBALL_NOTIFICATION_BLEND_COLOR, 0);
@@ -812,8 +812,9 @@ public class TrackballNotificationActivity extends PreferenceActivity implements
     }
 
     private void blendToggle(boolean toggle) {
-        if (!SHOLES_DEVICE) {
-            CheckBoxPreference disablePref = (CheckBoxPreference) getPreferenceScreen().findPreference(BLEND_COLORS);
+        if (!noBlendColor) {
+            CheckBoxPreference disablePref = (CheckBoxPreference)
+                    getPreferenceScreen().findPreference(BLEND_COLORS);
             disablePref.setEnabled(toggle);
         }
     }

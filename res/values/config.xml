@@ -9,6 +9,9 @@
     <bool name="has_rgb_notification_led">false</bool>
     <bool name="has_dual_notification_led">false</bool>
 
+    <!-- Notification LED whether or not blend is supported -->
+    <bool name="no_blend_notification_led">false</bool>
+
     <!-- LED Flashlight -->
     <bool name="has_led_flash">false</bool>
 
