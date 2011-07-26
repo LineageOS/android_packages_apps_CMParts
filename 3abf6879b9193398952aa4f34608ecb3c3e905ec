@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn///zo\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/TrackballNotificationActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-26T23:20:22Z",
+      "side": 1,
+      "message": "Member variables should be prefixed with m.",
+      "revId": "3abf6879b9193398952aa4f34608ecb3c3e905ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn///zk\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/TrackballNotificationActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 816,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-07-26T23:20:22Z",
+      "side": 1,
+      "message": "That whitespace looks broken.",
+      "revId": "3abf6879b9193398952aa4f34608ecb3c3e905ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
