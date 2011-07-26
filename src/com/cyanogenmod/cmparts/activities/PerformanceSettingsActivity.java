@@ -30,7 +30,16 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
 
+import java.io.*;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
+import java.lang.Object;
 
 /**
  * Performance Settings
@@ -79,6 +88,14 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
 
     private static final String LOCK_MMS_PREF = "pref_lock_mms";
 
+    private static final String WIFI_SCAN_PREF = "pref_wifi_scan_interval";
+
+    private static final String WIFI_SCAN_PROP = "wifi.supplicant_scan_interval";
+
+    private static final String WIFI_SCAN_PERSIST_PROP = "persist.wifi_scan_interval";
+
+    private static final String WIFI_SCAN_DEFAULT = "90";
+
     private static final int LOCK_HOME_DEFAULT = 0;
 
     private static final int LOCK_MMS_DEFAULT = 0;
@@ -96,6 +113,8 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
     private CheckBoxPreference mLockMmsPref;
 
     private ListPreference mHeapsizePref;
+
+    private ListPreference mWifiScanPref;
 
     private AlertDialog alertDialog;
 
@@ -149,6 +168,11 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
         mLockMmsPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCK_MMS_IN_MEMORY, LOCK_MMS_DEFAULT) == 1);
 
+        mWifiScanPref = (ListPreference) prefSet.findPreference(WIFI_SCAN_PREF);
+        mWifiScanPref.setValue(SystemProperties.get(WIFI_SCAN_PERSIST_PROP,
+                SystemProperties.get(WIFI_SCAN_PROP, WIFI_SCAN_DEFAULT)));
+        mWifiScanPref.setOnPreferenceChangeListener(this);
+
         // Set up the warning
         alertDialog = new AlertDialog.Builder(this).create();
         alertDialog.setTitle(R.string.performance_settings_warning_title);
@@ -199,21 +223,59 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mHeapsizePref) {
-            if (newValue != null) {
+        if (newValue != null) {
+            if (preference == mHeapsizePref) {
                 SystemProperties.set(HEAPSIZE_PERSIST_PROP, (String)newValue);
                 return true;
-            }
         }
 
-        if (preference == mCompcachePref) {
-            if (newValue != null) {
+            if (preference == mCompcachePref) {
                 SystemProperties.set(COMPCACHE_PERSIST_PROP, (String)newValue);
                 return true;
-	    }
         }
 
+            if (preference == mWifiScanPref) {
+                SystemProperties.set(WIFI_SCAN_PERSIST_PROP, (String)newValue);
+
+                /*
+                 * read /system/build.prop then find and replace wifi.supplicant_scan_interval = ###
+                 */
+
+                try {
+                    BufferedReader in = new BufferedReader(new FileReader("/system/build.prop"));
+                    PrintWriter out = new PrintWriter(new File("/tmp/build.prop"));
+
+                    String line;
+                    String params[];
+
+                    while ((line = in.readLine()) != null) {
+                        params = line.split("="); // some devices have values in ' = ' format vs '='
+                    if (params[0].equalsIgnoreCase("wifi.supplicant_scan_interval ") ||
+                        params[0].equalsIgnoreCase("wifi.supplicant_scan_interval")) {
+                        out.println("wifi.supplicant_scan_interval=" + newValue);
+                    } else {
+                        out.println(line);
+                        }
+                    }
+
+                    in.close();
+                    out.flush();
+                    out.close();
+
+                    // open su shell and write commands to the OutStream for execution
+                    Process p = Runtime.getRuntime().exec("su");
+                    PrintWriter pw = new PrintWriter(p.getOutputStream());
+                    pw.println("busybox mount -o remount,rw /system");
+                    pw.println("mv /tmp/build.prop /system/build.prop");
+                    pw.println("exit");
+                    pw.close();
+
+                }catch(Exception e) { e.printStackTrace(); }
+                return true;
+        }
         return false;
+        }
+    return false;
     }
 
     /**

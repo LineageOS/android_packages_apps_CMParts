@@ -17,6 +17,16 @@
 
 <resources>
 
+    <string-array name="entries_wifi_scan" translatable="false">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+    </string-array>
+
     <string-array name="entries_recent_apps_num">
         <item>8</item>
         <item>12</item>
@@ -499,9 +509,9 @@
     </string-array>
 
     <string-array name="pref_lockscreen_background_entries">
-        <item>Color fill</item>
-        <item>Custom image</item>
-        <item>Default wallpaper</item>
+        <item>Set color</item>
+        <item>Set image</item>
+        <item>Set default</item>
     </string-array>
 
     <string-array name="pref_lockscreen_background_values" translatable="false">
