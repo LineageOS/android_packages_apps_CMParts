@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn///s8\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SystemActivity.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2011-07-27T01:53:37Z",
+      "side": 1,
+      "message": "Please don\u0027t hardcode English strings.",
+      "revId": "8ea5f127ccd6c4d4045076440463737bf741b9b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
