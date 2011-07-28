@@ -140,9 +140,9 @@
     </string-array>
 
     <string-array name="pref_lockscreen_background_entries">
-        <item>Imposta colore</item>
-        <item>Imposta immagine</item>
-        <item>Imposta default</item>
+        <item>Colore</item>
+        <item>Immagine personalizzata</item>
+        <item>Sfondo di default</item>
     </string-array>
 
     <string-array name="pref_lockscreen_music_headset_entries">
