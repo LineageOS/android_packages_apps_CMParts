@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn///dU\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/led/PackageSettingsActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 280
+      },
+      "writtenOn": "2011-07-30T22:10:00Z",
+      "side": 1,
+      "message": "These are already set by populateColors()",
+      "revId": "38130d1bfcbf74f06aef1be069a9d77647f96067",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn///dQ\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/led/PackageSettingsActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 280
+      },
+      "writtenOn": "2011-07-30T22:10:00Z",
+      "side": 1,
+      "message": "same as above",
+      "revId": "38130d1bfcbf74f06aef1be069a9d77647f96067",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn///dM\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/led/PackageSettingsActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 280
+      },
+      "writtenOn": "2011-07-30T22:10:00Z",
+      "side": 1,
+      "message": "please check for the missing has_mixable_dual_notification_led first, in case they both are true.",
+      "revId": "38130d1bfcbf74f06aef1be069a9d77647f96067",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
