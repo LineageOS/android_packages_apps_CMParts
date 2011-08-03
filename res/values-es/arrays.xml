@@ -249,11 +249,16 @@
     </string-array>
 
     <string-array name="entries_overscroll_weight">
-        <item>Muy fuerte</item>
-        <item>Fuerte</item>
-        <item>Medio</item>
-        <item>Leve</item>
-        <item>Muy leve</item>
+        <item>Muy grande</item>
+        <item>Grande</item>
+        <item>Media</item>
+        <item>Pequeña</item>
+        <item>Muy pequeña</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_color">
+        <item>Color predeterminado</item>
+        <item>Color personalizado</item>
     </string-array>
 
     <string-array name="entries_vol_actions">
