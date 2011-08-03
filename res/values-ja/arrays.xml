@@ -183,6 +183,11 @@
         <item>とても軽い</item>
     </string-array>
 
+    <string-array name="entries_overscroll_color">
+        <item>デフォルト色</item>
+        <item>カスタム色</item>
+    </string-array>
+
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>無効</item>
         <item>有線のヘッドセット</item>
