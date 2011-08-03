@@ -50,6 +50,10 @@
 			android:dialogTitle="@string/pref_overscroll_title" android:title="@string/pref_overscroll_title"
 			android:summary="@string/pref_overscroll_summary" android:entries="@array/pref_overscroll_effect_entries"
 			android:entryValues="@array/pref_overscroll_effect_values" />
+		<ListPreference android:key="pref_overscroll_color"
+			android:title="@string/pref_overscroll_color_title" android:summary="@string/pref_overscroll_color_summary"
+			android:entries="@array/entries_overscroll_color"
+			android:entryValues="@array/values_overscroll_color"/>
 		<ListPreference android:key="pref_overscroll_weight"
 			android:dialogTitle="@string/pref_overscroll_weight_title"
 			android:title="@string/pref_overscroll_weight_title" android:summary="@string/pref_overscroll_weight_summary"
