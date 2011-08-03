@@ -52,6 +52,10 @@
 			android:title="@string/pref_overscroll_weight_title" android:summary="@string/pref_overscroll_weight_summary"
 			android:entries="@array/entries_overscroll_weight"
 			android:entryValues="@array/values_overscroll_weight" />
+		<ListPreference android:key="pref_overscroll_color"
+            android:title="@string/pref_overscroll_color_title" android:summary="@string/pref_overscroll_color_title"
+            android:entries="@array/entries_overscroll_color"
+            android:entryValues="@array/values_overscroll_color"/>
 	</PreferenceCategory>
 
 </PreferenceScreen>
