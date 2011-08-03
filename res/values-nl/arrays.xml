@@ -204,6 +204,12 @@
         <item>Laag</item>
         <item>Extra laag</item>
     </string-array>
+
+    <string-array name="entries_overscroll_color">
+        <item>Standaardkleur</item>
+        <item>Aangepaste kleur</item>
+    </string-array>
+
     <string-array name="entries_vol_actions">
         <item>Geen/standaard</item>
         <item>Home</item>
