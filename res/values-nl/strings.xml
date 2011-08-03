@@ -344,6 +344,8 @@
     <string name="pref_overscroll_summary">Kies weergave scrollbare objecten bij overscrolling</string>
     <string name="pref_overscroll_weight_title">Overscrollingsintensiteit</string>
     <string name="pref_overscroll_weight_summary">Kies de intensiteit van scrollbare objecten</string>
+    <string name="pref_overscroll_color_title">Overscrollingskleur</string>
+    <string name="pref_overscroll_color_summary">Selecteer de overscrollingskleur</string>
 
     <!-- Vergrendelscherm -->
     <string name="pref_lockscreen_delay_title">Vertraging</string>

@@ -139,6 +139,8 @@
     <string name="pref_overscroll_summary">Effekt für das Überscrollen auswählen</string>
     <string name="pref_overscroll_weight_title">Überscroll-Stärke</string>
     <string name="pref_overscroll_weight_summary">Stärke des Überscroll-Effekts anpassen</string>
+    <string name="pref_overscroll_color_title">Überscroll-Farbe</string>
+    <string name="pref_overscroll_color_summary">Farbe des Überscroll-Effekts anpassen</string>
 
     <!-- User interface : Lock Screen -->
     <string name="pref_lockscreen_delay_title">Verzögerung</string>
