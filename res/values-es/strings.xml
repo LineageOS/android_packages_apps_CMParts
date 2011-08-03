@@ -133,11 +133,13 @@
     <string name="pref_share_screenshot_summary">Mostrar el menú \"Compartir\" al realizar una captura (de pantalla)</string>
 
     <!-- User interface : Overscroll -->
-    <string name="ui_overscroll_title">Superposición</string>
-    <string name="pref_overscroll_title">Efecto superposición</string>
-    <string name="pref_overscroll_summary">Elige como se ven los objetos cuando se superponen</string>
-    <string name="pref_overscroll_weight_title">Anchura superposición</string>
-    <string name="pref_overscroll_weight_summary">Selecciona el ancho de los objetos superpuestos</string>
+    <string name="ui_overscroll_title">Sobredesplazamiento</string>
+    <string name="pref_overscroll_title">Efecto sobredesplazamiento</string>
+    <string name="pref_overscroll_summary">Elige el efecto para el sobredesplazamiento</string>
+    <string name="pref_overscroll_weight_title">Anchura del efecto</string>
+    <string name="pref_overscroll_weight_summary">Elige el ancho para el efecto de sobredesplazamiento</string>
+    <string name="pref_overscroll_color_title">Color del efecto</string>
+    <string name="pref_overscroll_color_summary">Elige el color para el efecto de sobredesplazamiento</string>
 
     <!-- User interface : Lock Screen -->
     <string name="pref_lockscreen_delay_title">Tiempo de espera</string>
