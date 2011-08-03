@@ -112,6 +112,11 @@
         <item>Très léger</item>
     </string-array>
 
+    <string-array name="entries_overscroll_color">
+        <item>Default color</item>
+        <item>Custom color</item>
+    </string-array>
+
     <string-array name="entries_vol_actions">
         <item>Aucun/Défaut</item>
         <item>Accueil</item>
