@@ -93,6 +93,8 @@
     <string name="pref_overscroll_summary">Choisir l\'apparence de l\'effet de surdéfilement</string>
     <string name="pref_overscroll_weight_title">Poids objets défilants</string>
     <string name="pref_overscroll_weight_summary">Choisir le poids des objets défilants</string>
+    <string name="pref_overscroll_color_title">Couleur surdéfilement</string>
+    <string name="pref_overscroll_color_summary">Choisir une couleur pour la lueur du surdéfilement</string>
 
     <!-- User interface : WebView -->
     <string name="pref_pinch_reflow_title">Redessiner au zoom</string>

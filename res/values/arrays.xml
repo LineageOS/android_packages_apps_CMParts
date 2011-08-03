@@ -669,6 +669,16 @@
         <item>9</item>
     </string-array>
 
+    <string-array name="entries_overscroll_color">
+        <item>Default color</item>
+        <item>Custom color</item>
+    </string-array>
+
+    <string-array name="values_overscroll_color" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
     <string-array name="phone_goggles_confirmation_values" translatable="false">
         <item>0</item>
         <item>1</item>
