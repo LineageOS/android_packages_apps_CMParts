@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//+zY\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/led/PackageSettingsActivity.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 129
+      },
+      "writtenOn": "2011-08-06T07:25:22Z",
+      "side": 1,
+      "message": "java.util.IllegalFormatConversionException: %x can\u0027t format java.lang.String arguments\n\nhttp://pastebin.com/Gs6YxdAs",
+      "revId": "88e586a0435e80de22544a44fd99fe9a4e4b961c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
