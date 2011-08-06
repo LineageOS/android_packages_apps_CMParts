@@ -16,6 +16,24 @@
       "revId": "88e586a0435e80de22544a44fd99fe9a4e4b961c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+y0\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/led/PackageSettingsActivity.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-06T10:59:27Z",
+      "side": 1,
+      "message": "Ugh, that\u0027s a stupid one (leftover from old code). I\u0027ll submit a new one later today, I wonder why I didn\u0027t notice it.",
+      "parentUuid": "AAAAHn//+zY\u003d",
+      "revId": "88e586a0435e80de22544a44fd99fe9a4e4b961c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
