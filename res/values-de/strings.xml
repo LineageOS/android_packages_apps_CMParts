@@ -237,6 +237,14 @@
     <string name="pref_lockscreen_custom_app_activity_title">Verknüpfte Anwendung</string>
     <string name="pref_lockscreen_custom_icon_style_title">Anwendungssymbol für Anwendung</string>
     <string name="pref_lockscreen_custom_icon_style_summary">Anwendungs-Icon statt CM-Icon für den App-Starter verwenden</string>
+    <string name="pref_lockscreen_custom_background_title">Hintergrund wählen</string>
+    <string name="pref_lockscreen_custom_background_dialog_title">Hintergrund wählen</string>
+    <string name="pref_lockscreen_custom_background_summary">Wähle ein Bild oder Farbfüllung als Hintergrund für den Lockscreen</string>
+    <string name="pref_lockscreen_custom_background_summary_color">Aktuell: Farbfüllung</string>
+    <string name="pref_lockscreen_custom_background_summary_image">Aktuell: Benutzerd. Hintergrund</string>
+    <string name="pref_lockscreen_custom_background_summary_default">Aktuell: Hintergrundbild</string>
+    <string name="pref_lockscreen_background_result_successful">Hintergrund geändert</string>
+    <string name="pref_lockscreen_background_result_not_successful">Hintergrund nicht geändert</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Runterziehen zum Entsperren</string>
     <string name="pref_lockscreen_rotary_unlock_down_summary">Zum Entsperren des Bildschirms den rotierenden Slider runterziehen. Nach rechts schieben startet die App</string>
     <string name="pref_lockscreen_rotary_hide_arrows_title">Rotationspfeile verbergen</string>

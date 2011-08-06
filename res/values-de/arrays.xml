@@ -198,6 +198,12 @@
     <item>Rotierend umgestaltet</item>
   </string-array>
 
+  <string-array name="pref_lockscreen_background_entries">
+    <item>Farbfüllung</item>
+    <item>Benutzerd. Hintergrundbild</item>
+    <item>Hintergrundbild</item>
+  </string-array>
+
   <string-array name="pref_lockscreen_music_headset_entries">
     <item>Ausgeschaltet</item>
     <item>Kopfhörer (Kabel)</item>
