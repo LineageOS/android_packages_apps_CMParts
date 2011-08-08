@@ -17,6 +17,16 @@
 
 <resources>
 
+    <string-array name="entries_wifi_scan" translatable="false">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+    </string-array>
+
     <string-array name="entries_recent_apps_num">
         <item>8</item>
         <item>12</item>
@@ -55,11 +65,11 @@
         <item>2</item>
     </string-array>
 
-     <string-array name="entries_status_bar_signal" translatable="false">
+    <string-array name="entries_status_bar_signal" translatable="false">
         <item>@string/ui_status_bar_cm_signal_text_show_bars</item>
         <item>@string/ui_status_bar_cm_signal_text_show_text</item>
         <item>@string/ui_status_bar_cm_signal_text_show_text_dbm</item>
-     </string-array>
+    </string-array>
 
      <string-array name="values_status_bar_signal" translatable="false">
         <item>0</item>
@@ -664,7 +674,7 @@
         <item>Toggle statusbar</item>
     </string-array>
 
-    <string-array name="values_long_press_menu" translatable="false">
+    <string-array name="values_long_press_menu" translateable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
