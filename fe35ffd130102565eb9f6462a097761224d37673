@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//+eM\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-08T20:50:49Z",
+      "side": 1,
+      "message": "\u0027Hinweis\u0027 oder \u0027Anmerkung\u0027 (wie Zeile 140) wäre hier besser, IMO.",
+      "revId": "fe35ffd130102565eb9f6462a097761224d37673",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
