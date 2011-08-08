@@ -79,6 +79,14 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
 
     private static final String LOCK_MMS_PREF = "pref_lock_mms";
 
+    private static final String WIFI_SCAN_PREF = "pref_wifi_scan_interval";
+
+    private static final String WIFI_SCAN_PROP = "wifi.supplicant_scan_interval";
+
+    private static final String WIFI_SCAN_PERSIST_PROP = "persist.wifi_scan_interval";
+
+    private static final String WIFI_SCAN_DEFAULT = "90";
+
     private static final int LOCK_HOME_DEFAULT = 0;
 
     private static final int LOCK_MMS_DEFAULT = 0;
@@ -96,6 +104,8 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
     private CheckBoxPreference mLockMmsPref;
 
     private ListPreference mHeapsizePref;
+
+    private ListPreference mWifiScanPref;
 
     private AlertDialog alertDialog;
 
@@ -149,6 +159,11 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
         mLockMmsPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCK_MMS_IN_MEMORY, LOCK_MMS_DEFAULT) == 1);
 
+        mWifiScanPref = (ListPreference) prefSet.findPreference(WIFI_SCAN_PREF);
+        mWifiScanPref.setValue(SystemProperties.get(WIFI_SCAN_PERSIST_PROP,
+                SystemProperties.get(WIFI_SCAN_PROP, WIFI_SCAN_DEFAULT)));
+        mWifiScanPref.setOnPreferenceChangeListener(this);
+
         // Set up the warning
         alertDialog = new AlertDialog.Builder(this).create();
         alertDialog.setTitle(R.string.performance_settings_warning_title);
@@ -199,23 +214,25 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mHeapsizePref) {
-            if (newValue != null) {
+        if (newValue != null) {
+            if (preference == mHeapsizePref) {
                 SystemProperties.set(HEAPSIZE_PERSIST_PROP, (String)newValue);
                 return true;
             }
-        }
 
-        if (preference == mCompcachePref) {
-            if (newValue != null) {
+            if (preference == mCompcachePref) {
                 SystemProperties.set(COMPCACHE_PERSIST_PROP, (String)newValue);
                 return true;
-	    }
-        }
+            }
 
+            if (preference == mWifiScanPref) {
+                SystemProperties.set(WIFI_SCAN_PERSIST_PROP, (String)newValue);
+                return true;
+            }
         return false;
+        }
+    return false;
     }
-
     /**
      * Check if swap support is available on the system
      */
