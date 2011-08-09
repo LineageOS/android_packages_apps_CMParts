@@ -151,6 +151,7 @@
     <string name="msg_color_picker">輕按中央顏色來確定。\n要取消請按返回鍵。</string>
 
     <!-- User interface: LED notifications -->
+    <string name="group_settings">設定</string>
     <string name="trackball_notifications_title">LED 通知色彩</string>
     <string name="dialog_color_trackball">選擇顏色</string>
     <string name="dialog_blink_trackball">選擇閃爍速率</string>
@@ -189,8 +190,29 @@
     <string name="trackball_reset_all">重設所有色彩與分類</string>
     <string name="trackball_color_notice_title">注意</string>
     <string name="trackball_color_notice_summary">並非每一款裝置都能夠顯示全部每一種色彩</string>
+    <string name="trackball_category_unconfigured">尚未設置</string>
+    <string name="trackball_category_misc">其他</string>
+    <string name="trackball_app_save_title">儲存</string>
+    <string name="trackball_app_save_summary">儲存此應用程式的設定</string>
+    <string name="trackball_app_reset_title">重設</string>
+    <string name="trackball_app_reset_summary">移除此應用程式的自訂設定</string>
+
+    <string name="trackball_force_mode_title">LED 模式</string>
+    <string name="trackball_force_mode_dialog">請選擇模式</string>
+    <string name="trackball_force_mode_summary">設定 LED 該如何運作</string>
+
+    <string name="trackball_app_email">電子郵件</string>
+    <string name="trackball_app_mms">簡訊</string>
+    <string name="trackball_app_gvoice">Google Voice</string>
+    <string name="trackball_app_gmail">Gmail</string>
+    <string name="trackball_app_gtalk">Google Talk</string>
+    <string name="trackball_app_twitter">Twitter</string>
+    <string name="trackball_app_twicca">Twicca</string>
+    <!-- Say Missed Call instead of "Dialer" as the notification is for the missed call -->
+    <string name="trackball_app_dialer">未接來電</string>
 
     <!-- Trackball color entries -->
+    <string name="trackball_color_entry_use_app">使用應用程式設定</string>
     <string name="trackball_color_entry_green">綠</string>
     <string name="trackball_color_entry_white">白</string>
     <string name="trackball_color_entry_red">紅</string>
