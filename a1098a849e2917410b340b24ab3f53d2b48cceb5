@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//+Z0\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-09T12:13:06Z",
+      "side": 1,
+      "message": "Diese beiden Strings bitte mit \u0027Nach...\u0027 an Stelle von \u0027nach...\u0027 anfangen.",
+      "revId": "a1098a849e2917410b340b24ab3f53d2b48cceb5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+Z4\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-09T12:13:06Z",
+      "side": 1,
+      "message": "Das hier sollte mit Zeile 133 konsistent sein, also entweder 2x \u0027Hinweis\u0027 oder 2x \u0027Anmerkung\u0027. \u0027Hinweis\u0027 ist IMHO besser.",
+      "revId": "a1098a849e2917410b340b24ab3f53d2b48cceb5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+Zw\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-09T12:13:06Z",
+      "side": 1,
+      "message": "Nach \u0027Der\u0027 muss ein Leerzeichen raus.",
+      "revId": "a1098a849e2917410b340b24ab3f53d2b48cceb5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+Zs\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-09T12:13:06Z",
+      "side": 1,
+      "message": "Vor \u0027bevor\u0027 fehlt ein Komma.",
+      "revId": "a1098a849e2917410b340b24ab3f53d2b48cceb5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+Zo\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-09T12:13:06Z",
+      "side": 1,
+      "message": "Siehe oben, bitte mit großem N anfangen.",
+      "revId": "a1098a849e2917410b340b24ab3f53d2b48cceb5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
