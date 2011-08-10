@@ -51,6 +51,20 @@
         <item>2</item>
     </string-array>
 
+    <string-array name="entries_status_bar_carrier_label" translatable="false">
+	<item>@string/ui_status_bar_carrier_label_use_default</item>
+	<item>@string/ui_status_bar_carrier_label_use_spn</item>
+	<item>@string/ui_status_bar_carrier_label_use_plmn</item>
+	<item>@string/ui_status_bar_carrier_label_use_custom</item>
+    </string-array>
+
+    <string-array name="values_status_bar_carrier_label" translatable="false">
+	<item>0</item>
+	<item>1</item>
+	<item>2</item>
+	<item>3</item>
+    </string-array>
+
     <string-array name="entries_status_bar_am_pm">
         <item>Normal</item>
         <item>Small</item>
