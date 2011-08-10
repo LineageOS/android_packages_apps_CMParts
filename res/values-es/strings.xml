@@ -99,6 +99,14 @@
     <string name="ui_status_bar_battery_summary">Cambiar el estilo del indicador de batería</string>
     <string name="ui_status_bar_compact_carrier_title">Etiqueta compacta de operador</string>
     <string name="ui_status_bar_compact_carrier_summary">Usar un diseño alternativo de notificación desplegable con el nombre del operador pequeño</string>
+    <string name="ui_status_bar_carrier_label_title">Tipo etiqueta operador</string>
+    <string name="ui_status_bar_carrier_label_summary">Cambiar la etiqueta del operador</string>
+    <string name="ui_status_bar_carrier_label_use_default">Predeterminado</string>
+    <string name="ui_status_bar_carrier_label_use_spn">Mostrar SPN</string>
+    <string name="ui_status_bar_carrier_label_use_plmn">Mostrar PLMN</string>
+    <string name="ui_status_bar_carrier_label_use_custom">Texto personalizado</string>
+    <string name="ui_status_bar_carrier_label_custom_title">Etiqueta personalizada</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">Cambiar el texto para el nombre del operador</string>
     <string name="ui_status_bar_toggle_brightness">Barra de estado de control de brillo</string>
     <string name="ui_status_bar_toggle_brightness_summary">Permite el ajuste de brillo deslizando a través de la barra de estado</string>
     <string name="ui_status_bar_toggle_info">Brillo automático está habilitado</string>

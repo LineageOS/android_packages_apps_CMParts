@@ -99,7 +99,15 @@
     <string name="ui_status_bar_battery_summary">Stijl van batterijstatus</string>
     <string name="ui_status_bar_compact_carrier_title">Mini provider label</string>
     <string name="ui_status_bar_compact_carrier_summary">Gebruik alternatieve notificatie layout met mini provider label. Ziet er het best uit met power widget (Herstart noodzakelijk)</string>
-	<string name="ui_status_bar_toggle_brightness">Statusbalk helderheid controle</string>
+    <string name="ui_status_bar_carrier_label_title">Provider label</string>
+    <string name="ui_status_bar_carrier_label_summary">Verander wat als provider label wordt getoond</string>
+    <string name="ui_status_bar_carrier_label_use_default">Standaard</string>
+    <string name="ui_status_bar_carrier_label_use_spn">Toon service provider naam (SPN)</string>
+    <string name="ui_status_bar_carrier_label_use_plmn">Toon netwerk provider naam (PLMN)</string>
+    <string name="ui_status_bar_carrier_label_use_custom">Toon eigen tekst</string>
+    <string name="ui_status_bar_carrier_label_custom_title">Eigen tekst</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">Eigen tekst die wordt getoond als provider label</string>
+    <string name="ui_status_bar_toggle_brightness">Statusbalk helderheid controle</string>
     <string name="ui_status_bar_toggle_brightness_summary">Laat toe om de helderheid aan te passen door over de statusbalk te schuiven</string>
     <string name="ui_status_bar_toggle_info">Automatische helderheid is geactiveerd</string>
     <string name="ui_status_bar_cm_signal_text_title">Alternatieve signaal weergave</string>
