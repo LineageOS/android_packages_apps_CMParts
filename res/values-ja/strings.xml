@@ -99,6 +99,14 @@
     <string name="ui_status_bar_battery_summary">バッテリー状態の表示スタイル</string>
     <string name="ui_status_bar_compact_carrier_title">コンパクトなキャリアラベル</string>
     <string name="ui_status_bar_compact_carrier_summary">小さなキャリアラベルを用いた代替のドロップダウンレイアウトを使用する</string>
+    <string name="ui_status_bar_carrier_label_title">キャリアラベルタイプ</string>
+    <string name="ui_status_bar_carrier_label_summary">表示するキャリアラベルを変更</string>
+    <string name="ui_status_bar_carrier_label_use_default">デフォルト</string>
+    <string name="ui_status_bar_carrier_label_use_spn">SPN</string>
+    <string name="ui_status_bar_carrier_label_use_plmn">PLMN</string>
+    <string name="ui_status_bar_carrier_label_use_custom">カスタムテキスト</string>
+    <string name="ui_status_bar_carrier_label_custom_title">カスタムキャリアラベル</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">通信事業者のキャリアラベル以外のテキストを指定</string>
     <string name="ui_status_bar_toggle_brightness">明るさのコントロール</string>
     <string name="ui_status_bar_toggle_brightness_summary">ステータスバーをスライディングすることで明るさの調整ができるようにする</string>
     <string name="ui_status_bar_toggle_info">自動明るさ調整は有効</string>
