@@ -105,6 +105,11 @@
     <string name="ui_status_bar_toggle_brightness">Управление яркостью в строке состояния</string>
     <string name="ui_status_bar_toggle_brightness_summary">Позволяет изменять яркость проводя по строке состояния</string>
     <string name="ui_status_bar_toggle_info">Включена автоматическая яркость</string>
+    <string name="ui_status_bar_cm_signal_text_title">Альтернативное отображение сигнала</string>
+    <string name="ui_status_bar_cm_signal_text_summary">Показывать значение dBm вместо изображения сигнала</string>
+    <string name="ui_status_bar_cm_signal_text_show_bars">Изображение сигнала</string>
+    <string name="ui_status_bar_cm_signal_text_show_text">Текстовый сигнал</string>
+    <string name="ui_status_bar_cm_signal_text_show_text_dbm">Текстовый сигнал с dBm</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Уведомления светодиодом трекбола</string>
@@ -125,10 +130,22 @@
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Настройка блокировки экрана</string>
     <string name="pref_lockscreen_delay_title">Задержка</string>
-    <string name="pref_lockscreen_timeout_lock_delay">Задержка при автовыключении экрана</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Задержка при выключении экрана</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Как быстро срабатывает блокировка после автовыключения экрана</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">Как быстро срабатывает блокировка после выключения экрана</string>
+    <string name="pref_lockscreen_security_title">Безопасность блокировки</string>
+    <string name="pref_lockscreen_security_delay_note_title">Примечание</string>
+    <string name="pref_lockscreen_security_delay_note_summary">Если безопасность экрана блокировки не установлена, будут использоваться задержки безопасной блокировки</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay">Задержка при автовыключении экрана</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay">Задержка при выключении экрана</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay_summary">Как быстро срабатывает блокировка после автовыключения экрана</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay_summary">Как быстро срабатывает блокировка после выключения экрана</string>
+    <string name="pref_lockscreen_slide_title">Блокировка ползунков</string>
+    <string name="pref_lockscreen_slide_delay_note_title">Примечание</string>
+    <string name="pref_lockscreen_slide_delay_note_summary">При включенном состоянии блокировка ползунками без защиты появляется в случае, если задержка безопасной блокировки будет больше чем задержка блокировки ползунками</string>
+    <string name="pref_lockscreen_slide_delay_title">Включить задержку блокировки ползунков</string>
+    <string name="pref_lockscreen_slide_delay_summary">Показывать экран блокировки ползунков с выставленной задержкой до показа безопасной блокировки</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay">Задержка при автовыключении экрана</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay">Задержка при выключении экрана</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay_summary">Как быстро срабатывает блокировка после автовыключения экрана</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay_summary">Как быстро срабатывает блокировка после выключения экрана</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">Выберите цвет</string>
@@ -239,6 +256,11 @@
     <string name="pref_lockscreen_custom_background_title">Выбрать фон</string>
     <string name="pref_lockscreen_custom_background_dialog_title">Выбрать фон</string>
     <string name="pref_lockscreen_custom_background_summary">Выберите изображение или цвет в качестве фона экрана блокировки</string>
+    <string name="pref_lockscreen_custom_background_summary_color">Текущий: Цвет</string>
+    <string name="pref_lockscreen_custom_background_summary_image">Текущий: Изображение</string>
+    <string name="pref_lockscreen_custom_background_summary_default">Текущий: По умолчанию</string>
+    <string name="pref_lockscreen_background_result_successful">Фон изменён</string>
+    <string name="pref_lockscreen_background_result_not_successful">Фон не изменён</string>
     <string name="pref_lockscreen_custom_icon_style_title">Иконка приложения</string>
     <string name="pref_lockscreen_custom_icon_style_summary">Использовать иконку приложения вместо иконки CM для приложения пользователя</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Сдвинуть вниз для разблокировки</string>
