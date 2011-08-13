@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//984\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIStatusBarActivity.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 280
+      },
+      "writtenOn": "2011-08-13T03:03:46Z",
+      "side": 1,
+      "message": "I think you should initialize the setting here. This default value is not showing on lockscreen until it\u0027s modified by user. This does show in status bar, because you did check if it\u0027s null in CarrierLabel.java in frameworks.",
+      "revId": "1e31d5bc19fe2707181e99e6bc6d60226ff91cbb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
