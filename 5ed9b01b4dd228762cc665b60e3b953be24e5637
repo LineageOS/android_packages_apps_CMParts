@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//9t4\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIStatusBarActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-15T18:01:55Z",
+      "side": 1,
+      "message": "Why do we need this code block at all? If it\u0027s null, the EditText will just be empty (it copes with null values by itself). Why can\u0027t the framework code just tolerate null values for custom text and display an empty string in that case?\n\nAfter all, the user can clear the field again anyway...\n\nAlso, there\u0027s tab indention going on here. When leaving the block in, please convert it to spaces.",
+      "revId": "5ed9b01b4dd228762cc665b60e3b953be24e5637",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
