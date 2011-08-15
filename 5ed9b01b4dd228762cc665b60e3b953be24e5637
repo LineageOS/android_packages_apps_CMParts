@@ -16,6 +16,24 @@
       "revId": "5ed9b01b4dd228762cc665b60e3b953be24e5637",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//9to\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIStatusBarActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1534
+      },
+      "writtenOn": "2011-08-15T18:47:26Z",
+      "side": 1,
+      "message": "The framework code already tolerates null values fine, but I thought it would be nice to have some default string. Configuring the custom string is a separate step which can be skipped. Having a default string shown in that case seemed better (and possibly less confusing) than having nothing at all.\n\nOne alternative would be having a null string at first use, and popping up the EditText after picking the custom string option (but only that first time).\n\nAs for the indention, I guess it\u0027s proof of my eternal struggle with the Eclipse indenting settings.",
+      "parentUuid": "AAAAHn//9t4\u003d",
+      "revId": "5ed9b01b4dd228762cc665b60e3b953be24e5637",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
