@@ -34,6 +34,24 @@
       "revId": "5ed9b01b4dd228762cc665b60e3b953be24e5637",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//9tU\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIStatusBarActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2011-08-15T19:21:25Z",
+      "side": 1,
+      "message": "Window-\u003ePreferences-\u003eJava-\u003eCode Style-\u003eFormatter-\u003eEdit-\u003eIndentation \u003d \"Spaces Only\"\n\n:)",
+      "parentUuid": "AAAAHn//9to\u003d",
+      "revId": "5ed9b01b4dd228762cc665b60e3b953be24e5637",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
