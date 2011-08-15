@@ -16,7 +16,17 @@
 
 package com.cyanogenmod.cmparts.activities;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.List;
+
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
+import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
@@ -24,13 +34,17 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceScreen;
+import android.provider.MediaStore;
 import android.provider.Settings;
+import android.widget.Toast;
 
 import com.cyanogenmod.cmparts.R;
 import com.cyanogenmod.cmparts.utils.ShortcutPickHelper;
 
 public class LockscreenStyleActivity extends PreferenceActivity implements
         OnPreferenceChangeListener, ShortcutPickHelper.OnPickListener {
+
+    private static final int LOCKSCREEN_BACKGROUND = 1024;
 
     private static final String LOCKSCREEN_STYLE_PREF = "pref_lockscreen_style";
 
@@ -46,6 +60,8 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
 
     private static final String LOCKSCREEN_CUSTOM_ICON_STYLE = "pref_lockscreen_custom_icon_style";
 
+    private static final String LOCKSCREEN_CUSTOM_BACKGROUND = "pref_lockscreen_background";
+
     private CheckBoxPreference mCustomAppTogglePref;
 
     private CheckBoxPreference mRotaryUnlockDownToggle;
@@ -59,6 +75,8 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
     private ListPreference mInCallStylePref;
 
     private Preference mCustomAppActivityPref;
+
+    private ListPreference mCustomBackground;
 
     enum LockscreenStyle{
         Slider,
@@ -190,6 +208,9 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         mCustomAppActivityPref = (Preference) prefSet
                 .findPreference(LOCKSCREEN_CUSTOM_APP_ACTIVITY);
 
+        mCustomBackground = (ListPreference) prefSet
+        .findPreference(LOCKSCREEN_CUSTOM_BACKGROUND);
+        mCustomBackground.setOnPreferenceChangeListener(this);
         mPicker = new ShortcutPickHelper(this, this);
     }
 
@@ -204,6 +225,12 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if ((requestCode == LOCKSCREEN_BACKGROUND)&&(resultCode == RESULT_OK)){
+            File lockWall = new File(getApplicationContext().getFilesDir()+"/lockwallpaper");
+            lockWall.setReadOnly();
+            lockWall.setWritable(true, true);
+            Settings.System.putString(getContentResolver(), Settings.System.LOCKSCREEN_BACKGROUND,"");
+        }
         mPicker.onActivityResult(requestCode, resultCode, data);
     }
 
@@ -237,8 +264,18 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         return false;
     }
 
+    ColorPickerDialog.OnColorChangedListener mPackageColorListener = new ColorPickerDialog.OnColorChangedListener() {
+        public void colorChanged(int color) {
+            Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_BACKGROUND,color);
+        }
+        @Override
+        public void colorUpdate(int color) {
+        }
+    };
+
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        String val = newValue.toString();
         if (preference == mLockscreenStylePref) {
             mLockscreenStyle = LockscreenStyle.getStyleById((String) newValue);
             Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_STYLE_PREF,
@@ -251,6 +288,41 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
             Settings.System.putInt(getContentResolver(), Settings.System.IN_CALL_STYLE_PREF,
                     InCallStyle.getIdByStyle(mInCallStyle));
             updateStylePrefs(mLockscreenStyle, mInCallStyle);
+            return true;
+        }
+        if (preference == mCustomBackground){
+            if (mCustomBackground.findIndexOfValue(val) == 0){
+                ColorPickerDialog cp = new ColorPickerDialog(this,mPackageColorListener,
+                        Settings.System.getInt(getContentResolver(),Settings.System.LOCKSCREEN_BACKGROUND, 0));
+                cp.show();
+            }else if (mCustomBackground.findIndexOfValue(val) == 1){
+                Intent intent = new Intent(Intent.ACTION_GET_CONTENT, null);
+                intent.setClassName("com.cooliris.media", "com.cooliris.media.Gallery");
+                PackageManager pm = getPackageManager();
+                List<ResolveInfo> activities = pm.queryIntentActivities(intent, 0);
+                if (activities != null && activities.size() > 0) {
+                    intent.setType("image/*");
+                    intent.putExtra("crop", "true");
+                    intent.putExtra("outputFormat", Bitmap.CompressFormat.JPEG.toString());
+                    intent.putExtra("aspectX", 1);
+                    intent.putExtra("aspectY", 1);
+                    intent.putExtra("outputX", getWindowManager().getDefaultDisplay().getWidth());
+                    intent.putExtra("outputY", getWindowManager().getDefaultDisplay().getHeight());
+                    File lockWall = new File(getApplicationContext().getFilesDir()+"/lockwallpaper");
+                    if (!lockWall.exists()){
+                        try {
+                            lockWall.createNewFile();
+                        } catch (IOException e) {
+                            return true;
+                        }
+                    }
+                    lockWall.setWritable(true, false);
+                    intent.putExtra(MediaStore.EXTRA_OUTPUT,Uri.fromFile(lockWall));
+                    intent.putExtra("return-data", false);
+                    startActivityForResult(intent,LOCKSCREEN_BACKGROUND);
+                }else
+                    Toast.makeText(this, "Gallery is not installed", Toast.LENGTH_LONG).show();
+            }
             return true;
         }
         return false;

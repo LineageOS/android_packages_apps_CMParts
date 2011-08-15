@@ -221,6 +221,9 @@
     <string name="pref_lockscreen_custom_app_toggle_title">Custom app starter</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">Shows a second slider on sliding style, shows a custom app dimple on rotary style</string>
     <string name="pref_lockscreen_custom_app_activity_title">Custom application</string>
+    <string name="pref_lockscreen_custom_background_title">Choose background</string>
+    <string name="pref_lockscreen_custom_background_dialog_title">Choose background</string>
+    <string name="pref_lockscreen_custom_background_summary">Choose image or color as lockscreen background</string>
     <string name="pref_lockscreen_custom_icon_style_title">Use application icon for custom app</string>
     <string name="pref_lockscreen_custom_icon_style_summary">Uses application icon instead of CM icon for custom app starter</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Drag down to unlock</string>
