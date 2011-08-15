@@ -42,6 +42,12 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
 
     private static final String LOCKSCREEN_ALWAYS_BATTERY = "lockscreen_always_battery";
 
+    private static final String LOCKSCREEN_CALENDAR_ALARM = "lockscreen_calendar_alarm";
+
+    private static final String LOCKSCREEN_CALENDAR_REMINDERS_ONLY = "lockscreen_calendar_reminders_only";
+
+    private static final String LOCKSCREEN_CALENDAR_ALARM_LOOKAHEAD = "lockscreen_calendar_alarm_lookahead";
+
     private CheckBoxPreference mMusicControlPref;
 
     private CheckBoxPreference mNowPlayingPref;
@@ -52,7 +58,13 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
 
     private CheckBoxPreference mAlwaysBatteryPref;
 
+    private CheckBoxPreference mCalendarAlarmPref;
+
+    private CheckBoxPreference mCalendarRemindersOnlyPref;
+
     private ListPreference mLockscreenMusicHeadsetPref;
+
+    private ListPreference mCalendarAlarmLookaheadPref;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -98,6 +110,28 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
         mAlwaysBatteryPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_ALWAYS_BATTERY);
         mAlwaysBatteryPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_ALWAYS_BATTERY, 0) == 1);
+
+        /* Calendar Reminders Only */
+        mCalendarRemindersOnlyPref = (CheckBoxPreference) prefSet
+                .findPreference(LOCKSCREEN_CALENDAR_REMINDERS_ONLY);
+        mCalendarRemindersOnlyPref.setChecked(Settings.System.getInt(getContentResolver(),
+                LOCKSCREEN_CALENDAR_REMINDERS_ONLY, 0) == 1);
+
+        /* Calendar Alarm Lookahead */
+        mCalendarAlarmLookaheadPref = (ListPreference) prefSet
+                .findPreference(LOCKSCREEN_CALENDAR_ALARM_LOOKAHEAD);
+        long calendarAlarmLookaheadPref = Settings.System.getLong(getContentResolver(),
+                Settings.System.LOCKSCREEN_CALENDAR_ALARM_LOOKAHEAD, 3600000);
+        mCalendarAlarmLookaheadPref.setValue(String.valueOf(calendarAlarmLookaheadPref));
+        mCalendarAlarmLookaheadPref.setOnPreferenceChangeListener(this);
+
+        /* Show next Calendar Alarm */
+        mCalendarAlarmPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_CALENDAR_ALARM);
+        boolean calendarAlarmPref = Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_CALENDAR_ALARM, 0) == 1;
+        mCalendarAlarmPref.setChecked(calendarAlarmPref);
+        mCalendarRemindersOnlyPref.setEnabled(calendarAlarmPref);
+        mCalendarAlarmLookaheadPref.setEnabled(calendarAlarmPref);
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
@@ -128,6 +162,17 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
             Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_ALWAYS_BATTERY,
                     value ? 1 : 0);
             return true;
+        } else if (preference == mCalendarAlarmPref) {
+            value = mCalendarAlarmPref.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_CALENDAR_ALARM,
+                    value ? 1 : 0);
+            mCalendarAlarmLookaheadPref.setEnabled(value);
+            return true;
+        } else if (preference == mCalendarRemindersOnlyPref) {
+            value = mCalendarRemindersOnlyPref.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_CALENDAR_REMINDERS_ONLY, value ? 1 : 0);
+            return true;
         }
         return false;
     }
@@ -137,6 +182,13 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
             int lockscreenMusicHeadsetPref = Integer.valueOf((String) newValue);
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_MUSIC_CONTROLS_HEADSET, lockscreenMusicHeadsetPref);
+            return true;
+        } else if (preference == mCalendarAlarmLookaheadPref) {
+            long calendarAlarmLookaheadPref = Long.valueOf((String) newValue);
+            Settings.System
+                    .putLong(getContentResolver(),
+                            Settings.System.LOCKSCREEN_CALENDAR_ALARM_LOOKAHEAD,
+                            calendarAlarmLookaheadPref);
             return true;
         }
         return false;
