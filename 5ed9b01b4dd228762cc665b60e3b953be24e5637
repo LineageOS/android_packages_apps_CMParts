@@ -52,6 +52,24 @@
       "revId": "5ed9b01b4dd228762cc665b60e3b953be24e5637",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//9tM\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIStatusBarActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-15T19:32:42Z",
+      "side": 1,
+      "message": "Yeah, popping up the EditText when selecting \u0027Use custom string\u0027 while the custom string is null sounds like a good idea (at least if EditText saves an empty string as \"\" and not as null).",
+      "parentUuid": "AAAAHn//9to\u003d",
+      "revId": "5ed9b01b4dd228762cc665b60e3b953be24e5637",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
