@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//9hg\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 281,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-19T12:25:15Z",
+      "side": 1,
+      "message": "Typo: calandar instead of calendar",
+      "revId": "b69374c00d6e49b91187eb7f6ddd9f2dfe6e8d22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//9hc\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenWidgetsActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-19T12:25:15Z",
+      "side": 1,
+      "message": "I think it might make sense to only iterate over the DB once and fetch both columns at the same time.",
+      "revId": "b69374c00d6e49b91187eb7f6ddd9f2dfe6e8d22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
