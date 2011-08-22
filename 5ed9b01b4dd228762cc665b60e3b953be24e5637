@@ -70,6 +70,24 @@
       "revId": "5ed9b01b4dd228762cc665b60e3b953be24e5637",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//9VA\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIStatusBarActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1534
+      },
+      "writtenOn": "2011-08-22T06:05:44Z",
+      "side": 1,
+      "message": "Maybe I keep missing it, but I can\u0027t find a clean way to pop up the EditTextPreference from inside onPreferenceChange in \tsrc/com/cyanogenmod/cmparts/activities/UIStatusBarActivity.java\n\nI don\u0027t recall such a trick being used anywhere else either.",
+      "parentUuid": "AAAAHn//9tM\u003d",
+      "revId": "5ed9b01b4dd228762cc665b60e3b953be24e5637",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
