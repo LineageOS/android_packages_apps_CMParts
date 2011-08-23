@@ -54,4 +54,17 @@
 			android:entryValues="@array/values_overscroll_weight" />
 	</PreferenceCategory>
 
+	<!-- Boot Animation Chooser -->
+	<PreferenceCategory android:title="@string/ui_bootanim_cat_title">
+                <PreferenceScreen android:key="pref_bootanimation"
+                        android:title="@string/bootanimation_title" android:summary="@string/bootanimation_summary">
+                </PreferenceScreen>
+                <PreferenceScreen android:key="pref_bootanimation_preview"
+                        android:title="@string/bootanimation_preview_title" android:summary="@string/bootanimation_preview_summary">
+                </PreferenceScreen>
+                <PreferenceScreen android:key="pref_bootanimation_reset"
+                        android:title="@string/bootanimation_reset_title" android:summary="@string/bootanimation_reset_summary">
+                </PreferenceScreen>
+	</PreferenceCategory>
+
 </PreferenceScreen>

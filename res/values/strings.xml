@@ -148,6 +148,15 @@
     <string name="title_color_picker">Pick a color</string>
     <string name="msg_color_picker">Tap on center color to confirm.\nPress back to cancel</string>
 
+    <!-- User interface: Boot animation -->
+    <string name="ui_bootanim_cat_title">Boot animation</string>
+    <string name="bootanimation_title">Choose</string>
+    <string name="bootanimation_summary">Choose a custom boot animation from your sd card</string>
+    <string name="bootanimation_preview_title">Preview</string>
+    <string name="bootanimation_preview_summary">Preview boot animation</string>
+    <string name="bootanimation_reset_title">Restore</string>
+    <string name="bootanimation_reset_summary">Restore to default boot animation</string>
+
     <!-- User interface: LED notifications -->
     <string name="group_settings">Settings</string>
     <string name="dialog_color_trackball">Choose a color</string>
