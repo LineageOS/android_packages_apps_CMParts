@@ -88,6 +88,24 @@
       "revId": "5ed9b01b4dd228762cc665b60e3b953be24e5637",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///to\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIStatusBarActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-23T16:59:54Z",
+      "side": 1,
+      "message": "I guess a dialog needs to be used there. The contacts app does something similar when creating e.g. phone number entries with type \u0027custom\u0027.",
+      "parentUuid": "AAAAHn//9VA\u003d",
+      "revId": "5ed9b01b4dd228762cc665b60e3b953be24e5637",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
