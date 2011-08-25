@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3///is\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/led/PackageSettingsActivity.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 129
+      },
+      "writtenOn": "2011-08-25T13:27:12Z",
+      "side": 1,
+      "message": "LED should be briefly turned on here to show the selected color",
+      "revId": "5c43a8bc4a7360c6e0daf233229542c420a33a1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
