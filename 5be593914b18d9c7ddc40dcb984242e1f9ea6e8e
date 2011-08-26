@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3///fA\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 341,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-26T14:12:35Z",
+      "side": 1,
+      "message": "Rect rect \u003d new Rect();",
+      "revId": "5be593914b18d9c7ddc40dcb984242e1f9ea6e8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///e8\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-26T14:12:35Z",
+      "side": 1,
+      "message": "int statusBarHeight \u003d rect.top;",
+      "revId": "5be593914b18d9c7ddc40dcb984242e1f9ea6e8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///e4\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 345,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-26T14:12:35Z",
+      "side": 1,
+      "message": "int contentViewTop \u003d window...",
+      "revId": "5be593914b18d9c7ddc40dcb984242e1f9ea6e8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///e0\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 346,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-26T14:12:35Z",
+      "side": 1,
+      "message": "int titleBarHeight \u003d contentViewTop - statusBarHeight;",
+      "revId": "5be593914b18d9c7ddc40dcb984242e1f9ea6e8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///ew\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-26T14:12:35Z",
+      "side": 1,
+      "message": "Should probably be named lockwallpaper.tmp and be renamed in onActivityResult if the user actually selected an image and be deleted otherwise.",
+      "revId": "5be593914b18d9c7ddc40dcb984242e1f9ea6e8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
