@@ -17,6 +17,7 @@
 package com.cyanogenmod.cmparts.activities;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.Rect;
 import android.net.Uri;
@@ -74,8 +75,6 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
     private Preference mCustomAppActivityPref;
 
     private ListPreference mCustomBackground;
-
-    File lockWall;
 
     enum LockscreenStyle{
         Slider,
@@ -210,7 +209,6 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         mCustomBackground = (ListPreference) prefSet
                 .findPreference(LOCKSCREEN_CUSTOM_BACKGROUND);
         mCustomBackground.setOnPreferenceChangeListener(this);
-        lockWall = new File(getApplicationContext().getFilesDir()+"/lockwallpaper");
         updateCustomBackgroundSummary();
         mPicker = new ShortcutPickHelper(this, this);
     }
@@ -227,9 +225,6 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
             resId = R.string.pref_lockscreen_custom_background_summary_color;
         }
         mCustomBackground.setSummary(getResources().getString(resId));
-        if (value == null || !value.isEmpty()) {
-            lockWall.delete();
-        }
     }
 
     @Override
@@ -244,6 +239,10 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if ((requestCode == LOCKSCREEN_BACKGROUND)&&(resultCode == RESULT_OK)){
             File lockWall = new File(getApplicationContext().getFilesDir()+"/lockwallpaper");
+            File lockWallTmp = new File(getApplicationContext().getFilesDir()+"/lockwallpaper.tmp");
+            if (lockWallTmp.exists()){
+                lockWallTmp.renameTo(lockWall);
+            }
             lockWall.setReadOnly();
             Toast.makeText(this, getResources().getString(R.string.
                     pref_lockscreen_background_result_successful), Toast.LENGTH_LONG).show();
@@ -251,10 +250,15 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
                     Settings.System.LOCKSCREEN_BACKGROUND,"");
             updateCustomBackgroundSummary();
         } else if (requestCode == LOCKSCREEN_BACKGROUND){
+            File lockWall = new File(getApplicationContext().getFilesDir()+"/lockwallpaper");
+            File lockWallTmp = new File(getApplicationContext().getFilesDir()+"/lockwallpaper.tmp");
+            if (lockWallTmp.exists()) {
+                lockWallTmp.delete();
+            } else {
+                lockWall.delete();
+            }
             Toast.makeText(this, getResources().getString(R.string.
                     pref_lockscreen_background_result_not_successful), Toast.LENGTH_LONG).show();
-            lockWall.setReadOnly();
-            lockWall.delete();
         }
         mPicker.onActivityResult(requestCode, resultCode, data);
     }
@@ -337,23 +341,25 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
                 intent.putExtra("outputFormat", Bitmap.CompressFormat.JPEG.toString());
                 int width = getWindowManager().getDefaultDisplay().getWidth();
                 int height = getWindowManager().getDefaultDisplay().getHeight();
-                Rect rectgle= new Rect();
+                Rect rect = new Rect();
                 Window window = getWindow();
-                window.getDecorView().getWindowVisibleDisplayFrame(rectgle);
-                int StatusBarHeight= rectgle.top;
-                int contentViewTop= window.findViewById(Window.ID_ANDROID_CONTENT).getTop();
-                int TitleBarHeight= contentViewTop - StatusBarHeight;
-                intent.putExtra("aspectX", width);
-                intent.putExtra("aspectY", height-TitleBarHeight);
+                window.getDecorView().getWindowVisibleDisplayFrame(rect);
+                int statusBarHeight = rect.top;
+                int contentViewTop = window.findViewById(Window.ID_ANDROID_CONTENT).getTop();
+                int titleBarHeight = contentViewTop - statusBarHeight;
+                boolean isPortrait = getResources().getConfiguration().orientation ==
+                    Configuration.ORIENTATION_PORTRAIT;
+                intent.putExtra("aspectX", isPortrait ? width : height-titleBarHeight);
+                intent.putExtra("aspectY", isPortrait ? height-titleBarHeight : width);
                 File lockWall = new File(getApplicationContext().getFilesDir()+"/lockwallpaper");
-                if (!lockWall.exists()){
-                    try {
-                        lockWall.createNewFile();
-                    } catch (IOException e) {
-                        return true;
+                try {
+                    if (lockWall.exists()) {
+                        lockWall = new File(getApplicationContext().getFilesDir()+"/lockwallpaper.tmp");
                     }
+                    lockWall.createNewFile();
+                } catch (IOException e) {
                 }
-                if (lockWall.exists()){
+                if (lockWall.exists()) {
                     lockWall.setWritable(true, false);
                     intent.putExtra(MediaStore.EXTRA_OUTPUT,Uri.fromFile(lockWall));
                     intent.putExtra("return-data", false);
