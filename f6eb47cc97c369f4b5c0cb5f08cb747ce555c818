@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3///d4\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-26T19:14:15Z",
+      "side": 0,
+      "message": "This one (and lockWallTmp) can be kept at class scope, given they\u0027re reused multiple times. Suggested new names:\n\nprivate File wallpaperImage;\nprivate File wallpaperTemporary;",
+      "revId": "f6eb47cc97c369f4b5c0cb5f08cb747ce555c818",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
