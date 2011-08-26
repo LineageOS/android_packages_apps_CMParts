@@ -17,6 +17,7 @@
 package com.cyanogenmod.cmparts.activities;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.Rect;
 import android.net.Uri;
@@ -343,8 +344,10 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
                 int StatusBarHeight= rectgle.top;
                 int contentViewTop= window.findViewById(Window.ID_ANDROID_CONTENT).getTop();
                 int TitleBarHeight= contentViewTop - StatusBarHeight;
-                intent.putExtra("aspectX", width);
-                intent.putExtra("aspectY", height-TitleBarHeight);
+                boolean isPortrait = getResources().getConfiguration().orientation ==
+                    Configuration.ORIENTATION_PORTRAIT;
+                intent.putExtra("aspectX", isPortrait ? width : height-TitleBarHeight);
+                intent.putExtra("aspectY", isPortrait ? height-TitleBarHeight : width);
                 File lockWall = new File(getApplicationContext().getFilesDir()+"/lockwallpaper");
                 if (!lockWall.exists()){
                     try {
