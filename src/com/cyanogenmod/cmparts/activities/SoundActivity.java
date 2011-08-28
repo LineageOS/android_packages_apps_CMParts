@@ -64,13 +64,16 @@ public class SoundActivity extends PreferenceActivity implements OnPreferenceCha
     private static final String ALARMS_ATTENUATION = "alarm-attn";
 
     private static final String ALARMS_LIMITVOL = "alarm-limitvol";
+    
+    private static final String CAMERA_SHUTTER_DISABLE = "persist.camera.shutter.disable";
 
     private static final String PREFIX = "persist.sys.";
 
     private static String getKey(String suffix) {
         return PREFIX + suffix;
     }
-
+    
+ 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -136,7 +139,11 @@ public class SoundActivity extends PreferenceActivity implements OnPreferenceCha
         lp.setValue(String.valueOf(SystemProperties.getInt(getKey(ALARMS_LIMITVOL), 1)));
         lp.setSummary(lp.getEntry());
         lp.setOnPreferenceChangeListener(this);
-    }
+
+        p = (CheckBoxPreference) prefSet.findPreference(CAMERA_SHUTTER_DISABLE);
+        p.setChecked(SystemProperties.getBoolean(CAMERA_SHUTTER_DISABLE, false));
+        p.setOnPreferenceChangeListener(this);
+   }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         String key = preference.getKey();
@@ -152,6 +159,9 @@ public class SoundActivity extends PreferenceActivity implements OnPreferenceCha
         } else if (key.equals(NOTIFICATIONS_SPEAKER) || key.equals(RINGS_SPEAKER)
                 || key.equals(ALARMS_SPEAKER)) {
             SystemProperties.set(getKey(key), getBoolean(newValue) ? "1" : "0");
+        } else if (key.equals(CAMERA_SHUTTER_DISABLE)) {
+        	android.util.Log.v("george", "SHUTTER newValue = "+(getBoolean(newValue) ? "1" : "0"));
+            SystemProperties.set(CAMERA_SHUTTER_DISABLE, getBoolean(newValue) ? "1" : "0");
         } else {
             SystemProperties.set(getKey(key), String.valueOf(getInt(newValue)));
             mHandler.sendMessage(mHandler.obtainMessage(0, key));
