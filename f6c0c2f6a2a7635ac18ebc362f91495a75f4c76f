@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3///SM\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 14
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2011-08-28T22:55:34Z",
+      "side": 1,
+      "message": "Could you please remove this tab?",
+      "revId": "f6c0c2f6a2a7635ac18ebc362f91495a75f4c76f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
