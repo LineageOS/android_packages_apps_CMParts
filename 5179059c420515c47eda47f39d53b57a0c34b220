@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3///QU\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 563,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-08-29T04:11:38Z",
+      "side": 1,
+      "message": "could you please fix tabs in next patchset thanks",
+      "revId": "5179059c420515c47eda47f39d53b57a0c34b220",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///QQ\u003d",
+        "filename": "res/xml/sound_settings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-08-29T04:11:38Z",
+      "side": 1,
+      "message": "and this...",
+      "revId": "5179059c420515c47eda47f39d53b57a0c34b220",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///QM\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SoundActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-08-29T04:11:38Z",
+      "side": 1,
+      "message": "and these",
+      "revId": "5179059c420515c47eda47f39d53b57a0c34b220",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///QE\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SoundActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-08-29T04:11:38Z",
+      "side": 1,
+      "message": "and also this one...\n\nwho is george ?? :p please remove that",
+      "revId": "5179059c420515c47eda47f39d53b57a0c34b220",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
