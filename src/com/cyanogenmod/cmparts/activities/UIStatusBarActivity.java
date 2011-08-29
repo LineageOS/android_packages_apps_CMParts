@@ -47,9 +47,9 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
 
     private ListPreference mStatusBarCmSignal;
 
-    private CheckBoxPreference mStatusBarClock;
+    private ListPreference mStatusBarCmBattery;
 
-    private CheckBoxPreference mStatusBarCmBattery;
+    private CheckBoxPreference mStatusBarClock;
 
     private CheckBoxPreference mStatusBarCompactCarrier;
 
@@ -67,15 +67,13 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
         mStatusBarClock = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_CLOCK);
         mStatusBarCompactCarrier = (CheckBoxPreference) prefSet
                 .findPreference(PREF_STATUS_BAR_COMPACT_CARRIER);
-        mStatusBarCmBattery = (CheckBoxPreference) prefSet
+        mStatusBarCmBattery = (ListPreference) prefSet
                 .findPreference(PREF_STATUS_BAR_CM_BATTERY);
         mStatusBarBrightnessControl = (CheckBoxPreference) prefSet
                 .findPreference(PREF_STATUS_BAR_BRIGHTNESS_CONTROL);
 
         mStatusBarClock.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_CLOCK, 1) == 1));
-        mStatusBarCmBattery.setChecked((Settings.System.getInt(getContentResolver(),
-                Settings.System.STATUS_BAR_CM_BATTERY, 0) == 1));
         mStatusBarCompactCarrier.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_COMPACT_CARRIER, 0) == 1));
         mStatusBarBrightnessControl.setChecked((Settings.System.getInt(getContentResolver(),
@@ -102,6 +100,11 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
                 Settings.System.STATUS_BAR_CM_SIGNAL_TEXT, 0);
         mStatusBarCmSignal.setValue(String.valueOf(signalStyle));
         mStatusBarCmSignal.setOnPreferenceChangeListener(this);
+
+        int statusBarCmBattery = Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_CM_BATTERY, 0);
+        mStatusBarCmBattery.setValue(String.valueOf(statusBarCmBattery));
+        mStatusBarCmBattery.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -115,6 +118,11 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
             Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_CM_SIGNAL_TEXT,
                     signalStyle);
             return true;
+        } else if (preference == mStatusBarCmBattery) {
+            int statusBarCmBattery = Integer.valueOf((String) newValue);
+            Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_CM_BATTERY,
+                    statusBarCmBattery);
+            return true;
         }
         return false;
     }
@@ -126,11 +134,6 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
         if (preference == mStatusBarClock) {
             value = mStatusBarClock.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_CLOCK,
-                    value ? 1 : 0);
-            return true;
-        } else if (preference == mStatusBarCmBattery) {
-            value = mStatusBarCmBattery.isChecked();
-            Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_CM_BATTERY,
                     value ? 1 : 0);
             return true;
         } else if (preference == mStatusBarCompactCarrier) {
