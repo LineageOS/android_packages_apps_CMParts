@@ -560,6 +560,14 @@
     <string name="user_defined_key3">Touche rapide 3</string>
     <string name="user_defined_not_set">Non configuré</string>
 
+    <!-- Camera -->
+    <string name="camera_title">Appareil photo</string>
+    <string name="sound_camera_shutter_disable_title">Mode silencieux</string>
+    <string name="sound_camera_shutter_disable_summary_on">Fonctionnement silencieux</string>
+    <string name="sound_camera_shutter_disable_summary_off">Fonctionnement normal</string>
+    <string name="sound_camera_shutter_disable_warning_title">Attention: ceci peut être illégal !</string>
+    <string name="sound_camera_shutter_disable_warning">Certains pays ont une loi qui oblige les téléphones à émettre un son lors de la prise d\'une photo. Etes-vous sûr de vouloir désactiver le son ?</string>
+
     <!--  Lockscreen gesture strings -->
     <string name="pref_lockscreen_gestures_enable_title">Utiliser les gestes</string>
     <string name="pref_lockscreen_gestures_trail_title">Afficher parcours gestes</string>
