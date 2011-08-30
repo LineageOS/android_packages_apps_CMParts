@@ -54,6 +54,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAH3///Gk\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SoundActivity.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-08-30T06:19:15Z",
+      "side": 1,
+      "message": "little indent bug here :p",
+      "revId": "61bd7239b34f7d330d9aa93a6e7d8b6be4492405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAH3///Gw\u003d",
         "filename": "src/com/cyanogenmod/cmparts/activities/SoundActivity.java",
         "patchSetId": 4
@@ -65,6 +82,24 @@
       "writtenOn": "2011-08-30T06:06:25Z",
       "side": 1,
       "message": "maybe \nSettings.System.putInt(getContentResolver(), CAMERA_SHUTTER_DISABLE, 1);",
+      "revId": "61bd7239b34f7d330d9aa93a6e7d8b6be4492405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///Go\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SoundActivity.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-08-30T06:19:15Z",
+      "side": 1,
+      "message": "ok, to be switched default entry must be set in system.prop\n\nelse it is not \"created\"",
+      "parentUuid": "AAAAH3///Gw\u003d",
       "revId": "61bd7239b34f7d330d9aa93a6e7d8b6be4492405",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
