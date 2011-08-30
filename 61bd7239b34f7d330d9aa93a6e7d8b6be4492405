@@ -33,6 +33,41 @@
       "revId": "61bd7239b34f7d330d9aa93a6e7d8b6be4492405",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///G8\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SoundActivity.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-08-30T06:06:25Z",
+      "side": 1,
+      "message": "hmm sorry my mistake...",
+      "parentUuid": "AAAAH3///Ho\u003d",
+      "revId": "61bd7239b34f7d330d9aa93a6e7d8b6be4492405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///Gw\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SoundActivity.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-08-30T06:06:25Z",
+      "side": 1,
+      "message": "maybe \nSettings.System.putInt(getContentResolver(), CAMERA_SHUTTER_DISABLE, 1);",
+      "revId": "61bd7239b34f7d330d9aa93a6e7d8b6be4492405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
