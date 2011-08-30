@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3///Io\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 416,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-08-30T03:17:25Z",
+      "side": 1,
+      "message": "could you \"merge\" all Camera strings in one bloc, at the end of Sound strings... Thanks\n\nsee https://github.com/tpruvot/android_packages_apps_CMParts/commit/6529f11871ea17963d550ae1d368c46d365b6243",
+      "revId": "61bd7239b34f7d330d9aa93a6e7d8b6be4492405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
