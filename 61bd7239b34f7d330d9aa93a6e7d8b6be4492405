@@ -16,6 +16,23 @@
       "revId": "61bd7239b34f7d330d9aa93a6e7d8b6be4492405",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3///Ho\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SoundActivity.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-08-30T04:22:24Z",
+      "side": 1,
+      "message": "please remove Alert if not used",
+      "revId": "61bd7239b34f7d330d9aa93a6e7d8b6be4492405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
