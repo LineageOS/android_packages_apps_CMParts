@@ -54,6 +54,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAH3//+60\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SoundActivity.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-08-30T15:52:23Z",
+      "side": 1,
+      "message": "# BEGIN, Motorola, qwp843, 12/06/2010, IKJRDNEM-3696\n\n# Handle No audible indication while capturing photos in silent mode\n\n# The property \"ro.camera.sound.forced\" is defined by google.\n\n# Use \"ro.camera.sound.forced\" to decide whether camera shutter tone is forced: 1 forced; 0 not-forced.\n\n#IKDEFYPGC-28 ,w21802 ,  24/05/2011,camera shutter sound should always audible.\n\nro.camera.sound.forced\u003d1\n\n# END IKJRDNEM-3696\n\n#IKDEFYPGC-1076 ,w21802 ,  14/07/2011\n\nro.camera.key.blocked \u003d true",
+      "revId": "61bd7239b34f7d330d9aa93a6e7d8b6be4492405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAH3///Gk\u003d",
         "filename": "src/com/cyanogenmod/cmparts/activities/SoundActivity.java",
         "patchSetId": 4
