@@ -13,6 +13,15 @@
         <CheckBoxPreference android:key="lockscreen_always_battery"
             android:title="@string/pref_lockscreen_always_battery_title"
             android:summary="@string/pref_lockscreen_always_battery_summary" />
+
+        <ListPreference android:key="pref_lockscreen_widgets_layout"
+            android:dialogTitle="@string/pref_lockscreen_widgets_layout_title"
+            android:title="@string/pref_lockscreen_widgets_layout_title"
+            android:summary="@string/pref_lockscreen_widgets_layout_summary"
+            android:entries="@array/pref_lockscreen_widget_layout_entries"
+            android:entryValues="@array/pref_lockscreen_widget_layout_values"
+            android:defaultValue="0" />
+
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/lockscreen_music_title">
