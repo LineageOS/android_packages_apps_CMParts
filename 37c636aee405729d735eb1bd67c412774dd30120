@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3//+0U\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 711,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-31T13:19:25Z",
+      "side": 1,
+      "message": "This should read \u0027GPS source\u0027, as you can select the internal GPS here as well.",
+      "revId": "37c636aee405729d735eb1bd67c412774dd30120",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//+0Q\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SystemActivity.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-31T13:19:25Z",
+      "side": 1,
+      "message": "This should be indented properly.",
+      "revId": "37c636aee405729d735eb1bd67c412774dd30120",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//+0M\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SystemActivity.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-31T13:19:25Z",
+      "side": 1,
+      "message": "The null check seems unneeded.",
+      "revId": "37c636aee405729d735eb1bd67c412774dd30120",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//+0I\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SystemActivity.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-31T13:19:25Z",
+      "side": 1,
+      "message": "What\u0027s wrong with \u0027for (BluetoothDevice d : mBluetoothAdapter.getBondedDevices())\u0027? The extra list seems unneeded.",
+      "revId": "37c636aee405729d735eb1bd67c412774dd30120",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
