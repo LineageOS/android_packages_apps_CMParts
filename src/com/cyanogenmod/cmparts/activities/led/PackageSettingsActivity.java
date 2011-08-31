@@ -102,7 +102,10 @@ public class PackageSettingsActivity extends PreferenceActivity implements
 
         mColorPref = (ListPreference) findPreference("color");
         mColorPref.setOnPreferenceChangeListener(this);
-        populateColors();
+        if (getResources().getBoolean(R.bool.has_single_notification_led)) {
+            getPreferenceScreen().removePreference(mColorPref);
+        } 
+            populateColors();
 
         mBlinkPref = (ListPreference) findPreference("blink");
         mCustomPref = findPreference("custom_color");
@@ -174,10 +177,7 @@ public class PackageSettingsActivity extends PreferenceActivity implements
     }
 
     private void populateColors() {
-        if (getResources().getBoolean(R.bool.has_mixable_dual_notification_led)) {
-            mColorPref.setEntries(R.array.entries_mixable_dual_led_colors);
-            mColorPref.setEntryValues(R.array.values_mixable_dual_led_colors);
-        } else if (getResources().getBoolean(R.bool.has_dual_notification_led)) {
+        if (getResources().getBoolean(R.bool.has_dual_notification_led)) {
             mColorPref.setEntries(R.array.entries_dual_led_colors);
             mColorPref.setEntryValues(R.array.values_dual_led_colors);
         } else {
