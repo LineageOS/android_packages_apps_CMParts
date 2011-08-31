@@ -17,6 +17,10 @@
             android:entries="@array/pref_in_call_style_entries"
             android:entryValues="@array/pref_in_call_style_values" />
 
+       <CheckBoxPreference android:key="pref_lockscreen_center_widgets"
+            android:title="@string/pref_lockscreen_center_widgets_title"
+            android:summary="@string/pref_lockscreen_center_widgets_summary" />
+
         <CheckBoxPreference android:key="pref_lockscreen_custom_app_toggle"
             android:title="@string/pref_lockscreen_custom_app_toggle_title"
             android:summary="@string/pref_lockscreen_custom_app_toggle_summary" />

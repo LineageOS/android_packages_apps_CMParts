@@ -61,6 +61,8 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
 
     private static final String LOCKSCREEN_CUSTOM_BACKGROUND = "pref_lockscreen_background";
 
+    private static final String LOCKSCREEN_CENTER_WIDGETS = "pref_lockscreen_center_widgets";
+
     private CheckBoxPreference mCustomAppTogglePref;
 
     private CheckBoxPreference mRotaryUnlockDownToggle;
@@ -68,6 +70,8 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
     private CheckBoxPreference mRotaryHideArrowsToggle;
 
     private CheckBoxPreference mCustomIconStyle;
+
+    private CheckBoxPreference mCenterWidgets;
 
     private ListPreference mLockscreenStylePref;
 
@@ -205,6 +209,12 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
                 .findPreference(LOCKSCREEN_CUSTOM_ICON_STYLE);
         mCustomIconStyle.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_CUSTOM_ICON_STYLE, 1) == 2);
+
+        mCenterWidgets = (CheckBoxPreference) prefSet
+        .findPreference(LOCKSCREEN_CENTER_WIDGETS);
+        mCenterWidgets.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_CENTER_WIDGETS, 0) == 1);
+        mCenterWidgets.setOnPreferenceChangeListener(this);
 
         updateStylePrefs(mLockscreenStyle, mInCallStyle);
 
@@ -373,6 +383,11 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
                 updateCustomBackgroundSummary();
                 break;
             }
+            return true;
+        }
+        if (preference == mCenterWidgets) {
+            Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_CENTER_WIDGETS,
+                    !mCenterWidgets.isChecked() ? 1 : 0);
             return true;
         }
         return false;
