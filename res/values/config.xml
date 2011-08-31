@@ -9,6 +9,9 @@
     <!-- Notification LED can show any color -->
     <bool name="has_rgb_notification_led">false</bool>
 
+    <!-- Notification LED has single color only -->
+    <bool name="has_single_notification_led">false</bool>
+
     <!-- Notification LED can show green and amber only -->
     <bool name="has_dual_notification_led">false</bool>
 
