@@ -57,11 +57,8 @@ public class AdvancedActivity extends PreferenceActivity implements
         mPulseInOrderPref = (CheckBoxPreference) findPreference("pulse_in_order");
         mResetPref = findPreference("reset");
 
-        boolean hasDualLed = getResources().getBoolean(R.bool.has_dual_notification_led) ||
-                             getResources().getBoolean(R.bool.has_mixable_dual_notification_led);
-
         /* Hide options only relevant to RGB lights if no RGB LED is present */
-        if (hasDualLed) {
+        if (!getResources().getBoolean(R.bool.has_rgb_notification_led)) {
             PreferenceScreen screen = getPreferenceScreen();
             screen.removePreference(mBlendColorsPref);
             screen.removePreference(mPulseSuccessionPref);
@@ -74,6 +71,11 @@ public class AdvancedActivity extends PreferenceActivity implements
             mPulseInOrderPref.setOnPreferenceChangeListener(this);
         }
 
+        /* Hide Always pulse checkbox if not supported */
+        if (getResources().getBoolean(R.bool.has_single_notification_led)) {
+            PreferenceScreen screen = getPreferenceScreen();
+            screen.removePreference(mPulseAlwaysPref);
+        }
         initSettings();
     }
 
