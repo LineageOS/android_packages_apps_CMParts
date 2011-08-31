@@ -58,6 +58,8 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
 
     private static final String LOCKSCREEN_CALENDAR_LOOKAHEAD = "lockscreen_calendar_lookahead";
 
+    private static final String LOCKSCREEN_WIDGETS_LAYOUT = "pref_lockscreen_widgets_layout";
+
     private CheckBoxPreference mMusicControlPref;
 
     private CheckBoxPreference mNowPlayingPref;
@@ -77,6 +79,8 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
     private MultiSelectListPreference mCalendarsPref;
 
     private ListPreference mCalendarAlarmLookaheadPref;
+
+    private ListPreference mLockscreenWidgetLayout;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -118,6 +122,10 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
         mAlwaysMusicControlPref.setChecked(alwaysMusicControlPref);
         mLockscreenMusicHeadsetPref.setEnabled(!alwaysMusicControlPref);
 
+        mLockscreenWidgetLayout = (ListPreference) prefSet
+                .findPreference(LOCKSCREEN_WIDGETS_LAYOUT);
+        mLockscreenWidgetLayout.setOnPreferenceChangeListener(this);
+
         /* Always Display Battery Status */
         mAlwaysBatteryPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_ALWAYS_BATTERY);
         mAlwaysBatteryPref.setChecked(Settings.System.getInt(getContentResolver(),
@@ -150,6 +158,10 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
         mCalendarAlarmPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_CALENDAR_ALARM);
         mCalendarAlarmPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_CALENDAR_ALARM, 0) == 1);
+
+        boolean hideAlwaysBatteryPref = mLockscreenWidgetLayout.getEntry().equals(getResources()
+                .getStringArray(R.array.pref_lockscreen_widget_layout_entries)[1]);
+        mAlwaysBatteryPref.setEnabled(hideAlwaysBatteryPref);
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
@@ -209,6 +221,11 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
             String calendarsPref = (String) newValue;
             Settings.System.putString(getContentResolver(), Settings.System.LOCKSCREEN_CALENDARS,
                     calendarsPref);
+            return true;
+        } else if (preference == mLockscreenWidgetLayout) {
+            Integer val = Integer.valueOf(newValue.toString());
+            Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_WIDGETS_LAYOUT,val);
+            mAlwaysBatteryPref.setEnabled(val != 1);
             return true;
         }
         return false;
