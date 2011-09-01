@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3//+mc\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/led/PackageSettingsActivity.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-01T17:19:49Z",
+      "side": 1,
+      "message": "The indention is wrong here.",
+      "revId": "4ca7ed8c9b889c12cfdcbb75103034ee1854864a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
