@@ -16,6 +16,23 @@
       "revId": "7a6a2cf70eda58062ac827bfa59184912c7614cc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//+pI\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/led/PackageSettingsActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 991
+      },
+      "writtenOn": "2011-09-01T14:13:01Z",
+      "side": 1,
+      "message": "I feel like here is where the logic fails. It is attempting to parse an option that was never passed to it, hence the NPE in the logcat. Perhaps we should force a \"known good color\" (even though no color is displayed) such as \"white.\"",
+      "revId": "7a6a2cf70eda58062ac827bfa59184912c7614cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
