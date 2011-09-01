@@ -51,6 +51,23 @@
       "revId": "7a6a2cf70eda58062ac827bfa59184912c7614cc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//+ok\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/led/PackageSettingsActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-01T14:29:03Z",
+      "side": 1,
+      "message": "This _always_ needs be done. At least the \u0027default\u0027 entry needs to be filled in. As the preference is hidden anyway, it\u0027s fine to fill it with the full RGB set of colors.",
+      "revId": "7a6a2cf70eda58062ac827bfa59184912c7614cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
