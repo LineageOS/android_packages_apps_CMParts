@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3//+ps\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/led/PackageSettingsActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-01T13:22:42Z",
+      "side": 1,
+      "message": "Please fix the indention here (4 spaces only)",
+      "revId": "7a6a2cf70eda58062ac827bfa59184912c7614cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
