@@ -33,6 +33,24 @@
       "revId": "7a6a2cf70eda58062ac827bfa59184912c7614cc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//+o4\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/led/PackageSettingsActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-01T14:15:44Z",
+      "side": 1,
+      "message": "As said in the comment: Even though the UI element is hidden, it\u0027s still there, and all of the list values should be valid. Especially, the first color list value should always be \u0027default\u0027.",
+      "parentUuid": "AAAAH3//+pI\u003d",
+      "revId": "7a6a2cf70eda58062ac827bfa59184912c7614cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
