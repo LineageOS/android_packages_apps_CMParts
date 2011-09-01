@@ -61,10 +61,6 @@
     <!-- User interface : Lock Screen -->
   <string name="ui_lockscreen_title">הגדרות נעילת מסך</string>
   <string name="pref_lockscreen_delay_title">השהיה</string>
-  <string name="pref_lockscreen_timeout_lock_delay">השהיית כיבוי מסך</string>
-  <string name="pref_lockscreen_screenoff_lock_delay">השהיית נעילת מסך</string>
-  <string name="pref_lockscreen_timeout_lock_delay_summary">כמה זמן להשהות לפני כיבוי מסך</string>
-  <string name="pref_lockscreen_screenoff_lock_delay_summary">כמה זמן לשהות לפני נעילת המסך כאשר המסך כבוי</string>
 
     <!-- Color Picker -->
  <string name="title_color_picker">בחר צבע</string>

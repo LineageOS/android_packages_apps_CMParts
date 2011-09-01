@@ -124,10 +124,6 @@
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">锁屏设置</string>
     <string name="pref_lockscreen_delay_title">延迟</string>
-    <string name="pref_lockscreen_timeout_lock_delay">屏幕自动休眠时的延迟</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">屏幕手动关闭时的延迟</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">当屏幕超时自动休眠时，延迟多长时间后启用锁屏</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">当手动关闭屏幕时，延迟多长时间后启用锁屏</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">选择颜色</string>

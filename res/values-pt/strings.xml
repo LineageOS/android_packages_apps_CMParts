@@ -58,10 +58,6 @@
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Configurações de bloqueio de tela</string>
     <string name="pref_lockscreen_delay_title">Espera</string>
-    <string name="pref_lockscreen_timeout_lock_delay">Tempo de espera</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Tempo para desligar tela</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Quanto tempo aguardar antes de ativar tela de bloqueio quando o tempo limite da tela esgota</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">Quanto tempo aguardar antes de a tela de bloqueio aparecer quando a tela desliga</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">Escolha uma cor</string>

@@ -156,10 +156,6 @@
     <string name="pref_lockscreen_slide_screenoff_lock_delay">Nach Abschalten des Displays</string>
     <string name="pref_lockscreen_slide_timeout_lock_delay_summary">Zeit, ab der der Slider-Lock aktiviert wird, nachdem das Display sich selbst abgeschaltet hat</string>
     <string name="pref_lockscreen_slide_screenoff_lock_delay_summary">Zeit, ab der der Slider-Lock aktiviert wird, nachdem das Display manuell abgeschaltet wurde</string>
-    <string name="pref_lockscreen_timeout_lock_delay">Bei Bildschirm-Timeout</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Bei Abschalten des Bildschirms</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Wie lange warten bis der Lockscreen aktiv wird beim Timeout des Displays</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">Wie lange warten bis der Lockscreen aktiv wird beim Ausschalten des Displays</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">Farbe wählen</string>

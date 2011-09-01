@@ -67,10 +67,6 @@
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Definições do bloqueio de ecrã</string>
     <string name="pref_lockscreen_delay_title">Atraso</string>
-    <string name="pref_lockscreen_timeout_lock_delay">Atraso de tempo do ecrã</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Atraso para desligar ecrã</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Quanto tempo aguardar para bloquear ecrã depois de o tempo do ecrã acabar</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">Quanto tempo aguardar para bloquear ecrã depois de o ecrã ser desligado</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">Escolha uma cor</string>

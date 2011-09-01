@@ -102,10 +102,6 @@
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Näyttölukituksen asetukset</string>
     <string name="pref_lockscreen_delay_title">Viive</string>
-    <string name="pref_lockscreen_timeout_lock_delay">Näytön aikakatkaisun viive</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Näyttö sammuttamisen viive</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Kauan odotetaan ennen kuin asetetaan näyttölukitus, kun näyttö sammuu aikakatkaisulla</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">Kauan odotetaan ennen kuin asetetaan näyttölukitus, kun näyttö sammutetaan itse</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">Valitse väri</string>

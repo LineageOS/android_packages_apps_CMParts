@@ -124,10 +124,6 @@
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Ajustes de protector de pantalla</string>
     <string name="pref_lockscreen_delay_title">Tiempo de espera</string>
-    <string name="pref_lockscreen_timeout_lock_delay">Retardo con apagado automático</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Retardo con apagado manual</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Cuanto tiempo espera antes de activar el protector de pantalla cuando se apaga automáticamente</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">Cuanto tiempo espera antes de activar el protector de pantalla cuando se apaga manualmente</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">Escoge un color</string>

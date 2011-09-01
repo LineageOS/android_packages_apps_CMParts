@@ -68,10 +68,6 @@
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Configuració del bloqueig de la pantalla</string>
     <string name="pref_lockscreen_delay_title">Retard</string>
-    <string name="pref_lockscreen_timeout_lock_delay">Retard del temps de bloqueig de la pantalla</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Retard del temps d\'apagat de la pantalla</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Temps de retard abans de bloquejar la pantalla quan s\'esgota el temps d\'espera</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">Temps de retard abans de bloquejar la pantalla quan s\'apaga</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">Selecció de color</string>

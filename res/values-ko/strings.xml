@@ -23,10 +23,6 @@
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">화면 잠금 설정</string>
     <string name="pref_lockscreen_delay_title">대기</string>
-    <string name="pref_lockscreen_timeout_lock_delay">화면 시간초과 대기</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">화면 꺼짐 대기</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">화면을 오랫동안 납뒀을 때 화면 잠금을 표시하기 전까지의 대기 시간입니다.</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">화면이 꺼졌을 때 화면 잠금을 표시하기 전까지의 대기 시간입니다.</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">색 선택</string>

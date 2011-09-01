@@ -68,10 +68,6 @@
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Képernyőzár beállításai</string>
     <string name="pref_lockscreen_delay_title">Késleltetés</string>
-    <string name="pref_lockscreen_timeout_lock_delay">Képernyő időkorlátja</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Képernyő kikapcsolásának késleltetése</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Készenlétbe kapcsoláskor mennyi idő telik el mielőtt a képernyőzár aktiválódik</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">Készenlétbe kapcsoláskor mennyi idő telik el mielőtt a képernyő kikapcsol</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">Szín kiválasztása</string>

@@ -125,10 +125,6 @@
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Ustawienia blokady ekranu</string>
     <string name="pref_lockscreen_delay_title">Opóźnienie</string>
-    <string name="pref_lockscreen_timeout_lock_delay">Automatyczne wyłączenie ekranu</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Ręczne wyłączenie ekranu</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Po jakim czasie zostanie uaktywniony ekran blokady, kiedy ekran wyłączy się automatycznie</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">Po jakim czasie zostanie uaktywniony ekran blokady, kiedy ekran zostanie wyłączony przez użytkownika</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">Wybierz kolor</string>

@@ -116,10 +116,6 @@
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Scherm-vergrendel instellingen</string>
     <string name="pref_lockscreen_delay_title">Vertraging</string>
-    <string name="pref_lockscreen_timeout_lock_delay">Time-out vertraging</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">Uitschakel vertraging</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">Vertraging in seconden voordat scherm-vergrendeling geactiveerd wordt</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">Vertraging in seconden voordat scherm-vergrendeling geactiveerd wordt wanneer het scherm uit is</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">Kies een kleur</string>
