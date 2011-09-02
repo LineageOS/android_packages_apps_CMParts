@@ -102,6 +102,10 @@ public class PackageSettingsActivity extends PreferenceActivity implements
 
         mColorPref = (ListPreference) findPreference("color");
         mColorPref.setOnPreferenceChangeListener(this);
+
+        if (getResources().getBoolean(R.bool.has_single_notification_led)) {
+            getPreferenceScreen().removePreference(mColorPref);
+        }
         populateColors();
 
         mBlinkPref = (ListPreference) findPreference("blink");
