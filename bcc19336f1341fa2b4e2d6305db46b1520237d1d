@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3//+gg\u003d",
+        "filename": "res/values/config.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-02T11:44:54Z",
+      "side": 1,
+      "message": "I don\u0027t like the double negation. Also, this value is not about what the LED does, but about its capabilities. What about \u0027notification_led_can_pulse\u0027?",
+      "revId": "bcc19336f1341fa2b4e2d6305db46b1520237d1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//+gc\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/InputActivity.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-02T11:44:54Z",
+      "side": 1,
+      "message": "Those changes do not belong into this patch.",
+      "revId": "bcc19336f1341fa2b4e2d6305db46b1520237d1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//+gY\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/led/AdvancedActivity.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-02T11:44:54Z",
+      "side": 1,
+      "message": "Given that the screen variable is only used once, you can do\n\ngetPreferenceScreen().removePreference(mPulseAlwaysPref)\n\ndirectly here.",
+      "revId": "bcc19336f1341fa2b4e2d6305db46b1520237d1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
