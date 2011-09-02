@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAH3//+gM\u003d",
+        "filename": "res/values/config.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 991
+      },
+      "writtenOn": "2011-09-02T11:52:49Z",
+      "side": 1,
+      "message": "I agree, the variable doesn\u0027t fit in with the rest of the choices. I like \"notification_led_can_pulse\" and set it to true by default (as most devices can pulse, not pulsing is the unusual option).",
+      "parentUuid": "AAAAH3//+gg\u003d",
+      "revId": "bcc19336f1341fa2b4e2d6305db46b1520237d1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAH3//+gc\u003d",
         "filename": "src/com/cyanogenmod/cmparts/activities/InputActivity.java",
         "patchSetId": 10
