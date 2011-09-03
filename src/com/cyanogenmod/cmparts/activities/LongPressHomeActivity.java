@@ -36,11 +36,13 @@ public class LongPressHomeActivity extends PreferenceActivity
 
     private static final String RECENT_APPS_SHOW_TITLE_PREF = "pref_show_recent_apps_title";
     private static final String RECENT_APPS_NUM_PREF= "pref_recent_apps_num";
+    private static final String USE_QUICK_RECENT_PREF = "pref_use_quick_recent";
     private static final String USE_CUSTOM_APP_PREF = "pref_use_custom_app";
     private static final String SELECT_CUSTOM_APP_PREF = "pref_select_custom_app";    
     
     private CheckBoxPreference mShowRecentAppsTitlePref;
     private ListPreference mRecentAppsNumPref;
+    private CheckBoxPreference mUseQuickHomePref;
     private CheckBoxPreference mUseCustomAppPref;
     private Preference mSelectCustomAppPref;
     private ShortcutPickHelper mPicker;
@@ -58,6 +60,8 @@ public class LongPressHomeActivity extends PreferenceActivity
 
         mRecentAppsNumPref = (ListPreference) prefSet.findPreference(RECENT_APPS_NUM_PREF);
         mRecentAppsNumPref.setOnPreferenceChangeListener(this);
+
+        mUseQuickHomePref = (CheckBoxPreference) prefSet.findPreference(USE_QUICK_RECENT_PREF);
         
         mUseCustomAppPref = (CheckBoxPreference) prefSet.findPreference(USE_CUSTOM_APP_PREF);        
         mSelectCustomAppPref = (Preference) prefSet.findPreference(SELECT_CUSTOM_APP_PREF);
@@ -71,6 +75,7 @@ public class LongPressHomeActivity extends PreferenceActivity
     @Override
     public void onResume() {
         super.onResume();
+        mUseQuickHomePref.setChecked(Settings.System.getInt(getContentResolver(), Settings.System.USE_QUICK_RECENT, 0) == 1);
         mUseCustomAppPref.setChecked(Settings.System.getInt(getContentResolver(), Settings.System.USE_CUSTOM_APP, 0) == 1);
 
         String value = Settings.System.getString(getContentResolver(), Settings.System.SELECTED_CUSTOM_APP);
@@ -96,7 +101,9 @@ public class LongPressHomeActivity extends PreferenceActivity
 
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-        if (preference == mUseCustomAppPref) {
+        if (preference == mUseQuickHomePref) {
+            Settings.System.putInt(getContentResolver(), Settings.System.USE_QUICK_RECENT, mUseQuickHomePref.isChecked() ? 1 : 0);
+        } else if (preference == mUseCustomAppPref) {
             Settings.System.putInt(getContentResolver(), Settings.System.USE_CUSTOM_APP, mUseCustomAppPref.isChecked() ? 1 : 0);
             if (mUseCustomAppPref.isChecked()){
                 mShowRecentAppsTitlePref.setChecked(false);

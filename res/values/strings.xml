@@ -330,6 +330,8 @@
     <string name="recent_apps_num_title">Number of recent apps</string>
     <string name="recent_apps_num_summary">Number of recent apps to display on long press home</string>
     <string name="dialog_recent_apps_num_title">Specify number of recent apps</string>
+    <string name="use_quick_recent_title">Quick home button</string>
+    <string name="use_quick_recent_summary">Show recent apps without waiting for a long press</string>
     <string name="use_custom_app_title">Use custom application</string>
     <string name="use_custom_app_summary">Use custom application instead of the recent applications dialog</string>
     <string name="select_custom_app_title">Select custom application</string>

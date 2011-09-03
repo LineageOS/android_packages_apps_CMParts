@@ -12,12 +12,19 @@
         android:entries="@array/entries_recent_apps_num"
         android:entryValues="@array/entries_recent_apps_num"
         android:dialogTitle="@string/dialog_recent_apps_num_title" />
+
+    <CheckBoxPreference
+        android:key="pref_use_quick_recent"
+        android:title="@string/use_quick_recent_title"
+        android:summary="@string/use_quick_recent_summary"
+        android:disableDependentsState="true" />
        
     <CheckBoxPreference
         android:key="pref_use_custom_app"
         android:title="@string/use_custom_app_title"
         android:summary="@string/use_custom_app_summary"
-        android:disableDependentsState="false" />
+        android:disableDependentsState="false"
+        android:dependency="pref_use_quick_recent" />
         
     <Preference
         android:key="pref_select_custom_app"
