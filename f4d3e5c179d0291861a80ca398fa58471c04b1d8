@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3//+Yw\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenWidgetsActivity.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 814
+      },
+      "writtenOn": "2011-09-03T15:09:20Z",
+      "side": 1,
+      "message": "getting an error:\n\npackages/apps/CMParts/src/com/cyanogenmod/cmparts/activities/LockscreenWidgetsActivity.java:154: cannot find symbol\nsymbol  : variable LOCKSCREEN_WIDGETS_LAYOUT\nlocation: class android.provider.Settings.System\n            Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_WIDGETS_LAYOUT, val);",
+      "revId": "f4d3e5c179d0291861a80ca398fa58471c04b1d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
