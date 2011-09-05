@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3//+Sk\u003d",
+        "filename": "res/values/config.xml",
+        "patchSetId": 21
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-05T11:44:39Z",
+      "side": 1,
+      "message": "Please also remove that bool, it serves no purpose now.",
+      "revId": "12adbd867f1c9ac1982501d381ede7bd9925de08",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
