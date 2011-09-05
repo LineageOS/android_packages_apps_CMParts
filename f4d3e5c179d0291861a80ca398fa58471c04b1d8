@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAH3//+TM\u003d",
+        "filename": "res/xml/lockscreen_widgets_settings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1657
+      },
+      "writtenOn": "2011-09-05T08:39:26Z",
+      "side": 1,
+      "message": "This should be changed to \"pref_lockscreen_widgets_layout_title\" you shouldn\u0027t have the music headset title come up it looks like this and is out of place\n\nhttp://i53.tinypic.com/103vjba.png",
+      "revId": "f4d3e5c179d0291861a80ca398fa58471c04b1d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAH3//+Yw\u003d",
         "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenWidgetsActivity.java",
         "patchSetId": 4
