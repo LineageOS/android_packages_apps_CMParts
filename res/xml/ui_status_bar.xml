@@ -31,6 +31,10 @@
 			android:title="@string/ui_status_bar_toggle_brightness"
 			android:summary="@string/ui_status_bar_toggle_brightness_summary"
 			android:defaultValue="falses" />
+		<CheckBoxPreference android:key="pref_status_bar_headset"
+			android:title="@string/ui_status_bar_headset_title"
+			android:summary="@string/ui_status_bar_headset_summary"
+			android:defaultValue="true" />
 	</PreferenceCategory>
 
 </PreferenceScreen>
