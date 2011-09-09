@@ -189,7 +189,8 @@
     <string name="trackball_category_remove_summary">Rimuovi una categoria dalla lista</string>
     <string name="trackball_reset_all">Ripristina le app e le categorie</string>
     <string name="trackball_color_notice_title">NOTA:</string>
-    <string name="trackball_color_notice_summary">Alcuni dispositivi non sono in grado di visualizzare tutti i colori disponibili.</string><string name="trackball_category_unconfigured">Non configurate</string>
+    <string name="trackball_color_notice_summary">Alcuni dispositivi non sono in grado di visualizzare tutti i colori disponibili.</string>
+    <string name="trackball_category_unconfigured">Non configurate</string>
     <string name="trackball_category_misc">Varie</string>
     <string name="trackball_app_save_title">Salva</string>
     <string name="trackball_app_save_summary">Salva le impostazioni per questa applicazione</string>
@@ -313,6 +314,9 @@
     <string name="pref_input_custom_search_app_activity_title">Applicazione personalizzata</string>
     <string name="pref_input_custom_long_search_app_toggle_title">Long-press tasto cerca</string>
     <string name="pref_input_custom_long_search_app_toggle_summary">Avvia un\'applicazione personalizzata alla pressione prolungata del tasto cerca</string>
+
+    <string name="pref_backtrack_title">BackTrack Minipad</string>
+    <string name="pref_backtrack_summary">Attiva/disattiva BackTrack Minipad</string>
 
     <!-- Long Press Menu -->
     <string name="long_press_menu_title">Long-press tasto menu</string>
