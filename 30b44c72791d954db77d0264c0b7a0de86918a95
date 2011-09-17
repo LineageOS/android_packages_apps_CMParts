@@ -34,6 +34,24 @@
       "revId": "30b44c72791d954db77d0264c0b7a0de86918a95",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//9go\u003d",
+        "filename": "res/xml/lockscreen_widgets_settings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2011-09-17T19:54:00Z",
+      "side": 1,
+      "message": "oh,I got it :)",
+      "parentUuid": "AAAAH3//9g0\u003d",
+      "revId": "30b44c72791d954db77d0264c0b7a0de86918a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
