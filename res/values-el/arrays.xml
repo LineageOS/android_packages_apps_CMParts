@@ -50,7 +50,7 @@
         <item>1s</item>
         <item>5s</item>
         <item>10s</item>
-        <item>15s</item>  
+        <item>15s</item>
         <item>30s</item>
         <item>1m</item>
         <item>5m</item>
@@ -98,8 +98,8 @@
     </string-array>
 
     <string-array name="entries_network_widget">
-        <item>2G/3G+2G</item>  
-        <item>2G/3G Μόνο</item>   
+        <item>2G/3G+2G</item>
+        <item>2G/3G Μόνο</item>
         <item>2G/3G Μόνο/3G+2G</item>
     </string-array>
 
