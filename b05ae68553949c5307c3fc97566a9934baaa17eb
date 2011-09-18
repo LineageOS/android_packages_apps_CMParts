@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3//9d4\u003d",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-18T15:50:50Z",
+      "side": 1,
+      "message": "That\u0027s wrong. entries_heapsize is used as both entries and entryValues (see performance_settings.xml). As the format of the entryValues needs to be kept, you additionally need to copy the list to values_heapsize with translatable\u003d\"false\".",
+      "revId": "b05ae68553949c5307c3fc97566a9934baaa17eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
