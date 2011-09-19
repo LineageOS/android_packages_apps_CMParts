@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAH3//9Wo\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-19T23:30:07Z",
+      "side": 1,
+      "message": "Mit einer Proportionalschrift macht das kaum was aus, da \"i\", \"l\", vielleicht auch noch \"r\" mit Kerning, schmaler sind als \"o\", \"c\", \"k\". Auch wenn es mehr Buchstaben sind.\n\nDas Problem mit dem Lockscreen ist aber noch, daß wir einerseits den Sperrbildschirm haben (die Tastensperre, quasi) und die Sicherheitssperre, wo man das Muster zeichnen muß oder die PIN eingeben. Die hieße im Englischen \"security lock screen\" oder sowas, und das _ist_ zu lang.\n\nMal davon ab: Wie Du z.B. an \"Headset\", weiter unten \"Governor\" und bestimmt noch ein paar weiteren siehst, versuche ich ja nicht, *zwanghaft* alles auch nur irgendwie ins Deutsche zu übersetzen, sondern versuche, das verständlich zu machen. Die AOSP Styleguides sagen, IMHO zurecht, (zwar für Code, aber das paßt hier ja auch) \"if in doubt be consistent with the code around you\". Und da es überall \"Bildschirm sperren\" und nicht \"Screen locken\" heißt, sehe ich auch nicht unbedingt die Notwendigkeit, da jetzt \"Lockscreen\" zu nehmen. Ich laß mich aber durchaus überzeugen. ;-)",
+      "parentUuid": "AAAAH3//9XU\u003d",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAH3//9XM\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2011-09-19T23:05:40Z",
       "side": 1,
       "message": "Es weiß doch jeder, was eine App ist, und App ist kürzer.",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//9Wk\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-19T23:30:07Z",
+      "side": 1,
+      "message": "Es heißt aber durchgängig \"Anwendungen\" (vgl. z. B. \"Anwendungen verwalten\" - nicht: \"Apps verwalten\"). \"Apps\" klingt außerdem IMHO nach Eifon (Tethering auch, aber da gibt\u0027s ja kein schönes, griffiges Wort). Außerdem ist im Original auch von \"Applications\" die Rede und nicht von \"Apps\" - *wenn*, dann würde ich erst abwarten, bis in der Ausgangssprache auch (durchgehend) von Apps die Rede ist. Mit \"AppStore\" und diesem ganzen Klimbim ist das IMHO nicht mehr synonym mit \"Application\"/\"Anwendung\".\n\n[Leider bricht Google im neuen Market mit der Tradition und schreibt da \"Meine Apps\". Aber Google-Apps !\u003d AOSP, und außerdem ein anderes Thema.]",
+      "parentUuid": "AAAAH3//9XM\u003d",
       "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
