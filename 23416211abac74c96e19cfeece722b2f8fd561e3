@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3//9Zc\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-19T20:35:56Z",
+      "side": 1,
+      "message": "Da alles, was mit Musik zu tun hat, jetzt ohnehin eine eigene PreferenceGroup hat, fände ich hier \u0027Kopfhörermodus\u0027 o.Ä. besser.",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//9ZY\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-19T20:35:56Z",
+      "side": 1,
+      "message": "Wie oben, \u0027Immer anzeigen\u0027 war eigentlich besser.",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//9ZQ\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-19T20:35:56Z",
+      "side": 1,
+      "message": "Ich würde hier eher \u0027Anwend.-Icon\u0027 nehmen ... \u0027verwenden steht ja auch in der Summary.",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//9ZM\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 404,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-19T20:35:56Z",
+      "side": 1,
+      "message": "Äh, was?",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//9ZI\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 461,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-19T20:35:56Z",
+      "side": 1,
+      "message": "\u0027Kalibr.\u0027?",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//9ZE\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 515,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-19T20:35:56Z",
+      "side": 1,
+      "message": "Hier wäre u2009 glaub ich auch ganz gut (weniger Platzverbrauch).",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
