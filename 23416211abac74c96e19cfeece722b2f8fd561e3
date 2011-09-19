@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAH3//9XU\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1309
+      },
+      "writtenOn": "2011-09-19T23:05:40Z",
+      "side": 1,
+      "message": "Muss Lockscreen echt übersetzt werden? Das ist so schön kurz.",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//9XM\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1309
+      },
+      "writtenOn": "2011-09-19T23:05:40Z",
+      "side": 1,
+      "message": "Es weiß doch jeder, was eine App ist, und App ist kürzer.",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAH3//9Zc\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 3
