@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAH3//9Xc\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-19T23:05:28Z",
+      "side": 1,
+      "message": "Klingt gut. Ich wollte nur das Wort \u0027Musiksteuerung\u0027 da raus haben, weil es nur Platz wegnimmt (ist ja redundant auf Grund des Titels).",
+      "parentUuid": "AAAAH3//9YI\u003d",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAH3//9ZY\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 3
@@ -142,6 +160,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAH3//9XQ\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 404,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-19T23:05:28Z",
+      "side": 1,
+      "message": "Ok, alles klar. Ich stimme zu, dass \u0027Drachen voraus\u0027 auch nicht viel klarer war. Sah halt eher noch nach Deutsch aus ;)\nVielleicht findet sich ja auch noch ein netter Satz in Deutsch, a la \u0027Sie verlassen jetzt gesichertes Gelände\u0027 oder so.\n\nLinks (z.B. http://www.bgs13-coburg1959.de/Kapp/media/Grenzschild.jpg) funktionieren ja leider nicht ;)",
+      "parentUuid": "AAAAH3//9YU\u003d",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAH3//9ZI\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 3
@@ -206,6 +242,24 @@
       "side": 1,
       "message": "Ich hab die Leerzeichen eigentlich nur um die Schrägstriche gemacht, weil ich die bei entries_brightness_widget hinmachen mußte (das sah sonst so gequetscht aus) und es dann einheitlich ist. Vielleicht kann man (also generell, auch für die anderen Aufzählungen dieser Art) statt eines Schrägstrichs einfach Komma oder Semikolon setzen? Ich hab alle vier Varianten mal durchprobiert, ich werd mit keiner so *richtig* zufrieden. :-(\n\nMir isses gleich. Schlag\u0027s vor, dann änder ich\u0027s. :-)",
       "parentUuid": "AAAAH3//9ZE\u003d",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//9XE\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 515,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-19T23:05:28Z",
+      "side": 1,
+      "message": "Naja, die Schrägstriche sind IMO schon richtig. Mit Komma oder Semikolon kommt die Tatsache, dass man da durchschaltet, IMO nicht so raus.\nWenn es hinpasst, kann es ja auch so bleiben.",
+      "parentUuid": "AAAAH3//9YA\u003d",
       "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
