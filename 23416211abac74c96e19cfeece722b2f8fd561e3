@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAH3//9YI\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-19T22:56:33Z",
+      "side": 1,
+      "message": "Hmmm... \"Kopfhörermodus\" klingt eher nach dem Modus des Kopfhörers und nicht, als könnte man da auswählen, daß die Musiksteuerung aktiv sein soll, wenn Kopfhörer angeschlossen sind. Außerdem sollte es ja auch halbwegs konsistent zu pref_lockscreen_always_music_controls_title sein.\n\nVielleicht \"Aktivierung durch/bei/mit Headset\"? (Ich würde übrigens Headset lassen - spart a) Platz und b) wird es auch in Settings.apk so verwendet (wenn auch nur an einer Stelle))",
+      "parentUuid": "AAAAH3//9Zc\u003d",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAH3//9ZY\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2011-09-19T20:35:56Z",
       "side": 1,
       "message": "Wie oben, \u0027Immer anzeigen\u0027 war eigentlich besser.",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//9YM\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-19T22:56:33Z",
+      "side": 1,
+      "message": "So gesehen, ja, stimmt...",
+      "parentUuid": "AAAAH3//9ZY\u003d",
       "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAH3//9YQ\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-19T22:56:33Z",
+      "side": 1,
+      "message": "Ok.",
+      "parentUuid": "AAAAH3//9ZQ\u003d",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAH3//9ZM\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2011-09-19T20:35:56Z",
       "side": 1,
       "message": "Äh, was?",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//9YU\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 404,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-19T22:56:33Z",
+      "side": 1,
+      "message": ":-)\n\nIm Original stand da \"Dragons ahead\" - ich vermute stark, das soll eine Abwandlung von \"Here be dragons\" (https://secure.wikimedia.org/wikipedia/en/wiki/Here_be_dragons) sein. Im Deutschen haben wir meines Wissens nach so eine Redewendung nicht, die verbreitetere Version dürfte statt \"Here be dragons\" das lateinische \"Hic sunt dracones\" sein (weswegen wohl auch das Wikipedia-Lemma so heißt: https://secure.wikimedia.org/wikipedia/de/wiki/Hic_sunt_dracones). Lateinische Minuskeln sehen auf einem serifenlosen Font aber IMHO ziemlich bescheiden aus, weswegen ich die \"Inschriften-Form\" (s/i//g; tr/uU/vV/;) verwendet habe.\n\nKann ja auch eine kleine Knobelaufgabe für den Leser sein, der sich in die Untiefen von Performance Settings vorwagt. Weniger aussagen als \"Drachen voraus\" tut es alleinstehend meiner Meinung nicht unbedingt; und der Erklärungstext ist ja auch drunter. Ist halt ein kleiner Fnord :-).\n\nIch häng\u0027 aber auch nicht dran. Wäre so halt eher ein Gimmick statt eines verlorengegangenen Witzes...",
+      "parentUuid": "AAAAH3//9ZM\u003d",
       "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAH3//9YE\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 461,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-19T22:56:33Z",
+      "side": 1,
+      "message": "Hm, ja, dürfte passen, wenn \"Kal. rötl.\" hinpaßt.",
+      "parentUuid": "AAAAH3//9ZI\u003d",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAH3//9ZE\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 3
@@ -98,6 +188,24 @@
       "writtenOn": "2011-09-19T20:35:56Z",
       "side": 1,
       "message": "Hier wäre u2009 glaub ich auch ganz gut (weniger Platzverbrauch).",
+      "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//9YA\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 515,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-19T22:56:33Z",
+      "side": 1,
+      "message": "Ich hab die Leerzeichen eigentlich nur um die Schrägstriche gemacht, weil ich die bei entries_brightness_widget hinmachen mußte (das sah sonst so gequetscht aus) und es dann einheitlich ist. Vielleicht kann man (also generell, auch für die anderen Aufzählungen dieser Art) statt eines Schrägstrichs einfach Komma oder Semikolon setzen? Ich hab alle vier Varianten mal durchprobiert, ich werd mit keiner so *richtig* zufrieden. :-(\n\nMir isses gleich. Schlag\u0027s vor, dann änder ich\u0027s. :-)",
+      "parentUuid": "AAAAH3//9ZE\u003d",
       "revId": "23416211abac74c96e19cfeece722b2f8fd561e3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
