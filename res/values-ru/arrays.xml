@@ -170,13 +170,15 @@
         <item>Вращение</item>
         <item>Вращение (новый)</item>
         <item>Линза</item>
+        <item>Кольцa</item>
     </string-array>
 
     <string-array name="pref_in_call_style_entries">
-	<item>Ползунок</item>
-	<item>Вращение</item>
-	<item>Вращение (новый)</item>
-</string-array>
+        <item>Ползунок</item>
+        <item>Вращение</item>
+        <item>Вращение (новый)</item>
+        <item>Кольцa</item>
+    </string-array>
 
     <string-array name="pref_overscroll_effect_entries">
         <item>Нет</item>
