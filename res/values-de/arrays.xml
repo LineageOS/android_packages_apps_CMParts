@@ -198,12 +198,14 @@
     <item>Rotierende Tabs</item>
     <item>Rotierend umgestaltet</item>
     <item>Lense</item>
+    <item>Ring</item>
   </string-array>
 
   <string-array name="pref_in_call_style_entries">
     <item>Tabs zum Schieben</item>
     <item>Rotierende Tabs</item>
     <item>Rotierend umgestaltet</item>
+    <item>Ring</item>
   </string-array>
 
   <string-array name="pref_lockscreen_background_entries">
