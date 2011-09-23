@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAIX///8k\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1739
+      },
+      "writtenOn": "2011-09-23T05:12:08Z",
+      "side": 1,
+      "message": "In dieser Einstellungs-Sektion gibt es keine Helligkeitssteuerung.  Lediglich Ein- und Ausschalt-Animation sowie Ausrichtung. (Auch keine timeouts),",
+      "revId": "5ce69195b6451fbbda4611363df7fd9399be5285",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAIX///8c\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1739
+      },
+      "writtenOn": "2011-09-23T05:12:08Z",
+      "side": 1,
+      "message": "Ich würde Eingabeverhalten entfernen. Tasten und Haptisches Feedback reicht.",
+      "revId": "5ce69195b6451fbbda4611363df7fd9399be5285",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAIX///8g\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1739
+      },
+      "writtenOn": "2011-09-23T05:12:08Z",
+      "side": 1,
+      "message": "es handelt sich hier nur um LED-Benachrichtigungen. Dies noch ergänzen?",
+      "revId": "5ce69195b6451fbbda4611363df7fd9399be5285",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
