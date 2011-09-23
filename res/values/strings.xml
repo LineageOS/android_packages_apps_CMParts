@@ -9,7 +9,8 @@
     <string name="application_settings_summary_head">Application moving, install location, communication filtering</string>
     <string name="display_settings_title_head">Display</string>
     <string name="display_settings_title_subhead">Display settings</string>
-    <string name="display_settings_summary_head">Display animations, rotation, timeouts</string>
+    <string name="display_settings_summary_head">Display backlight, animations, rotation</string>
+    <string name="display_settings_summary_head_nobacklight">Display animations, rotation</string>
     <string name="input_settings_title_head">Input</string>
     <string name="input_settings_title_subhead">Input settings</string>
     <string name="input_settings_summary_head">Input behavior, buttons, haptic feedback</string>
