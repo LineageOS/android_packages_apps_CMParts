@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAIX///5M\u003d",
+        "filename": "res/values-sv/arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1362
+      },
+      "writtenOn": "2011-09-23T14:40:26Z",
+      "side": 1,
+      "message": "\"Ringen\" translates to \"The ring\". Just \"Ring\" will be fine for the swedish translation.",
+      "revId": "bca255420d983c7b4cf28205b0732bdf36f1a52c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAIX///5I\u003d",
+        "filename": "res/values-sv/arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1362
+      },
+      "writtenOn": "2011-09-23T14:40:26Z",
+      "side": 1,
+      "message": "Same thing here. Just \"Ring\" will be fine.",
+      "revId": "bca255420d983c7b4cf28205b0732bdf36f1a52c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAIX///6U\u003d",
         "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
         "patchSetId": 3
