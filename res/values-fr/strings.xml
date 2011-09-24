@@ -192,7 +192,6 @@
     <string name="notification_battery_warning_title">ATTENTION : Peut vider votre batterie</string>
     <string name="notification_battery_warning">Il a été prouvé que cette option accentue l\'utilisation de la batterie d\'environ 3% par heure. Si vous constatez ce phénomène, c\'est certainement cette option qui en est la cause directe. N\'activez cette option uniquement en connaissance de cause !</string>
 
-
     <!-- Lockscreen Overview -->
     <string name="pref_lockscreen_stylecfg_title">Options principales</string>
     <string name="pref_lockscreen_stylecfg_summary">Configurer l\'apparence de l\'écran de verrouillage et les réglages correspondants</string>
@@ -208,10 +207,12 @@
     <!-- Lockscreen Settings -->
     <string name="pref_lockscreen_always_battery_title">Etat de la batterie</string>
     <string name="pref_lockscreen_always_battery_summary">Afficher l\'état de la batterie sur l\'écran de verrouillage, à tout moment</string>
+    <string name="pref_lockscreen_widgets_layout_title">Position</string>
+    <string name="pref_lockscreen_widgets_layout_summary">Position des libellés opérateur, heure, date et état</string>
     <string name="pref_lockscreen_now_playing_title">Nom de la chanson</string>
     <string name="pref_lockscreen_now_playing_summary">Affiche le nom et l\'artiste du morceau en cours de lecture</string>
     <string name="pref_lockscreen_album_art_title">Pochette des albums</string>
-    <string name="pref_lockscreen_album_art_summary">Afficher la pochette de l\'album du morceau en cours. Fonctionne uniquement avec le lecteur de musique original en mode portrait</string>
+    <string name="pref_lockscreen_album_art_summary">Afficher la pochette de l\'album en cours. Fonctionne uniquement avec le lecteur de musique original en mode portrait</string>
     <string name="pref_lockscreen_music_headset_title">Contrôle de la musique</string>
     <string name="pref_lockscreen_music_headset_summary">Afficher les contrôles pour la musique quand un casque est branché (et/ou Bluetooth A2DP)</string>
     <string name="pref_lockscreen_custom_app_activity_title">Sélectionner l\'application</string>
@@ -251,6 +252,15 @@
     <string name="pref_lockscreen_background_result_not_successful">Fond d\'écran non modifié</string>
     <string name="pref_lockscreen_disable_on_security_title">Inactif si sécurisé</string>
     <string name="pref_lockscreen_disable_on_security_summary">Désactive l\'écran de verrouillage si l\'écran de sécurité est activé (Code PIN, Mot de passe)</string>
+    <string name="lockscreen_calendar_title">Calendrier</string>
+    <string name="pref_lockscreen_calendar_alarm_title">Evénements à venir</string>
+    <string name="pref_lockscreen_calendar_alarm_summary">Afficher l\'heure et le titre du prochain événement</string>
+    <string name="pref_lockscreen_calendars_title">Agendas</string>
+    <string name="pref_lockscreen_calendars_summary">Sélectionner les agendas à prendre en compte</string>
+    <string name="pref_lockscreen_calendar_reminders_only_title">Rappels uniquement</string>
+    <string name="pref_lockscreen_calendar_reminders_only_summary">N\'afficher que les événements avec rappel (alarme)</string>
+    <string name="pref_lockscreen_calendar_lookahead_title">Période</string>
+    <string name="pref_lockscreen_calendar_lookahead_summary">Plage de recherche des événements à prendre en compte</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Paramètres des entrées</string>
