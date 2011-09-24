@@ -13,11 +13,12 @@
         <CheckBoxPreference android:key="lockscreen_always_battery"
             android:title="@string/pref_lockscreen_always_battery_title"
             android:summary="@string/pref_lockscreen_always_battery_summary" />
-
+        <CheckBoxPreference android:key="lockscreen_calendar_alarm"
+            android:title="@string/pref_lockscreen_calendar_alarm_title"
+            android:summary="@string/pref_lockscreen_calendar_alarm_summary" />
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/lockscreen_music_title">
-
         <CheckBoxPreference android:key="lockscreen_music_controls"
             android:title="@string/pref_lockscreen_music_controls_title"
             android:summary="@string/pref_lockscreen_music_controls_summary" />

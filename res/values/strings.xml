@@ -300,6 +300,8 @@
     <string name="pref_cambtn_music_controls_summary">Toggle play/pause when long-pressing the camera button while screen off</string>
     <string name="lockscreen_widgets_note_title">Note</string>
     <string name="lockscreen_widgets_note_summary">Choosing minimalistic lense style hides all widgets except music control. Yet below options are not unset to allow easy switching to other styles</string>
+    <string name="pref_lockscreen_calendar_alarm_title">Display next calandar reminder</string>
+    <string name="pref_lockscreen_calendar_alarm_summary">Display the time and title of the next calendar event in 24 hours that has a reminder</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Input settings</string>
