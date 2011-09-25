@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAI3////g\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 498,
+      "author": {
+        "id": 27
+      },
+      "writtenOn": "2011-09-25T02:49:12Z",
+      "side": 1,
+      "message": "Needs to also include this lockscreen type to hide the rotary arrow toggle.",
+      "revId": "5e5d3e1a87dcc12578d940fc72d48f735fde8414",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
