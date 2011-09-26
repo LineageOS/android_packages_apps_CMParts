@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAI3///0U\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-26T01:12:03Z",
+      "side": 1,
+      "message": "Fiel mir keine schicke ein, ich hab\u0027s daher so gelassen. Ich bin aber frei für Vorschläge, mir gefällt das so auch nur mäßig. :-)",
+      "parentUuid": "AAAAI3///2w\u003d",
+      "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAI3///2s\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 8
@@ -30,6 +48,24 @@
       "writtenOn": "2011-09-26T00:17:01Z",
       "side": 1,
       "message": "\"Die Option ist aktiv aber ausgeblendet\" wiederspricht sich doch.\nVorschlag: Beim Stil \"Linse\" wird nur das Musiksteuerung-Widget eingeblendet. (oder ähnlich)",
+      "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAI3///0I\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-26T01:12:03Z",
+      "side": 1,
+      "message": "Jein, eigentlich soll es aussagen \"... die Optionen bleiben dennoch aktiv, damit man leichter zwischen den Stilen umschalten kann\". Ist aber zu lang. Vielleicht \"Beim Stil „Linse“ wird nur das Musiksteuerungs-Widget eingeblendet und die folgenden Optionen ignoriert\"?",
+      "parentUuid": "AAAAI3///2s\u003d",
       "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAI3///0E\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 545,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-26T01:12:03Z",
+      "side": 1,
+      "message": "\"Dimmen\" klingt nach 90er-Wohnzimmerlampe. :-) Abgedunkelt war IIRC zu lang... daher \"Dunkler\". Weiß nicht...",
+      "parentUuid": "AAAAI3///18\u003d",
+      "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAI3///1g\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 8
@@ -70,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAI3///0A\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-26T01:12:03Z",
+      "side": 1,
+      "message": "Wieder das Problem: Zu lang :-(",
+      "parentUuid": "AAAAI3///1g\u003d",
+      "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAI3///1Y\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 8
@@ -81,6 +153,24 @@
       "writtenOn": "2011-09-26T00:17:01Z",
       "side": 1,
       "message": "beim",
+      "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAI3///z8\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-26T01:12:03Z",
+      "side": 1,
+      "message": "Ack, merci.",
+      "parentUuid": "AAAAI3///1Y\u003d",
       "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
