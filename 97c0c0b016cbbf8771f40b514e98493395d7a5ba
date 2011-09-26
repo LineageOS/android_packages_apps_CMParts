@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAI3///2w\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1739
+      },
+      "writtenOn": "2011-09-26T00:17:01Z",
+      "side": 1,
+      "message": "Übersetzung für Pinch?",
+      "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAI3///2s\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 1739
+      },
+      "writtenOn": "2011-09-26T00:17:01Z",
+      "side": 1,
+      "message": "\"Die Option ist aktiv aber ausgeblendet\" wiederspricht sich doch.\nVorschlag: Beim Stil \"Linse\" wird nur das Musiksteuerung-Widget eingeblendet. (oder ähnlich)",
+      "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAI3///18\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 545,
+      "author": {
+        "id": 1739
+      },
+      "writtenOn": "2011-09-26T00:17:01Z",
+      "side": 1,
+      "message": "Vorschlag: Gedimmter Display\noder\n\"Abgedunkelter\" (wie unten)\n\nfalls Gedimmt statt Abgedunkelt bevorzugt wird, 4 weitere Änderungen unten (Dimmen statt Abdunkeln)",
+      "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAI3///1g\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 1739
+      },
+      "writtenOn": "2011-09-26T00:17:01Z",
+      "side": 1,
+      "message": "nicht eher \"während Gespräch\" ?",
+      "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAI3///1Y\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 1739
+      },
+      "writtenOn": "2011-09-26T00:17:01Z",
+      "side": 1,
+      "message": "beim",
+      "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
