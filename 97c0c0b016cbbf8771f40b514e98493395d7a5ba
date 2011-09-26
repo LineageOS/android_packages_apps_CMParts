@@ -90,6 +90,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAI3///zc\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-26T01:32:43Z",
+      "side": 1,
+      "message": "s/restlichen/anderen/? Sonst d\u0027accord.",
+      "parentUuid": "AAAAI3///z0\u003d",
+      "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAI3///18\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 8
@@ -137,6 +155,24 @@
       "side": 1,
       "message": "Dimmen ist für mich der perfekte Ausdruck. Wird ja auch im Englischen genauso verwendet, und nicht \"darken\" oder so :)",
       "parentUuid": "AAAAI3///0E\u003d",
+      "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAI3///zU\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 545,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-09-26T01:32:43Z",
+      "side": 1,
+      "message": "Ja, aber das englische Adjektiv \"dim\" gibt es bei uns ja so nicht. \"dim\" ist dunkel, \"to dim\" ist abdunkeln. Im Deutschen ist das Dimmen ja eher die Helligkeitssteuerung per se, meint mein Sprachempfinden...",
+      "parentUuid": "AAAAI3///zw\u003d",
       "revId": "97c0c0b016cbbf8771f40b514e98493395d7a5ba",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
