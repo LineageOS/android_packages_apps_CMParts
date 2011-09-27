@@ -651,6 +651,10 @@
     <string name="sound_vibrate_in_call_title">電話中の振動</string>
     <string name="sound_vibrate_in_call_summary_off">電話中の通知は振動しない</string>
     <string name="sound_vibrate_in_call_summary_on">通知は通常通り振動する</string>
+    <string name="sound_lock_volume_keys_title">音量キーのロック</string>
+    <string name="sound_lock_volume_keys_summary">誤って音量キーを押した時にサイレントモードが解除されないようにする</string>
+    <string name="sound_default_volume_media_title">デフォルトメディア音量</string>
+    <string name="sound_default_volume_media_summary">音量キーで着呼音量のかわりにメディア音量を制御するようにする</string>
     <string name="sound_camera_shutter_disable_title">カメラのシャッター音を消す</string>
     <string name="sound_camera_shutter_disable_summary_on">シャッター音は再生されません</string>
     <string name="sound_camera_shutter_disable_summary_off">シャッター音は再生されます</string>
