@@ -676,6 +676,8 @@
     <string name="sound_volume_key_beeps_title">Volume key beeps</string>
     <string name="sound_volume_key_beeps_summary_off">Do not beep after changing the ringer volume using the volume keys</string>
     <string name="sound_volume_key_beeps_summary_on">Beep after changing the ringer volume using the volume keys</string>
+    <string name="sound_default_volume_media_title">Default volume media</string>
+    <string name="sound_default_volume_media_summary">Make volume control default to media instead of ringer</string>
     <string name="sound_camera_shutter_disable_title">Mute camera shutter</string>
     <string name="sound_camera_shutter_disable_summary_on">Shutter sound will not be played</string>
     <string name="sound_camera_shutter_disable_summary_off">Shutter sound will be played</string>
