@@ -650,6 +650,8 @@
     <string name="sound_camera_shutter_disable_warning">Deshabilitar el sonido de la cámara es ilegal en algunas zonas. ¿Seguro que quieres deshabilitarlo?</string>
     <string name="sound_lock_volume_keys_title">Bloquear botones Volumen</string>
     <string name="sound_lock_volume_keys_summary">Previene un uso accidental del volumen cuando el terminal está en modo silencio</string>
+    <string name="sound_default_volume_media_title">Efecto botones de Volumen</string>
+    <string name="sound_default_volume_media_summary">Los botones de volumen afectarán por defecto a la música en vez de al tono de llamada</string>
     <string name="sound_to_speaker_title">Reproducir siempre en el altavoz</string>
     <string name="sound_notifications_title">Notificaciones</string>
     <string name="sound_rings_title">Tonos de llamada</string>
