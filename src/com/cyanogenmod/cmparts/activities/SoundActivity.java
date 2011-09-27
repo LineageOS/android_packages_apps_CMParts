@@ -57,6 +57,8 @@ public class SoundActivity extends PreferenceActivity implements OnPreferenceCha
 
     private static final String LOCK_VOLUME_KEYS = "lock-volume-keys";
 
+    private static final String DEFAULT_VOLUME_MEDIA = "default-volume-media";
+
     private static final String RINGS_SPEAKER = "ring-speaker";
 
     private static final String RINGS_ATTENUATION = "ring-attn";
@@ -79,6 +81,10 @@ public class SoundActivity extends PreferenceActivity implements OnPreferenceCha
     private static String getKey(String suffix) {
         return PREFIX + suffix;
     }
+
+    private CheckBoxPreference mLockVolumeKeys;
+
+    private CheckBoxPreference mDefaultVolumeMedia;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -108,10 +114,20 @@ public class SoundActivity extends PreferenceActivity implements OnPreferenceCha
                 Settings.System.VIBRATE_IN_CALL, 1) != 0);
         p.setOnPreferenceChangeListener(this);
 
-        p = (CheckBoxPreference) prefSet.findPreference(LOCK_VOLUME_KEYS);
-        p.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.LOCK_VOLUME_KEYS, 0) != 0);
-        p.setOnPreferenceChangeListener(this);
+        int lockVolumeKeys = Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCK_VOLUME_KEYS, 0);
+        mLockVolumeKeys = (CheckBoxPreference) prefSet.findPreference(LOCK_VOLUME_KEYS);
+        mLockVolumeKeys.setChecked(lockVolumeKeys != 0);
+        mLockVolumeKeys.setOnPreferenceChangeListener(this);
+
+        int defaultVolumeMedia = Settings.System.getInt(getContentResolver(),
+                Settings.System.DEFAULT_VOLUME_CONTROL_MEDIA, 0);
+        mDefaultVolumeMedia = (CheckBoxPreference) prefSet.findPreference(DEFAULT_VOLUME_MEDIA);
+        mDefaultVolumeMedia.setChecked(defaultVolumeMedia != 0);
+        mDefaultVolumeMedia.setOnPreferenceChangeListener(this);
+
+        mLockVolumeKeys.setEnabled(defaultVolumeMedia == 0);
+        mDefaultVolumeMedia.setEnabled(lockVolumeKeys == 0);
 
         p = (CheckBoxPreference) prefSet.findPreference(RINGS_SPEAKER);
         p.setChecked(SystemProperties.getBoolean(getKey(RINGS_SPEAKER), false));
@@ -173,8 +189,21 @@ public class SoundActivity extends PreferenceActivity implements OnPreferenceCha
             Settings.System.putInt(getContentResolver(), Settings.System.VIBRATE_IN_CALL,
                     getBoolean(newValue) ? 1 : 0);
         } else if (key.equals(LOCK_VOLUME_KEYS)) {
-            Settings.System.putInt(getContentResolver(), Settings.System.LOCK_VOLUME_KEYS,
-                    getBoolean(newValue) ? 1 : 0);
+            if (getBoolean(newValue)) {
+                Settings.System.putInt(getContentResolver(), Settings.System.LOCK_VOLUME_KEYS, 1);
+                Settings.System.putInt(getContentResolver(), Settings.System.DEFAULT_VOLUME_CONTROL_MEDIA, 0);
+            } else {
+                Settings.System.putInt(getContentResolver(), Settings.System.LOCK_VOLUME_KEYS, 0);
+            }
+            mDefaultVolumeMedia.setEnabled(!getBoolean(newValue));
+        } else if (key.equals(DEFAULT_VOLUME_MEDIA)) {
+            if (getBoolean(newValue)) {
+                Settings.System.putInt(getContentResolver(), Settings.System.DEFAULT_VOLUME_CONTROL_MEDIA, 1);
+                Settings.System.putInt(getContentResolver(), Settings.System.LOCK_VOLUME_KEYS, 0);
+            } else {
+                Settings.System.putInt(getContentResolver(), Settings.System.DEFAULT_VOLUME_CONTROL_MEDIA, 0);
+            }
+            mLockVolumeKeys.setEnabled(!getBoolean(newValue));
         } else if (key.equals(NOTIFICATIONS_SPEAKER) || key.equals(RINGS_SPEAKER)
                 || key.equals(ALARMS_SPEAKER)) {
             SystemProperties.set(getKey(key), getBoolean(newValue) ? "1" : "0");
