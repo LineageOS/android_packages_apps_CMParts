@@ -474,6 +474,8 @@
     <string name="sound_vibrate_in_call_title">Vibrar durante una llamada</string>
     <string name="sound_vibrate_in_call_summary_off">Las notificaciones no vibrarán durante una llamada</string>
     <string name="sound_vibrate_in_call_summary_on">Las notificaciones vibrarán normalmente</string>
+    <string name="sound_default_volume_media_title">Efecto botones de Volumen</string>
+    <string name="sound_default_volume_media_summary">Los botones de volumen afectarán por defecto a la música en vez de al tono de llamada</string>
     <string name="sound_to_speaker_title">Reproducir siempre en el altavoz</string>
     <string name="sound_notifications_title">Notificaciones</string>
     <string name="sound_rings_title">Tonos de llamada</string>
