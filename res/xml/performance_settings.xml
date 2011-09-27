@@ -29,6 +29,10 @@
             android:title="@string/pref_purgeable_assets_title"
             android:summary="@string/pref_purgeable_assets_summary" />
 
+        <CheckBoxPreference android:key="pref_disable_bootanimation"
+            android:title="@string/pref_disable_bootanimation_title"
+            android:summary="@string/pref_disable_bootanimation_summary" />
+
         <CheckBoxPreference android:key="pref_lock_home"
             android:title="@string/pref_lock_home_title"
             android:summary="@string/pref_lock_home_summary" />
