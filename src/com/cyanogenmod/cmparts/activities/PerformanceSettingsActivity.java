@@ -69,6 +69,10 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
     
     private static final String USE_DITHERING_DEFAULT = "1";
 
+    private static final String USE_16BPP_ALPHA_PREF = "pref_use_16bpp_alpha";
+
+    private static final String USE_16BPP_ALPHA_PROP = "persist.sys.use_16bpp_alpha";
+
     private static final String PURGEABLE_ASSETS_PREF = "pref_purgeable_assets";
 
     private static final String PURGEABLE_ASSETS_PERSIST_PROP = "persist.sys.purgeable_assets";
@@ -88,6 +92,8 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
     private CheckBoxPreference mJitPref;
 
     private CheckBoxPreference mUseDitheringPref;
+
+    private CheckBoxPreference mUse16bppAlphaPref;
 
     private CheckBoxPreference mPurgeableAssetsPref;
 
@@ -132,6 +138,10 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
         String useDithering = SystemProperties.get(USE_DITHERING_PERSIST_PROP, USE_DITHERING_DEFAULT);
         mUseDitheringPref.setChecked("1".equals(useDithering));
 
+        mUse16bppAlphaPref = (CheckBoxPreference) prefSet.findPreference(USE_16BPP_ALPHA_PREF);
+        String use16bppAlpha = SystemProperties.get(USE_16BPP_ALPHA_PROP, "0");
+        mUse16bppAlphaPref.setChecked("1".equals(use16bppAlpha));
+
         mPurgeableAssetsPref = (CheckBoxPreference) prefSet.findPreference(PURGEABLE_ASSETS_PREF);
         String purgeableAssets = SystemProperties.get(PURGEABLE_ASSETS_PERSIST_PROP, PURGEABLE_ASSETS_DEFAULT);
         mPurgeableAssetsPref.setChecked("1".equals(purgeableAssets));
@@ -174,6 +184,12 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
         if (preference == mUseDitheringPref) {
             SystemProperties.set(USE_DITHERING_PERSIST_PROP,
                     mUseDitheringPref.isChecked() ? "1" : "0");
+            return true;
+        }
+
+        if (preference == mUse16bppAlphaPref) {
+            SystemProperties.set(USE_16BPP_ALPHA_PROP,
+                    mUse16bppAlphaPref.isChecked() ? "1" : "0");
             return true;
         }
 
