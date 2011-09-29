@@ -495,9 +495,8 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
     private void updateStylePrefs(LockscreenStyle lockscreenStyle, InCallStyle inCallStyle) {
         // slider style & lense style
         if (lockscreenStyle == LockscreenStyle.Slider
-                || lockscreenStyle == LockscreenStyle.Lense
-                || lockscreenStyle == LockscreenStyle.Ring) {
-            if (inCallStyle == InCallStyle.Slider || inCallStyle == InCallStyle.Ring) {
+                || lockscreenStyle == LockscreenStyle.Lense) {
+            if (inCallStyle == InCallStyle.Slider) {
                 mRotaryHideArrowsToggle.setChecked(false);
                 mRotaryHideArrowsToggle.setEnabled(false);
             } else {
@@ -516,6 +515,15 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
                 mRotaryUnlockDownToggle.setEnabled(false);
             }
         // ring style
+        } else if (lockscreenStyle == LockscreenStyle.Ring){
+            mRotaryHideArrowsToggle.setChecked(false);
+            mRotaryHideArrowsToggle.setEnabled(false);
+            if (mCustomAppTogglePref.isChecked() == true) {
+                mRotaryUnlockDownToggle.setEnabled(true);
+            } else {
+                mRotaryUnlockDownToggle.setChecked(false);
+                mRotaryUnlockDownToggle.setEnabled(false);
+            }
         }
 
         // disable custom app starter for lense - would be ugly in above if
