@@ -61,6 +61,8 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
 
     private static final String LOCKSCREEN_ROTARY_HIDE_ARROWS_TOGGLE = "pref_lockscreen_rotary_hide_arrows_toggle";
 
+    private static final String LOCKSCREEN_RING_UNLOCK_MIDDLE_TOGGLE = "pref_lockscreen_ring_unlock_middle_toggle";
+
     private static final String LOCKSCREEN_CUSTOM_ICON_STYLE = "pref_lockscreen_custom_icon_style";
 
     private static final String LOCKSCREEN_CUSTOM_BACKGROUND = "pref_lockscreen_background";
@@ -68,6 +70,8 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
     private CheckBoxPreference mCustomAppTogglePref;
 
     private CheckBoxPreference mRotaryUnlockDownToggle;
+
+    private CheckBoxPreference mRingUnlockMiddleToggle;
 
     private CheckBoxPreference mRotaryHideArrowsToggle;
 
@@ -209,6 +213,11 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         mRotaryUnlockDownToggle.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_ROTARY_UNLOCK_DOWN, 0) == 1);
 
+        mRingUnlockMiddleToggle = (CheckBoxPreference) prefSet
+                .findPreference(LOCKSCREEN_RING_UNLOCK_MIDDLE_TOGGLE);
+        mRingUnlockMiddleToggle.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_RING_UNLOCK_MIDDLE, 0) == 1);
+
         mRotaryHideArrowsToggle = (CheckBoxPreference) prefSet
                 .findPreference(LOCKSCREEN_ROTARY_HIDE_ARROWS_TOGGLE);
         mRotaryHideArrowsToggle.setChecked(Settings.System.getInt(getContentResolver(),
@@ -302,6 +311,11 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
             value = mRotaryUnlockDownToggle.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_ROTARY_UNLOCK_DOWN, value ? 1 : 0);
+            return true;
+        } else if (preference == mRingUnlockMiddleToggle) {
+            value = mRingUnlockMiddleToggle.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_RING_UNLOCK_MIDDLE, value ? 1 : 0);
             return true;
         } else if (preference == mRotaryHideArrowsToggle) {
             value = mRotaryHideArrowsToggle.isChecked();
@@ -495,9 +509,8 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
     private void updateStylePrefs(LockscreenStyle lockscreenStyle, InCallStyle inCallStyle) {
         // slider style & lense style
         if (lockscreenStyle == LockscreenStyle.Slider
-                || lockscreenStyle == LockscreenStyle.Lense
-                || lockscreenStyle == LockscreenStyle.Ring) {
-            if (inCallStyle == InCallStyle.Slider || inCallStyle == InCallStyle.Ring) {
+                || lockscreenStyle == LockscreenStyle.Lense) {
+            if (inCallStyle == InCallStyle.Slider) {
                 mRotaryHideArrowsToggle.setChecked(false);
                 mRotaryHideArrowsToggle.setEnabled(false);
             } else {
@@ -505,6 +518,8 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
             }
             mRotaryUnlockDownToggle.setChecked(false);
             mRotaryUnlockDownToggle.setEnabled(false);
+            mRingUnlockMiddleToggle.setChecked(false);
+            mRingUnlockMiddleToggle.setEnabled(false);
         // rotary and rotary revamped style
         } else if (lockscreenStyle == LockscreenStyle.Rotary
                 || lockscreenStyle == LockscreenStyle.RotaryRevamped) {
@@ -515,7 +530,24 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
                 mRotaryUnlockDownToggle.setChecked(false);
                 mRotaryUnlockDownToggle.setEnabled(false);
             }
+            mRingUnlockMiddleToggle.setChecked(false);
+            mRingUnlockMiddleToggle.setEnabled(false);
         // ring style
+        } else if (lockscreenStyle == LockscreenStyle.Ring){
+            mRotaryUnlockDownToggle.setChecked(false);
+            mRotaryUnlockDownToggle.setEnabled(false);
+            if (inCallStyle == InCallStyle.Rotary) {
+                mRotaryHideArrowsToggle.setEnabled(true);
+            } else {
+                mRotaryHideArrowsToggle.setChecked(false);
+                mRotaryHideArrowsToggle.setEnabled(false);
+            }
+            if (mCustomAppTogglePref.isChecked() == true) {
+                mRingUnlockMiddleToggle.setEnabled(true);
+            } else {
+                mRingUnlockMiddleToggle.setChecked(false);
+                mRingUnlockMiddleToggle.setEnabled(false);
+            }
         }
 
         // disable custom app starter for lense - would be ugly in above if
