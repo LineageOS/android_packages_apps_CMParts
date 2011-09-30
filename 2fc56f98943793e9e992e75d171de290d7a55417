@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAI3//+wo\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenWidgetsActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1502
+      },
+      "writtenOn": "2011-09-30T01:10:05Z",
+      "side": 1,
+      "message": "Was the removal of spaces intentional?",
+      "revId": "2fc56f98943793e9e992e75d171de290d7a55417",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
