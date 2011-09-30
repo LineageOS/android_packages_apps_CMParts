@@ -16,6 +16,24 @@
       "revId": "c976adf94c497f9047ae07f72b463449ef0f40fb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAI3//+vo\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 538,
+      "author": {
+        "id": 1301
+      },
+      "writtenOn": "2011-09-30T04:23:16Z",
+      "side": 1,
+      "message": "i apologize but doing setSummary will crash CMParts as this function is first called before mCustomAppActivityPref in onCreate().\n\nwe will have to either call updateStylePrefs() after mCustomAppActivityPref is assigned in onCreate(), or create and call updateCustomAppActivitySummary() after updateStylePrefs() in onPreferenceChange()",
+      "parentUuid": "AAAAI3//+wc\u003d",
+      "revId": "c976adf94c497f9047ae07f72b463449ef0f40fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
