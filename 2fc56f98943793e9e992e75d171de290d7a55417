@@ -16,6 +16,24 @@
       "revId": "2fc56f98943793e9e992e75d171de290d7a55417",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAI3//+wI\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenWidgetsActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1735
+      },
+      "writtenOn": "2011-09-30T01:40:45Z",
+      "side": 1,
+      "message": "I find it much less dizzying, yes. :)",
+      "parentUuid": "AAAAI3//+wo\u003d",
+      "revId": "2fc56f98943793e9e992e75d171de290d7a55417",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
