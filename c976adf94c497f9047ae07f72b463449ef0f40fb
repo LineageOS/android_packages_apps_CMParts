@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAI3//+wc\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 538,
+      "author": {
+        "id": 1301
+      },
+      "writtenOn": "2011-09-30T01:34:28Z",
+      "side": 1,
+      "message": "here we are missing updating the summary of mCustomAppActivityPref depending on the style, like one in onResume().\nnot a big deal, but would be nice to be fixed.",
+      "revId": "c976adf94c497f9047ae07f72b463449ef0f40fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
