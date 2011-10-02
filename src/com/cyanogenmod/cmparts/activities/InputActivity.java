@@ -38,6 +38,8 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
 
     private static final String VOLUME_WAKE_PREF = "pref_volume_wake";
 
+    private static final String FRONTKEYS_WAKE_PREF = "pref_frontkeys_wake";
+
     private static final String VOLBTN_MUSIC_CTRL_PREF = "pref_volbtn_music_controls";
 
     private static final String CAMBTN_MUSIC_CTRL_PREF = "pref_cambtn_music_controls";
@@ -61,6 +63,8 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
     private CheckBoxPreference mTrackballWakePref;
 
     private CheckBoxPreference mVolumeWakePref;
+
+    private CheckBoxPreference mFrontKeysWakePref;
 
     private CheckBoxPreference mVolBtnMusicCtrlPref;
 
@@ -100,6 +104,11 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
         mVolumeWakePref = (CheckBoxPreference) prefSet.findPreference(VOLUME_WAKE_PREF);
         mVolumeWakePref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.VOLUME_WAKE_SCREEN, 0) == 1);
+
+        /* Front Keys Wake */
+        mFrontKeysWakePref = (CheckBoxPreference) prefSet.findPreference(FRONTKEYS_WAKE_PREF);
+        mFrontKeysWakePref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.FRONTKEYS_WAKE_SCREEN, 0) == 1);
 
         /* Volume button music controls */
         mVolBtnMusicCtrlPref = (CheckBoxPreference) prefSet.findPreference(VOLBTN_MUSIC_CTRL_PREF);
@@ -186,6 +195,11 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
         } else if (preference == mVolumeWakePref) {
             value = mVolumeWakePref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.VOLUME_WAKE_SCREEN,
+                    value ? 1 : 0);
+            return true;
+        } else if (preference == mFrontKeysWakePref) {
+            value = mFrontKeysWakePref.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.FRONTKEYS_WAKE_SCREEN,
                     value ? 1 : 0);
             return true;
         } else if (preference == mVolBtnMusicCtrlPref) {
