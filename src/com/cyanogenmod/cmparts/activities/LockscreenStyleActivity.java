@@ -224,10 +224,11 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         mCustomIconStyle.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_CUSTOM_ICON_STYLE, 1) == 2);
 
-        updateStylePrefs(mLockscreenStyle, mInCallStyle);
-
         mCustomAppActivityPref = prefSet
                 .findPreference(LOCKSCREEN_CUSTOM_APP_ACTIVITY);
+
+        updateStylePrefs(mLockscreenStyle, mInCallStyle);
+        updateCustomAppActivitySummary();
 
         mCustomBackground = (ListPreference) prefSet
                 .findPreference(LOCKSCREEN_CUSTOM_BACKGROUND);
@@ -252,9 +253,7 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         mCustomBackground.setSummary(getResources().getString(resId));
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
+    private void updateCustomAppActivitySummary() {
         if (mLockscreenStyle == LockscreenStyle.Ring) {
             mCustomAppActivityPref.setSummary(getCustomRingAppSummary());
         } else {
@@ -262,6 +261,12 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
                     Settings.System.LOCKSCREEN_CUSTOM_APP_ACTIVITY);
             mCustomAppActivityPref.setSummary(mPicker.getFriendlyNameForUri(value));
         }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        updateCustomAppActivitySummary();
     }
 
     @Override
@@ -416,6 +421,7 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
             Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_STYLE_PREF,
                     LockscreenStyle.getIdByStyle(mLockscreenStyle));
             updateStylePrefs(mLockscreenStyle, mInCallStyle);
+            updateCustomAppActivitySummary();
             return true;
         }
         if (preference == mInCallStylePref) {
@@ -493,7 +499,7 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
     }
 
     private void updateStylePrefs(LockscreenStyle lockscreenStyle, InCallStyle inCallStyle) {
-        // slider style & lense style
+        // slider style & lense style & ring
         if (lockscreenStyle == LockscreenStyle.Slider
                 || lockscreenStyle == LockscreenStyle.Lense
                 || lockscreenStyle == LockscreenStyle.Ring) {
@@ -515,7 +521,6 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
                 mRotaryUnlockDownToggle.setChecked(false);
                 mRotaryUnlockDownToggle.setEnabled(false);
             }
-        // ring style
         }
 
         // disable custom app starter for lense - would be ugly in above if
