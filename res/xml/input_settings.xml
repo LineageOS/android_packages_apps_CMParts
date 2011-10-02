@@ -48,11 +48,16 @@
 		android:key="pref_category_button_settings">
 
 		<CheckBoxPreference android:key="pref_trackball_wake"
-			android:title="@string/pref_trackball_wake_title" android:summary="@string/pref_trackball_wake_summary" />
+			android:title="@string/pref_trackball_wake_title"
+			android:summary="@string/pref_trackball_wake_summary" />
 
-        <CheckBoxPreference android:key="pref_volume_wake"
-            android:title="@string/pref_volume_wake_title"
-            android:summary="@string/pref_volume_wake_summary" />
+		<CheckBoxPreference android:key="pref_volume_wake"
+			android:title="@string/pref_volume_wake_title"
+			android:summary="@string/pref_volume_wake_summary" />
+
+		<CheckBoxPreference android:key="pref_frontkeys_wake"
+			android:title="@string/pref_frontkeys_wake_title"
+			android:summary="@string/pref_frontkeys_wake_summary" />
 
 		<CheckBoxPreference android:key="pref_volbtn_music_controls"
 			android:title="@string/pref_volbtn_music_controls_title"

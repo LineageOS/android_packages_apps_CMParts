@@ -260,6 +260,8 @@
     <string name="pref_trackball_wake_summary">Pressing the trackball wakes the device</string>
     <string name="pref_volume_wake_title">Volume rocker wake</string>
     <string name="pref_volume_wake_summary">Pressing the volume up/down wakes the device. Intended for devices with hard to press power key</string>
+    <string name="pref_frontkeys_wake_title">Front keys wake</string>
+    <string name="pref_frontkeys_wake_summary">Pressing the call/end call buttons wakes the device. Intended for devices with hard to press power key</string>
     <string name="pref_trackball_unlock_title">Trackball unlock</string>
     <string name="pref_trackball_unlock_summary">Pressing the trackball unlocks the device</string>
     <string name="pref_menu_unlock_title">Menu unlock</string>
