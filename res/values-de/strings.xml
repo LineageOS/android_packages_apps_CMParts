@@ -618,6 +618,9 @@
     <string name="sound_vibrate_in_call_title">Im Gespräch vibrieren</string>
     <string name="sound_vibrate_in_call_summary_on">Normale Vibration bei Benachrichtigungen während eines Gesprächs</string>
     <string name="sound_vibrate_in_call_summary_off">Keine Vibration bei Benachrichtigungen während eines Gesprächs</string>
+    <string name="sound_volume_key_beeps_title">Lautstärketon</string>
+    <string name="sound_volume_key_beeps_summary_off">Änderungen der Lautstärke mit den Lautstärketasten nicht akustisch bestätigen</string>
+    <string name="sound_volume_key_beeps_summary_on">Änderungen der Lautstärke mit den Lautstärketasten durch einen Piepton bestätigen</string>
     <string name="sound_camera_shutter_disable_title">Auslöseton deakt.</string>
     <string name="sound_camera_shutter_disable_summary_on">Kamera-Auslöseton wird nicht abgespielt</string>
     <string name="sound_camera_shutter_disable_summary_off">Kamera-Auslöseton wird abgespielt</string>
