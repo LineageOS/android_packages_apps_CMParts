@@ -221,6 +221,12 @@
     <string name="trackball_color_entry_random">Random</string>
     <string name="trackball_color_entry_amber">Ambra</string>
 
+    <!-- Trackball Settings : Force modes -->
+    <string name="trackball_force_mode_application">Usa impostazioni app</string>
+    <string name="trackball_force_mode_off">Forza LED spento</string>
+    <string name="trackball_force_mode_events">Forza LED acceso per eventi</string>
+    <string name="trackball_force_mode_on">Forza LED acceso</string>
+
     <!-- Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">ATTENZIONE:Aumento consumo di batteria</string>
     <string name="notification_battery_warning">È stato provato che questa opzione aumenta il consumo di batteria del ~3% ogni ora. Se noti un aumento del consumo mentre sono attive le notifiche pulsanti questa ne è la causa. Non attivarla se non vuoi peggiorare la durata della batteria.</string>
