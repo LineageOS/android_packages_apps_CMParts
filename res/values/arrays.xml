@@ -202,6 +202,7 @@
     </string-array>
 
     <string-array name="pref_trackball_force_mode_entries">
+        <item>Use category settings</item>
         <item>Use application settings</item>
         <item>Force LED off</item>
         <item>Force LED on for events</item>
@@ -209,6 +210,7 @@
     </string-array>
 
     <string-array name="pref_trackball_force_mode_values" translatable="false">
+        <item>category</item>
         <item>default</item>
         <item>forceoff</item>
         <item>forceeventon</item>

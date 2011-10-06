@@ -39,6 +39,7 @@
     </string-array>
 
     <string-array name="pref_trackball_force_mode_entries">
+        <item>Use category settings</item>
         <item>Χρήση ρύθμισης εφαρμογής</item>
         <item>Εξαναγκ. ανενεργό LED</item>
         <item>Εξαναγκ. ενεργό LED για συμβάντα</item>

@@ -89,6 +89,7 @@
     <!-- skipping untranslatable /resources:0/string-array:name=pref_trackball_blink_rate_values -->
 
     <string-array name="pref_trackball_force_mode_entries">
+        <item>Use category settings</item>
         <item>使用應用程式設定</item>
         <item>強制關閉 LED</item>
         <item>為進行中事件強制開啟 LED</item>

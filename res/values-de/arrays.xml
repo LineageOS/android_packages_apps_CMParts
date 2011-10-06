@@ -61,6 +61,7 @@
   </string-array>
 
   <string-array name="pref_trackball_force_mode_entries">
+    <item>Use category settings</item>
     <item>Anwendungseinstellung</item>
     <item>LED immer deaktivieren</item>
     <item>LED nur bei Ereignisbenachrichtigung</item>

@@ -44,6 +44,7 @@
         <item>6 (Pomaly)</item>
     </string-array>
     <string-array name="pref_trackball_force_mode_entries">
+        <item>Use category settings</item>
         <item>Podľa nastavenia aplikácie</item>
         <item>Vynútiť LED vyp</item>
         <item>Vynútiť LED zap pre udalosti</item>
