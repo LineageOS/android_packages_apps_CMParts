@@ -30,13 +30,6 @@
         <item>6 (Lent)</item>
     </string-array>
 
-    <string-array name="pref_trackball_force_mode_entries">
-        <item>Paramètres application</item>
-        <item>Pas de LED</item>
-        <item>LED si évenements</item>
-        <item>LED active</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_delay_entries">
         <item>Immédiatement</item>
         <item>1s</item>

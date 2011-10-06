@@ -223,6 +223,12 @@
     <string name="trackball_color_entry_random">隨機</string>
     <string name="trackball_color_entry_amber">琥珀</string>
 
+    <!-- Trackball Settings : Force modes -->
+    <string name="trackball_force_mode_application">使用應用程式設定</string>
+    <string name="trackball_force_mode_off">強制關閉 LED</string>
+    <string name="trackball_force_mode_events">為進行中事件強制開啟 LED</string>
+    <string name="trackball_force_mode_on">強制開啟 LED</string>
+
     <!-- Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">警告：會引致加速耗電</string>
     <string name="notification_battery_warning">這個選項已被證實會增加每小時3％的耗電量。如發現啟用了閃爍後耗電速度增快，那麼這個選項就是原因。如不希望招致耗電加快就請勿啟用。</string>

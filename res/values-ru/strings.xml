@@ -218,6 +218,12 @@
     <string name="trackball_color_entry_random">Случайно</string>
     <string name="trackball_color_entry_amber">Жёлтый</string>
 
+    <!-- Trackball Settings : Force modes -->
+    <string name="trackball_force_mode_application">Исп. настройки приложений</string>
+    <string name="trackball_force_mode_off">Принудит. выкл. светодиода</string>
+    <string name="trackball_force_mode_events">Принудит. вкл. светодиода для событий</string>
+    <string name="trackball_force_mode_on">Принудит. вкл. светодиода</string>
+
     <!--Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">Внимание: может вызвать разрядку батареи</string>
     <string name="notification_battery_warning">Эта настройка увеличивает разряд батареи примерно на 3% в час. Если вы заметили, что батарея разряжается быстрее, виновата эта опция. Не включайте, если не хотите быстрой разрядки.</string>
