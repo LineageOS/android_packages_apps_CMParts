@@ -182,8 +182,12 @@
     <string name="trackball_category_screen">Manage categories</string>
     <string name="trackball_category_add_title">Add category</string>
     <string name="trackball_category_add_summary">Add a category to the list</string>
+    <string name="trackball_category_add_error_title">ERROR</string>
+    <string name="trackball_category_add_error_summary">The category name may not contain \'=\'</string>
     <string name="trackball_category_remove_title">Remove category</string>
     <string name="trackball_category_remove_summary">Remove a category from the list</string>
+    <string name="trackball_category_edit_title">Edit category settings</string>
+    <string name="trackball_category_edit_summary">Edit the default settings for this category</string>
     <string name="trackball_reset_all">Reset all colors and categories.</string>
     <string name="trackball_color_notice_title">NOTE:</string>
     <string name="trackball_color_notice_summary">Not all colors will display on all devices</string>
