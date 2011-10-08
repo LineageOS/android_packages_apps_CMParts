@@ -118,6 +118,10 @@
     <string name="pref_pinch_reflow_title">Reflow after pinch in</string>
     <string name="pref_pinch_reflow_summary">Reflow webview content immediately after pinch to zoom in</string>
 
+    <!-- User interface : Share menu for screenshots -->
+    <string name="pref_share_screenshot_title">Share screenshots</string>
+    <string name="pref_share_screenshot_summary">Show share menu on taking a screenshot</string>
+
     <!-- User interface : Overscroll -->
     <string name="ui_overscroll_title">Overscrolling</string>
     <string name="pref_overscroll_title">Overscroll effect</string>
