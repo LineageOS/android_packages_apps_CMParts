@@ -148,7 +148,6 @@
     <string-array name="pref_lockscreen_style_entries">
         <item>Liukusäädin</item>
         <item>Kiertosäädin</item>
-        <item>Rotary revamped</item>
         <item>Lense</item>
         <item>Ring</item>
     </string-array>

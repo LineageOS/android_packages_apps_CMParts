@@ -133,7 +133,6 @@
     <string-array name="pref_lockscreen_style_entries">
         <item>Aba Deslizante</item>
         <item>Rotativo</item>
-        <item>Rotativo Remodelado</item>
         <item>Lente</item>
         <item>Anel</item>
     </string-array>
@@ -188,7 +187,6 @@
     <string-array name="pref_in_call_style_entries">
         <item>Aba Deslizante</item>
         <item>Giratório</item>
-        <item>Giratório renovado</item>
         <item>Anel</item>
     </string-array>
 

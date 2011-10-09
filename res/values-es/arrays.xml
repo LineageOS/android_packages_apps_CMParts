@@ -193,7 +193,6 @@
     <string-array name="pref_lockscreen_style_entries">
         <item>Pestañas</item>
         <item>Giratorio</item>
-        <item>Giratorio renovado</item>
         <item>Deslizante</item>
         <item>Anillo</item>
     </string-array>
@@ -201,7 +200,6 @@
     <string-array name="pref_in_call_style_entries">
         <item>Pestañas</item>
         <item>Giratorio</item>
-        <item>Giratorio renovado</item>
         <item>Anillo</item>
     </string-array>
 
