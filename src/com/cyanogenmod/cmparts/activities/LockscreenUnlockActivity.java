@@ -18,6 +18,7 @@ package com.cyanogenmod.cmparts.activities;
 
 import java.io.File;
 
+import android.app.admin.DevicePolicyManager;
 import android.gesture.GestureLibraries;
 import android.gesture.GestureLibrary;
 import android.os.Bundle;
@@ -33,6 +34,8 @@ import com.cyanogenmod.cmparts.R;
 
 public class LockscreenUnlockActivity extends PreferenceActivity {
 
+    private final static String LOCKSCREEN_DISABLE_ON_SECURITY = "pref_lockscreen_disable_on_security";
+
     private static final String TRACKBALL_UNLOCK_PREF = "pref_trackball_unlock";
 
     private static final String SLIDER_UNLOCK_PREF = "pref_slider_unlock";
@@ -44,6 +47,8 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
     private static final String LOCKSCREEN_DISABLE_UNLOCK_TAB = "lockscreen_disable_unlock_tab";
 
     private static final String LOCKSCREEN_UNLOCK_SETTINGS = "pref_category_unlock_settings";
+
+    private CheckBoxPreference mLockscreenDisableOnSecurity;
 
     private CheckBoxPreference mTrackballUnlockPref;
 
@@ -63,6 +68,12 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
         addPreferencesFromResource(R.xml.lockscreen_unlock_settings);
 
         PreferenceScreen prefSet = getPreferenceScreen();
+
+        /* skip lockscreen on pin/pattern/password */
+        mLockscreenDisableOnSecurity = (CheckBoxPreference) prefSet
+            .findPreference(LOCKSCREEN_DISABLE_ON_SECURITY);
+        mLockscreenDisableOnSecurity.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_DISABLE_ON_SECURITY, 0) == 1);
 
         /* Quick Unlock Screen Control */
         mQuickUnlockScreenPref = (CheckBoxPreference) prefSet
@@ -111,7 +122,12 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         boolean value;
-        if (preference == mQuickUnlockScreenPref) {
+        if (preference == mLockscreenDisableOnSecurity) {
+            value = mLockscreenDisableOnSecurity.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_DISABLE_ON_SECURITY, value ? 1 : 0);
+            return true;
+        } else if (preference == mQuickUnlockScreenPref) {
             value = mQuickUnlockScreenPref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_QUICK_UNLOCK_CONTROL, value ? 1 : 0);
