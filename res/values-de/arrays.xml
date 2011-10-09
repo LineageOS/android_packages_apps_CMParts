@@ -196,7 +196,6 @@
   <string-array name="pref_lockscreen_style_entries">
     <item>Schieber</item>
     <item>Rad</item>
-    <item>Rad umgestaltet</item>
     <item>Linse</item>
     <item>Blasen</item>
   </string-array>
@@ -204,8 +203,17 @@
   <string-array name="pref_in_call_style_entries">
     <item>Schieber</item>
     <item>Rad</item>
-    <item>Rad umgestaltet</item>
     <item>Blasen</item>
+  </string-array>
+
+  <string-array name="pref_rotary_style_entries">
+    <item>Standard</item>
+    <item>Umgestaltet</item>
+  </string-array>
+
+  <string-array name="pref_ringlock_style_entries">
+    <item>Blasen</item>
+    <item>Ringe</item>
   </string-array>
 
   <string-array name="pref_lockscreen_background_entries">

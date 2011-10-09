@@ -162,7 +162,6 @@
     <string-array name="pref_lockscreen_style_entries">
         <item>Schuifbalk</item>
         <item>Draaiend</item>
-        <item>Draaiend (nieuw)</item>
         <item>Lense</item>
         <item>Ring</item>
     </string-array>
@@ -170,7 +169,6 @@
     <string-array name="pref_in_call_style_entries">
         <item>Schuifbalk</item>
         <item>Draaiend</item>
-        <item>Draaiend (nieuw)</item>
         <item>Ring</item>
     </string-array>
 
