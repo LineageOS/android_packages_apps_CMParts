@@ -526,6 +526,16 @@
         <item>5</item>
     </string-array>
 
+    <string-array name="pref_ringlock_style_entries">
+        <item>Bubble style</item>
+        <item>Revamped style</item>
+    </string-array>
+
+    <string-array name="pref_ringlock_style_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
     <string-array name="pref_in_call_style_entries">
         <item>Sliding Tab</item>
         <item>Rotary</item>
