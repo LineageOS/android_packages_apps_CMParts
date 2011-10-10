@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAJ3///04\u003d",
+        "filename": "res/xml/lockscreen_style_settings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-10-10T17:07:26Z",
+      "side": 1,
+      "message": "Why is rotary revamped included in pref_lockscreen_style, but the ring styles have a separate list? This looks inconsistent IMHO.",
+      "revId": "6d73b498c25a1ca28aa768561fa7ffdad1a59268",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
