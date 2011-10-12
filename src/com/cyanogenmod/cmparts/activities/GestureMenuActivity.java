@@ -126,6 +126,14 @@ public class GestureMenuActivity extends PreferenceActivity
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_GESTURES_ENABLED,
                     mGesturesEnable.isChecked() ? 1 : 0);
+            if (!mGesturesEnable.isChecked()) {
+                boolean hideSlider = Settings.Secure.getInt(getContentResolver(),
+                        Settings.Secure.LOCKSCREEN_GESTURES_DISABLE_UNLOCK, 0) == 1;
+                if (hideSlider) {
+                    Settings.Secure.putInt(getContentResolver(),
+                            Settings.Secure.LOCKSCREEN_GESTURES_DISABLE_UNLOCK, 0);
+                }
+            }
         } else if (LOCKSCREEN_GESTURES_TRAIL.equals(key)) {
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_GESTURES_TRAIL,
