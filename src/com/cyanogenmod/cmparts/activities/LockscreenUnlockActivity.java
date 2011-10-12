@@ -120,6 +120,7 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
             value = mDisableUnlockTab.isChecked();
             Settings.Secure.putInt(getContentResolver(),
                     Settings.Secure.LOCKSCREEN_GESTURES_DISABLE_UNLOCK, value ? 1 : 0);
+            return true;
         }
         return false;
     }
@@ -132,6 +133,9 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
                     Settings.Secure.LOCKSCREEN_GESTURES_DISABLE_UNLOCK, 0);
         } else {
             mDisableUnlockTab.setEnabled(true);
+            boolean hideSlider = Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.LOCKSCREEN_GESTURES_DISABLE_UNLOCK, 0) == 1;
+            mDisableUnlockTab.setChecked(hideSlider);
         }
     }
 
@@ -139,6 +143,8 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
         final File mStoreFile = new File(Environment.getDataDirectory(),
                 "/misc/lockscreen_gestures");
         boolean GestureCanUnlock = false;
+        boolean GestureEnabled = Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_GESTURES_ENABLED, 0) == 1;
         boolean trackCanUnlock = Settings.System.getInt(getContentResolver(),
                 Settings.System.TRACKBALL_UNLOCK_SCREEN, 0) == 1;
         boolean menuCanUnlock = Settings.System.getInt(getContentResolver(),
@@ -153,7 +159,7 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
                 }
             }
         }
-        if (GestureCanUnlock || trackCanUnlock || menuCanUnlock) {
+        if ((GestureCanUnlock && GestureEnabled) || trackCanUnlock || menuCanUnlock) {
             return true;
         } else {
             return false;
