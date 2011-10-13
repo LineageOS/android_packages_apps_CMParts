@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAJ3///g0\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2011-10-13T03:32:31Z",
+      "side": 1,
+      "message": "Breaks missing all over :)",
+      "revId": "c530001fee13c8eb87b7eda49372fb873c25b070",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
