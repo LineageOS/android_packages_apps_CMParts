@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAJ3///hI\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/LockscreenStyleActivity.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 574,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2011-10-13T03:23:22Z",
+      "side": 1,
+      "message": "Can you consider using a switch above? It would be far more readable.",
+      "revId": "052aa096a9d69dfa0e7b0a28c8cd749c9f6625ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
