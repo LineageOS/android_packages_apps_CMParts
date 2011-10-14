@@ -36,6 +36,8 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
 
     private static final String PREF_STATUS_BAR_CM_BATTERY = "pref_status_bar_cm_battery";
 
+    private static final String PREF_STATUS_BAR_CM_SHOW_BATTERY = "pref_status_bar_cm_show_battery";
+
     private static final String PREF_STATUS_BAR_COMPACT_CARRIER = "pref_status_bar_compact_carrier";
 
     private static final String PREF_STATUS_BAR_BRIGHTNESS_CONTROL =
@@ -52,6 +54,8 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
     private CheckBoxPreference mStatusBarClock;
 
     private CheckBoxPreference mStatusBarCmBattery;
+
+    private CheckBoxPreference mStatusBarCmShowBattery;
 
     private CheckBoxPreference mStatusBarCompactCarrier;
 
@@ -73,6 +77,8 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
                 .findPreference(PREF_STATUS_BAR_COMPACT_CARRIER);
         mStatusBarCmBattery = (CheckBoxPreference) prefSet
                 .findPreference(PREF_STATUS_BAR_CM_BATTERY);
+        mStatusBarCmShowBattery = (CheckBoxPreference) prefSet
+                .findPreference(PREF_STATUS_BAR_CM_SHOW_BATTERY);
         mStatusBarBrightnessControl = (CheckBoxPreference) prefSet
                 .findPreference(PREF_STATUS_BAR_BRIGHTNESS_CONTROL);
         mStatusBarHeadset = (CheckBoxPreference) prefSet
@@ -82,6 +88,8 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
                 Settings.System.STATUS_BAR_CLOCK, 1) == 1));
         mStatusBarCmBattery.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_CM_BATTERY, 0) == 1));
+        mStatusBarCmShowBattery.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_CM_SHOW_BATTERY, 1) == 1));
         mStatusBarCompactCarrier.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_COMPACT_CARRIER, 0) == 1));
         mStatusBarBrightnessControl.setChecked((Settings.System.getInt(getContentResolver(),
@@ -139,6 +147,11 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
         } else if (preference == mStatusBarCmBattery) {
             value = mStatusBarCmBattery.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_CM_BATTERY,
+                    value ? 1 : 0);
+            return true;
+        } else if (preference == mStatusBarCmShowBattery) {
+            value = mStatusBarCmShowBattery.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_CM_SHOW_BATTERY,
                     value ? 1 : 0);
             return true;
         } else if (preference == mStatusBarCompactCarrier) {
