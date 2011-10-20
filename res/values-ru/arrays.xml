@@ -143,10 +143,12 @@
     </string-array>
 
    <string-array name="entries_brightness_widget" translatable="false">
-        <item>Авто/Тусклый/40%/100%</item>
-        <item>Авто/Тусклый/25%/50%/75%/100%</item>
-        <item>Авто/25%/100%</item>
-        <item>Тусклый/100%</item>
+        <item>Авто</item>
+        <item>Тусклый</item>
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
     </string-array>
 
     <string-array name="entries_network_widget" translatable="false">
