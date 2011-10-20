@@ -49,6 +49,14 @@
 
     <!-- skipping untranslatable /resources:0/string-array:name=values_status_bar_am_pm -->
 
+    <string-array name="entries_status_bar_battery">
+        <item>圖示（預設）</item>
+        <item>百分比</item>
+        <item>隱藏</item>
+    </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=values_status_bar_battery -->
+
      <!-- skipping untranslatable /resources:0/string-array:name=entries_status_bar_signal -->
 
      <!-- skipping untranslatable /resources:0/string-array:name=values_status_bar_signal -->
@@ -211,7 +219,7 @@
 
     <!-- skipping untranslatable /resources:0/string-array:name=values_sound_limitvol -->
 
-   <!-- skipping untranslatable /resources:0/string-array:name=entries_brightness_widget -->
+   <!-- skipping untranslatable /resources:0/string-array:formatted=false&name=entries_brightness_widget -->
 
    <!-- skipping untranslatable /resources:0/string-array:name=values_brightness_widget -->
 
