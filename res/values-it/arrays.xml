@@ -29,6 +29,12 @@
         <item>Non visualizzare(Default)</item>
     </string-array>
 
+    <string-array name="entries_status_bar_battery">
+        <item>Icona (Default)</item>
+        <item>Percentuale</item>
+        <item>Non visualizzare</item>
+    </string-array>
+
     <string-array name="pref_trackball_blink_rate_entries">
         <item>Usa impostazioni app</item>
         <item>2 (Veloce)</item>
