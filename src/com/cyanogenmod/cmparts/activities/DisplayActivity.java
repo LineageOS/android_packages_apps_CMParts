@@ -93,8 +93,10 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
 
         /* Hide Electron Beam controls if electron beam is disabled */
         if (animateScreenLights) {
-            prefSet.removePreference(mElectronBeamAnimationOn);
-            prefSet.removePreference(mElectronBeamAnimationOff);
+            ((PreferenceCategory) prefSet.findPreference(GENERAL_CATEGORY))
+                .removePreference(mElectronBeamAnimationOn);
+            ((PreferenceCategory) prefSet.findPreference(GENERAL_CATEGORY))
+                .removePreference(mElectronBeamAnimationOff);
         }
 
         /* Rotation */
