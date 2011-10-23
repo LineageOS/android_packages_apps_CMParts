@@ -118,6 +118,10 @@
     <string name="pref_pinch_reflow_title">Reflow dopo il pinch in</string>
     <string name="pref_pinch_reflow_summary">Reflow dei contenuti web dopo il pinch to zoom</string>
 
+    <!-- User interface : Share menu for screenshots -->
+    <string name="pref_share_screenshot_title">Condividi schermate</string>
+    <string name="pref_share_screenshot_summary">Visualizza il menu di condivisione dopo aver catturato una schermata</string>
+
     <!-- User interface : Overscroll -->
     <string name="ui_overscroll_title">Overscrolling</string>
     <string name="pref_overscroll_title">Effetto overscrolling</string>
@@ -262,6 +266,8 @@
     <string name="pref_volume_wake_summary">Sveglia il telefono premendo i tasti per il controllo volume</string>
     <string name="pref_trackball_unlock_title">Trackball unlock</string>
     <string name="pref_trackball_unlock_summary">Sblocca il telefono premendo la trackball</string>
+    <string name="pref_slider_unlock_title">Sliding keyboard unlock</string>
+    <string name="pref_slider_unlock_summary">Sblocca il telefono aprendo la tastiera</string>
     <string name="pref_menu_unlock_title">Menu unlock</string>
     <string name="pref_menu_unlock_summary">Sblocca il telefono premendo il tasto menu</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Sblocco veloce</string>
