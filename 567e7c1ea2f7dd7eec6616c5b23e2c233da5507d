@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAKn////E\u003d",
+        "filename": "res/values-de/arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 73
+      },
+      "writtenOn": "2011-10-25T21:57:43Z",
+      "side": 1,
+      "message": "wir hatten uns auf \"Symbol\" statt \"Icon\" geeinigt. Es sollte ja alles einheitlich bleiben.",
+      "revId": "567e7c1ea2f7dd7eec6616c5b23e2c233da5507d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
