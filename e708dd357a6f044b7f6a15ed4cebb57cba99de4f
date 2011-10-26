@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAKn///5Y\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1556
+      },
+      "writtenOn": "2011-10-26T01:57:43Z",
+      "side": 1,
+      "message": "Traduire Screenshots ici ?\n\nGenre \"Partage des captures d\u0027écran\", peut-être trop long toutefois",
+      "revId": "e708dd357a6f044b7f6a15ed4cebb57cba99de4f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
