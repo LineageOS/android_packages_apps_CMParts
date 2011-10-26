@@ -16,6 +16,24 @@
       "revId": "e708dd357a6f044b7f6a15ed4cebb57cba99de4f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAKn///48\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-10-26T02:01:22Z",
+      "side": 1,
+      "message": "oui, c\u0027est pour ça que je ne l\u0027ai pas traduit dans le titre... l\u0027explication est en dessous pour les anglophobes ;p",
+      "parentUuid": "AAAAKn///5Y\u003d",
+      "revId": "e708dd357a6f044b7f6a15ed4cebb57cba99de4f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
