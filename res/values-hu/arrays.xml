@@ -178,12 +178,6 @@
         <item>Gyűrű</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_widget_layout_entries">
-        <item>Alapértelmezett</item>
-        <item>Rejtett</item>
-        <item>Középre</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_calendar_lookahead_entries">
         <item>3 óra</item>
         <item>6 óra</item>
