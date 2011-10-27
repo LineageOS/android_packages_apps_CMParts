@@ -122,6 +122,9 @@
     <string name="pref_lockscreen_delay_title">延迟</string>
     <string name="pref_lockscreen_widgets_layout_title">小部件布局</string>
     <string name="pref_lockscreen_widgets_layout_summary">切换时钟,日期,载体,状态布局</string>
+    <string name="pref_lockscreen_widget_layout_entry_default">默认</string>
+    <string name="pref_lockscreen_widget_layout_entry_hidden">隐藏</string>
+    <string name="pref_lockscreen_widget_layout_entry_centered">居中</string>
     <string name="pref_lockscreen_security_title">安全性锁定</string>
     <string name="pref_lockscreen_security_delay_note_title">注意</string>
     <string name="pref_lockscreen_security_delay_note_summary">当屏幕锁定安全性设定为“无”时，被使用的将会是这一组延迟时间</string>

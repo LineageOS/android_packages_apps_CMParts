@@ -241,6 +241,9 @@
     <string name="pref_lockscreen_always_battery_summary">Visa alltid batteristatus på låsskärmen</string>
     <string name="pref_lockscreen_widgets_layout_title">Widget-layout</string>
     <string name="pref_lockscreen_widgets_layout_summary">Växla layout för klocka, datum, operatör och status</string>
+    <string name="pref_lockscreen_widget_layout_entry_default">Standard</string>
+    <string name="pref_lockscreen_widget_layout_entry_hidden">Gömd</string>
+    <string name="pref_lockscreen_widget_layout_entry_centered">Centrerad</string>
     <string name="pref_lockscreen_music_controls_title">Musikkontroller på låsskärmen</string>
     <string name="pref_lockscreen_music_controls_summary">Visar musikkontroller på låsskärmen</string>
     <string name="pref_lockscreen_now_playing_title">Visa låttitel</string>

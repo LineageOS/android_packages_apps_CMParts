@@ -239,6 +239,9 @@
     <string name="pref_lockscreen_always_battery_summary">Всегда показывать состояние батареи на экране блокировки</string>
     <string name="pref_lockscreen_widgets_layout_title">Положение виджета</string>
     <string name="pref_lockscreen_widgets_layout_summary">Расположение часов, даты, оператора</string>
+    <string name="pref_lockscreen_widget_layout_entry_default">По умолчанию</string>
+    <string name="pref_lockscreen_widget_layout_entry_hidden">Скрытый</string>
+    <string name="pref_lockscreen_widget_layout_entry_centered">По центру</string>
     <string name="pref_lockscreen_music_controls_title">Управление плеером</string>
     <string name="pref_lockscreen_music_controls_summary">Показывать на экране блокировки элементы управления плеером</string>
     <string name="pref_lockscreen_now_playing_title">Название песни</string>

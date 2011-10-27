@@ -287,11 +287,7 @@
 
     <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_background_values -->
 
-    <string-array name="pref_lockscreen_widget_layout_entries">
-        <item>預設</item>
-        <item>隱藏</item>
-        <item>置中</item>
-    </string-array>
+    <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_widget_layout_entries -->
 
     <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_widget_layout_values -->
 

@@ -244,6 +244,9 @@
     <string name="pref_lockscreen_always_battery_summary">Visualizza sempre lo stato della batteria nel lockscreen</string>
     <string name="pref_lockscreen_widgets_layout_title">Layout del widget</string>
     <string name="pref_lockscreen_widgets_layout_summary">Modifica il layout di orologio, data, operatore e stato</string>
+    <string name="pref_lockscreen_widget_layout_entry_default">Default</string>
+    <string name="pref_lockscreen_widget_layout_entry_hidden">Nascosto</string>
+    <string name="pref_lockscreen_widget_layout_entry_centered">Al centro</string>
     <string name="pref_lockscreen_music_controls_title">Comandi musicali</string>
     <string name="pref_lockscreen_music_controls_summary">Visualizza i comandi del player musicale nel lockscreen</string>
     <string name="pref_lockscreen_now_playing_title">Nome brano</string>

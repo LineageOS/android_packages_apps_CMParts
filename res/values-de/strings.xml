@@ -243,6 +243,9 @@
     <string name="pref_lockscreen_always_battery_summary">Den Batteriestatus immer auf dem Sperrbildschirm anzeigen</string>
     <string name="pref_lockscreen_widgets_layout_title">Widget-Layout</string>
     <string name="pref_lockscreen_widgets_layout_summary">Layout für Uhrzeit, Datum, Netzbetreiber und Status wählen</string>
+    <string name="pref_lockscreen_widget_layout_entry_default">Standard</string>
+    <string name="pref_lockscreen_widget_layout_entry_hidden">Versteckt</string>
+    <string name="pref_lockscreen_widget_layout_entry_centered">Zentriert</string>
     <string name="pref_lockscreen_music_controls_title">Musiksteuerung</string>
     <string name="pref_lockscreen_music_controls_summary">Steuerelemente für Musik auf Sperrbildschirm anzeigen</string>
     <string name="pref_lockscreen_now_playing_title">Titel anzeigen</string>

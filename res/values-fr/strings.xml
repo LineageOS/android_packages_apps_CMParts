@@ -204,6 +204,9 @@
     <string name="pref_lockscreen_always_battery_summary">Afficher l\'état de la batterie sur l\'écran de verrouillage, à tout moment</string>
     <string name="pref_lockscreen_widgets_layout_title">Position</string>
     <string name="pref_lockscreen_widgets_layout_summary">Position des libellés opérateur, heure, date et état</string>
+    <string name="pref_lockscreen_widget_layout_entry_default">Par défaut</string>
+    <string name="pref_lockscreen_widget_layout_entry_hidden">Invisible</string>
+    <string name="pref_lockscreen_widget_layout_entry_centered">Centré</string>
     <string name="pref_lockscreen_now_playing_title">Nom de la chanson</string>
     <string name="pref_lockscreen_now_playing_summary">Affiche le nom et l\'artiste du morceau en cours de lecture</string>
     <string name="pref_lockscreen_album_art_title">Pochette des albums</string>
