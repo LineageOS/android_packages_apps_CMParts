@@ -213,12 +213,6 @@
         <item>Predeterminado</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_widget_layout_entries">
-        <item>Predeterminado</item>
-        <item>Oculto</item>
-        <item>Centrado</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>Desactivado</item>
         <item>Auriculares con cable</item>
