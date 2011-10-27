@@ -199,10 +199,4 @@
         <item>3 dias</item>
         <item>1 semana</item>
     </string-array>
-
-    <string-array name="pref_lockscreen_widget_layout_entries">
-        <item>Padrão</item>
-        <item>Oculto</item>
-        <item>Centralizado</item>
-    </string-array>
 </resources>

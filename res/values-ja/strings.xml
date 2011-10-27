@@ -261,6 +261,10 @@
     <string name="pref_lockscreen_always_battery_summary">常にバッテリーの状態をロックスクリーンに表示する</string>
     <string name="pref_lockscreen_widgets_layout_title">ウィジェットレイアウト</string>
     <string name="pref_lockscreen_widgets_layout_summary">時計、日付、キャリア、ステータスのレイアウト</string>
+    <string name="pref_lockscreen_widget_layout_entry_default">デフォルト</string>
+    <string name="pref_lockscreen_widget_layout_entry_hidden">隠す</string>
+    <string name="pref_lockscreen_widget_layout_entry_centered">中心</string>
+    <string name="pref_lockscreen_widget_layout_entry_right">右</string>
     <string name="pref_lockscreen_music_controls_title">音楽コントロール</string>
     <string name="pref_lockscreen_music_controls_summary">ロック画面に音楽コントロールを表示する</string>
     <string name="pref_lockscreen_now_playing_title">曲名を表示</string>

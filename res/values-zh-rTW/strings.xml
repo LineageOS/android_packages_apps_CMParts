@@ -261,6 +261,10 @@
     <string name="pref_lockscreen_always_battery_summary">總是在鎖定螢幕上顯示電池狀況</string>
     <string name="pref_lockscreen_widgets_layout_title">小工具版面配置</string>
     <string name="pref_lockscreen_widgets_layout_summary">切換時鐘、日期、電信業者、狀態等的版面配置</string>
+    <string name="pref_lockscreen_widget_layout_entry_default">預設</string>
+    <string name="pref_lockscreen_widget_layout_entry_hidden">隱藏</string>
+    <string name="pref_lockscreen_widget_layout_entry_centered">置中</string>
+    <string name="pref_lockscreen_widget_layout_entry_right">靠右</string>
     <string name="pref_lockscreen_music_controls_title">鎖定螢幕音樂面版</string>
     <string name="pref_lockscreen_music_controls_summary">在鎖定螢幕上顯示音樂控制面版</string>
     <string name="pref_lockscreen_now_playing_title">顯示曲目</string>
