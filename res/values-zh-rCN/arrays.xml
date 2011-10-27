@@ -245,12 +245,6 @@
         <item>停用</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_widget_layout_entries">
-        <item>默认</item>
-        <item>隐藏</item>
-        <item>居中</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_calendar_lookahead_entries">
         <item>3个小时</item>
         <item>6个小时</item>

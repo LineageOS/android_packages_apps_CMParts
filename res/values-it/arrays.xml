@@ -132,12 +132,6 @@
         <item>Sfondo di default</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_widget_layout_entries">
-        <item>Default</item>
-        <item>Nascosto</item>
-        <item>Al centro</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>Non attivi</item>
         <item>Cuffie via cavo</item>

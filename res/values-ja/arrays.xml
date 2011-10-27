@@ -47,12 +47,6 @@
         <item>デフォルトの壁紙</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_widget_layout_entries">
-        <item>デフォルト</item>
-        <item>隠す</item>
-        <item>中心</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_calendar_lookahead_entries">
         <item>3時間</item>
         <item>6時間</item>

@@ -141,12 +141,6 @@
         <item>Standard bakgrundsbild</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_widget_layout_entries">
-        <item>Standard</item>
-        <item>Gömd</item>
-        <item>Centrerad</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>Inaktiverad</item>
         <item>Headset med sladd</item>

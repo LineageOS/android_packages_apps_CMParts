@@ -165,12 +165,6 @@
         <item>Standaard achtergrond</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_widget_layout_entries">
-        <item>Standaard</item>
-        <item>Verborgen</item>
-        <item>Gecentreerd</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>Uitgeschakeld</item>
         <item>Bedraadde headset</item>
