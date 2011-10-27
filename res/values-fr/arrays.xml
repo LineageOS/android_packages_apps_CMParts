@@ -112,12 +112,6 @@
         <item>Par défaut</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_widget_layout_entries">
-        <item>Par défaut</item>
-        <item>Invisible</item>
-        <item>Centré</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>Désactivé</item>
         <item>Casque / Ecouteurs</item>
