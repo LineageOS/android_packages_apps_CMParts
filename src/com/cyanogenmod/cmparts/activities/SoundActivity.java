@@ -69,9 +69,10 @@ public class SoundActivity extends PreferenceActivity implements OnPreferenceCha
 
     private static final String CAMERA_SHUTTER_MUTE = "camera-mute";
 
+    private static final String CAMERA_FOCUS_MUTE = "camera_focus_mute";
+
     private static final String PREFIX = "persist.sys.";
 
-    private static final String CAMERA_CATEGORY = "camera_category";
     private static final String CAMERA_SHUTTER_DISABLE = "ro.camera.sound.disabled";
 
     private static String getKey(String suffix) {
@@ -146,12 +147,17 @@ public class SoundActivity extends PreferenceActivity implements OnPreferenceCha
 
         if (SystemProperties.getBoolean(CAMERA_SHUTTER_DISABLE, false)) {
             // we cannot configure camera sound, hide camera settigs
-            prefSet.removePreference(prefSet.findPreference(CAMERA_CATEGORY));
+            prefSet.removePreference(prefSet.findPreference(CAMERA_SHUTTER_MUTE));
         } else {
             p = (CheckBoxPreference) prefSet.findPreference(CAMERA_SHUTTER_MUTE);
             p.setChecked(SystemProperties.getBoolean(getKey(CAMERA_SHUTTER_MUTE), false));
             p.setOnPreferenceChangeListener(this);
         }
+
+        p = (CheckBoxPreference) prefSet.findPreference(CAMERA_FOCUS_MUTE);
+        p.setChecked(Settings.System.getInt(getContentResolver(),
+                CAMERA_FOCUS_MUTE, 0) == 1);
+        p.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -168,6 +174,9 @@ public class SoundActivity extends PreferenceActivity implements OnPreferenceCha
         } else if (key.equals(NOTIFICATIONS_SPEAKER) || key.equals(RINGS_SPEAKER)
                 || key.equals(ALARMS_SPEAKER)) {
             SystemProperties.set(getKey(key), getBoolean(newValue) ? "1" : "0");
+        } else if (key.equals(CAMERA_FOCUS_MUTE)) {
+            Settings.System.putInt(getContentResolver(), Settings.System.CAMERA_FOCUS_MUTE,
+                    getBoolean(newValue) ? 1 : 0);
         } else if (key.equals(CAMERA_SHUTTER_MUTE)) {
             if (getBoolean(newValue)) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
