@@ -474,6 +474,9 @@
     <string name="sound_vibrate_in_call_title">Vibrar durante una llamada</string>
     <string name="sound_vibrate_in_call_summary_off">Las notificaciones no vibrarán durante una llamada</string>
     <string name="sound_vibrate_in_call_summary_on">Las notificaciones vibrarán normalmente</string>
+    <string name="sound_camera_focus_mute_title">Silenciar enfoque</string>
+    <string name="sound_camera_focus_mute_summary_on">El sonido al enfocar no será reproducido</string>
+    <string name="sound_camera_focus_mute_summary_off">El sonido al enfocar será reproducido</string>
     <string name="sound_to_speaker_title">Reproducir siempre en el altavoz</string>
     <string name="sound_notifications_title">Notificaciones</string>
     <string name="sound_rings_title">Tonos de llamada</string>
