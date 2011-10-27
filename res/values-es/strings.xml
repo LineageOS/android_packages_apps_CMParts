@@ -148,7 +148,7 @@
     <string name="pref_trackball_order_summary">El LED parpadeará en orden de colores</string>
     <string name="pref_trackball_reset_title">Reiniciar</string>
     <string name="pref_trackball_reset_summary">Reiniciar todos los colores y aplicaciones</string>
-    <string name="dialog_trackball_loading">Cargando...</string>
+    <string name="dialog_trackball_loading">Cargando\u2026</string>
     <string name="dialog_trackball_packagelist">Cargando lista de paquetes</string>
     <string name="trackball_category_dialog_text">Introducir una categoría nueva</string>
     <string name="trackball_category_list_title">Categoría</string>
@@ -442,7 +442,7 @@
     <string name="light_levels_enabled_title">Usar personalizados</string>
     <string name="light_levels_dim_title">Nivel de difuminado de pantalla</string>
     <string name="light_levels_dim_summary">Se utiliza el brillo para difuminar la pantalla</string>
-    <string name="light_levels_editor_title">Editar otros niveles...</string>
+    <string name="light_levels_editor_title">Editar otros niveles\u2026</string>
     <string name="light_decrease_enabled_title">Permitir descenso de la luz</string>
     <string name="light_decrease_enabled_summary">Activar para permitir descenso de las luces. Usar histéresis para reducir parpadeo.</string>
     <string name="light_decrease_hysteresis_title">Disminuir histéresis</string>
@@ -474,6 +474,14 @@
     <string name="sound_vibrate_in_call_title">Vibrar durante una llamada</string>
     <string name="sound_vibrate_in_call_summary_off">Las notificaciones no vibrarán durante una llamada</string>
     <string name="sound_vibrate_in_call_summary_on">Las notificaciones vibrarán normalmente</string>
+    <string name="sound_camera_shutter_disable_title">Silenciar obturador</string>
+    <string name="sound_camera_shutter_disable_summary_on">El sonido del obturador no será reproducido</string>
+    <string name="sound_camera_shutter_disable_summary_off">El sonido del obturador será reproducido</string>
+    <string name="sound_camera_focus_mute_title">Silenciar enfoque</string>
+    <string name="sound_camera_focus_mute_summary_on">El sonido del enfoque no será reproducido</string>
+    <string name="sound_camera_focus_mute_summary_off">El sonido del enfoque será reproducido</string>
+    <string name="sound_camera_shutter_disable_warning_title">AVISO: ¡Esto podría ser ilegal!</string>
+    <string name="sound_camera_shutter_disable_warning">Deshabilitar el sonido de la cámara es ilegal en algunas zonas. ¿Seguro que quieres deshabilitarlo?</string>
     <string name="sound_to_speaker_title">Reproducir siempre en el altavoz</string>
     <string name="sound_notifications_title">Notificaciones</string>
     <string name="sound_rings_title">Tonos de llamada</string>
@@ -527,7 +535,7 @@
     <string name="gestures_button_discard">Descartar</string>
     <string name="gestures_button_done">Hecho</string>
     <string name="gestures_error_missing_shortcut">¡Debe seleccionar una acción para este gesto!</string>
-    <string name="gestures_loading">Cargando gestos...</string>
+    <string name="gestures_loading">Cargando gestos\u2026</string>
     <string name="gestures_empty">Sin gestos</string>
     <string name="gestures_delete">Eleminar</string>
     <string name="gestures_delete_success">Gesto eliminado</string>
@@ -546,8 +554,8 @@
     <!-- Change Log strings -->
     <string name="changelog_title">Ver registro cambios</string>
     <string name="changelog_dialog">Registro cambios</string>
-    <string name="changelog_loading">Cargando registro...</string>
-    <string name="changelog_error">Error cargando registro...</string>
+    <string name="changelog_loading">Cargando registro\u2026</string>
+    <string name="changelog_error">Error cargando registro\u2026</string>
     <string name="changelog_unknown">Desconocido</string>
     <string name="changelog_version">Version</string>
 
