@@ -261,6 +261,9 @@
     <string name="pref_lockscreen_always_battery_summary">Laat batterij status altijd op het lockscreen zien</string>
     <string name="pref_lockscreen_widgets_layout_title">Widget layout</string>
     <string name="pref_lockscreen_widgets_layout_summary">Wissel klok, datum, provider, status layout</string>
+    <string name="pref_lockscreen_widget_layout_entry_default">Standaard</string>
+    <string name="pref_lockscreen_widget_layout_entry_hidden">Verborgen</string>
+    <string name="pref_lockscreen_widget_layout_entry_centered">Gecentreerd</string>
     <string name="pref_lockscreen_music_controls_title">Muziek knoppen</string>
     <string name="pref_lockscreen_music_controls_summary">Geef muziek knoppen op het lockscreen weer</string>
     <string name="pref_lockscreen_now_playing_title">Geef titel weer</string>

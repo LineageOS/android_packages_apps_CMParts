@@ -701,6 +701,9 @@
     <string name="sound_camera_shutter_disable_warning">Desativando o som de disparo da câmera é ilegal em algumas áreas. Você tem certeza que deseja desativar?</string>
     <string name="pref_lockscreen_widgets_layout_title">Layout do widget</string>
     <string name="pref_lockscreen_widgets_layout_summary">Alternar entre relógio, data, operadora, layout do status</string>
+    <string name="pref_lockscreen_widget_layout_entry_default">Padrão</string>
+    <string name="pref_lockscreen_widget_layout_entry_hidden">Oculto</string>
+    <string name="pref_lockscreen_widget_layout_entry_centered">Centralizado</string>
     <string name="lockscreen_calendar_title">Calendário da Tela de Bloqueio</string>
     <string name="pref_lockscreen_calendar_alarm_title">Exibit próximo evento do calendário</string>
     <string name="pref_lockscreen_calendar_alarm_summary">Exibir a hora e título do próximo evento do calendário</string>
