@@ -240,6 +240,10 @@
     <string name="lockscreen_style_options_title">Stílus specifikus beállítások</string>
     <string name="pref_lockscreen_widgets_layout_title">Widgetek pozíciója</string>
     <string name="pref_lockscreen_widgets_layout_summary">Óra, dátum, szolgáltató, állapot információk pozíciója, kikapcsolása</string>
+    <string name="pref_lockscreen_widget_layout_entry_default">Alapértelmezett</string>
+    <string name="pref_lockscreen_widget_layout_entry_hidden">Rejtett</string>
+    <string name="pref_lockscreen_widget_layout_entry_centered">Középre</string>
+    <string name="pref_lockscreen_widget_layout_entry_right">Jobb</string>
     <string name="lockscreen_calendar_title">Zárképernyő naptár</string>
     <string name="pref_lockscreen_calendar_alarm_title">Naptár esemény kijelzése</string>
     <string name="pref_lockscreen_calendar_alarm_summary">Következő naptári esemény idejének és címének kijelzése</string>
