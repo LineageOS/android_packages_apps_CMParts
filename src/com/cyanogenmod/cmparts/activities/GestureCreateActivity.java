@@ -50,6 +50,9 @@ public class GestureCreateActivity extends Activity implements ShortcutPickHelpe
     private static final int ACTION_POSITION_SOUND = 1;
     private static final int ACTION_POSITION_SHORTCUT = 2;
     private static final int ACTION_POSITION_FLASHLIGHT = 3;
+    private static final int ACTION_POSITION_NEXT = 4;
+    private static final int ACTION_POSITION_PREVIOUS = 5;
+    private static final int ACTION_POSITION_PLAYPAUSE = 6;
 
     private Gesture mGesture;
 
@@ -94,6 +97,15 @@ public class GestureCreateActivity extends Activity implements ShortcutPickHelpe
                         break;
                     case ACTION_POSITION_FLASHLIGHT:
                         pickFlashlight();
+                        break;
+                    case ACTION_POSITION_NEXT:
+                        pickNext();
+                        break;
+                    case ACTION_POSITION_PREVIOUS:
+                        pickPrevious();
+                        break;
+                    case ACTION_POSITION_PLAYPAUSE:
+                        pickPlayPause();
                         break;
                 }
             }
@@ -242,6 +254,27 @@ public class GestureCreateActivity extends Activity implements ShortcutPickHelpe
         mFriendlyName = getString(R.string.gestures_flashlight);
         mDrawLabel.setText(getString(R.string.gestures_draw_for_label, mFriendlyName));
         mUri = mFriendlyName + "___FLASHLIGHT";
+        disableCheckbox();
+    }
+
+    public void pickNext() {
+        mFriendlyName = getString(R.string.gestures_flashlight);
+        mDrawLabel.setText(getString(R.string.gestures_draw_for_label, mFriendlyName));
+        mUri = mFriendlyName + "___NEXT";
+        disableCheckbox();
+    }
+
+    public void pickPrevious() {
+        mFriendlyName = getString(R.string.gestures_flashlight);
+        mDrawLabel.setText(getString(R.string.gestures_draw_for_label, mFriendlyName));
+        mUri = mFriendlyName + "___PREVIOUS";
+        disableCheckbox();
+    }
+
+    public void pickPlayPause() {
+        mFriendlyName = getString(R.string.gestures_flashlight);
+        mDrawLabel.setText(getString(R.string.gestures_draw_for_label, mFriendlyName));
+        mUri = mFriendlyName + "___PLAYPAUSE";
         disableCheckbox();
     }
 
