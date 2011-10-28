@@ -95,6 +95,8 @@
     <string name="ui_status_bar_am_pm_summary">始终旁边的上午／下午格式</string>
     <string name="ui_status_bar_clock_title">显示时钟</string>
     <string name="ui_status_bar_clock_summary">如果禁用，状态栏中的时钟将不会显示</string>
+    <string name="ui_status_bar_battery_title">电池状态样式</string>
+    <string name="ui_status_bar_battery_summary">显示电池状态的样式</string>
     <string name="ui_status_bar_compact_carrier_title">减小电信运营商名称</string>
     <string name="ui_status_bar_compact_carrier_summary">使用替代的下拉通知列格式，将电信运营商名称缩小显示</string>
     <string name="ui_status_bar_toggle_brightness">状态栏亮度控制</string>
@@ -108,6 +110,10 @@
     <!-- User interface : WebView -->
     <string name="pref_pinch_reflow_title">触摸放大后使内容自动换行</string>
     <string name="pref_pinch_reflow_summary">通过多点触摸放大网页后立即使内容按窗口自动换行</string>
+
+    <!-- User interface : Share menu for screenshots -->
+    <string name="pref_share_screenshot_title">分享屏幕截图</string>
+    <string name="pref_share_screenshot_summary">屏幕截图后显示分享菜单</string>
 
     <!-- User interface : Overscroll -->
     <string name="ui_overscroll_title">越界</string>
@@ -189,6 +195,19 @@
     <string name="trackball_reset_all">重置所有的颜色与类别设置</string>
     <string name="trackball_color_notice_title">注意：</string>
     <string name="trackball_color_notice_summary">并非所有颜色能在所有设备上显示。</string>
+    <string name="trackball_category_unconfigured">未配置</string>
+    <string name="trackball_app_email">邮箱</string>
+    <string name="trackball_app_mms">信息</string>
+    <string name="trackball_app_dialer">未接电话</string>
+    <string name="trackball_force_mode_title">LED模式</string>
+    <string name="trackball_force_mode_dialog">请选择一种模式</string>
+    <string name="trackball_force_mode_summary">配置LED的行为</string>
+    <string name="trackball_color_entry_use_app">使用应用程序默认设置</string>
+    <string name="trackball_category_misc">各种的</string>
+    <string name="trackball_app_save_title">保存</string>
+    <string name="trackball_app_save_summary">为该应用程序保存设置</string>
+    <string name="trackball_app_reset_title">重置</string>
+    <string name="trackball_app_reset_summary">移除该应用程序的自定义设置</string>
 
     <!-- Trackball color entries -->
     <string name="trackball_color_entry_green">绿色</string>
@@ -239,6 +258,8 @@
     <string name="pref_volume_wake_summary">按一下增加／减小音量键来唤醒设备。用于不方便按电源键的设备</string>
     <string name="pref_trackball_unlock_title">轨迹球解锁</string>
     <string name="pref_trackball_unlock_summary">按下轨迹球可解锁设备</string>
+    <string name="pref_slider_unlock_title">滑动键盘解锁</string>
+    <string name="pref_slider_unlock_summary">滑出键盘解锁设备</string>
     <string name="pref_menu_unlock_title">菜单键解锁</string>
     <string name="pref_menu_unlock_summary">按下菜单键可解锁设备</string>
     <string name="pref_lockscreen_quick_unlock_control_title">快速解锁</string>
@@ -714,4 +735,8 @@
     <string name="pref_lockscreen_calendar_reminders_only_summary">只查找那些有提醒设定的活动</string>
     <string name="pref_lockscreen_calendar_lookahead_title">日历活动展望</string>
     <string name="pref_lockscreen_calendar_lookahead_summary">查找日历中距今多久的未来之内的活动</string>
+    <string name="pref_lockscreen_calendar_show_location_title">显示事件的位置</string>
+    <string name="pref_lockscreen_calendar_show_location_summary">在标题下显示事件的位置</string>
+    <string name="pref_lockscreen_calendar_show_description_title">显示事件描述</string>
+    <string name="pref_lockscreen_calendar_show_description_summary">在标题下显示事件描述</string>
 </resources>
