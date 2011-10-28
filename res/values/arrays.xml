@@ -520,6 +520,9 @@
         <item>@string/gestures_toggle_sound</item>
         <item>@string/gestures_shortcut_or_activity</item>
         <item>@string/gestures_flashlight</item>
+        <item>@string/gestures_next</item>
+        <item>@string/gestures_previous</item>
+        <item>@string/gestures_playpause</item>
     </string-array>
 
     <string-array name="pref_lockscreen_style_entries">
