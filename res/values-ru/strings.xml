@@ -185,8 +185,12 @@
     <string name="trackball_category_screen">Управление категориями</string>
     <string name="trackball_category_add_title">Добавить категорию</string>
     <string name="trackball_category_add_summary">Добавить категорию в список</string>
+    <string name="trackball_category_add_error_title">Ошибка</string>
+    <string name="trackball_category_add_error_summary">Имя категории не может содержать \'=\'</string>
     <string name="trackball_category_remove_title">Удалить категорию</string>
     <string name="trackball_category_remove_summary">Удалить категорию из списка</string>
+    <string name="trackball_category_edit_title">Изменить настройки категории</string>
+    <string name="trackball_category_edit_summary">Изменить настройки по умолчанию для этой категории</string>
     <string name="trackball_reset_all">Сброс всех цветов и категорий.</string>
     <string name="trackball_color_notice_title">ПРИМЕЧАНИЕ:</string>
     <string name="trackball_color_notice_summary">На некоторых устройствах будут отображаться не все цвета</string>
@@ -272,7 +276,12 @@
     <string name="pref_menu_unlock_summary">Нажатие кнопки Меню разблокирует устройство</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Не требуется нажимать ОК после ввода пароля или PIN. Стирание засчитывается как неудачная попытка</string>
+    <string name="lockscreen_style_options_title">Специальные настройки стиля</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Запуск приложения пользователя</string>
+    <string name="pref_lockscreen_custom_app_toggle_tab_summary">Добавить второй комплект ползунков для запуска приложения пользователя</string>
+    <string name="pref_lockscreen_custom_app_toggle_rotary_summary">Добавить дополнительную кнопку для запуска приложения пользователя</string>
+    <string name="pref_lockscreen_custom_app_toggle_ring_summary">Добавить третье кольцо для запуска до 4-х приложений пользователя</string>
+
     <string name="pref_lockscreen_custom_app_toggle_summary">Добавить второй ползунок (для стиля Ползунок), приложение пользователя (для стиля Вращение) или третье кольцо (для стиля Кольца)</string>
     <string name="pref_lockscreen_custom_app_activity_title">Выбрать приложение</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">Выберите ярлык для установки</string>
@@ -316,6 +325,10 @@
      <string name="pref_lockscreen_calendar_reminders_only_summary">Отобразить события которые имеют напоминания</string>
      <string name="pref_lockscreen_calendar_lookahead_title">Просмотр будущих событий</string>
      <string name="pref_lockscreen_calendar_lookahead_summary">На сколько дней (часов) вперёд будут отображаться события в календарях</string>
+    <string name="pref_lockscreen_calendar_show_location_title">Показывать место события</string>
+    <string name="pref_lockscreen_calendar_show_location_summary">Показывать место проведения события под названием</string>
+    <string name="pref_lockscreen_calendar_show_description_title">Показывать описание события</string>
+    <string name="pref_lockscreen_calendar_show_description_summary">Показывать описание события под названием</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Ввод</string>
@@ -639,6 +652,9 @@
     <string name="quiet_hours_dim">Притушить трекбол</string>
     <string name="quiet_hours_dim_on">Трекбол будет притушен, если это возможно</string>
     <string name="quiet_hours_dim_off">Трекбол будет работать на полной яркости</string>
+    <string name="quiet_hours_haptic">Отключить отклик на нажатие</string>
+    <string name="quiet_hours_haptic_on">Отклик на нажатие выключен</string>
+    <string name="quiet_hours_haptic_off">Отклик на нажатие включен</string>
 
     <string name="cmstats_title">Анонимная статистика</string>
     <string name="cmstats_summary">Помогите сделать CM лучше, включив отправку анонимных отчётов</string>
