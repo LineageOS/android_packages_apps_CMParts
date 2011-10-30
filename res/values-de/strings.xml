@@ -186,8 +186,12 @@
     <string name="trackball_category_screen">Kategorien verwalten</string>
     <string name="trackball_category_add_title">Kategorie hinzufügen</string>
     <string name="trackball_category_add_summary">Eine Kategorie der Liste hinzufügen</string>
+    <string name="trackball_category_add_error_title">Fehler</string>
+    <string name="trackball_category_add_error_summary">Der Kategoriename darf kein \'=\' enthalten</string>
     <string name="trackball_category_remove_title">Kategorie entfernen</string>
     <string name="trackball_category_remove_summary">Eine Kategorie aus der Liste entfernen</string>
+    <string name="trackball_category_edit_title">Kategorieeinstellungen bearbeiten</string>
+    <string name="trackball_category_edit_summary">Standardeinstellungen der Kategorie ändern</string>
     <string name="trackball_reset_all">Alle Farben und Kategorien zurücksetzen</string>
     <string name="trackball_color_notice_title">Hinweis</string>
     <string name="trackball_color_notice_summary">Auf manchen Geräten sind nicht alle Farben darstellbar.</string>
@@ -226,6 +230,7 @@
     <string name="trackball_color_entry_amber">Bernstein</string>
 
     <!-- Trackball Settings : Force modes -->
+    <string name="trackball_force_mode_category">Kategorieeinstellungen</string>
     <string name="trackball_force_mode_application">Anwendungseinstellung</string>
     <string name="trackball_force_mode_off">LED immer deaktivieren</string>
     <string name="trackball_force_mode_events">LED nur bei Ereignisbenachrichtigung</string>
@@ -276,8 +281,11 @@
     <string name="pref_menu_unlock_summary">Entsperren des Gerätes durch Drücken der Menütaste</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Schnelles Entsperren</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">PIN oder Passwort ohne Bestätigung eingeben. Löschen gilt als Fehlversuch</string>
+    <string name="lockscreen_style_options_title">Stil-spezifische Optionen</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Eigener Starter</string>
-    <string name="pref_lockscreen_custom_app_toggle_summary">Zeigt einen weiteren Schieber, Mulde oder Blase (je nach Stil) zum Starten einer Anwendung an</string>
+    <string name="pref_lockscreen_custom_app_toggle_tab_summary">Zeigt einen weiteren Schieber zum Starten einer Anwendung an</string>
+    <string name="pref_lockscreen_custom_app_toggle_rotary_summary">Zeigt eine weitere Mulde zum Starten einer Anwendung an</string>
+    <string name="pref_lockscreen_custom_app_toggle_ring_summary">Zeigt eine dritte Blase zum Starten einer Anwendung an</string>
     <string name="pref_lockscreen_custom_app_activity_title">Verknüpfte Anwendung</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">Verknüpfung ändern</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">Verknüpfung löschen</string>
@@ -319,6 +327,10 @@
     <string name="pref_lockscreen_calendar_reminders_only_summary">Nur Termine mit Erinnerungen berücksichtigen</string>
     <string name="pref_lockscreen_calendar_lookahead_title">Zeitraum</string>
     <string name="pref_lockscreen_calendar_lookahead_summary">Zeitraum, für den Termine in der Zukunft berücksichtigt werden</string>
+    <string name="pref_lockscreen_calendar_show_location_title">Ort anzeigen</string>
+    <string name="pref_lockscreen_calendar_show_location_summary">Ort des Termins unterhalb des Titels anzeigen</string>
+    <string name="pref_lockscreen_calendar_show_description_title">Beschreibung anzeigen</string>
+    <string name="pref_lockscreen_calendar_show_description_summary">Beschreibung des Termins unterhalb des Titels anzeigen</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Eingabeeinstellungen</string>
@@ -434,7 +446,7 @@
     <string name="pref_lock_mms_summary">Versuchen, die MMS-Anwendung im Speicher zu halten, um zu verhinden, dass Nachrichten bei wenig Speicher verloren gehen</string>
 
     <!-- Performance Settings : Warning dialog -->
-    <string name="performance_settings_warning_title">HC SVNT DRACONES</string>
+    <string name="performance_settings_warning_title">VORSICHT: Drachen vorraus!</string>
     <string name="performance_settings_warning">Diese Optionen beeinflussen die Leistung des Systems, möglicherweise zum Schlechten. Die Optionen sind zum Experimentieren gedacht - bitte melden Sie keine Fehler, wenn Sie die Standardeinstellungen geändert haben.</string>
 
     <!-- Application Settings -->
@@ -640,6 +652,9 @@
     <string name="quiet_hours_dim">LED abdunkeln</string>
     <string name="quiet_hours_dim_on">LED wird abgedunkelt (wenn möglich)</string>
     <string name="quiet_hours_dim_off">LED behält volle Helligkeit</string>
+    <string name="quiet_hours_haptic">Haptisches Feedback abschalten</string>
+    <string name="quiet_hours_haptic_on">Haptisches Feedback ist aus</string>
+    <string name="quiet_hours_haptic_off">Haptisches Feedback ist an</string>
 
     <string name="cmstats_title">Anonyme Statistiken</string>
     <string name="cmstats_summary">Helfen Sie mit, CyanogenMod durch anonyme Gerätestatistiken zu verbessern</string>
