@@ -265,6 +265,10 @@
     <string name="pref_lockscreen_calendar_reminders_only_summary">N\'afficher que les événements avec rappel (alarme)</string>
     <string name="pref_lockscreen_calendar_lookahead_title">Période</string>
     <string name="pref_lockscreen_calendar_lookahead_summary">Plage de recherche des événements à prendre en compte</string>
+    <string name="pref_lockscreen_calendar_show_location_title">Afficher le lieu</string>
+    <string name="pref_lockscreen_calendar_show_location_summary">Affiche le lieu de l\'évenement sous son titre</string>
+    <string name="pref_lockscreen_calendar_show_description_title">Afficher la description</string>
+    <string name="pref_lockscreen_calendar_show_description_summary">Affiche la description sous son titre</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Paramètres des entrées</string>
@@ -577,9 +581,13 @@
     <string name="quiet_hours_still">Désactiver les vibrations</string>
     <string name="quiet_hours_still_on">Le téléphone ne vibrera pas</string>
     <string name="quiet_hours_still_off">Le téléphone vibrera normalement</string>
-    <string name="quiet_hours_dim">Diminuer éclairage LED</string>
-    <string name="quiet_hours_dim_on">La LED éclairera avec moins de puissance</string>
-    <string name="quiet_hours_dim_off">La LED éclairera avec le maximum de puissance</string>
+    <string name="quiet_hours_dim">Puissance des LEDs</string>
+    <string name="quiet_hours_dim_on">La puissance des LEDs est réduite (si possible)</string>
+    <string name="quiet_hours_dim_off">Fonctionnement normal</string>
+    <string name="quiet_hours_haptic">Désactiver retour haptique</string>
+    <string name="quiet_hours_haptic_on">Le retour haptique est désactivé</string>
+    <string name="quiet_hours_haptic_off">Le retour haptique est actif</string>
+
 
     <string name="cmstats_title">Statistiques anonymes</string>
     <string name="cmstats_summary">Aidez CyanogenMod en participant à l\'envoi de statistiques anonymes. Ceci permet de comptabiliser le nombre d\'installations actives par type d\'appareil</string>

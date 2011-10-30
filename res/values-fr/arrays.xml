@@ -120,6 +120,12 @@
         <item>1 semaine</item>
     </string-array>
 
+    <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
+        <item>Ne pas afficher</item>
+        <item>Première ligne</item>
+        <item>Afficher tout</item>
+    </string-array>
+
     <string-array name="pref_overscroll_effect_entries">
         <item>Aucun</item>
         <item>Lueur</item>
