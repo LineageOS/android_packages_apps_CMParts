@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAK3///9g\u003d",
+        "filename": "res/values-ru/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 305
+      },
+      "writtenOn": "2011-10-30T10:31:59Z",
+      "side": 1,
+      "message": "pervuyu",
+      "revId": "fcf22d175c1921766026e01b0a6c536f7d779b8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
