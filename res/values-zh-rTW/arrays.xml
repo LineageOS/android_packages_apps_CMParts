@@ -96,6 +96,8 @@
 
     <!-- skipping untranslatable /resources:0/string-array:name=pref_trackball_blink_rate_values -->
 
+    <!-- skipping untranslatable /resources:0/string-array:name=pref_trackball_force_mode_entries -->
+
     <!-- skipping untranslatable /resources:0/string-array:name=pref_trackball_force_mode_values -->
 
     <string-array name="pref_lockscreen_delay_entries">
@@ -315,6 +317,14 @@
     </string-array>
 
     <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_calendar_lookahead_values -->
+
+    <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
+        <item>不要顯示</item>
+        <item>顯示首行</item>
+        <item>顯示全文</item>
+    </string-array>
+
+    <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_calendar_show_event_metadata_values -->
 
     <string-array name="pref_overscroll_effect_entries">
         <item>無</item>
