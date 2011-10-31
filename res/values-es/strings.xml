@@ -91,15 +91,24 @@
 
     <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">Ajustes de la barra de estado</string>
-        <string name="ui_status_bar_am_pm_title">Estilo AM/PM</string>
+    <string name="ui_status_bar_am_pm_title">Estilo AM/PM</string>
     <string name="ui_status_bar_am_pm_summary">Ver estilo de AM/PM siguiente del reloj</string>
     <string name="ui_status_bar_clock_title">Mostrar reloj</string>
     <string name="ui_status_bar_clock_summary">Se esconde si se deshabilita</string>
-    <string name="ui_status_bar_compact_carrier_title">Etiqueta de compañía compacta</string>
+    <string name="ui_status_bar_battery_title">Estilo del indicador de batería</string>
+    <string name="ui_status_bar_battery_summary">Mostrar el estilo del indicador de batería</string>
+    <string name="ui_status_bar_compact_carrier_title">Etiqueta compacta de operador</string>
     <string name="ui_status_bar_compact_carrier_summary">Usar un diseño alternativo de notificación desplegable con la etiqueta de compañía pequeña</string>
     <string name="ui_status_bar_toggle_brightness">Barra de estado de control de brillo</string>
     <string name="ui_status_bar_toggle_brightness_summary">Permite el ajuste de brillo deslizando a través de la barra de estado</string>
     <string name="ui_status_bar_toggle_info">Brillo automático está habilitado</string>
+    <string name="ui_status_bar_cm_signal_text_title">Estilo alternativo para señal</string>
+    <string name="ui_status_bar_cm_signal_text_summary">Mostrar valor en dBm en lugar de barras de señal</string>
+    <string name="ui_status_bar_cm_signal_text_show_bars">Señal con barras</string>
+    <string name="ui_status_bar_cm_signal_text_show_text">Señal con texto</string>
+    <string name="ui_status_bar_cm_signal_text_show_text_dbm">Señal con texto y dBm</string>
+    <string name="ui_status_bar_headset_title">Mostrar el icono de auriculares</string>
+    <string name="ui_status_bar_headset_summary">El icono de auriulares aparecerá cuando éstos sean enchufados</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notificaciones LED</string>
@@ -108,6 +117,10 @@
     <!-- User interface : WebView -->
     <string name="pref_pinch_reflow_title">Regenerar después de zoom</string>
     <string name="pref_pinch_reflow_summary">Regenerar contenido inmediatamente después de pellizcar para hacer zoom</string>
+
+    <!-- User interface : Share menu for screenshots -->
+    <string name="pref_share_screenshot_title">Compartir capturas de pantalla</string>
+    <string name="pref_share_screenshot_summary">Mostrar el menú "Compartir" al tomar una captura</string>
 
     <!-- User interface : Overscroll -->
     <string name="ui_overscroll_title">Superposición</string>
@@ -118,12 +131,29 @@
 
     <!-- User interface : Lock Screen -->
     <string name="pref_lockscreen_delay_title">Tiempo de espera</string>
+    <string name="pref_lockscreen_security_title">Bloqueo de seguridad</string>
+    <string name="pref_lockscreen_security_delay_note_title">Nota</string>
+    <string name="pref_lockscreen_security_delay_note_summary">Mientras el bloqueo de seguridad esté a NINGUNO sólo la configuración de retraso de bloqueo será utilizada</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay">Tiempo de espera de pantalla</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay">Tiempo de espera de pantalla apagada</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay_summary">Tiempo de espera para habilitar el bloqueo de seguridad tras la suspensión de la pantalla</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay_summary">Tiempo de espera para habilitar el bloqueo de seguridad tras el apagado de la pantalla</string>
+    <string name="pref_lockscreen_slide_title">Bloqueo deslizante</string>
+    <string name="pref_lockscreen_slide_delay_note_title">Nota</string>
+    <string name="pref_lockscreen_slide_delay_note_summary">Incluso si está habilitado, el bloqueo deslizante sólo aparecerá si el retraso del bloqueo de seguridad es superior al retraso del bloqueo deslizante</string>
+    <string name="pref_lockscreen_slide_delay_title">Habilitar retraso del bloqueo deslizante</string>
+    <string name="pref_lockscreen_slide_delay_summary">Muestra el bloqueo deslizante en un retraso adicional antes de mostrar el bloqueo de seguridad</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay">Tiempo de suspensión de pantalla</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay">Tiempo de apagado de pantalla</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay_summary">Cuánto esperar antes de habilitar el bloqueo deslizante cuando la pantalla se suspende</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay_summary">Cuánto esperar antes de habilitar el bloqueo deslizante cuando la pantalla se apaga</string>
 
     <!-- Color Picker -->
     <string name="title_color_picker">Escoge un color</string>
     <string name="msg_color_picker">Pulsa el color del centro para confirmar.\nPulsa atrás para cancelar</string>
 
     <!-- User interface: LED notifications -->
+    <string name="group_settings">Ajustes</string>
     <string name="dialog_color_trackball">Escoge un color</string>
     <string name="dialog_blink_trackball">Elija un ratio de parpadeo</string>
     <string name="color_trackball_flash_title">Color del Flash</string>
@@ -156,13 +186,38 @@
     <string name="trackball_category_screen">Mantenimiento de Categorías</string>
     <string name="trackball_category_add_title">Añadir categoría</string>
     <string name="trackball_category_add_summary">Añadir categoría a la lista</string>
+    <string name="trackball_category_add_error_title">ERROR</string>
+    <string name="trackball_category_add_error_summary">El nombre de la categoría no contiene \'=\'</string>
     <string name="trackball_category_remove_title">Eliminar categoría</string>
     <string name="trackball_category_remove_summary">Eliminar categoría de la lista</string>
-    <string name="trackball_reset_all">Reiniciar todos los colores y categorías.</string>
+    <string name="trackball_category_edit_title">Editar ajustes de la categoría</string>
+    <string name="trackball_category_edit_summary">Editar los ajustes predeterminados para esta categoría</string>
+    <string name="trackball_reset_all">Reiniciar todos los colores y categorías</string>
     <string name="trackball_color_notice_title">NOTA:</string>
     <string name="trackball_color_notice_summary">No todos los colores se verán en todos los dispositivos</string>
+    <string name="trackball_category_unconfigured">No configurado</string>
+    <string name="trackball_category_misc">Miscellánea</string>
+    <string name="trackball_app_save_title">Guardar</string>
+    <string name="trackball_app_save_summary">Guardar ajustes para esta aplicación</string>
+    <string name="trackball_app_reset_title">Limpiar</string>
+    <string name="trackball_app_reset_summary">Eliminar ajustes personalizados de esta aplicación</string>
+
+    <string name="trackball_force_mode_title">Modo del LED</string>
+    <string name="trackball_force_mode_dialog">Por favor elija un modo</string>
+    <string name="trackball_force_mode_summary">Configura el comportamiento de los LED</string>
+
+    <string name="trackball_app_email">Email</string>
+    <string name="trackball_app_mms">Mensajes</string>
+    <string name="trackball_app_gvoice">Google Voice</string>
+    <string name="trackball_app_gmail">Gmail</string>
+    <string name="trackball_app_gtalk">GTalk</string>
+    <string name="trackball_app_twitter">Twitter</string>
+    <string name="trackball_app_twicca">Twicca</string>
+    <!-- Say Missed Call instead of "Dialer" as the notification is for the missed call -->
+    <string name="trackball_app_dialer">Llamada perdida</string>
 
     <!-- Trackball color entries -->
+    <string name="trackball_color_entry_use_app">Usar ajustes de aplicación</string>
     <string name="trackball_color_entry_green">Verde</string>
     <string name="trackball_color_entry_white">Blanco</string>
     <string name="trackball_color_entry_red">Rojo</string>
@@ -176,11 +231,20 @@
     <string name="trackball_color_entry_random">Aleatorio</string>
     <string name="trackball_color_entry_amber">Ambar</string>
 
+    <!-- Trackball Settings : Force modes -->
+    <string name="trackball_force_mode_category">Emplear ajustes de categoría</string>
+    <string name="trackball_force_mode_application">Emplear ajustes de aplicación</string>
+    <string name="trackball_force_mode_off">Forzar LED apagado</string>
+    <string name="trackball_force_mode_events">Forzar LED encendido en eventos</string>
+    <string name="trackball_force_mode_on">Forzar LED encendido</string>
+
     <!-- Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">ATENCION: Puede aumentar el consumo de la batería</string>
     <string name="notification_battery_warning">Esta opción incrementa el consumo de batería en ~3% por hora. Si nota un incremento del consumo durante el parpadeo de las luces de la bola de navegación desactive esta opción.</string>
 
     <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_disable_on_security_title">Saltar en modo seguro</string>
+    <string name="pref_lockscreen_disable_on_security_summary">Deshabilitar la pantalla de bloqueo si hay habilitado bloqueo de seguridad (patrón, PIN, clave)</string>
     <string name="pref_lockscreen_stylecfg_title">Configuración de estilo</string>
     <string name="pref_lockscreen_stylecfg_summary">Establecer las opciones relacionadas con la pantalla bloqueada</string>
     <string name="pref_lockscreen_widgets_title">Opciones de Widget</string>
@@ -193,8 +257,18 @@
     <string name="pref_lockscreen_timeout_summary">Establecer el tiempo de espera para la pantalla y el tiempo de apagado</string>
 
     <!-- Lockscreen Settings -->
+    <string name="pref_lockscreen_always_battery_title">Siempre mostrar el estado de batería</string>
+    <string name="pref_lockscreen_always_battery_summary">Mostrar el estado de batería en la pantalla de bloqueo en cualquier momento</string>
+    <string name="pref_lockscreen_widgets_layout_title">Comportamiento de widgets</string>
+    <string name="pref_lockscreen_widgets_layout_summary">Ajustar comportamiento del reloj, fecha, operador ó estatus</string>
     <string name="pref_lockscreen_music_controls_title">Controles de música del protector de pantalla</string>
     <string name="pref_lockscreen_music_controls_summary">Muestra los controles de música en el protector de pantalla</string>
+    <string name="pref_lockscreen_now_playing_title">Mostrar el nombre de la canción</string>
+    <string name="pref_lockscreen_now_playing_summary">Mostrar el nombre y el artista de la canción actualmente en reproducción</string>
+    <string name="pref_lockscreen_album_art_title">Mostrar portada del album</string>
+    <string name="pref_lockscreen_album_art_summary">Mostrar la portada del album correspondiente a la canción actual. Sólo funciona con el reproductor predeterminado en modo apaisado</string>
+    <string name="pref_lockscreen_music_headset_title">Mostrar los controles de música con auriculares</string>
+    <string name="pref_lockscreen_music_headset_summary">Se muestran los controles de música cuando se conectan auriculares, tanto de cable como Bluetooth A2DP</string>
     <string name="pref_lockscreen_always_music_controls_title">Mostrar siempre los controles de música</string>
     <string name="pref_lockscreen_always_music_controls_summary">Mostrar los controles de música sin importar si está sonando</string>
     <string name="pref_trackball_wake_title">Activación con bola de navegación</string>
@@ -388,7 +462,7 @@
     <string name="summary_widget_picker">Elegir los botones del widget</string>
     <string name="title_widget_order">Orden de los botones</string>
     <string name="summary_widget_order">Ordenar los botones del widget</string>
-        <string name="title_buttons">Botones</string>
+    <string name="title_buttons">Botones</string>
     <string name="title_toggle_wifi">Interruptor Wifi</string>
     <string name="title_toggle_bluetooth">Interruptor Bluetooth</string>
     <string name="title_toggle_gps">Interruptor GPS</string>
