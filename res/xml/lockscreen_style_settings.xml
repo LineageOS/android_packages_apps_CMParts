@@ -68,4 +68,9 @@
         android:title="@string/pref_lockscreen_custom_app_activity_title"
         android:order="50" />
 
+    <CheckBoxPreference android:key="pref_lockscreen_ring_unlock_middle_toggle"
+        android:title="@string/pref_lockscreen_ring_unlock_middle_title"
+        android:summary="@string/pref_lockscreen_ring_unlock_middle_summary" 
+        android:order="60" />
+
 </PreferenceScreen>
