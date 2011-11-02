@@ -116,13 +116,13 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
                 Settings.System.LOCKSCREEN_ALWAYS_BATTERY, 0) == 1);
 
         /* Calendars */
+        CalendarEntries calEntries = CalendarEntries.findCalendars(getContentResolver());
         mCalendarsPref = (MultiSelectListPreference) prefSet.findPreference(LOCKSCREEN_CALENDARS);
+        mCalendarsPref.setEntries(calEntries.getEntries());
+        mCalendarsPref.setEntryValues(calEntries.getEntryValues());
         mCalendarsPref.setValue(Settings.System.getString(getContentResolver(),
                 Settings.System.LOCKSCREEN_CALENDARS));
         mCalendarsPref.setOnPreferenceChangeListener(this);
-        CalendarEntries calEntries = CalendarEntries.findCalendars(getContentResolver());
-        mCalendarsPref.setEntries(calEntries.getEntries());
-        mCalendarsPref.setEntryValues(calEntries.getEntryValues());
 
         /* Calendar Reminders Only */
         mCalendarRemindersOnlyPref = (CheckBoxPreference) prefSet
