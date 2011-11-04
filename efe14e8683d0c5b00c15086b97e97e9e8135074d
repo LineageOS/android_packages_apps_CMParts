@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAK3///SA\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 449,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-11-04T14:15:17Z",
+      "side": 1,
+      "message": "\u0027voraus\u0027 schreibt sich nur mit einem \u0027r\u0027.\nDa der Gag aber ohnehin nicht so richtig rüberkommt, würde ich das vielleicht zu \u0027VORSICHT!\u0027 abkürzen.",
+      "revId": "efe14e8683d0c5b00c15086b97e97e9e8135074d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
