@@ -16,6 +16,23 @@
       "revId": "efe14e8683d0c5b00c15086b97e97e9e8135074d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAK3///R0\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 449,
+      "author": {
+        "id": 1951
+      },
+      "writtenOn": "2011-11-04T14:35:53Z",
+      "side": 1,
+      "message": "\"VORSICHT: Heiß\" würde wohl auch passen und birgt zumindest noch einen gewissen Witz.",
+      "revId": "efe14e8683d0c5b00c15086b97e97e9e8135074d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
