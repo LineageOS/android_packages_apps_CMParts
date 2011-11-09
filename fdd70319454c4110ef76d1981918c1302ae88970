@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAALH///iE\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 236,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2011-11-09T04:28:31Z",
+      "side": 1,
+      "message": "Tudom, hogy az angolban ott van, és nem is baj, ha nem változtatsz rajta, de szerintem szebb lenne, ha nem lenne a kettöspontok elött szoköz.",
+      "revId": "fdd70319454c4110ef76d1981918c1302ae88970",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAALH///iA\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 424,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2011-11-09T04:28:31Z",
+      "side": 1,
+      "message": "... ha több gomb van beállítva, mint amennyi kifér.",
+      "revId": "fdd70319454c4110ef76d1981918c1302ae88970",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAALH///h8\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 659,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2011-11-09T04:28:31Z",
+      "side": 1,
+      "message": "CyanogenMod csapatnak...",
+      "revId": "fdd70319454c4110ef76d1981918c1302ae88970",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAALH///h4\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 685,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2011-11-09T04:28:31Z",
+      "side": 1,
+      "message": "Képmentés után mutassa a megosztási lehetöségeket. (Hosszú ö-vel, nyilván)",
+      "revId": "fdd70319454c4110ef76d1981918c1302ae88970",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAALH///h0\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 689,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2011-11-09T04:28:31Z",
+      "side": 1,
+      "message": "megjelentítési hibák jobb lenne szerintem",
+      "revId": "fdd70319454c4110ef76d1981918c1302ae88970",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAALH///hw\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 693,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2011-11-09T04:28:31Z",
+      "side": 1,
+      "message": "Na nem csodálom, ha ezt nem próbáltad meg lefordítani, viszont fölöslegesen ne legyen benn angolul, annak megvan a saját fájlja.",
+      "revId": "fdd70319454c4110ef76d1981918c1302ae88970",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
