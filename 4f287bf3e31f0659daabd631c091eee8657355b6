@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAALH///RQ\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 557,
+      "author": {
+        "id": 2016
+      },
+      "writtenOn": "2011-11-12T02:32:40Z",
+      "side": 1,
+      "message": "Rezg? visszajelzés letiltása",
+      "revId": "4f287bf3e31f0659daabd631c091eee8657355b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAALH///RM\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 558,
+      "author": {
+        "id": 2016
+      },
+      "writtenOn": "2011-11-12T02:32:40Z",
+      "side": 1,
+      "message": "A rezg? visszajelzés le van tiltva",
+      "revId": "4f287bf3e31f0659daabd631c091eee8657355b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAALH///RI\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 559,
+      "author": {
+        "id": 2016
+      },
+      "writtenOn": "2011-11-12T02:32:40Z",
+      "side": 1,
+      "message": "A rezg? visszajelzés engedélyezve van",
+      "revId": "4f287bf3e31f0659daabd631c091eee8657355b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
