@@ -254,4 +254,10 @@
         <item>Скрытый</item>
     </string-array>
 
+    <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
+        <item>Не показывать</item>
+        <item>Показывать первую строку</item>
+        <item>Показывать всё</item>
+    </string-array>
+
 </resources>
