@@ -186,8 +186,12 @@
     <string name="trackball_category_screen">Gestisci Categorie</string>
     <string name="trackball_category_add_title">Aggiungi categoria</string>
     <string name="trackball_category_add_summary">Aggiungi una categoria alla lista</string>
+    <string name="trackball_category_add_error_title">ERRORE</string>
+    <string name="trackball_category_add_error_summary">Il nome della categoria non può contenere \'=\'</string>
     <string name="trackball_category_remove_title">Rimuovi categoria</string>
     <string name="trackball_category_remove_summary">Rimuovi una categoria dalla lista</string>
+    <string name="trackball_category_edit_title">Modifica imp. categoria</string>
+    <string name="trackball_category_edit_summary">Modifica le impostazioni di default per questa categoria</string>
     <string name="trackball_reset_all">Ripristina le app e le categorie</string>
     <string name="trackball_color_notice_title">NOTA:</string>
     <string name="trackball_color_notice_summary">Alcuni dispositivi non sono in grado di visualizzare tutti i colori disponibili.</string>
@@ -278,8 +282,11 @@
     <string name="pref_menu_unlock_summary">Sblocca il telefono premendo il tasto menu</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Sblocco veloce</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Non è richiesto premere OK dopo aver inserito il PIN o la Password. Cancellare conta come tentativo fallito.</string>
-    <string name="pref_lockscreen_custom_app_toggle_title">App personalizzata</string>
-    <string name="pref_lockscreen_custom_app_toggle_summary">Aggiunge un secondo tab nel lockscreen a tab scorrevoli, l\'icona dell\'app nel lockscreen rotante o un terzo anello nel lockscreen ad anelli.</string>
+    <string name="lockscreen_style_options_title">Opzioni specifiche per questo stile</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">Lanciatore applicazione</string>
+    <string name="pref_lockscreen_custom_app_toggle_tab_summary">Visualizza un secondo set di tab scorrevoli per avviare un\'app personalizzata</string>
+    <string name="pref_lockscreen_custom_app_toggle_rotary_summary">Visualizza un\'icona per avviare un\'app personalizzata</string>
+    <string name="pref_lockscreen_custom_app_toggle_ring_summary">Visualizza un terzo anello per avviare fino a quattro app personalizzate</string>
     <string name="pref_lockscreen_custom_app_activity_title">Applicazione personalizzata</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">Seleziona il collegamento da aggiungere</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">Seleziona il collegamento da rimuovere</string>
@@ -321,6 +328,10 @@
     <string name="pref_lockscreen_calendar_reminders_only_summary">Tieni in considerazione solo gli eventi con promemoria</string>
     <string name="pref_lockscreen_calendar_lookahead_title">Intervallo di ricerca</string>
     <string name="pref_lockscreen_calendar_lookahead_summary">Seleziona l\'intervallo di tempo entro il quale cercare i prossimi eventi</string>
+    <string name="pref_lockscreen_calendar_show_location_title">Visualizza luogo evento</string>
+    <string name="pref_lockscreen_calendar_show_location_summary">Visualizza il luogo dell\'evento sotto il titolo</string>
+    <string name="pref_lockscreen_calendar_show_description_title">Visualizza descrizione evento</string>
+    <string name="pref_lockscreen_calendar_show_description_summary">Visualizza la descrizione dell\'evento sotto il titolo</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Impostazioni input</string>
@@ -643,6 +654,9 @@
     <string name="quiet_hours_dim">Spegni LED</string>
     <string name="quiet_hours_dim_on">Possibilmente il LED rimarrà spento</string>
     <string name="quiet_hours_dim_off">Il LED pulserà normalmente</string>
+    <string name="quiet_hours_haptic">Disattiva feedback aptico</string>
+    <string name="quiet_hours_haptic_on">Feedback aptico non attivo</string>
+    <string name="quiet_hours_haptic_off">Feedback aptico attivo</string>
 
     <string name="cmstats_title">Statistiche anonime</string>
     <string name="cmstats_summary">Aiuta a migliorare CM accettando l\'invio di statistiche di utilizo anonime</string>
