@@ -49,10 +49,10 @@ public class GestureCreateActivity extends Activity implements ShortcutPickHelpe
     private static final int ACTION_POSITION_UNLOCK = 0;
     private static final int ACTION_POSITION_SOUND = 1;
     private static final int ACTION_POSITION_SHORTCUT = 2;
-    private static final int ACTION_POSITION_FLASHLIGHT = 3;
-    private static final int ACTION_POSITION_NEXT = 4;
-    private static final int ACTION_POSITION_PREVIOUS = 5;
-    private static final int ACTION_POSITION_PLAYPAUSE = 6;
+    private static final int ACTION_POSITION_NEXT = 3;
+    private static final int ACTION_POSITION_PREVIOUS = 4;
+    private static final int ACTION_POSITION_PLAYPAUSE = 5;
+    private static final int ACTION_POSITION_FLASHLIGHT = 6;
 
     private Gesture mGesture;
 
