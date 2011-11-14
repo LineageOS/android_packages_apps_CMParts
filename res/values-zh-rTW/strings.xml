@@ -186,8 +186,12 @@
     <string name="trackball_category_screen">管理分類</string>
     <string name="trackball_category_add_title">新增分類</string>
     <string name="trackball_category_add_summary">為列表新增一個分類</string>
+    <string name="trackball_category_add_error_title">錯誤</string>
+    <string name="trackball_category_add_error_summary">分類名稱不可包含“=”</string>
     <string name="trackball_category_remove_title">移除分類</string>
     <string name="trackball_category_remove_summary">從列表移除一個分類</string>
+    <string name="trackball_category_edit_title">編輯分類設定</string>
+    <string name="trackball_category_edit_summary">編輯此分類的預設值</string>
     <string name="trackball_reset_all">重設所有色彩與分類</string>
     <string name="trackball_color_notice_title">注意</string>
     <string name="trackball_color_notice_summary">並非每一款裝置都能夠顯示全部每一種色彩</string>
@@ -228,6 +232,7 @@
     <string name="trackball_color_entry_amber">琥珀</string>
 
     <!-- Trackball Settings : Force modes -->
+    <string name="trackball_force_mode_category">使用分類設定</string>
     <string name="trackball_force_mode_application">使用應用程式設定</string>
     <string name="trackball_force_mode_off">強制關閉 LED</string>
     <string name="trackball_force_mode_events">為進行中事件強制開啟 LED</string>
@@ -278,8 +283,11 @@
     <string name="pref_menu_unlock_summary">按一下選單鍵解除裝置鎖定</string>
     <string name="pref_lockscreen_quick_unlock_control_title">快速解鎖</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">輸入 PIN 或密碼時無需按 OK 確定，刪除會被視作輸入錯誤。</string>
+    <string name="lockscreen_style_options_title">特定風格相關選項</string>
     <string name="pref_lockscreen_custom_app_toggle_title">啟動自訂應用程式</string>
-    <string name="pref_lockscreen_custom_app_toggle_summary">視乎鎖定螢幕風格，以額外的滑桿、撥輪孔、或飛環來啟動自訂應用程式</string>
+    <string name="pref_lockscreen_custom_app_toggle_tab_summary">顯示一組額外的滑桿來啟動自訂應用程式</string>
+    <string name="pref_lockscreen_custom_app_toggle_rotary_summary">顯示自訂應用程式撥輪孔來啟動自訂應用程式</string>
+    <string name="pref_lockscreen_custom_app_toggle_ring_summary">顯示第三個飛環來啟動多至四個自訂應用程式的其中之一</string>
     <string name="pref_lockscreen_custom_app_activity_title">自訂應用程式</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">選擇要設置的捷徑</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">選擇要移除的捷徑</string>
@@ -321,6 +329,10 @@
     <string name="pref_lockscreen_calendar_reminders_only_summary">只尋找那些有提醒設定的活動</string>
     <string name="pref_lockscreen_calendar_lookahead_title">日曆活動展望</string>
     <string name="pref_lockscreen_calendar_lookahead_summary">尋找日曆中距今多久的未來之內的活動</string>
+    <string name="pref_lockscreen_calendar_show_location_title">顯示活動地點</string>
+    <string name="pref_lockscreen_calendar_show_location_summary">在主題下面顯示活動地點</string>
+    <string name="pref_lockscreen_calendar_show_description_title">顯示活動說明</string>
+    <string name="pref_lockscreen_calendar_show_description_summary">在主題下面顯示活動說明</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">輸入設定</string>
@@ -328,7 +340,6 @@
     <string name="haptic_summary">設定觸動回饋的時機和強度</string>
     <string name="long_press_home_title">長按主畫面鍵設定</string>
     <string name="long_press_home_summary">自訂長按主畫面鍵的行為</string>
-
     <string name="input_search_key_title">搜尋鍵行為</string>
     <string name="input_search_key_summary">為按一下搜尋鍵及長按搜尋鍵定義自訂動作</string>
     <string name="pref_input_custom_search_app_toggle_title">搜尋鍵應用程式</string>
@@ -336,7 +347,6 @@
     <string name="pref_input_custom_search_app_activity_title">自訂應用程式</string>
     <string name="pref_input_custom_long_search_app_toggle_title">長按搜尋鍵應用程式</string>
     <string name="pref_input_custom_long_search_app_toggle_summary">長按搜尋鍵時啟動的自訂應用程式</string>
-
     <string name="pref_backtrack_title">BackTrack 解控板</string>
     <string name="pref_backtrack_summary">啟用／停用 BackTrack 機背觸控板</string>
 
@@ -466,13 +476,13 @@
     <string name="pref_power_prompt_title">電源操作提示</string>
     <string name="pref_power_prompt_summary">變更是否要在選擇關閉或重啟裝置時顯示確認提示</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">渲染效果</string>
-    <string name="pref_render_effect_summary">變更描繪螢幕的顏色（很可能會節省電力）</string>
-
     <!-- UI Settings : Haptic feedback -->
     <string name="expanded_haptic_feedback_title">觸動回饋</string>
     <string name="expanded_haptic_feedback_summary">啟用／停用觸動回饋</string>
+
+    <!-- UI Settings : Render effect -->
+    <string name="pref_render_effect_title">渲染效果</string>
+    <string name="pref_render_effect_summary">變更描繪螢幕的顏色（很可能會節省電力）</string>
 
     <string name="widget_name">渲染效果小工具</string>
     <string name="renderfx_temp">渲染效果</string>
@@ -623,6 +633,7 @@
     <string name="sound_notifications_limitvol_dialog">通知音量</string>
     <string name="sound_rings_limitvol_dialog">鈴聲音量</string>
     <string name="sound_alarms_limitvol_dialog">鬧鐘音量</string>
+
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">安靜時刻</string>
     <string name="quiet_hours_note_title">注意</string>
@@ -643,6 +654,9 @@
     <string name="quiet_hours_dim">將 LED 變暗</string>
     <string name="quiet_hours_dim_on">若可能的話將會令 LED 變暗</string>
     <string name="quiet_hours_dim_off">LED 將會如常發光</string>
+    <string name="quiet_hours_haptic">停用觸動回饋</string>
+    <string name="quiet_hours_haptic_on">觸動回饋已停用</string>
+    <string name="quiet_hours_haptic_off">觸動回饋已啟用</string>
 
     <string name="cmstats_title">匿名資料統計</string>
     <string name="cmstats_summary">參與志願性的匿名資料統計來協助 CyanogenMod 的改進</string>
