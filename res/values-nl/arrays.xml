@@ -29,6 +29,18 @@
         <item>Geen (Standaard)</item>
     </string-array>
 
+    <string-array name="entries_status_bar_battery">
+        <item>Icoon (Default)</item>
+        <item>Percentage</item>
+        <item>Verborgen</item>
+    </string-array>
+
+    <string-array name="haptic_feedback_entries">
+        <item>Algemene instellingen</item>
+        <item>Aan</item>
+        <item>Uit</item>
+    </string-array>
+
     <string-array name="pref_trackball_blink_rate_entries">
         <item>2 (Snel)</item>
         <item>3</item>
@@ -161,11 +173,39 @@
         <item>Draaiend (nieuw)</item>
         <item>Ring</item>
     </string-array>
+
+    <string-array name="pref_lockscreen_background_entries">
+        <item>Kleur</item>
+        <item>Te kiezen afbeelding</item>
+        <item>Standaard achtergrond</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_widget_layout_entries">
+        <item>Standaard</item>
+        <item>Verborgen</item>
+        <item>Gecentreerd</item>
+    </string-array>
+
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>Uitgeschakeld</item>
         <item>Bedraadde headset</item>
         <item>Bluetooth A2DP Headset</item>
         <item>Beiden</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_lookahead_entries">
+        <item>3 uren</item>
+        <item>6 uren</item>
+        <item>12 uren</item>
+        <item>1 dag</item>
+        <item>3 dagen</item>
+        <item>1 week</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
+        <item>Verberg</item>
+        <item>Laat eerste regen zien</item>
+        <item>Geef helemaal weer</item>
     </string-array>
 
     <string-array name="pref_overscroll_effect_entries">
@@ -207,4 +247,13 @@
         <item>Volume hoger</item>
         <item>Volume lager</item>
     </string-array>
+
+    <string-array name="entries_long_press_menu">
+        <item>Geen</item>
+        <item>Soft keyboard</item>
+        <item>Zoek knop</item>
+        <item>Zelf gekozen app</item>
+        <item>Toggle statusbalk</item>
+    </string-array>
+
 </resources> 
