@@ -724,6 +724,4 @@
     <string name="pref_slider_unlock_summary">Ao abrir o teclado o dispositivo é destravado</string>
     <string name="pref_share_screenshot_title">Compartilhar capturas de tela</string>
     <string name="pref_share_screenshot_summary">Mostrar menu para compartilhar quando capturar a tela</string>
-    <string name="ui_status_bar_battery_title">Estilo da bateria</string>
-    <string name="ui_status_bar_battery_summary">Mostrar estilo do estado da bateria</string>
 </resources>
