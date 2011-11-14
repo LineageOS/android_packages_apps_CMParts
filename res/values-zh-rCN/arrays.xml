@@ -200,6 +200,12 @@
         <item>有线 + 蓝牙耳机</item>
     </string-array>
 
+    <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
+        <item>不显示</item>
+        <item>显示第一行</item>
+        <item>显示所有</item>
+    </string-array>
+
     <string-array name="pref_overscroll_effect_entries">
         <item>无</item>
         <item>边缘发亮</item>
@@ -273,6 +279,19 @@
         <item>填充颜色</item>
         <item>自定义图片</item>
         <item>默认墙纸</item>
+    </string-array>
+
+    <string-array name="pref_trackball_force_mode_entries">
+	<item>使用程序默认设置</item>
+	<item>强制LED关闭</item>
+	<item>强制为所有事件开启LED</item>
+	<item>强制LED开启</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_battery">
+	<item>图标(默认)</item>
+	<item>百分比</item>
+	<item>隐藏</item>
     </string-array>
 
 </resources>
