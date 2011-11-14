@@ -273,6 +273,10 @@
     <string name="pref_lockscreen_ring_custom_apps_dialog_add">新增</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_remove">移除</string>
     <string name="pref_lockscreen_ring_custom_apps_notset">未设置</string>
+    <string name="pref_lockscreen_ring_unlock_middle_title">以中间飞环解锁</string>
+    <string name="pref_lockscreen_ring_unlock_middle_summary">交换用以解锁和启动应用程序的飞环的位置</string>
+    <string name="pref_lockscreen_ring_minimal_title">简约飞环风格</string>
+    <string name="pref_lockscreen_ring_minimal_summary">只显示一个位于中间、用以解锁的飞环</string>
     <string name="pref_lockscreen_custom_icon_style_title">自定义程序消息图标</string>
     <string name="pref_lockscreen_custom_icon_style_summary">为自定义程序使用消息图标代替 CM 图标</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">下拉解锁</string>
@@ -619,6 +623,9 @@
     <string name="gestures_toggle_sound">切换声音</string>
     <string name="gestures_shortcut_or_activity">快捷方式或动作</string>
     <string name="gestures_flashlight">手电筒</string>
+    <string name="gestures_next">下一首曲目</string>
+    <string name="gestures_previous">上一首曲目</string>
+    <string name="gestures_playpause">播放／暂停音乐</string>
     <string name="pref_lockscreen_disable_unlock_tab">禁用解锁滑块</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">注意：在此选项可用前您需要启用轨迹球、菜单键或手势解锁</string>
     <string name="gestures_action_label">动作：</string>
