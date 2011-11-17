@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAALX//+vQ\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2011-11-17T00:37:53Z",
+      "side": 1,
+      "message": "Schreibt man Entsperren in diesem Fall nicht groß?",
+      "revId": "ffed2706647955cc404a8ef07276940ce7cde5ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
