@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAMH///9E\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 300,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-11-20T19:01:20Z",
+      "side": 1,
+      "message": "This should be \"Minimaler Blasen-Stil\", or - as it\u0027s the description for the ring style anyway - just \"Minimales Layout\" or so.",
+      "revId": "5fcafc0b12b34518bacd618e589682149c15befc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAMH///9A\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-11-20T19:01:20Z",
+      "side": 1,
+      "message": "I would write \"Zeigt nur eine Blase ...\" to make it clear that the others are hidden",
+      "revId": "5fcafc0b12b34518bacd618e589682149c15befc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAMH///88\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 696,
+      "author": {
+        "id": 1353
+      },
+      "writtenOn": "2011-11-20T19:01:20Z",
+      "side": 1,
+      "message": "\"Abspielen/Pause\"?",
+      "revId": "5fcafc0b12b34518bacd618e589682149c15befc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
