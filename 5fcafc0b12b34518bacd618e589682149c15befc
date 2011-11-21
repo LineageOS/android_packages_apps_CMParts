@@ -50,6 +50,24 @@
       "revId": "5fcafc0b12b34518bacd618e589682149c15befc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAMX////4\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 696,
+      "author": {
+        "id": 1402
+      },
+      "writtenOn": "2011-11-21T14:11:45Z",
+      "side": 1,
+      "message": "Hab mich umgeschaut, steht überalle \"Play/Pause\". Hat sich so eingedeutscht.",
+      "parentUuid": "AAAAMH///88\u003d",
+      "revId": "5fcafc0b12b34518bacd618e589682149c15befc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
