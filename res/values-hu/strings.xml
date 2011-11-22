@@ -56,7 +56,8 @@
     <string name="ui_status_bar_cm_signal_text_show_text">Érték</string>
     <string name="ui_status_bar_cm_signal_text_show_text_dbm">Érték - dBm</string>
     <string name="ui_status_bar_toggle_brightness">Állapotsori fényerő állítás</string>
-    <string name="ui_status_bar_toggle_brightness_summary">Engedélyezi a fényerő állítását az állapotsor átcsúsztatásakor</string>
+    <string name="ui_status_bar_toggle_brightness_summary">Engedélyezi a fényerő állítását ha az állapotsoron csúsztatod lassan az újjad</string>
+    <string name="ui_status_bar_toggle_info">Az automatikus fényerő engedélyezve van</string>
     <string name="ui_status_bar_headset_title">Fejhallgató ikon</string>
     <string name="ui_status_bar_headset_summary">Fejhallgató csatlakoztatásakor állapotsori ikon megjelenítése</string>
 
@@ -207,7 +208,7 @@
     <string name="pref_menu_unlock_summary">Nyomja meg a Menü gombot hogy feloldja a készüléket</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Gyors feloldás</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Nincs szükség OK nyomására a Pin vagy jelszó beütésekor. Melléütés hibás próbálkozásnak számít.</string>
-    <string name="pref_lockscreen_custom_app_toggle_title">Egyén alkalmazás indító</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">Egyéni alkalmazás indító</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">Egy második csúszkát jelenít meg, amelyre egyéni alkalmazások állíthatóak be</string>
     <string name="pref_lockscreen_custom_app_toggle_tab_summary">Egy második csúszkát jelenít meg, amelyre egyéni alkalmazások állíthatóak be</string>
     <string name="pref_lockscreen_custom_app_toggle_rotary_summary">Egy plusz gombot jelenít meg, amelyre egyéni alkalmazások állíthatóak be</string>
@@ -360,6 +361,12 @@
 
     <!-- Application Settings -->
     <string name="application_settings_title">Alkalmazás beállítások</string>
+
+    <!-- Application Settings : Switch storage mountpoints -->
+    <string name="pref_switch_storage_title">Belső tárhely használata</string>
+    <string name="pref_switch_storage_summary_on">Kibővített belső tárhely használata alkalmazásokhoz, és multimédiához (újraindítás szükséges)</string>
+    <string name="pref_switch_storage_summary_off">SD kártya használata alkalmazásokhoz, és multimédiához (újraindítás szükséges)</string>
+    <string name="pref_storage_switch_unavailable">Ez a készülék nem rendelkezik kibővíthető belső tárhellyel</string>
 
     <!-- Application Settings : Move any app -->
     <string name="pref_move_all_apps_title">Alkalmazás áthelyezés engedélyezése</string>
