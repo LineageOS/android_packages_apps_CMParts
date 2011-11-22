@@ -186,8 +186,12 @@
     <string name="trackball_category_screen">カテゴリを管理</string>
     <string name="trackball_category_add_title">カテゴリを追加</string>
     <string name="trackball_category_add_summary">リストにカテゴリを追加する</string>
+    <string name="trackball_category_add_error_title">エラー</string>
+    <string name="trackball_category_add_error_summary">カテゴリ名に\'=\'を含んではいけません</string>
     <string name="trackball_category_remove_title">カテゴリを削除</string>
     <string name="trackball_category_remove_summary">リストからカテゴリを削除する</string>
+    <string name="trackball_category_edit_title">カテゴリの設定を編集</string>
+    <string name="trackball_category_edit_summary">このカテゴリのデフォルト設定を編集する</string>
     <string name="trackball_reset_all">すべてのカテゴリとカラーをリセット</string>
     <string name="trackball_color_notice_title">ノート</string>
     <string name="trackball_color_notice_summary">すべての色がすべてのデバイスで使用できるわけではありません。</string>
@@ -226,6 +230,13 @@
     <string name="trackball_color_entry_light_blue">ライトブルー</string>
     <string name="trackball_color_entry_random">ランダム</string>
     <string name="trackball_color_entry_amber">アンバー</string>
+
+    <!-- Trackball Settings : Force modes -->
+    <string name="trackball_force_mode_category">カテゴリ設定を使用</string>
+    <string name="trackball_force_mode_application">アプリの設定を使用</string>
+    <string name="trackball_force_mode_off">強制的にLEDをOFF</string>
+    <string name="trackball_force_mode_events">イベント時にLEDをON</string>
+    <string name="trackball_force_mode_on">強制的にLEDをON</string>
 
     <!-- Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">注意: バッテリーが消費します</string>
@@ -272,8 +283,11 @@
     <string name="pref_menu_unlock_summary">メニューボタンを押して端末をロックから解除する</string>
     <string name="pref_lockscreen_quick_unlock_control_title">クイックアンロック</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">PINやパワードを入力後、OKを押す必要を省きます。不正入力時のカウントは無効になります。</string>
+    <string name="lockscreen_style_options_title">スタイル独自のオプション</string>
     <string name="pref_lockscreen_custom_app_toggle_title">カスタムアプリの起動</string>
-    <string name="pref_lockscreen_custom_app_toggle_summary">カスタムアプリを起動するための2つ目のスライダやロータリーの窪みを表示する</string>
+    <string name="pref_lockscreen_custom_app_toggle_tab_summary">カスタムアプリ起動用の2つ目のスライダセットを表示</string>
+    <string name="pref_lockscreen_custom_app_toggle_rotary_summary">カスタムアプリ起動用のくぼみを表示</string>
+    <string name="pref_lockscreen_custom_app_toggle_ring_summary">カスタムアプリ起動用の3つ目のリングを表示</string>
     <string name="pref_lockscreen_custom_app_activity_title">カスタムアプリ</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">設定するショートカットを選択</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">解除するショートカットを選択</string>
@@ -281,6 +295,10 @@
     <string name="pref_lockscreen_ring_custom_apps_dialog_add">追加</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_remove">削除</string>
     <string name="pref_lockscreen_ring_custom_apps_notset">未設定</string>
+    <string name="pref_lockscreen_ring_unlock_middle_title">中央のリングでアンロック</string>
+    <string name="pref_lockscreen_ring_unlock_middle_summary">アプリ起動リングとアンロックリングを入れ替える</string>
+    <string name="pref_lockscreen_ring_minimal_title">ミニマルリングスタイル</string>
+    <string name="pref_lockscreen_ring_minimal_summary">中央にアンロックリングが1つあるだけのスタイル</string>
     <string name="pref_lockscreen_custom_background_title">背景を選択</string>
     <string name="pref_lockscreen_custom_background_dialog_title">背景を選択</string>
     <string name="pref_lockscreen_custom_background_summary">ロックスクリーンの背景画像や色を選択する</string>
@@ -315,6 +333,10 @@
     <string name="pref_lockscreen_calendar_reminders_only_summary">リマインダーイベントのみ検索する</string>
     <string name="pref_lockscreen_calendar_lookahead_title">カレンダーイベント検索期間</string>
     <string name="pref_lockscreen_calendar_lookahead_summary">どのくらい先のイベントまで検索するか</string>
+    <string name="pref_lockscreen_calendar_show_location_title">イベントの場所を表示</string>
+    <string name="pref_lockscreen_calendar_show_location_summary">タイトルの下にイベントの場所を表示する</string>
+    <string name="pref_lockscreen_calendar_show_description_title">イベントの詳細を表示</string>
+    <string name="pref_lockscreen_calendar_show_description_summary">タイトルの下にイベントの詳細を表示する</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">入力設定</string>
@@ -322,7 +344,6 @@
     <string name="haptic_summary">タッチフィードバックの強さなどを調整する</string>
     <string name="long_press_home_title">ホーム長押し設定</string>
     <string name="long_press_home_summary">最近使ったアプリ履歴の数、その他</string>
-
     <string name="input_search_key_title">検索キーの挙動</string>
     <string name="input_search_key_summary">検索キーを押したときのアクションをカスタマイズする</string>
     <string name="pref_input_custom_search_app_toggle_title">検索キーのアプリ</string>
@@ -330,7 +351,6 @@
     <string name="pref_input_custom_search_app_activity_title">カスタムアプリケーション</string>
     <string name="pref_input_custom_long_search_app_toggle_title">検索キー長押しのアプリ</string>
     <string name="pref_input_custom_long_search_app_toggle_summary">検索キーを長押ししたときにカスタムアプリを起動する</string>
-
     <string name="pref_backtrack_title">バックトラック ミニパッド</string>
     <string name="pref_backtrack_summary">バックトラックミニパッドの有効を切り替える</string>
 
@@ -617,6 +637,7 @@
     <string name="sound_notifications_limitvol_dialog">通知音量</string>
     <string name="sound_rings_limitvol_dialog">着信音量</string>
     <string name="sound_alarms_limitvol_dialog">アラーム音量</string>
+
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">サイレントタイム</string>
     <string name="quiet_hours_note_title">ノート</string>
@@ -637,6 +658,9 @@
     <string name="quiet_hours_dim">LEDを暗くする</string>
     <string name="quiet_hours_dim_on">可能であればLEDを暗くします</string>
     <string name="quiet_hours_dim_off">LEDは最大照度で点灯します</string>
+    <string name="quiet_hours_haptic">振動フィードバックを無効にする</string>
+    <string name="quiet_hours_haptic_on">振動フィードバックは無効</string>
+    <string name="quiet_hours_haptic_off">振動フィードバックは有効</string>
 
     <string name="cmstats_title">匿名利用状況</string>
     <string name="cmstats_summary">匿名の利用状況レポートを有効にすることによってCMの改善に協力できます</string>
@@ -667,6 +691,9 @@
     <string name="gestures_toggle_sound">サウンドトグル</string>
     <string name="gestures_shortcut_or_activity">ショートカットやアクティビティ</string>
     <string name="gestures_flashlight">フラッシュライト</string>
+    <string name="gestures_next">次の曲</string>
+    <string name="gestures_previous">前の曲</string>
+    <string name="gestures_playpause">音楽の再生/停止</string>
     <string name="pref_lockscreen_disable_unlock_tab">アンロックスライダーを無効にする</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">ノート: このオプションを有効にする前に、トラックボールやメニューキー、ジェスチャーでのアンロックを設定する必要があります。</string>
     <string name="gestures_action_label">アクション:</string>
