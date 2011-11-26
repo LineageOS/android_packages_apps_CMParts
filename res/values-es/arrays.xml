@@ -16,6 +16,21 @@
  -->
 
 <resources>
+
+    <string-array name="entries_recent_apps_num">
+        <item>8</item>
+        <item>12</item>
+        <item>15</item>
+    </string-array>
+  
+    <string-array name="entries_heapsize">
+        <item>12m</item>
+        <item>16m</item>
+        <item>24m</item>
+        <item>32m</item>
+        <item>48m</item>
+    </string-array>
+
     <string-array name="entries_install_location">
         <item>Automático</item>
         <item>Interna</item>
@@ -25,32 +40,19 @@
     <string-array name="entries_status_bar_am_pm">
         <item>Normal</item>
         <item>Pequeño</item>
-        <item>Ninguno (Por defecto)</item>
+        <item>Ninguno (Predeterminado)</item>
     </string-array>
 
-    <string-array name="entries_render_effect">
-        <item>Sin efecto de Render</item>
-        <item>Modo noche (rojo)</item>
-        <item>Terminal (verde)</item>
-        <item>Azul</item>
-        <item>Ambar</item>
-        <item>Salmón</item>
-        <item>Fucsia</item>
-        <item>Calibrado (N1)</item>
-        <item>Calibrado (N1) Rojo</item>
-        <item>Calibrado (N1) Frío</item>
+    <string-array name="entries_status_bar_battery">
+        <item>Icono (Predeterminado)</item>
+        <item>Porcentaje</item>
+        <item>Oculto</item>
     </string-array>
 
-    <string-array name="render_entries">
-        <item>Modo noche (rojo)</item>
-        <item>Terminal (verde)</item>
-        <item>Azul</item>
-        <item>Ambar</item>
-        <item>Salmón</item>
-        <item>Fuscia</item>
-        <item>Calibrado (N1)</item>
-        <item>Calibrado (N1) Rojo</item>
-        <item>Calibrado (N1) Frio</item>
+    <string-array name="haptic_feedback_entries">
+        <item>Ajustes globales</item>
+        <item>On</item>
+        <item>Off</item>
     </string-array>
 
     <string-array name="pref_trackball_blink_rate_entries">
@@ -79,6 +81,15 @@
         <item>10%</item>
         <item>18% (predeterminado)</item>
         <item>26%</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_window">
+        <item>2 s</item>
+        <item>5 s</item>
+        <item>10 s</item>
+        <item>20 s</item>
+        <item>30 s</item>
+        <item>60 s</item>
     </string-array>
 
     <string-array name="entries_light_filter_reset">
@@ -144,7 +155,7 @@
     </string-array>
 
     <string-array name="entries_sound_limitvol">
-        <item>Ajustes de sistema atenuados</item>
+        <item>Ajustes de atenuación</item>
         <item>Volumen de la música (predeterminado)</item>
     </string-array>
 
@@ -165,7 +176,7 @@
     </string-array>
 
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
-        <item>1 (Pasota)</item>
+        <item>1 (Relajado)</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
@@ -194,11 +205,38 @@
         <item>Anillo</item>
     </string-array>
 
+    <string-array name="pref_lockscreen_background_entries">
+        <item>Color sólido</item>
+        <item>Imagen personalizada</item>
+        <item>Imagen por defecto</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_widget_layout_entries">
+        <item>Por defecto</item>
+        <item>Oculto</item>
+        <item>Centrado</item>
+    </string-array>
+
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>Desactivado</item>
         <item>Auriculares con cable</item>
         <item>Auriculares Bluetooth A2DP</item>
         <item>Ambos</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_lookahead_entries">
+        <item>3 horas</item>
+        <item>6 horas</item>
+        <item>12 horas</item>
+        <item>1 día</item>
+        <item>3 días</item>
+        <item>1 semana</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
+        <item>No mostrar</item>
+        <item>Mostrar primera línea</item>
+        <item>Mostrar todo</item>
     </string-array>
 
     <string-array name="pref_overscroll_effect_entries">

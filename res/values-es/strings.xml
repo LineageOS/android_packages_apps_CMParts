@@ -295,6 +295,10 @@
     <string name="pref_lockscreen_ring_custom_apps_dialog_add">Añadir</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_remove">Eliminar</string>
     <string name="pref_lockscreen_ring_custom_apps_notset">No establecido</string>
+    <string name="pref_lockscreen_ring_unlock_middle_title">Desbloquear con anillo central</string>
+    <string name="pref_lockscreen_ring_unlock_middle_summary">Cambiar anillo de desbloqueo y lanzador de aplicaciones</string>
+    <string name="pref_lockscreen_ring_minimal_title">Estilo de anillo minimalista</string>
+    <string name="pref_lockscreen_ring_minimal_summary">Un anillo en el centro para desbloquear</string>
     <string name="pref_lockscreen_custom_background_title">Elegir fondo</string>
     <string name="pref_lockscreen_custom_background_dialog_title">Elegir fondo</string>
     <string name="pref_lockscreen_custom_background_summary">Elegir una imagen o color como fondo de la pantalla de bloqueo</string>
@@ -687,12 +691,15 @@
     <string name="gestures_toggle_sound">Invertir sonido</string>
     <string name="gestures_shortcut_or_activity">Acceso directo o actividad</string>
     <string name="gestures_flashlight">Flash</string>
+    <string name="gestures_next">Siguiente pista</string>
+    <string name="gestures_previous">Pista anterior</string>
+    <string name="gestures_playpause">Play/Pausa</string>
     <string name="pref_lockscreen_disable_unlock_tab">Desactivar deslizador de desbloqueo</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Nota: Es necesario acivar el desbloqueo por la bola de navegación, la tecla menú, or gestos pra activar esta opción</string>
     <string name="gestures_action_label">Acción:</string>
     <string name="gestures_draw_label">Gesto:</string>
-
-    <string name="gestures_already_present">Peligro: Un gesto similar está asociado a otra acción!</string>
+    <string name="gestures_draw_for_label">Gesto para \"<xliff:g id="action">%s</xliff:g>\":</string>
+    <string name="gestures_already_present">Aviso: Un gesto similar está asociado a otra acción!</string>
     <string name="gestures_run_in_background">Ejecutar en segundo plano</string>
 
     <!-- Change Log strings -->
@@ -701,7 +708,7 @@
     <string name="changelog_loading">Cargando registro...</string>
     <string name="changelog_error">Error cargando registro...</string>
     <string name="changelog_unknown">Desconocido</string>
-    <string name="changelog_version">Version</string>
+    <string name="changelog_version">Versión</string>
 
     <!-- Phone goggles -->
     <string name="category_phone_goggles_period">Periodo</string>
@@ -763,6 +770,6 @@
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Administración de permisos</string>
     <string name="perm_enable_management_summary">Activar administración de permisos de aplicaciones</string>
-    <string name="perm_enable_warning_message">Peligro!\nRevocar los permisos puede causar que algunas aplicaciones no funcionen bien. Si una aplicación con permisos eliminados da Forzar Cierre por favor, corrija los permisos o no use la aplicación.\nPor favor, NO envíe reportes de fallos a Cyanogenmod si una aplicación con permisos eliminados no trabaja como debiera!</string>
+    <string name="perm_enable_warning_message">Aviso!\nRevocar los permisos puede causar que algunas aplicaciones no funcionen bien. Si una aplicación con permisos eliminados da Forzar Cierre por favor, corrija los permisos o no use la aplicación.\nPor favor, NO envíe reportes de fallos a Cyanogenmod si una aplicación con permisos eliminados no trabaja como debiera!</string>
     <string name="perm_enable_warning_title">¿Está seguro?</string>
 </resources>
