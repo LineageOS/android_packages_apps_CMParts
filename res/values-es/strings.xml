@@ -548,7 +548,7 @@
     <string name="title_toggle_airplane">Interruptor Modo avión</string>
     <string name="title_toggle_flashlight">Interruptor Linterna</string>
     <string name="title_toggle_sleep">Interruptor Dormir</string>
-    <string name="title_toggle_media_play_pause">Media: Interruptor Play/Pause</string>
+    <string name="title_toggle_media_play_pause">Media: Interruptor Play/Pausa</string>
     <string name="title_toggle_media_previous">Media: Pasar al anterior</string>
     <string name="title_toggle_media_next">Media: Pasar al siguiente</string>
     <string name="title_toggle_wimax">Interruptor WiMAX</string>
