@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic -->
     <string name="app_name">Ajustes CyanogenMod</string>
 
@@ -108,7 +108,7 @@
     <string name="ui_status_bar_cm_signal_text_show_text">Señal con texto</string>
     <string name="ui_status_bar_cm_signal_text_show_text_dbm">Señal con texto y dBm</string>
     <string name="ui_status_bar_headset_title">Mostrar el icono de auriculares</string>
-    <string name="ui_status_bar_headset_summary">El icono de auriulares aparecerá cuando éstos sean conectados</string>
+    <string name="ui_status_bar_headset_summary">El icono de auriculares aparecerá cuando éstos sean conectados</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notificaciones LED</string>
@@ -178,7 +178,7 @@
     <string name="pref_trackball_order_summary">El LED parpadeará en orden de colores</string>
     <string name="pref_trackball_reset_title">Reiniciar</string>
     <string name="pref_trackball_reset_summary">Reiniciar todos los colores y aplicaciones</string>
-    <string name="dialog_trackball_loading">Cargando...</string>
+    <string name="dialog_trackball_loading">Cargando\u2026</string>
     <string name="dialog_trackball_packagelist">Cargando lista de paquetes</string>
     <string name="trackball_category_dialog_text">Introducir una categoría nueva</string>
     <string name="trackball_category_list_title">Categoría</string>
@@ -206,7 +206,7 @@
     <string name="trackball_force_mode_dialog">Por favor elija un modo</string>
     <string name="trackball_force_mode_summary">Configura el comportamiento de los LED</string>
 
-    <string name="trackball_app_email">Email</string>
+    <string name="trackball_app_email">Correo-e</string>
     <string name="trackball_app_mms">Mensajes</string>
     <string name="trackball_app_gvoice">Google Voice</string>
     <string name="trackball_app_gmail">Gmail</string>
@@ -223,7 +223,7 @@
     <string name="trackball_color_entry_red">Rojo</string>
     <string name="trackball_color_entry_blue">Azul</string>
     <string name="trackball_color_entry_yellow">Amarillo</string>
-    <string name="trackball_color_entry_cyan">Cián</string>
+    <string name="trackball_color_entry_cyan">Cian</string>
     <string name="trackball_color_entry_magenta">Magenta</string>
     <string name="trackball_color_entry_pink">Rosa</string>
     <string name="trackball_color_entry_orange">Naranja</string>
@@ -265,8 +265,8 @@
     <string name="pref_lockscreen_music_controls_summary">Muestra los controles de música en el protector de pantalla</string>
     <string name="pref_lockscreen_now_playing_title">Mostrar el nombre de la canción</string>
     <string name="pref_lockscreen_now_playing_summary">Mostrar el nombre y el artista de la canción actualmente en reproducción</string>
-    <string name="pref_lockscreen_album_art_title">Mostrar portada del album</string>
-    <string name="pref_lockscreen_album_art_summary">Mostrar la portada del album correspondiente a la canción actual. Sólo funciona con el reproductor predeterminado en modo apaisado</string>
+    <string name="pref_lockscreen_album_art_title">Mostrar portada del álbum</string>
+    <string name="pref_lockscreen_album_art_summary">Mostrar la portada del álbum correspondiente a la canción actual. Sólo funciona con el reproductor predeterminado en modo apaisado</string>
     <string name="pref_lockscreen_music_headset_title">Mostrar los controles de música con auriculares</string>
     <string name="pref_lockscreen_music_headset_summary">Se muestran los controles de música cuando se conectan auriculares, tanto de cable como Bluetooth A2DP</string>
     <string name="pref_lockscreen_always_music_controls_title">Mostrar siempre los controles de música</string>
@@ -295,6 +295,10 @@
     <string name="pref_lockscreen_ring_custom_apps_dialog_add">Añadir</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_remove">Eliminar</string>
     <string name="pref_lockscreen_ring_custom_apps_notset">No establecido</string>
+    <string name="pref_lockscreen_ring_unlock_middle_title">Desbloquear con anillo central</string>
+    <string name="pref_lockscreen_ring_unlock_middle_summary">Cambiar anillo de desbloqueo y lanzador de aplicaciones</string>
+    <string name="pref_lockscreen_ring_minimal_title">Estilo de anillo minimalista</string>
+    <string name="pref_lockscreen_ring_minimal_summary">Un anillo en el centro para desbloquear</string>
     <string name="pref_lockscreen_custom_background_title">Elegir fondo</string>
     <string name="pref_lockscreen_custom_background_dialog_title">Elegir fondo</string>
     <string name="pref_lockscreen_custom_background_summary">Elegir una imagen o color como fondo de la pantalla de bloqueo</string>
@@ -491,27 +495,27 @@
     <string name="add_widget">Añadir widget</string>
     <string name="pref_render_effect_none">Sin efecto de render</string>
     <string name="pref_render_effect_night">Modo nocturno (3700K)</string>
-    <string name="pref_render_effect_green">Terminal (verde)</string>
+    <string name="pref_render_effect_green">Verde</string>
     <string name="pref_render_effect_blue">Azul</string>
     <string name="pref_render_effect_amber">Ámbar</string>
     <string name="pref_render_effect_salmon">Salmón</string>
-    <string name="pref_render_effect_fuscia">Fuxia</string>
+    <string name="pref_render_effect_fuscia">Rosado</string>
     <string name="pref_render_effect_calibrated">Calibrado (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Calibrado (N1) rojo apagado</string>
-    <string name="pref_render_effect_calibrated_cool">Calibrado (N1) guay</string>
-    <string name="pref_render_effect_red">Red</string>
+    <string name="pref_render_effect_calibrated_red">Calibrado (N1) cálido</string>
+    <string name="pref_render_effect_calibrated_cool">Calibrado (N1) frío</string>
+    <string name="pref_render_effect_red">Rojo</string>
 
     <!-- Widget Types -->
     <string name="widget_render_effect_night">Noche</string>
-    <string name="widget_render_effect_terminal">Term</string>
+    <string name="widget_render_effect_terminal">Verde</string>
     <string name="widget_render_effect_blue">Azul</string>
     <string name="widget_render_effect_amber">Ámbar</string>
     <string name="widget_render_effect_salmon">Salmón</string>
-    <string name="widget_render_effect_fuscia">Fuxia</string>
+    <string name="widget_render_effect_fuscia">Rosado</string>
     <string name="widget_render_effect_red">Rojo</string>
-    <string name="widget_render_effect_calibrated">Cal</string>
-    <string name="widget_render_effect_calibrated_red">Cal Rojo</string>
-    <string name="widget_render_effect_calibrated_cool">Cal Guay</string>
+    <string name="widget_render_effect_calibrated">Calibrado</string>
+    <string name="widget_render_effect_calibrated_red">Cal. cálido</string>
+    <string name="widget_render_effect_calibrated_cool">Cal. frío</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Widget Control de energía expandido</string>
@@ -564,7 +568,7 @@
     <string name="cm_sound_mode_sound">Sonido</string>
     <string name="cm_sound_mode_soundVibrate">Sonido+Vibración</string>
     <string name="pref_flash_mode_title">Modo de flash</string>
-    <string name="pref_flash_mode_summary">Elegir Alto / Rayo Mortal(Evo)</string>
+    <string name="pref_flash_mode_summary">Elegir Alto / Rayo Mortal</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Luz de fondo automática</string>
@@ -582,7 +586,7 @@
     <string name="light_levels_enabled_title">Usar personalizados</string>
     <string name="light_levels_dim_title">Nivel de difuminado de pantalla</string>
     <string name="light_levels_dim_summary">Se utiliza el brillo para difuminar la pantalla</string>
-    <string name="light_levels_editor_title">Editar otros niveles...</string>
+    <string name="light_levels_editor_title">Editar otros niveles\u2026</string>
     <string name="light_decrease_enabled_title">Permitir descenso de la luz</string>
     <string name="light_decrease_enabled_summary">Activar para permitir descenso de las luces. Usar histéresis para reducir parpadeo.</string>
     <string name="light_decrease_hysteresis_title">Disminuir histéresis</string>
@@ -614,7 +618,7 @@
     <string name="sound_vibrate_in_call_title">Vibrar durante una llamada</string>
     <string name="sound_vibrate_in_call_summary_off">Las notificaciones no vibrarán durante una llamada</string>
     <string name="sound_vibrate_in_call_summary_on">Las notificaciones vibrarán normalmente</string>
-    <string name="sound_camera_shutter_disable_title">Insonorizar obturador de la cámara</string>
+    <string name="sound_camera_shutter_disable_title">Silenciar obturador</string>
     <string name="sound_camera_shutter_disable_summary_on">El sonido del obturador no será reproducido</string>
     <string name="sound_camera_shutter_disable_summary_off">El sonido del obturador será reproducido</string>
     <string name="sound_camera_shutter_disable_warning_title">AVISO: ¡Esto podría ser ilegal!</string>
@@ -678,7 +682,7 @@
     <string name="gestures_button_discard">Descartar</string>
     <string name="gestures_button_done">Hecho</string>
     <string name="gestures_error_missing_shortcut">¡Debe seleccionar una acción para este gesto!</string>
-    <string name="gestures_loading">Cargando gestos...</string>
+    <string name="gestures_loading">Cargando gestos\u2026</string>
     <string name="gestures_empty">Sin gestos</string>
     <string name="gestures_delete">Eliminar</string>
     <string name="gestures_delete_success">Gesto eliminado</string>
@@ -687,24 +691,27 @@
     <string name="gestures_toggle_sound">Invertir sonido</string>
     <string name="gestures_shortcut_or_activity">Acceso directo o actividad</string>
     <string name="gestures_flashlight">Flash</string>
+    <string name="gestures_next">Siguiente pista</string>
+    <string name="gestures_previous">Pista anterior</string>
+    <string name="gestures_playpause">Play/Pausa</string>
     <string name="pref_lockscreen_disable_unlock_tab">Desactivar deslizador de desbloqueo</string>
-    <string name="pref_lockscreen_disable_unlock_tab_summary">Nota: Es necesario acivar el desbloqueo por la bola de navegación, la tecla menú, or gestos pra activar esta opción</string>
+    <string name="pref_lockscreen_disable_unlock_tab_summary">Nota: Es necesario activar el desbloqueo por la bola de navegación, la tecla menú, o gestos para activar esta opción</string>
     <string name="gestures_action_label">Acción:</string>
     <string name="gestures_draw_label">Gesto:</string>
-
-    <string name="gestures_already_present">Peligro: Un gesto similar está asociado a otra acción!</string>
+    <string name="gestures_draw_for_label">Gesto para \"<xliff:g id="action">%s</xliff:g>\":</string>
+    <string name="gestures_already_present">¡Aviso!: Un gesto similar está asociado a otra acción.</string>
     <string name="gestures_run_in_background">Ejecutar en segundo plano</string>
 
     <!-- Change Log strings -->
     <string name="changelog_title">Ver registro cambios</string>
     <string name="changelog_dialog">Registro cambios</string>
-    <string name="changelog_loading">Cargando registro...</string>
-    <string name="changelog_error">Error cargando registro...</string>
+    <string name="changelog_loading">Cargando registro\u2026</string>
+    <string name="changelog_error">Error cargando registro\u2026</string>
     <string name="changelog_unknown">Desconocido</string>
-    <string name="changelog_version">Version</string>
+    <string name="changelog_version">Versión</string>
 
     <!-- Phone goggles -->
-    <string name="category_phone_goggles_period">Periodo</string>
+    <string name="category_phone_goggles_period">Período</string>
     <string name="category_phone_goggles_confirmation">Confirmación</string>
     <string name="category_phone_goggles_filter">Filtros</string>
     <string name="title_phone_goggles">Filtrado telefónico</string>
@@ -750,9 +757,9 @@
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">Ajustes CPU</string>
     <string name="cpu_title">Ajustes CPU</string>
-    <string name="cpu_summary">Ajustes de reloj y control (governor)</string>
-    <string name="cpu_governors_title">Gobernadores disponibles</string>
-    <string name="cpu_governors_summary">Lista de gobernadores disponibles\nSeleccionado ahora: %S</string>
+    <string name="cpu_summary">Ajustes de frecuencia y control</string>
+    <string name="cpu_governors_title">Gestores disponibles</string>
+    <string name="cpu_governors_summary">Lista de gestores disponibles\nSeleccionado ahora: %S</string>
     <string name="cpu_min_freq_title">Frecuencia Min CPU</string>
     <string name="cpu_min_freq_summary">Minima frecuencia CPU actual: %s</string>
     <string name="cpu_max_freq_title">Frecuencia Max CPU</string>
@@ -763,6 +770,6 @@
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Administración de permisos</string>
     <string name="perm_enable_management_summary">Activar administración de permisos de aplicaciones</string>
-    <string name="perm_enable_warning_message">Peligro!\nRevocar los permisos puede causar que algunas aplicaciones no funcionen bien. Si una aplicación con permisos eliminados da Forzar Cierre por favor, corrija los permisos o no use la aplicación.\nPor favor, NO envíe reportes de fallos a Cyanogenmod si una aplicación con permisos eliminados no trabaja como debiera!</string>
+    <string name="perm_enable_warning_message">¡Aviso!\nRevocar los permisos puede causar que algunas aplicaciones no funcionen bien. Si una aplicación con permisos eliminados da Forzar Cierre por favor, corrija los permisos o no use la aplicación.\nPor favor, NO envíe reportes de fallos a Cyanogenmod si una aplicación con permisos eliminados no funciona correctamente.</string>
     <string name="perm_enable_warning_title">¿Está seguro?</string>
 </resources>
