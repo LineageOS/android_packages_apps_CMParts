@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAM3///4g\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 497,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2011-11-28T05:44:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAM3///6M\u003d",
+      "revId": "2bf012523f18b3f607e79b37b57d21ab6d18d646",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAM3///6I\u003d",
         "filename": "res/values-es/strings.xml",
         "patchSetId": 1
