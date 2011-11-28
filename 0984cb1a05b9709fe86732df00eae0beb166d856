@@ -16,6 +16,23 @@
       "revId": "0984cb1a05b9709fe86732df00eae0beb166d856",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAM3///5c\u003d",
+        "filename": "res/values-es/arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 176
+      },
+      "writtenOn": "2011-11-28T03:44:35Z",
+      "side": 0,
+      "message": "As Emilio told you before, do not remove those entries for render",
+      "revId": "0984cb1a05b9709fe86732df00eae0beb166d856",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
