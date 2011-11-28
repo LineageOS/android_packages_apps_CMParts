@@ -33,6 +33,24 @@
       "revId": "0984cb1a05b9709fe86732df00eae0beb166d856",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAM3///4s\u003d",
+        "filename": "res/values-es/arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2011-11-28T05:41:05Z",
+      "side": 0,
+      "message": "Now, the entries_render_effects \u0026 render_entries are taken from no translatables strings-arrays (see arrays.xml in res/values folder) and values target to @strings/pref_render_effect_xxxx.\n\nThen they\u0027re not necessary these strings-arrays here.",
+      "parentUuid": "AAAAM3///5c\u003d",
+      "revId": "0984cb1a05b9709fe86732df00eae0beb166d856",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
