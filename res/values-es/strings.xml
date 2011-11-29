@@ -120,7 +120,7 @@
 
     <!-- User interface : Share menu for screenshots -->
     <string name="pref_share_screenshot_title">Compartir capturas de pantalla</string>
-    <string name="pref_share_screenshot_summary">Mostrar el menú "Compartir" al realizar una captura (de pantalla)</string>
+    <string name="pref_share_screenshot_summary">Mostrar el menú \"Compartir\" al realizar una captura (de pantalla)</string>
 
     <!-- User interface : Overscroll -->
     <string name="ui_overscroll_title">Superposición</string>
@@ -518,15 +518,15 @@
     <string name="widget_render_effect_calibrated_cool">Cal. frío</string>
 
     <!-- Expanded View Power Widget -->
-    <string name="title_widget_buttons">Widget Control de energía expandido</string>
-    <string name="title_expanded_widget">Widget de notificación de energía</string>
-    <string name="summary_expanded_widget">Usar el widget control de energía expandido</string>
+    <string name="title_widget_buttons">Widget Control de Energía expandido</string>
+    <string name="title_expanded_widget">Widget de Energía</string>
+    <string name="summary_expanded_widget">Usar el widget Control de Energía expandido</string>
     <string name="title_expanded_hide_onchange">Ocultar al cambiar</string>
     <string name="summary_expanded_hide_onchange">Ocultar las notificaciones tras pulsar un boton del widget</string>
     <string name="title_expanded_hide_indicator">Ocultar indicador</string>
     <string name="summary_expanded_hide_indicator">Oculat los widgets indicadores en las notificaciones</string>
-    <string name="title_expanded_hide_scrollbar">Ocultar la barra de desplazamiento</string>
-    <string name="summary_expanded_hide_scrollbar">Ocultar la barra de desplazamiento cuando el número máximo de botones están presentes.</string>
+    <string name="title_expanded_hide_scrollbar">Ocultar barra desplazamiento</string>
+    <string name="summary_expanded_hide_scrollbar">Ocultar la barra de desplazamiento cuando el número máximo de botones están presentes</string>
     <string name="expanded_color_mask">Color del indicador</string>
     <string name="title_widget_picker">Botones del widget</string>
     <string name="summary_widget_picker">Elegir los botones del widget</string>
@@ -548,7 +548,7 @@
     <string name="title_toggle_airplane">Interruptor Modo avión</string>
     <string name="title_toggle_flashlight">Interruptor Linterna</string>
     <string name="title_toggle_sleep">Interruptor Dormir</string>
-    <string name="title_toggle_media_play_pause">Media: Interruptor Play/Pause</string>
+    <string name="title_toggle_media_play_pause">Media: Play/Pausa</string>
     <string name="title_toggle_media_previous">Media: Pasar al anterior</string>
     <string name="title_toggle_media_next">Media: Pasar al siguiente</string>
     <string name="title_toggle_wimax">Interruptor WiMAX</string>
@@ -559,8 +559,8 @@
     <string name="cm_brightness_mode_dim">Difuminado</string>
     <string name="pref_network_mode_title">Modos de red</string>
     <string name="pref_network_mode_summary">Elegir como cambian los modos con el botón</string>
-    <string name="pref_screentimeout_mode_title">Modos de tiempo de espera de pantalla</string>
-    <string name="pref_screentimeout_mode_summary">Elegir como cambia el Tiempo de espera de pantalla con el botón</string>
+    <string name="pref_screentimeout_mode_title">Modos de tiempo espera de pantalla</string>
+    <string name="pref_screentimeout_mode_summary">Elegir como cambia el tiempo de espera de pantalla con el botón</string>
     <string name="pref_ring_mode_title">Modos de sonido</string>
     <string name="pref_ring_mode_summary">Elegir como cambia el sonido con el botón</string>
     <string name="cm_sound_mode_silent">Silencio</string>
@@ -598,7 +598,7 @@
     <string name="ll_header_lower">Bajo</string>
     <string name="ll_header_lcd">Pantalla</string>
     <string name="ll_header_btn">Botones</string>
-    <string name="ll_header_kb">teclado</string>
+    <string name="ll_header_kb">Teclado</string>
     <string name="ll_lux">Sensor (filtrado/directo):</string>
     <string name="ll_lcd">Pantalla:</string>
     <string name="ll_btn">Botones:</string>
@@ -663,7 +663,7 @@
     <string name="quiet_hours_haptic_off">Comunicación háptica habilitada</string>
 
     <string name="cmstats_title">Estadísticas anónimas</string>
-    <string name="cmstats_summary">Ayuda a mejorar CM informando con estadísiticas anónimas</string>
+    <string name="cmstats_summary">Ayuda a mejorar CM informando con estadísticas anónimas</string>
 
     <string name="user_defined_key1">Tecla Rápida 1</string>
     <string name="user_defined_key2">Tecla Rápida 2</string>
