@@ -598,7 +598,7 @@
     <string name="ll_header_lower">Bajo</string>
     <string name="ll_header_lcd">Pantalla</string>
     <string name="ll_header_btn">Botones</string>
-    <string name="ll_header_kb">teclado</string>
+    <string name="ll_header_kb">Teclado</string>
     <string name="ll_lux">Sensor (filtrado/directo):</string>
     <string name="ll_lcd">Pantalla:</string>
     <string name="ll_btn">Botones:</string>
@@ -663,7 +663,7 @@
     <string name="quiet_hours_haptic_off">Comunicación háptica habilitada</string>
 
     <string name="cmstats_title">Estadísticas anónimas</string>
-    <string name="cmstats_summary">Ayuda a mejorar CM informando con estadísiticas anónimas</string>
+    <string name="cmstats_summary">Ayuda a mejorar CM informando con estadísticas anónimas</string>
 
     <string name="user_defined_key1">Tecla Rápida 1</string>
     <string name="user_defined_key2">Tecla Rápida 2</string>
