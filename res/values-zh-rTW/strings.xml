@@ -295,6 +295,10 @@
     <string name="pref_lockscreen_ring_custom_apps_dialog_add">新增</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_remove">移除</string>
     <string name="pref_lockscreen_ring_custom_apps_notset">未設置</string>
+    <string name="pref_lockscreen_ring_unlock_middle_title">以中央飛環解鎖</string>
+    <string name="pref_lockscreen_ring_unlock_middle_summary">交換用以解鎖和啟動應用程式的飛環的位置</string>
+    <string name="pref_lockscreen_ring_minimal_title">簡約飛環風格</string>
+    <string name="pref_lockscreen_ring_minimal_summary">只顯示一個位於中央、用以解鎖的飛環</string>
     <string name="pref_lockscreen_custom_background_title">背境</string>
     <string name="pref_lockscreen_custom_background_dialog_title">選擇背境</string>
     <string name="pref_lockscreen_custom_background_summary">選擇自訂桌布，或以單一色彩填滿鎖定螢幕背境</string>
@@ -687,6 +691,9 @@
     <string name="gestures_toggle_sound">音效切換</string>
     <string name="gestures_shortcut_or_activity">捷徑或動作</string>
     <string name="gestures_flashlight">手電筒開關</string>
+    <string name="gestures_next">下一首曲目</string>
+    <string name="gestures_previous">上一首曲目</string>
+    <string name="gestures_playpause">播放／暫停音樂</string>
     <string name="pref_lockscreen_disable_unlock_tab">隱藏解鎖道具</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">注意：要使用這個選項您必須先啟用軌跡球、選單鍵、或手勢解鎖。</string>
     <string name="gestures_action_label">動作：</string>
