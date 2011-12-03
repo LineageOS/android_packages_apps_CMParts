@@ -29,6 +29,12 @@
         <item>なし (デフォルト)</item>
     </string-array>
 
+    <string-array name="entries_status_bar_battery">
+        <item>アイコン (デフォルト)</item>
+        <item>パーセンテージ</item>
+        <item>隠す</item>
+    </string-array>
+
     <string-array name="haptic_feedback_entries">
         <item>グローバル設定</item>
         <item>オン</item>
@@ -39,6 +45,27 @@
         <item>単色</item>
         <item>カスタム画像</item>
         <item>デフォルトの壁紙</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_widget_layout_entries">
+        <item>デフォルト</item>
+        <item>隠す</item>
+        <item>中心</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_lookahead_entries">
+        <item>3時間</item>
+        <item>6時間</item>
+        <item>12時間</item>
+        <item>1日間</item>
+        <item>3日間</item>
+        <item>1週間</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
+        <item>表示しない</item>
+        <item>最初の1行を表示</item>
+        <item>すべて表示</item>
     </string-array>
 
     <string-array name="pref_trackball_blink_rate_entries">
