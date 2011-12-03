@@ -291,6 +291,10 @@
     <string name="pref_lockscreen_ring_custom_apps_dialog_add">Добавить</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_remove">Удалить</string>
     <string name="pref_lockscreen_ring_custom_apps_notset">Не установлено</string>
+    <string name="pref_lockscreen_ring_unlock_middle_title">Разблокировка средним кольцом</string>
+    <string name="pref_lockscreen_ring_unlock_middle_summary">Переключатель разблокировки и кольца запуска приложений</string>
+    <string name="pref_lockscreen_ring_minimal_title">Минимальный стиль колец</string>
+    <string name="pref_lockscreen_ring_minimal_summary">Одно кольцо в середине для разблокировки</string>
     <string name="pref_lockscreen_custom_background_title">Выбрать фон</string>
     <string name="pref_lockscreen_custom_background_dialog_title">Выбрать фон</string>
     <string name="pref_lockscreen_custom_background_summary">Выберите изображение или цвет в качестве фона экрана блокировки</string>
@@ -686,6 +690,9 @@
     <string name="gestures_toggle_sound">Перекл. звук</string>
     <string name="gestures_shortcut_or_activity">Ярлык или действие</string>
     <string name="gestures_flashlight">Фонарик</string>
+    <string name="gestures_next">Следующий трек</string>
+    <string name="gestures_previous">Предыдущий трек</string>
+    <string name="gestures_playpause">Воспроизведение/Пауза</string>
     <string name="pref_lockscreen_disable_unlock_tab">Отключить слайдер</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Примечание: Вы должны включить разблокировку посредством трекбола, кнопки Меню или жеста для того, чтобы эта опция была доступна</string>
     <string name="gestures_action_label">Действие:</string>
