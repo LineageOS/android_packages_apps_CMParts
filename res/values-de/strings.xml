@@ -211,6 +211,8 @@
     <string name="trackball_app_gvoice">Google Voice</string>
     <string name="trackball_app_gmail">Google Mail</string>
     <string name="trackball_app_gtalk">Google Talk</string>
+    <string name="trackball_app_twitter">Twitter</string>
+    <string name="trackball_app_twicca">Twicca</string>
     <!-- Say Missed Call instead of "Dialer" as the notification is for the missed call -->
     <string name="trackball_app_dialer">Verpasster Anruf</string>
 
@@ -293,6 +295,10 @@
     <string name="pref_lockscreen_ring_custom_apps_dialog_add">Hinzufügen</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_remove">Entfernen</string>
     <string name="pref_lockscreen_ring_custom_apps_notset">Nicht belegt</string>
+    <string name="pref_lockscreen_ring_unlock_middle_title">Entsperr-Blase in der Mitte</string>
+    <string name="pref_lockscreen_ring_unlock_middle_summary">Entsperr-Blase und Anwendung-Starten-Blase vertauschen</string>
+    <string name="pref_lockscreen_ring_minimal_title">Minimales Layout</string>
+    <string name="pref_lockscreen_ring_minimal_summary">Zeigt nur eine Blase in der Mitte zum Entsperren</string>
     <string name="pref_lockscreen_custom_icon_style_title">Anwendungssymbol</string>
     <string name="pref_lockscreen_custom_icon_style_summary">Anwendungs- statt CM-Symbol für den Starter verwenden</string>
     <string name="pref_lockscreen_custom_background_title">Hintergrund</string>
@@ -426,7 +432,7 @@
     <string name="pref_use_dithering_summary">Dithering von Oberflächen verbessert die Bildqualität auf Kosten der Geräteleistung (Neustart erforderlich)</string>
 
     <!-- Performance Settings : 16bpp Alpha -->
-    <string name="pref_use_16bpp_alpha_title">Verwende 16-bit-Transparenz</string>
+    <string name="pref_use_16bpp_alpha_title">16-bit-Transparenz</string>
     <string name="pref_use_16bpp_alpha_summary">Verwenden der 16-bit-Transparenz kann die Performance beim Scrollen verbessern, aber kann Grafikfehler verursachen (Neustart erforderlich)</string>
 
     <!-- Performance Settings : Purgeable Assets -->
@@ -685,6 +691,9 @@
     <string name="gestures_toggle_sound">Klingelmodus</string>
     <string name="gestures_shortcut_or_activity">Verknüpfung oder Anwendung</string>
     <string name="gestures_flashlight">Taschenlampe</string>
+    <string name="gestures_next">Nächster Titel</string>
+    <string name="gestures_previous">Letzter Titel</string>
+    <string name="gestures_playpause">Play/Pause</string>
     <string name="pref_lockscreen_disable_unlock_tab">Schieber verbergen</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Hinweis: Es muss Trackball-, Menü- oder Gesten-Entsperren für diese Option aktiviert sein</string>
     <string name="gestures_action_label">Aktion:</string>
