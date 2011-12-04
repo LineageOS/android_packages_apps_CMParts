@@ -218,7 +218,6 @@
     <string name="pref_lockscreen_custom_app_toggle_tab_summary">Egy második csúszkát jelenít meg, amelyre egyéni alkalmazások állíthatóak be</string>
     <string name="pref_lockscreen_custom_app_toggle_rotary_summary">Egy plusz gombot jelenít meg, amelyre egyéni alkalmazások állíthatóak be</string>
     <string name="pref_lockscreen_custom_app_toggle_ring_summary">Egy plusz gyűrűt jelenít meg, amelyre max. 4 egyéni alkalmazás állítható be</string>
-    <string name="pref_lockscreen_custom_app_activity_title">Egyéni alkalmazás</string>
     <string name="pref_lockscreen_custom_app_activity_title">Módosított alkalmazás</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">Válasszon parancsikont a hozzáadáshoz</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">Válasszon parancsikont az eltávolításhoz</string>
@@ -230,7 +229,7 @@
     <string name="pref_lockscreen_ring_minimal_title">Minimal Gyűrű Stílus</string>
     <string name="pref_lockscreen_ring_minimal_summary">Egy gyűrű középen a feloldáshoz</string>
     <string name="pref_lockscreen_custom_background_title">Háttér kiválasztása</string>
-    <string name="pref_lockscreen_custom_background_dialog_title">Háttér kiválasztása</string>
+    <string name="pref_lockscreen_custom_background_dialog_title">Válasszon egy hátteret</string>
     <string name="pref_lockscreen_custom_background_summary">Válassz képet vagy színt a zárképernyő hátteréhez</string>
     <string name="pref_lockscreen_custom_background_summary_color">Jelenleg: Szín</string>
     <string name="pref_lockscreen_custom_background_summary_image">Jelenleg: Kép</string>
@@ -254,14 +253,6 @@
     <string name="pref_cambtn_music_controls_summary">Kikapcsolt képernyőnél a kameragomb hosszú nyomásával elindítható és megállítható a zene</string>
     <string name="lockscreen_widgets_note_title">Megjegyzés</string>
     <string name="lockscreen_widgets_note_summary">A minimalista lense stílus a zenei irányításon kívül az összes widgetet elrejti.</string>
-    <string name="pref_lockscreen_custom_background_title">Háttér kiválasztása</string>
-    <string name="pref_lockscreen_custom_background_dialog_title">Háttér kiválasztása</string>
-    <string name="pref_lockscreen_custom_background_summary">Válassz képet vagy színt a zárképernyő hátteréhez</string>
-    <string name="pref_lockscreen_custom_background_summary_color">Jelenleg: Szín</string>
-    <string name="pref_lockscreen_custom_background_summary_image">Jelenleg: Kép</string>
-    <string name="pref_lockscreen_custom_background_summary_default">Jelenleg: Alapértelmezett</string>
-    <string name="pref_lockscreen_background_result_successful">Háttér megváltoztatva</string>
-    <string name="pref_lockscreen_background_result_not_successful">Háttér megváltoztatása nem sikerült</string>
     <string name="lockscreen_style_options_title">Stílus specifikus beállítások</string>
     <string name="pref_lockscreen_widgets_layout_title">Widgetek pozíciója</string>
     <string name="pref_lockscreen_widgets_layout_summary">Óra, dátum, szolgáltató, állapot információk pozíciója, kikapcsolása</string>
@@ -625,9 +616,9 @@
     <string name="pref_lockscreen_disable_unlock_tab_summary">Megjegyzés: Engedélyezned kell a trackball, a menü gomb vagy egy gesztusos feloldást, mielőtt ezt az opciót bekapcsolnád</string>
     <string name="gestures_action_label">Akció:</string>
     <string name="gestures_draw_label">Gesztus:</string>
-    <string name="gestures_draw_for_label">Gesztus \"<xliff:g id="action">%s</xliff:g>\":</string>
+    <string name="gestures_draw_for_label">Gesztus \"%s\":</string>
     <string name="gestures_already_present">Figyelmeztetés: Már létezik egy hasonló gesztus!</string>
-	<string name="gestures_run_in_background">Futtatás a háttérben</string>
+    <string name="gestures_run_in_background">Futtatás a háttérben</string>
 
     <!-- Change Log strings -->
     <string name="changelog_title">Napló megtekintése</string>
@@ -766,6 +757,5 @@
     <string name="tablet_soft_buttons_back_title">Vissza</string>
     <string name="tablet_soft_buttons_search_title">Keresés</string>
     <string name="tablet_soft_buttons_quick_na_title">Rövid figyelmeztetések</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">Ha be van kapcsolva a zárképernyő nem lesz aktív sem újraindítás, sem felébresztés után</string>
 
 </resources>
