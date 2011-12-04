@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAANX///ww\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-12-04T11:25:01Z",
+      "side": 1,
+      "message": "Duplicates...",
+      "revId": "b9883baff2792f0c23f0905656a46652b78be937",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAANX///ws\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 628,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2011-12-04T11:25:01Z",
+      "side": 1,
+      "message": "?! wtf",
+      "revId": "b9883baff2792f0c23f0905656a46652b78be937",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
