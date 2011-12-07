@@ -268,6 +268,7 @@
     <string name="pref_lockscreen_quick_unlock_control_summary">输入数字 PIN 或密码后无需按确定按钮即可解锁，按删除键重新输入。</string>
     <string name="lockscreen_style_options_title">特别风格选项</string>
     <string name="pref_lockscreen_custom_app_toggle_title">自定义程序启动</string>
+    <string name="pref_lockscreen_custom_app_toggle_tab_summary">启动自定义程序时显示第二个滑动条</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">在滑动风格时显示第二个滑动条，在旋转风格时显示自定义程序按键</string>
     <string name="pref_lockscreen_custom_app_activity_title">自定义程序</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">选择要设置的快捷方式</string>
