@@ -419,6 +419,7 @@
     <string name="renderfx_temp">RenderFX</string>
     <string name="prefs_render_effect">Effet de rendu</string>
     <string name="notify_render_effect">Effet de rendu activé</string>
+    <string name="pref_widget_options_category_title">Général</string>
     <string name="add_widget">Ajouter le widget</string>
     <string name="pref_render_effect_none">Pas d\'effet de rendu</string>
     <string name="pref_render_effect_night">Mode nuit (3700K)</string>
