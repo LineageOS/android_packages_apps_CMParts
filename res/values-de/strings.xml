@@ -492,6 +492,7 @@
     <string name="renderfx_temp">RenderFX</string>
     <string name="prefs_render_effect">Render-Effekt</string>
     <string name="notify_render_effect">Render-Effekt ein</string>
+    <string name="pref_widget_options_category_title">Allgemeine Optionen</string>
     <string name="add_widget">Widget hinzufügen</string>
     <string name="pref_render_effect_none">Kein Render-Effekt</string>
     <string name="pref_render_effect_night">Nachtmodus (3700&#x2009;K)</string>
