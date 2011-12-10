@@ -490,6 +490,7 @@
 
     <string name="widget_name">RenderFX Widget</string>
     <string name="renderfx_temp">RenderFX</string>
+    <string name="pref_widget_options_category_title">Opciones generales</string>
     <string name="prefs_render_effect">Efecto Render</string>
     <string name="notify_render_effect">Efecto Render activado</string>
     <string name="add_widget">Añadir widget</string>
