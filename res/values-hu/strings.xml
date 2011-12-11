@@ -721,7 +721,7 @@
     <string name="pref_use_16bpp_alpha_summary">Használata növeli a görgetés teljesítményét, de megjelenítési hibák előfordulhatnak (úraindítás szükséges)</string>
 
     <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Tábla finomhangolás</string>
+    <string name="tablet_tweaks_title_head">Tablet finomhangolás</string>
     <string name="tablet_tweaks_summary_head">Táblagépen használatos beállítások melyek telefonon is működnek</string>
     <string name="tablet_tweaks_sb_bottom_title">Állapotsor alulra</string>
     <string name="tablet_tweaks_sb_bottom_summary">Állapotsor alulra helyezése. Táblagépeken használatos képernyő-gombokkal (home, menü, vissza stb.)</string>
