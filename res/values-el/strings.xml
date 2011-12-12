@@ -89,6 +89,10 @@
     <string name="pref_rotation_180_title">180 μοίρες</string>
     <string name="pref_rotation_270_title">270 μοίρες</string>
 
+    <!-- User interface : Ultra Brightness -->
+    <string name="pref_ultra_brightness_title">Ενισχυμένη φωτεινότητα οθόνης</string>
+    <string name="pref_ultra_brightness_summary">Ανεβάζει το επίπεδο φωτεινότητας της οθόνης (μπορεί να προκαλέσει αυξημένη κατανάλωση μπαταρίας)</string>
+
     <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">Tweaks μπάρας κατάστασης</string>
     <string name="ui_status_bar_am_pm_title">Στυλ AM/PM</string>
@@ -259,6 +263,8 @@
     <!-- Lockscreen Settings -->
     <string name="pref_lockscreen_always_battery_title">Συνεχής εμφ. μπαταρίας</string>
     <string name="pref_lockscreen_always_battery_summary">Συνεχής εμφάνιση επιπέδου μπαταρίας στην οθόνη κλειδώματος</string>
+    <string name="pref_lockscreen_flashlight_title">Φακός στην οθόνη κλειδώματος</string>
+    <string name="pref_lockscreen_flashlight_summary">Παρατεταμένη πιεση του πλήκτρου HOME στην οθόνη κλειδώματος αναβεί/σβήνει το Φλας</string>
     <string name="pref_lockscreen_widgets_layout_title">Διάταξη γραφ. στοιχείων</string>
     <string name="pref_lockscreen_widgets_layout_summary">Διάταξη ρολογιού, ημερομηνίας, πάροχου, κατάστασης</string>
     <string name="pref_lockscreen_music_controls_title">Έλεγχος μουσικής</string>
@@ -759,7 +765,11 @@
     <string name="cpu_max_freq_summary">Μέγιστη συχνότητα CPU\nΤρέχουσα: %s</string>
     <string name="cpu_set_on_boot">Ορισμός κατά την εκκίνηση</string>
     <string name="cpu_set_on_boot_summary">Επαναφορά ρυθμίσεων CPU κατά την εκκίνηση</string>
-
+    <string name="cpu_undervolt">Undervolt</string>
+    <string name="cpu_undervolt_summary">Μείωση τάσης στον επεξεργαστή (μειώνει την κατανάλωση μπαταρίας αλλά ίσως προκαλέσει αστάθεια)</string>
+    <string name="cpu_overclock">Overclock</string>
+    <string name="cpu_overclock_summary">Αύξηση συχνότητας ρολογιού του επεξεργαστή (βελτιώνει τις επιδόσεις αλλά ίσως προκαλέσει αστάθεια)</string>
+    
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Διαχείριση δικαιωμάτων</string>
     <string name="perm_enable_management_summary">Ενεργοποίηση διαχείρισης δικαιωμάτων εφαρμογών</string>
