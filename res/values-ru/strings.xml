@@ -20,7 +20,7 @@
     <string name="lockscreen_settings_summary_head">Настройки разблокировки, жестов, стиля</string>
     <string name="performance_settings_title_head">Производительность</string>
     <string name="performance_settings_title_subhead">Настройки производительности устройства</string>
-    <string name="performance_settings_summary_head">Настройки производительности, JIT, размер VM кучи</string>
+    <string name="performance_settings_summary_head">Настройки производительности, JIT, размер динамической памяти VM</string>
     <string name="sound_settings_title_head">Звук</string>
     <string name="sound_settings_title_subhead">Настройки звука</string>
     <string name="sound_settings_summary_head">Громкость звука, аудио-фокус, тихие часы</string>
@@ -437,8 +437,8 @@
     <string name="pref_purgeable_assets_summary">Система может освободить больше памяти, когда это необходимо, если память активов битмапов разрешено освобождать (требуется перезагрузка)</string>
 
     <!-- Performance Settings : VM Heap Size -->
-    <string name="pref_heapsize_title">Размер VM heap</string>
-    <string name="pref_heapsize_summary">Максимум допустимой памяти для VM heap (требуется перезагрузка)</string>
+    <string name="pref_heapsize_title">Размер динамич. памяти VM</string>
+    <string name="pref_heapsize_summary">Максимум допустимой динамической памяти для VM (требуется перезагрузка)</string>
 
     <!-- Performance : Lock home memory -->
     <string name="pref_lock_home_title">Блокировать рабочий стол в памяти</string>
