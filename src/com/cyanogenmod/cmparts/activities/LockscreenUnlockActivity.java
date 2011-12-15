@@ -176,6 +176,8 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
         boolean GestureCanUnlock = false;
         boolean GestureEnabled = Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_GESTURES_ENABLED, 0) == 1;
+        boolean sliderCanUnlock = Settings.System.getInt(getContentResolver(),
+                Settings.System.SLIDER_UNLOCK_SCREEN, 0) == 1;
         boolean trackCanUnlock = Settings.System.getInt(getContentResolver(),
                 Settings.System.TRACKBALL_UNLOCK_SCREEN, 0) == 1;
         boolean menuCanUnlock = Settings.System.getInt(getContentResolver(),
@@ -192,7 +194,7 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
                 }
             }
         }
-        if (GestureCanUnlock || trackCanUnlock || menuCanUnlock) {
+        if (GestureCanUnlock || sliderCanUnlock || trackCanUnlock || menuCanUnlock) {
             return true;
         } else {
             return false;
