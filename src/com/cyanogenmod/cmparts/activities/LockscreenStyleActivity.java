@@ -31,6 +31,7 @@ import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.provider.MediaStore;
 import android.provider.Settings;
@@ -49,6 +50,12 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
 
     private static final int LOCKSCREEN_BACKGROUND = 1024;
 
+    private static final String CATEGORY_STYLE_GENERAL = "pref_lockscreen_style_general";
+
+    private static final String CATEGORY_STYLE_LOCKSCREEN = "pref_lockscreen_style_lockscreen";
+
+    private static final String CATEGORY_STYLE_INCALL = "pref_lockscreen_style_incall";
+
     private static final String LOCKSCREEN_STYLE_PREF = "pref_lockscreen_style";
 
     private static final String IN_CALL_STYLE_PREF = "pref_in_call_style";
@@ -61,11 +68,25 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
 
     private static final String LOCKSCREEN_ROTARY_HIDE_ARROWS_TOGGLE = "pref_lockscreen_rotary_hide_arrows_toggle";
 
+    private static final String LOCKSCREEN_RING_UNLOCK_MIDDLE_TOGGLE = "pref_lockscreen_ring_unlock_middle_toggle";
+
+    private static final String LOCKSCREEN_RING_MINIMAL_TOGGLE = "pref_lockscreen_ring_minimal_toggle";
+
     private static final String LOCKSCREEN_CUSTOM_ICON_STYLE = "pref_lockscreen_custom_icon_style";
 
     private static final String LOCKSCREEN_CUSTOM_BACKGROUND = "pref_lockscreen_background";
 
+    private PreferenceCategory mCategoryStyleGeneral;
+
+    private PreferenceCategory mCategoryStyleLockscreen;
+
+    private PreferenceCategory mCategoryStyleInCall;
+
     private CheckBoxPreference mCustomAppTogglePref;
+
+    private CheckBoxPreference mRingUnlockMiddleToggle;
+
+    private CheckBoxPreference mRingMinimalToggle;
 
     private CheckBoxPreference mRotaryUnlockDownToggle;
 
@@ -204,6 +225,16 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         mInCallStylePref.setValue(String.valueOf(InCallStyle.getIdByStyle(mInCallStyle)));
         mInCallStylePref.setOnPreferenceChangeListener(this);
 
+        mRingUnlockMiddleToggle = (CheckBoxPreference) prefSet
+                .findPreference(LOCKSCREEN_RING_UNLOCK_MIDDLE_TOGGLE);
+        mRingUnlockMiddleToggle.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_RING_UNLOCK_MIDDLE, 0) == 1);
+
+        mRingMinimalToggle = (CheckBoxPreference) prefSet
+                .findPreference(LOCKSCREEN_RING_MINIMAL_TOGGLE);
+        mRingMinimalToggle.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_RING_MINIMAL, 0) == 1);
+
         mRotaryUnlockDownToggle = (CheckBoxPreference) prefSet
                 .findPreference(LOCKSCREEN_ROTARY_UNLOCK_DOWN_TOGGLE);
         mRotaryUnlockDownToggle.setChecked(Settings.System.getInt(getContentResolver(),
@@ -224,10 +255,19 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         mCustomIconStyle.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_CUSTOM_ICON_STYLE, 1) == 2);
 
-        updateStylePrefs(mLockscreenStyle, mInCallStyle);
-
         mCustomAppActivityPref = prefSet
                 .findPreference(LOCKSCREEN_CUSTOM_APP_ACTIVITY);
+
+        mCategoryStyleGeneral = (PreferenceCategory) prefSet.
+                findPreference(CATEGORY_STYLE_GENERAL);
+
+        mCategoryStyleLockscreen = (PreferenceCategory) prefSet.
+                findPreference(CATEGORY_STYLE_LOCKSCREEN);
+
+        mCategoryStyleInCall = (PreferenceCategory) prefSet.
+                findPreference(CATEGORY_STYLE_INCALL);
+
+        updateStylePrefs(mLockscreenStyle, mInCallStyle);
 
         mCustomBackground = (ListPreference) prefSet
                 .findPreference(LOCKSCREEN_CUSTOM_BACKGROUND);
@@ -252,9 +292,7 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         mCustomBackground.setSummary(getResources().getString(resId));
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
+    private void updateCustomAppSummary() {
         if (mLockscreenStyle == LockscreenStyle.Ring) {
             mCustomAppActivityPref.setSummary(getCustomRingAppSummary());
         } else {
@@ -262,6 +300,12 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
                     Settings.System.LOCKSCREEN_CUSTOM_APP_ACTIVITY);
             mCustomAppActivityPref.setSummary(mPicker.getFriendlyNameForUri(value));
         }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        updateCustomAppSummary();
     }
 
     @Override
@@ -297,6 +341,16 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
             Settings.System.putInt(getContentResolver(),
                     Settings.System.LOCKSCREEN_CUSTOM_APP_TOGGLE, value ? 1 : 0);
             updateStylePrefs(mLockscreenStyle, mInCallStyle);
+            return true;
+        } else if (preference == mRingUnlockMiddleToggle) {
+            value = mRingUnlockMiddleToggle.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_RING_UNLOCK_MIDDLE, value ? 1 : 0);
+            return true;
+        } else if (preference == mRingMinimalToggle) {
+            value = mRingMinimalToggle.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_RING_MINIMAL, value ? 1 : 0);
             return true;
         } else if (preference == mRotaryUnlockDownToggle) {
             value = mRotaryUnlockDownToggle.isChecked();
@@ -416,6 +470,7 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
             Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_STYLE_PREF,
                     LockscreenStyle.getIdByStyle(mLockscreenStyle));
             updateStylePrefs(mLockscreenStyle, mInCallStyle);
+            updateCustomAppSummary();
             return true;
         }
         if (preference == mInCallStylePref) {
@@ -493,51 +548,108 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
     }
 
     private void updateStylePrefs(LockscreenStyle lockscreenStyle, InCallStyle inCallStyle) {
-        // slider style & lense style
-        if (lockscreenStyle == LockscreenStyle.Slider
-                || lockscreenStyle == LockscreenStyle.Lense
-                || lockscreenStyle == LockscreenStyle.Ring) {
-            if (inCallStyle == InCallStyle.Slider || inCallStyle == InCallStyle.Ring) {
-                mRotaryHideArrowsToggle.setChecked(false);
-                mRotaryHideArrowsToggle.setEnabled(false);
-            } else {
-                mRotaryHideArrowsToggle.setEnabled(true);
+        ArrayList<Preference> lockscreenCatPrefs = new ArrayList<Preference>();
+        ArrayList<Boolean> lockscreenCatPrefsEnable = new ArrayList<Boolean>();
+        ArrayList<Preference> inCallCatPrefs = new ArrayList<Preference>();
+        ArrayList<Boolean> inCallCatPrefsEnable = new ArrayList<Boolean>();
+
+        //perhaps it is better to remove individual prefs instead of removeAll, and readd the categories
+        //but it's simpler/cleaner for now this way
+        PreferenceScreen prefSet = getPreferenceScreen();
+        prefSet.removeAll();
+        prefSet.addPreference(mCategoryStyleGeneral);
+        prefSet.addPreference(mCategoryStyleLockscreen);
+
+        //mLockscreenStylePref.getEntry() returns stale entry... so use a more expensive workaround
+        mCategoryStyleLockscreen.setTitle(getResources().getString(R.string.lockscreen_style_options_title) +
+                " (" + mLockscreenStylePref.getEntries()[mLockscreenStylePref.
+                findIndexOfValue("" + LockscreenStyle.getIdByStyle(lockscreenStyle))] + ")");
+        mCategoryStyleInCall.setTitle(getResources().getString(R.string.lockscreen_style_options_title) +
+                " (" + mInCallStylePref.getEntries()[mInCallStylePref.
+                findIndexOfValue("" + InCallStyle.getIdByStyle(inCallStyle))] + ")");
+
+        switch (lockscreenStyle) {
+            case Slider:
+                mCustomAppTogglePref.setSummary(R.string.pref_lockscreen_custom_app_toggle_tab_summary);
+                lockscreenCatPrefs.add(mCustomAppTogglePref);
+                lockscreenCatPrefsEnable.add(true);
+
+                lockscreenCatPrefs.add(mCustomIconStyle);
+                lockscreenCatPrefsEnable.add(mCustomAppTogglePref.isChecked());
+
+                lockscreenCatPrefs.add(mCustomAppActivityPref);
+                lockscreenCatPrefsEnable.add(mCustomAppTogglePref.isChecked());
+                break;
+            case Ring:
+                mCustomAppTogglePref.setSummary(R.string.pref_lockscreen_custom_app_toggle_ring_summary);
+                lockscreenCatPrefs.add(mCustomAppTogglePref);
+                lockscreenCatPrefsEnable.add(true);
+
+                lockscreenCatPrefs.add(mCustomAppActivityPref);
+                lockscreenCatPrefsEnable.add(mCustomAppTogglePref.isChecked());
+
+                lockscreenCatPrefs.add(mRingUnlockMiddleToggle);
+                lockscreenCatPrefsEnable.add(mCustomAppTogglePref.isChecked());
+
+                lockscreenCatPrefs.add(mRingMinimalToggle);
+                lockscreenCatPrefsEnable.add(!mCustomAppTogglePref.isChecked());
+
+                break;
+            case Rotary:
+            case RotaryRevamped:
+                mCustomAppTogglePref.setSummary(R.string.pref_lockscreen_custom_app_toggle_rotary_summary);
+                lockscreenCatPrefs.add(mCustomAppTogglePref);
+                lockscreenCatPrefsEnable.add(true);
+
+                lockscreenCatPrefs.add(mRotaryHideArrowsToggle);
+                lockscreenCatPrefsEnable.add(true);
+
+                lockscreenCatPrefs.add(mRotaryUnlockDownToggle);
+                lockscreenCatPrefsEnable.add(mCustomAppTogglePref.isChecked());
+
+                lockscreenCatPrefs.add(mCustomIconStyle);
+                lockscreenCatPrefsEnable.add(mCustomAppTogglePref.isChecked());
+
+                lockscreenCatPrefs.add(mCustomAppActivityPref);
+                lockscreenCatPrefsEnable.add(mCustomAppTogglePref.isChecked());
+                break;
+            //case Lense:
+            default: //Includes Lense
+                prefSet.removePreference(mCategoryStyleLockscreen);
+        }
+
+        if ((inCallStyle == InCallStyle.Rotary || inCallStyle == InCallStyle.RotaryRevamped) &&
+                !(lockscreenStyle == LockscreenStyle.Rotary || lockscreenStyle == LockscreenStyle.RotaryRevamped)) {
+            prefSet.addPreference(mCategoryStyleInCall);
+
+            inCallCatPrefs.add(mRotaryHideArrowsToggle);
+            inCallCatPrefsEnable.add(true);
+        }
+
+        mCategoryStyleLockscreen.removeAll();
+        for (int q = 0; q < lockscreenCatPrefs.size(); q++) {
+            Preference pref = lockscreenCatPrefs.get(q);
+            boolean enabled = lockscreenCatPrefsEnable.get(q);
+
+            mCategoryStyleLockscreen.addPreference(pref);
+            pref.setEnabled(enabled);
+            if (!enabled && pref instanceof CheckBoxPreference) {
+                ((CheckBoxPreference) pref).setChecked(false);
             }
-            mRotaryUnlockDownToggle.setChecked(false);
-            mRotaryUnlockDownToggle.setEnabled(false);
-        // rotary and rotary revamped style
-        } else if (lockscreenStyle == LockscreenStyle.Rotary
-                || lockscreenStyle == LockscreenStyle.RotaryRevamped) {
-            mRotaryHideArrowsToggle.setEnabled(true);
-            if (mCustomAppTogglePref.isChecked() == true) {
-                mRotaryUnlockDownToggle.setEnabled(true);
-            } else {
-                mRotaryUnlockDownToggle.setChecked(false);
-                mRotaryUnlockDownToggle.setEnabled(false);
+        }
+
+        mCategoryStyleInCall.removeAll();
+        for (int q = 0; q < inCallCatPrefs.size(); q++) {
+            Preference pref = inCallCatPrefs.get(q);
+            boolean enabled = inCallCatPrefsEnable.get(q);
+
+            mCategoryStyleInCall.addPreference(pref);
+            pref.setEnabled(enabled);
+            if (!enabled && pref instanceof CheckBoxPreference) {
+                ((CheckBoxPreference) pref).setChecked(false);
             }
-        // ring style
         }
 
-        // disable custom app starter for lense - would be ugly in above if
-        // statement
-        if (lockscreenStyle == LockscreenStyle.Lense) {
-            mCustomIconStyle.setChecked(false);
-            mCustomAppTogglePref.setChecked(false);
-            mCustomAppTogglePref.setEnabled(false);
-        } else {
-            mCustomAppTogglePref.setEnabled(true);
-        }
-
-        // disable custom app icon style for ring - would be ugly in above if
-        // statement
-        if (lockscreenStyle == LockscreenStyle.Ring) {
-            mCustomIconStyle.setChecked(false);
-            mCustomIconStyle.setEnabled(false);
-        } else if (mCustomAppTogglePref.isChecked() == true){
-            mCustomIconStyle.setEnabled(true);
-        }
-
-        // make sure toggled settings are saved to system settings
         boolean value = mRotaryUnlockDownToggle.isChecked();
         Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_ROTARY_UNLOCK_DOWN,
                 value ? 1 : 0);
@@ -550,6 +662,12 @@ public class LockscreenStyleActivity extends PreferenceActivity implements
         value = mCustomIconStyle.isChecked();
         Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_CUSTOM_ICON_STYLE,
                 value ? 2 : 1);
+        value = mRingUnlockMiddleToggle.isChecked();
+        Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_RING_UNLOCK_MIDDLE,
+                value ? 1 : 0);
+        value = mRingMinimalToggle.isChecked();
+        Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_RING_MINIMAL,
+                value ? 1 : 0);
     }
 
     private String getCustomRingAppSummary() {
