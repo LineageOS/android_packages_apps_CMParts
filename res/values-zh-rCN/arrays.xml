@@ -206,6 +206,14 @@
         <item>特别轻</item>
     </string-array>
 
+    <string-array name="swap_volume_keys_orientation_list_entries">
+        <item>从不</item>
+        <item>0度</item>
+        <item>90度</item>
+        <item>180度</item>
+        <item>270度</item>
+    </string-array>
+
     <string-array name="entries_vol_actions">
         <item>无／预设</item>
         <item>主页</item>
