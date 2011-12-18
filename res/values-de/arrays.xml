@@ -226,6 +226,14 @@
     <item>Alles anzeigen</item>
   </string-array>
 
+  <string-array name="swap_volume_keys_orientation_list_entries">
+    <item>Niemals</item>
+    <item>0-Grad</item>
+    <item>90-Grad</item>
+    <item>180-Grad</item>
+    <item>270-Grad</item>
+  </string-array>
+
   <string-array name="entries_vol_actions">
     <item>Standard</item>
     <item>Homescreen</item>
