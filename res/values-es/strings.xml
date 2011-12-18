@@ -685,6 +685,8 @@
     <string name="sound_notifications_limitvol_dialog">Volumen de las notificaciones</string>
     <string name="sound_rings_limitvol_dialog">Volumen del tono de llamada</string>
     <string name="sound_alarms_limitvol_dialog">Volumen de la alarma</string>
+    <string name="sound_swap_volume_keys_dialog">Intercambiar a\u2026</string>
+    <string name="sound_swap_volume_keys_title">Intercambiar teclas volumen</string>
 
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">Horas de silencio</string>

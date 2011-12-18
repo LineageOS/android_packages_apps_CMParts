@@ -36,6 +36,7 @@ import android.provider.Settings;
 import android.text.format.DateFormat;
 import android.widget.TimePicker;
 import java.util.Calendar;
+import android.media.AudioManager;
 
 public class SoundActivity extends PreferenceActivity implements OnPreferenceChangeListener {
 
@@ -52,6 +53,8 @@ public class SoundActivity extends PreferenceActivity implements OnPreferenceCha
     private static final String NOTIFICATIONS_LIMITVOL = "notif-limitvol";
 
     private static final String VOLUME_CONTROL_SILENT = "vol-ctrl-silent";
+
+    private static final String SWAP_VOLUME_KEYS = "swap-vol-keys";
 
     private static final String VIBRATE_IN_CALL = "vibrate-in-call";
 
@@ -151,6 +154,13 @@ public class SoundActivity extends PreferenceActivity implements OnPreferenceCha
         lp.setSummary(lp.getEntry());
         lp.setOnPreferenceChangeListener(this);
 
+        lp = (ListPreference) prefSet.findPreference(SWAP_VOLUME_KEYS);
+        lp.setValue(String.valueOf(Settings.System.getInt(getContentResolver(),
+                Settings.System.SWAP_VOLUME_KEYS_ORIENTATION,
+                getResources().getInteger(com.android.internal.R.integer.swap_volume_keys_orientation))));
+        lp.setSummary(lp.getEntry());
+        lp.setOnPreferenceChangeListener(this);
+
         if (SystemProperties.getBoolean(CAMERA_SHUTTER_DISABLE, false)) {
             // we cannot configure camera sound, hide camera settigs
             prefSet.removePreference(prefSet.findPreference(CAMERA_CATEGORY));
@@ -169,6 +179,11 @@ public class SoundActivity extends PreferenceActivity implements OnPreferenceCha
         } else if (key.equals(VOLUME_CONTROL_SILENT)) {
             Settings.System.putInt(getContentResolver(), Settings.System.VOLUME_CONTROL_SILENT,
                     getBoolean(newValue) ? 1 : 0);
+        } else if (key.equals(SWAP_VOLUME_KEYS)) {
+            Settings.System.putInt(getContentResolver(), Settings.System.SWAP_VOLUME_KEYS_ORIENTATION,
+                    getInt(newValue));
+            ((AudioManager)getSystemService(AUDIO_SERVICE)).reloadAudioSettings();
+            mHandler.sendMessage(mHandler.obtainMessage(0, key));
         } else if (key.equals(VIBRATE_IN_CALL)) {
             Settings.System.putInt(getContentResolver(), Settings.System.VIBRATE_IN_CALL,
                     getBoolean(newValue) ? 1 : 0);
