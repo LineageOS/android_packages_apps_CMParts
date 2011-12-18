@@ -581,6 +581,8 @@
     <string name="sound_notifications_limitvol_dialog">通知音量</string>
     <string name="sound_rings_limitvol_dialog">铃声音量</string>
     <string name="sound_alarms_limitvol_dialog">闹钟音量</string>
+    <string name="sound_swap_volume_keys_dialog">交换音量键</string>
+    <string name="sound_swap_volume_keys_title">交换音量键</string>
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">静音时间</string>
     <string name="quiet_hours_note_title">注意</string>

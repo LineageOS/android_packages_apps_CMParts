@@ -254,6 +254,14 @@
         <item>Muy leve</item>
     </string-array>
 
+    <string-array name="swap_volume_keys_orientation_list_entries">
+        <item>Nunca</item>
+        <item>0 grados</item>
+        <item>90 grados</item>
+        <item>180 grados</item>
+        <item>270 grados</item>
+    </string-array>
+
     <string-array name="entries_vol_actions">
         <item>Ninguno/predeterminado</item>
         <item>Home</item>

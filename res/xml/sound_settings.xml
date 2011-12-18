@@ -17,6 +17,14 @@
 			android:summary="@string/sound_volume_control_silent_summary"
 			android:persistent="false" />
 
+
+		<ListPreference android:key="swap-vol-keys"
+			android:title="@string/sound_swap_volume_keys_title"
+			android:dialogTitle="@string/sound_swap_volume_keys_dialog"
+			android:entries="@array/swap_volume_keys_orientation_list_entries"
+			android:entryValues="@array/swap_volume_keys_orientation_list_values"
+			android:persistent="false" />
+
         <!-- Vibrate on call -->
 		<CheckBoxPreference android:key="vibrate-in-call"
 			android:title="@string/sound_vibrate_in_call_title"
