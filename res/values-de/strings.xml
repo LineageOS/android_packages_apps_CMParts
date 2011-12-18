@@ -685,6 +685,8 @@
     <string name="sound_notifications_limitvol_dialog">Benachrichtigungslautstärke</string>
     <string name="sound_rings_limitvol_dialog">Klingeltonlautstärke</string>
     <string name="sound_alarms_limitvol_dialog">Weckerlautstärke</string>
+    <string name="sound_swap_volume_keys_dialog">Lautstärketasten vertrauschen</string>
+    <string name="sound_swap_volume_keys_title">Lautstärketasten vertrauschen</string>
 
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">Ruhige Stunden</string>
