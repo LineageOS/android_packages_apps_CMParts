@@ -497,6 +497,10 @@
     <string name="pref_flash_mode_title">Mode flash</string>
     <string name="pref_flash_mode_summary">Choisir la puissance du flash : Haute ou Death Ray</string>
 
+    <!-- Performance : Disable bootanimation -->
+    <string name="pref_disable_bootanimation_title">Désactiver animation de boot</string>
+    <string name="pref_disable_bootanimation_summary">Ne pas afficher l\'animation pour améliorer la vitesse de démarrage</string>
+
     <!-- Performance : Lock home memory -->
     <string name="pref_lock_home_title">Ecran d\'accueil en RAM</string>
     <string name="pref_lock_home_summary">Essayer de conserver l\'application Accueil en mémoire tout le temps</string>
