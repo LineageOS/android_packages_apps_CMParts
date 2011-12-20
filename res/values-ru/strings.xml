@@ -440,6 +440,10 @@
     <string name="pref_heapsize_title">Размер VM heap</string>
     <string name="pref_heapsize_summary">Максимум допустимой памяти для VM heap (требуется перезагрузка)</string>
 
+    <!-- Performance : Disable bootanimation -->
+     <string name="pref_disable_bootanimation_title">Выкл. анимацию загрузки</string>
+     <string name="pref_disable_bootanimation_summary">Не показывать анимацию загрузки для более быстрого включения устройства</string>
+
     <!-- Performance : Lock home memory -->
     <string name="pref_lock_home_title">Блокировать рабочий стол в памяти</string>
     <string name="pref_lock_home_summary">Пытаться не давать системе выгружать ваш текущий рабочий стол из памяти</string>
