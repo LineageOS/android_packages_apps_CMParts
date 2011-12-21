@@ -269,6 +269,8 @@
     <!-- Lockscreen Settings -->
     <string name="pref_lockscreen_always_battery_title">常にバッテリー状態を表示</string>
     <string name="pref_lockscreen_always_battery_summary">常にバッテリーの状態をロックスクリーンに表示する</string>
+    <string name="pref_lockscreen_flashlight_title">ロックスクリーン フラッシュライト</string>
+    <string name="pref_lockscreen_flashlight_summary">ロックスクリーン上でHOMEボタン長押しによりフラッシュライトに切り替える</string>
     <string name="pref_lockscreen_widgets_layout_title">ウィジェットレイアウト</string>
     <string name="pref_lockscreen_widgets_layout_summary">時計、日付、キャリア、ステータスのレイアウト</string>
     <string name="pref_lockscreen_widget_layout_entry_default">デフォルト</string>

@@ -269,6 +269,8 @@
     <!-- Lockscreen Settings -->
     <string name="pref_lockscreen_always_battery_title">Siempre mostrar el estado de batería</string>
     <string name="pref_lockscreen_always_battery_summary">Mostrar el estado de batería en la pantalla de bloqueo en cualquier momento</string>
+    <string name="pref_lockscreen_flashlight_title">Linterna en pantalla bloqueo</string>
+    <string name="pref_lockscreen_flashlight_summary">La pulsación larga de la tecla Home encenderá o apagará la linterna</string>
     <string name="pref_lockscreen_widgets_layout_title">Comportamiento de widgets</string>
     <string name="pref_lockscreen_widgets_layout_summary">Ajustar comportamiento del reloj, fecha, operador ó estatus</string>
     <string name="pref_lockscreen_widget_layout_entry_default">Izquierda</string>
