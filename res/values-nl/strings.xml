@@ -266,6 +266,8 @@
     <!-- Lockscreen Settings -->
     <string name="pref_lockscreen_always_battery_title">Laat batterij status altijd zien</string>
     <string name="pref_lockscreen_always_battery_summary">Laat batterij status altijd op het lockscreen zien</string>
+    <string name="pref_lockscreen_flashlight_title">Vergrendelscherm zaklamp</string>
+    <string name="pref_lockscreen_flashlight_summary">Druk lang op de Homeknop vanaf het vergrendelscherm om de zaklamp aan/uit te schakelen</string>
     <string name="pref_lockscreen_widgets_layout_title">Widget layout</string>
     <string name="pref_lockscreen_widgets_layout_summary">Wissel klok, datum, provider, status layout</string>
     <string name="pref_lockscreen_widget_layout_entry_default">Standaard</string>
