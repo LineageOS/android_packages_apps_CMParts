@@ -44,6 +44,14 @@
                 android:targetClass="com.cyanogenmod.cmparts.activities.LockscreenTimeoutActivity" />
         </PreferenceScreen>
 
+        <CheckBoxPreference android:key="pref_dock_nolock"
+            android:title="@string/pref_dock_nolock_title" 
+            android:summary="@string/pref_dock_nolock_summary" />
+
+        <CheckBoxPreference android:key="pref_dock_bluetooth"
+            android:title="@string/pref_dock_bluetooth_title"
+            android:summary="@string/pref_dock_bluetooth_summary" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

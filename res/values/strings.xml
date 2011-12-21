@@ -148,6 +148,12 @@
     <string name="pref_lockscreen_slide_timeout_lock_delay_summary">How long to delay before enabling screen slide lock when screen times out</string>
     <string name="pref_lockscreen_slide_screenoff_lock_delay_summary">How long to delay before enabling screen slide lock when screen is turned off</string>
 
+    <string name="pref_dock_nolock_title">Do not lock screen in Dock</string>
+    <string name="pref_dock_nolock_summary">Dock mode will not lock screen when enabled</string>
+    <string name="pref_dock_bluetooth_title">Enable bluetooth when in Dock</string>
+    <string name="pref_dock_bluetooth_summary">Dock mode will automatically enable bluetooth</string>
+
+
     <!-- Color Picker -->
     <string name="title_color_picker">Pick a color</string>
     <string name="msg_color_picker">Tap on center color to confirm.\nPress back to cancel</string>
