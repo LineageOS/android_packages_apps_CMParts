@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAOX///V0\u003d",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-12-21T21:01:40Z",
+      "side": 1,
+      "message": "I would suggest trying not to change setting values that already are used in the field. Uses who hided the battery indicator before this patch will suddenly find themselves having the side battery bar.\n\nI suggest using \u00273\u0027 as value for the side bar (which doesn\u0027t affect the UI representation).",
+      "revId": "e0ec0665cae55c4700df1a056af6e8c81491ffc4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
