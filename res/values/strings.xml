@@ -270,6 +270,8 @@
     <!-- Lockscreen Settings -->
     <string name="pref_lockscreen_always_battery_title">Always display battery status</string>
     <string name="pref_lockscreen_always_battery_summary">Display battery status on the lockscreen at all times</string>
+    <string name="pref_lockscreen_flashlight_title">Lockscreen flashlight</string>
+    <string name="pref_lockscreen_flashlight_summary">Long pressing HOME button on the lockscreen toggles the flashlight</string>
     <string name="pref_lockscreen_widgets_layout_title">Widget layout</string>
     <string name="pref_lockscreen_widgets_layout_summary">Toggle clock, date, carrier, status layout</string>
     <string name="pref_lockscreen_widget_layout_entry_default">Default</string>
