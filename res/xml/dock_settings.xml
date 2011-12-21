@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference android:key="pref_dock_nolock"
+            android:title="@string/pref_dock_nolock_title" 
+            android:summary="@string/pref_dock_nolock_summary" />
+
+        <CheckBoxPreference android:key="pref_dock_bluetooth"
+            android:title="@string/pref_dock_bluetooth_title"
+            android:summary="@string/pref_dock_bluetooth_summary" />
+</PreferenceScreen>

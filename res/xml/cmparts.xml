@@ -44,6 +44,16 @@
             android:targetClass="com.cyanogenmod.cmparts.activities.LockscreenActivity" />
     </PreferenceScreen>
 
+    <!-- Dock Settings -->
+    <PreferenceScreen android:key="dock_settings"
+        android:title="@string/dock_settings_title"
+        android:summary="@string/dock_settings_summary">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.cyanogenmod.cmparts"
+            android:targetClass="com.cyanogenmod.cmparts.activities.DockActivity" />
+    </PreferenceScreen>
+
+
     <!-- Performance settings -->
     <PreferenceScreen android:key="performance_settings"
         android:title="@string/performance_settings_title_head"
