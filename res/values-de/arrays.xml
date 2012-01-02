@@ -214,6 +214,7 @@
   <string-array name="pref_ringlock_style_entries">
     <item>Blasen</item>
     <item>Ringe</item>
+    <item>Holo</item>
   </string-array>
 
   <string-array name="pref_lockscreen_background_entries">
