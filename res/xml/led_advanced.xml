@@ -6,6 +6,11 @@
                         android:title="@string/pref_trackball_screen_title"
                         android:summary="@string/pref_trackball_screen_summary" />
 
+    <CheckBoxPreference android:key="use_buttons"
+                        android:persistent="false"
+                        android:title="@string/pref_use_buttons_title" 
+			android:summary="@string/pref_use_buttons_summary"/>
+
     <CheckBoxPreference android:key="blend_colors"
                         android:persistent="false"
                         android:title="@string/pref_trackball_blend_title"

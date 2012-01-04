@@ -178,6 +178,8 @@
     <string name="pref_trackball_order_summary">Pulses the LED color in order</string>
     <string name="pref_trackball_reset_title">Reset</string>
     <string name="pref_trackball_reset_summary">Reset all colors and apps</string>
+    <string name="pref_use_buttons_title">Use BLN</string>
+    <string name="pref_use_buttons_summary">Turn on button-lights on new Notification</string>
     <string name="dialog_trackball_loading">Loading\u2026</string>
     <string name="dialog_trackball_packagelist">Loading package list</string>
     <string name="trackball_category_dialog_text">Please enter a new category</string>

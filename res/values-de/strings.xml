@@ -178,6 +178,8 @@
     <string name="pref_trackball_order_summary">Die LED für alle Benachrichtigungen in der selben Farbenfolge blinken lassen</string>
     <string name="pref_trackball_reset_title">Zurücksetzen</string>
     <string name="pref_trackball_reset_summary">Alle Farben und Anwendungen zurücksetzen</string>
+    <string name="pref_use_buttons_title">Nutze BLN</string>
+    <string name="pref_use_buttons_summary">Schalte Softkey-Beleuchtung bei Benachrichtigung an</string>
     <string name="dialog_trackball_loading">Lade…</string>
     <string name="dialog_trackball_packagelist">Lade Paketliste</string>
     <string name="trackball_category_dialog_text">Neue Kategorie eingeben</string>
