@@ -315,6 +315,10 @@
     <string name="pref_lockscreen_rotary_hide_arrows_summary">Ocultar las flechas de ayuda de dirección</string>
     <string name="pref_lockscreen_style_title">Estilo de bloqueo de pantalla</string>
     <string name="pref_lockscreen_style_summary">Escoger el estilo de pantalla de bloqueo</string>
+    <string name="pref_rotary_style_title">Estilo Giratorio</string>
+    <string name="pref_rotary_style_summary">Escoger el estilo para el anillo giratorio</string>
+    <string name="pref_ringlock_style_title">Estilo Anillo</string>
+    <string name="pref_ringlock_style_summary">Escoger el estilo para los anillos de bloqueo</string>
     <string name="pref_in_call_style_title">Estilo llamada entrante</string>
     <string name="pref_in_call_style_summary">Elegir estilo de widget de llamadas entrantes aceptar o rechazar</string>
     <string name="lockscreen_music_title">Controles de música</string>

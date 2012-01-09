@@ -117,7 +117,6 @@
     <string-array name="pref_lockscreen_style_entries">
         <item>옆으로 밀기</item>
         <item>회전</item>
-        <item>개정된 회전</item>
         <item>Lense</item>
         <item>반지</item>
     </string-array>

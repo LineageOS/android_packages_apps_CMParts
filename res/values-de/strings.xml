@@ -317,6 +317,10 @@
     <string name="pref_lockscreen_style_summary">Stil des Sperrbildschirms auswählen</string>
     <string name="pref_in_call_style_title">Anrufbildschirm-Stil</string>
     <string name="pref_in_call_style_summary">Stil des Bildschirms bei einem eingehenden Anruf auswählen</string>
+    <string name="pref_rotary_style_title">Rad-Stil</string>
+    <string name="pref_rotary_style_summary">Aussehen des Rades anpassen</string>
+    <string name="pref_ringlock_style_title">Blasen-Stil</string>
+    <string name="pref_ringlock_style_summary">Aussehen der Blasen anpassen</string>
     <string name="lockscreen_music_title">Musiksteuerung</string>
     <string name="pref_volbtn_music_controls_title">Titelwahl m. Lautstärket.</string>
     <string name="pref_volbtn_music_controls_summary">Wenn Bildschirm ausgeschaltet ist, Titel durch langes Drücken der Lautstärketasten suchen</string>

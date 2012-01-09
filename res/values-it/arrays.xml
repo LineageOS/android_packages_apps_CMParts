@@ -129,7 +129,6 @@
     <string-array name="pref_lockscreen_style_entries">
         <item>Tab scorrevoli</item>
         <item>Rotante</item>
-        <item>Rotante ridisegnato</item>
         <item>Lense</item>
         <item>Anelli</item>
     </string-array>
@@ -137,7 +136,6 @@
     <string-array name="pref_in_call_style_entries">
         <item>Tab scorrevoli</item>
         <item>Rotante</item>
-        <item>Rotante ridisegnato</item>
         <item>Anelli</item>
     </string-array>
 
