@@ -403,6 +403,9 @@
     <string name="pref_heapsize_title">虚拟机内存大小</string>
     <string name="pref_heapsize_summary">设置每个虚拟机进程的可用内存最大值（需要重启）</string>
 
+    <string name="pref_disable_bootanimation_title">禁用开机动画</string>
+    <string name="pref_disable_bootanimation_summary">禁用开机动画以便快速开机</string>
+
     <!-- Performance : Lock home memory -->
     <string name="pref_lock_home_title">锁定桌面的内存</string>
     <string name="pref_lock_home_summary">在任何情况下试图防止当前的桌面程序被系统从内存中清除</string>
