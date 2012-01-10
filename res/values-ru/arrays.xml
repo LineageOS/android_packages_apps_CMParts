@@ -158,6 +158,16 @@
         <item>Кольцa</item>
     </string-array>
 
+    <string-array name="pref_rotary_style_entries">
+        <item>Обычный стиль</item>
+        <item>Новый стиль</item>
+    </string-array>
+
+    <string-array name="pref_ringlock_style_entries">
+        <item>Пузыри</item>
+        <item>Новый стиль</item>
+    </string-array>
+
     <string-array name="pref_in_call_style_entries">
         <item>Ползунок</item>
         <item>Вращение</item>
