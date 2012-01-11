@@ -185,6 +185,17 @@
         <item>环</item>
     </string-array>
 
+    <string-array name="pref_rotary_style_entries">
+        <item>正常风格</item>
+        <item>革新风格</item>
+    </string-array>
+
+    <string-array name="pref_ringlock_style_entries">
+        <item>气泡风格</item>
+        <item>革新风格</item>
+        <item>Holo风格</item>
+    </string-array>
+
     <string-array name="pref_in_call_style_entries">
         <item>滑动</item>
         <item>旋转拨动</item>
