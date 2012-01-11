@@ -291,6 +291,10 @@
     <string name="pref_lockscreen_rotary_hide_arrows_summary">在旋转风格时隐藏提示箭头</string>
     <string name="pref_lockscreen_style_title">锁屏风格</string>
     <string name="pref_lockscreen_style_summary">选择锁屏风格</string>
+    <string name="pref_rotary_style_title">旋转风格</string>
+    <string name="pref_rotary_style_summary">选择旋转轮的风格</string>
+    <string name="pref_ringlock_style_title">锁环风格</string>
+    <string name="pref_ringlock_style_summary">选择锁环风格</string>
     <string name="pref_in_call_style_title">来电屏幕风格</string>
     <string name="pref_in_call_style_summary">选择来电接听/拒绝的小插件风格</string>
     <string name="pref_volbtn_music_controls_title">音量键音乐控制</string>
