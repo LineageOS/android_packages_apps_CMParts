@@ -178,6 +178,8 @@
     <string name="pref_trackball_order_summary">Pulses the LED color in order</string>
     <string name="pref_trackball_reset_title">Reset</string>
     <string name="pref_trackball_reset_summary">Reset all colors and apps</string>
+    <string name="pref_use_buttons_title">Use BLN</string>
+    <string name="pref_use_buttons_summary">Turn on button-lights on new notification. Note: This takes slightly more power in standby</string>
     <string name="dialog_trackball_loading">Loading\u2026</string>
     <string name="dialog_trackball_packagelist">Loading package list</string>
     <string name="trackball_category_dialog_text">Please enter a new category</string>
@@ -561,6 +563,7 @@
     <string name="title_toggle_media_previous">Media: Skip to Previous</string>
     <string name="title_toggle_media_next">Media: Skip to Next</string>
     <string name="title_toggle_wimax">Toggle WiMAX</string>
+    <string name="title_toggle_bln">Toggle BLN</string>
     <string name="title_button_modes">Button modes</string>
     <string name="pref_brightness_mode_title">Brightness modes</string>
     <string name="pref_brightness_mode_summary">Choose how the brightness button changes modes</string>
@@ -670,6 +673,9 @@
     <string name="quiet_hours_haptic">Disable haptic feedback</string>
     <string name="quiet_hours_haptic_on">Haptic feedback is disabled</string>
     <string name="quiet_hours_haptic_off">Haptic feedback is enabled</string>
+    <string name="quiet_hours_bln">Don\'t use BLN</string>
+    <string name="quiet_hours_bln_on">BLN is disabled</string>
+    <string name="quiet_hours_bln_off">BLN is enabled</string>
 
     <string name="cmstats_title">Anonymous statistics</string>
     <string name="cmstats_summary">Help make CM better by opting-in to anonymous statistics reporting</string>

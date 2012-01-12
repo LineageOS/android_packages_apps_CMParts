@@ -178,6 +178,8 @@
     <string name="pref_trackball_order_summary">Die LED für alle Benachrichtigungen in der selben Farbenfolge blinken lassen</string>
     <string name="pref_trackball_reset_title">Zurücksetzen</string>
     <string name="pref_trackball_reset_summary">Alle Farben und Anwendungen zurücksetzen</string>
+    <string name="pref_use_buttons_title">Nutze BLN</string>
+    <string name="pref_use_buttons_summary">Schalte Softkey-Beleuchtung bei Benachrichtigung an (minimal höherer Stromverbrauch) </string>
     <string name="dialog_trackball_loading">Lade…</string>
     <string name="dialog_trackball_packagelist">Lade Paketliste</string>
     <string name="trackball_category_dialog_text">Neue Kategorie eingeben</string>
@@ -561,6 +563,7 @@
     <string name="title_toggle_media_previous">Medien: Vorheriger Titel</string>
     <string name="title_toggle_media_next">Medien: Nächster Titel</string>
     <string name="title_toggle_wimax">WiMAX</string>
+    <string name="title_toggle_bln">BLN</string>
     <string name="title_button_modes">Schaltflächenfunktionen</string>
     <string name="pref_brightness_mode_title">Helligkeitsstufen</string>
     <string name="pref_brightness_mode_summary">Helligkeitsstufen, zwischen denen umgeschaltet wird</string>
@@ -670,6 +673,9 @@
     <string name="quiet_hours_haptic">Haptisches Feedback abschalten</string>
     <string name="quiet_hours_haptic_on">Haptisches Feedback ist aus</string>
     <string name="quiet_hours_haptic_off">Haptisches Feedback ist an</string>
+    <string name="quiet_hours_bln">BLN ausschalten</string>
+    <string name="quiet_hours_bln_on">Softkeys leuchten nicht bei Benachrichtigung</string>
+    <string name="quiet_hours_bln_off">Softkeys leuchten bei Benachrichtigung</string>
 
     <string name="cmstats_title">Anonyme Statistiken</string>
     <string name="cmstats_summary">Helfen Sie mit, CyanogenMod durch anonyme Gerätestatistiken zu verbessern</string>

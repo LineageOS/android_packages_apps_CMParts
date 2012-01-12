@@ -35,6 +35,7 @@ public class AdvancedActivity extends PreferenceActivity implements
             Preference.OnPreferenceChangeListener {
 
     private CheckBoxPreference mPulseAlwaysPref;
+    private CheckBoxPreference mUseButtonsPref;
     private CheckBoxPreference mBlendColorsPref;
     private CheckBoxPreference mPulseSuccessionPref;
     private CheckBoxPreference mPulseRandomPref;
@@ -56,6 +57,8 @@ public class AdvancedActivity extends PreferenceActivity implements
         mPulseRandomPref = (CheckBoxPreference) findPreference("pulse_random");
         mPulseInOrderPref = (CheckBoxPreference) findPreference("pulse_in_order");
         mResetPref = findPreference("reset");
+	mUseButtonsPref = (CheckBoxPreference) findPreference("use_buttons");
+	mUseButtonsPref.setOnPreferenceChangeListener(this);
 
         /* Hide options only relevant to RGB lights if no RGB LED is present */
         if (!getResources().getBoolean(R.bool.has_rgb_notification_led)) {
@@ -78,7 +81,10 @@ public class AdvancedActivity extends PreferenceActivity implements
         if (pref == mPulseAlwaysPref) {
             boolean value = (Boolean) objValue;
             return putInt(Settings.System.TRACKBALL_SCREEN_ON, value ? 1 : 0);
-        } else if (pref == mPulseSuccessionPref) {
+        } else if (pref == mUseButtonsPref){
+	    boolean value = (Boolean) objValue;
+            return putInt(Settings.System.USE_BUTTONS, value ? 1 : 0);
+	} else if (pref == mPulseSuccessionPref) {
             boolean value = (Boolean) objValue;
             return handlePulsePrefChange(mPulseSuccessionPref, value,
                     Settings.System.TRACKBALL_NOTIFICATION_SUCCESSION);
@@ -165,6 +171,7 @@ public class AdvancedActivity extends PreferenceActivity implements
         mPulseRandomPref.setEnabled(!blendEnabled);
         mPulseInOrderPref.setChecked(getInt(Settings.System.TRACKBALL_NOTIFICATION_PULSE_ORDER, 0) == 1);
         mPulseInOrderPref.setEnabled(!blendEnabled);
+	mUseButtonsPref.setChecked(getInt(Settings.System.USE_BUTTONS, 0) == 1);
     }
 
     private boolean putInt(String option, int value) {

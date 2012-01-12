@@ -55,6 +55,8 @@ public class SoundQuietHoursActivity extends PreferenceActivity implements
 
     private static final String KEY_QUIET_HOURS_HAPTIC = "quiet_hours_haptic";
 
+    private static final String KEY_QUIET_HOURS_BLN = "quiet_hours_bln";
+
     private CheckBoxPreference mQuietHoursEnabled;
 
     private Preference mQuietHoursStart;
@@ -68,6 +70,8 @@ public class SoundQuietHoursActivity extends PreferenceActivity implements
     private CheckBoxPreference mQuietHoursDim;
 
     private CheckBoxPreference mQuietHoursHaptic;
+
+    private CheckBoxPreference mQuietHoursBln;
 
     private String returnTime(String t) {
         if (t == null || t.equals("")) {
@@ -107,6 +111,7 @@ public class SoundQuietHoursActivity extends PreferenceActivity implements
         mQuietHoursStill = (CheckBoxPreference) findPreference(KEY_QUIET_HOURS_STILL);
         mQuietHoursDim = (CheckBoxPreference) findPreference(KEY_QUIET_HOURS_DIM);
         mQuietHoursHaptic = (CheckBoxPreference) findPreference(KEY_QUIET_HOURS_HAPTIC);
+	mQuietHoursBln = (CheckBoxPreference) findPreference(KEY_QUIET_HOURS_BLN);
     }
 
     @Override
@@ -142,7 +147,10 @@ public class SoundQuietHoursActivity extends PreferenceActivity implements
             Settings.System.putInt(getContentResolver(), Settings.System.QUIET_HOURS_HAPTIC,
                     mQuietHoursHaptic.isChecked() ? 1 : 0);
             return true;
-        }
+        } else if (preference == mQuietHoursBln) {
+	   Settings.System.putInt(getContentResolver(), Settings.System.QUIET_HOURS_BLN,
+		    mQuietHoursBln.isChecked() ? 1 : 0);
+	}
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
