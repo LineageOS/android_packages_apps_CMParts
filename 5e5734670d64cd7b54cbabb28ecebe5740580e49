@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPH///I4\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-01-14T19:52:04Z",
+      "side": 1,
+      "message": "Will the average user know what \u0027BLN\u0027 is?",
+      "revId": "5e5734670d64cd7b54cbabb28ecebe5740580e49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH///I0\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-01-14T19:52:04Z",
+      "side": 1,
+      "message": "I\u0027m not sure whether it\u0027s \u0027slightly\u0027 more power only...",
+      "revId": "5e5734670d64cd7b54cbabb28ecebe5740580e49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH///Iw\u003d",
+        "filename": "res/xml/led_advanced.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-01-14T19:52:04Z",
+      "side": 1,
+      "message": "The whitespace is messed up here.",
+      "revId": "5e5734670d64cd7b54cbabb28ecebe5740580e49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH///Is\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/SoundQuietHoursActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-01-14T19:52:04Z",
+      "side": 1,
+      "message": "More broken whitespace here.",
+      "revId": "5e5734670d64cd7b54cbabb28ecebe5740580e49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH///Io\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/led/AdvancedActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-01-14T19:52:04Z",
+      "side": 1,
+      "message": "More messed whitespace here...",
+      "revId": "5e5734670d64cd7b54cbabb28ecebe5740580e49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPH///Ik\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/utils/PowerWidgetUtil.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-01-14T19:52:04Z",
+      "side": 1,
+      "message": "Whitespace...",
+      "revId": "5e5734670d64cd7b54cbabb28ecebe5740580e49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
