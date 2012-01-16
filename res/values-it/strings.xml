@@ -314,8 +314,15 @@
     <string name="pref_lockscreen_rotary_hide_arrows_summary">Nascondi le frecce direzionali nel lockscreen rotante</string>
     <string name="pref_lockscreen_style_title">Stile lockscreen</string>
     <string name="pref_lockscreen_style_summary">Scegli lo stile del lockscreen</string>
+    <string name="lockscreen_style_entry_tabs">Tab scorrevoli</string>
+    <string name="lockscreen_style_entry_rotary">Rotante</string>
+    <string name="lockscreen_style_entry_lense">Lense</string>
+    <string name="lockscreen_style_entry_ring">Anelli</string>
     <string name="pref_in_call_style_title">Stile chiamata in arrivo</string>
     <string name="pref_in_call_style_summary">Seleziona lo stile del widget accetta/rifiuta per le chiamate in arrivo</string>
+    <string name="incall_style_entry_tabs">Tab scorrevoli</string>
+    <string name="incall_style_entry_rotary">Rotante</string>
+    <string name="incall_style_entry_ring">Anelli</string>
     <string name="lockscreen_music_title">Controlli musicali</string>
     <string name="pref_volbtn_music_controls_title">Seleziona traccia con tasto volume</string>
     <string name="pref_volbtn_music_controls_summary">Seleziona la traccia musicale tenendo premuto il tasto volume quando lo schermo è spento</string>

@@ -148,6 +148,10 @@
     <string name="pref_lockscreen_rotary_hide_arrows_summary">Esconde as setas de ajuda direcionais</string>
     <string name="pref_lockscreen_style_title">Estilo da tela de bloqueio</string>
     <string name="pref_lockscreen_style_summary">Escolhe o estilo da tela de bloqueio</string>
+    <string name="lockscreen_style_entry_tabs">Aba Deslizante</string>
+    <string name="lockscreen_style_entry_rotary">Rotativo</string>
+    <string name="lockscreen_style_entry_lense">Lente</string>
+    <string name="lockscreen_style_entry_ring">Anel</string>
     <string name="pref_volbtn_music_controls_title">Controle de música</string>
     <string name="pref_volbtn_music_controls_summary">Quando a tela está desligada, procura faixas de música quando pressiona os botões de volume por um longo período</string>
     <string name="pref_cambtn_music_controls_title">Controle a música com o botão da câmera</string>
@@ -602,6 +606,9 @@
     <string name="ui_status_bar_am_pm_summary">Mostrar AM/PM ao lado do relógio</string>
     <string name="pref_in_call_style_title">Estilo de ligação recebida</string>
     <string name="pref_in_call_style_summary">Escolher o estilo do widget de aceitar/rejeitar ligações recebidas</string>
+    <string name="incall_style_entry_tabs">Aba Deslizante</string>
+    <string name="incall_style_entry_rotary">Giratório</string>
+    <string name="incall_style_entry_ring">Anel</string>
     <string name="pref_volume_wake_title">Acordar com botão volume</string>
     <string name="pref_volume_wake_summary">Acorda o dispositivo ao apertar o botão de aumentar/abaixar volume. É indicado para dispositivos com botão de ligar difícil de apertar.</string>
     <string name="perm_enable_management">Habilitar gerenciamento</string>

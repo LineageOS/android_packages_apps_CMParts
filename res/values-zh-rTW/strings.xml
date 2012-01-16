@@ -315,8 +315,15 @@
     <string name="pref_lockscreen_rotary_hide_arrows_summary">在撥輪模式中隱藏方向提示箭頭</string>
     <string name="pref_lockscreen_style_title">鎖定螢幕風格</string>
     <string name="pref_lockscreen_style_summary">選擇鎖定螢幕的風格</string>
+    <string name="lockscreen_style_entry_tabs">滑桿</string>
+    <string name="lockscreen_style_entry_rotary">撥輪</string>
+    <string name="lockscreen_style_entry_lense">透鏡</string>
+    <string name="lockscreen_style_entry_ring">飛環</string>
     <string name="pref_in_call_style_title">來電螢幕風格</string>
     <string name="pref_in_call_style_summary">選擇用來接聽／拒絕來電的道具風格</string>
+    <string name="incall_style_entry_tabs">滑桿</string>
+    <string name="incall_style_entry_rotary">撥輪</string>
+    <string name="incall_style_entry_ring">飛環</string>
     <string name="lockscreen_music_title">音樂控制</string>
     <string name="pref_volbtn_music_controls_title">音量鍵音樂控制</string>
     <string name="pref_volbtn_music_controls_summary">在螢幕關閉時長按音量鍵來搜尋曲目</string>

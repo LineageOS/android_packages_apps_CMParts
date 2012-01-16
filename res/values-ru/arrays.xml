@@ -151,29 +151,6 @@
         <item>Полная яркость</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_style_entries">
-        <item>Ползунок</item>
-        <item>Вращение</item>
-        <item>Линза</item>
-        <item>Кольцa</item>
-    </string-array>
-
-    <string-array name="pref_rotary_style_entries">
-        <item>Обычный стиль</item>
-        <item>Новый стиль</item>
-    </string-array>
-
-    <string-array name="pref_ringlock_style_entries">
-        <item>Пузыри</item>
-        <item>Новый стиль</item>
-    </string-array>
-
-    <string-array name="pref_in_call_style_entries">
-        <item>Ползунок</item>
-        <item>Вращение</item>
-        <item>Кольцa</item>
-    </string-array>
-
     <string-array name="pref_overscroll_effect_entries">
         <item>Нет</item>
         <item>Свечение</item>

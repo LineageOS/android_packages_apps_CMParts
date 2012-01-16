@@ -314,9 +314,16 @@
     <string name="pref_lockscreen_rotary_hide_arrows_title">矢印を表示しない</string>
     <string name="pref_lockscreen_rotary_hide_arrows_summary">ロータリースタイルで回転方向のヒントの矢印を表示しない</string>
     <string name="pref_lockscreen_style_title">ロックスクリーンスタイル</string>
+    <string name="pref_lockscreen_style_summary">ロックスクリーンのスタイルを選択する</string>
+    <string name="lockscreen_style_entry_tabs">スライディングタブ</string>
+    <string name="lockscreen_style_entry_rotary">ロータリー</string>
+    <string name="lockscreen_style_entry_lense">レンズ</string>
+    <string name="lockscreen_style_entry_ring">リング</string>
     <string name="pref_in_call_style_title">呼び出しスタイル</string>
     <string name="pref_in_call_style_summary">電話の呼び出し時に表示される応答/拒否のウィジェットスタイルを選択する</string>
-    <string name="pref_lockscreen_style_summary">ロックスクリーンのスタイルを選択する</string>
+    <string name="incall_style_entry_tabs">スライディングタブ</string>
+    <string name="incall_style_entry_rotary">ロータリー</string>
+    <string name="incall_style_entry_ring">リング</string>
     <string name="lockscreen_music_title">ミュージックコントロール</string>
     <string name="pref_volbtn_music_controls_title">音量ボタンによるミュージックコントロール</string>
     <string name="pref_volbtn_music_controls_summary">スクリーンオフの時、音量ボタンを長押しすることで曲のシークを行う</string>

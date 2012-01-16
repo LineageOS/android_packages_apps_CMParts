@@ -130,13 +130,6 @@
         <item>12 (estrita)</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_style_entries">
-        <item>Aba Deslizante</item>
-        <item>Rotativo</item>
-        <item>Lente</item>
-        <item>Anel</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>Desabilitado</item>
         <item>Fone de Ouvido com fio</item>
@@ -182,12 +175,6 @@
         <item>Câmera</item>
         <item>Aumentar Volume</item>
         <item>Diminuir Volume</item>
-    </string-array>
-
-    <string-array name="pref_in_call_style_entries">
-        <item>Aba Deslizante</item>
-        <item>Giratório</item>
-        <item>Anel</item>
     </string-array>
 
     <string-array name="entries_long_press_menu">

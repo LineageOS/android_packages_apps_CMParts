@@ -310,8 +310,14 @@
     <string name="pref_lockscreen_rotary_hide_arrows_summary">Gömmer pilarna som antyder riktning på rotationshjulet</string>
     <string name="pref_lockscreen_style_title">Låsskärmsstil</string>
     <string name="pref_lockscreen_style_summary">Välj stil på låsskärmen</string>
+    <string name="lockscreen_style_entry_tabs">Glidskena</string>
+    <string name="lockscreen_style_entry_rotary">Roterande</string>
+    <string name="lockscreen_style_entry_ring">Ring</string>
     <string name="pref_in_call_style_title">Inkommande samtal stil</string>
     <string name="pref_in_call_style_summary">Välj utseende på inkommande samtal acceptera / avvisa widget</string>
+    <string name="incall_style_entry_tabs">Glidskena</string>
+    <string name="incall_style_entry_rotary">Roterande</string>
+    <string name="incall_style_entry_ring">Ring</string>
     <string name="lockscreen_music_title">Musikkontroller</string>
     <string name="pref_volbtn_music_controls_title">Musikkontroller med volymknapparna</string>
     <string name="pref_volbtn_music_controls_summary">Gå till föregående/nästa låt med långa tryck på volymknapparna när skärmen är avstängd</string>

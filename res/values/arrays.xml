@@ -525,11 +525,11 @@
         <item>@string/gestures_flashlight</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_style_entries">
-        <item>Sliding Tab</item>
-        <item>Rotary</item>
-        <item>Lense</item>
-        <item>Ring</item>
+    <string-array name="pref_lockscreen_style_entries" translatable="false">
+        <item>@string/lockscreen_style_entry_tabs</item>
+        <item>@string/lockscreen_style_entry_rotary</item>
+        <item>@string/lockscreen_style_entry_lense</item>
+        <item>@string/lockscreen_style_entry_ring</item>
     </string-array>
 
     <string-array name="pref_lockscreen_style_values" translatable="false">
@@ -539,9 +539,9 @@
         <item>5</item>
     </string-array>
 
-    <string-array name="pref_rotary_style_entries">
-        <item>Normal style</item>
-        <item>Revamped style</item>
+    <string-array name="pref_rotary_style_entries" translatable="false">
+        <item>@string/rotary_style_entry_normal</item>
+        <item>@string/rotary_style_entry_revamped</item>
     </string-array>
 
     <string-array name="pref_rotary_style_values" translatable="false">
@@ -549,10 +549,10 @@
         <item>2</item>
     </string-array>
 
-    <string-array name="pref_ringlock_style_entries">
-        <item>Bubble style</item>
-        <item>Revamped style</item>
-        <item>Holo style</item>
+    <string-array name="pref_ringlock_style_entries" translatable="false">
+        <item>@string/ringlock_style_entry_bubbles</item>
+        <item>@string/ringlock_style_entry_revamped</item>
+        <item>@string/ringlock_style_entry_holo</item>
     </string-array>
 
     <string-array name="pref_ringlock_style_values" translatable="false">
@@ -561,10 +561,10 @@
         <item>3</item>
     </string-array>
 
-    <string-array name="pref_in_call_style_entries">
-        <item>Sliding Tab</item>
-        <item>Rotary</item>
-        <item>Ring</item>
+    <string-array name="pref_in_call_style_entries" translatable="false">
+        <item>@string/lockscreen_style_entry_tabs</item>
+        <item>@string/lockscreen_style_entry_rotary</item>
+        <item>@string/lockscreen_style_entry_ring</item>
     </string-array>
 
     <string-array name="pref_in_call_style_values" translatable="false">

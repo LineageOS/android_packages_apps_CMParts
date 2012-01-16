@@ -286,8 +286,15 @@
     <string name="pref_lockscreen_rotary_hide_arrows_summary">Ukrywa strzałki w stylu obrotowym</string>
     <string name="pref_lockscreen_style_title">Styl ekranu blokady</string>
     <string name="pref_lockscreen_style_summary">Wybierz styl ekranu blokady</string>
+    <string name="lockscreen_style_entry_tabs">Suwak</string>
+    <string name="lockscreen_style_entry_rotary">Obrotowy</string>
+    <string name="lockscreen_style_entry_lense">Soczewka</string>
+    <string name="lockscreen_style_entry_ring">Pierścień</string>
     <string name="pref_in_call_style_title">Styl połączenia przychodzącego</string>
     <string name="pref_in_call_style_summary">Wybierz styl ekranu połączenia przychodzącego</string>
+    <string name="incall_style_entry_tabs">Suwak</string>
+    <string name="incall_style_entry_rotary">Obrotowy</string>
+    <string name="incall_style_entry_ring">Pierścień</string>
     <string name="pref_volbtn_music_controls_title">Sterowanie muzyką przyciskami głośności</string>
     <string name="pref_volbtn_music_controls_summary">Zmieniaj utwory przytrzymując przycisk głośności, kiedy ekran jest wyłączony</string>
     <string name="pref_cambtn_music_controls_title">Sterowanie muzyką przyciskiem aparatu</string>

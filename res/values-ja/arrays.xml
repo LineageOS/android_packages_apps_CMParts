@@ -174,19 +174,6 @@
         <item>12 (最も狭い)</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_style_entries">
-        <item>スライディングタブ</item>
-        <item>ロータリー</item>
-        <item>レンズ</item>
-        <item>リング</item>
-    </string-array>
-
-    <string-array name="pref_in_call_style_entries">
-        <item>スライディングタブ</item>
-        <item>ロータリー</item>
-        <item>リング</item>
-    </string-array>
-
     <string-array name="pref_overscroll_effect_entries">
         <item>なし</item>
         <item>エッジを光らせる</item>

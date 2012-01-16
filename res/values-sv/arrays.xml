@@ -135,19 +135,6 @@
         <item>12 (striktast)</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_style_entries">
-        <item>Glidskena</item>
-        <item>Roterande</item>
-        <item>Lense</item>
-        <item>Ring</item>
-    </string-array>
-
-    <string-array name="pref_in_call_style_entries">
-        <item>Glidskena</item>
-        <item>Roterande</item>
-        <item>Ring</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_background_entries">
         <item>Färgfyll</item>
         <item>Anpassad bild</item>

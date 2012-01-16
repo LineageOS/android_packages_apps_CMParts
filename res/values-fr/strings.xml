@@ -243,8 +243,14 @@
 
     <string name="pref_lockscreen_style_title">Style</string>
     <string name="pref_lockscreen_style_summary">Choisir le style de l\'écran de verrouillage</string>
+    <string name="lockscreen_style_entry_tabs">Curseurs</string>
+    <string name="lockscreen_style_entry_rotary">Rotatif</string>
+    <string name="lockscreen_style_entry_ring">Anneau</string>
     <string name="pref_in_call_style_title">Appels entrants</string>
     <string name="pref_in_call_style_summary">Choisir le style du widget accepter/refuser les appels entrants</string>
+    <string name="incall_style_entry_tabs">Curseurs</string>
+    <string name="incall_style_entry_rotary">Rotatif</string>
+    <string name="incall_style_entry_ring">Anneau</string>
     <string name="lockscreen_music_title">Contrôle de la musique</string>
     <string name="pref_volbtn_music_controls_title">Piste suivante par volume</string>
     <string name="pref_volbtn_music_controls_summary">Change la chanson en cours par longue pression sur les boutons Volume lorque l\'écran est éteint</string>
