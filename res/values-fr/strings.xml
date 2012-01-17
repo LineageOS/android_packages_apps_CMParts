@@ -275,6 +275,15 @@
     <string name="pref_lockscreen_custom_background_summary_default">Mode actuel: Par défault</string>
     <string name="pref_lockscreen_background_result_successful">Fond d\'écran modifié</string>
     <string name="pref_lockscreen_background_result_not_successful">Fond d\'écran non modifié</string>
+    <string name="pref_ringlock_style_title">Style des anneaux</string>
+    <string name="pref_ringlock_style_summary">Sélectionner l\'apparence des anneaux</string>
+    <string name="ringlock_style_entry_bubbles">Bulles</string>
+    <string name="ringlock_style_entry_revamped">Revamped</string>
+    <string name="ringlock_style_entry_holo">Holo</string>
+    <string name="pref_lockscreen_ring_unlock_middle_title">Déverrouiller au milieu</string>
+    <string name="pref_lockscreen_ring_unlock_middle_summary">Inverser l\'anneau de déverrouillage et celui de l\'application perso</string>
+    <string name="pref_lockscreen_ring_minimal_title">Style minimal</string>
+    <string name="pref_lockscreen_ring_minimal_summary">Un seul anneau au milieu de l\'écran pour déverrouiller</string>
     <string name="pref_lockscreen_disable_on_security_title">Inactif si sécurisé</string>
     <string name="pref_lockscreen_disable_on_security_summary">Désactive l\'écran de verrouillage si l\'écran de sécurité est activé (Code PIN, Mot de passe)</string>
     <string name="lockscreen_calendar_title">Agenda</string>
