@@ -355,6 +355,12 @@
     <!-- Application Settings -->
     <string name="application_settings_title">Paramètres des applications</string>
 
+    <!-- Application Settings : Switch storage mountpoints -->
+    <string name="pref_switch_storage_title">Utiliser la mémoire interne</string>
+    <string name="pref_switch_storage_summary_on">Utilise la mémoire interne étendue pour les applications et les médias (redémarrage requis)</string>
+    <string name="pref_switch_storage_summary_off">Utilise la carte amovible pour les applications et les médias (redémarrage requis)</string>
+    <string name="pref_storage_switch_unavailable">Cet appareil n\'a pas de mémoire interne étendue</string>
+
     <!-- Application Settings : Move any app -->
     <string name="pref_move_all_apps_title">Déplacement sur SD</string>
     <string name="pref_move_all_apps_summary">Autoriser le déplacement de toutes les applications dans la mémoire externe</string>
