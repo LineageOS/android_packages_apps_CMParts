@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPn///00\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 643,
+      "author": {
+        "id": 1739
+      },
+      "writtenOn": "2012-01-23T23:08:51Z",
+      "side": 1,
+      "message": "Verhindert versehentliches Deaktivieren des Lautlosmodus durch Lautstärketasten\n(Lautlosmodus ist die in den Toneinstellungen genutzte Übersetzung)\n\nVerhindert versehentliches Deaktivieren der Stummschaltung durch Lautstärketasten",
+      "revId": "1f9b055363a2ee0c89f5b40f22eda69c69709589",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
