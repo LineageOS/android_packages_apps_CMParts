@@ -16,6 +16,24 @@
       "revId": "7174fa9f9707433c362d0d4c8bab34fd3dcee599",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn///6Y\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 643,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-01-23T19:38:24Z",
+      "side": 1,
+      "message": "I don\u0027t particularly like \u0027Lautlosmodus\u0027, it sounds \u0027wrong\u0027 to me. Perhaps that is because it\u0027s not a real composited noun, but is compositied from adjective + noun.\n\nWhat do you think about the following:\n\nLautstärketasten bei stummgeschaltetem Klingelton sperren; verhindert versehentliches Deaktivieren der Stummschaltung",
+      "parentUuid": "AAAAPn///6k\u003d",
+      "revId": "7174fa9f9707433c362d0d4c8bab34fd3dcee599",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
