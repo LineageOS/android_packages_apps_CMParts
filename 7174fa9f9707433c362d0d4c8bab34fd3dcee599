@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPn///6k\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 643,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-01-23T19:10:49Z",
+      "side": 1,
+      "message": "What do you think about Lautlosmodus? Ruhemodus might be confused with something like standby.",
+      "revId": "7174fa9f9707433c362d0d4c8bab34fd3dcee599",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
