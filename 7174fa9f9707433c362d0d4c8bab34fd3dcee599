@@ -34,6 +34,24 @@
       "revId": "7174fa9f9707433c362d0d4c8bab34fd3dcee599",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn///6I\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 643,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-01-23T20:08:52Z",
+      "side": 1,
+      "message": "Yes i think that sounds better! \u0027Lautlosmodus\u0027 was just the first thing that came to my mind.",
+      "parentUuid": "AAAAPn///6Y\u003d",
+      "revId": "7174fa9f9707433c362d0d4c8bab34fd3dcee599",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
