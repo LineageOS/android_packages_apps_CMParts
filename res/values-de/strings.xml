@@ -674,6 +674,9 @@
     <string name="sound_camera_shutter_disable_summary_off">Kamera-Auslöseton wird abgespielt</string>
     <string name="sound_camera_shutter_disable_warning_title">ACHTUNG: Rechtslage beachten!</string>
     <string name="sound_camera_shutter_disable_warning">Das Deaktivieren des Kamera-Auslösetons ist in einigen Ländern verboten. Sind Sie sicher, dass Sie ihn deaktivieren wollen?</string>
+    <string name="sound_camera_focus_mute_title">Fokuston deaktivieren</string>
+    <string name="sound_camera_focus_mute_summary_on">Kamera-Fokuston wird nicht abgespielt</string>
+    <string name="sound_camera_focus_mute_summary_off">Kamera-Fokuston wird abgespielt</string>
     <string name="sound_to_speaker_title">Immer über Lautsprecher</string>
     <string name="sound_notifications_title">Benachrichtigungen</string>
     <string name="sound_rings_title">Klingeltöne</string>

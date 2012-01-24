@@ -661,6 +661,9 @@
     <string name="sound_camera_shutter_disable_summary_off">シャッター音は再生されます</string>
     <string name="sound_camera_shutter_disable_warning_title">警告: これは違法かもしれません!</string>
     <string name="sound_camera_shutter_disable_warning">いくつかの地域ではシャッター音を消すことは違法です。本当に無効にしてもよいですか?</string>
+    <string name="sound_camera_focus_mute_title">カメラのフォーカス音を消す</string>
+    <string name="sound_camera_focus_mute_summary_on">フォーカス音は再生されません</string>
+    <string name="sound_camera_focus_mute_summary_off">フォーカス音は再生されます</string>
     <string name="sound_to_speaker_title">常にスピーカーで再生する</string>
     <string name="sound_notifications_title">通知音</string>
     <string name="sound_rings_title">着信音</string>

@@ -54,6 +54,11 @@
 			android:summaryOn="@string/sound_camera_shutter_disable_summary_on"
 			android:summaryOff="@string/sound_camera_shutter_disable_summary_off"
 			android:persistent="false" />
+		<CheckBoxPreference android:key="camera_focus_mute"
+			android:title="@string/sound_camera_focus_mute_title"
+			android:summaryOn="@string/sound_camera_focus_mute_summary_on"
+			android:summaryOff="@string/sound_camera_focus_mute_summary_off"
+			android:persistent="false" />
 	</PreferenceCategory>
 
 	<!-- Some spacing -->
