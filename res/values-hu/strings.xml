@@ -244,6 +244,10 @@
     <string name="pref_lockscreen_rotary_hide_arrows_summary">Elrejti az irányított nyilakat</string>
     <string name="pref_lockscreen_style_title">Zárképernyő stílus</string>
     <string name="pref_lockscreen_style_summary">Zárképernyő stílusának kiválasztása</string>
+    <string name="pref_rotary_style_title">Forgó stílusa</string>
+    <string name="pref_rotary_style_summary">Válaszd ki a forgó stílusát</string>
+    <string name="pref_ringlock_style_title">Gyűrű stílusa</string>
+    <string name="pref_ringlock_style_summary">Válaszd ki a gyűrűk stílusát</string>
     <string name="lockscreen_style_entry_tabs">Csúszó fül</string>
     <string name="lockscreen_style_entry_rotary">Forgó</string>
     <string name="lockscreen_style_entry_ring">Gyűrű</string>
@@ -550,6 +554,8 @@
     <string name="sound_vibrate_in_call_title">Rezgés hívás közben</string>
     <string name="sound_vibrate_in_call_summary_off">Értesítéskor nem rezeg hívás közben</string>
     <string name="sound_vibrate_in_call_summary_on">Értesítéskori rezgés hívás közben</string>
+    <string name="sound_lock_volume_keys_title">Hangerő gomb zár</string>
+    <string name="sound_lock_volume_keys_summary">Megakadályozza a hangerő gombok használatát Csendes állapotban</string>
     <string name="sound_to_speaker_title">Mindig játssza a hangszórón</string>
     <string name="sound_notifications_title">Értesítések</string>
     <string name="sound_rings_title">Csengőhangok</string>
