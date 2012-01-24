@@ -345,6 +345,7 @@
     <string name="ringlock_style_entry_bubbles">Blasen</string>
     <string name="ringlock_style_entry_revamped">Ringe</string>
     <string name="ringlock_style_entry_holo">Holo</string>
+    <string name="ringlock_style_entry_blade">Scheiben</string>
     <string name="lockscreen_music_title">Musiksteuerung</string>
     <string name="pref_volbtn_music_controls_title">Titelwahl m. Lautstärket.</string>
     <string name="pref_volbtn_music_controls_summary">Wenn Bildschirm ausgeschaltet ist, Titel durch langes Drücken der Lautstärketasten suchen</string>
