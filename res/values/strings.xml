@@ -659,6 +659,9 @@
     <string name="sound_camera_shutter_disable_summary_off">Shutter sound will be played</string>
     <string name="sound_camera_shutter_disable_warning_title">WARNING: This may be illegal!</string>
     <string name="sound_camera_shutter_disable_warning">Disabling camera shutter sound is illegal in some areas. Are you sure you want to disable it?</string>
+    <string name="sound_camera_focus_mute_title">Mute camera focus</string>
+    <string name="sound_camera_focus_mute_summary_on">Focus sound will not be played</string>
+    <string name="sound_camera_focus_mute_summary_off">Focus sound will be played</string>
     <string name="sound_to_speaker_title">Always play on speaker</string>
     <string name="sound_notifications_title">Notifications</string>
     <string name="sound_rings_title">Ring tones</string>
