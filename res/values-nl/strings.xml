@@ -491,6 +491,10 @@
     <string name="sound_note_title">Let op</string>
     <string name="sound_note_summary">Onderstaande instellingen worden alleen toegepast als een headset is aangesloten</string>
 
+    <string name="sound_camera_focus_mute_title">Stil focussen van camera</string>
+    <string name="sound_camera_focus_mute_summary_on">Focusgeluid wordt niet afgespeeld</string>
+    <string name="sound_camera_focus_mute_summary_off">Focusgeluid wordt wel afgespeeld</string>
+
     <string name="sound_to_speaker_title">Altijd via speaker:</string>
     <string name="sound_notifications_title">Meldingen</string>
     <string name="sound_rings_title">Beltonen</string>
