@@ -333,6 +333,7 @@
     <string name="ringlock_style_entry_bubbles">Bubble style</string>
     <string name="ringlock_style_entry_revamped">Revamped style</string>
     <string name="ringlock_style_entry_holo">Holo style</string>
+    <string name="ringlock_style_entry_blade">Blade style</string>
     <string name="pref_in_call_style_title">Incoming call style</string>
     <string name="pref_in_call_style_summary">Choose the style of the incoming calls accept/reject widget</string>
     <string name="incall_style_entry_tabs">Sliding Tab</string>
