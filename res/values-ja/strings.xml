@@ -323,6 +323,16 @@
     <string name="lockscreen_style_entry_rotary">ロータリー</string>
     <string name="lockscreen_style_entry_lense">レンズ</string>
     <string name="lockscreen_style_entry_ring">リング</string>
+    <string name="pref_rotary_style_title">ロータリースタイル</string>
+    <string name="pref_rotary_style_summary">ロータリーホイールのスタイルを選択する</string>
+    <string name="rotary_style_entry_normal">ノーマルスタイル</string>
+    <string name="rotary_style_entry_revamped">リヴァンプスタイル</string>
+    <string name="pref_ringlock_style_title">リング-ロックスタイル</string>
+    <string name="pref_ringlock_style_summary">リング-ロックのスタイルを選択する</string>
+    <string name="ringlock_style_entry_bubbles">バブルスタイル</string>
+    <string name="ringlock_style_entry_revamped">リヴァンプスタイル</string>
+    <string name="ringlock_style_entry_holo">ホロスタイル</string>
+    <string name="ringlock_style_entry_blade">ブレードスタイル</string>
     <string name="pref_in_call_style_title">呼び出しスタイル</string>
     <string name="pref_in_call_style_summary">電話の呼び出し時に表示される応答/拒否のウィジェットスタイルを選択する</string>
     <string name="incall_style_entry_tabs">スライディングタブ</string>
