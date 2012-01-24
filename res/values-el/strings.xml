@@ -672,6 +672,9 @@
     <string name="sound_camera_shutter_disable_summary_off">Θα αναπαράγεται ήχος κλείστρου</string>
     <string name="sound_camera_shutter_disable_warning_title">ΠΡΟΣΟΧΗ: Αυτό ίσως να είναι παράνομο!</string>
     <string name="sound_camera_shutter_disable_warning">Η απενεργοποίηση του ήχου του κλείστρου της κάμερας είναι παράνομο σε μερικές περιοχές. Είστε σίγουρος/η ότι θέλετε να τον απενεργοποιήσετε;</string>
+    <string name="sound_camera_focus_mute_title">Σίγαση εστίασης κάμερας</string>
+    <string name="sound_camera_focus_mute_summary_on">Δεν θα αναπαράγεται ήχος εστίασης</string>
+    <string name="sound_camera_focus_mute_summary_off">Θα αναπαράγεται ήχος εστίασης</string>
     <string name="sound_to_speaker_title">Πάντα αναπαραγωγή από το ηχείο</string>
     <string name="sound_notifications_title">Ειδοποιήσεις</string>
     <string name="sound_rings_title">Ήχοι κλήσεων</string>

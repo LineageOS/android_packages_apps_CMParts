@@ -670,6 +670,9 @@
     <string name="sound_camera_shutter_disable_summary_off">Fonctionnement normal</string>
     <string name="sound_camera_shutter_disable_warning_title">Attention: ceci peut être illégal !</string>
     <string name="sound_camera_shutter_disable_warning">Certains pays ont une loi qui oblige les téléphones à émettre un son lors de la prise d\'une photo. Etes-vous sûr de vouloir désactiver le son ?</string>
+    <string name="sound_camera_focus_mute_title">Désactiver son de mise au point</string>
+    <string name="sound_camera_focus_mute_summary_on">Son de mise au point désactivé</string>
+    <string name="sound_camera_focus_mute_summary_off">Son de mise au point activé</string>
 
     <!--  Lockscreen gesture strings -->
     <string name="pref_lockscreen_gestures_enable_title">Utiliser les gestes</string>
