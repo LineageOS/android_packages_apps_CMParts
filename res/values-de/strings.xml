@@ -611,6 +611,8 @@
     <string name="cm_sound_mode_soundVibrate">Ton+Vibration</string>
     <string name="pref_flash_mode_title">Taschenlampe</string>
     <string name="pref_flash_mode_summary">Helligkeit der Taschenlampe</string>
+    <string name="pref_mobiledatanetwork_mode_title">Auto-2G/3G bei Daten</string>
+    <string name="pref_mobiledatanetwork_mode_summary">Schaltfläche \'Mobilfunk-Daten\' wechselt automatisch zwischen 2G- und 3G-Modus</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Automatische Helligkeit</string>
