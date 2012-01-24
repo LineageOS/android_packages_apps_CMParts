@@ -595,6 +595,8 @@
     <string name="cm_sound_mode_soundVibrate">Sound+Vibrate</string>
     <string name="pref_flash_mode_title">Flash mode</string>
     <string name="pref_flash_mode_summary">Choose High / Death Ray</string>
+    <string name="pref_mobiledatanetwork_mode_title">Mobiledata auto 2G/3G</string>
+    <string name="pref_mobiledatanetwork_mode_summary">Mobiledata button toggles 2G/3G mode</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Automatic backlight</string>

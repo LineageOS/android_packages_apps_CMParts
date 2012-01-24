@@ -485,6 +485,16 @@
         <item>1</item>
     </string-array>
 
+    <string-array name="entries_mobiledatanetwork_widget">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+
+    <string-array name="values_mobiledatanetwork_widget" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
         <item>1 (broadest)</item>
         <item>2</item>

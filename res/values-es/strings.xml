@@ -594,6 +594,8 @@
     <string name="cm_sound_mode_soundVibrate">Sonido+Vibración</string>
     <string name="pref_flash_mode_title">Modo de flash</string>
     <string name="pref_flash_mode_summary">Elegir Alto / Rayo Mortal</string>
+    <string name="pref_mobiledatanetwork_mode_title">Auto 2G/3G para datos</string>
+    <string name="pref_mobiledatanetwork_mode_summary">El widget de Datos Móviles gestionará automaticamente el modo 2G/3G</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Luz de fondo automática</string>
