@@ -685,6 +685,9 @@
     <string name="sound_camera_shutter_disable_summary_off">Camerasluiter-geluid zal worden afgespeeld</string>
     <string name="sound_camera_shutter_disable_warning_title">Let op: Dit kan illegaal zijn!</string>
     <string name="sound_camera_shutter_disable_warning">Het uitschakelen van het camerasluiter-geluid is illegaal in sommige gebieden. Weet je het zeker?</string>
+    <string name="sound_camera_focus_mute_title">Stil focussen van camera</string>
+    <string name="sound_camera_focus_mute_summary_on">Focusgeluid wordt niet afgespeeld</string>
+    <string name="sound_camera_focus_mute_summary_off">Focusgeluid wordt wel afgespeeld</string>
     <string name="sound_to_speaker_title">Speel altijd via speaker af</string>
     <string name="sound_notifications_title">Notificaties</string>
     <string name="sound_rings_title">Beltonen</string>
