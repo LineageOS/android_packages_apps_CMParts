@@ -607,6 +607,8 @@
     <string name="cm_sound_mode_soundVibrate">Geluid+Trillen</string>
     <string name="pref_flash_mode_title">Flashlight knop</string>
     <string name="pref_flash_mode_summary">Kies fel / Death Ray</string>
+    <string name="pref_mobiledatanetwork_mode_title">Auto 2G/3G bij gegevenstoegang</string>
+    <string name="pref_mobiledatanetwork_mode_summary">Gegevenstoegangsknop schakelt automatisch tussen 2G en 3G modus</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Automatische verlichting</string>

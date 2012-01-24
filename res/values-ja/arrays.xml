@@ -206,6 +206,11 @@
         <item>ハイ / デスレイ</item>
     </string-array>
 
+    <string-array name="entries_mobiledatanetwork_widget">
+        <item>オフ</item>
+        <item>オン</item>
+    </string-array>
+
     <string-array name="entries_vol_actions">
         <item>なし/デフォルト</item>
         <item>ホーム</item>
