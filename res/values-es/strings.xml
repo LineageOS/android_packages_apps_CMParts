@@ -646,6 +646,9 @@
     <string name="sound_camera_shutter_disable_title">Silenciar obturador</string>
     <string name="sound_camera_shutter_disable_summary_on">El sonido del obturador no será reproducido</string>
     <string name="sound_camera_shutter_disable_summary_off">El sonido del obturador será reproducido</string>
+    <string name="sound_camera_focus_mute_title">Mute camera focus</string>
+    <string name="sound_camera_focus_mute_summary_on">Focus sound will not be played</string>
+    <string name="sound_camera_focus_mute_summary_off">Focus sound will be played</string>
     <string name="sound_camera_shutter_disable_warning_title">AVISO: ¡Esto podría ser ilegal!</string>
     <string name="sound_camera_shutter_disable_warning">Deshabilitar el sonido de la cámara es ilegal en algunas zonas. ¿Seguro que quieres deshabilitarlo?</string>
     <string name="sound_lock_volume_keys_title">Bloquear botones Volumen</string>
