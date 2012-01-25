@@ -9,7 +9,8 @@
     <string name="application_settings_summary_head">Emplacement d\'installation des applications et gestion des permissions</string>
     <string name="display_settings_title_head">Affichage</string>
     <string name="display_settings_title_subhead">Paramètres d\'affichage</string>
-    <string name="display_settings_summary_head">Rétroéclairage, animations de l\'écran, rotation automatique</string>
+    <string name="display_settings_summary_head">Rétroéclairage, animations, rotation de l\'écran</string>
+    <string name="display_settings_summary_head_nobacklight">Animations, rotation de l\'écran</string>
     <string name="input_settings_title_head">Boutons</string>
     <string name="input_settings_title_subhead">Paramètres des boutons</string>
     <string name="input_settings_summary_head">Comportement des boutons, retour haptique</string>
@@ -227,6 +228,7 @@
     <string name="pref_lockscreen_widget_layout_entry_default">Par défaut</string>
     <string name="pref_lockscreen_widget_layout_entry_hidden">Invisible</string>
     <string name="pref_lockscreen_widget_layout_entry_centered">Centré</string>
+    <string name="pref_lockscreen_widget_layout_entry_right">À droite</string>
     <string name="pref_lockscreen_now_playing_title">Nom de la chanson</string>
     <string name="pref_lockscreen_now_playing_summary">Affiche le nom et l\'artiste du morceau en cours de lecture</string>
     <string name="pref_lockscreen_album_art_title">Pochette des albums</string>
@@ -590,6 +592,8 @@
     <string name="sound_vibrate_in_call_title">Vibreur lors des appels</string>
     <string name="sound_vibrate_in_call_summary_off">Notifications par vibreur désactivées</string>
     <string name="sound_vibrate_in_call_summary_on">Notifications par vibreur activées</string>
+    <string name="sound_lock_volume_keys_title">Verrouiller boutons volume</string>
+    <string name="sound_lock_volume_keys_summary">Évite la désactivation involontaire du mode silence en appuyant sur les boutons de volume</string>
     <string name="sound_to_speaker_title">Toujours dans le haut-parleur</string>
     <string name="sound_notifications_title">Notifications</string>
     <string name="sound_rings_title">Sonneries</string>
