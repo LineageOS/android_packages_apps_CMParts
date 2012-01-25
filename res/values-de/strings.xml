@@ -99,6 +99,14 @@
     <string name="ui_status_bar_battery_summary">Anzeigestil des Batteriestatus</string>
     <string name="ui_status_bar_compact_carrier_title">Kompakter Betreiber</string>
     <string name="ui_status_bar_compact_carrier_summary">Alternatives Layout des Benachrichtigungsbereichs mit kürzerem Betreibernamen</string>
+    <string name="ui_status_bar_carrier_label_title">Betreibername</string>
+    <string name="ui_status_bar_carrier_label_summary">Auswahl des angezeigten Betreibernamens</string>
+    <string name="ui_status_bar_carrier_label_use_default">Standard</string>
+    <string name="ui_status_bar_carrier_label_use_spn">Service-Provider-Name (SPN)</string>
+    <string name="ui_status_bar_carrier_label_use_plmn">Netzwerk-Betreiber-Name (PLMN)</string>
+    <string name="ui_status_bar_carrier_label_use_custom">Benutzerdefiniert</string>
+    <string name="ui_status_bar_carrier_label_custom_title">Benutzerdef. Betreiber</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">Als Betreibername angezeigter Text</string>
     <string name="ui_status_bar_toggle_brightness">Helligkeitsregler</string>
     <string name="ui_status_bar_toggle_brightness_summary">Erlaubt Änderung der Helligkeit, indem mit dem Finger über die Statusleiste gewischt wird</string>
     <string name="ui_status_bar_toggle_info">Automatische Helligkeit ist aktiviert</string>
