@@ -9,7 +9,8 @@
     <string name="application_settings_summary_head">应用程序移动、安装位置、通信过滤</string>
     <string name="display_settings_title_head">显示</string>
     <string name="display_settings_title_subhead">显示设置</string>
-    <string name="display_settings_summary_head">显示动画、旋转、超时</string>
+    <string name="display_settings_summary_head">显示背光灯、动画、旋转</string>
+    <string name="display_settings_summary_head_nobacklight">显示动画、旋转</string>
     <string name="input_settings_title_head">输入</string>
     <string name="input_settings_title_subhead">输入设置</string>
     <string name="input_settings_summary_head">输入行为、按键、振动反馈</string>
@@ -99,6 +100,14 @@
     <string name="ui_status_bar_battery_summary">显示电池状态的样式</string>
     <string name="ui_status_bar_compact_carrier_title">减小电信运营商名称</string>
     <string name="ui_status_bar_compact_carrier_summary">使用替代的下拉通知列格式，将电信运营商名称缩小显示</string>
+    <string name="ui_status_bar_carrier_label_title">运营商名称类型</string>
+    <string name="ui_status_bar_carrier_label_summary">修改运营商名称</string>
+    <string name="ui_status_bar_carrier_label_use_default">默认</string>
+    <string name="ui_status_bar_carrier_label_use_spn">显示 SPN</string>
+    <string name="ui_status_bar_carrier_label_use_plmn">显示 PLMN</string>
+    <string name="ui_status_bar_carrier_label_use_custom">自定义文本</string>
+    <string name="ui_status_bar_carrier_label_custom_title">自定义运营商名称</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">使用文本替代管理者提供的运营商名称</string>
     <string name="ui_status_bar_toggle_brightness">状态栏亮度控制</string>
     <string name="ui_status_bar_toggle_brightness_summary">允许滑动状态栏以调整亮度</string>
     <string name="ui_status_bar_toggle_info">亮度自动调整已启用</string>
@@ -591,6 +600,8 @@
     <string name="sound_vibrate_in_call_title">通话中震动</string>
     <string name="sound_vibrate_in_call_summary_off">在通话中的通知不震动</string>
     <string name="sound_vibrate_in_call_summary_on">通话中的通知仍然震动</string>
+    <string name="sound_lock_volume_keys_title">锁定音量键</string>
+    <string name="sound_lock_volume_keys_summary">避免通过按下音量键意外解除静音模式</string>
     <string name="sound_to_speaker_title">总是通过扬声器播放</string>
     <string name="sound_notifications_title">通知</string>
     <string name="sound_rings_title">铃声</string>
