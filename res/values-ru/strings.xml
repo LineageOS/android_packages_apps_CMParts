@@ -9,7 +9,8 @@
     <string name="application_settings_summary_head">Перемещение приложений, место установки, фильтры общения</string>
     <string name="display_settings_title_head">Экран</string>
     <string name="display_settings_title_subhead">Настройки экрана</string>
-    <string name="display_settings_summary_head">Настройки анимации, поворота, яркости экрана</string>
+    <string name="display_settings_summary_head">Настройки подсветки, поворота, яркости экрана</string>
+    <string name="display_settings_summary_head_nobacklight">Настройки анимации, поворота дисплея</string>
     <string name="input_settings_title_head">Ввод</string>
     <string name="input_settings_title_subhead">Настройки ввода</string>
     <string name="input_settings_summary_head">Настройки ввода, кнопок, тактильного отклика</string>
@@ -99,6 +100,14 @@
     <string name="ui_status_bar_battery_summary">Стиль отображения заряда аккумулятора</string>
     <string name="ui_status_bar_compact_carrier_title">Компактное имя оператора</string>
     <string name="ui_status_bar_compact_carrier_summary">Использовать альтернативный стиль панели уведомления с маленьким именем оператора</string>
+    <string name="ui_status_bar_carrier_label_title">Тип имени оператора</string>
+    <string name="ui_status_bar_carrier_label_summary">Выберите, что будет использоваться в качестве имени оператора</string>
+    <string name="ui_status_bar_carrier_label_use_default">По умолчанию</string>
+    <string name="ui_status_bar_carrier_label_use_spn">Показывать SPN</string>
+    <string name="ui_status_bar_carrier_label_use_plmn">Показывать PLMN</string>
+    <string name="ui_status_bar_carrier_label_use_custom">Пользовательский текст</string>
+    <string name="ui_status_bar_carrier_label_custom_title">Пользовательское имя оператора</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">Текст, используемый вместо имени оператора</string>
     <string name="ui_status_bar_toggle_brightness">Управление яркостью в строке состояния</string>
     <string name="ui_status_bar_toggle_brightness_summary">Позволяет изменять яркость проводя по строке состояния</string>
     <string name="ui_status_bar_toggle_info">Включена автоматическая яркость</string>
@@ -258,6 +267,7 @@
     <string name="pref_lockscreen_widget_layout_entry_default">По умолчанию</string>
     <string name="pref_lockscreen_widget_layout_entry_hidden">Скрытый</string>
     <string name="pref_lockscreen_widget_layout_entry_centered">По центру</string>
+    <string name="pref_lockscreen_widget_layout_entry_right">Справа</string>
     <string name="pref_lockscreen_music_controls_title">Управление плеером</string>
     <string name="pref_lockscreen_music_controls_summary">Показывать на экране блокировки элементы управления плеером</string>
     <string name="pref_lockscreen_now_playing_title">Название песни</string>
@@ -326,6 +336,7 @@
     <string name="pref_ringlock_style_summary">Выбор стиля колец разблокировки</string>
     <string name="ringlock_style_entry_bubbles">Пузыри</string>
     <string name="ringlock_style_entry_revamped">Новый стиль</string>
+    <string name="ringlock_style_entry_holo">Стиль Holo</string>
     <string name="pref_in_call_style_title">Стиль входящего звонка</string>
     <string name="pref_in_call_style_summary">Выбор стиля виджета принять/отклонить входящего звонка</string>
     <string name="incall_style_entry_tabs">Ползунок</string>
@@ -640,6 +651,8 @@
     <string name="sound_vibrate_in_call_title">Вибрация во время разговора</string>
     <string name="sound_vibrate_in_call_summary_off">Не вибрировать при уведомлениях во время разговора</string>
     <string name="sound_vibrate_in_call_summary_on">Вибрировать при уведомлениях</string>
+    <string name="sound_lock_volume_keys_title">Блок. клавиш громкости</string>
+<string name="sound_lock_volume_keys_summary">Предотвращает снижение громкости до беззвучного режима случайным нажатием клавиши громкости</string>
     <string name="sound_camera_shutter_disable_title">Отключить звук камеры</string>
     <string name="sound_camera_shutter_disable_summary_on">Звук камеры выключен</string>
     <string name="sound_camera_shutter_disable_summary_off">Звук камеры включен</string>
