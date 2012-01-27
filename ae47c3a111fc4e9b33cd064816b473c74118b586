@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPn///Cw\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2012-01-27T02:17:41Z",
+      "side": 1,
+      "message": "Les accents sur les majuscules, perso j\u0027aime pas trop",
+      "revId": "ae47c3a111fc4e9b33cd064816b473c74118b586",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAPn///C0\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 595,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2012-01-27T02:17:41Z",
+      "side": 1,
+      "message": "Title is too long \"Verrouiller boutons volume\" is better, too long too but better...",
+      "revId": "ae47c3a111fc4e9b33cd064816b473c74118b586",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
