@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAPn///Co\u003d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2012-01-27T02:19:12Z",
+      "side": 1,
+      "message": "oh, and we know its cmparts...\n\n\"french: updated translations\" is better i think",
+      "revId": "ae47c3a111fc4e9b33cd064816b473c74118b586",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAPn///Cw\u003d",
         "filename": "res/values-fr/strings.xml",
         "patchSetId": 1
