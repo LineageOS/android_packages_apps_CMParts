@@ -457,7 +457,15 @@
 	<!-- Performance Settings : 16bpp Alpha -->
     <string name="pref_use_16bpp_alpha_title">Gebruik 16bit transparantie</string>
     <string name="pref_use_16bpp_alpha_summary">Het gebruik van 16bit transparantie kan scroll prestaties verbeteren, maar kan leiden tot visuele inperfecties (herstart vereist)</string>
-	
+
+    <!-- Performance Settings : Scrolling Cache -->
+    <string name="pref_scrollingcache_title">Cache voor scrollen</string>
+    <string name="pref_scrollingcache_summary">Cache voor scrollen kan de kwaliteit van scrollen ver beteren ten koste van geheugengebruik</string>
+    <string name="pref_scrollingcache_force_enable">Geforceerd ingeschakeld</string>
+    <string name="pref_scrollingcache_default_enable">Standaard ingeschakeld</string>
+    <string name="pref_scrollingcache_default_disable">Standaard uitgeschakeld</string>
+    <string name="pref_scrollingcache_force_disable">Geforceerd uitgeschakeld</string>
+
     <!-- Performance Settings : Purgeable Assets -->
     <string name="pref_purgeable_assets_title">Purging of assets</string>
     <string name="pref_purgeable_assets_summary">Systeem kan meer RAM geheugen vrij maken wanneer nodig (herstart vereist)</string>
