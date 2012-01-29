@@ -450,6 +450,14 @@
     <string name="pref_use_16bpp_alpha_title">16-битная прозрачность</string>
     <string name="pref_use_16bpp_alpha_summary">Использование 16-битной прозрачности может улучшить скорость прокрутки, но возможно появление визуальных артефактов (требуется перезагрузка)</string>
 
+    <!-- Performance Settings : Scrolling Cache -->
+    <string name="pref_scrollingcache_title">Кэш прокрутки</string>
+    <string name="pref_scrollingcache_summary">Кэш прокрутки может улучшить скорость прокрутки за счет памяти (требуется перезагрузка)</string>
+    <string name="pref_scrollingcache_force_enable">Принудительно вкл.</string>
+    <string name="pref_scrollingcache_default_enable">По умолчанию вкл.</string>
+    <string name="pref_scrollingcache_default_disable">По умолчанию выкл.</string>
+    <string name="pref_scrollingcache_force_disable">Принудительно выкл.</string>
+
     <!-- Performance Settings : Purgeable Assets -->
     <string name="pref_purgeable_assets_title">Разрешить сброс активов</string>
     <string name="pref_purgeable_assets_summary">Система может освободить больше памяти, когда это необходимо, если память активов битмапов разрешено освобождать (требуется перезагрузка)</string>
