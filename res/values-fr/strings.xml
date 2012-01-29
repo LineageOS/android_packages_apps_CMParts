@@ -360,6 +360,14 @@
     <string name="pref_use_16bpp_alpha_title">Transparence 16bits</string>
     <string name="pref_use_16bpp_alpha_summary">Utiliser le mode 16 bits améliore la vitesse de défilement et des animations, mais peut affecter l\'affichage des éléments transparents (nécessite un redémarrage)</string>
 
+    <!-- Performance Settings : Scrolling Cache -->
+    <string name="pref_scrollingcache_title">Cache de défilement</string>
+    <string name="pref_scrollingcache_summary">La mise en cache du défilement peut améliorer la vitesse de défilement mais utilise plus de mémoire</string>
+    <string name="pref_scrollingcache_force_enable">Toujours activé</string>
+    <string name="pref_scrollingcache_default_enable">Activé par défaut</string>
+    <string name="pref_scrollingcache_default_disable">Désactivé par défaut</string>
+    <string name="pref_scrollingcache_force_disable">Toujours désactivé</string>
+
     <!-- Performance Settings : Purgeable Assets -->
     <string name="pref_purgeable_assets_title">Purge des bitmaps</string>
     <string name="pref_purgeable_assets_summary">Le système peut libérer plus de RAM si la mémoire des bitmaps peut être réclamée (nécessite un redémarrage)</string>
