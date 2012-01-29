@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAP3///0w\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 516,
+      "author": {
+        "id": 129
+      },
+      "writtenOn": "2012-01-29T18:37:32Z",
+      "side": 1,
+      "message": "Hmatová",
+      "revId": "7d8a47848ae9bd9faee3b157e6942e859aea2ab8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
