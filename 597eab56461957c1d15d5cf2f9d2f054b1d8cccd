@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAP3///q0\u003d",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-01-30T11:38:17Z",
+      "side": 1,
+      "message": "Move these over to strings.xml and refer to them via\n\n@string/key\n\nMark them translatable\u003d\"false\"",
+      "revId": "597eab56461957c1d15d5cf2f9d2f054b1d8cccd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAP3///qw\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/PerformanceSettingsActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-01-30T11:38:17Z",
+      "side": 1,
+      "message": "Fix the whitespace error",
+      "revId": "597eab56461957c1d15d5cf2f9d2f054b1d8cccd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
