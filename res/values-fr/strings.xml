@@ -275,6 +275,10 @@
     <string name="pref_lockscreen_custom_background_summary_default">Mode actuel: Par défault</string>
     <string name="pref_lockscreen_background_result_successful">Fond d\'écran modifié</string>
     <string name="pref_lockscreen_background_result_not_successful">Fond d\'écran non modifié</string>
+    <string name="pref_rotary_style_title">Style rotatif</string>
+    <string name="pref_rotary_style_summary">Choisir le style de l\'anneau rotatif</string>
+    <string name="rotary_style_entry_normal">Normal</string>
+    <string name="rotary_style_entry_revamped">Revamped</string>
     <string name="pref_ringlock_style_title">Style des anneaux</string>
     <string name="pref_ringlock_style_summary">Sélectionner l\'apparence des anneaux</string>
     <string name="ringlock_style_entry_bubbles">Bulles</string>
