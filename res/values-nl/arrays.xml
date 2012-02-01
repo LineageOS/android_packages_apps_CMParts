@@ -183,7 +183,7 @@
 
     <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
         <item>Verberg</item>
-        <item>Laat eerste regen zien</item>
+        <item>Laat eerste regel zien</item>
         <item>Geef helemaal weer</item>
     </string-array>
 
