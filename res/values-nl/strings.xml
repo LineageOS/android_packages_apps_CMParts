@@ -161,7 +161,7 @@
     <string name="msg_color_picker">Druk in het midden van de kleur om te bevestigen.\nKies terug om te annuleren</string>
 
     <!-- User interface: LED notifications -->
-	<string name="group_settings">Instellingen</string>
+    <string name="group_settings">Instellingen</string>
     <string name="dialog_color_trackball">Kies een kleur</string>
     <string name="dialog_blink_trackball">Kies oplicht snelheid</string>
     <string name="color_trackball_flash_title">Flash kleur</string>
@@ -209,7 +209,6 @@
     <string name="trackball_app_save_summary">Sla de instellingen voor deze applicatie op</string>
     <string name="trackball_app_reset_title">Reset</string>
     <string name="trackball_app_reset_summary">Verwijder de aangepaste instellingen van deze applicatie</string>
-
     <string name="trackball_force_mode_title">LED wijze</string>
     <string name="trackball_force_mode_dialog">Kies een LED wijze</string>
     <string name="trackball_force_mode_summary">Stel in hoe de LED zich moed gedragen</string>
@@ -287,7 +286,7 @@
     <string name="pref_trackball_wake_summary">Wanneer de trackball ingedrukt wordt, ontwaakt het toestel</string>
     <string name="pref_volume_wake_title">Volume ontwaken</string>
     <string name="pref_volume_wake_summary">Wanneer volume omhoog/omlaag ingedrukt wordt, ontwaakt het toestel</string>
-	<string name="pref_trackball_unlock_title">Trackball ontgrendelen</string>
+    <string name="pref_trackball_unlock_title">Trackball ontgrendelen</string>
     <string name="pref_trackball_unlock_summary">Wanneer de trackball ingedrukt wordt, ontgrendelt het toestel</string>
     <string name="pref_slider_unlock_title">Uitschuiven toetsenbord ontgrendelen</string>
     <string name="pref_slider_unlock_summary">Wanneer het toetsenbord uitgeschoven wordt, ontgrendelt het toestel</string>
@@ -335,19 +334,23 @@
     <string name="pref_rotary_style_summary">Kies een thema voor het draaiwiel</string>
     <string name="pref_ringlock_style_title">Ringen thema</string>
     <string name="pref_ringlock_style_summary">Kies een thema voor de ringen</string>
+    <string name="ringlock_style_entry_bubbles">Bubbels</string>
+    <string name="ringlock_style_entry_revamped">Ringen</string>
+    <string name="ringlock_style_entry_holo">Holo</string>
+    <string name="ringlock_style_entry_blade">Schijven</string>
     <string name="pref_in_call_style_title">Inkomend gesprek stijl</string>
     <string name="pref_in_call_style_summary">Kies de stijl van de inkomende gesprek widget</string>
     <string name="incall_style_entry_tabs">Schuifbalk</string>
     <string name="incall_style_entry_rotary">Draaiend</string>
     <string name="incall_style_entry_ring">Ring</string>
     <string name="lockscreen_music_title">Muziek Bediening</string>
-	<string name="pref_volbtn_music_controls_title">Volume muziek beheer</string>
+    <string name="pref_volbtn_music_controls_title">Volume muziek beheer</string>
     <string name="pref_volbtn_music_controls_summary">Door een nummer spoelen wanneer de volume knoppen lang ingedrukt worden terwijl het scherm uit is</string>
     <string name="pref_cambtn_music_controls_title">Gebruik camera knop voor muziek beheer</string>
     <string name="pref_cambtn_music_controls_summary">Druk lang op de camera knop om muziek te starten/pauzeren terwijl het scherm uit is</string>
     <string name="lockscreen_widgets_note_title">NB</string>
     <string name="lockscreen_widgets_note_summary">Wanneer gekozen wordt voor de lense stijl worden alle widgets, behalve muziek beheer verborgen.</string>
-	<string name="lockscreen_calendar_title">Lockscreen Agenda</string>
+    <string name="lockscreen_calendar_title">Lockscreen Agenda</string>
     <string name="pref_lockscreen_calendar_alarm_title">Geef volgende afspraak weer</string>
     <string name="pref_lockscreen_calendar_alarm_summary">Geef de tijd en naam van de volgende afspraak weer</string>
     <string name="pref_lockscreen_calendars_title">Agenda\'s</string>
@@ -454,7 +457,7 @@
     <string name="pref_use_dithering_title">Surface dithering</string>
     <string name="pref_use_dithering_summary">\'Dithering surfaces\' verhoogt de kwaliteit van afbeelding, maar verlaagt de prestaties van het systeem (herstart vereist)</string>
 
-	<!-- Performance Settings : 16bpp Alpha -->
+    <!-- Performance Settings : 16bpp Alpha -->
     <string name="pref_use_16bpp_alpha_title">Gebruik 16bit transparantie</string>
     <string name="pref_use_16bpp_alpha_summary">Het gebruik van 16bit transparantie kan scroll prestaties verbeteren, maar kan leiden tot visuele inperfecties (herstart vereist)</string>
 
@@ -800,7 +803,7 @@
     <string name="cpu_set_on_boot">Stel in tijdens opstarten</string>
     <string name="cpu_set_on_boot_summary">Herstel CPU instellingen tijdens opstarten</string>
 
-	<!-- Permissions Management Settings strings -->
+    <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Machtigingen management</string>
     <string name="perm_enable_management_summary">Machtigingen management inschakelen</string>
     <string name="perm_enable_warning_message">Waarschuwing!\nDeze optie kan er voor zorgen dat applicaties niet juist reageren. \nBij fouten, geen contact opnemen met het CyanogenMod team!</string>
