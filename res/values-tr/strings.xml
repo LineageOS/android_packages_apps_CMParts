@@ -150,7 +150,7 @@
 	<string name="pref_lockscreen_slide_title">Sürüklemeli Kilit</string>
 	<string name="pref_lockscreen_slide_delay_note_title">Not</string>
 	<string name="pref_lockscreen_slide_delay_note_summary">Etkinse, sürüklemeli kilit yalnızca güvenlik kilidi gecikmesi sürüklemeli kilit gecikmesinden fazlaysa belirir</string>
-	<string name="pref_lockscreen_slide_delay_title">Sürüklemeli kilit süresini aktifleştir.</string>
+	<string name="pref_lockscreen_slide_delay_title">Sürüklemeli kilit süresini aktifleştir</string>
 	<string name="pref_lockscreen_slide_delay_summary">Güvenlik kilidinden önce sürüklemeli kilidi gösterir</string>
 	<string name="pref_lockscreen_slide_timeout_lock_delay">Ekran kapanma süresi</string>
 	<string name="pref_lockscreen_slide_screenoff_lock_delay">Ekran kapatılma süresi</string>
@@ -213,7 +213,7 @@
 
 	<string name="trackball_force_mode_title">LED modu</string>
 	<string name="trackball_force_mode_dialog">Lütfen bir mod seçin</string>
-	<string name="trackball_force_mode_summary">LED'in ne yapması gerektiğini belirleyin</string>
+	<string name="trackball_force_mode_summary">LED\'in ne yapması gerektiğini belirleyin</string>
 
 	<string name="trackball_app_email">E-Mail</string>
 	<string name="trackball_app_mms">Mesajlaşma</string>
@@ -296,12 +296,12 @@
 	<string name="pref_menu_unlock_title">Menü ile kilit açma</string>
 	<string name="pref_menu_unlock_summary">Menü tuşuna basmak kilidi açar</string>
 	<string name="pref_lockscreen_quick_unlock_control_title">Hızlı kilit açma</string>
-	<string name="pref_lockscreen_quick_unlock_control_summary">PIN veya şifre girdikten sonra TAMAM'a basmaya gerek yok. Silmek yanlış giriş olarak sayılır</string>
+	<string name="pref_lockscreen_quick_unlock_control_summary">PIN veya şifre girdikten sonra TAMAM\'a basmaya gerek yok. Silmek yanlış giriş olarak sayılır</string>
 	<string name="lockscreen_style_options_title">Özel kilit seçenekleri</string>
 	<string name="pref_lockscreen_custom_app_toggle_title">Özel uygulama başlatıcı</string>
 	<string name="pref_lockscreen_custom_app_toggle_tab_summary">Özel bir uygulama başlatmak için fazladan sürükleme kilidi gösterir</string>
 	<string name="pref_lockscreen_custom_app_toggle_rotary_summary">Özel bir uygulama başlatmak için farklı bir kilit gösterir</string>
-	<string name="pref_lockscreen_custom_app_toggle_ring_summary">4'e kadar uygulama için üçüncü bir kilit ekler</string>
+	<string name="pref_lockscreen_custom_app_toggle_ring_summary">4\'e kadar uygulama için üçüncü bir kilit ekler</string>
 	<string name="pref_lockscreen_custom_app_activity_title">Özel uygulama</string>
 	<string name="pref_lockscreen_ring_custom_apps_dialog_title_set">Hangi kısayolun uygulanacağını seçin</string>
 	<string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">Hangi kısayolun kaldırılıcağını seçin</string>
