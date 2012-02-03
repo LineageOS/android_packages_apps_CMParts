@@ -514,7 +514,7 @@
 	<!-- Application Settings : Install Location -->
 	<string name="pref_install_location_title">Kurulum yeri</string>
 	<string name="pref_install_location_summary">Yeni uygulamaların nereye kurulacağını seçin</string>
-	
+
 	<string name="general_title">Genel</string>
 	<string name="camera_title">Kamera</string>
 	<string name="buttons_title">Tuşlar</string>
@@ -707,10 +707,10 @@
 	<string name="quiet_hours_haptic">Dokunsal geribildirimi kapat</string>
 	<string name="quiet_hours_haptic_on">Dokunsal geribildirim etkin değil</string>
 	<string name="quiet_hours_haptic_off">Dokunsal geribildirim etkin</string>
-	
+
 	<string name="cmstats_title">Anonim istatistikler</string>
 	<string name="cmstats_summary">CM\'nin daha iyi olması için anonim istatistik raporlamaya katılarak katkıda bulunun</string>
-	
+
 	<string name="user_defined_key1">Hızlı Tuş 1</string>
 	<string name="user_defined_key2">Hızlı Tuş 2</string>
 	<string name="user_defined_key3">Hızlı Tuş 3</string>

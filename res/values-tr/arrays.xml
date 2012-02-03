@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 
+<!--
  * Copyright (C) 2007 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -262,7 +262,7 @@
         <item>1sn</item>
         <item>5sn</item>
         <item>10sn</item>
-        <item>15sn</item>  
+        <item>15sn</item>
         <item>30sn</item>
         <item>1dk</item>
         <item>5dk</item>
@@ -468,8 +468,8 @@
     </string-array>
 
     <string-array name="entries_network_widget">
-        <item>2G/3G+2G</item>  
-        <item>Sadece 2G/3G</item>   
+        <item>2G/3G+2G</item>
+        <item>Sadece 2G/3G</item>
         <item>2G/3G Sadece/3G+2G</item>
     </string-array>
 
