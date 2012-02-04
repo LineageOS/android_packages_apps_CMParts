@@ -426,8 +426,8 @@
 	<string name="haptic_delay_desc">ms Kapanma süresi</string>
 	<string name="haptic_vibe_desc">ms Açılma süresi</string>
 
-	<string name="haptic_down_description">TUŞA BASMA için dokunsal geri bildirim değerlerini ayarla\n(Sanal tuşlar ve belirli arabirim etkileşimleri.)</string>
-	<string name="haptic_up_description">TUŞU BIRAKMA için dokunsal geri bildirim değerlerini ayarla\n(Sanal tuşlar ve çoğu ekran dokunmaları.)</string>
+	<string name="haptic_down_description">TUŞA BASMA için dokunsal geri bildirim değerlerini ayarla\n(Sanal tuşlar ve belirli arabirim etkileşimleri)</string>
+	<string name="haptic_up_description">TUŞU BIRAKMA için dokunsal geri bildirim değerlerini ayarla\n(Sanal tuşlar ve çoğu ekran dokunmaları)</string>
 	<string name="haptic_long_description">UZUN BASMA için dokunsal geri bildirim değerlerini ayarla</string>
 	<string name="haptic_tap_description">EKRAN KLAVYESİ için dokunsal geri bildirim değerlerini ayarla</string>
 
