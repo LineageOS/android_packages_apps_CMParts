@@ -456,6 +456,10 @@
     <string name="sound_vibrate_in_call_summary_off">Bij melding niet trillen tijdens gesprek</string>
     <string name="sound_vibrate_in_call_summary_on">Bij melding trillen tijdens gesprek</string>
 
+    <string name="sound_volume_key_beeps_title">Pieptoon volumeknoppen</string>
+    <string name="sound_volume_key_beeps_summary_off">Geen pieptoon bij veranderen beltoonvolume door indrukken volumeknoppen</string>
+    <string name="sound_volume_key_beeps_summary_on">Pieptoon bij veranderen beltoonvolume door indrukken volumeknoppen</string>
+
     <string name="sound_lock_volume_keys_title">Volumeknoppen vergr.</string>
     <string name="sound_lock_volume_keys_summary">Voorkomt het per ongeluk uitschakelen van stille modus door drukken op volumeknoppen</string>
 

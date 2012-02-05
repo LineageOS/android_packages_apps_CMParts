@@ -667,6 +667,9 @@
     <string name="sound_vibrate_in_call_summary_on">Η συσκευή θα δονείται κανονικά</string>
     <string name="sound_lock_volume_keys_title">Κλείδωμα πληκ. έντασης</string>
     <string name="sound_lock_volume_keys_summary">Αποτρέπει την απενεργοποίηση της αθόρυβης λειτουργίας πατώντας τα πλήκτρα έντασης</string>
+    <string name="sound_volume_key_beeps_title">Ήχος πλήκτρων έντασης</string>
+    <string name="sound_volume_key_beeps_summary_off">Να μην αναπαράγεται ήχος μετά την αλλαγή της έντασης ήχου με τα πλήκτρα έντασης</string>
+    <string name="sound_volume_key_beeps_summary_on">Να αναπαράγεται ήχος μετά την αλλαγή της έντασης ήχου με τα πλήκτρα έντασης</string>
     <string name="sound_camera_shutter_disable_title">Σίγαση κλείστρου κάμερας</string>
     <string name="sound_camera_shutter_disable_summary_on">Δε θα αναπαράγεται ήχος κλείστρου</string>
     <string name="sound_camera_shutter_disable_summary_off">Θα αναπαράγεται ήχος κλείστρου</string>
