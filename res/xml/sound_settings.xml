@@ -30,6 +30,13 @@
 			android:summary="@string/sound_lock_volume_keys_summary"
 			android:persistent="false" />
 
+		<!--  Volume key beeps -->
+		<CheckBoxPreference android:key="volume-key-beeps"
+			android:title="@string/sound_volume_key_beeps_title"
+			android:summaryOn="@string/sound_volume_key_beeps_summary_on"
+			android:summaryOff="@string/sound_volume_key_beeps_summary_off"
+			android:persistent="false" />
+
 		<PreferenceScreen android:key="sound_category_quiet_hours"
 			android:title="@string/sound_category_quiet_hours_title">
 			<intent android:action="android.intent.action.MAIN"
