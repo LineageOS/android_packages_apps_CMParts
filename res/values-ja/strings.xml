@@ -649,6 +649,9 @@
     <string name="sound_vibrate_in_call_title">電話中の振動</string>
     <string name="sound_vibrate_in_call_summary_off">電話中の通知は振動しない</string>
     <string name="sound_vibrate_in_call_summary_on">通知は通常通り振動する</string>
+    <string name="sound_volume_key_beeps_title">ボリュームキーとビープ音</string>
+    <string name="sound_volume_key_beeps_summary_off">ボリュームキーを押して音量を変更しようとした時にビープ音を出さない</string>
+    <string name="sound_volume_key_beeps_summary_on">ボリュームキーを押して音量を変更しようとした時にビープ音を出す</string>
     <string name="sound_camera_shutter_disable_title">カメラのシャッター音を消す</string>
     <string name="sound_camera_shutter_disable_summary_on">シャッター音は再生されません</string>
     <string name="sound_camera_shutter_disable_summary_off">シャッター音は再生されます</string>

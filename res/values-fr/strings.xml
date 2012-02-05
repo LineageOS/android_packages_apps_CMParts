@@ -609,6 +609,9 @@
     <string name="sound_vibrate_in_call_summary_on">Notifications par vibreur activées</string>
     <string name="sound_lock_volume_keys_title">Verrouiller boutons volume</string>
     <string name="sound_lock_volume_keys_summary">Évite la désactivation involontaire du mode silencieux en appuyant sur les boutons de volume</string>
+    <string name="sound_volume_key_beeps_title">Bip des boutons Volume</string>
+    <string name="sound_volume_key_beeps_summary_off">La modification du volume est silencieuse</string>
+    <string name="sound_volume_key_beeps_summary_on">La modification du volume émet un bip</string>
     <string name="sound_to_speaker_title">Toujours dans le haut-parleur</string>
     <string name="sound_notifications_title">Notifications</string>
     <string name="sound_rings_title">Sonneries</string>

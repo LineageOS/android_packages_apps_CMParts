@@ -658,6 +658,9 @@
     <string name="sound_vibrate_in_call_title">Gesprekvibratie</string>
     <string name="sound_vibrate_in_call_summary_off">Notificaties zullen niet vibreren tijdens telefoongesprek</string>
     <string name="sound_vibrate_in_call_summary_on">Notificaties zullen tijdens een telefoongesprek vibreren</string>
+    <string name="sound_volume_key_beeps_title">Pieptoon volumeknoppen</string>
+    <string name="sound_volume_key_beeps_summary_off">Geen pieptoon bij veranderen beltoonvolume door indrukken volumeknoppen</string>
+    <string name="sound_volume_key_beeps_summary_on">Pieptoon bij veranderen beltoonvolume door indrukken volumeknoppen</string>
     <string name="sound_lock_volume_keys_title">Vergrendel volumeknoppen</string>
     <string name="sound_lock_volume_keys_summary">Voorkomt het per ongeluk uitschakelen van stille modus bij drukken op volumeknoppen</string>
     <string name="sound_camera_shutter_disable_title">Demp camerasluiter-geluid</string>
