@@ -37,6 +37,8 @@
 
     <string name="pref_electron_beam_animation_on">スクリーンオンアニメ</string>
     <string name="pref_electron_beam_animation_off">スクリーンオフアニメ</string>
+    <string name="pref_rotation_animation_title">回転アニメ</string>
+    <string name="pref_rotation_animation_summary">再起動が必要</string>
 
     <!-- User interface: Tablet tweaks -->
     <string name="tablet_tweaks_title_head">タブレット調整</string>
