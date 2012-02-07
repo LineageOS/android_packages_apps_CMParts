@@ -37,6 +37,8 @@
 
     <string name="pref_electron_beam_animation_on">Einschalten animieren</string>
     <string name="pref_electron_beam_animation_off">Ausschalten animieren</string>
+    <string name="pref_rotation_animation_title">Drehungs-Animation</string>
+    <string name="pref_rotation_animation_summary">Drehung des Bildschirminhaltes bei Drehung des Gerätes animieren (benötigt Neustart)</string>
 
     <!-- User interface: Tablet tweaks -->
     <string name="tablet_tweaks_title_head">Tablet-Einstellungen</string>

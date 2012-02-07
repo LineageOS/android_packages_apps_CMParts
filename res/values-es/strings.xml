@@ -37,6 +37,8 @@
 
     <string name="pref_electron_beam_animation_on">Animación al encender pantalla</string>
     <string name="pref_electron_beam_animation_off">Animación al apagar pantalla</string>
+    <string name="pref_rotation_animation_title">Animación para rotación</string>
+    <string name="pref_rotation_animation_summary">Animación para las rotaciones de la pantalla (requiere reiniciar)</string>
 
     <!-- User interface: Tablet tweaks -->
     <string name="tablet_tweaks_title_head">Ajustes Tablet</string>
