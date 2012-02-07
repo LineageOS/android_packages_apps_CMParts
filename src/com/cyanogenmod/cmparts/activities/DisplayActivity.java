@@ -30,6 +30,7 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
+import android.os.SystemProperties;
 
 public class DisplayActivity extends PreferenceActivity implements OnPreferenceChangeListener {
 
@@ -42,9 +43,13 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
 
     private static final String ELECTRON_BEAM_ANIMATION_OFF = "electron_beam_animation_off";
 
+    private static final String ROTATION_ANIMATION_PREF = "pref_rotation_animation";
+
     private PreferenceScreen mBacklightScreen;
 
     /* Other */
+    private static final String ROTATION_ANIMATION_PROP = "persist.sys.rotationanimation";
+
     private static final String ROTATION_0_PREF = "pref_rotation_0";
     private static final String ROTATION_90_PREF = "pref_rotation_90";
     private static final String ROTATION_180_PREF = "pref_rotation_180";
@@ -58,6 +63,8 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
     private CheckBoxPreference mElectronBeamAnimationOn;
 
     private CheckBoxPreference mElectronBeamAnimationOff;
+
+    private CheckBoxPreference mRotationAnimationPref;
 
     private CheckBoxPreference mRotation0Pref;
     private CheckBoxPreference mRotation90Pref;
@@ -100,6 +107,11 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
             ((PreferenceCategory) prefSet.findPreference(GENERAL_CATEGORY))
                 .removePreference(mElectronBeamAnimationOff);
         }
+
+        /* ICS Rotation animation */
+        mRotationAnimationPref = (CheckBoxPreference) prefSet.findPreference(ROTATION_ANIMATION_PREF);
+        String userotanim = SystemProperties.get(ROTATION_ANIMATION_PROP, "0");
+        mRotationAnimationPref.setChecked("true".equals(userotanim));
 
         /* Rotation */
         mRotation0Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_0_PREF);
@@ -144,6 +156,12 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
                     Settings.System.ELECTRON_BEAM_ANIMATION_OFF, value ? 1 : 0);
         }
 
+        if (preference == mRotationAnimationPref) {
+            SystemProperties.set(ROTATION_ANIMATION_PROP,
+                    mRotationAnimationPref.isChecked() ? "true" : "false");
+            return true;
+        }
+
         if (preference == mRotation0Pref ||
             preference == mRotation90Pref ||
             preference == mRotation180Pref ||
@@ -167,5 +185,7 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         return false;
     }
+
+
 
 }
