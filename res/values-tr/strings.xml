@@ -466,14 +466,6 @@
 	<string name="pref_use_16bpp_alpha_title">16 bitlik şeffaflık kullan</string>
 	<string name="pref_use_16bpp_alpha_summary">16 bitlik şeffaflık, kaydırma performansını iyileştirir, ama görüntü hatasına sebep olabilir (yeniden başlatma gerektirir)</string>
 
-	<!-- Performance Settings : Scrolling Cache -->
-    <string name="pref_scrollingcache_title">Kaydırma ön belleği</string>
-    <string name="pref_scrollingcache_summary">Kaydırma ön belleği, biraz bellek kullanarak kaydırma performansını arttırabilir</string>
-    <string name="pref_scrollingcache_force_enable">Zorla etkinleştir</string>
-    <string name="pref_scrollingcache_default_enable">Varsayılan olarak etkin</string>
-    <string name="pref_scrollingcache_default_disable">Varsayılan olarak kapalı</string>
-    <string name="pref_scrollingcache_force_disable">Zorla kapat</string>
-
 	<!-- Performance Settings : Purgeable Assets -->
 	<string name="pref_purgeable_assets_title">Nesnelerin temizlenmesine izin ver</string>
 	<string name="pref_purgeable_assets_summary">Sistem, bitmap belleğindeki nesneleri gerektiğinde boşaltarak daha fazla RAM sağlayabilir (yeniden başlatma gerektirir)</string>
