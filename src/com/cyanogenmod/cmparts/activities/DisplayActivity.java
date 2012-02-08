@@ -42,8 +42,6 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
 
     private static final String ELECTRON_BEAM_ANIMATION_OFF = "electron_beam_animation_off";
 
-    private static final String ROTATION_ANIMATION_PREF = "persist.sys.rotationanimation";
-
     private PreferenceScreen mBacklightScreen;
 
     /* Other */
@@ -60,8 +58,6 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
     private CheckBoxPreference mElectronBeamAnimationOn;
 
     private CheckBoxPreference mElectronBeamAnimationOff;
-
-    private CheckBoxPreference mRotationAnimation;
 
     private CheckBoxPreference mRotation0Pref;
     private CheckBoxPreference mRotation90Pref;
@@ -105,10 +101,6 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
                 .removePreference(mElectronBeamAnimationOff);
         }
 
-        /* ICS Rotation animation */
-        mRotationAnimation = (CheckBoxPreference)prefSet.findPreference(ROTATION_ANIMATION_PREF);
-        
-
         /* Rotation */
         mRotation0Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_0_PREF);
         mRotation90Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_90_PREF);
@@ -150,12 +142,6 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
             value = mElectronBeamAnimationOff.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.ELECTRON_BEAM_ANIMATION_OFF, value ? 1 : 0);
-        }
-
-        if (preference == mRotationAnimation) {
-            value = mRotationAnimation.isChecked();
-            Settings.System.putInt(getContentResolver(),
-                    ROTATION_ANIMATION_PREF, value ? 1 : 0);
         }
 
         if (preference == mRotation0Pref ||
