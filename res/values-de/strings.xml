@@ -464,14 +464,6 @@
     <string name="pref_use_16bpp_alpha_title">16-bit-Transparenz</string>
     <string name="pref_use_16bpp_alpha_summary">Verwenden der 16-bit-Transparenz kann die Performance beim Scrollen verbessern, aber kann Grafikfehler verursachen (Neustart erforderlich)</string>
 
-    <!-- Performance Settings : Scrolling Cache -->
-    <string name="pref_scrollingcache_title">Scroll-Cache</string>
-    <string name="pref_scrollingcache_summary">Aktivieren des Scroll-Caches verbessert die Scroll-Performance, verbraucht aber mehr Speicher</string>
-    <string name="pref_scrollingcache_force_enable">Immer aktiviert</string>
-    <string name="pref_scrollingcache_default_enable">Standardmäßig aktiviert</string>
-    <string name="pref_scrollingcache_default_disable">Standardmäßig deaktiviert</string>
-    <string name="pref_scrollingcache_force_disable">Immer deaktiviert</string>
-
     <!-- Performance Settings : Purgeable Assets -->
     <string name="pref_purgeable_assets_title">Freigabe von Ressourcen</string>
     <string name="pref_purgeable_assets_summary">Erlaubt dem System, Speicherbereiche von nicht mehr benutzen Bildern freizugeben, um mehr RAM bereitzustellen (Neustart erforderlich)</string>

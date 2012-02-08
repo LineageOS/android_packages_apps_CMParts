@@ -464,14 +464,6 @@
     <string name="pref_use_16bpp_alpha_title">Usar transparencia de 16bits</string>
     <string name="pref_use_16bpp_alpha_summary">Usar la transparencia de 16bit puede mejorar el rendimiento en el desplazamiento de pantalla, pero puede ocasionar defectos visuales (requiere reiniciar)</string>
 
-    <!-- Performance Settings : Scrolling Cache -->
-    <string name="pref_scrollingcache_title">Caché desplazamiento</string>
-    <string name="pref_scrollingcache_summary">Habilitada puede mejorar el desplazamiento a costa de un mayor consumo de memoria</string>
-    <string name="pref_scrollingcache_force_enable">Habilitada siempre</string>
-    <string name="pref_scrollingcache_default_enable">Habilitada por defecto</string>
-    <string name="pref_scrollingcache_default_disable">Deshabilitada por defecto</string>
-    <string name="pref_scrollingcache_force_disable">Deshabilitada siempre</string>
-
     <!-- Performance Settings : Purgeable Assets -->
     <string name="pref_purgeable_assets_title">Permitir purga de activos</string>
     <string name="pref_purgeable_assets_summary">El sistema puede liberar más RAM cuando sea necesario si la memoria de mapa de bits de activos se puede reclamar (requiere reinicio)</string>

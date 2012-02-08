@@ -464,14 +464,6 @@
 	<string name="pref_use_16bpp_alpha_title">Použít 16bit průhlednost</string>
 	<string name="pref_use_16bpp_alpha_summary">Použitím 16bit průhlednosti může zlepšit výkon posouvání, ale může způsobit rozsypání obrazu (vyžaduje restart)</string>
 
-	<!-- Performance Settings : Scrolling Cache -->
-	<string name="pref_scrollingcache_title">Cache posouvání</string>
-	<string name="pref_scrollingcache_summary">Cache posouvání může zlepšit rychlost posouvání, ale zabere více paměti. Některé aplikace ji mohou sami vypínat/zapínat, proto je zde možné nastavit výchozí chování.</string>
-	<string name="pref_scrollingcache_force_enable">Vždy povolit</string>
-	<string name="pref_scrollingcache_default_enable">Výchozí povoleno</string>
-	<string name="pref_scrollingcache_default_disable">Výchozí zakázáno</string>
-	<string name="pref_scrollingcache_force_disable">Vždy zakázat</string>
-
 	<!-- Performance Settings : Purgeable Assets -->
 	<string name="pref_purgeable_assets_title">Uvolňování prostředků</string>
 	<string name="pref_purgeable_assets_summary">Umožní uvolnění více RAM smazáním nepotřebných obrazových dat (potřebuje restart)</string>

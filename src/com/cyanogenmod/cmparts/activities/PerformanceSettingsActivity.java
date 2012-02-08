@@ -73,12 +73,6 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
 
     private static final String USE_16BPP_ALPHA_PROP = "persist.sys.use_16bpp_alpha";
 
-    private static final String SCROLLINGCACHE_PREF = "pref_scrollingcache";
-
-    private static final String SCROLLINGCACHE_PERSIST_PROP = "persist.sys.scrollingcache";
-
-    private static final String SCROLLINGCACHE_DEFAULT = "1";
-
     private static final String PURGEABLE_ASSETS_PREF = "pref_purgeable_assets";
 
     private static final String PURGEABLE_ASSETS_PERSIST_PROP = "persist.sys.purgeable_assets";
@@ -106,8 +100,6 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
     private CheckBoxPreference mUseDitheringPref;
 
     private CheckBoxPreference mUse16bppAlphaPref;
-
-    private ListPreference mScrollingCachePref;
 
     private CheckBoxPreference mPurgeableAssetsPref;
 
@@ -157,11 +149,6 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
         mUse16bppAlphaPref = (CheckBoxPreference) prefSet.findPreference(USE_16BPP_ALPHA_PREF);
         String use16bppAlpha = SystemProperties.get(USE_16BPP_ALPHA_PROP, "0");
         mUse16bppAlphaPref.setChecked("1".equals(use16bppAlpha));
-
-        mScrollingCachePref = (ListPreference) prefSet.findPreference(SCROLLINGCACHE_PREF);
-        mScrollingCachePref.setValue(SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP,
-                SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP, SCROLLINGCACHE_DEFAULT)));
-        mScrollingCachePref.setOnPreferenceChangeListener(this);
 
         mPurgeableAssetsPref = (CheckBoxPreference) prefSet.findPreference(PURGEABLE_ASSETS_PREF);
         String purgeableAssets = SystemProperties.get(PURGEABLE_ASSETS_PERSIST_PROP, PURGEABLE_ASSETS_DEFAULT);
@@ -246,13 +233,6 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mScrollingCachePref) {
-            if (newValue != null) {
-                SystemProperties.set(SCROLLINGCACHE_PERSIST_PROP, (String)newValue);
-                return true;
-            }
-        }
-
         if (preference == mHeapsizePref) {
             if (newValue != null) {
                 SystemProperties.set(HEAPSIZE_PERSIST_PROP, (String)newValue);
