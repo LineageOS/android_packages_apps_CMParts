@@ -30,6 +30,7 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
+import android.os.SystemProperties;
 
 public class DisplayActivity extends PreferenceActivity implements OnPreferenceChangeListener {
 
@@ -42,7 +43,8 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
 
     private static final String ELECTRON_BEAM_ANIMATION_OFF = "electron_beam_animation_off";
 
-    private static final String ROTATION_ANIMATION_PREF = "persist.sys.rotationanimation";
+    private static final String ROTATION_ANIMATION_PREF = "rotation_animation";
+    private static final String ROTATION_ANIMATION_PROP = "persist.sys.rotationanimation";
 
     private PreferenceScreen mBacklightScreen;
 
@@ -61,7 +63,7 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
 
     private CheckBoxPreference mElectronBeamAnimationOff;
 
-    private CheckBoxPreference mRotationAnimation;
+    private CheckBoxPreference mRotationAnimationPref;
 
     private CheckBoxPreference mRotation0Pref;
     private CheckBoxPreference mRotation90Pref;
@@ -106,8 +108,9 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
         }
 
         /* ICS Rotation animation */
-        mRotationAnimation = (CheckBoxPreference)prefSet.findPreference(ROTATION_ANIMATION_PREF);
-        
+        mRotationAnimationPref = (CheckBoxPreference) prefSet.findPreference(ROTATION_ANIMATION_PREF);
+        String userotationanimation = SystemProperties.get(ROTATION_ANIMATION_PROP, "0");
+        mRotationAnimationPref.setChecked("1".equals(userotationanimation));
 
         /* Rotation */
         mRotation0Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_0_PREF);
@@ -152,10 +155,10 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
                     Settings.System.ELECTRON_BEAM_ANIMATION_OFF, value ? 1 : 0);
         }
 
-        if (preference == mRotationAnimation) {
-            value = mRotationAnimation.isChecked();
-            Settings.System.putInt(getContentResolver(),
-                    ROTATION_ANIMATION_PREF, value ? 1 : 0);
+        if (preference == mRotationAnimationPref) {
+            SystemProperties.set(ROTATION_ANIMATION_PROP,
+                    mRotationAnimationPref.isChecked() ? "1" : "0");
+            return true;
         }
 
         if (preference == mRotation0Pref ||
