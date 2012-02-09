@@ -38,7 +38,8 @@
 
     <string name="pref_electron_beam_animation_on">Screen-on animation</string>
     <string name="pref_electron_beam_animation_off">Screen-off animation</string>
-    <string name="pref_rotation_animation">ICS Rotation animation</string>
+    <string name="pref_rotation_animation_title">ICS Rotation animation</string>
+    <string name="pref_rotation_animation_summary">Requires a reboot</string>
 
     <!-- User interface: Tablet tweaks -->
     <string name="tablet_tweaks_title_head">Tablet tweaks</string>

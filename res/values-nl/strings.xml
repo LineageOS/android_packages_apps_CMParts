@@ -37,6 +37,8 @@
 
     <string name="pref_electron_beam_animation_on">Scherm-aan animatie</string>
     <string name="pref_electron_beam_animation_off">Scherm-uit animatie</string>
+    <string name="pref_rotation_animation_title">ICS Rotatie animatie</string>
+    <string name="pref_rotation_animation_summary">Vereist een herstart van het toestel</string>
 
     <!-- User interface: Tablet tweaks -->
     <string name="tablet_tweaks_title_head">Tablet tweaks</string>

@@ -43,12 +43,13 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
 
     private static final String ELECTRON_BEAM_ANIMATION_OFF = "electron_beam_animation_off";
 
-    private static final String ROTATION_ANIMATION_PREF = "rotation_animation";
-    private static final String ROTATION_ANIMATION_PROP = "persist.sys.rotationanimation";
+    private static final String ROTATION_ANIMATION_PREF = "pref_rotation_animation";
 
     private PreferenceScreen mBacklightScreen;
 
     /* Other */
+    private static final String ROTATION_ANIMATION_PROP = "persist.sys.rotationanimation";
+
     private static final String ROTATION_0_PREF = "pref_rotation_0";
     private static final String ROTATION_90_PREF = "pref_rotation_90";
     private static final String ROTATION_180_PREF = "pref_rotation_180";
@@ -109,8 +110,8 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
 
         /* ICS Rotation animation */
         mRotationAnimationPref = (CheckBoxPreference) prefSet.findPreference(ROTATION_ANIMATION_PREF);
-        String userotationanimation = SystemProperties.get(ROTATION_ANIMATION_PROP, "0");
-        mRotationAnimationPref.setChecked("1".equals(userotationanimation));
+        String userotanim = SystemProperties.get(ROTATION_ANIMATION_PROP, "0");
+        mRotationAnimationPref.setChecked("true".equals(userotanim));
 
         /* Rotation */
         mRotation0Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_0_PREF);
@@ -157,7 +158,7 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
 
         if (preference == mRotationAnimationPref) {
             SystemProperties.set(ROTATION_ANIMATION_PROP,
-                    mRotationAnimationPref.isChecked() ? "1" : "0");
+                    mRotationAnimationPref.isChecked() ? "true" : "false");
             return true;
         }
 
@@ -184,5 +185,7 @@ public class DisplayActivity extends PreferenceActivity implements OnPreferenceC
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         return false;
     }
+
+
 
 }
