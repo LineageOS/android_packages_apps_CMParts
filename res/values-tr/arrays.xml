@@ -16,27 +16,6 @@
  -->
 
 <resources>
-
-    <string-array name="entries_recent_apps_num" translatable="false">
-        <item>8</item>
-        <item>12</item>
-        <item>15</item>
-    </string-array>
-
-    <string-array name="entries_scrollingcache" translatable="false">
-        <item>@string/pref_scrollingcache_force_enable</item>
-        <item>@string/pref_scrollingcache_default_enable</item>
-        <item>@string/pref_scrollingcache_default_disable</item>
-        <item>@string/pref_scrollingcache_force_disable</item>
-    </string-array>
-
-    <string-array name="values_scrollingcache" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
     <string-array name="entries_heapsize">
         <item>12m</item>
         <item>16m</item>
@@ -44,185 +23,26 @@
         <item>32m</item>
         <item>48m</item>
     </string-array>
-
-    <string-array name="values_heapsize" translatable="false">
-        <item>12m</item>
-        <item>16m</item>
-        <item>24m</item>
-        <item>32m</item>
-        <item>48m</item>
-    </string-array>
-
     <string-array name="entries_install_location">
         <item>Otomatik</item>
         <item>Dahili</item>
         <item>Harici</item>
     </string-array>
-
-    <string-array name="values_install_location" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <string-array name="entries_status_bar_carrier_label" translatable="false">
-	<item>@string/ui_status_bar_carrier_label_use_default</item>
-	<item>@string/ui_status_bar_carrier_label_use_spn</item>
-	<item>@string/ui_status_bar_carrier_label_use_plmn</item>
-	<item>@string/ui_status_bar_carrier_label_use_custom</item>
-    </string-array>
-
-    <string-array name="values_status_bar_carrier_label" translatable="false">
-	<item>0</item>
-	<item>1</item>
-	<item>2</item>
-	<item>3</item>
-    </string-array>
-
     <string-array name="entries_status_bar_am_pm">
         <item>Normal</item>
         <item>Küçük</item>
         <item>Hiçbiri (Varsayılan)</item>
     </string-array>
-
-    <string-array name="values_status_bar_am_pm" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
     <string-array name="entries_status_bar_battery">
         <item>Simge (Varsayılan)</item>
         <item>Yüzde</item>
         <item>Gizli</item>
     </string-array>
-
-    <string-array name="values_status_bar_battery" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-     <string-array name="entries_status_bar_signal" translatable="false">
-        <item>@string/ui_status_bar_cm_signal_text_show_bars</item>
-        <item>@string/ui_status_bar_cm_signal_text_show_text</item>
-        <item>@string/ui_status_bar_cm_signal_text_show_text_dbm</item>
-     </string-array>
-
-     <string-array name="values_status_bar_signal" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <string-array name="entries_render_effect" translatable="false">
-        <item>@string/pref_render_effect_none</item>
-        <item>@string/pref_render_effect_night</item>
-        <item>@string/pref_render_effect_green</item>
-        <item>@string/pref_render_effect_blue</item>
-        <item>@string/pref_render_effect_amber</item>
-        <item>@string/pref_render_effect_salmon</item>
-        <item>@string/pref_render_effect_fuscia</item>
-        <item>@string/pref_render_effect_calibrated</item>
-        <item>@string/pref_render_effect_calibrated_red</item>
-        <item>@string/pref_render_effect_calibrated_cool</item>
-        <item>@string/pref_render_effect_red</item>
-    </string-array>
-
-    <string-array name="values_render_effect" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-    </string-array>
-
-    <string-array name="render_entries" translatable="false">
-        <item>@string/pref_render_effect_night</item>
-        <item>@string/pref_render_effect_green</item>
-        <item>@string/pref_render_effect_blue</item>
-        <item>@string/pref_render_effect_amber</item>
-        <item>@string/pref_render_effect_salmon</item>
-        <item>@string/pref_render_effect_fuscia</item>
-        <item>@string/pref_render_effect_calibrated</item>
-        <item>@string/pref_render_effect_calibrated_red</item>
-        <item>@string/pref_render_effect_calibrated_cool</item>
-        <item>@string/pref_render_effect_red</item>
-    </string-array>
-
-    <string-array name="render_values" translatable="false">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-    </string-array>
-
     <string-array name="haptic_feedback_entries">
         <item>Genel Ayarlar</item>
         <item>Etkin</item>
         <item>Pasif</item>
     </string-array>
-
-    <string-array name="haptic_feedback_values" translatable="false">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-
-    <string-array name="entries_trackball_colors" translatable="false">
-        <item>@string/trackball_color_entry_use_app</item>
-        <item>@string/trackball_color_entry_green</item>
-        <item>@string/trackball_color_entry_white</item>
-        <item>@string/trackball_color_entry_red</item>
-        <item>@string/trackball_color_entry_blue</item>
-        <item>@string/trackball_color_entry_yellow</item>
-        <item>@string/trackball_color_entry_cyan</item>
-        <item>@string/trackball_color_entry_magenta</item>
-        <item>@string/trackball_color_entry_pink</item>
-        <item>@string/trackball_color_entry_orange</item>
-        <item>@string/trackball_color_entry_light_blue</item>
-        <item>@string/trackball_color_entry_random</item>
-    </string-array>
-
-    <string-array name="pref_trackball_colors_values" translatable="false">
-        <item>default</item>
-        <item>green</item>
-        <item>white</item>
-        <item>red</item>
-        <item>blue</item>
-        <item>yellow</item>
-        <item>cyan</item>
-        <item>#800080</item>
-        <item>#ffc0cb</item>
-        <item>#ffa500</item>
-        <item>#add8e6</item>
-        <item>random</item>
-    </string-array>
-
-    <string-array name="entries_dual_led_colors" translatable="false">
-        <item>@string/trackball_color_entry_use_app</item>
-        <item>@string/trackball_color_entry_green</item>
-        <item>@string/trackball_color_entry_amber</item>
-    </string-array>
-
-    <string-array name="values_dual_led_colors" translatable="false">
-        <item>default</item>
-        <item>green</item>
-        <item>red</item>
-    </string-array>
-
     <string-array name="pref_trackball_blink_rate_entries">
         <item>Uygulama ayarını kullan</item>
         <item>2 (Hızlı)</item>
@@ -231,32 +51,6 @@
         <item>5</item>
         <item>6 (Yavaş)</item>
     </string-array>
-
-    <string-array name="pref_trackball_blink_rate_values" translatable="false">
-        <item>default</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-    </string-array>
-
-    <string-array name="pref_trackball_force_mode_entries" translatable="false">
-        <item>@string/trackball_force_mode_category</item>
-        <item>@string/trackball_force_mode_application</item>
-        <item>@string/trackball_force_mode_off</item>
-        <item>@string/trackball_force_mode_events</item>
-        <item>@string/trackball_force_mode_on</item>
-    </string-array>
-
-    <string-array name="pref_trackball_force_mode_values" translatable="false">
-        <item>category</item>
-        <item>default</item>
-        <item>forceoff</item>
-        <item>forceeventon</item>
-        <item>forceon</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_delay_entries">
         <item>Hemen</item>
         <item>1sn</item>
@@ -269,34 +63,12 @@
         <item>10dk</item>
         <item>30dk</item>
     </string-array>
-
-    <string-array name="pref_lockscreen_delay_values" translatable="false">
-        <item>0</item>
-        <item>1000</item>
-        <item>5000</item>
-        <item>10000</item>
-        <item>15000</item>
-        <item>30000</item>
-        <item>60000</item>
-        <item>300000</item>
-        <item>600000</item>
-        <item>1800000</item>
-    </string-array>
-
     <string-array name="pref_compcache_size_entries">
         <item>Devre dışı</item>
         <item>10%</item>
         <item>18% (varsayılan)</item>
         <item>26%</item>
     </string-array>
-
-    <string-array name="pref_compcache_size_values" translatable="false">
-        <item>0</item>
-        <item>10</item>
-        <item>18</item>
-        <item>26</item>
-    </string-array>
-
     <string-array name="entries_light_filter_window">
         <item>2 s</item>
         <item>5 s</item>
@@ -305,16 +77,6 @@
         <item>30 s</item>
         <item>60 s</item>
     </string-array>
-
-    <string-array name="values_light_filter_window" translatable="false">
-        <item>2000</item>
-        <item>5000</item>
-        <item>10000</item>
-        <item>20000</item>
-        <item>30000</item>
-        <item>60000</item>
-    </string-array>
-
     <string-array name="entries_light_filter_reset">
         <item>Devre dışı</item>
         <item>400 lux</item>
@@ -328,21 +90,6 @@
         <item>2000 lux</item>
         <item>2500 lux</item>
     </string-array>
-
-    <string-array name="values_light_filter_reset" translatable="false">
-        <item>-1</item>
-        <item>400</item>
-        <item>500</item>
-        <item>600</item>
-        <item>700</item>
-        <item>800</item>
-        <item>900</item>
-        <item>1000</item>
-        <item>1500</item>
-        <item>2000</item>
-        <item>2500</item>
-    </string-array>
-
     <string-array name="entries_light_filter_interval">
         <item>0.5 s</item>
         <item>1 s</item>
@@ -350,15 +97,6 @@
         <item>5 s</item>
         <item>10 s</item>
     </string-array>
-
-    <string-array name="values_light_filter_interval" translatable="false">
-        <item>500</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>5000</item>
-        <item>10000</item>
-    </string-array>
-
     <string-array name="entries_light_levels_dim">
         <item>1</item>
         <item>2</item>
@@ -377,26 +115,6 @@
         <item>24</item>
         <item>26</item>
     </string-array>
-
-    <string-array name="values_light_levels_dim" translatable="false">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>8</item>
-        <item>10</item>
-        <item>12</item>
-        <item>14</item>
-        <item>16</item>
-        <item>18</item>
-        <item>20</item>
-        <item>22</item>
-        <item>24</item>
-        <item>26</item>
-    </string-array>
-
     <string-array name="entries_light_decrease_hysteresis">
         <item>0 %</item>
         <item>10 %</item>
@@ -409,20 +127,6 @@
         <item>80 %</item>
         <item>90 %</item>
     </string-array>
-
-    <string-array name="values_light_decrease_hysteresis" translatable="false">
-        <item>0</item>
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-        <item>40</item>
-        <item>50</item>
-        <item>60</item>
-        <item>70</item>
-        <item>80</item>
-        <item>90</item>
-    </string-array>
-
     <string-array name="entries_sound_attenuation">
         <item>0 dB</item>
         <item>4 dB</item>
@@ -430,89 +134,23 @@
         <item>8 dB</item>
         <item>10 dB</item>
     </string-array>
-
-    <string-array name="values_sound_attenuation" translatable="false">
-        <item>0</item>
-        <item>4</item>
-        <item>6</item>
-        <item>8</item>
-        <item>10</item>
-    </string-array>
-
     <string-array name="entries_sound_limitvol">
         <item>Kısık sistem ayarı</item>
         <item>Müzik sesi (varsayılan)</item>
     </string-array>
-
-    <string-array name="values_sound_limitvol" translatable="false">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-
-   <string-array name="entries_brightness_widget" formatted="false" translatable="false">
-        <item>@string/cm_brightness_mode_auto</item>
-        <item>@string/cm_brightness_mode_dim</item>
-        <item>25%</item>
-        <item>50%</item>
-        <item>75%</item>
-        <item>100%</item>
-    </string-array>
-
-   <string-array name="values_brightness_widget" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
-
     <string-array name="entries_network_widget">
         <item>2G/3G+2G</item>  
         <item>Sadece 2G/3G</item>   
         <item>2G/3G Sadece/3G+2G</item>
     </string-array>
-
-    <string-array name="values_network_widget" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
     <string-array name="entries_screentimeout_widget">
         <item>15s/1d/5d</item>
         <item>30s/2d/5d</item>
     </string-array>
-
-    <string-array name="values_screentimeout_widget" translatable="false">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-
-    <string-array name="entries_ring_widget" translatable="false">
-        <item>@string/cm_sound_mode_silent</item>
-        <item>@string/cm_sound_mode_vibrate</item>
-        <item>@string/cm_sound_mode_sound</item>
-        <item>@string/cm_sound_mode_soundVibrate</item>
-    </string-array>
-
-    <string-array name="values_ring_widget" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
     <string-array name="entries_flash_widget">
         <item>Normal</item>
         <item>Yüksek / Düşük Işık</item>
     </string-array>
-
-    <string-array name="values_flash_widget" translatable="false">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
         <item>1 (geniş)</item>
         <item>2</item>
@@ -527,122 +165,17 @@
         <item>11</item>
         <item>12 (dar)</item>
     </string-array>
-
-    <string-array name="pref_lockscreen_gestures_sensitivity_values" translatable="false">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-    </string-array>
-
-    <string-array name="pref_lockscreen_gesture_action_entries" translatable="false">
-        <item>@string/gestures_unlock_only</item>
-        <item>@string/gestures_toggle_sound</item>
-        <item>@string/gestures_shortcut_or_activity</item>
-        <item>@string/gestures_next</item>
-        <item>@string/gestures_previous</item>
-        <item>@string/gestures_playpause</item>
-        <item>@string/gestures_flashlight</item>
-    </string-array>
-
-    <string-array name="pref_lockscreen_style_entries" translatable="false">
-        <item>@string/lockscreen_style_entry_tabs</item>
-        <item>@string/lockscreen_style_entry_rotary</item>
-        <item>@string/lockscreen_style_entry_lense</item>
-        <item>@string/lockscreen_style_entry_ring</item>
-    </string-array>
-
-    <string-array name="pref_lockscreen_style_values" translatable="false">
-        <item>1</item>
-        <item>2</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
-
-    <string-array name="pref_rotary_style_entries" translatable="false">
-        <item>@string/rotary_style_entry_normal</item>
-        <item>@string/rotary_style_entry_revamped</item>
-    </string-array>
-
-    <string-array name="pref_rotary_style_values" translatable="false">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <string-array name="pref_ringlock_style_entries" translatable="false">
-        <item>@string/ringlock_style_entry_bubbles</item>
-        <item>@string/ringlock_style_entry_revamped</item>
-        <item>@string/ringlock_style_entry_holo</item>
-        <item>@string/ringlock_style_entry_blade</item>
-    </string-array>
-
-    <string-array name="pref_ringlock_style_values" translatable="false">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-
-    <string-array name="pref_in_call_style_entries" translatable="false">
-        <item>@string/lockscreen_style_entry_tabs</item>
-        <item>@string/lockscreen_style_entry_rotary</item>
-        <item>@string/lockscreen_style_entry_ring</item>
-    </string-array>
-
-    <string-array name="pref_in_call_style_values" translatable="false">
-        <item>1</item>
-        <item>2</item>
-        <item>4</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_background_entries">
         <item>Renk doldur</item>
         <item>Özel resim</item>
         <item>Varsayılan arkaplan</item>
     </string-array>
-
-    <string-array name="pref_lockscreen_background_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <string-array name="pref_lockscreen_widget_layout_entries" translatable="false">
-        <item>@string/pref_lockscreen_widget_layout_entry_default</item>
-        <item>@string/pref_lockscreen_widget_layout_entry_hidden</item>
-        <item>@string/pref_lockscreen_widget_layout_entry_centered</item>
-        <item>@string/pref_lockscreen_widget_layout_entry_right</item>
-    </string-array>
-
-    <string-array name="pref_lockscreen_widget_layout_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>Devre dışı</item>
         <item>Kablolu Kulaklık</item>
         <item>Kablosuz Kulaklık</item>
         <item>Her ikisi</item>
     </string-array>
-
-    <string-array name="pref_lockscreen_music_headset_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_calendar_lookahead_entries">
         <item>3 saat</item>
         <item>6 saat</item>
@@ -651,42 +184,17 @@
         <item>3 gün</item>
         <item>1 hafta</item>
     </string-array>
-
-    <string-array name="pref_lockscreen_calendar_lookahead_values" translatable="false">
-        <item>10800000</item>
-        <item>21600000</item>
-        <item>43200000</item>
-        <item>86400000</item>
-        <item>259200000</item>
-        <item>604800000</item>
-    </string-array>
-
     <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
         <item>Gösterme</item>
         <item>İlk satırı göster</item>
         <item>Tümünü göster</item>
     </string-array>
-
-    <string-array name="pref_lockscreen_calendar_show_event_metadata_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
     <string-array name="pref_overscroll_effect_entries">
         <item>Hiçbiri</item>
         <item>Parlama</item>
         <item>Parlama ve Sıçrama</item>
         <item>Sıçrama</item>
     </string-array>
-
-    <string-array name="pref_overscroll_effect_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
     <string-array name="entries_overscroll_weight">
         <item>Çok sert</item>
         <item>Sert</item>
@@ -694,39 +202,11 @@
         <item>Hafif</item>
         <item>Çok hafif</item>
     </string-array>
-
-    <string-array name="values_overscroll_weight" translatable="false">
-        <item>1</item>
-        <item>3</item>
-        <item>5</item>
-        <item>7</item>
-        <item>9</item>
-    </string-array>
-
     <string-array name="phone_goggles_confirmation_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
-
-    <string-array name="phone_goggles_confirmation_entries" translatable="false">
-        <item>@string/phone_goggles_confirmation_none</item>
-        <item>@string/phone_goggles_confirmation_prompt</item>
-        <item>@string/phone_goggles_confirmation_maths</item>
-    </string-array>
-
-    <string-array name="phone_goggles_maths_level_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <string-array name="phone_goggles_maths_level_entries" translatable="false">
-        <item>@string/phone_goggles_maths_level_easy</item>
-        <item>@string/phone_goggles_maths_level_medium</item>
-        <item>@string/phone_goggles_maths_level_hard</item>
-    </string-array>
-
     <string-array name="entries_vol_actions">
         <item>Hiçbiri/Varsayılan</item>
         <item>Ev</item>
@@ -741,22 +221,6 @@
         <item>Önceki</item>
         <item>Ev (basılı)</item>
     </string-array>
-
-    <string-array name="values_vol_actions" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-    </string-array>
-
     <string-array name="entries_unhide_button">
         <item>Ev</item>
         <item>Menü</item>
@@ -766,17 +230,6 @@
         <item>Ses +</item>
         <item>Ses -</item>
     </string-array>
-
-    <string-array name="values_unhide_button" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-    </string-array>
-
     <string-array name="entries_long_press_menu">
         <item>Hiçbiri</item>
         <item>Klavye</item>
@@ -784,13 +237,4 @@
         <item>Özel uygulama</item>
         <item>Bildirim çubuğunu aç/kapat</item>
     </string-array>
-
-    <string-array name="values_long_press_menu" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-
 </resources>

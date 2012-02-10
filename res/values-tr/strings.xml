@@ -41,11 +41,11 @@
 
 	<!-- User interface: Tablet tweaks -->
 	<string name="tablet_tweaks_title_head">Tablet seçenekleri</string>
-	<string name="tablet_tweaks_summary_head">Tabletler için yararlı seçenekler. Çoğu telefon ile uyumludur.</string>
+	<string name="tablet_tweaks_summary_head">Tabletler için yararlı seçenekler. Telefonlarla da uyumludur.</string>
 	<string name="tablet_tweaks_sb_bottom_title">Durum çubuğu altta</string>
 	<string name="tablet_tweaks_sb_bottom_summary">Durum çubuğunu altta gösterir. Giriş, menü gibi butonları durum çubuğunda gösteren tabletler için kullanışlıdır.</string>
-	<string name="tablet_tweaks_status_bar_dead_zone_title">Boş bölge</string>
-	<string name="tablet_tweaks_status_bar_dead_zone_summary">Durum çubuğunun ortasına yarım ekran büyüklüğünde boş bir bölge ekler</string>
+	<string name="tablet_tweaks_status_bar_dead_zone_title">Etkisiz alan</string>
+	<string name="tablet_tweaks_status_bar_dead_zone_summary">Durum çubuğunun ortasındaki boş alanlarda işlem yapılmasını önler ve bildirim çubuğu yanlışlıkla gösterilmez.</string>
 	<string name="tablet_tweaks_soft_buttons_left_title">Menü tuşları solda</string>
 	<string name="tablet_tweaks_soft_buttons_left_summary">Menü tuşlarını durum çubuğunun soluna ekler</string>
 	<string name="tablet_tweaks_soft_button_list_title">Menü tuşlarını seç</string>
@@ -92,7 +92,7 @@
 
 	<!-- User interface: Status bar tweaks -->
 	<string name="ui_status_bar_title">Durum çubuğu seçenekleri</string>
-	<string name="ui_status_bar_am_pm_title">AM/PM stili</string>
+	<string name="ui_status_bar_am_pm_title">AM/PM gösterimi</string>
 	<string name="ui_status_bar_am_pm_summary">Saatin yanında AM/PM göster</string>
 	<string name="ui_status_bar_clock_title">Saati göster</string>
 	<string name="ui_status_bar_clock_summary">Seçilmezse saat görüntülenmez</string>
@@ -100,19 +100,19 @@
 	<string name="ui_status_bar_battery_summary">Pil göstergesinin görünüm şekli</string>
 	<string name="ui_status_bar_compact_carrier_title">Küçük şebeke yazısı</string>
 	<string name="ui_status_bar_compact_carrier_summary">Durum çubuğunda şebeke yazısını daha küçük gösterir</string>
-	<string name="ui_status_bar_carrier_label_title">Şebeke yazısı tarzı</string>
-	<string name="ui_status_bar_carrier_label_summary">Şebeke yazısını değiştirin</string>
+	<string name="ui_status_bar_carrier_label_title">Şebeke yazısı biçimi</string>
+	<string name="ui_status_bar_carrier_label_summary">Şebeke yazısını değiştir</string>
 	<string name="ui_status_bar_carrier_label_use_default">Varsayılan</string>
 	<string name="ui_status_bar_carrier_label_use_spn">SPN göster</string>
 	<string name="ui_status_bar_carrier_label_use_plmn">PLMN göster</string>
 	<string name="ui_status_bar_carrier_label_use_custom">Kişisel şebeke</string>
 	<string name="ui_status_bar_carrier_label_custom_title">Kişisel şebeke yazısı</string>
 	<string name="ui_status_bar_carrier_label_custom_summary">Şebeke tarafından sağlanan isim yerine kendi belirlediğiniz isim</string>
-	<string name="ui_status_bar_toggle_brightness">Durum çubuğu parlaklık kontrolü</string>
-	<string name="ui_status_bar_toggle_brightness_summary">Durum çubuğunu kaydırarak parlaklık ayarlama</string>
+	<string name="ui_status_bar_toggle_brightness">Parlaklık kontrolü</string>
+	<string name="ui_status_bar_toggle_brightness_summary">Durum çubuğunda parmağınızı sağa-sola kaydırarak parlaklığı ayarlayın</string>
 	<string name="ui_status_bar_toggle_info">Otomatik parlaklık etkin</string>
-	<string name="ui_status_bar_cm_signal_text_title">Farklı sinyal tarzı</string>
-	<string name="ui_status_bar_cm_signal_text_summary">Çubuklar yerine dBm değerini göster</string>
+	<string name="ui_status_bar_cm_signal_text_title">Sinyal görünümü</string>
+	<string name="ui_status_bar_cm_signal_text_summary">Çubukları veya dBm değerini göster</string>
 	<string name="ui_status_bar_cm_signal_text_show_bars">Sinyal çubukları</string>
 	<string name="ui_status_bar_cm_signal_text_show_text">Sinyal yazısı</string>
 	<string name="ui_status_bar_cm_signal_text_show_text_dbm">Sinyal yazısı/dBm değerini göster</string>
@@ -121,22 +121,22 @@
 
 	<!-- User interface : LED Notifications -->
 	<string name="trackball_title">LED bildirimleri</string>
-	<string name="trackball_summary">Fare topu/LED bildirimlerinin rengini ve hassasiyetini belirleyin</string>
+	<string name="trackball_summary">İz topu/LED bildirimlerinin rengini ve hassasiyetini belirleyin</string>
 
 	<!-- User interface : WebView -->
 	<string name="pref_pinch_reflow_title">Yakınlaştırdıktan sonra yenile</string>
 	<string name="pref_pinch_reflow_summary">Yakınlaştıktan sonra web içeriğini hemen yenile</string>
 
 	<!-- User interface : Share menu for screenshots -->
-	<string name="pref_share_screenshot_title">Ekran görüntülerini paylaş</string>
-	<string name="pref_share_screenshot_summary">Ekran görüntüsü alırken paylaşma seçeneğini görüntüle</string>
+	<string name="pref_share_screenshot_title">Ekran görüntüsü paylaşımı</string>
+	<string name="pref_share_screenshot_summary">Ekran görüntüsü aldıktan sonra paylaşım menüsünü görüntüle</string>
 
 	<!-- User interface : Overscroll -->
 	<string name="ui_overscroll_title">Sayfa sonu</string>
 	<string name="pref_overscroll_title">Sayfa sonu efekti</string>
-	<string name="pref_overscroll_summary">Kaydırılabilir nesnelerin sonda nasıl görüneceğini seçin</string>
-	<string name="pref_overscroll_weight_title">Sayfa sonu etkisi</string>
-	<string name="pref_overscroll_weight_summary">Kaydırılabilir nesnelerin etkisini seçin</string>
+	<string name="pref_overscroll_summary">Kaydırma sona erdiğinde nasıl bir efektin görüneceğini seçin</string>
+	<string name="pref_overscroll_weight_title">Sayfa sonu efekt şiddeti</string>
+	<string name="pref_overscroll_weight_summary">Sayfa sonu efektinin şiddetini seçin</string>
 
 	<!-- User interface : Lock Screen -->
 	<string name="pref_lockscreen_delay_title">Gecikme</string>
@@ -267,7 +267,7 @@
 	<string name="pref_lockscreen_timeout_summary">Ekran kapanma süresini ve kapatma süresini ayarla</string>
 
 	<!-- Lockscreen Settings -->
-	<string name="pref_lockscreen_always_battery_title">Pil yüzdesini her zaman göster</string>
+	<string name="pref_lockscreen_always_battery_title">Pil yüzdesi gösterimi</string>
 	<string name="pref_lockscreen_always_battery_summary">Pil yüzdesini kilit ekranında her zaman gösterir</string>
 	<string name="pref_lockscreen_widgets_layout_title">Widget konumu</string>
 	<string name="pref_lockscreen_widgets_layout_summary">Saat, tarih, şebeke ve durum konumu</string>
@@ -285,35 +285,35 @@
 	<string name="pref_lockscreen_music_headset_summary">Kablolu/Kablosuz bir kulaklık bağlıyken müzik kontrollerini gösterir</string>
 	<string name="pref_lockscreen_always_music_controls_title">Müzik kontrollerini her zaman göster</string>
 	<string name="pref_lockscreen_always_music_controls_summary">Müzik çalmasa bile müzik kontrollerini gösterir</string>
-	<string name="pref_trackball_wake_title">Fare topu ile uyanma</string>
-	<string name="pref_trackball_wake_summary">Fare topu, cihazı uyandırır</string>
-	<string name="pref_volume_wake_title">Ses tuşları ile uyanma</string>
+	<string name="pref_trackball_wake_title">İz topu ile uyan</string>
+	<string name="pref_trackball_wake_summary">İz topu, cihazı uyandırır</string>
+	<string name="pref_volume_wake_title">Ses tuşları ile uyan</string>
 	<string name="pref_volume_wake_summary">Ses +/- cihazı uyandırır. Güç butonuna basması zor olan cihazlar için geliştirilmiştir</string>
-	<string name="pref_trackball_unlock_title">Fare topu ile kilit açma</string>
-	<string name="pref_trackball_unlock_summary">Fare topunun tuşuna basmak cihazın kilidini açar</string>
-	<string name="pref_slider_unlock_title">Klayve kızağı cihazı açar</string>
+	<string name="pref_trackball_unlock_title">İz topu ile kilit aç</string>
+	<string name="pref_trackball_unlock_summary">İz topunun tuşuna basmak cihazın kilidini açar</string>
+	<string name="pref_slider_unlock_title">Klayve kızağı ile aç</string>
 	<string name="pref_slider_unlock_summary">Klavye kızağını kaydırmak cihazı açar</string>
-	<string name="pref_menu_unlock_title">Menü ile kilit açma</string>
+	<string name="pref_menu_unlock_title">Menü ile kilit aç</string>
 	<string name="pref_menu_unlock_summary">Menü tuşuna basmak kilidi açar</string>
-	<string name="pref_lockscreen_quick_unlock_control_title">Hızlı kilit açma</string>
+	<string name="pref_lockscreen_quick_unlock_control_title">Hızlı kilit aç</string>
 	<string name="pref_lockscreen_quick_unlock_control_summary">PIN veya şifre girdikten sonra TAMAM\'a basmaya gerek yok. Silmek yanlış giriş olarak sayılır</string>
 	<string name="lockscreen_style_options_title">Özel kilit seçenekleri</string>
 	<string name="pref_lockscreen_custom_app_toggle_title">Özel uygulama başlatıcı</string>
 	<string name="pref_lockscreen_custom_app_toggle_tab_summary">Özel bir uygulama başlatmak için fazladan sürükleme kilidi gösterir</string>
-	<string name="pref_lockscreen_custom_app_toggle_rotary_summary">Özel bir uygulama başlatmak için farklı bir kilit gösterir</string>
-	<string name="pref_lockscreen_custom_app_toggle_ring_summary">4\'e kadar uygulama için üçüncü bir kilit ekler</string>
+	<string name="pref_lockscreen_custom_app_toggle_rotary_summary">Özel bir uygulama başlatmak için farklı bir halka gösterir</string>
+	<string name="pref_lockscreen_custom_app_toggle_ring_summary">4 tane uygulama başlatabileceğiniz üçüncü halkayı gösterir</string>
 	<string name="pref_lockscreen_custom_app_activity_title">Özel uygulama</string>
 	<string name="pref_lockscreen_ring_custom_apps_dialog_title_set">Hangi kısayolun uygulanacağını seçin</string>
-	<string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">Hangi kısayolun kaldırılıcağını seçin</string>
+	<string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">Hangi kısayolun kaldırılacağını seçin</string>
 	<string name="pref_lockscreen_ring_custom_apps_dialog_cancel">İptal</string>
 	<string name="pref_lockscreen_ring_custom_apps_dialog_add">Ekle</string>
 	<string name="pref_lockscreen_ring_custom_apps_dialog_remove">Kaldır</string>
 	<string name="pref_lockscreen_ring_custom_apps_notset">Henüz ayarlanmadı</string>
-	<string name="pref_lockscreen_ring_unlock_middle_title">Orta yüzük ile aç</string>
-	<string name="pref_lockscreen_ring_unlock_middle_summary">Özel uygulamalar başlatmak için yüzük ata</string>
-	<string name="pref_lockscreen_ring_minimal_title">En Az Yüzük Tarzı</string>
-	<string name="pref_lockscreen_ring_minimal_summary">Kilidi açmak için ortada bir yüzük</string>
-	<string name="pref_lockscreen_custom_background_title">Arkaplan seçin</string>
+	<string name="pref_lockscreen_ring_unlock_middle_title">Orta halkayla kilit aç</string>
+	<string name="pref_lockscreen_ring_unlock_middle_summary">Kilidi aç ve özel uygulama başlat</string>
+	<string name="pref_lockscreen_ring_minimal_title">Daha az halka</string>
+	<string name="pref_lockscreen_ring_minimal_summary">Kilidi açmak için tek halka göster</string>
+	<string name="pref_lockscreen_custom_background_title">Arkaplan seç</string>
 	<string name="pref_lockscreen_custom_background_dialog_title">Arkaplan seçin</string>
 	<string name="pref_lockscreen_custom_background_summary">Kilit ekranı arkaplanı için bir resim veya renk seçin</string>
 	<string name="pref_lockscreen_custom_background_summary_color">Kullanılan : Renk</string>
@@ -327,18 +327,18 @@
 	<string name="pref_lockscreen_rotary_unlock_down_summary">Kemeri aşağı çekmek kilidi açar. Sağa çekmek özel uygulama başlatır</string>
 	<string name="pref_lockscreen_rotary_hide_arrows_title">Kemer işaretlerini gizle</string>
 	<string name="pref_lockscreen_rotary_hide_arrows_summary">Kemerde yön işaretlerini gizler</string>
-	<string name="pref_lockscreen_style_title">Kilit ekranı tarzı</string>
-	<string name="pref_lockscreen_style_summary">Kilit ekranında kullanılacak olan tarzı seçin</string>
+	<string name="pref_lockscreen_style_title">Kilit ekranı stili</string>
+	<string name="pref_lockscreen_style_summary">Kilit ekranında kullanılacak stili seçin</string>
 	<string name="lockscreen_style_entry_tabs">Sürüklemeli kilit</string>
 	<string name="lockscreen_style_entry_rotary">Kemer</string>
 	<string name="lockscreen_style_entry_lense">Aşağı çekme</string>
-	<string name="lockscreen_style_entry_ring">Yüzük</string>
+	<string name="lockscreen_style_entry_ring">Halka</string>
 	<string name="pref_rotary_style_title">Kemer stili</string>
 	<string name="pref_rotary_style_summary">Kemerin stilini seçin</string>
 	<string name="rotary_style_entry_normal">Normal</string>
 	<string name="rotary_style_entry_revamped">Yenilenmiş</string>
-	<string name="pref_ringlock_style_title">Yüzük stili</string>
-	<string name="pref_ringlock_style_summary">Yüzüğün stilini seçiniz</string>
+	<string name="pref_ringlock_style_title">Halka stili</string>
+	<string name="pref_ringlock_style_summary">Halkanın stilini seçin</string>
 	<string name="ringlock_style_entry_bubbles">Baloncuk</string>
 	<string name="ringlock_style_entry_revamped">Yenilenmiş</string>
 	<string name="ringlock_style_entry_holo">Holo</string>
@@ -347,7 +347,7 @@
 	<string name="pref_in_call_style_summary">Gelen çağrılarda kabul/red stilini seçin</string>
 	<string name="incall_style_entry_tabs">Sürükleme</string>
 	<string name="incall_style_entry_rotary">Kemer</string>
-	<string name="incall_style_entry_ring">Yüzük</string>
+	<string name="incall_style_entry_ring">Halka</string>
 	<string name="lockscreen_music_title">Müzik kontrolleri</string>
 	<string name="pref_volbtn_music_controls_title">Ses tuşu müzik kontrolleri</string>
 	<string name="pref_volbtn_music_controls_summary">Ekran kapalıyken ses tuşuna uzun basmak şarkıyı değiştirir</string>
@@ -459,7 +459,7 @@
 	<string name="pref_jit_mode_summary">Dalvik just-in-time derleyicisini kullan (yeniden başlatma gerektirir)</string>
 
 	<!-- Performance Settings : Dithering -->
-	<string name="pref_use_dithering_title">Ekran titrekliğini düzelt</string>
+	<string name="pref_use_dithering_title">Yüzey titrekliğini düzelt</string>
 	<string name="pref_use_dithering_summary">Daha kaliteli görüntü üretir ama performansı etkileyebilir (yeniden başlatma gerektirir)</string>
 
 	<!-- Performance Settings : 16bpp Alpha -->
@@ -475,7 +475,7 @@
     <string name="pref_scrollingcache_force_disable">Zorla kapat</string>
 
 	<!-- Performance Settings : Purgeable Assets -->
-	<string name="pref_purgeable_assets_title">Nesnelerin temizlenmesine izin ver</string>
+	<string name="pref_purgeable_assets_title">Nesneleri temizle</string>
 	<string name="pref_purgeable_assets_summary">Sistem, bitmap belleğindeki nesneleri gerektiğinde boşaltarak daha fazla RAM sağlayabilir (yeniden başlatma gerektirir)</string>
 
 	<!-- Performance Settings : VM Heap Size -->
@@ -484,15 +484,15 @@
 
 	<!-- Performance : Disable bootanimation -->
 	<string name="pref_disable_bootanimation_title">Açılış animasyonunu kaldır</string>
-	<string name="pref_disable_bootanimation_summary">Daha hızlı açılış için animasyonu kaldırır</string>
+	<string name="pref_disable_bootanimation_summary">Etkinleştirilirse, telefon açılırken animasyon gösterilmez ve daha hızlı açılır</string>
 
 	<!-- Performance : Lock home memory -->
-	<string name="pref_lock_home_title">Başlatıcı uygulamayı bellekte tut</string>
+	<string name="pref_lock_home_title">Başlatıcıyı bellekte tut</string>
 	<string name="pref_lock_home_summary">Çalışan launcher uygulamasını her zaman bellekte tutmaya çalış</string>
 
 	<!-- Performance : Lock mms app in memory -->
-	<string name="pref_lock_mms_title">Mesajlaşma uygulamasını bellekte tut</string>
-	<string name="pref_lock_mms_summary">Belleğin düşmesi durumunda mesajların kaybolmasını önle</string>
+	<string name="pref_lock_mms_title">Mesajlaşmayı bellekte tut</string>
+	<string name="pref_lock_mms_summary">Belleğin azalması durumunda mesajların kaybolmasını önle</string>
 
 	<!-- Performance Settings : Warning dialog -->
 	<string name="performance_settings_warning_title">DİKKAT: Ejderha çıkabilir</string>
@@ -508,7 +508,7 @@
 	<string name="pref_storage_switch_unavailable">Cihazda dahili hafıza bulunamadı</string>
 
 	<!-- Application Settings : Move any app -->
-	<string name="pref_move_all_apps_title">Uygulama taşımaya izin ver</string>
+	<string name="pref_move_all_apps_title">Uygulama taşıma izni</string>
 	<string name="pref_move_all_apps_summary">Uygulamaları harici hafızaya taşımaya izin verir</string>
 
 	<!-- Application Settings : Install Location -->
@@ -524,7 +524,7 @@
 	<string name="pref_power_prompt_summary">Kapatma veya yeniden başlatma için onay istenip istenmeyeceğini belirler</string>
 
 	<!-- UI Settings : Haptic feedback -->
-	<string name="expanded_haptic_feedback_title">Dokunsal Geribildirim</string>
+	<string name="expanded_haptic_feedback_title">Dokunsal geribildirim</string>
 	<string name="expanded_haptic_feedback_summary">Dokunsal geribildirimi etkinleştir</string>
 
 	<!-- UI Settings : Render effect -->
@@ -565,8 +565,8 @@
 	<string name="title_widget_buttons">Gelişmiş Bildirim Çubuğu</string>
 	<string name="title_expanded_widget">Gelişmiş durum çubuğu</string>
 	<string name="summary_expanded_widget">Durum çubuğundaki düğmeleri göster</string>
-	<string name="title_expanded_hide_onchange">Değiştirildikten sonra gizle</string>
-	<string name="summary_expanded_hide_onchange">Değiştirildikten sonra durum çubuğunu gizler</string>
+	<string name="title_expanded_hide_onchange">Değiştikten sonra gizle</string>
+	<string name="summary_expanded_hide_onchange">Düğme durumu değiştirildikten sonra durum çubuğunu gizler</string>
 	<string name="title_expanded_hide_indicator">Göstergeyi gizle</string>
 	<string name="summary_expanded_hide_indicator">Düğmelerin altındaki açık/kapalı göstergesini gizler</string>
 	<string name="title_expanded_hide_scrollbar">Kaydırma çubuğunu gizle</string>
@@ -658,7 +658,7 @@
 	<string name="sound_notifications_focus_title">Düşük ses bildirimi</string>
 	<string name="sound_notifications_focus_summary">Bildirim sesi uyumlu uygulamalarda daha kısık sesle çalınır</string>
 	<string name="sound_volume_control_silent_title">Sessiz durum</string>
-	<string name="sound_volume_control_silent_summary">Ses kontrolünü tamamen sessize al</string>
+	<string name="sound_volume_control_silent_summary">Tamamen sessize alabilmesi için ses kontrolüne bir durum ekle</string>
 	<string name="sound_vibrate_in_call_title">Çağrı sırasında titreşim</string>
 	<string name="sound_vibrate_in_call_summary_off">Bildirimler çağrı sırasında titreşime sebep olmaz</string>
 	<string name="sound_vibrate_in_call_summary_on">Bildirimler telefonu titreştirir</string>
@@ -695,7 +695,7 @@
 	<string name="quiet_hours_start_summary">Sessiz saatler ne zaman başlayacak</string>
 	<string name="quiet_hours_end">Sessiz saatlerin bitişi</string>
 	<string name="quiet_hours_end_summary">Sessiz saatler ne zaman bitecek</string>
-	<string name="quiet_hours_mute">Bildirimlerin sesini kapat</string>
+	<string name="quiet_hours_mute">Bildirim seslerini kapat</string>
 	<string name="quiet_hours_mute_on">Ses çalınmaz</string>
 	<string name="quiet_hours_mute_off">Sesler normal şekilde çalar</string>
 	<string name="quiet_hours_still">Titreşimleri kapat</string>
@@ -709,8 +709,8 @@
 	<string name="quiet_hours_haptic_off">Dokunsal geribildirim etkin</string>
 	
 	<string name="cmstats_title">Anonim istatistikler</string>
-	<string name="cmstats_summary">CM\'nin daha iyi olması için anonim istatistik raporlamaya katılarak katkıda bulunun</string>
-	
+	<string name="cmstats_summary">Anonim istatistik raporlamaya katılarak CM\'nin daha iyi olmasına katkıda bulunun</string>
+
 	<string name="user_defined_key1">Hızlı Tuş 1</string>
 	<string name="user_defined_key2">Hızlı Tuş 2</string>
 	<string name="user_defined_key3">Hızlı Tuş 3</string>
@@ -719,7 +719,7 @@
 	<string name="user_defined_not_set">Ayarlanmamış</string>
 
 	<!-- Lockscreen gesture strings -->
-	<string name="pref_lockscreen_gestures_enable_title">Kilit ekranı şeklini kullan</string>
+	<string name="pref_lockscreen_gestures_enable_title">Kilit ekranında şekil çiz</string>
 	<string name="pref_lockscreen_gestures_trail_title">Şekil izlerini göster</string>
 	<string name="pref_lockscreen_gestures_builder_title">Şekil çiz</string>
 	<string name="pref_lockscreen_gestures_sensitivity_title">Duyarlılık</string>
@@ -741,7 +741,7 @@
 	<string name="gestures_previous">Önceki şarkı</string>
 	<string name="gestures_playpause">Müzik Oynat/Beklet</string>
 	<string name="pref_lockscreen_disable_unlock_tab">Kilit açma sürgüsünü kapat</string>
-	<string name="pref_lockscreen_disable_unlock_tab_summary">Not: Bu seçeneği kullanabilmek için fare topu, menü tuşu veya şekil çizerek kilit açmayı etkinleştirmeniz gerekir</string>
+	<string name="pref_lockscreen_disable_unlock_tab_summary">Not: Bu seçeneği kullanabilmek için iz topu, menü tuşu veya şekil çizerek kilit açmayı etkinleştirmeniz gerekir</string>
 	<string name="gestures_action_label">İşlem:</string>
 	<string name="gestures_draw_label">Şekil:</string>
 	<string name="gestures_draw_for_label">\"<xliff:g id="action">%s</xliff:g>\" için şekil:</string>
@@ -775,7 +775,7 @@
 	<string name="title_phone_goggles_mobile_filtered">Cep</string>
 	<string name="title_phone_goggles_other_filtered">Diğer</string>
 	<string name="summary_phone_goggles">Giden iletişimi filtrele</string>
-	<string name="summary_phone_goggles_default">Varsayılan değerlere ayarlar</string>
+	<string name="summary_phone_goggles_default">Varsayılan değerleri ayarla</string>
 	<string name="summary_phone_goggles_filter">Filtrelemek istediğiniz telefon numarası türlerini seçin</string>
 	<string name="summary_phone_goggles_start">Giden aramaların filtrelenmesi ne zaman başlayacak</string>
 	<string name="summary_phone_goggles_end">Giden aramaların filtrelenmesi ne zaman bitecek</string>
