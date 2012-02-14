@@ -16,6 +16,23 @@
       "revId": "76f302e3429d89192a938790e6fba4224ef73511",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX///KM\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/DisplayActivity.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2012-02-14T04:18:58Z",
+      "side": 1,
+      "message": "Given than the lack of the property indicates the animations are on, I think the fallback option (\"0\") should be \"true\"",
+      "revId": "76f302e3429d89192a938790e6fba4224ef73511",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
