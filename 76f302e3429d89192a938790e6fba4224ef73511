@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX///L8\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1761
+      },
+      "writtenOn": "2012-02-14T03:00:25Z",
+      "side": 1,
+      "message": "Nitpick... perhaps we should keep Rotation in lower case? :)\n\n\"ICS rotation animation\"",
+      "revId": "76f302e3429d89192a938790e6fba4224ef73511",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
