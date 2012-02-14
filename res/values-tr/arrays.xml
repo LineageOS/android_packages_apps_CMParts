@@ -151,6 +151,10 @@
         <item>Normal</item>
         <item>Yüksek / Düşük Işık</item>
     </string-array>
+    <string-array name="entries_mobiledatanetwork_widget">
+        <item>Pasif</item>
+        <item>Etkin</item>
+    </string-array>
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
         <item>1 (geniş)</item>
         <item>2</item>
