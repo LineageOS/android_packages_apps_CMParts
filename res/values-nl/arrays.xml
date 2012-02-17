@@ -26,11 +26,11 @@
     <string-array name="entries_status_bar_am_pm">
         <item>Normaal</item>
         <item>Klein</item>
-        <item>Geen (Standaard)</item>
+        <item>Geen (standaard)</item>
     </string-array>
 
     <string-array name="entries_status_bar_battery">
-        <item>Icoon (Default)</item>
+        <item>Icoon (standaard)</item>
         <item>Percentage</item>
         <item>Verborgen</item>
     </string-array>
@@ -42,11 +42,11 @@
     </string-array>
 
     <string-array name="pref_trackball_blink_rate_entries">
-        <item>2 (Snel)</item>
+        <item>2 (snel)</item>
         <item>3</item>
-        <item>4 (Gemiddeld)</item>
+        <item>4 (gemiddeld)</item>
         <item>5</item>
-        <item>6 (Langzaam)</item>
+        <item>6 (langzaam)</item>
     </string-array>
     
     <string-array name="pref_lockscreen_delay_entries">
@@ -124,8 +124,8 @@
     </string-array>
 
     <string-array name="entries_sound_limitvol">
-        <item>Verlaagde systeem instelling</item>
-        <item>Muziek volume (standaard)</item>
+        <item>Verlaagde systeeminstelling</item>
+        <item>Muziekvolume (standaard)</item>
     </string-array>
 
     <string-array name="entries_network_widget">
@@ -150,7 +150,7 @@
     </string-array>
 
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
-        <item>1 (Meest sensitief)</item>
+        <item>1 (gevoeligst)</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
@@ -161,19 +161,19 @@
         <item>9</item>
         <item>10</item>
         <item>11</item>
-        <item>12 (Minst sensitief)</item>
+        <item>12 (minst gevoelig)</item>
     </string-array>
 
     <string-array name="pref_lockscreen_background_entries">
         <item>Kleur</item>
         <item>Te kiezen afbeelding</item>
-        <item>Standaard achtergrond</item>
+        <item>Standaardachtergrond</item>
     </string-array>
 
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>Uitgeschakeld</item>
-        <item>Bedraadde headset</item>
-        <item>Bluetooth A2DP Headset</item>
+        <item>Bedrade headset</item>
+        <item>Bluetooth A2DP&ndash;headset</item>
         <item>Beiden</item>
     </string-array>
 
@@ -188,13 +188,13 @@
 
     <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
         <item>Verberg</item>
-        <item>Laat eerste regel zien</item>
-        <item>Geef helemaal weer</item>
+        <item>Toon eerste regel</item>
+        <item>Toon alles</item>
     </string-array>
 
     <string-array name="pref_overscroll_effect_entries">
         <item>Geen</item>
-        <item>Rand gloed</item>
+        <item>Randgloed</item>
         <item>Stuiter en gloed</item>
         <item>Stuiter</item>
     </string-array>
@@ -204,22 +204,22 @@
         <item>Hevig</item>
         <item>Gemiddeld</item>
         <item>Laag</item>
-        <item>Extra Laag</item>
+        <item>Extra laag</item>
     </string-array>
 
     <string-array name="entries_vol_actions">
-        <item>Geen/Standaard</item>
+        <item>Geen/standaard</item>
         <item>Home</item>
         <item>Menu</item>
         <item>Terug</item>
         <item>Zoeken</item>
-        <item>Power</item>
+        <item>Aan&ndash; en uitknop</item>
         <item>Bellen</item>
         <item>Beëindig oproep</item>
-        <item>Afspelen/Pauze</item>
+        <item>Afspelen/pauze</item>
         <item>Volgende nummer</item>
         <item>Vorige nummer</item>
-        <item>Lang indrukken home</item>
+        <item>Lang indrukken home&ndash;knop</item>
     </string-array>
 
     <string-array name="entries_unhide_button">
@@ -234,10 +234,10 @@
 
     <string-array name="entries_long_press_menu">
         <item>Geen</item>
-        <item>Soft keyboard</item>
-        <item>Zoek knop</item>
-        <item>Zelf gekozen app</item>
-        <item>Toggle statusbalk</item>
+        <item>Softwaretoetsenbord</item>
+        <item>Zoekknop</item>
+        <item>Zelf gekozen applicatie</item>
+        <item>Schakel statusbalk in/uit</item>
     </string-array>
 
 </resources> 
