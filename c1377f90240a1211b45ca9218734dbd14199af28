@@ -19,6 +19,74 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX//+uA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-02-18T00:46:04Z",
+      "side": 1,
+      "message": "Changelog vind ik een acceptabel woord, als is het geen correct Nederlands.",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+t8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-02-18T00:46:04Z",
+      "side": 1,
+      "message": "Ik vind het toevoegen van het tweede streepje niet logisch eruit zien, alhoewel ik niet durf te zeggen of het tekstueel correct.",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+t4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-02-18T00:46:04Z",
+      "side": 1,
+      "message": "Ik zou het eerder vertalen als \"inactieve\" zone",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+t0\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-02-18T00:46:04Z",
+      "side": 1,
+      "message": "Net als hierboven vind ik het tweede streepje niet prettig lezen, alhoewel ik nog altijd niet weet wat tekstueel al dan niet correct is.",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX//+vA\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -87,6 +155,40 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX//+uQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 609,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-02-18T00:46:04Z",
+      "side": 1,
+      "message": "felle",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+uI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 720,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-02-18T00:46:04Z",
+      "side": 1,
+      "message": "Dit moeten wel 2 losse woorden zijn: je gaat gebaren ontwikkelen.",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX//+ug\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -115,6 +217,23 @@
       "writtenOn": "2012-02-18T00:32:35Z",
       "side": 1,
       "message": "Prefere \"changelog\"",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+uE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 744,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-02-18T00:46:04Z",
+      "side": 1,
+      "message": "Ik vind changelog toch een acceptabel woord....ondanks dat het niet Nederlands is.",
       "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
