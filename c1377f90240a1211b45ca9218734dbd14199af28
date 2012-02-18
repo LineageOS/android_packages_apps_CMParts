@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX//+vI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2382
+      },
+      "writtenOn": "2012-02-18T00:32:35Z",
+      "side": 1,
+      "message": "\"Wijziginglijst\" says almost nothing meaningfull to me, but \"changelog\" does. So I would prefere the keeping of \"changelog\"",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+vA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 2382
+      },
+      "writtenOn": "2012-02-18T00:32:35Z",
+      "side": 1,
+      "message": "Again, I prefere Accelerometer here. I even think that is an acceptable Dutch word.",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+uw\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 281,
+      "author": {
+        "id": 2382
+      },
+      "writtenOn": "2012-02-18T00:32:35Z",
+      "side": 1,
+      "message": "In my opinion, a headset is something else than a koptelefoon, which are the ears without the micro.\nNevertheless, you can use koptelefoon here, but I don\u0027t think it is that of a good translation.",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+uo\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 519,
+      "author": {
+        "id": 2382
+      },
+      "writtenOn": "2012-02-18T00:32:35Z",
+      "side": 1,
+      "message": "Better?\n\n\"Kies of er een melding wordt weergegeven tijdens het opstarten en afsluiten van het toestel\"",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+uk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 609,
+      "author": {
+        "id": 2382
+      },
+      "writtenOn": "2012-02-18T00:32:35Z",
+      "side": 1,
+      "message": "- \"felle\" in stead of \"fele\"\n- Death Ray is writting with two capital letters, hence it is an \"eigennaam\", and it should not be translated. Oh heck, I just think \"Death Ray\" is way more cooler than \"dodelijke straal\" :p",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+ug\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 736,
+      "author": {
+        "id": 2382
+      },
+      "writtenOn": "2012-02-18T00:32:35Z",
+      "side": 1,
+      "message": "ontgrendelingsslider?",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+uc\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 744,
+      "author": {
+        "id": 2382
+      },
+      "writtenOn": "2012-02-18T00:32:35Z",
+      "side": 1,
+      "message": "Prefere \"changelog\"",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+uY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 782,
+      "author": {
+        "id": 2382
+      },
+      "writtenOn": "2012-02-18T00:32:35Z",
+      "side": 1,
+      "message": "\"Communicatie wordt niet gefilterd\"",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
