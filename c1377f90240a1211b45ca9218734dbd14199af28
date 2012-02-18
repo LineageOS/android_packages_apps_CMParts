@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX//+s8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:04:40Z",
+      "side": 1,
+      "message": "Mee eens.",
+      "parentUuid": "AAAAQX//+uA\u003d",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX//+t8\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -53,6 +71,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX//+tk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:04:40Z",
+      "side": 1,
+      "message": "Voor mij ook een twijfelgeval. Anders \"Animatie bij aanzetten scherm\"? Of toch iets korter?",
+      "parentUuid": "AAAAQX//+t8\u003d",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX//+t4\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -64,6 +100,24 @@
       "writtenOn": "2012-02-18T00:46:04Z",
       "side": 1,
       "message": "Ik zou het eerder vertalen als \"inactieve\" zone",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+tc\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:04:40Z",
+      "side": 1,
+      "message": "Ik wist niet wat het precies betekende, wordt dus verbeterd (inclusief regel hieronder)...",
+      "parentUuid": "AAAAQX//+t4\u003d",
       "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -121,6 +175,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX//+tY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 281,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:04:40Z",
+      "side": 1,
+      "message": "En het Van Dale is het met jou eens. Zal worden veranderd.\n\nhttp://vandale.nl/opzoeken?pattern\u003dheadset\u0026lang\u003dnn",
+      "parentUuid": "AAAAQX//+uw\u003d",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX//+uo\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -132,6 +204,24 @@
       "writtenOn": "2012-02-18T00:32:35Z",
       "side": 1,
       "message": "Better?\n\n\"Kies of er een melding wordt weergegeven tijdens het opstarten en afsluiten van het toestel\"",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+tU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 519,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:04:40Z",
+      "side": 1,
+      "message": "Mee eens. Regel hieronder ook meeveranderd.",
+      "parentUuid": "AAAAQX//+uo\u003d",
       "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -172,6 +262,42 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX//+tQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 609,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:04:40Z",
+      "side": 1,
+      "message": "Is Death Ray eigenlijk wel noodzakelijk om toe te voegen?",
+      "parentUuid": "AAAAQX//+uk\u003d",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+tM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 609,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:04:40Z",
+      "side": 1,
+      "message": "Iets te snel getypt...",
+      "parentUuid": "AAAAQX//+uQ\u003d",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX//+uI\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -189,6 +315,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX//+tI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 720,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:04:40Z",
+      "side": 1,
+      "message": "Aha, op die manier... Zal worden verbeterd.",
+      "parentUuid": "AAAAQX//+uI\u003d",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX//+ug\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -200,6 +344,24 @@
       "writtenOn": "2012-02-18T00:32:35Z",
       "side": 1,
       "message": "ontgrendelingsslider?",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+tE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 736,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:04:40Z",
+      "side": 1,
+      "message": "Lock screen -\u003e Vergrendelscherm, dus of alles met -ing(-) of niks met -ing(-). Wat zou jij kiezen?",
+      "parentUuid": "AAAAQX//+ug\u003d",
       "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -251,6 +413,24 @@
       "writtenOn": "2012-02-18T00:32:35Z",
       "side": 1,
       "message": "\"Communicatie wordt niet gefilterd\"",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+tA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 782,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:04:40Z",
+      "side": 1,
+      "message": "Mee eens.",
+      "parentUuid": "AAAAQX//+uY\u003d",
       "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
