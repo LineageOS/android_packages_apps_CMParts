@@ -107,6 +107,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX//+r4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:37:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAQX//+ss\u003d",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX//+t4\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -334,6 +352,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX//+sc\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 609,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:37:51Z",
+      "side": 1,
+      "message": "In het Engels staat:\n\nChoose High / Death Ray\n\nWas het niet zo dat je via de statusbalk niet het felle licht kon gebruiken? Misschien dat dit dat wel doet? Ik vind dat een mooie, maar helaas misschien (?) geen correcte vertaling.",
+      "parentUuid": "AAAAQX//+sw\u003d",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX//+uI\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -416,6 +452,24 @@
       "side": 1,
       "message": "Bij mij heeft ontgrendelslider / vergrendelscherm de voorkeur.",
       "parentUuid": "AAAAQX//+tE\u003d",
+      "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+r8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 736,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:37:51Z",
+      "side": 1,
+      "message": "Hoezo \"vergrendelscherm\"?",
+      "parentUuid": "AAAAQX//+s0\u003d",
       "revId": "c1377f90240a1211b45ca9218734dbd14199af28",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
