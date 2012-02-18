@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX//+q0\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 609,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-02-18T02:04:03Z",
+      "side": 1,
+      "message": "galaxysmtd ondersteunt deze optie niet, dus kan het niet zelf nagaan, maar volgens mij kan je de felheid kiezen, dus dan is \"kies fel licht\" niet correct.",
+      "revId": "310b0c858b538ddab2c3c2f54b755cd4ad168530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
