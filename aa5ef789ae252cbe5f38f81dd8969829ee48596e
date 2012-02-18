@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX//+rs\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:37:41Z",
+      "side": 1,
+      "message": "Moet er niet zo\u0027n speciaal tekentje voor die \"e\" met een trema?",
+      "parentUuid": "AAAAQX//+sI\u003d",
+      "revId": "aa5ef789ae252cbe5f38f81dd8969829ee48596e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX//+sA\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 5
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX//+rk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 609,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:37:41Z",
+      "side": 1,
+      "message": "In het Engels staat:\n\nChoose High / Death Ray\n\nWas het niet zo dat je via de statusbalk niet het felle licht kon gebruiken? Misschien dat dit dat wel doet? Ik vind dat een mooie, maar misschien (?) geen correcte vertaling.",
+      "parentUuid": "AAAAQX//+sA\u003d",
+      "revId": "aa5ef789ae252cbe5f38f81dd8969829ee48596e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX//+r0\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 5
@@ -47,6 +83,24 @@
       "writtenOn": "2012-02-18T01:31:16Z",
       "side": 1,
       "message": "Voor het consequente taalgebruik zou hier dan ook headset moeten staan.",
+      "revId": "aa5ef789ae252cbe5f38f81dd8969829ee48596e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+ro\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 673,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-02-18T01:37:41Z",
+      "side": 1,
+      "message": "Klopt. Was ik vergeten.",
+      "parentUuid": "AAAAQX//+r0\u003d",
       "revId": "aa5ef789ae252cbe5f38f81dd8969829ee48596e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
