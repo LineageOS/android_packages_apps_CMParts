@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX//+Gg\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-02-22T02:16:10Z",
+      "side": 1,
+      "message": "lay-out looks weird with the previous \u0027-\u0027. But is\u0027t right so...\nMaybe \u0027opmaak\u0027 is better?",
+      "revId": "e9f007a95c632e9c36848e31508bf86919c324b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+Gk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 348,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-02-22T02:16:10Z",
+      "side": 1,
+      "message": "This option is for seeking through songs like: \u0027next/previous song\u0027. I would like something like:\n\"Overslagen met volume\" and \"Druk lang op de volumeknoppen om door nummers te bladeren.",
+      "revId": "e9f007a95c632e9c36848e31508bf86919c324b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+GU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 403,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-02-22T02:16:10Z",
+      "side": 1,
+      "message": "Soft-knoppen sounds weird",
+      "revId": "e9f007a95c632e9c36848e31508bf86919c324b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
