@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Generic -->
+    <string name="app_name">CyanogenMod</string>
+
+    <!--  Primary Screen Settings -->
+    <string name="application_settings_title_head">Program</string>
+    <string name="application_settings_title_subhead">Programindstillinger</string>
+    <string name="application_settings_summary_head">Programflytning, installationsplacering</string>
+    <string name="display_settings_title_head">Skærm</string>
+    <string name="display_settings_title_subhead">Skærmindstillinger</string>
+    <string name="display_settings_summary_head">Baggrundsbelysning, animationer, rotation</string>
+    <string name="display_settings_summary_head_nobacklight">Skærmanimationer, rotation</string>
+    <string name="input_settings_title_head">Input</string>
+    <string name="input_settings_title_subhead">Inputindstillinger</string>
+    <string name="input_settings_summary_head">Input adfærd, knapper, vibrations feedback</string>
+    <string name="interface_settings_title_head">Brugerflade</string>
+    <string name="interface_settings_summary_head">Brugerfladetilpasninger, overrulning, renderingseffekt</string>
+    <string name="lockscreen_settings_title_head">Skærmlås</string>
+    <string name="lockscreen_settings_title_subhead">Skærmlåsindstillinger</string>
+    <string name="lockscreen_settings_summary_head">Skærmlåsbevægelser, udseende, låse muligheder</string>
+    <string name="performance_settings_title_head">Ydeevne</string>
+    <string name="performance_settings_title_subhead">Ydeevneindstillinger</string>
+    <string name="performance_settings_summary_head">Ydeevnetilpasninger, JIT, VM heap størrelse</string>
+    <string name="sound_settings_title_head">Lyd</string>
+    <string name="sound_settings_title_subhead">Lydindstillinger</string>
+    <string name="sound_settings_summary_head">Lydstyrke, lydfokus, stille timer</string>
+    <string name="system_settings_title_head">System</string>
+    <string name="system_settings_title_subhead">Systemindstillinger</string>
+    <string name="system_settings_summary_head">System ændringslog, statistik, opdateringsmeddelelser</string>
+
+    <!--  Update Notifications -->
+    <string name="updatenotify_title">Opdateringsmeddelelser</string>
+    <string name="updatenotify_summary">Modtag push-meddelelser for opdateringer</string>
+
+    <!-- User interface -->
+    <string name="ui_title">Brugerflade</string>
+
+    <string name="pref_electron_beam_animation_on">Tænd-skærm animation</string>
+    <string name="pref_electron_beam_animation_off">Sluk-skærm animation</string>
+
+    <!-- User interface: Tablet tweaks -->
+    <string name="tablet_tweaks_title_head">Tablet tilpasninger</string>
+    <string name="tablet_tweaks_summary_head">Indstillinger mest nyttige for tablet udstyr indsamlet på et sted. Virker også for telefoner</string>
+    <string name="tablet_tweaks_sb_bottom_title">Nederste statusbjælke</string>
+    <string name="tablet_tweaks_sb_bottom_summary">Vis statuslinje i bunden. Nyttigt for tablets, som anvender funktionstaster til Hjem, Menu, osv. på statuslinjen</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">Død zone</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">Tilføj en død zone med en halv skærm bredde til midten af statuslinjen</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">Soft-knapper venstre</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">Placer soft-knapper på venstre side af statuslinjen</string>
+    <string name="tablet_tweaks_soft_button_list_title">Vælg soft-knapper</string>
+    <string name="tablet_tweaks_interface_head">Brugerflade</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">Deaktiver skærmlås</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">Når den er aktiveret, vises låse- eller mønsterskærmen ikke. Hverken ved opstart eller når enheden vågner</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">Deaktiver fuld skærm</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">Tilsidesæt fuldskærms anmodning fra applikationer. Når den er aktiveret, er statuslinjen altid synlig indtil den skjules af knappen</string>
+    <string name="tablet_tweaks_unhide_button_list_head">Vis-knap</string>
+    <string name="tablet_tweaks_unhide_button_list_title">Vælg vis-knap</string>
+    <string name="tablet_tweaks_extend_pm_title">Udvidet strømmenu</string>
+    <string name="tablet_tweaks_extend_pm_summary">Tilføj Hjem/Tilbage/Menu handlinger til strømmenuen</string>
+    <string name="tablet_tweaks_extend_pm_list_title">Vælg strømmenu knapper</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">Omvendt lydstyrke adfærd</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Lydstyrke knapper opfører sig normalt. Tryk for at tilpasse lydstyrken, langt tryk for brugerhandling</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Lydstyrke knapper opfører sig omvendt. Tryk for brugerhandling, langt tryk for at tilpasse lydstyrken</string>
+
+    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <string name="tablet_tweaks_input_head">Ændre lydstyrke knapper</string>
+    <string name="tablet_tweaks_long_volp_action_title">Langt tryk på lydstyrke op</string>
+    <string name="tablet_tweaks_long_volp_action_summary">Tildel handling for Hjem/Tilbage/Menu/osv. ved langt tryk på lydstyrke op. Gælder kun når skærmen er tændt</string>
+    <string name="tablet_tweaks_long_volm_action_title">Langt tryk på lydstyrke ned</string>
+    <string name="tablet_tweaks_vol_both_action_title">Begge lydstyrke knapper</string>
+    <string name="tablet_tweaks_vol_both_action_summary">OBS: Nogle enheder har en nulstil-funktion, når begge lydstyrke knapper holdes nede med afbryderknappen</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">Langt tryk på begge lydstyrke knapper</string>
+
+    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <string name="tablet_tweaks_extend_pm_list_head">Knapper i strømmenu</string>
+
+    <!-- User interface: Tablet tweaks -> soft buttons -->
+    <string name="tablet_tweaks_soft_buttons_list_head">Funktionstaster</string>
+    <string name="tablet_soft_buttons_home_title">Hjem</string>
+    <string name="tablet_soft_buttons_menu_title">Menu</string>
+    <string name="tablet_soft_buttons_back_title">Tilbage</string>
+    <string name="tablet_soft_buttons_search_title">Søg</string>
+    <string name="tablet_soft_buttons_quick_na_title">Hurtigmeddelelser</string>
+
+    <!-- User interface : Rotation -->
+    <string name="rotation_category_title">Accelerometer rotation</string>
+    <string name="pref_rotation_0_title">0 grader</string>
+    <string name="pref_rotation_90_title">90 grader</string>
+    <string name="pref_rotation_180_title">180 grader</string>
+    <string name="pref_rotation_270_title">270 grader</string>
+
+    <!-- User interface: Status bar tweaks -->
+    <string name="ui_status_bar_title">Tilpasninger for statuslinjen</string>
+    <string name="ui_status_bar_am_pm_title">AM/PM udseende</string>
+    <string name="ui_status_bar_am_pm_summary">Visning af AM/PM ved siden af ur</string>
+    <string name="ui_status_bar_clock_title">Vis ur</string>
+    <string name="ui_status_bar_clock_summary">Uret på statuslinjen skjules hvis deaktiveret</string>
+    <string name="ui_status_bar_battery_title">Udseende for batteri status</string>
+    <string name="ui_status_bar_battery_summary">Visning af batteri status</string>
+    <string name="ui_status_bar_compact_carrier_title">Kompakt operatøretiket</string>
+    <string name="ui_status_bar_compact_carrier_summary">Anvend et alternativt layout for visning af kompakt operatøretiket</string>
+    <string name="ui_status_bar_carrier_label_title">Operatøretiket</string>
+    <string name="ui_status_bar_carrier_label_summary">Skift hvad der skal bruges som operatøretiket</string>
+    <string name="ui_status_bar_carrier_label_use_default">Standard</string>
+    <string name="ui_status_bar_carrier_label_use_spn">Vis SPN</string>
+    <string name="ui_status_bar_carrier_label_use_plmn">Vis PLMN</string>
+    <string name="ui_status_bar_carrier_label_use_custom">Brugerdefinerede tekst</string>
+    <string name="ui_status_bar_carrier_label_custom_title">Brugerdefinerede operatøretiket</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">Anvend tekst i stedet for operatørens etiket</string>
+    <string name="ui_status_bar_toggle_brightness">Lysstyrke for statuslinje</string>
+    <string name="ui_status_bar_toggle_brightness_summary">Tillader at tilpasse lysstyrken ved at glide hen over statuslinjen</string>
+    <string name="ui_status_bar_toggle_info">Automatisk lysstyrke er aktiveret</string>
+    <string name="ui_status_bar_cm_signal_text_title">Alternativ visning af signalstyrke</string>
+    <string name="ui_status_bar_cm_signal_text_summary">Vis dBm værdi i stedet for signal søjler</string>
+    <string name="ui_status_bar_cm_signal_text_show_bars">Signal søjler</string>
+    <string name="ui_status_bar_cm_signal_text_show_text">Signal tekst</string>
+    <string name="ui_status_bar_cm_signal_text_show_text_dbm">Signal tekst med dBm</string>
+    <string name="ui_status_bar_headset_title">Vis ikon for hovedtelefoner</string>
+    <string name="ui_status_bar_headset_summary">Ikon for hovedtelefoner vises når høretelefonerne er tilsluttet</string>
+
+    <!-- User interface : LED Notifications -->
+    <string name="trackball_title">LED notifikationer</string>
+    <string name="trackball_summary">Tilpas farver og impuls for styrekugle/LED notifikationer</string>
+
+    <!-- User interface : WebView -->
+    <string name="pref_pinch_reflow_title">Regenerer efter zoom</string>
+    <string name="pref_pinch_reflow_summary">Regenerer internet indhold umiddelbart efter zoom</string>
+
+    <!-- User interface : Share menu for screenshots -->
+    <string name="pref_share_screenshot_title">Del screenshots</string>
+    <string name="pref_share_screenshot_summary">Vis delemenuen efter et screenshot er taget</string>
+
+    <!-- User interface : Overscroll -->
+    <string name="ui_overscroll_title">Overrulning</string>
+    <string name="pref_overscroll_title">Overrulningseffekt</string>
+    <string name="pref_overscroll_summary">Vælg hvordan rullebare objekter ser ud når de ruller over</string>
+    <string name="pref_overscroll_weight_title">Overrulningsvidde</string>
+    <string name="pref_overscroll_weight_summary">Vælg vidden på de rullebare objekter</string>
+
+    <!-- User interface : Lock Screen -->
+    <string name="pref_lockscreen_delay_title">Forsinkelse</string>
+    <string name="pref_lockscreen_security_title">Sikkerhedslås</string>
+    <string name="pref_lockscreen_security_delay_note_title">Bemærk</string>
+    <string name="pref_lockscreen_security_delay_note_summary">Når sikkerheden for skærmlåsen er sat til INGEN, anvendes kun forsinkelsesindstillingen for sikkerhedslåsen</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay">Skærmens tidsgrænse</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay">Skærmens sluk forsinkelse</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay_summary">Hvor lang tids forsinkelse før aktivering af skærmens sikkerhedslås, når skærmens tidsgrænse er nået</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay_summary">Hvor lang tids forsinkelse før aktivering af skærmens sikkerhedslås, når skærmen slukker</string>
+    <string name="pref_lockscreen_slide_title">Glidelås</string>
+    <string name="pref_lockscreen_slide_delay_note_title">Bemærk</string>
+    <string name="pref_lockscreen_slide_delay_note_summary">Selv hvis aktiveret vil den usikrere glidelås kun vises hvis sikkerhedslåsens forsinkelse er længere end glidelås forsinkelsen</string>
+    <string name="pref_lockscreen_slide_delay_title">Aktiver glidelås forsinkelse</string>
+    <string name="pref_lockscreen_slide_delay_summary">Viser glidelåsen på en separat forsinkelse før der vises sikkerhedslås</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay">Skærmdvale forsinkelse</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay">Sluk skærm forsinkelse</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay_summary">Hvor lang tids forsinkelse før aktivering af skærmens glidelås når skærmen går i dvale</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay_summary">Hvor lang tids forsinkelse før aktivering af skærmens glidelås når skærmen slukker</string>
+
+    <!-- Color Picker -->
+    <string name="title_color_picker">Vælg en farve</string>
+    <string name="msg_color_picker">Tryk på den midterste farve for at bekræfte.\nTryk på knappen Tilbage for at annullere</string>
+
+    <!-- User interface: LED notifications -->
+    <string name="group_settings">Indstillinger</string>
+    <string name="dialog_color_trackball">Vælg en farve</string>
+    <string name="dialog_blink_trackball">Vælg en blinkehastighed</string>
+    <string name="color_trackball_flash_title">LED farve</string>
+    <string name="color_trackball_flash_summary">LED blitz farve</string>
+    <string name="color_trackball_custom_title">Brugerdefinerede LED farve</string>
+    <string name="color_trackball_custom_summary">Brugerdefinerede LED blitz farve</string>
+    <string name="color_trackball_blink_title">Blinkehastighed</string>
+    <string name="color_trackball_blink_summary">Blinkehastighed på LED blitzen</string>
+    <string name="color_trackball_test_title">LED blitz test</string>
+    <string name="color_trackball_test_summary">Test LED blitzen</string>
+    <string name="dialog_clear_flash">Ryd LED blitz</string>
+    <string name="trackball_advanced_title">Avanceret</string>
+    <string name="pref_trackball_screen_title">Altid pulserende</string>
+    <string name="pref_trackball_screen_summary">LED vil pulsere når skærmen er tændt</string>
+    <string name="pref_trackball_blend_title">Sammensmelt notifikationer</string>
+    <string name="pref_trackball_blend_summary">Sammensmelt notifikationsfarver. Tilsidesætter rækkefølge</string>
+    <string name="pref_trackball_sucess_title">Rækkefølge</string>
+    <string name="pref_trackball_sucess_summary">Notifikationer pulserer i rækkefølge</string>
+    <string name="pref_trackball_random_title">Tilfældige farver</string>
+    <string name="pref_trackball_random_summary">LED blitzen pulserer i tilfældige farver for alle notifikationer</string>
+    <string name="pref_trackball_order_title">Pulsere i rækkefølge</string>
+    <string name="pref_trackball_order_summary">LED blitzen pulserer i rækkefølge</string>
+    <string name="pref_trackball_reset_title">Nulstil</string>
+    <string name="pref_trackball_reset_summary">Nulstil alle farver og applikationer</string>
+    <string name="dialog_trackball_loading">Indlæser\u2026</string>
+    <string name="dialog_trackball_packagelist">Indlæser pakkelisten</string>
+    <string name="trackball_category_dialog_text">Angiv en ny kategori</string>
+    <string name="trackball_category_list_title">Kategori</string>
+    <string name="trackball_category_list_summary">Vælg en kategori</string>
+    <string name="trackball_category_screen">Administrer kategorier</string>
+    <string name="trackball_category_add_title">Tilføj kategori</string>
+    <string name="trackball_category_add_summary">Tilføjer en kategori til listen</string>
+    <string name="trackball_category_add_error_title">FEJL</string>
+    <string name="trackball_category_add_error_summary">Navnet på kategorien må ikke indeholde \'=\'</string>
+    <string name="trackball_category_remove_title">Fjern kategori</string>
+    <string name="trackball_category_remove_summary">Fjerner en kategori fra listen</string>
+    <string name="trackball_category_edit_title">Rediger kategoriindstillinger</string>
+    <string name="trackball_category_edit_summary">Rediger standardindstillinger for denne kategori</string>
+    <string name="trackball_reset_all">Nulstil alle farver og kategorier</string>
+    <string name="trackball_color_notice_title">BEMÆRK:</string>
+    <string name="trackball_color_notice_summary">Nogle farver vil ikke blive vist på alle enheder</string>
+    <string name="trackball_category_unconfigured">Ikke konfigureret</string>
+    <string name="trackball_category_misc">Diverse</string>
+    <string name="trackball_app_save_title">Gem</string>
+    <string name="trackball_app_save_summary">Gem indstillinger for denne applikation</string>
+    <string name="trackball_app_reset_title">Nulstil</string>
+    <string name="trackball_app_reset_summary">Fjern brugerdefinerede indstillinger for denne applikation</string>
+
+    <string name="trackball_force_mode_title">LED tilstand</string>
+    <string name="trackball_force_mode_dialog">Vælg en tilstand</string>
+    <string name="trackball_force_mode_summary">Konfigurer hvordan LED skal opføre sig</string>
+
+    <string name="trackball_app_email">E-mail</string>
+    <string name="trackball_app_mms">Beskeder</string>
+    <string name="trackball_app_gvoice">Google Voice</string>
+    <string name="trackball_app_gmail">Gmail</string>
+    <string name="trackball_app_gtalk">GTalk</string>
+    <string name="trackball_app_twitter">Twitter</string>
+    <string name="trackball_app_twicca">Twicca</string>
+    <!-- Say Missed Call instead of "Dialer" as the notification is for the missed call -->
+    <string name="trackball_app_dialer">Ubesvarede opkald</string>
+
+    <!-- Trackball color entries -->
+    <string name="trackball_color_entry_use_app">Anvend programindstillinger</string>
+    <string name="trackball_color_entry_green">Grøn</string>
+    <string name="trackball_color_entry_white">Hvid</string>
+    <string name="trackball_color_entry_red">Rød</string>
+    <string name="trackball_color_entry_blue">Blå</string>
+    <string name="trackball_color_entry_yellow">Gul</string>
+    <string name="trackball_color_entry_cyan">Cyan</string>
+    <string name="trackball_color_entry_magenta">Magenta</string>
+    <string name="trackball_color_entry_pink">Pink</string>
+    <string name="trackball_color_entry_orange">Orange</string>
+    <string name="trackball_color_entry_light_blue">Lyseblå</string>
+    <string name="trackball_color_entry_random">Tilfældig</string>
+    <string name="trackball_color_entry_amber">Rav-farve</string>
+
+    <!-- Trackball Settings : Force modes -->
+    <string name="trackball_force_mode_category">Anvend kategoriindstillinger</string>
+    <string name="trackball_force_mode_application">Anvend programindstillinger</string>
+    <string name="trackball_force_mode_off">Sluk LED</string>
+    <string name="trackball_force_mode_events">Tænd LED ved hændelser</string>
+    <string name="trackball_force_mode_on">Tænd LED</string>
+
+    <!-- Trackball Settings : Warning dialog -->
+    <string name="notification_battery_warning_title">ADVARSEL: Kan forårsage øget batteriforbrug</string>
+    <string name="notification_battery_warning">Denne indstilling har vist et øget batteriforbrug på ca. 3% pr. time. Hvis du oplever en forøgelse af batteriforbruget mens LED blitzen pulserer, så er dette årsagen. Aktiver ikke hvis du ikke ønsker at øge batteriforbruget</string>
+
+    <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_disable_on_security_title">Deaktiver skærmlås ved sikkerhedslås</string>
+    <string name="pref_lockscreen_disable_on_security_summary">Deaktivere skærmlåsen hvis sikkerhedslåsen for skærmen (mønster, PIN, kodeord) er aktiveret</string>
+    <string name="pref_lockscreen_stylecfg_title">Udseende</string>
+    <string name="pref_lockscreen_stylecfg_summary">Indstil udseende for skærmlås og tilsvarende indstillinger</string>
+    <string name="pref_lockscreen_widgets_title">Widget indstillinger</string>
+    <string name="pref_lockscreen_widgets_summary">Aktiver eller deaktiver forskellige widgets på skærmlåsen</string>
+    <string name="pref_lockscreen_unlock_title">Låseindstillinger</string>
+    <string name="pref_lockscreen_unlock_summary">Indstil knap-oplåsning og hurtig-oplåsning</string>
+    <string name="pref_lockscreen_gesture_title">Skærmlåsbevægelser</string>
+    <string name="pref_lockscreen_gesture_summary">Aktiver og indstil bevægelser på skærmlåsen for at styre brugerdefinerede adfærd</string>
+    <string name="pref_lockscreen_timeout_title">Forsinkelse og tidsgrænse</string>
+    <string name="pref_lockscreen_timeout_summary">Indstil forsinkelsen for skærmens tidsgrænse og slukning</string>
+
+    <!-- Lockscreen Settings -->
+    <string name="pref_lockscreen_always_battery_title">Vis altid batteristatus</string>
+    <string name="pref_lockscreen_always_battery_summary">Viser altid batteristatus på låseskærmen</string>
+    <string name="pref_lockscreen_widgets_layout_title">Widget layout</string>
+    <string name="pref_lockscreen_widgets_layout_summary">Skift layout mellem ur, dato, operatør og status</string>
+    <string name="pref_lockscreen_widget_layout_entry_default">Standard</string>
+    <string name="pref_lockscreen_widget_layout_entry_hidden">Skjult</string>
+    <string name="pref_lockscreen_widget_layout_entry_centered">Centreret</string>
+    <string name="pref_lockscreen_widget_layout_entry_right">Højre</string>
+    <string name="pref_lockscreen_music_controls_title">Musikstyring på skærmlåsen</string>
+    <string name="pref_lockscreen_music_controls_summary">Vis musikstyring på skærmlåsen</string>
+    <string name="pref_lockscreen_now_playing_title">Vis sangtitel</string>
+    <string name="pref_lockscreen_now_playing_summary">Viser titel og kunster på den sang der afspilles</string>
+    <string name="pref_lockscreen_album_art_title">Vis albumcover</string>
+    <string name="pref_lockscreen_album_art_summary">Viser albumcover på den sang der afspilles. Virker kun med den indbyggede afspiller i stående tilstand</string>
+    <string name="pref_lockscreen_music_headset_title">Vis musikstyring med hovedtelefoner</string>
+    <string name="pref_lockscreen_music_headset_summary">Viser musikstyring når trådet og/eller Bluetooth hovedtelefoner er tilsluttet</string>
+    <string name="pref_lockscreen_always_music_controls_title">Vis altid musikstyring</string>
+    <string name="pref_lockscreen_always_music_controls_summary">Viser altid musikstyring uanset om der afspilles musik</string>
+    <string name="pref_trackball_wake_title">Vækning med styrekuglen</string>
+    <string name="pref_trackball_wake_summary">Tryk på styrekuglen vækker enheden</string>
+    <string name="pref_volume_wake_title">Vækning med lydstyrkeknap</string>
+    <string name="pref_volume_wake_summary">Tryk på lydstyrkeknappen vækker enheden. Tiltænkt for enheder hvor det er svært at trykke på tænd/sluk-knappen</string>
+    <string name="pref_trackball_unlock_title">Lås op med styrekuglen</string>
+    <string name="pref_trackball_unlock_summary">Tryk på styrekuglen låser enheden op</string>
+    <string name="pref_slider_unlock_title">Lås op med skydetastatur</string>
+    <string name="pref_slider_unlock_summary">Låser enheden op med skydetastaturet</string>
+    <string name="pref_menu_unlock_title">Lås op med knappen Menu</string>
+    <string name="pref_menu_unlock_summary">Låser enheden op ved tryk på knappen Menu</string>
+    <string name="pref_lockscreen_quick_unlock_control_title">Hurtig lås op</string>
+    <string name="pref_lockscreen_quick_unlock_control_summary">Der skal ikke trykkes OK efter indtastning af PIN eller kodeord. Knappen Tilbage regnes som et mislykket forsøg</string>
+    <string name="lockscreen_style_options_title">Stilspecifikke indstillinger</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">Brugerdefinerede programstarter</string>
+    <string name="pref_lockscreen_custom_app_toggle_tab_summary">Viser et andet sæt af skydeknapper til at starte et brugerdefinerede program</string>
+    <string name="pref_lockscreen_custom_app_toggle_rotary_summary">Viser en brugerdefinerede programfordybning til at starte et brugerdefinerede program</string>
+    <string name="pref_lockscreen_custom_app_toggle_ring_summary">Viser en tredje ring til at starte op til fire brugerdefinerede programmer</string>
+    <string name="pref_lockscreen_custom_app_activity_title">Brugerdefinerede program</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">Vælg genvej der skal tilkobles</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">Vælg genvej der skal frakobles</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_cancel">Annuller</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_add">Tilføj</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_remove">Fjern</string>
+    <string name="pref_lockscreen_ring_custom_apps_notset">Ikke indstillet</string>
+    <string name="pref_lockscreen_ring_unlock_middle_title">Lås op med midterste ring</string>
+    <string name="pref_lockscreen_ring_unlock_middle_summary">Byt plads på lås op og program ring</string>
+    <string name="pref_lockscreen_ring_minimal_title">Minimalistisk ring udseende</string>
+    <string name="pref_lockscreen_ring_minimal_summary">En ring i midten der låser op</string>
+    <string name="pref_lockscreen_custom_background_title">Vælg baggrund</string>
+    <string name="pref_lockscreen_custom_background_dialog_title">Vælg en baggrund</string>
+    <string name="pref_lockscreen_custom_background_summary">Vælg billede eller farve som skærmlås baggrund</string>
+    <string name="pref_lockscreen_custom_background_summary_color">Nuværende: Farve</string>
+    <string name="pref_lockscreen_custom_background_summary_image">Nuværende: Billede</string>
+    <string name="pref_lockscreen_custom_background_summary_default">Nuværende: Standard</string>
+    <string name="pref_lockscreen_background_result_successful">Baggrund ændret</string>
+    <string name="pref_lockscreen_background_result_not_successful">Baggrund ikke ændret</string>
+    <string name="pref_lockscreen_custom_icon_style_title">Anvend program ikon for brugerdefinerede programmer</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">Anvender programmets ikon i stedet for CM ikon for brugerdefinerede programstarter</string>
+    <string name="pref_lockscreen_rotary_unlock_down_title">Træk ned for at låse op</string>
+    <string name="pref_lockscreen_rotary_unlock_down_summary">Træk rotationshjulet ned for at låse op. Træk til højre for at starte brugerdefinerede program</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_title">Skjul hjul pile</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_summary">Skjuler retningspilene på rotationshjulet</string>
+    <string name="pref_lockscreen_style_title">Skærmlås udseende</string>
+    <string name="pref_lockscreen_style_summary">Vælg udseende for skærmlåsen</string>
+    <string name="lockscreen_style_entry_tabs">Glidende</string>
+    <string name="lockscreen_style_entry_rotary">Rotationshjul</string>
+    <string name="lockscreen_style_entry_lense">Bjælke</string>
+    <string name="lockscreen_style_entry_ring">Ringe</string>
+    <string name="pref_rotary_style_title">Roterende</string>
+    <string name="pref_rotary_style_summary">Vælg udseende for rotationshjul</string>
+    <string name="rotary_style_entry_normal">Normal</string>
+    <string name="rotary_style_entry_revamped">Forbedret</string>
+    <string name="pref_ringlock_style_title">Ringe</string>
+    <string name="pref_ringlock_style_summary">Vælg udseende for låse ringe</string>
+    <string name="ringlock_style_entry_bubbles">Bobler</string>
+    <string name="ringlock_style_entry_revamped">Forbedret</string>
+    <string name="ringlock_style_entry_holo">Holo</string>
+    <string name="ringlock_style_entry_blade">Klinge</string>
+    <string name="pref_in_call_style_title">Indgående opkald</string>
+    <string name="pref_in_call_style_summary">Vælg udseende for indgående opkald (acceptere/afvise)</string>
+    <string name="incall_style_entry_tabs">Glidende</string>
+    <string name="incall_style_entry_rotary">Roterende</string>
+    <string name="incall_style_entry_ring">Ringe</string>
+    <string name="lockscreen_music_title">Musikstyring</string>
+    <string name="pref_volbtn_music_controls_title">Musikstyring med lydstyrkeknapperne</string>
+    <string name="pref_volbtn_music_controls_summary">Gå til næste/foregående musiknummer ved langt tryk på lydstyrke knapperne mens skærmen er slukket</string>
+    <string name="pref_cambtn_music_controls_title">Musikstyring med kameraknap</string>
+    <string name="pref_cambtn_music_controls_summary">Skift mellem afspil/pause ved langt tryk på kameraknappen mens skærmen er slukket</string>
+    <string name="lockscreen_widgets_note_title">Bemærk</string>
+    <string name="lockscreen_widgets_note_summary">Valg af minimalistisk bjælke skjuler alle widgets undtaget musikstyring. Men nedenstående muligheder er ikke frakoblet, så du nemt kan skifte udseende</string>
+    <string name="lockscreen_calendar_title">Kalender</string>
+    <string name="pref_lockscreen_calendar_alarm_title">Viser næste kalender begivenhed</string>
+    <string name="pref_lockscreen_calendar_alarm_summary">Viser tidspunkt og titel på næste kalender begivenhed</string>
+    <string name="pref_lockscreen_calendars_title">Skærmlåskalender</string>
+    <string name="pref_lockscreen_calendars_summary">Find begivenheder fra disse kalendere</string>
+    <string name="pref_lockscreen_calendar_reminders_only_title">Kun påmindelser</string>
+    <string name="pref_lockscreen_calendar_reminders_only_summary">Find kun begivenheder med påmindelser</string>
+    <string name="pref_lockscreen_calendar_lookahead_title">Fremtidige kalenderbegivenheder</string>
+    <string name="pref_lockscreen_calendar_lookahead_summary">Hvor langt ud i fremtiden skal begivenheder vises</string>
+    <string name="pref_lockscreen_calendar_show_location_title">Vis lokation for begivenhed</string>
+    <string name="pref_lockscreen_calendar_show_location_summary">Viser lokationen for begivenheden under titlen</string>
+    <string name="pref_lockscreen_calendar_show_description_title">Vis begivenhedsbeskrivelsen</string>
+    <string name="pref_lockscreen_calendar_show_description_summary">Viser beskrivelsen for begivenheden under titlen</string>
+
+    <!-- Input Settings -->
+    <string name="input_settings_title">Inputindstillinger</string>
+    <string name="haptic_title">Berøringsvibration</string>
+    <string name="haptic_summary">Tilpas hvornår og hvor stærke vibrationerne skal være</string>
+    <string name="long_press_home_title">Langt tryk på knappen Hjem</string>
+    <string name="long_press_home_summary">Antallet af seneste programmer osv.</string>
+    <string name="input_search_key_title">Knappen Søg</string>
+    <string name="input_search_key_summary">Tilpas brugerdefinerede handlinger for tryk og langt tryk på knappen Søg</string>
+    <string name="pref_input_custom_search_app_toggle_title">Program for knappen Søg</string>
+    <string name="pref_input_custom_search_app_toggle_summary">Starter et brugerdefinerede program ved tryk på knappen Søg</string>
+    <string name="pref_input_custom_search_app_activity_title">Brugerdefinerede program</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">Langt tryk på knappen Søg</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">Starter et brugerdefinerede program ved langt tryk knappen Søg</string>
+    <string name="pref_backtrack_title">BackTrack Minipad</string>
+    <string name="pref_backtrack_summary">Aktiver/deaktiver BackTrack Minipad</string>
+
+    <!-- Long Press Menu -->
+    <string name="long_press_menu_title">Indstillinger for langt-tryk på knappen Menu</string>
+    <string name="long_press_menu_summary">Brugerdefinerede indstillinger for langt-tryk på knappen Menu</string>
+    <string name="pref_user_defined_long_press_menu_title">Vælg brugerdefinerede program</string>
+    <string name="pref_long_press_menu_title">Vælg adfærd</string>
+    <string name="pref_long_press_menu_summary">Tilpas menu for langt tryk</string>
+
+    <!-- Long Press Home -->
+    <string name="recent_apps_show_title">Vis seneste programtitler</string>
+    <string name="recent_apps_num_title">Antallet af seneste programmer</string>
+    <string name="recent_apps_num_summary">Antallet af seneste programmer der skal vises ved langt-tryk på hjem</string>
+    <string name="dialog_recent_apps_num_title">Angiv antallet af seneste programmer</string>
+    <string name="use_custom_app_title">Anvend brugerdefinerede program</string>
+    <string name="use_custom_app_summary">Anvend brugerdefinerede program i stedet for seneste program dialog</string>
+    <string name="select_custom_app_title">Vælg brugerdefinerede program</string>
+    <string name="group_applications">Programmer</string>
+
+    <!-- HapticTweaks -->
+    <string name="title_haptic_feedback">Vibration: Primær</string>
+    <string name="summary_on_haptic_feedback">Anvend berøringsvibrationer ved tryk på funktionstaster og visse brugerfladehandlinger</string>
+    <string name="summary_off_haptic_feedback">Ingen berøringsvibrationer ved tryk på funktionstaster og visse brugerfladehandlinger</string>
+
+    <string name="title_haptic_feedback_up">Vibration: Slip</string>
+    <string name="summary_on_haptic_feedback_up">Anvend berøringsvibrationer når funktionstaster og visse brugerfladehandlinger slippes</string>
+    <string name="summary_off_haptic_feedback_up">Ingen berøringsvibrationer når funktionstaster og visse brugerfladehandlinger slippes</string>
+
+    <string name="title_haptic_feedback_all">Vibration: Skærm</string>
+    <string name="summary_on_haptic_feedback_all">Anvend berøringsvibrationer ved skærmvalg</string>
+    <string name="summary_off_haptic_feedback_all">Ingen berøringsvibrationer ved skærmvalg</string>
+
+    <string name="title_haptic_down_decider">Sekvens: Tryk</string>
+    <string name="title_haptic_up_decider">Sekvens: Slip</string>
+    <string name="title_haptic_long_decider">Sekvens: Langt tryk</string>
+    <string name="title_haptic_tap_decider">Sekvens: Tastatur tryk</string>
+
+    <string name="title_haptic_menu">Vibrationsindstillinger</string>
+    <string name="title_haptic_notice">GENSTART PÅKRÆVET FOR AT ANVENDE ÆNDRINGERNE GLOBALT</string>
+
+    <string name="haptic_delay_desc">ms Slukket</string>
+    <string name="haptic_vibe_desc">ms Tændt</string>
+
+    <string name="haptic_down_description">Tilpasning af vibrationsværdier for knap-tryk\n(Virtuelle knapper og visse brugerfladehandlinger.)</string>
+    <string name="haptic_up_description">Tilpasning af vibrationsværdier for knap-slip\n(Virtuelle knapper og visse brugerfladehandlinger.)</string>
+    <string name="haptic_long_description">Tilpasning af vibrationsværdier for langt-tryk</string>
+    <string name="haptic_tap_description">Tilpasning af vibrationsværdier for tryk på skærmtastaturet</string>
+
+    <string name="haptic_plus_minus_desc">Tryk på Plus eller Minus knapperne for at tilføje eller fjerne trin i sekvensen</string>
+
+    <string name="haptic_button_plus">+</string>
+    <string name="haptic_button_minus">-</string>
+
+    <string name="haptic_button_save">Gem</string>
+    <string name="haptic_button_test">Test</string>
+    <string name="haptic_button_cancel">Annuller</string>
+    <string name="haptic_button_revert">Fortryd ændringer</string>
+    <string name="haptic_button_default">Indlæs standard</string>
+
+    <string name="haptic_save_toast">Gemmer vibrationsværdier: </string>
+    <string name="haptic_cancel_toast">Vibrationsværdier uændret</string>
+    <string name="haptic_revert_toast">Gendanner sidst brugte værdier</string>
+    <string name="haptic_default_toast">Indlæser indkodet standardværdier</string>
+
+    <!-- Performance Settings -->
+    <string name="performance_settings_title">Ydeevne indstillinger</string>
+
+    <!-- Performance Settings : Compcache -->
+    <string name="pref_compcache_title">Compcache RAM anvendelse</string>
+    <string name="pref_compcache_summary">Komprimerer hukommelse for øget virtuel kapacitet (genstart påkrævet)</string>
+
+    <!-- Performance Settings : JIT Mode -->
+    <string name="pref_jit_mode_title">Anvend JIT</string>
+    <string name="pref_jit_mode_summary">Anvender Dalvik just-in-time compiler (genstart påkrævet)</string>
+
+    <!-- Performance Settings : Dithering -->
+    <string name="pref_use_dithering_title">Aktiver dithering</string>
+    <string name="pref_use_dithering_summary">Dithering forbedrer billedkaliteten på bekostning af ydeevnen (genstart påkrævet)</string>
+
+    <!-- Performance Settings : 16bpp Alpha -->
+    <string name="pref_use_16bpp_alpha_title">Anvend 16bit gennemsigtighed</string>
+    <string name="pref_use_16bpp_alpha_summary">Anvendelse af 16bit gennemsigtighed kan forbedre rulleydeevnen, men kan forårsage visuelle fejl (genstart påkrævet)</string>
+
+    <!-- Performance Settings : Scrolling Cache -->
+    <string name="pref_scrollingcache_title">Rullebuffer</string>
+    <string name="pref_scrollingcache_summary">Rullebufferen kan forbedre rulleydeevnen på bekostning af hukommelse</string>
+    <string name="pref_scrollingcache_force_enable">Tving aktiveret</string>
+    <string name="pref_scrollingcache_default_enable">Standard aktiveret</string>
+    <string name="pref_scrollingcache_default_disable">Standard deaktiveret</string>
+    <string name="pref_scrollingcache_force_disable">Tving deaktiveret</string>
+
+    <!-- Performance Settings : Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">Tillad rensning af aktiver</string>
+    <string name="pref_purgeable_assets_summary">Systemet kan frigive mere RAM når det er nødvendigt hvis aktiv bitmap hukommelse kan genvindes (genstart påkrævet)</string>
+
+    <!-- Performance Settings : VM Heap Size -->
+    <string name="pref_heapsize_title">VM heap størrelse</string>
+    <string name="pref_heapsize_summary">Maksimal størrelse på hukommelse pr. VM heap (genstart påkrævet)</string>
+
+    <!-- Performance : Disable bootanimation -->
+    <string name="pref_disable_bootanimation_title">Deaktiver opstarts animation</string>
+    <string name="pref_disable_bootanimation_summary">Vis ikke opstarts animationen for hurtigere opstart</string>
+
+    <!-- Performance : Lock home memory -->
+    <string name="pref_lock_home_title">Lås hjem i hukommelsen</string>
+    <string name="pref_lock_home_summary">Forsøg at fastholde nuværende hjem-program i hukommelsen hele tiden</string>
+
+    <!-- Performance : Lock mms app in memory -->
+    <string name="pref_lock_mms_title">Lås besked program i hukommelsen</string>
+    <string name="pref_lock_mms_summary">Undgå mistede beskeder ved lav hukommelses situationer</string>
+
+    <!-- Performance Settings : Warning dialog -->
+    <string name="performance_settings_warning_title">ADVARSEL: Drager forude!</string>
+    <string name="performance_settings_warning">Indstillingerne herinde vil ændre ydeevnen på systemet, muligvis til det værre. De er medtaget for at eksperimentere, og vi anmoder om, at du ikke indsender fejlrapporter, hvis du har ændret nogen af standardindstillingerne</string>
+
+    <!-- Application Settings -->
+    <string name="application_settings_title">Programindstillinger</string>
+
+    <!-- Application Settings : Switch storage mountpoints -->
+    <string name="pref_switch_storage_title">Anvend internt lager</string>
+    <string name="pref_switch_storage_summary_on">Anvender udvidet intern lagerplads til programmer og medier (kræver genstart)</string>
+    <string name="pref_switch_storage_summary_off">Anvender aftagelige kort til programmer og medier (kræver genstart)</string>
+    <string name="pref_storage_switch_unavailable">Denne enhed har ikke udvidet intern lagerplads</string>
+
+    <!-- Application Settings : Move any app -->
+    <string name="pref_move_all_apps_title">Tillad flytning af programmer</string>
+    <string name="pref_move_all_apps_summary">Tillader flytning af alle programmer til ekstern lagerplads</string>
+
+    <!-- Application Settings : Install Location -->
+    <string name="pref_install_location_title">Installationsplacering</string>
+    <string name="pref_install_location_summary">Vælg hvor nye programmer skal installeres</string>
+
+    <string name="general_title">Generelt</string>
+    <string name="camera_title">Kamera</string>
+    <string name="buttons_title">Knapper</string>
+
+    <!-- UI Settings : Power off prompt -->
+    <string name="pref_power_prompt_title">Bekræft lukning</string>
+    <string name="pref_power_prompt_summary">Ændrer om der skal vises en bekræftelse efter valg af sluk eller genstart</string>
+
+    <!-- UI Settings : Haptic feedback -->
+    <string name="expanded_haptic_feedback_title">Vibration</string>
+    <string name="expanded_haptic_feedback_summary">Aktiver/deaktiver berøringsvibration</string>
+
+    <!-- UI Settings : Render effect -->
+    <string name="pref_render_effect_title">Renderingseffekter</string>
+    <string name="pref_render_effect_summary">Ændrer hvilke farver der bruges til at tegne skærmen (potentielle batteri besparelser)</string>
+
+    <string name="widget_name">RenderFX Widget</string>
+    <string name="renderfx_temp">RenderFX</string>
+    <string name="pref_widget_options_category_title">Generelle indstillinger</string>
+    <string name="prefs_render_effect">Renderingseffekt</string>
+    <string name="notify_render_effect">Renderingseffekt tændt</string>
+    <string name="add_widget">Tilføj widget</string>
+    <string name="pref_render_effect_none">Ingen renderingseffekt</string>
+    <string name="pref_render_effect_night">Nat tilstand (3700K)</string>
+    <string name="pref_render_effect_green">Terminal (grøn)</string>
+    <string name="pref_render_effect_blue">Blå</string>
+    <string name="pref_render_effect_amber">Rav</string>
+    <string name="pref_render_effect_salmon">Laks</string>
+    <string name="pref_render_effect_fuscia">Lilla</string>
+    <string name="pref_render_effect_calibrated">Kalibreret (N1)</string>
+    <string name="pref_render_effect_calibrated_red">Kalibreret (N1) Lav rød</string>
+    <string name="pref_render_effect_calibrated_cool">Kalibreret (N1) Kold</string>
+    <string name="pref_render_effect_red">Rød</string>
+
+    <!-- Widget Types -->
+    <string name="widget_render_effect_night">Nat</string>
+    <string name="widget_render_effect_terminal">Term</string>
+    <string name="widget_render_effect_blue">Blå</string>
+    <string name="widget_render_effect_amber">Rav</string>
+    <string name="widget_render_effect_salmon">Laks</string>
+    <string name="widget_render_effect_fuscia">Lilla</string>
+    <string name="widget_render_effect_red">Rød</string>
+    <string name="widget_render_effect_calibrated">Kalibr</string>
+    <string name="widget_render_effect_calibrated_red">Kalibr Lav Rød</string>
+    <string name="widget_render_effect_calibrated_cool">Kalibr Kold</string>
+
+    <!-- Expanded View Power Widget -->
+    <string name="title_widget_buttons">Udvidet visningswidget</string>
+    <string name="title_expanded_widget">Strømadviseringswidget</string>
+    <string name="summary_expanded_widget">Anvend den udvidet strømadviseringswidget</string>
+    <string name="title_expanded_hide_onchange">Skjul ved ændring</string>
+    <string name="summary_expanded_hide_onchange">Skjuler meddelelsesrullemenuen efter tryk</string>
+    <string name="title_expanded_hide_indicator">Skjul indikator</string>
+    <string name="summary_expanded_hide_indicator">Skjuler widget indikatoren</string>
+    <string name="title_expanded_hide_scrollbar">Skjul rullepanel</string>
+    <string name="summary_expanded_hide_scrollbar">Skjul rullepanel når mere end det maksimale antal widget knapper er til stede</string>
+    <string name="expanded_color_mask">Indikator farve</string>
+    <string name="title_widget_picker">Widget knapper</string>
+    <string name="summary_widget_picker">Vælg dine widget knapper</string>
+    <string name="title_widget_order">Widget knap rækkefølge</string>
+    <string name="summary_widget_order">Sorter widget knapper</string>
+    <string name="title_buttons">Knapper</string>
+    <string name="title_toggle_wifi">Wifi</string>
+    <string name="title_toggle_bluetooth">Bluetooth</string>
+    <string name="title_toggle_gps">GPS</string>
+    <string name="title_toggle_sound">Lyd</string>
+    <string name="title_toggle_brightness">Lysstyrke</string>
+    <string name="title_toggle_sync">Synkronisering</string>
+    <string name="title_toggle_wifiap">Wifi-Hotspot</string>
+    <string name="title_toggle_screentimeout">Timeout for skærm</string>
+    <string name="title_toggle_mobiledata">Mobildata</string>
+    <string name="title_toggle_lockscreen">Skærmlås</string>
+    <string name="title_toggle_networkmode">2G/3G</string>
+    <string name="title_toggle_autorotate">Retning</string>
+    <string name="title_toggle_airplane">Flytilstand</string>
+    <string name="title_toggle_flashlight">Lommelygte</string>
+    <string name="title_toggle_sleep">Sluk for skærm</string>
+    <string name="title_toggle_media_play_pause">Medier: Afspil/Pause</string>
+    <string name="title_toggle_media_previous">Medier: Gå til forrige</string>
+    <string name="title_toggle_media_next">Medier: Gå til næste</string>
+    <string name="title_toggle_wimax">WiMAX</string>
+    <string name="title_button_modes">Knapfunktioner</string>
+    <string name="pref_brightness_mode_title">Lysstyrketilstande</string>
+    <string name="pref_brightness_mode_summary">Vælg hvordan lysstyrke-knappen ændrer tilstande</string>
+    <string name="cm_brightness_mode_auto">Auto</string>
+    <string name="cm_brightness_mode_dim">Dæmpet</string>
+    <string name="pref_network_mode_title">Netværkstilstande</string>
+    <string name="pref_network_mode_summary">Vælg hvordan netværks-knappen ændrer tilstande</string>
+    <string name="pref_screentimeout_mode_title">Skærmtimeout</string>
+    <string name="pref_screentimeout_mode_summary">Vælg hvordan skærmtimeout-knappen ændrer tilstande</string>
+    <string name="pref_ring_mode_title">Lydtilstande</string>
+    <string name="pref_ring_mode_summary">Vælg hvordan lyd-knappen ændrer tilstande</string>
+    <string name="cm_sound_mode_silent">Stille</string>
+    <string name="cm_sound_mode_vibrate">Vibrer</string>
+    <string name="cm_sound_mode_sound">Lyd</string>
+    <string name="cm_sound_mode_soundVibrate">Lyd + Vibrer</string>
+    <string name="pref_flash_mode_title">Lommelygte</string>
+    <string name="pref_flash_mode_summary">Vælg lysstyrke for lommelygten</string>
+    <string name="pref_mobiledatanetwork_mode_title">Mobildata 2G/3G</string>
+    <string name="pref_mobiledatanetwork_mode_summary">Mobildata-knappen skifter automatisk mellem 2G/3G tilstand</string>
+
+    <!-- Backlight -->
+    <string name="backlight_title">Automatisk lysstyrke</string>
+    <string name="backlight_summary">Tilpas lysniveauer og filtre</string>
+    <string name="light_filter_title">Filter for lysføler</string>
+    <string name="light_filter_enabled_title">Aktiver</string>
+    <string name="light_filter_enabled_summary">Anvend gennemsnit af flere føler værdier for lysstyrke (undgår flimmer)</string>
+    <string name="light_filter_window_title">Tidsinterval</string>
+    <string name="light_filter_window_summary">Den filtrerede værdi er gennemsnitsværdien i løbet af denne periode</string>
+    <string name="light_filter_reset_title">Grænse</string>
+    <string name="light_filter_reset_summary">Prøver der afviger så meget fra nuværende gennemsnit nulstiller filteret</string>
+    <string name="light_filter_interval_title">Prøveinterval</string>
+    <string name="light_filter_interval_summary">Lav værdi kan forbedre nøjagtigheden men bruger noget mere CPU</string>
+    <string name="light_levels_title">Lysstyrkeniveauer</string>
+    <string name="light_levels_enabled_title">Anvend brugerdefinerede</string>
+    <string name="light_levels_dim_title">Skærmdæmpningsniveau</string>
+    <string name="light_levels_dim_summary">Lysstyrke der bruges til at dæmpe skærmen</string>
+    <string name="light_levels_editor_title">Rediger andre niveauer\u2026</string>
+    <string name="light_decrease_enabled_title">Tillad sænkning af lysniveauer</string>
+    <string name="light_decrease_enabled_summary">Aktiver for at tillade sænkning af lysniveauer. Anvend hysterese for at reducere flimmer</string>
+    <string name="light_decrease_hysteresis_title">Reducer hysterese</string>
+    <string name="light_decrease_hysteresis_summary">Føler niveauer overlapper hinanden så meget nedad</string>
+
+    <!-- Light sensor levels -->
+    <string name="ll_title">Lysfølerniveauer</string>
+    <string name="ll_header_upper">Øvre</string>
+    <string name="ll_header_lower">Nedre</string>
+    <string name="ll_header_lcd">Skærm</string>
+    <string name="ll_header_btn">Knapper</string>
+    <string name="ll_header_kb">Tastatur</string>
+    <string name="ll_lux">Føler (filtreret / rå):</string>
+    <string name="ll_lcd">Skærm:</string>
+    <string name="ll_btn">Knapper:</string>
+    <string name="ll_kb">Tastatur:</string>
+    <string name="ll_disabled">deaktiveret</string>
+    <string name="ll_default">Indlæs standardværdier</string>
+    <string name="ll_save">Gem &amp; anvend</string>
+    <string name="ll_reload">Genindlæs nuværende</string>
+    <string name="ll_bad_levels">Niveauer skal være stigende</string>
+    <string name="ll_num_levels">Angiv antal niveauer</string>
+
+    <!-- Sound -->
+    <string name="sound_notifications_focus_title">Meddelelsesfokus</string>
+    <string name="sound_notifications_focus_summary">Reducerer lydstyrken af andre programmer ved lyden af en meddelelse</string>
+    <string name="sound_volume_control_silent_title">Stille tilstand</string>
+    <string name="sound_volume_control_silent_summary">Tilføj en tilstand for komplet stilhed af lydstyrketasterne</string>
+    <string name="sound_vibrate_in_call_title">Vibrer under opkald</string>
+    <string name="sound_vibrate_in_call_summary_off">Meddelelser vil ikke vibrere under et opkald</string>
+    <string name="sound_vibrate_in_call_summary_on">Meddelelser vil vibrere normalt</string>
+    <string name="sound_lock_volume_keys_title">Lås lydstyrketaster</string>
+    <string name="sound_lock_volume_keys_summary">Forhindrer utilsigtet frakobling af lydløs tilstand ved at trykke på lydstyrketasterne</string>
+    <string name="sound_camera_shutter_disable_title">Lydløst kamera</string>
+    <string name="sound_camera_shutter_disable_summary_on">Lukkelyd vil ikke blive afspillet</string>
+    <string name="sound_camera_shutter_disable_summary_off">Lukkelyd vil blive afspillet</string>
+    <string name="sound_camera_shutter_disable_warning_title">ADVARSEL: Dette kan være ulovligt!</string>
+    <string name="sound_camera_shutter_disable_warning">Deaktivering af kameraets lukkelyd er ulovligt i nogle lande. Er du sikker på du vil deaktivere den?</string>
+    <string name="sound_to_speaker_title">Afspil altid i højttaler</string>
+    <string name="sound_notifications_title">Meddelelser</string>
+    <string name="sound_rings_title">Ringetoner</string>
+    <string name="sound_alarms_title">Alarmer</string>
+    <string name="sound_note_title">Bemærk</string>
+    <string name="sound_note_summary">Indstillingerne nedenfor gælder kun når hovedtelefonerne bruges</string>
+    <string name="sound_attenuation_title">Dæmpning af den indstillede lydstyrke</string>
+    <string name="sound_limitvol_title">Lydstyrke hvis musik afspilles</string>
+    <string name="sound_notifications_attenuation_dialog">Meddelelsesdæmpning</string>
+    <string name="sound_rings_attenuation_dialog">Ringetonedæmpning</string>
+    <string name="sound_alarms_attenuation_dialog">Alarmdæmpning</string>
+    <string name="sound_notifications_limitvol_dialog">Meddelelseslydstyrke</string>
+    <string name="sound_rings_limitvol_dialog">Ringetonelydstyrke</string>
+    <string name="sound_alarms_limitvol_dialog">Alarmlydstyrke</string>
+
+    <!-- Quiet hours -->
+    <string name="sound_category_quiet_hours_title">Stille timer</string>
+    <string name="quiet_hours_note_title">Bemærk</string>
+    <string name="quiet_hours_note_summary">Indgående opkald vil opføre sig som normalt i stille timer</string>
+    <string name="quiet_hours_enabled">Aktiver stille timer</string>
+    <string name="quiet_hours_enabled_on">Stille timer er valgt</string>
+    <string name="quiet_hours_enabled_off">Meddelelser vil opføre sig som normalt</string>
+    <string name="quiet_hours_start">Start af stille timer</string>
+    <string name="quiet_hours_start_summary">Hvornår begynder valg af stille timer</string>
+    <string name="quiet_hours_end">Stop af stille timer</string>
+    <string name="quiet_hours_end_summary">Hvornår stopper valg af stille timer</string>
+    <string name="quiet_hours_mute">Lydløse meddelelser</string>
+    <string name="quiet_hours_mute_on">Ingen lyde vil blive afspillet</string>
+    <string name="quiet_hours_mute_off">Lyde vil spille som normalt</string>
+    <string name="quiet_hours_still">Deaktiver vibrationer</string>
+    <string name="quiet_hours_still_on">Enheden vil ikke vibrere</string>
+    <string name="quiet_hours_still_off">Enheden vil vibrere normalt</string>
+    <string name="quiet_hours_dim">Dæmp LED</string>
+    <string name="quiet_hours_dim_on">LED dæmpes hvis det er muligt</string>
+    <string name="quiet_hours_dim_off">LED er ved fuld lysstyrke</string>
+    <string name="quiet_hours_haptic">Deaktiver berøringsvibration</string>
+    <string name="quiet_hours_haptic_on">Berøringsvibration er deaktiveret</string>
+    <string name="quiet_hours_haptic_off">Berøringsvibration er aktiveret</string>
+
+    <string name="cmstats_title">Anonyme statistikker</string>
+    <string name="cmstats_summary">Hjælp med at forbedre CyanogenMod ved at tilmelde rapportering af anonyme statistikker</string>
+
+    <string name="user_defined_key1">Genvejstast 1</string>
+    <string name="user_defined_key2">Genvejstast 2</string>
+    <string name="user_defined_key3">Genvejstast 3</string>
+    <string name="user_defined_envelope_key">Konvolut knap</string>
+    <string name="user_defined_explorer_key">Explorer knap</string>
+    <string name="user_defined_not_set">Intet indstillet</string>
+
+    <!-- Lockscreen gesture strings -->
+    <string name="pref_lockscreen_gestures_enable_title">Anvend skærmlåsbevægelser</string>
+    <string name="pref_lockscreen_gestures_trail_title">Vis bevægelsesspor</string>
+    <string name="pref_lockscreen_gestures_builder_title">Opret bevægelser</string>
+    <string name="pref_lockscreen_gestures_sensitivity_title">Følsomhed</string>
+    <string name="pref_lockscreen_gestures_color_title">Bevægelsesfarve</string>
+    <string name="gestures_button_add">Tilføj bevægelse</string>
+    <string name="gestures_button_discard">Kasser</string>
+    <string name="gestures_button_done">Færdig</string>
+    <string name="gestures_error_missing_shortcut">Du skal vælge en handling til denne bevægelse!</string>
+    <string name="gestures_loading">Indlæser bevægelser\u2026</string>
+    <string name="gestures_empty">Ingen bevægelser</string>
+    <string name="gestures_delete">Slet</string>
+    <string name="gestures_delete_success">Bevægelse slettet</string>
+    <string name="gestures_error_loading">Problem med fil operation for bevægelser</string>
+    <string name="gestures_unlock_only">Lås telefonen op</string>
+    <string name="gestures_toggle_sound">Skift mellem lyd</string>
+    <string name="gestures_shortcut_or_activity">Genvej eller aktivitet</string>
+    <string name="gestures_flashlight">Lommelygte</string>
+    <string name="gestures_next">Næste sang</string>
+    <string name="gestures_previous">Forrige sang</string>
+    <string name="gestures_playpause">Afspil/Pause</string>
+    <string name="pref_lockscreen_disable_unlock_tab">Deaktiver låseskyderen</string>
+    <string name="pref_lockscreen_disable_unlock_tab_summary">Bemærk: Du skal aktivere styrekuglen, knappen Menu, eller bevægelseslås før denne mulighed bliver tilgængelig</string>
+    <string name="gestures_action_label">Handling:</string>
+    <string name="gestures_draw_label">Bevægelse:</string>
+    <string name="gestures_draw_for_label">Bevægelse for \"<xliff:g id="action">%s</xliff:g>\":</string>
+    <string name="gestures_already_present">Advarsel: En lignende bevægelse er knyttet til en anden handling!</string>
+    <string name="gestures_run_in_background">Kør i baggrunden</string>
+
+    <!-- Change Log strings -->
+    <string name="changelog_title">Vis ændringsloggen</string>
+    <string name="changelog_dialog">Ændringslog</string>
+    <string name="changelog_loading">Indlæser ændringslog\u2026</string>
+    <string name="changelog_error">Fejl under indlæsning af ændringsloggen\u2026</string>
+    <string name="changelog_unknown">Ukendt</string>
+    <string name="changelog_version">Version</string>
+
+    <!-- Phone goggles -->
+    <string name="category_phone_goggles_period">Periode</string>
+    <string name="category_phone_goggles_confirmation">Bekræftelse</string>
+    <string name="category_phone_goggles_filter">Filtre</string>
+    <string name="title_phone_goggles">Telefon filter</string>
+    <string name="title_phone_goggles_default">Standardindstillinger</string>
+    <string name="title_phone_goggles_apps">Filtrerede programmer</string>
+    <string name="title_phone_goggles_app_enabled">Telefon filter aktiveret</string>
+    <string name="title_phone_goggles_use_custom">Anvend brugerdefinerede indstillinger</string>
+    <string name="title_phone_goggles_filter">Filtrerede numre</string>
+    <string name="title_phone_goggles_enabled">Aktiver telefon filter</string>
+    <string name="title_phone_goggles_start">Start af telefon filter</string>
+    <string name="title_phone_goggles_end">Stop af telefon filter</string>
+    <string name="title_phone_goggles_confirmation_enabled">Anmod om bekræftelse</string>
+    <string name="title_phone_goggles_maths_level">Matematik niveau</string>
+    <string name="title_phone_goggles_work_filtered">Arbejde</string>
+    <string name="title_phone_goggles_mobile_filtered">Mobil</string>
+    <string name="title_phone_goggles_other_filtered">Andet</string>
+    <string name="summary_phone_goggles">Filtrer udgående kommunikation</string>
+    <string name="summary_phone_goggles_default">Indstiller standardindstillingerne</string>
+    <string name="summary_phone_goggles_filter">Vælg den type af telefonnumre du ønsker at filtrere</string>
+    <string name="summary_phone_goggles_start">Hvornår begynder filtrering af udgående opkald</string>
+    <string name="summary_phone_goggles_end">Hvornår slutter filtrering af udgående opkald</string>
+    <string name="summary_phone_goggles_confirmation_enabled">Vælg hvilken måde bekræftelsen bør anmodes om inden filtrering af kommunikationen</string>
+    <string name="summary_phone_goggles_maths_level">Niveauet for de matematiske opgaver stillet før godkendelse af kommunikation</string>
+    <string name="summary_on_phone_goggles_enabled">Udgående kommunikation vil blive filtreret</string>
+    <string name="summary_on_phone_goggles_use_custom">Anvend brugerdefinerede indstillinger</string>
+    <string name="summary_on_phone_goggles_app_enabled">Telefon filter er aktiveret for dette program</string>
+    <string name="summary_on_phone_goggles_work_filtered">Kommunikation for arbejde vil blive filtreret</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">Kommunikation til mobiltelefoner vil blive filtreret</string>
+    <string name="summary_on_phone_goggles_other_filtered">Kommunikation til andre telefoner vil blive filtreret</string>
+    <string name="summary_off_phone_goggles_enabled">Ingen kommunikation vil blive filtreret</string>
+    <string name="summary_off_phone_goggles_use_custom">Anvend standardindstillinger</string>
+    <string name="summary_off_phone_goggles_app_enabled">Telefon filter er deaktiveret for dette program</string>
+    <string name="summary_off_phone_goggles_work_filtered">Kommunikation for arbejde vil ikke blive filtreret</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">Kommunikation til mobiltelefoner vil ikke blive filtreret</string>
+    <string name="summary_off_phone_goggles_other_filtered">Kommunikation til andre telefoner vil ikke blive filtreret</string>
+    <string name="phone_goggles_maths_level_easy">Nemt</string>
+    <string name="phone_goggles_maths_level_medium">Mellem</string>
+    <string name="phone_goggles_maths_level_hard">Svært</string>
+    <string name="phone_goggles_confirmation_none">Ingen</string>
+    <string name="phone_goggles_confirmation_prompt">Bekræft</string>
+    <string name="phone_goggles_confirmation_maths">Matematikopgaver</string>
+
+    <!-- CPU Settings strings -->
+    <string name="cpu_settings_title">CPU indstillinger</string>
+    <string name="cpu_title">CPU indstillinger</string>
+    <string name="cpu_summary">Guvernør- og frekvensindstillinger</string>
+    <string name="cpu_governors_title">Tilgængelige guvernører</string>
+    <string name="cpu_governors_summary">Liste over tilgængelige guvernører\nI øjeblikket er valgt: %S</string>
+    <string name="cpu_min_freq_title">Laveste CPU-frekvens</string>
+    <string name="cpu_min_freq_summary">Laveste CPU-frekvens\nNuværende: %s</string>
+    <string name="cpu_max_freq_title">Højeste CPU-frekvens</string>
+    <string name="cpu_max_freq_summary">Højeste CPU-frekvens\nNuværende: %s</string>
+    <string name="cpu_set_on_boot">Indstil ved opstart</string>
+    <string name="cpu_set_on_boot_summary">Gendan CPU indstillinger ved opstart</string>
+
+    <!-- Permissions Management Settings strings -->
+    <string name="perm_enable_management">Tilladelsesstyring</string>
+    <string name="perm_enable_management_summary">Aktiver tilladelsesstyring for programmer</string>
+    <string name="perm_enable_warning_message">Advarsel!\nOphævelse af de fleste tilladelser vil højest sandsynligt være årsag til programfejl. Hvis et program med ophævet tilladelser går ned bedes du angive de forventede tilladelser eller ikke benytte programmet.\nDu bedes IKKE sende fejlrapporter til CyanogenMod hvis et program med ophævet tilladelser ikke fungerer som forventet!</string>
+    <string name="perm_enable_warning_title">Er du sikker?</string>
+</resources>
