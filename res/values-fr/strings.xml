@@ -529,13 +529,17 @@
     <string name="title_toggle_airplane">Mode avion</string>
     <string name="title_toggle_flashlight">Lampe de poche</string>
     <string name="title_toggle_sleep">Mise en veille</string>
+    <string name="title_toggle_media_play_pause">Média: Lecture/Pause</string>
+    <string name="title_toggle_media_previous">Média: Précédent</string>
+    <string name="title_toggle_media_next">Média: Suivant</string>
+    <string name="title_toggle_wimax">WiMAX</string>
     <string name="title_button_modes">Modes de fonctionnement des boutons</string>
     <string name="pref_brightness_mode_title">Modes de luminosité</string>
     <string name="pref_brightness_mode_summary">Sélection des modes de fonctionnement du bouton Luminosité</string>
     <string name="cm_brightness_mode_auto">Auto</string>
     <string name="cm_brightness_mode_dim">Dim</string>
     <string name="pref_network_mode_title">Modes 2G/3G</string>
-    <string name="pref_network_mode_summary">Choisir comment le bouton 2G/3G se comportera</string>
+    <string name="pref_network_mode_summary">Définir le comportement du bouton 2G/3G</string>
     <string name="pref_screentimeout_mode_title">Modes Timeout de l\'écran</string>
     <string name="pref_screentimeout_mode_summary">Sélection des modes de fonctionnement du bouton Timeout de l\'écran</string>
     <string name="pref_ring_mode_title">Modes Sonnerie</string>
@@ -546,6 +550,8 @@
     <string name="cm_sound_mode_soundVibrate">Son et vibreur</string>
     <string name="pref_flash_mode_title">Mode flash</string>
     <string name="pref_flash_mode_summary">Choisir la puissance du flash : Haute ou Death Ray</string>
+    <string name="pref_mobiledatanetwork_mode_title">Mode auto 2G/3G</string>
+    <string name="pref_mobiledatanetwork_mode_summary">Basculer en 2G lorsque la connexion de données mobiles est désactivée</string>
 
     <!-- Performance : Disable bootanimation -->
     <string name="pref_disable_bootanimation_title">Pas d\'animation de boot</string>
@@ -571,12 +577,12 @@
     <string name="light_filter_reset_summary">Les mesures qui dépassent le seuil désactivent le filtre pour une meilleure réaction en extérieur</string>
     <string name="light_filter_interval_title">Intervalle échantillonage</string>
     <string name="light_filter_interval_summary">Une valeur plus basse améliore la réaction mais utilise plus le CPU</string>
-    <string name="light_levels_title">Niveaux de lumière</string>
-    <string name="light_levels_enabled_title">Utiliser valeur personnalisée</string>
+    <string name="light_levels_title">Niveaux d\'éclairage</string>
+    <string name="light_levels_enabled_title">Valeurs personnalisées</string>
     <string name="light_levels_dim_title">Niveau d\'obscurcissement</string>
     <string name="light_levels_dim_summary">Niveau de luminosité utilisé pour l\'obscurcissement</string>
     <string name="light_levels_editor_title">Éditer les autres niveaux...</string>
-    <string name="light_decrease_enabled_title">Diminution luminosité</string>
+    <string name="light_decrease_enabled_title">Eclairage réduit</string>
     <string name="light_decrease_enabled_summary">Autoriser la réduction de l\'éclairage. Utiliser l\'hystérésis pour réduire le scintillement.</string>
     <string name="light_decrease_hysteresis_title">Diminuer l\'hystérésis</string>
     <string name="light_decrease_hysteresis_summary">Les niveaux de mesures se chevaucheront de tant vers le bas.</string>
