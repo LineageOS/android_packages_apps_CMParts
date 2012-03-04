@@ -535,7 +535,7 @@
     <string name="cm_brightness_mode_auto">Auto</string>
     <string name="cm_brightness_mode_dim">Dim</string>
     <string name="pref_network_mode_title">Modes 2G/3G</string>
-    <string name="pref_network_mode_summary">Choisir comment le bouton 2G/3G se comportera</string>
+    <string name="pref_network_mode_summary">Définir le comportement du bouton 2G/3G</string>
     <string name="pref_screentimeout_mode_title">Modes Timeout de l\'écran</string>
     <string name="pref_screentimeout_mode_summary">Sélection des modes de fonctionnement du bouton Timeout de l\'écran</string>
     <string name="pref_ring_mode_title">Modes Sonnerie</string>
@@ -546,6 +546,8 @@
     <string name="cm_sound_mode_soundVibrate">Son et vibreur</string>
     <string name="pref_flash_mode_title">Mode flash</string>
     <string name="pref_flash_mode_summary">Choisir la puissance du flash : Haute ou Death Ray</string>
+    <string name="pref_mobiledatanetwork_mode_title">Mode auto 2G/3G</string>
+    <string name="pref_mobiledatanetwork_mode_summary">Basculer en 2G lorsque la connexion de données mobiles est désactivée</string>
 
     <!-- Performance : Disable bootanimation -->
     <string name="pref_disable_bootanimation_title">Pas d\'animation de boot</string>
