@@ -14,6 +14,10 @@
             android:title="@string/pref_lockscreen_always_battery_title"
             android:summary="@string/pref_lockscreen_always_battery_summary" />
 
+        <CheckBoxPreference android:key="lockscreen_flashlight"
+            android:title="@string/pref_lockscreen_flashlight_title"
+            android:summary="@string/pref_lockscreen_flashlight_summary" />
+
         <ListPreference android:key="pref_lockscreen_widgets_layout"
             android:dialogTitle="@string/pref_lockscreen_widgets_layout_title"
             android:title="@string/pref_lockscreen_widgets_layout_title"

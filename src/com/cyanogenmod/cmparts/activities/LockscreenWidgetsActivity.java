@@ -44,6 +44,7 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
     private static final String LOCKSCREEN_MUSIC_CONTROLS_HEADSET = "pref_lockscreen_music_headset";
     private static final String LOCKSCREEN_ALWAYS_MUSIC_CONTROLS = "lockscreen_always_music_controls";
     private static final String LOCKSCREEN_ALWAYS_BATTERY = "lockscreen_always_battery";
+    private static final String LOCKSCREEN_LONG_HOME_ACTION = "lockscreen_flashlight";
     private static final String LOCKSCREEN_CALENDARS = "lockscreen_calendars";
     private static final String LOCKSCREEN_CALENDAR_ALARM = "lockscreen_calendar_alarm";
     private static final String LOCKSCREEN_CALENDAR_REMINDERS_ONLY = "lockscreen_calendar_reminders_only";
@@ -57,6 +58,7 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
     private CheckBoxPreference mAlbumArtPref;
     private CheckBoxPreference mAlwaysMusicControlPref;
     private CheckBoxPreference mAlwaysBatteryPref;
+    private CheckBoxPreference mFlashlightPref;
     private CheckBoxPreference mCalendarAlarmPref;
     private CheckBoxPreference mCalendarRemindersOnlyPref;
     private ListPreference mLockscreenMusicHeadsetPref;
@@ -114,6 +116,11 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
         mAlwaysBatteryPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_ALWAYS_BATTERY);
         mAlwaysBatteryPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_ALWAYS_BATTERY, 0) == 1);
+
+        /* Flashlight toggle when long pressing HOME button on lockscreen */
+        mFlashlightPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_LONG_HOME_ACTION);
+        mFlashlightPref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_LONG_HOME_ACTION, 0) == 1);
 
         /* Calendars */
         mCalendarsPref = (MultiSelectListPreference) prefSet.findPreference(LOCKSCREEN_CALENDARS);
@@ -191,6 +198,11 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
         } else if (preference == mAlwaysBatteryPref) {
             value = mAlwaysBatteryPref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_ALWAYS_BATTERY,
+                    value ? 1 : 0);
+            return true;
+        } else if (preference == mFlashlightPref) {
+            value = mFlashlightPref.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_LONG_HOME_ACTION,
                     value ? 1 : 0);
             return true;
         } else if (preference == mCalendarAlarmPref) {
