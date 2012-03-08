@@ -1,5 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<!-- Copyright (C) 2012 The CyanogenMod Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic -->
     <string name="app_name">CyanogenMod</string>
 
@@ -9,7 +23,8 @@
     <string name="application_settings_summary_head">Applicaties verplaatsen, installatielocatie, communicatiefiltering</string>
     <string name="display_settings_title_head">Scherm</string>
     <string name="display_settings_title_subhead">Scherminstellingen</string>
-    <string name="display_settings_summary_head">Schermanimaties, schermrotatie, time-out</string>
+    <string name="display_settings_summary_head">Schermverlichting, -animaties, -rotatie</string>
+    <string name="display_settings_summary_head_nobacklight">Schermanimaties, -rotatie</string>
     <string name="input_settings_title_head">Invoer</string>
     <string name="input_settings_title_subhead">Invoerinstellingen</string>
     <string name="input_settings_summary_head">Invoergedrag, knoppen, haptische feedback</string>
@@ -49,7 +64,7 @@
     <string name="tablet_tweaks_soft_buttons_left_summary">Plaats softwareknoppen aan de linkerkant van de statusbalk.</string>
     <string name="tablet_tweaks_soft_button_list_title">Kies softwareknoppen.</string>
     <string name="tablet_tweaks_interface_head">Interface</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Schakel vergrendelscherm uit</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">Vergrendelscherm uitsch.</string>
     <string name="tablet_tweaks_disable_lockscreen_summary">Indien ingeschakeld wordt het vergrendelscherm niet getoond. Ook niet tijdens het opstarten van het toestel of het aanzetten van het scherm.</string>
     <string name="tablet_tweaks_disable_fullscreen_title">Schakel volledig scherm uit</string>
     <string name="tablet_tweaks_disable_fullscreen_summary">Schakel volledig scherm uit. Statusbalk is altijd zichtbaar, tenzij deze handmatig verborgen wordt met de \'weergeefknop\'.</string>
@@ -110,14 +125,14 @@
     <string name="ui_status_bar_toggle_brightness">Statusbalkhelderheid controle</string>
     <string name="ui_status_bar_toggle_brightness_summary">Sta toe om de helderheid aan te passen door over de statusbalk te schuiven</string>
     <string name="ui_status_bar_toggle_info">Automatische helderheid is geactiveerd</string>
-    <string name="ui_status_bar_cm_signal_text_title">Alternatieve signaal-weergave</string>
-    <string name="ui_status_bar_cm_signal_text_summary">Geef dBm waarden i.p.v. signaalstreepjes</string>
+    <string name="ui_status_bar_cm_signal_text_title">Signaalweergave</string>
+    <string name="ui_status_bar_cm_signal_text_summary">Geef dBm-waarden i.p.v. signaalstreepjes</string>
     <string name="ui_status_bar_cm_signal_text_show_bars">Signaalstreepjes</string>
     <string name="ui_status_bar_cm_signal_text_show_text">Signaaltekst</string>
     <string name="ui_status_bar_cm_signal_text_show_text_dbm">Signaaltekst dBm</string>
     <string name="ui_status_bar_headset_title">Geef headseticoon weer</string>
     <string name="ui_status_bar_headset_summary">Headseticoon zal verschijnen als de headset is ingeplugd</string>
-	
+
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED-notificaties</string>
     <string name="trackball_summary">Verander kleur- en oplichtinstellingen van trackball/LED-notificaties</string>
@@ -158,7 +173,7 @@
 
     <!-- Color Picker -->
     <string name="title_color_picker">Kies een kleur</string>
-    <string name="msg_color_picker">Druk in het midden van de kleur om te bevestigen.\nKies terug om te annuleren</string>
+    <string name="msg_color_picker">Raak het midden van de kleur aan om te bevestigen.\nDruk op terug om te annuleren.</string>
 
     <!-- User interface: LED notifications -->
     <string name="group_settings">Instellingen</string>
@@ -332,6 +347,8 @@
     <string name="lockscreen_style_entry_ring">Ring</string>
     <string name="pref_rotary_style_title">Draaiwielthema</string>
     <string name="pref_rotary_style_summary">Kies een thema voor het draaiwiel</string>
+    <string name="rotary_style_entry_normal">Standaard</string>
+    <string name="rotary_style_entry_revamped">Vernieuwd</string>
     <string name="pref_ringlock_style_title">Ringenthema</string>
     <string name="pref_ringlock_style_summary">Kies een thema voor de ringen</string>
     <string name="ringlock_style_entry_bubbles">Bubbels</string>
@@ -528,6 +545,7 @@
 
     <string name="widget_name">RenderFX-widget</string>
     <string name="renderfx_temp">RenderFX</string>
+    <string name="pref_widget_options_category_title">Algemene instellingen</string>
     <string name="prefs_render_effect">Rendereffect</string>
     <string name="notify_render_effect">Rendereffect aan</string>
     <string name="add_widget">Voeg widget toe</string>
@@ -733,11 +751,15 @@
     <string name="gestures_toggle_sound">Geluidsprofiel wisselen</string>
     <string name="gestures_shortcut_or_activity">Sneltoets of activiteit</string>
     <string name="gestures_flashlight">Zaklamp</string>
+    <string name="gestures_next">Volgend nummer</string>
+    <string name="gestures_previous">Vorig nummer</string>
+    <string name="gestures_playpause">Speel/pauzeer muziek</string>
     <string name="pref_lockscreen_disable_unlock_tab">Zet ontgrendelslider uit</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">N.B.: Trackball-, menuknop-, of gebaar-ontgrendelen dient geactiveerd te zijn voordat deze optie toegankelijk is</string>
     <string name="gestures_action_label">Actie:</string>
     <string name="gestures_draw_label">Gebaar:</string>
-    <string name="gestures_already_present">Waarschuwing: Een soortgelijke gebaar is al toegewezen aan een andere actie!</string>
+    <string name="gestures_draw_for_label">Gebaar voor \"<xliff:g id="action">%s</xliff:g>\":</string>
+    <string name="gestures_already_present">Waarschuwing: een soortgelijke gebaar is al toegewezen aan een andere actie.</string>
     <string name="gestures_run_in_background">Draai op de achtergrond</string>
 
     <!-- Change Log strings -->
@@ -808,6 +830,6 @@
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Machtigingenbeheer</string>
     <string name="perm_enable_management_summary">Machtigingenbeheer inschakelen</string>
-    <string name="perm_enable_warning_message">Waarschuwing!\nDeze optie kan zorgen voor onverwacht gedrag bij applicaties.\nNeem bij fouten geen contact op met de ontwikkelaars!</string>
+    <string name="perm_enable_warning_message">Waarschuwing:\nDeze optie kan zorgen voor onverwacht gedrag bij applicaties.\nNeem bij fouten geen contact op met de ontwikkelaars.</string>
     <string name="perm_enable_warning_title">Weet je het zeker?</string>
 </resources>
