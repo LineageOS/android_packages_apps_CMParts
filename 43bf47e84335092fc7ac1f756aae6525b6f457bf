@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARH///2Q\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-03-09T21:46:12Z",
+      "side": 1,
+      "message": "Als er geen compileerfouten zijn, is dit niet nodig (mag natuurlijk wel). Wat nog wel moet gebeuren, is de copyright toevoegen bovenaan (da\u0027s wel verplicht).",
+      "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///2M\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-03-09T21:46:12Z",
+      "side": 1,
+      "message": "* Geen aanhalingstekens",
+      "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///2I\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-03-09T21:46:12Z",
+      "side": 1,
+      "message": "* Geen aanhalingstekens",
+      "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///2E\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-03-09T21:46:12Z",
+      "side": 1,
+      "message": "* \u0027Vergrendelscherm uitsch.\u0027?",
+      "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///2A\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-03-09T21:46:12Z",
+      "side": 1,
+      "message": "* Dan wordt het \u0027signaalweergave\u0027",
+      "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///18\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-03-09T21:46:12Z",
+      "side": 1,
+      "message": "* dBm-waarden",
+      "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///14\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-03-09T21:46:12Z",
+      "side": 1,
+      "message": "* Whitespace",
+      "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///10\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 742,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-03-09T21:46:12Z",
+      "side": 1,
+      "message": "* pauzeer (zonder hoofdletter)",
+      "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///1w\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 819,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-03-09T21:46:12Z",
+      "side": 1,
+      "message": "* Ik heb liever zonder aanhalingstekens. Als jij ze liever wilt zal ik je niet tegenhouden, maar zal de compiler wel klagen dat de eerste \\n niet om aanhalingstekens is gezet.",
+      "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
