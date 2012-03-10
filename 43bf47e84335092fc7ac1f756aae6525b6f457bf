@@ -87,6 +87,24 @@
     },
     {
       "key": {
+        "uuid": "AAAARH///ys\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-03-10T01:07:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAARH///2A\u003d",
+      "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAARH///18\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
@@ -104,6 +122,24 @@
     },
     {
       "key": {
+        "uuid": "AAAARH///yo\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-03-10T01:07:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAARH///18\u003d",
+      "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAARH///14\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
@@ -115,6 +151,24 @@
       "writtenOn": "2012-03-09T21:46:12Z",
       "side": 1,
       "message": "* Whitespace",
+      "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///yk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-03-10T01:07:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAARH///14\u003d",
       "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -149,6 +203,24 @@
       "writtenOn": "2012-03-09T21:46:12Z",
       "side": 1,
       "message": "* Ik heb liever zonder aanhalingstekens. Als jij ze liever wilt zal ik je niet tegenhouden, maar zal de compiler wel klagen dat de eerste \\n niet om aanhalingstekens is gezet.",
+      "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///yc\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 819,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-03-10T01:07:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAARH///1w\u003d",
       "revId": "43bf47e84335092fc7ac1f756aae6525b6f457bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
