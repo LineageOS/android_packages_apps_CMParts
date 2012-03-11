@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAARH///og\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-03-11T00:05:13Z",
+      "side": 1,
+      "message": "Already doesn\u0027t fit.",
+      "parentUuid": "AAAARH///qM\u003d",
+      "revId": "5fcab8b8838e79a85bb23276817abc7b9de6a6bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAARH///qI\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 11
@@ -30,6 +48,24 @@
       "writtenOn": "2012-03-10T19:24:41Z",
       "side": 1,
       "message": "* homeknop (zonder hoofdletter)\n* \u0027in/uit te schakelen\u0027 of \u0027aan/uit te zetten\u0027 (mij maakt het niet uit)",
+      "revId": "5fcab8b8838e79a85bb23276817abc7b9de6a6bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///oc\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-03-11T00:05:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAARH///qI\u003d",
       "revId": "5fcab8b8838e79a85bb23276817abc7b9de6a6bb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
