@@ -41,9 +41,9 @@
 
 	<!-- User interface: Tablet tweaks -->
 	<string name="tablet_tweaks_title_head">Vylepšení pro tablet</string>
-	<string name="tablet_tweaks_summary_head">Nastavení užitečná pro tablety na jednom místě. Funguje i pro telefony.</string>
+	<string name="tablet_tweaks_summary_head">Tato nastavení jsou užitečná hlavně pro tablety, fungují však i pro telefony.</string>
 	<string name="tablet_tweaks_sb_bottom_title">Stavová lišta dole</string>
-	<string name="tablet_tweaks_sb_bottom_summary">Zobrazení stavové lišty dole. Užitečné pro tablety, které používají soft-klávesy pro Domů, Nabídka atd. ve stavové liště</string>
+	<string name="tablet_tweaks_sb_bottom_summary">Zobrazení stavové lišty dole. Užitečné pro tablety, které používají soft-klávesy Domů, Menu atd. ve stavové liště</string>
 	<string name="tablet_tweaks_status_bar_dead_zone_title">Mrtvá zóna</string>
 	<string name="tablet_tweaks_status_bar_dead_zone_summary">Přidat mrtvou zónu poloviny šířky obrazovky do středu stavové lišty</string>
 	<string name="tablet_tweaks_soft_buttons_left_title">Soft-klávesy vlevo</string>
@@ -51,13 +51,13 @@
 	<string name="tablet_tweaks_soft_button_list_title">Zvolit soft-klávesy</string>
 	<string name="tablet_tweaks_interface_head">Rozhraní</string>
 	<string name="tablet_tweaks_disable_lockscreen_title">Zakázat obrazovku zámku</string>
-	<string name="tablet_tweaks_disable_lockscreen_summary">Když je povoleno, nezobrazuje se zámek obrazovky, nebo zámek obrazovky s gestem. Ani při bootu, nebo probuzení zařízení.</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">Deaktivuje zámek obrazovky (po zapnutí i po probuzení zařízení).</string>
 	<string name="tablet_tweaks_disable_fullscreen_title">Zakázat celou obrazovku</string>
 	<string name="tablet_tweaks_disable_fullscreen_summary">Ignoruje požadavek aplikace na zobrazení v režimu celé obrazovky. Pokud je povoleno, stavová lišta je vždy viditelná, dokud není skryta tlačítkem</string>
 	<string name="tablet_tweaks_unhide_button_list_head">Tlačítko odkrytí</string>
 	<string name="tablet_tweaks_unhide_button_list_title">Zvolte tlačítko pro odkrytí</string>
 	<string name="tablet_tweaks_extend_pm_title">Rozsířit Power-menu</string>
-	<string name="tablet_tweaks_extend_pm_summary">Přidat akce domů/zpět/nabídka do Power-menu</string>
+	<string name="tablet_tweaks_extend_pm_summary">Přidat akce domů/zpět/menu do Power-menu</string>
 	<string name="tablet_tweaks_extend_pm_list_title">Zvolte tlačítka Power-menu</string>
 	<string name="tablet_tweaks_reverse_volume_behavior_title">Otočení nastavení hlasitosti</string>
 	<string name="tablet_tweaks_reverse_volume_behavior_summary_off">Tlačítka nastavení hlasitosti fungují normálně. Stisknutím se změní hlasitost, dlouhý stisk vyvolá uživatelskou funkci</string>
@@ -66,7 +66,7 @@
 	<!-- User interface: Tablet tweaks -> volume remapping -->
 	<string name="tablet_tweaks_input_head">Přemapování tlačítek hlasitosti</string>
 	<string name="tablet_tweaks_long_volp_action_title">Dlouhý stisk přidání hlasitosti</string>
-	<string name="tablet_tweaks_long_volp_action_summary">Přiřaďte akce domů/zpět/nabídka/atd. dlouhému stisku tlačítka přidání hlasitosti. Omezený na zapnutí obrazovky</string>
+	<string name="tablet_tweaks_long_volp_action_summary">Přiřaďte akce domů/zpět/menu/atd. dlouhému stisku tlačítka přidání hlasitosti. Omezený na zapnutí obrazovky</string>
 	<string name="tablet_tweaks_long_volm_action_title">Dlouhý stisk snížení hlasitosti</string>
 	<string name="tablet_tweaks_vol_both_action_title">Obě tlačítka hlasitosti</string>
 	<string name="tablet_tweaks_vol_both_action_summary">Poznámka: nekterá zařízení provedou restart zařízení při stisku obou tlačítek hlasitosti a tlačítka napájení (natvrdo dáno výrobcem)</string>
@@ -78,7 +78,7 @@
 	<!-- User interface: Tablet tweaks -> soft buttons -->
 	<string name="tablet_tweaks_soft_buttons_list_head">Soft-klávesy</string>
 	<string name="tablet_soft_buttons_home_title">Domů</string>
-	<string name="tablet_soft_buttons_menu_title">Nabídka</string>
+	<string name="tablet_soft_buttons_menu_title">Menu</string>
 	<string name="tablet_soft_buttons_back_title">Zpět</string>
 	<string name="tablet_soft_buttons_search_title">Hledat</string>
 	<string name="tablet_soft_buttons_quick_na_title">Rychlá upozornění</string>
@@ -95,10 +95,10 @@
 	<string name="ui_status_bar_am_pm_title">Styl AM/PM</string>
 	<string name="ui_status_bar_am_pm_summary">Styl zobrazení AM/PM za hodinami</string>
 	<string name="ui_status_bar_clock_title">Zobraz hodiny</string>
-	<string name="ui_status_bar_clock_summary">Pokud zakázáno, ve stavové liště se nebudou zobrazovat hodiny</string>
-	<string name="ui_status_bar_battery_title">Vzhled stavu baterie</string>
-	<string name="ui_status_bar_battery_summary">Vzhled zobrazení stavu baterie</string>
-	<string name="ui_status_bar_compact_carrier_title">Kompaktní název operátora</string>
+	<string name="ui_status_bar_clock_summary">Zobrazí nebo schová hodiny</string>
+	<string name="ui_status_bar_battery_title">Indikátor stavu baterie</string>
+	<string name="ui_status_bar_battery_summary">Vzhled indikátoru stavu baterie</string>
+	<string name="ui_status_bar_compact_carrier_title">Zmenšit název operátora</string>
 	<string name="ui_status_bar_compact_carrier_summary">Použít alternativní vzhled stahovacího menu s malým názvem operátora.</string>
 	<string name="ui_status_bar_carrier_label_title">Režim zobrazení operátora</string>
 	<string name="ui_status_bar_carrier_label_summary">Jakým způsobem bude interpretován název operátora</string>
@@ -111,7 +111,7 @@
 	<string name="ui_status_bar_toggle_brightness">Nastavení jasu na stavové liště</string>
 	<string name="ui_status_bar_toggle_brightness_summary">Umožňuje nastavit jas tažením prstu na stavové liště</string>
 	<string name="ui_status_bar_toggle_info">Automatické nastavení jasu je povoleno</string>
-	<string name="ui_status_bar_cm_signal_text_title">Jiné zobrazení stavu signálu</string>
+	<string name="ui_status_bar_cm_signal_text_title">Styl ukazatele stavu signálu</string>
 	<string name="ui_status_bar_cm_signal_text_summary">Zobrazit stav signálů v jednotkách dBm místo signálních čárek</string>
 	<string name="ui_status_bar_cm_signal_text_show_bars">Signální čárky</string>
 	<string name="ui_status_bar_cm_signal_text_show_text">Pouze text</string>
@@ -124,7 +124,7 @@
 	<string name="trackball_summary">Nastavit barvy a pulzování pro trackball/LED upozornění</string>
 
 	<!-- User interface : WebView -->
-	<string name="pref_pinch_reflow_title">Přeformátovat po gestu přiblížení</string>
+	<string name="pref_pinch_reflow_title">Přeformátovat po přiblížení</string>
 	<string name="pref_pinch_reflow_summary">Přeformátovat obsah webu okamžitě po gestu přiblížení (pinch-zoom)</string>
 
 	<!-- User interface : Share menu for screenshots -->
@@ -132,11 +132,11 @@
 	<string name="pref_share_screenshot_summary">Zobrazit nabídku sdílení po sejmutí obrazovky</string>
 
 	<!-- User interface : Overscroll -->
-	<string name="ui_overscroll_title">Přetah seznamu</string>
-	<string name="pref_overscroll_title">Efekt přetahu seznamu</string>
-	<string name="pref_overscroll_summary">Zvolte, jak se chová nabídka při přetažení za úroveň konce</string>
-	<string name="pref_overscroll_weight_title">Váha přetahu</string>
-	<string name="pref_overscroll_weight_summary">Zvolte váhu efektu přetahu</string>
+	<string name="ui_overscroll_title">Přetah seznamů</string>
+	<string name="pref_overscroll_title">Efekt přetahu seznamů</string>
+	<string name="pref_overscroll_summary">Jak má vypadat efekt při snaze posunout seznam za jeho konec</string>
+	<string name="pref_overscroll_weight_title">Velikost přetahu</string>
+	<string name="pref_overscroll_weight_summary">Zvolte velikost efektu přetahu</string>
 
 	<!-- User interface : Lock Screen -->
 	<string name="pref_lockscreen_delay_title">Zpoždění</string>
@@ -252,7 +252,7 @@
 
 	<!-- Lockscreen Overview -->
 	<string name="pref_lockscreen_disable_on_security_title">Nepoužívat při zabezpečení</string>
-	<string name="pref_lockscreen_disable_on_security_summary">Nepoužívat zámek obrazovky pokud je nastaven a povolen bezpečnostní zámek (vzor, PIN, heslo)</string>
+	<string name="pref_lockscreen_disable_on_security_summary">Nepoužívat zámek obrazovky pokud je nastaven a povolen bezpečnostní zámek (gesto, PIN, heslo)</string>
 	<string name="pref_lockscreen_stylecfg_title">Volby stylu</string>
 	<string name="pref_lockscreen_stylecfg_summary">Nastavení stylu zámku obrazovky a souvisejících voleb</string>
 	<string name="pref_lockscreen_widgets_title">Nastavení widgetů</string>
@@ -267,34 +267,34 @@
 	<!-- Lockscreen Settings -->
 	<string name="pref_lockscreen_always_battery_title">Vždy zobrazit stav baterie</string>
 	<string name="pref_lockscreen_always_battery_summary">Zobrazit vždy stav baterie na zámku obrazovky</string>
-	<string name="pref_lockscreen_widgets_layout_title">Vzhled widgetu</string>
-	<string name="pref_lockscreen_widgets_layout_summary">Změnit vzhled pro hodiny, datum, operátora a stav</string>
-	<string name="pref_lockscreen_widget_layout_entry_default">Výchozí</string>
-	<string name="pref_lockscreen_widget_layout_entry_hidden">Skrytý</string>
-	<string name="pref_lockscreen_widget_layout_entry_centered">Vystředěný</string>
+    <string name="pref_lockscreen_widgets_layout_title">Umístění textu</string>
+	<string name="pref_lockscreen_widgets_layout_summary">Změnit umístění hodin, jména operátora a stavu baterie</string>
+	<string name="pref_lockscreen_widget_layout_entry_default">Vlevo (výchozí)</string>
+	<string name="pref_lockscreen_widget_layout_entry_hidden">Schovat</string>
+	<string name="pref_lockscreen_widget_layout_entry_centered">Uprostřed</string>
 	<string name="pref_lockscreen_widget_layout_entry_right">Vpravo</string>
-	<string name="pref_lockscreen_music_controls_title">Ovládání hudby zámku obrazovky</string>
+	<string name="pref_lockscreen_music_controls_title">Hudební přehrávač</string>
 	<string name="pref_lockscreen_music_controls_summary">Zobrazit ovládání hudby na zámku obrazovky</string>
 	<string name="pref_lockscreen_now_playing_title">Zobrazit název skladby</string>
 	<string name="pref_lockscreen_now_playing_summary">Zobrazit jméno a autora právě přehrávané skladby</string>
 	<string name="pref_lockscreen_album_art_title">Zobrazit foto alba</string>
 	<string name="pref_lockscreen_album_art_summary">Zobrazit foto alba právě přehrávané skladby. Funguje pouze se standardním přehrávačem hudby při orientaci obrazovky na výšku</string>
-	<string name="pref_lockscreen_music_headset_title">Zobrazit ovládání hudby se sluchátky</string>
-	<string name="pref_lockscreen_music_headset_summary">Zobrazit obládání hudby, pokud jsou připojena 3.5mm/USB a/nebo Bluetooth A2DP sluchátka</string>
+	<string name="pref_lockscreen_music_headset_title">Sluchátka</string>
+	<string name="pref_lockscreen_music_headset_summary">Zobrazit ovládání hudby, pokud jsou připojena 3.5mm/USB a/nebo Bluetooth A2DP sluchátka</string>
 	<string name="pref_lockscreen_always_music_controls_title">Vždy zobrazit ovládání hudby</string>
 	<string name="pref_lockscreen_always_music_controls_summary">Zobrazit ovládání hudby, i když není nic přehráváno</string>
 	<string name="pref_trackball_wake_title">Probuzení trackballem</string>
 	<string name="pref_trackball_wake_summary">Stisk trackballu probudí zařízení</string>
 	<string name="pref_volume_wake_title">Probuzení ovladačem hlasitosti</string>
-	<string name="pref_volume_wake_summary">Stisk hlasitosti nahoru/dolů probudí zařízení. Určeno pro zařízení ze špatně přístupným tlačítkem napájení</string>
+	<string name="pref_volume_wake_summary">Stisk tlačítek hlasitosti probudí zařízení. Určeno pro zařízení se špatně přístupným tlačítkem napájení</string>
 	<string name="pref_trackball_unlock_title">Odemčení trackballem</string>
 	<string name="pref_trackball_unlock_summary">Stisk trackballu odemkne zařízení</string>
-	<string name="pref_slider_unlock_title">Odemčení pomocí klávesnicek</string>
+	<string name="pref_slider_unlock_title">Odemčení pomocí klávesnice</string>
 	<string name="pref_slider_unlock_summary">Vysunutí klávesnice odemkne zařízení</string>
-	<string name="pref_menu_unlock_title">Odemčení pomocí Nabídky</string>
-	<string name="pref_menu_unlock_summary">Stiskem tlačítka Nabídka odemkne zařízení</string>
+	<string name="pref_menu_unlock_title">Odemčení tlačítkem Menu</string>
+	<string name="pref_menu_unlock_summary">Stisknutí tlačítka "menu" odemkne zařízení</string>
 	<string name="pref_lockscreen_quick_unlock_control_title">Rychlé odemčení</string>
-	<string name="pref_lockscreen_quick_unlock_control_summary">Není třeba potvrzovat OK při zadávání PIN nebo hesla. Smazání se počítá jako špatný pokus!</string>
+	<string name="pref_lockscreen_quick_unlock_control_summary">Není třeba stisknout OK při zadávání PINu nebo hesla. Smazání se počítá jako špatný pokus!</string>
 	<string name="lockscreen_style_options_title">Specifické nastavení</string>
 	<string name="pref_lockscreen_custom_app_toggle_title">Start vlastní aplikace</string>
 	<string name="pref_lockscreen_custom_app_toggle_tab_summary">Zobrazit druhou sadu posuvníků pro spouštění vlastních aplikací</string>
@@ -342,7 +342,7 @@
 	<string name="ringlock_style_entry_holo">Holo</string>
 	<string name="ringlock_style_entry_blade">Ostří</string>
 	<string name="pref_in_call_style_title">Při příchozím hovoru</string>
-	<string name="pref_in_call_style_summary">Zvolte styl widgetu Přijmout/Odmítnout při přichozím hovoru</string>
+	<string name="pref_in_call_style_summary">Zvolte styl obrazovky Přijmout/Odmítnout při příchozím hovoru</string>
 	<string name="incall_style_entry_tabs">Posuvný</string>
 	<string name="incall_style_entry_rotary">Otočný</string>
 	<string name="incall_style_entry_ring">Kroužky</string>
@@ -384,11 +384,11 @@
 	<string name="pref_backtrack_summary">Povolit/zakázat BackTrack Minipad</string>
 
 	<!-- Long Press Menu -->
-	<string name="long_press_menu_title">Dlouhý stist klávesy Nabídka</string>
-	<string name="long_press_menu_summary">Vlastní nastavení pro dlouhý stisk klávesy Nabídka</string>
+	<string name="long_press_menu_title">Dlouhý stist klávesy Menu</string>
+	<string name="long_press_menu_summary">Vlastní nastavení pro dlouhý stisk klávesy Menu</string>
 	<string name="pref_user_defined_long_press_menu_title">Zvolte vlastní aplikaci</string>
 	<string name="pref_long_press_menu_title">Zvolte chování</string>
-	<string name="pref_long_press_menu_summary">Nastavení pro dlouhý stisk klávesy Nabídka</string>
+	<string name="pref_long_press_menu_summary">Nastavení pro dlouhý stisk klávesy Menu</string>
 
 	<!-- Long Press Home -->
 	<string name="recent_apps_show_title">Zobrazit poslední aplikace</string>
@@ -478,7 +478,7 @@
 
 	<!-- Performance Settings : VM Heap Size -->
 	<string name="pref_heapsize_title">Velikost paměti VM</string>
-	<string name="pref_heapsize_summary">Maximální velikost paměti pro virtuální proces (potřebuje restart)</string>
+	<string name="pref_heapsize_summary">Maximální velikost paměti pro VM (heap size). Potřebuje restart</string>
 
 	<!-- Performance : Disable bootanimation -->
 	<string name="pref_disable_bootanimation_title">Zakázat animaci při startu</string>
@@ -493,8 +493,8 @@
 	<string name="pref_lock_mms_summary">Zabraňuje ztrátě SMS při nedostatku paměti</string>
 
 	<!-- Performance Settings : Warning dialog -->
-	<string name="performance_settings_warning_title">VAROVÁNÍ: Dál žijí draci!</string>
-	<string name="performance_settings_warning">Nastavení zde mění výkon systému, možná i k horšímu. Jsou zde ponechány pro testování a prosíme, neposílejte chybová hlášení, pokud jste je změnili oproti standardu</string>
+	<string name="performance_settings_warning_title">VAROVÁNÍ: Zde žijí draci!</string>
+	<string name="performance_settings_warning">Tato nastavení mění výkon systému, možná i k horšímu. Jsou zde ponechány pouze pro testování. Neposílejte prosím hlášení o chybách, pokud jste je jakkoliv měnili.</string>
 
 	<!-- Application Settings -->
 	<string name="application_settings_title">Nastavení aplikací</string>
@@ -666,7 +666,7 @@
 	<string name="sound_camera_shutter_disable_summary_on">Zvuk uzávěrky nebude přehráván</string>
 	<string name="sound_camera_shutter_disable_summary_off">Zvuk uzávěrky bude přehráván</string>
 	<string name="sound_camera_shutter_disable_warning_title">UPOZORNĚNÍ: Tato funkce může být nezákonná!</string>
-	<string name="sound_camera_shutter_disable_warning">Vypnutí zvuku uzávěrky fotoaprátu je v některých oblastech (zemích) nezákonná. Opravdu jej chcete vypnout?</string>
+	<string name="sound_camera_shutter_disable_warning">Vypnutí zvuku uzávěrky fotoaprátu je v některých oblastech (zemích) nezákonné. Opravdu jej chcete vypnout?</string>
 	<string name="sound_to_speaker_title">Přehrávat vždy do reproduktoru</string>
 	<string name="sound_notifications_title">Upozornění</string>
 	<string name="sound_rings_title">Vyzvánění</string>
@@ -738,7 +738,7 @@
 	<string name="gestures_previous">Předchozí skladba</string>
 	<string name="gestures_playpause">Přehrávat/pozastavit</string>
 	<string name="pref_lockscreen_disable_unlock_tab">Zakázat posuvník odemykání obrazovky</string>
-	<string name="pref_lockscreen_disable_unlock_tab_summary">Poznámka: Před povolením této možnosti musíte povolit odemykání trackballem, klávesou Nabídka, nebo gestem.</string>
+	<string name="pref_lockscreen_disable_unlock_tab_summary">Poznámka: Před povolením této možnosti musíte povolit odemykání trackballem, klávesou menu nebo gestem.</string>
 	<string name="gestures_action_label">Akce:</string>
 	<string name="gestures_draw_label">Gesto:</string>
 	<string name="gestures_draw_for_label">Gesto pro \"<xliff:g id="action">%s</xliff:g>\":</string>
