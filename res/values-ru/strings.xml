@@ -610,6 +610,8 @@
     <string name="cm_sound_mode_soundVibrate">Звук+Вибро</string>
     <string name="pref_flash_mode_title">Режимы фонарика</string>
     <string name="pref_flash_mode_summary">Яркий / Луч смерти</string>
+    <string name="pref_mobiledatanetwork_mode_title">Режимы сети автоматически (2G/3G)</string>
+    <string name="pref_mobiledatanetwork_mode_summary">Кнопка переключения режимов 2G/3G</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Автоматическая яркость</string>
