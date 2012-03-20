@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARX///J4\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 129
+      },
+      "writtenOn": "2012-03-20T03:05:43Z",
+      "side": 1,
+      "message": "\u0027rolovat\u0027 vypada v cestine lepe...",
+      "revId": "c5f7509df02257532cc2dd26fd9e09450f9cdeee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX///Js\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 129
+      },
+      "writtenOn": "2012-03-20T03:05:43Z",
+      "side": 1,
+      "message": "\u0027ovládání\u0027",
+      "revId": "c5f7509df02257532cc2dd26fd9e09450f9cdeee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX///J0\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 345,
+      "author": {
+        "id": 129
+      },
+      "writtenOn": "2012-03-20T03:05:43Z",
+      "side": 1,
+      "message": "dlouhe i v \u0027prichozim\u0027",
+      "revId": "c5f7509df02257532cc2dd26fd9e09450f9cdeee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
