@@ -40,6 +40,8 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
 
     private static final String PREF_STATUS_BAR_CLOCK = "pref_status_bar_clock";
 
+    private static final String PREF_STATUS_BAR_ALARM = "pref_status_bar_alarm";
+
     private static final String PREF_STATUS_BAR_CARRIER_LABEL =
             "pref_status_bar_carrier_label";
 
@@ -83,6 +85,7 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
         PreferenceScreen prefSet = getPreferenceScreen();
 
         mStatusBarClock = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_CLOCK);
+        mStatusBarAlarm = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_ALARM);
         mStatusBarCompactCarrier = (CheckBoxPreference) prefSet
                 .findPreference(PREF_STATUS_BAR_COMPACT_CARRIER);
         mStatusBarBrightnessControl = (CheckBoxPreference) prefSet
@@ -92,6 +95,8 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
 
         mStatusBarClock.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_CLOCK, 1) == 1));
+        mStatusBarAlarm.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_ALARM, 1) == 1));
         mStatusBarCompactCarrier.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_COMPACT_CARRIER, 0) == 1));
         mStatusBarBrightnessControl.setChecked((Settings.System.getInt(getContentResolver(),
@@ -202,6 +207,11 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
         if (preference == mStatusBarClock) {
             value = mStatusBarClock.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_CLOCK,
+                    value ? 1 : 0);
+            return true;
+        } else if (preference == mStatusBarAlarm) {
+            value = mStatusBarAlarm.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_ALARM,
                     value ? 1 : 0);
             return true;
         } else if (preference == mStatusBarCompactCarrier) {
