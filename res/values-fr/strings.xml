@@ -70,6 +70,8 @@
     <string name="ui_status_bar_battery_summary">Style de l\'indicateur de niveau de charge</string>
     <string name="ui_status_bar_clock_title">Afficher l\'heure</string>
     <string name="ui_status_bar_clock_summary">L\'heure sera cachée de la barre si cette option est désactivée</string>
+    <string name="ui_status_bar_alarm_title">Afficher icone d\'alarme</string>
+    <string name="ui_status_bar_alarm_summary">L\'icone est cachée si décoché</string>
     <string name="ui_status_bar_compact_carrier_title">Opérateur abrégé</string>
     <string name="ui_status_bar_compact_carrier_summary">Utilise le nom abrégé du fournisseur d\'accès mobile</string>
     <string name="ui_status_bar_carrier_label_title">Nom de l\'opérateur</string>
