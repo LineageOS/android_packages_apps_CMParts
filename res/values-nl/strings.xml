@@ -112,6 +112,8 @@
     <string name="ui_status_bar_am_pm_summary">Geef AM/PM-stijl naast klok weer</string>
     <string name="ui_status_bar_clock_title">Geef klok weer</string>
     <string name="ui_status_bar_clock_summary">Statusbalkklok wordt verborgen, indien uitgeschakeld</string>
+    <string name="ui_status_bar_alarm_title">Toon wekker</string>
+    <string name="ui_status_bar_alarm_summary">Statusbalkwekker wordt verborgen, indien uitgeschakeld</string>
     <string name="ui_status_bar_battery_title">Batterijstatus-stijl</string>
     <string name="ui_status_bar_battery_summary">Stijl van batterijstatus</string>
     <string name="ui_status_bar_compact_carrier_title">Kleinere providerlabel</string>
