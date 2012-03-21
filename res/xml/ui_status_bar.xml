@@ -7,6 +7,10 @@
 			android:title="@string/ui_status_bar_clock_title"
 			android:summary="@string/ui_status_bar_clock_summary"
 			android:defaultValue="true" />
+		<CheckBoxPreference android:key="pref_status_bar_alarm"
+			android:title="@string/ui_status_bar_alarm_title"
+			android:summary="@string/ui_status_bar_alarm_summary"
+			android:defaultValue="true" />
 		<ListPreference android:key="pref_status_bar_am_pm"
 			android:dialogTitle="@string/ui_status_bar_am_pm_title"
 			android:title="@string/ui_status_bar_am_pm_title"
