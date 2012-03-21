@@ -95,6 +95,8 @@
     <string name="ui_status_bar_am_pm_summary">Ver estilo de AM/PM siguiente del reloj</string>
     <string name="ui_status_bar_clock_title">Mostrar reloj</string>
     <string name="ui_status_bar_clock_summary">Se esconde si se deshabilita</string>
+    <string name="ui_status_bar_alarm_title">Mostrar icono de alarma</string>
+    <string name="ui_status_bar_alarm_summary">Se esconde si se deshabilita</string>
     <string name="ui_status_bar_battery_title">Estilo del indicador de batería</string>
     <string name="ui_status_bar_battery_summary">Cambiar el estilo del indicador de batería</string>
     <string name="ui_status_bar_compact_carrier_title">Etiqueta compacta de operador</string>
