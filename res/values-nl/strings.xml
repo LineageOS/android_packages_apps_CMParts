@@ -305,6 +305,8 @@
     <string name="ui_status_bar_title">Statusbalkaanpassingen</string>
     <string name="ui_status_bar_clock_title">Klok tonen</string>
     <string name="ui_status_bar_clock_summary">Indien uitgeschakeld wordt de statusbalkklok verborgen</string>
+    <string name="ui_status_bar_alarm_title">Toon wekker</string>
+    <string name="ui_status_bar_alarm_summary">Statusbalkwekker wordt verborgen, indien uitgeschakeld</string>
     <string name="ui_status_bar_am_pm_title">AM/PM gebruiken</string>
     <string name="ui_status_bar_am_pm_summary">AM/PM tonen bij de statusbalkklok</string>
     <string name="ui_status_bar_battery_title">Uiterlijk batterijstatus</string>
