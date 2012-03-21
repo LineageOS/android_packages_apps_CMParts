@@ -98,6 +98,8 @@
     <string name="ui_status_bar_am_pm_summary">Προβολή AM/PM δίπλα στο ρολόι</string>
     <string name="ui_status_bar_clock_title">Εμφάνιση ρολογιού</string>
     <string name="ui_status_bar_clock_summary">Το ρολόι της μπάρας κατάστασης θα είναι κρυμμένο, αν το απενεργοποιήσετε</string>
+    <string name="ui_status_bar_alarm_title">Εμφάνιση ξυπνητηριού</string>
+    <string name="ui_status_bar_alarm_summary">Το εικονίδιο ξυπνητηριού της μπάρας κατάστασης θα είναι κρυμμένο, αν το απενεργοποιήσετε</string>
     <string name="ui_status_bar_battery_title">Στυλ ένδειξης μπαταρίας</string>
     <string name="ui_status_bar_battery_summary">Επιλογές εμφάνισης ένδειξης μπαταρίας</string>
     <string name="ui_status_bar_compact_carrier_title">Συμπαγής ετικέτα παρόχου</string>

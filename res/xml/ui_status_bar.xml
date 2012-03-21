@@ -13,6 +13,10 @@
 			android:summary="@string/ui_status_bar_am_pm_summary"
 			android:entries="@array/entries_status_bar_am_pm"
 			android:entryValues="@array/values_status_bar_am_pm" />
+		<CheckBoxPreference android:key="pref_status_bar_alarm"
+			android:title="@string/ui_status_bar_alarm_title"
+			android:summary="@string/ui_status_bar_alarm_summary"
+			android:defaultValue="true" />
 		<ListPreference android:key="pref_status_bar_battery"
 			android:dialogTitle="@string/ui_status_bar_battery_title"
 			android:title="@string/ui_status_bar_battery_title"
