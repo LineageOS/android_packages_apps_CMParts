@@ -97,6 +97,8 @@
     <string name="ui_status_bar_am_pm_summary">Anzeigestil von vorm./nachm. neben der Uhrzeit</string>
     <string name="ui_status_bar_clock_title">Zeige Uhr</string>
     <string name="ui_status_bar_clock_summary">Die Uhrzeit wird nicht angezeigt, wenn deaktiviert</string>
+	<string name="ui_status_bar_alarm_title">Zeige Wecker</string>
+    <string name="ui_status_bar_alarm_summary">Das Weckersymbol wird nicht angezeigt, wenn deaktiviert</string>
     <string name="ui_status_bar_battery_title">Batteriestatusanzeige</string>
     <string name="ui_status_bar_battery_summary">Anzeigestil des Batteriestatus</string>
     <string name="ui_status_bar_compact_carrier_title">Kompakter Betreiber</string>
