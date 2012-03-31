@@ -56,7 +56,12 @@
     <item>Schwach</item>
     <item>Sehr schwach</item>
   </string-array>
-
+  
+  <string-array name="entries_overscroll_color">
+    <item>Standardfarbe</item>
+    <item>Benutzerdefinierte Farbe</item>
+  </string-array>
+  
   <string-array name="pref_trackball_blink_rate_entries">
     <item>Anwendungseinstellung</item>
     <item>2 (Schnell)</item>
