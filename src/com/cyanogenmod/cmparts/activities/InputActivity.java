@@ -34,6 +34,8 @@ import com.cyanogenmod.cmparts.utils.ShortcutPickHelper;
 
 public class InputActivity extends PreferenceActivity implements ShortcutPickHelper.OnPickListener {
 
+    private static final String VIBRATE_SHUTDOWN_PREF = "pref_vibrate_on_shutdown";
+
     private static final String TRACKBALL_WAKE_PREF = "pref_trackball_wake";
 
     private static final String VOLUME_WAKE_PREF = "pref_volume_wake";
@@ -57,6 +59,8 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
     private static final String BACKTRACK_MINIPAD_PREF = "pref_backtrack";
 
     private static final String BACKTRACK_PROP = "persist.service.backtrack";
+
+    private CheckBoxPreference mVibrateOnShutdownPref;
 
     private CheckBoxPreference mTrackballWakePref;
 
@@ -90,6 +94,11 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
         addPreferencesFromResource(R.xml.input_settings);
 
         PreferenceScreen prefSet = getPreferenceScreen();
+
+        /* Vibrate on shutdown */
+        mVibrateOnShutdownPref = (CheckBoxPreference) prefSet.findPreference(VIBRATE_SHUTDOWN_PREF);
+        mVibrateOnShutdownPref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.VIBRATE_ON_SHUTDOWN, 1) == 1);
 
         /* Trackball Wake */
         mTrackballWakePref = (CheckBoxPreference) prefSet.findPreference(TRACKBALL_WAKE_PREF);
@@ -178,7 +187,12 @@ public class InputActivity extends PreferenceActivity implements ShortcutPickHel
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         boolean value;
-        if (preference == mTrackballWakePref) {
+        if (preference == mVibrateOnShutdownPref) {
+            value = mVibrateOnShutdownPref.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.VIBRATE_ON_SHUTDOWN,
+                    value ? 1 : 0);
+            return true;
+        } else if (preference == mTrackballWakePref) {
             value = mTrackballWakePref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.TRACKBALL_WAKE_SCREEN,
                     value ? 1 : 0);
