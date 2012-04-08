@@ -285,6 +285,8 @@
     <string name="pref_lockscreen_music_headset_summary">Zeige die Steuerelemente für Musik, wenn ein Kabel- oder Bluetooth-Headset angeschlossen ist</string>
     <string name="pref_lockscreen_always_music_controls_title">Immer anzeigen</string>
     <string name="pref_lockscreen_always_music_controls_summary">Die Steuerelemente für Musik immer anzeigen, egal ob gerade Musik abgespielt wird oder nicht</string>
+    <string name="pref_vibrate_on_shutdown_title">Vibration beim Ausschalten</string>
+    <string name="pref_vibrate_on_shutdown_summary">Legt fest ob beim Ausschalten eine Vibration stattfindet.</string>
     <string name="pref_trackball_wake_title">Trackball-Wecken</string>
     <string name="pref_trackball_wake_summary">Aufwecken des Gerätes durch Drücken des Trackballs</string>
     <string name="pref_volume_wake_title">Lautstärket.-Wecken</string>
