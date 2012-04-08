@@ -283,6 +283,8 @@
 	<string name="pref_lockscreen_music_headset_summary">Zobrazit ovládání hudby, pokud jsou připojena 3.5mm/USB a/nebo Bluetooth A2DP sluchátka</string>
 	<string name="pref_lockscreen_always_music_controls_title">Vždy zobrazit ovládání hudby</string>
 	<string name="pref_lockscreen_always_music_controls_summary">Zobrazit ovládání hudby, i když není nic přehráváno</string>
+	<string name="pref_vibrate_on_shutdown_title">Vibrovat při vypnutí</string>
+	<string name="pref_vibrate_on_shutdown_summary">Vypne nebo zapne zavibrování při vypnutí zařízení</string>
 	<string name="pref_trackball_wake_title">Probuzení trackballem</string>
 	<string name="pref_trackball_wake_summary">Stisk trackballu probudí zařízení</string>
 	<string name="pref_volume_wake_title">Probuzení ovladačem hlasitosti</string>
