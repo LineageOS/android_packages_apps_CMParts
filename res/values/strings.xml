@@ -292,6 +292,8 @@
     <string name="pref_lockscreen_music_headset_summary">Display music controls when a wired headset and/or Bluetooth A2DP headset is connected</string>
     <string name="pref_lockscreen_always_music_controls_title">Always display music controls</string>
     <string name="pref_lockscreen_always_music_controls_summary">Display music controls regardless of whether or not music is playing</string>
+    <string name="pref_vibrate_on_shutdown_title">Vibrate on shutdown</string>
+    <string name="pref_vibrate_on_shutdown_summary">Whether to vibrate on shutdown or not</string>
     <string name="pref_trackball_wake_title">Trackball wake</string>
     <string name="pref_trackball_wake_summary">Pressing the trackball wakes the device</string>
     <string name="pref_volume_wake_title">Volume rocker wake</string>
