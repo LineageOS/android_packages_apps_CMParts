@@ -108,7 +108,7 @@
     <string name="ui_status_bar_carrier_label_use_plmn">PLMN</string>
     <string name="ui_status_bar_carrier_label_use_custom">カスタムテキスト</string>
     <string name="ui_status_bar_carrier_label_custom_title">カスタムキャリアラベル</string>
-    <string name="ui_status_bar_carrier_label_custom_summary">通信事業者のキャリアラベル以外のテキストを指定</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">通信事業者のキャリアラベル以外のテキストを指定する. 改行には$nを, デフォルト,plmn,spnにはそれぞれ$d,$p,$sを指定</string>
     <string name="ui_status_bar_toggle_brightness">明るさのコントロール</string>
     <string name="ui_status_bar_toggle_brightness_summary">ステータスバーをスライディングすることで明るさの調整ができるようにする</string>
     <string name="ui_status_bar_toggle_info">自動明るさ調整は有効</string>

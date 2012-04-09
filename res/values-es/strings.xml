@@ -108,7 +108,7 @@
     <string name="ui_status_bar_carrier_label_use_plmn">Mostrar PLMN</string>
     <string name="ui_status_bar_carrier_label_use_custom">Texto personalizado</string>
     <string name="ui_status_bar_carrier_label_custom_title">Etiqueta personalizada</string>
-    <string name="ui_status_bar_carrier_label_custom_summary">Cambiar el texto para el nombre del operador</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">Cambiar el texto para el nombre del operador. Usa \"$n\" para nueva línea y \"$d\", \"$p\" o \"$s\" para predeterminado, PLMN o SPN respectivamente</string>
     <string name="ui_status_bar_toggle_brightness">Barra de estado de control de brillo</string>
     <string name="ui_status_bar_toggle_brightness_summary">Permite el ajuste de brillo deslizando a través de la barra de estado</string>
     <string name="ui_status_bar_toggle_info">Brillo automático está habilitado</string>
