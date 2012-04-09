@@ -123,7 +123,7 @@
     <string name="ui_status_bar_carrier_label_use_plmn">Toon naam netwerkprovider (PLMN)</string>
     <string name="ui_status_bar_carrier_label_use_custom">Toon eigen tekst</string>
     <string name="ui_status_bar_carrier_label_custom_title">Eigen tekst</string>
-    <string name="ui_status_bar_carrier_label_custom_summary">Eigen tekst die wordt getoond als provider label</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">Eigen tekst die wordt getoond als provider label. Gebruik $n voor een nieuwe regel, gebruik $d, $s of $p voor standaard, SPN of PLMN tekst.</string>
     <string name="ui_status_bar_toggle_brightness">Statusbalkhelderheid controle</string>
     <string name="ui_status_bar_toggle_brightness_summary">Sta toe om de helderheid aan te passen door over de statusbalk te schuiven</string>
     <string name="ui_status_bar_toggle_info">Automatische helderheid is geactiveerd</string>

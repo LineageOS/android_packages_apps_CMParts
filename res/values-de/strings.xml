@@ -108,7 +108,7 @@
     <string name="ui_status_bar_carrier_label_use_plmn">Netzwerk-Betreiber-Name (PLMN)</string>
     <string name="ui_status_bar_carrier_label_use_custom">Benutzerdefiniert</string>
     <string name="ui_status_bar_carrier_label_custom_title">Benutzerdef. Betreiber</string>
-    <string name="ui_status_bar_carrier_label_custom_summary">Als Betreibername angezeigter Text</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">Als Betreibername angezeigter Text. ($n = Neue Zeile, $d = Standard, $p = Netzwerk-Betreiber-Name, $s = Service-Provider-Name)</string>
     <string name="ui_status_bar_toggle_brightness">Helligkeitsregler</string>
     <string name="ui_status_bar_toggle_brightness_summary">Erlaubt Änderung der Helligkeit, indem mit dem Finger über die Statusleiste gewischt wird</string>
     <string name="ui_status_bar_toggle_info">Automatische Helligkeit ist aktiviert</string>
