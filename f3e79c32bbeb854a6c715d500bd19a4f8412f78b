@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAASH///Nk\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 669,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-04-11T01:01:08Z",
+      "side": 1,
+      "message": "replace tabs to spaces",
+      "revId": "f3e79c32bbeb854a6c715d500bd19a4f8412f78b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
