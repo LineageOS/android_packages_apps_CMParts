@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAASH///N4\u003d",
+        "filename": "res/values-de/arrays.xml",
+        "patchSetId": 16
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-04-11T00:57:50Z",
+      "side": 1,
+      "message": "fix blanks",
+      "revId": "f685eec97dec8ad9eb6f913ff9b08d60ca6a2a5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAASH///N0\u003d",
+        "filename": "res/values-de/arrays.xml",
+        "patchSetId": 16
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-04-11T00:57:50Z",
+      "side": 1,
+      "message": "fix blanks",
+      "revId": "f685eec97dec8ad9eb6f913ff9b08d60ca6a2a5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAASH///Ns\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 16
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-04-11T00:57:50Z",
+      "side": 1,
+      "message": "replace tabs to spaces",
+      "revId": "f685eec97dec8ad9eb6f913ff9b08d60ca6a2a5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
