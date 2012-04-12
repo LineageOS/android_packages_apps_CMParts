@@ -38,6 +38,8 @@
 
 	<string name="pref_electron_beam_animation_on">Animace zapnutí obrazovky</string>
 	<string name="pref_electron_beam_animation_off">Animace vypnutí obrazovky</string>
+	<string name="pref_rotation_animation_title">Animace rotace obrazovky</string>
+	<string name="pref_rotation_animation_summary">Vyžaduje restart zařízení</string>
 
 	<!-- User interface: Tablet tweaks -->
 	<string name="tablet_tweaks_title_head">Vylepšení pro tablet</string>
@@ -560,10 +562,10 @@
 	<string name="widget_render_effect_calibrated_cool">Kalib studené</string>
 
 	<!-- Expanded View Power Widget -->
-	<string name="title_widget_buttons">Prvky pro Power-widget</string>
-	<string name="title_expanded_widget">Power-widget v oznamovací oblasti</string>
-	<string name="summary_expanded_widget">Zobrazit tlačítka Power-widgetu v oznamovací oblasti</string>
-	<string name="title_expanded_hide_onchange">Skrýt po změně</string>
+	<string name="title_widget_buttons">Prvky pro Power-Widget</string>
+	<string name="title_expanded_widget">Power-Widget v oznamovací oblasti</string>
+	<string name="summary_expanded_widget">Zobrazit tlačítka Power-Widgetu v oznamovací oblasti</string>
+	<string name="title_expanded_hide_onchange">Skrýt oblast po změně</string>
 	<string name="summary_expanded_hide_onchange">Skrýt oznamovací oblast po změně nastavení</string>
 	<string name="title_expanded_hide_indicator">Skrýt indikátor</string>
 	<string name="summary_expanded_hide_indicator">Skrýt indikátory upozornění</string>
@@ -611,6 +613,9 @@
 	<string name="cm_sound_mode_soundVibrate">Zvuk + vibrace</string>
 	<string name="pref_flash_mode_title">Režim LED baterky</string>
 	<string name="pref_flash_mode_summary">Zvolte mezi normálním a vysokým jasem</string>
+	<string name="pref_mobiledatanetwork_mode_title">Mobilní data 2G/3G</string>
+	<string name="pref_mobiledatanetwork_mode_summary">Talčítko mobílních dat přepne režim sítě 2G/3G</string>
+
 
 	<!-- Backlight -->
 	<string name="backlight_title">Automatické podsvětlení</string>
