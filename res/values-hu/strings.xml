@@ -10,6 +10,7 @@
     <string name="display_settings_title_head">Megjelenés</string>
     <string name="display_settings_title_subhead">Megjelenés beállítások</string>
     <string name="display_settings_summary_head">Animációk  megjelenítése, forgatás, időtartamok</string>
+    <string name="display_settings_summary_head_nobacklight">Animációk  megjelenítése, forgatás, időtartamok</string>
     <string name="input_settings_title_head">Bevitel</string>
     <string name="input_settings_title_subhead">Beviteli beállítások</string>
     <string name="input_settings_summary_head">Beviteli viselkedés, gombok, rezgő visszajelzés</string>
@@ -37,6 +38,8 @@
 
     <string name="pref_electron_beam_animation_on">Képernyő-be animáció</string>
     <string name="pref_electron_beam_animation_off">Képernyő-ki animáció</string>
+    <string name="pref_rotation_animation_title">Forgatási animáció</string>
+    <string name="pref_rotation_animation_summary">Újraindítás szükséges</string>
 
     <!-- User interface : 180 degree rotation -->
 
@@ -60,6 +63,14 @@
     <string name="ui_status_bar_toggle_info">Az automatikus fényerő engedélyezve van</string>
     <string name="ui_status_bar_headset_title">Fejhallgató ikon</string>
     <string name="ui_status_bar_headset_summary">Fejhallgató csatlakoztatásakor állapotsori ikon megjelenítése</string>
+    <string name="ui_status_bar_carrier_label_title">Szolgáltató nevének típusa</string>
+    <string name="ui_status_bar_carrier_label_summary">Válassza ki mi jelenjen meg szolgáltatóként</string>
+    <string name="ui_status_bar_carrier_label_use_default">Alapértelmezett</string>
+    <string name="ui_status_bar_carrier_label_use_spn">SPN</string>
+    <string name="ui_status_bar_carrier_label_use_plmn">PLMN</string>
+    <string name="ui_status_bar_carrier_label_use_custom">Egyéni szöveg</string>
+    <string name="ui_status_bar_carrier_label_custom_title">Egyéni szolgáltatói név</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">A szolgáltató neve helyett egyéni szöveg megjelenítése</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED visszajelzés</string>
@@ -246,10 +257,17 @@
     <string name="pref_lockscreen_style_summary">Zárképernyő stílusának kiválasztása</string>
     <string name="pref_rotary_style_title">Forgó stílusa</string>
     <string name="pref_rotary_style_summary">Válaszd ki a forgó stílusát</string>
+    <string name="rotary_style_entry_normal">Normál</string>
+    <string name="rotary_style_entry_revamped">Megújúlt</string>
     <string name="pref_ringlock_style_title">Gyűrű stílusa</string>
     <string name="pref_ringlock_style_summary">Válaszd ki a gyűrűk stílusát</string>
+    <string name="ringlock_style_entry_bubbles">Buborék</string>
+    <string name="ringlock_style_entry_revamped">Megújúlt</string>
+    <string name="ringlock_style_entry_holo">Holo</string>
+    <string name="ringlock_style_entry_blade">Penge</string>
     <string name="lockscreen_style_entry_tabs">Csúszó fül</string>
     <string name="lockscreen_style_entry_rotary">Forgó</string>
+    <string name="lockscreen_style_entry_lense">Lencse</string>
     <string name="lockscreen_style_entry_ring">Gyűrű</string>
     <string name="pref_in_call_style_title">Bejövő hívás stílus</string>
     <string name="pref_in_call_style_summary">Bejövő hívás stílusának kiválasztása</string>
@@ -505,6 +523,8 @@
     <string name="cm_sound_mode_soundVibrate">Hang+Rezgés</string>
     <string name="pref_flash_mode_title">Vaku üzemmód</string>
     <string name="pref_flash_mode_summary">Magas/halálos sugár</string>
+    <string name="pref_mobiledatanetwork_mode_title">Adatkapcsolat auto 2G/3G</string>
+    <string name="pref_mobiledatanetwork_mode_summary">Adatkapcsolat engedélyezésekor automatikusan 3G-re vált, letiltásakor 2G-re.</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Automatikus háttérvilágítás</string>
@@ -740,6 +760,14 @@
     <string name="pref_use_16bpp_alpha_title">16bit-es átlátszóság</string>
     <string name="pref_use_16bpp_alpha_summary">Használata növeli a görgetés teljesítményét, de megjelenítési hibák előfordulhatnak (úraindítás szükséges)</string>
 
+    <!-- Performance Settings : Scrolling Cache -->
+    <string name="pref_scrollingcache_title">Görgetési gyorsítótár</string>
+    <string name="pref_scrollingcache_summary">A görgetési gyorsítótár növeli a görgetés teljesítményét viszont megnő a memóriahasználat</string>
+    <string name="pref_scrollingcache_force_enable">Erőltetett be</string>
+    <string name="pref_scrollingcache_default_enable">Alapértelmezetten be</string>
+    <string name="pref_scrollingcache_default_disable">Alapértelmezetten ki</string>
+    <string name="pref_scrollingcache_force_disable">Erőltetett ki</string>
+
     <!-- User interface: Tablet tweaks -->
     <string name="tablet_tweaks_title_head">Tablet finomhangolás</string>
     <string name="tablet_tweaks_summary_head">Táblagépen használatos beállítások melyek telefonon is működnek</string>
@@ -757,9 +785,9 @@
     <string name="tablet_tweaks_disable_fullscreen_summary">Felülvezérli a teljesképernyős módot, így az állapotsor mindig látható lesz</string>
     <string name="tablet_tweaks_unhide_button_list_head">Megjelenítendő gomb</string>
     <string name="tablet_tweaks_unhide_button_list_title">Válassza ki a megjelenítendő gombot</string>
-    <string name="tablet_tweaks_extend_pm_title">Kiterjesztett bekapcsolási menü</string>
-    <string name="tablet_tweaks_extend_pm_summary">Adja hozzá a home/vissza/menü gombokat a bekapcsolási menühöz</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Válasszon bekapcsolásmenü gombokat</string>
+    <string name="tablet_tweaks_extend_pm_title">Kiterjesztett kikapcsolási menü</string>
+    <string name="tablet_tweaks_extend_pm_summary">Adja hozzá a Home/Vissza/Menü gombokat a kikapcsolási menühöz</string>
+    <string name="tablet_tweaks_extend_pm_list_title">Válasszon kikapcsolás menü gombokat</string>
     <string name="tablet_tweaks_reverse_volume_behavior_title">Hangerő beállítások viselkedése</string>
     <string name="tablet_tweaks_reverse_volume_behavior_summary_off">A hangerőgomb működése alaphelyzetben van. Nyomja le hangerő váltáshoz, hosszan pedig a felhasználói beállításhoz</string>
     <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Hangerőgomok átállítva. Nyomja le a felhasználói művelethez, hosszan pedig hangerő váltáshoz</string>
@@ -770,12 +798,12 @@
     <string name="tablet_tweaks_vol_both_action_title">Mindkét hangerőgomb</string>
     <string name="tablet_tweaks_vol_both_action_summary">Figyelem: több készüléken a hangerőgomb mindkét felének lenyomása és a bekapcsológomb együtt a gyári beállítások visszaállítására szolgál</string>
     <string name="tablet_tweaks_long_vol_both_action_title">Mindkét hangerőgomb hosszan lenyomva</string>
-    <string name="tablet_tweaks_extend_pm_list_head">Bekapcsolásmenü gombok</string>
+    <string name="tablet_tweaks_extend_pm_list_head">Kikapcsolás menü gombok</string>
     <string name="tablet_tweaks_soft_buttons_list_head">Szoftveres gombok</string>
     <string name="tablet_soft_buttons_home_title">Home</string>
     <string name="tablet_soft_buttons_menu_title">Menü</string>
     <string name="tablet_soft_buttons_back_title">Vissza</string>
     <string name="tablet_soft_buttons_search_title">Keresés</string>
-    <string name="tablet_soft_buttons_quick_na_title">Rövid figyelmeztetések</string>
+    <string name="tablet_soft_buttons_quick_na_title">Gyors értesítések</string>
 
 </resources>

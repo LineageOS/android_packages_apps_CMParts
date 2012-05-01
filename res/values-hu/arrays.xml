@@ -28,6 +28,12 @@
         <item>Külső (SD)</item>
     </string-array>
 
+    <string-array name="haptic_feedback_entries">
+        <item>Globális beállítás</item>
+        <item>Be</item>
+        <item>Ki</item>
+    </string-array>
+
     <string-array name="pref_trackball_blink_rate_entries">
         <item>2 (Gyors)</item>
         <item>3</item>
@@ -148,6 +154,11 @@
         <item>Magas / Halálsugár</item>
     </string-array>
 
+    <string-array name="entries_mobiledatanetwork_widget">
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
         <item>1 (legtágabb)</item>
         <item>2</item>
@@ -228,6 +239,31 @@
         <item>Közepes</item>
         <item>Könnyű</item>
         <item>Nagyon könnyű</item>
+    </string-array>
+
+    <string-array name="entries_vol_actions">
+        <item>Nincs/Alap</item>
+        <item>Home</item>
+        <item>Menü</item>
+        <item>Vissza</item>
+        <item>Keresés</item>
+        <item>Bekapcsolás</item>
+        <item>Hívás</item>
+        <item>Hívás vége</item>
+        <item>Indít/Szünet</item>
+        <item>Következő szám</item>
+        <item>Előző szám</item>
+        <item>Home hosszan nyomva</item>
+    </string-array>
+
+    <string-array name="entries_unhide_button">
+        <item>Home</item>
+        <item>Menü</item>
+        <item>Vissza</item>
+        <item>Keresés</item>
+        <item>Kamera</item>
+        <item>Hang - fel</item>
+        <item>Hang - le</item>
     </string-array>
 
     <string-array name="entries_long_press_menu">
