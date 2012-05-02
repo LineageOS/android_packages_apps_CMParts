@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAASn//9LU\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 767,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-05-02T23:40:46Z",
+      "side": 1,
+      "message": "Kellenek a köt?jelek? Mindig bekapcsolva - Alapértelmezetten bekapcsolva - A. kikapcsolva - Mindig kikapcsolva négyes szerintem magyarbarátabb.",
+      "revId": "93c33ae5f48ebad32bc29295cbfdf8ca37974bf1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
