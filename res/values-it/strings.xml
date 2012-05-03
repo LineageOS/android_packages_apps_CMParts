@@ -38,6 +38,9 @@
     <string name="pref_electron_beam_animation_on">Animazione accensione schermo</string>
     <string name="pref_electron_beam_animation_off">Animazione spegnimento schermo</string>
 
+    <string name="pref_rotation_animation_title">Animazione rotazione</string>
+    <string name="pref_rotation_animation_summary">Riavvio richiesto</string>
+
     <!-- User interface: Tablet tweaks -->
     <string name="tablet_tweaks_title_head">Impostazioni Tablet</string>
     <string name="tablet_tweaks_summary_head">Raccolta delle impostazioni più utili per i tablet. Funzionanti anche su altri dispositivi</string>
@@ -99,6 +102,15 @@
     <string name="ui_status_bar_battery_summary">Scegli come visualizzare lo stato della batteria</string>
     <string name="ui_status_bar_compact_carrier_title">Etichetta operatore compatta</string>
     <string name="ui_status_bar_compact_carrier_summary">Utilizza un layout alternativo per l\'area delle notifiche rimpicciolendo l\'etichetta operatore.</string>
+    <string name="ui_status_bar_carrier_label_title">Stile etichetta operatore</string>
+    <string name="ui_status_bar_carrier_label_summary">Scegli come visualizzare l\'etichetta operatore</string>
+    <string name="ui_status_bar_carrier_label_use_default">Predefinita</string>
+    <string name="ui_status_bar_carrier_label_use_spn">Visualizza SPN</string>
+    <string name="ui_status_bar_carrier_label_use_plmn">Visualizza PLMN</string>
+    <string name="ui_status_bar_carrier_label_use_custom">Testo libero</string>
+    <string name="ui_status_bar_carrier_label_custom_title">Etichetta operatore</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">Testo utilizzato al posto dell\'etichetta operatore predefinita</string>
+
     <string name="ui_status_bar_toggle_brightness">Controllo luminosità</string>
     <string name="ui_status_bar_toggle_brightness_summary">Permette di regolare la luminosità scorrendo il dito lungo la barra di stato.</string>
     <string name="ui_status_bar_toggle_info">La luminosità automatica è attiva</string>
@@ -300,7 +312,7 @@
     <string name="pref_lockscreen_ring_unlock_middle_title">Sblocca con anello centrale</string>
     <string name="pref_lockscreen_ring_unlock_middle_summary">Scambia di posto l\'anello per lo sblocco e il lanciatore</string>
     <string name="pref_lockscreen_ring_minimal_title">Singolo anello</string>
-    <string name="pref_lockscreen_ring_minimal_summary">>Visualizza un solo anello al centro per lo sblocco</string>
+    <string name="pref_lockscreen_ring_minimal_summary">Visualizza un solo anello al centro per lo sblocco</string>
     <string name="pref_lockscreen_custom_background_title">Seleziona sfondo</string>
     <string name="pref_lockscreen_custom_background_dialog_title">Seleziona sfondo</string>
     <string name="pref_lockscreen_custom_background_summary">Seleziona un\'immagine o un colore come sfondo del lockscreen</string>
@@ -321,6 +333,12 @@
     <string name="lockscreen_style_entry_rotary">Rotante</string>
     <string name="lockscreen_style_entry_lense">Lense</string>
     <string name="lockscreen_style_entry_ring">Anelli</string>
+    <string name="pref_ringlock_style_title">Stile Anelli</string>
+    <string name="pref_ringlock_style_summary">Scegli lo stile degli anelli</string>
+    <string name="ringlock_style_entry_bubbles">Bolle</string>
+    <string name="ringlock_style_entry_revamped">Moderno</string>
+    <string name="ringlock_style_entry_holo">Holo</string>
+    <string name="ringlock_style_entry_blade">Blade</string>
     <string name="pref_in_call_style_title">Stile chiamata in arrivo</string>
     <string name="pref_in_call_style_summary">Seleziona lo stile del widget accetta/rifiuta per le chiamate in arrivo</string>
     <string name="incall_style_entry_tabs">Tab scorrevoli</string>
@@ -446,6 +464,14 @@
     <string name="pref_use_16bpp_alpha_title">Usa trasparenza a 16bit</string>
     <string name="pref_use_16bpp_alpha_summary">La modalità a 16bit migliora la velocità di scrolling ma può influenzare negativamente la visualizzazione degli elementi trasparenti (riavvio richiesto)</string>
 
+    <!-- Performance Settings : Scrolling Cache -->
+    <string name="pref_scrollingcache_title">Scrolling cache</string>
+    <string name="pref_scrollingcache_summary">La Scrolling cache potrebbe migliorare le performance utilizzando maggior memoria</string>
+    <string name="pref_scrollingcache_force_enable">Attiva (Forzata)</string>
+    <string name="pref_scrollingcache_default_enable">Attiva (Default)</string>
+    <string name="pref_scrollingcache_default_disable">Disattiva (Default) </string>
+    <string name="pref_scrollingcache_force_disable">Disattiva (Forzata)</string>
+
     <!-- Performance Settings : Purgeable Assets -->
     <string name="pref_purgeable_assets_title">Recupera memoria bitmap</string>
     <string name="pref_purgeable_assets_summary">Permette al sistema di recuperare la memoria occupata dalle bitmap (riavvio richiesto)</string>
@@ -453,6 +479,10 @@
     <!-- Performance Settings : VM Heap Size -->
     <string name="pref_heapsize_title">Dimensione heap VM</string>
     <string name="pref_heapsize_summary">Massima quantità di memoria per heap VM (riavvio richiesto)</string>
+
+    <!-- Performance : Disable bootanimation -->
+    <string name="pref_disable_bootanimation_title">Disabilita l\'animazione di boot</string>
+    <string name="pref_disable_bootanimation_summary">Non visualizzando l\'animazione di boot l\'avvio dello smartphone sarà più veloce</string>
 
     <!-- Performance Settings : Warning dialog -->
     <string name="performance_settings_warning_title">WARNING: Dragons Ahead!</string>
@@ -629,6 +659,8 @@
     <string name="sound_vibrate_in_call_title">Vibra durante chiamata</string>
     <string name="sound_vibrate_in_call_summary_off">Nessuna vibrazione in caso di notifiche durante una chiamata</string>
     <string name="sound_vibrate_in_call_summary_on">Vibrazione attiva in caso di notifiche durante una chiamata</string>
+    <string name="sound_lock_volume_keys_title">Blocco tasti volume</string>
+    <string name="sound_lock_volume_keys_summary">Impedisce di variare il volume quando il telefono è bloccato</string>
     <string name="sound_camera_shutter_disable_title">Silenzia otturatore</string>
     <string name="sound_camera_shutter_disable_summary_on">Non verrà riprodotto il suono dell\'otturatore</string>
     <string name="sound_camera_shutter_disable_summary_off">Verrà riprodotto il suono dell\'otturatore</string>
@@ -768,7 +800,7 @@
     <string name="cpu_settings_title">Impostazioni CPU</string>
     <string name="cpu_title">Impostazioni CPU</string>
     <string name="cpu_summary">Impostazioni frequenza e governor</string>
-    <string name="cpu_governors_title">Governor disponibili</string>
+    <string name="cpu_governors_title">Governor</string>
     <string name="cpu_governors_summary">Lista di governor disponibili\nAttuale: %S</string>
     <string name="cpu_min_freq_title">Minima frequenza CPU</string>
     <string name="cpu_min_freq_summary">Minima frequenza CPU\nAttuale: %s</string>
