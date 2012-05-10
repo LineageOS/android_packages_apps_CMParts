@@ -57,7 +57,7 @@
     <string-array name="pref_compcache_size_entries">
         <item>Uitgeschakeld</item>
         <item>10%</item>
-        <item>18% (standaard)</item>
+        <item>18%</item>
         <item>26%</item>
     </string-array>
 

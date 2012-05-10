@@ -67,7 +67,7 @@
     <string-array name="pref_compcache_size_entries">
         <item>禁用</item>
         <item>10%</item>
-        <item>18% (默认)</item>
+        <item>18%</item>
         <item>26%</item>
     </string-array>
 
