@@ -47,7 +47,7 @@
     <string-array name="pref_compcache_size_entries">
         <item>없음</item>
         <item>10%</item>
-        <item>18% (기본)</item>
+        <item>18%</item>
         <item>26%</item>
     </string-array>
 

@@ -33,7 +33,7 @@
   <string-array name="pref_compcache_size_entries">
     <item>מבוטל</item>
     <item>10%</item>
-    <item>18% (ברירת מחדל)</item>
+    <item>18%</item>
     <item>26%</item>
   </string-array>
   <string-array name="entries_light_filter_window">
