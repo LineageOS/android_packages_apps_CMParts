@@ -10,11 +10,13 @@
 
         <ListPreference android:key="pref_network_mode" android:dialogTitle="@string/pref_network_mode_title"
             android:title="@string/pref_network_mode_title" android:summary="@string/pref_network_mode_summary"
-            android:entries="@array/entries_network_widget" android:entryValues="@array/values_network_widget" />
+            android:entries="@array/entries_network_widget" android:entryValues="@array/values_network_widget"
+            android:persistent="false" />
 
         <ListPreference android:key="pref_screentimeout_mode" android:dialogTitle="@string/pref_screentimeout_mode_title"
-            android:title="@string/pref_screentimeout_mode_title" android:summary="@string/pref_screentimeout_mode_summary"  
-            android:entries="@array/entries_screentimeout_widget" android:entryValues="@array/values_screentimeout_widget" />
+            android:title="@string/pref_screentimeout_mode_title" android:summary="@string/pref_screentimeout_mode_summary"
+            android:entries="@array/entries_screentimeout_widget" android:entryValues="@array/values_screentimeout_widget"
+            android:persistent="false" />
 
         <MultiSelectListPreference android:key="pref_ring_mode" android:dialogTitle="@string/pref_ring_mode_title"
             android:title="@string/pref_ring_mode_title" android:summary="@string/pref_ring_mode_summary"
@@ -23,10 +25,12 @@
 
         <ListPreference android:key="pref_flash_mode" android:dialogTitle="@string/pref_flash_mode_title"
             android:title="@string/pref_flash_mode_title" android:summary="@string/pref_flash_mode_summary"
-            android:entries="@array/entries_flash_widget" android:entryValues="@array/values_flash_widget" />
+            android:entries="@array/entries_flash_widget" android:entryValues="@array/values_flash_widget"
+            android:persistent="false" />
 
         <ListPreference android:key="pref_mobiledatanetwork_mode" android:dialogTitle="@string/pref_mobiledatanetwork_mode_title"
             android:title="@string/pref_mobiledatanetwork_mode_title" android:summary="@string/pref_mobiledatanetwork_mode_summary"
-            android:entries="@array/entries_mobiledatanetwork_widget" android:entryValues="@array/values_mobiledatanetwork_widget" />
+            android:entries="@array/entries_mobiledatanetwork_widget" android:entryValues="@array/values_mobiledatanetwork_widget"
+            android:persistent="false" />
     </PreferenceCategory>
 </PreferenceScreen>
