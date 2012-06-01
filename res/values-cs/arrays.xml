@@ -57,7 +57,7 @@
 	<string-array name="pref_compcache_size_entries">
 		<item>Nepoužívat</item>
 		<item>10%</item>
-		<item>18%</item>
+		<item>18% (výchozí)</item>
 		<item>26%</item>
 	</string-array>
 
@@ -151,6 +151,11 @@
 	<string-array name="entries_flash_widget">
 		<item>Normální</item>
 		<item>Vysoký / Paprsek smrti</item>
+	</string-array>
+
+	<string-array name="entries_mobiledatanetwork_widget">
+		<item>Zapnuto</item>
+		<item>Vypnuto</item>
 	</string-array>
 
 	<string-array name="pref_lockscreen_gestures_sensitivity_entries">
