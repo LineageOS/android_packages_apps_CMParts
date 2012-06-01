@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAT3///2w\u003d",
+        "filename": "res/values-cs/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 129
+      },
+      "writtenOn": "2012-06-01T16:07:07Z",
+      "side": 1,
+      "message": "This has been removed by http://review.cyanogenmod.com/15808",
+      "revId": "7c4f03df330d4fa80ceaff757a390f39c882a395",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAT3///2s\u003d",
+        "filename": "res/values-cs/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 129
+      },
+      "writtenOn": "2012-06-01T16:07:07Z",
+      "side": 1,
+      "message": "wrong order, first item has to be Vypnuto, second Zapnuto",
+      "revId": "7c4f03df330d4fa80ceaff757a390f39c882a395",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAT3///2o\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 617,
+      "author": {
+        "id": 129
+      },
+      "writtenOn": "2012-06-01T16:07:07Z",
+      "side": 1,
+      "message": "typo in \u0027mobilnich\u0027 - the first \u0027i\u0027",
+      "revId": "7c4f03df330d4fa80ceaff757a390f39c882a395",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
