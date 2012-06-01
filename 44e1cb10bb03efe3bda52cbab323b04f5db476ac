@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAT3///2E\u003d",
+        "filename": "res/values-cs/arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 129
+      },
+      "writtenOn": "2012-06-01T16:29:31Z",
+      "side": 1,
+      "message": "redundant tabs",
+      "revId": "44e1cb10bb03efe3bda52cbab323b04f5db476ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
