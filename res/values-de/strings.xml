@@ -10,6 +10,7 @@
     <string name="display_settings_title_head">Bildschirm</string>
     <string name="display_settings_title_subhead">Bildschirm-Einstellungen</string>
     <string name="display_settings_summary_head">Bildschirm-Animationen, Ausrichtung, Helligkeitssteuerung</string>
+    <string name="display_settings_summary_head_nobacklight">Bildschirm-Animationen, Ausrichtung</string>
     <string name="input_settings_title_head">Eingabe</string>
     <string name="input_settings_title_subhead">Eingabeeinstellungen</string>
     <string name="input_settings_summary_head">Tasten, Haptisches Feedback, …</string>
