@@ -33,7 +33,7 @@
     </string-array>
 
     <string-array name="pref_trackball_blink_rate_entries">
-        <item>Gebruik instellingen van applicatie</item>
+        <item>Instellingen van applicatie gebruiken</item>
         <item>2 (snel)</item>
         <item>3</item>
         <item>4 (gemiddeld)</item>
@@ -197,8 +197,8 @@
 
     <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
         <item>Verberg</item>
-        <item>Toon eerste regel</item>
-        <item>Toon alles</item>
+        <item>Eerste regel tonen</item>
+        <item>Alles tonen</item>
     </string-array>
 
     <string-array name="pref_overscroll_effect_entries">
@@ -222,13 +222,13 @@
         <item>Menu</item>
         <item>Terug</item>
         <item>Zoeken</item>
-        <item>Aan- en uitknop</item>
+        <item>Aan-/uitknop</item>
         <item>Bellen</item>
-        <item>Beëindig oproep</item>
+        <item>Oproep beëindigen</item>
         <item>Afspelen/pauze</item>
         <item>Volgende nummer</item>
         <item>Vorige nummer</item>
-        <item>Lang indrukken home-knop</item>
+        <item>Lang indrukken homeknop</item>
     </string-array>
 
     <string-array name="entries_unhide_button">
@@ -246,7 +246,7 @@
         <item>Softwaretoetsenbord</item>
         <item>Zoekknop</item>
         <item>Zelf gekozen applicatie</item>
-        <item>Schakel statusbalk in/uit</item>
+        <item>Statusbalk in-/uitschakelen</item>
     </string-array>
 
 </resources> 
