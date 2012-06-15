@@ -28,68 +28,68 @@
     <string name="input_settings_title_head">Invoer</string>
     <string name="input_settings_title_subhead">Invoerinstellingen</string>
     <string name="input_settings_summary_head">Invoergedrag, knoppen, haptische feedback</string>
-    <string name="interface_settings_title_head">Interface</string>
-    <string name="interface_settings_summary_head">Interface-tweaks, overscrolling, rendereffect</string>
+    <string name="interface_settings_title_head">Uiterlijk</string>
+    <string name="interface_settings_summary_head">Uiterlijktweaks, overscrolling, rendereffect</string>
     <string name="lockscreen_settings_title_head">Vergrendelscherm</string>
-    <string name="lockscreen_settings_title_subhead">Vergrendelscherm-instellingen</string>
-    <string name="lockscreen_settings_summary_head">Vergrendelscherm-gebaren, -stijl, ontgrendelopties</string>
+    <string name="lockscreen_settings_title_subhead">Vergrendelscherminstellingen</string>
+    <string name="lockscreen_settings_summary_head">Vergrendelschermgebaren, -stijl, ontgrendelinstellingen</string>
     <string name="performance_settings_title_head">Prestaties</string>
     <string name="performance_settings_title_subhead">Prestatie-instellingen</string>
-    <string name="performance_settings_summary_head">Prestatietweaks, JIT, VM-heapgrootte</string>
+    <string name="performance_settings_summary_head">Prestatietweaks, JIT-compiler, VM-heapgrootte</string>
     <string name="sound_settings_title_head">Geluid</string>
     <string name="sound_settings_title_subhead">Geluidsinstellingen</string>
     <string name="sound_settings_summary_head">Volumes, audiofocus, stille uren</string>
     <string name="system_settings_title_head">Systeem</string>
     <string name="system_settings_title_subhead">Systeeminstellingen</string>
-    <string name="system_settings_summary_head">Changelog, statistieken, updatenotificaties</string>
+    <string name="system_settings_summary_head">Lijst van wijzigingen, statistieken, updatenmeldingen</string>
 
     <!--  Update Notifications -->
-    <string name="updatenotify_title">Updatenotificaties</string>
-    <string name="updatenotify_summary">Ontvang pushnotificaties bij nieuwe updates</string>
+    <string name="updatenotify_title">Updatemeldingen</string>
+    <string name="updatenotify_summary">Pushmeldingen ontvangen bij nieuwe updates</string>
 
     <!-- User interface -->
-    <string name="ui_title">Gebruikersinterface</string>
+    <string name="ui_title">Gebruikersomgeving</string>
 
-    <string name="pref_electron_beam_animation_on">Animatie bij aanzetten scherm</string>
+    <string name="pref_electron_beam_animation_on">Animatie bij inschakelen scherm</string>
     <string name="pref_electron_beam_animation_off">Animatie bij uitschakelen scherm</string>
     <string name="pref_rotation_animation_title">Rotatie-animatie</string>
-    <string name="pref_rotation_animation_summary">Vereist een herstart van het toestel</string>
+    <string name="pref_rotation_animation_summary">Herstart vereist</string>
 
     <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Tablet-tweaks</string>
+    <string name="tablet_tweaks_title_head">Tablettweaks</string>
     <string name="tablet_tweaks_summary_head">Tabletinstellingen. Mogelijk ook werkend voor telefoons</string>
-    <string name="tablet_tweaks_sb_bottom_title">Statusbalk onderin</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Geef statusbalk onderaan het scherm weer. Handig voor tablets die softwareknoppen gebruiken voor home, menu,\u2026 in de statusbalk.</string>
+    <string name="tablet_tweaks_sb_bottom_title">Statusbalk onderaan</string>
+    <string name="tablet_tweaks_sb_bottom_summary">Statusbalk onderaan het scherm tonen. Handig voor tablets die softwareknoppen gebruiken voor home, menu,\u2026 in de statusbalk.</string>
     <string name="tablet_tweaks_status_bar_dead_zone_title">Inactieve zone</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Voeg een \'inactieve zone\' ter grootte van een half scherm toe aan het midden van de statusbalk.</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">\'Inactieve zone\' ter grootte van een half scherm toevoegen aan het midden van de statusbalk.</string>
     <string name="tablet_tweaks_soft_buttons_left_title">Softwareknoppen links</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Plaats softwareknoppen aan de linkerkant van de statusbalk.</string>
-    <string name="tablet_tweaks_soft_button_list_title">Kies softwareknoppen.</string>
-    <string name="tablet_tweaks_interface_head">Interface</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">Softwareknoppen aan de linkerkant van de statusbalk plaatsen.</string>
+    <string name="tablet_tweaks_soft_button_list_title">Softwareknoppen kiezen</string>
+    <string name="tablet_tweaks_interface_head">Uiterlijk</string>
     <string name="tablet_tweaks_disable_lockscreen_title">Vergrendelscherm uitsch.</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">Indien ingeschakeld wordt het vergrendelscherm niet getoond. Ook niet tijdens het opstarten van het toestel of het aanzetten van het scherm.</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Schakel volledig scherm uit</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Schakel volledig scherm uit. Statusbalk is altijd zichtbaar, tenzij deze handmatig verborgen wordt met de \'weergeefknop\'.</string>
-    <string name="tablet_tweaks_unhide_button_list_head">Weergeefknop</string>
-    <string name="tablet_tweaks_unhide_button_list_title">Kies weergeefknop</string>
-    <string name="tablet_tweaks_extend_pm_title">Uitgebreide powermenu</string>
-    <string name="tablet_tweaks_extend_pm_summary">Voeg home, terug, menu,\u2026 acties toe aan het powermenu</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Kies powermenu-knoppen</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">Vergrendelscherm wordt niet getoond, ook niet tijdens het opstarten van het toestel en het aanzetten van het scherm.</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">Volledig scherm uitschakelen</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">Statusbalk is altijd zichtbaar, tenzij deze handmatig wordt verborgen met de \'weergaveknop\'.</string>
+    <string name="tablet_tweaks_unhide_button_list_head">Weergaveknop</string>
+    <string name="tablet_tweaks_unhide_button_list_title">Weergaveknop kiezen</string>
+    <string name="tablet_tweaks_extend_pm_title">Uitgebreid energiemenu</string>
+    <string name="tablet_tweaks_extend_pm_summary">Home-, terug-, menu-,\u2026 acties toevoegen aan het energiemenu</string>
+    <string name="tablet_tweaks_extend_pm_list_title">Knoppen energiemenu kiezen</string>
     <string name="tablet_tweaks_reverse_volume_behavior_title">Volumegedrag</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Volumeknoppen gedragen zich normaal. Druk om volume te veranderen, druk lang voor gebruikersinteractie</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Volumeknoppen-gedrag omdraaien. Druk voor gebruikersinteractie, druk lang om volume te veranderen</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Gedrag van volumeknoppen is normaal. Druk om volume te veranderen, druk lang voor gebruikersinteractie</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Gedrag van volumeknoppen omdraaien. Druk voor gebruikersinteractie, druk lang om volume te veranderen</string>
 
     <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">Volumeknoppen opnieuw instellen</string>
-    <string name="tablet_tweaks_long_volp_action_title">Druk volume-omhoog lang in</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Wijs home, terug, menu,\u2026 acties toe aan lang drukken op de knop voor verhogen van volume. Werkt alleen als het scherm aan is.</string>
-    <string name="tablet_tweaks_long_volm_action_title">Druk volume-omlaag lang in</string>
+    <string name="tablet_tweaks_input_head">Volumeknoppen herstellen</string>
+    <string name="tablet_tweaks_long_volp_action_title">Houd volume omhoog-knop lang ingedrukt</string>
+    <string name="tablet_tweaks_long_volp_action_summary">Home-, terug-, menu-,\u2026 acties toewijzen aan lang op de knop drukken voor verhogen van volume. Werkt alleen als het scherm aan is.</string>
+    <string name="tablet_tweaks_long_volm_action_title">Houd volume omlaag-knop lang ingedrukt</string>
     <string name="tablet_tweaks_vol_both_action_title">Beide volumeknoppen</string>
     <string name="tablet_tweaks_vol_both_action_summary">Sommige toestellen voeren een hard-reset uit bij het indrukken van beide volumeknoppen en de powerknop.</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Druk beide volumeknoppen lang in</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">Houd beide volumeknoppen lang ingedrukt</string>
 
     <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">Powermenu-knoppen</string>
+    <string name="tablet_tweaks_extend_pm_list_head">Knoppen energiemenu</string>
 
     <!-- User interface: Tablet tweaks -> soft buttons -->
     <string name="tablet_tweaks_soft_buttons_list_head">Softwareknoppen</string>
@@ -97,7 +97,7 @@
     <string name="tablet_soft_buttons_menu_title">Menu</string>
     <string name="tablet_soft_buttons_back_title">Terug</string>
     <string name="tablet_soft_buttons_search_title">Zoeken</string>
-    <string name="tablet_soft_buttons_quick_na_title">Snelle notificaties</string>
+    <string name="tablet_soft_buttons_quick_na_title">Snelle meldingen</string>
 
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Automatische schermoriëntatie</string>
@@ -109,62 +109,62 @@
     <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">Statusbalktweaks</string>
     <string name="ui_status_bar_am_pm_title">AM/PM-stijl</string>
-    <string name="ui_status_bar_am_pm_summary">Geef AM/PM-stijl naast klok weer</string>
-    <string name="ui_status_bar_clock_title">Geef klok weer</string>
-    <string name="ui_status_bar_clock_summary">Statusbalkklok wordt verborgen, indien uitgeschakeld</string>
-    <string name="ui_status_bar_battery_title">Batterijstatus-stijl</string>
+    <string name="ui_status_bar_am_pm_summary">\'AM/PM\' naast klok tonen</string>
+    <string name="ui_status_bar_clock_title">Klok tonen</string>
+    <string name="ui_status_bar_clock_summary">Statusbalkklok verborgen indien uitgeschakeld</string>
+    <string name="ui_status_bar_battery_title">Batterijstatusstijl</string>
     <string name="ui_status_bar_battery_summary">Stijl van batterijstatus</string>
     <string name="ui_status_bar_compact_carrier_title">Kleinere providerlabel</string>
-    <string name="ui_status_bar_compact_carrier_summary">Gebruik alternatieve notificatielayout met kleinere providerlabel. Liever met powerwidget aan (herstart noodzakelijk)</string>
+    <string name="ui_status_bar_compact_carrier_summary">Alternatieve meldingsindeling gebruiken met kleinere providerlabel. Liever met powerwidget aan (herstart vereist)</string>
     <string name="ui_status_bar_carrier_label_title">Providerlabel</string>
-    <string name="ui_status_bar_carrier_label_summary">Verander wat als providerlabel wordt getoond</string>
+    <string name="ui_status_bar_carrier_label_summary">Inhoud providerlabel wijzigen</string>
     <string name="ui_status_bar_carrier_label_use_default">Standaard</string>
-    <string name="ui_status_bar_carrier_label_use_spn">Toon naam serviceprovider (SPN)</string>
-    <string name="ui_status_bar_carrier_label_use_plmn">Toon naam netwerkprovider (PLMN)</string>
-    <string name="ui_status_bar_carrier_label_use_custom">Toon eigen tekst</string>
+    <string name="ui_status_bar_carrier_label_use_spn">Naam serviceprovider (SPN)</string>
+    <string name="ui_status_bar_carrier_label_use_plmn">Naam netwerkprovider (PLMN)</string>
+    <string name="ui_status_bar_carrier_label_use_custom">Eigen tekst</string>
     <string name="ui_status_bar_carrier_label_custom_title">Eigen tekst</string>
-    <string name="ui_status_bar_carrier_label_custom_summary">Eigen tekst die wordt getoond als provider label</string>
-    <string name="ui_status_bar_toggle_brightness">Statusbalkhelderheid controle</string>
-    <string name="ui_status_bar_toggle_brightness_summary">Sta toe om de helderheid aan te passen door over de statusbalk te schuiven</string>
-    <string name="ui_status_bar_toggle_info">Automatische helderheid is geactiveerd</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">Eigen tekst die wordt getoond als providerlabel</string>
+    <string name="ui_status_bar_toggle_brightness">Statusbalkhelderheid controleren</string>
+    <string name="ui_status_bar_toggle_brightness_summary">Staat toe de helderheid te wijzigen door over de statusbalk te schuiven</string>
+    <string name="ui_status_bar_toggle_info">Automatische helderheid geactiveerd</string>
     <string name="ui_status_bar_cm_signal_text_title">Signaalweergave</string>
-    <string name="ui_status_bar_cm_signal_text_summary">Geef dBm-waarden i.p.v. signaalstreepjes</string>
+    <string name="ui_status_bar_cm_signal_text_summary">dBm-waarden i.p.v. signaalstreepjes</string>
     <string name="ui_status_bar_cm_signal_text_show_bars">Signaalstreepjes</string>
     <string name="ui_status_bar_cm_signal_text_show_text">Signaaltekst</string>
     <string name="ui_status_bar_cm_signal_text_show_text_dbm">Signaaltekst dBm</string>
-    <string name="ui_status_bar_headset_title">Geef headseticoon weer</string>
-    <string name="ui_status_bar_headset_summary">Headseticoon zal verschijnen als de headset is ingeplugd</string>
+    <string name="ui_status_bar_headset_title">Headseticoon tonen</string>
+    <string name="ui_status_bar_headset_summary">Headseticoon tonen als een headset is ingeplugd</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED-notificaties</string>
-    <string name="trackball_summary">Verander kleur- en oplichtinstellingen van trackball/LED-notificaties</string>
+    <string name="trackball_summary">Kleur- en oplichtinstellingen van trackball-/LED-notificaties wijzigen</string>
 
     <!-- User interface : WebView -->
     <string name="pref_pinch_reflow_title">Herschikken na pinch-in</string>
-    <string name="pref_pinch_reflow_summary">Herschik webinhoud direct na pinch-to-zoom</string>
+    <string name="pref_pinch_reflow_summary">Webinhoud direct na pinch-to-zoom herschikken</string>
 
     <!-- User interface : Share menu for screenshots -->
-    <string name="pref_share_screenshot_title">Deel schermafbeeldingen</string>
-    <string name="pref_share_screenshot_summary">Laat deelmenu zien bij het nemen van een schermafbeelding</string>
+    <string name="pref_share_screenshot_title">Schermafbeeldingen delen</string>
+    <string name="pref_share_screenshot_summary">Deelmenu tonen bij het nemen van een schermafbeelding</string>
 
     <!-- User interface : Overscroll -->
     <string name="ui_overscroll_title">Overscrolling</string>
     <string name="pref_overscroll_title">Overscrolleffect</string>
-    <string name="pref_overscroll_summary">Kies weergave scrollbare objecten bij overscrolling</string>
+    <string name="pref_overscroll_summary">Weergave scrollbare objecten bij overscrolling kiezen</string>
     <string name="pref_overscroll_weight_title">Overscrollingsintensiteit</string>
-    <string name="pref_overscroll_weight_summary">Selecteer de intensiteit van scrollbare objecten</string>
+    <string name="pref_overscroll_weight_summary">Intensiteit van scrollbare objecten selecteren</string>
 
     <!-- User interface : Lock Screen -->
     <string name="pref_lockscreen_delay_title">Vertraging</string>
     <string name="pref_lockscreen_security_title">Beveiliging voor schermontgrendeling</string>
-    <string name="pref_lockscreen_security_delay_note_title">N.B.</string>
+    <string name="pref_lockscreen_security_delay_note_title">Let op</string>
     <string name="pref_lockscreen_security_delay_note_summary">Als schermvergrendeling is ingesteld op geen, zullen alleen de vertragingsinstellingen worden gebruikt</string>
-    <string name="pref_lockscreen_security_timeout_lock_delay">Schermtime-out-vertraging</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay">Vertraging schermtime-out</string>
     <string name="pref_lockscreen_security_screenoff_lock_delay">Scherm-uitzettingsvertraging</string>
     <string name="pref_lockscreen_security_timeout_lock_delay_summary">Hoe lang het vergrendelscherm vertraagd wordt als het scherm uitgaat</string>
     <string name="pref_lockscreen_security_screenoff_lock_delay_summary">Hoe lang het vergrendelscherm vertraagd wordt als het scherm uitgeschakeld wordt</string>
     <string name="pref_lockscreen_slide_title">Schuifbalk</string>
-    <string name="pref_lockscreen_slide_delay_note_title">N.B.</string>
+    <string name="pref_lockscreen_slide_delay_note_title">Let op</string>
     <string name="pref_lockscreen_slide_delay_note_summary">Zelfs ingeschakeld zal de schuifbalk alleen verschijnen als de beveiligde vertraging langer is dan de schuifbalkvertraging</string>
     <string name="pref_lockscreen_slide_delay_title">Schakel schuifbalkvertraging in</string>
     <string name="pref_lockscreen_slide_delay_summary">Laat schuifbalkontgrendeling met een andere vertraging zien voor de beveiligde ontgrendeling</string>
@@ -218,7 +218,7 @@
     <string name="trackball_category_edit_title">Pas categorie-instellingen aan</string>
     <string name="trackball_category_edit_summary">Pas de standaardinstellingen voor deze categorie aan</string>
     <string name="trackball_reset_all">Herstel alle kleuren en categorieën</string>
-    <string name="trackball_color_notice_title">N.B.:</string>
+    <string name="trackball_color_notice_title">Let op:</string>
     <string name="trackball_color_notice_summary">Niet alle kleuren kunnen op alle toestellen worden weergegeven</string>
     <string name="trackball_category_unconfigured">Niet geconfigureerd</string>
     <string name="trackball_category_misc">Diversen</string>
@@ -367,7 +367,7 @@
     <string name="pref_volbtn_music_controls_summary">Druk lang op de volumeknoppen om door een nummer te bladeren als het scherm uit is</string>
     <string name="pref_cambtn_music_controls_title">Beheer muziek met cameraknop</string>
     <string name="pref_cambtn_music_controls_summary">Druk lang op de cameraknop om een nummer te starten/pauzeren als het scherm uit is</string>
-    <string name="lockscreen_widgets_note_title">N.B.</string>
+    <string name="lockscreen_widgets_note_title">Let op</string>
     <string name="lockscreen_widgets_note_summary">Als gekozen wordt voor de lensstijl worden alle widgets behalve die voor muziekbeheer verborgen.</string>
     <string name="lockscreen_calendar_title">Vergrendelschermagenda</string>
     <string name="pref_lockscreen_calendar_alarm_title">Geef volgende afspraak weer</string>
@@ -689,7 +689,7 @@
     <string name="sound_notifications_title">Notificaties</string>
     <string name="sound_rings_title">Beltonen</string>
     <string name="sound_alarms_title">Alarmen</string>
-    <string name="sound_note_title">N.B.</string>
+    <string name="sound_note_title">Let op</string>
     <string name="sound_note_summary">Onderstaande instellingen worden alleen toegepast als een headset is aangesloten.</string>
     <string name="sound_attenuation_title">Volumedemping instellen</string>
     <string name="sound_limitvol_title">Volume als muziek wordt afgespeeld</string>
@@ -702,7 +702,7 @@
 
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">Stille uren</string>
-    <string name="quiet_hours_note_title">N.B.</string>
+    <string name="quiet_hours_note_title">Let op</string>
     <string name="quiet_hours_note_summary">Inkomende oproepen zullen zich als standaard gedragen tijdens stille uren</string>
     <string name="quiet_hours_enabled">Zet stille uren aan</string>
     <string name="quiet_hours_enabled_on">Stille uren zullen gehandhaafd worden</string>
@@ -725,7 +725,7 @@
     <string name="quiet_hours_haptic_off">Haptische feedback is ingeschakeld</string>
 
     <string name="cmstats_title">Anonieme statistieken</string>
-    <string name="cmstats_summary">Help mee CyanogenMod te verbeteren door anonieme statistieksrapporten te versturen</string>
+    <string name="cmstats_summary">Help mee CyanogenMod te verbeteren door anonieme statistieken te verzenden</string>
 
     <string name="user_defined_key1">Sneltoets 1</string>
     <string name="user_defined_key2">Sneltoets 2</string>
@@ -757,7 +757,7 @@
     <string name="gestures_previous">Vorig nummer</string>
     <string name="gestures_playpause">Speel/pauzeer muziek</string>
     <string name="pref_lockscreen_disable_unlock_tab">Zet ontgrendelslider uit</string>
-    <string name="pref_lockscreen_disable_unlock_tab_summary">N.B.: Trackball-, menuknop-, of gebaar-ontgrendelen dient geactiveerd te zijn voordat deze optie toegankelijk is</string>
+    <string name="pref_lockscreen_disable_unlock_tab_summary">Let op: Trackball-, menuknop-, of gebaar-ontgrendelen dient geactiveerd te zijn voordat deze optie toegankelijk is</string>
     <string name="gestures_action_label">Actie:</string>
     <string name="gestures_draw_label">Gebaar:</string>
     <string name="gestures_draw_for_label">Gebaar voor \"<xliff:g id="action">%s</xliff:g>\":</string>
@@ -765,10 +765,10 @@
     <string name="gestures_run_in_background">Draai op de achtergrond</string>
 
     <!-- Change Log strings -->
-    <string name="changelog_title">Bekijk changelog</string>
+    <string name="changelog_title">Changelog bekijken</string>
     <string name="changelog_dialog">Changelog</string>
     <string name="changelog_loading">Changelog laden\u2026</string>
-    <string name="changelog_error">Fout tijdens het laden van de changelog\u2026</string>
+    <string name="changelog_error">Fout bij het laden van de changelog\u2026</string>
     <string name="changelog_unknown">Onbekend</string>
     <string name="changelog_version">Versie</string>
 
@@ -826,12 +826,12 @@
     <string name="cpu_min_freq_summary">Minimale CPU-frequentie\nNu: %s</string>
     <string name="cpu_max_freq_title">Maximale CPU-frequentie</string>
     <string name="cpu_max_freq_summary">Maximale CPU-frequentie\nNu: %s</string>
-    <string name="cpu_set_on_boot">Stel in tijdens opstarten</string>
-    <string name="cpu_set_on_boot_summary">Herstel CPU-instellingen tijdens opstarten</string>
+    <string name="cpu_set_on_boot">Instellen tijdens opstarten</string>
+    <string name="cpu_set_on_boot_summary">CPU-instellingen herstellen tijdens opstarten</string>
 
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Machtigingenbeheer</string>
     <string name="perm_enable_management_summary">Machtigingenbeheer inschakelen</string>
     <string name="perm_enable_warning_message">Let op:\nDeze optie kan zorgen voor onverwacht gedrag bij applicaties.\nNeem bij fouten geen contact op met de ontwikkelaars.</string>
-    <string name="perm_enable_warning_title">Weet je het zeker?</string>
+    <string name="perm_enable_warning_title">Weet u het zeker?</string>
 </resources>
