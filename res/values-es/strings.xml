@@ -95,6 +95,7 @@
     <string name="ui_status_bar_title">Ajustes de la barra de estado</string>
     <string name="ui_status_bar_am_pm_title">Estilo AM/PM</string>
     <string name="ui_status_bar_am_pm_summary">Ver estilo de AM/PM siguiente del reloj</string>
+    <string name="ui_status_bar_am_pm_info">Activado el modo 24-horas</string>
     <string name="ui_status_bar_clock_title">Mostrar reloj</string>
     <string name="ui_status_bar_clock_summary">Se esconde si se deshabilita</string>
     <string name="ui_status_bar_battery_title">Estilo del indicador de batería</string>
