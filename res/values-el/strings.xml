@@ -96,6 +96,7 @@
     <string name="ui_status_bar_title">Tweaks μπάρας κατάστασης</string>
     <string name="ui_status_bar_am_pm_title">Στυλ AM/PM</string>
     <string name="ui_status_bar_am_pm_summary">Προβολή AM/PM δίπλα στο ρολόι</string>
+    <string name="ui_status_bar_am_pm_info">Μόρφή 24-ώρου ενεργοποιημένη</string>
     <string name="ui_status_bar_clock_title">Εμφάνιση ρολογιού</string>
     <string name="ui_status_bar_clock_summary">Το ρολόι της μπάρας κατάστασης θα είναι κρυμμένο, αν το απενεργοποιήσετε</string>
     <string name="ui_status_bar_battery_title">Στυλ ένδειξης μπαταρίας</string>
