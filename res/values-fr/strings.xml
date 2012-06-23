@@ -66,6 +66,7 @@
     <string name="ui_status_bar_title">Barre de notification</string>
     <string name="ui_status_bar_am_pm_title">Indicateur AM/PM</string>
     <string name="ui_status_bar_am_pm_summary">Affiche l\'indicateur AM/PM à côté de l\'heure</string>
+    <string name="ui_status_bar_am_pm_info">Affichage 24 heures activé</string>
     <string name="ui_status_bar_battery_title">Batterie</string>
     <string name="ui_status_bar_battery_summary">Style de l\'indicateur de niveau de charge</string>
     <string name="ui_status_bar_clock_title">Afficher l\'heure</string>

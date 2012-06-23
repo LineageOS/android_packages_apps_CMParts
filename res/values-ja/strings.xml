@@ -95,6 +95,7 @@
     <string name="ui_status_bar_title">ステータスバー</string>
     <string name="ui_status_bar_am_pm_title">AM/PMスタイル</string>
     <string name="ui_status_bar_am_pm_summary">AM/PMの表示スタイル</string>
+    <string name="ui_status_bar_am_pm_info">24時間表記が有効になっています</string>
     <string name="ui_status_bar_clock_title">時計を表示</string>
     <string name="ui_status_bar_clock_summary">無効にするとステータスバーの時計を隠します</string>
     <string name="ui_status_bar_battery_title">バッテリー状態のスタイル</string>
