@@ -631,26 +631,26 @@
     <string name="pref_mobiledatanetwork_mode_summary">Gegevenstoegangsknop schakelt automatisch tussen 2G- en 3G-modus</string>
 
     <!-- Backlight -->
-    <string name="backlight_title">Automatische verlichting</string>
-    <string name="backlight_summary">Pas niveaus en filtering aan</string>
-    <string name="light_filter_title">Lichtsensor-filter</string>
+    <string name="backlight_title">Automatische achtergrondverlichting</string>
+    <string name="backlight_summary">Niveaus &amp; filtering wijzigen</string>
+    <string name="light_filter_title">Lichtsensorfilter</string>
     <string name="light_filter_enabled_title">Ingeschakeld</string>
-    <string name="light_filter_enabled_summary">Sta het verplaatsen van het filtergemiddelde toe om flikkeren van het scherm te voorkomen</string>
-    <string name="light_filter_window_title">Venstertijd</string>
-    <string name="light_filter_window_summary">De gefilterde waarde is de gemiddelde sensorwaarde tijdens deze periode</string>
-    <string name="light_filter_reset_title">Herstellen</string>
-    <string name="light_filter_reset_summary">Bij teveel afwijking van huidig gemiddelde wordt de filter hersteld</string>
-    <string name="light_filter_interval_title">Voorbeeldinterval</string>
-    <string name="light_filter_interval_summary">Lage waarde kan nauwkeurigheid verhogen, maar zorgt voor hoger CPU-gebruik</string>
+    <string name="light_filter_enabled_summary">Voortschrijdend gemiddeld filter toepassen op sensorgegevens om flikkeren te verminderen</string>
+    <string name="light_filter_window_title">Periode</string>
+    <string name="light_filter_window_summary">Gefilterde waarde is de gemiddelde sensorwaarde tijdens deze periode</string>
+    <string name="light_filter_reset_title">Drempelwaarde voor herstel</string>
+    <string name="light_filter_reset_summary">Afwijking in meetwaarde waarbij filter hersteld wordt</string>
+    <string name="light_filter_interval_title">Meetinterval</string>
+    <string name="light_filter_interval_summary">Lage waarden zijn preciezer, maar belasten de CPU meer</string>
     <string name="light_levels_title">Lichtniveaus</string>
-    <string name="light_levels_enabled_title">Aangepaste instellingen</string>
-    <string name="light_levels_dim_title">Schermdim-niveau</string>
-    <string name="light_levels_dim_summary">De helderheid bij een gedimd scherm</string>
-    <string name="light_levels_editor_title">Pas andere niveaus aan</string>
-    <string name="light_decrease_enabled_title">Automatisch dimmen</string>
-    <string name="light_decrease_enabled_summary">Schakel in om er voor te zorgen dat het scherm automatisch gedimd wordt. Gebruik hysterese om geflikker te voorkomen</string>
-    <string name="light_decrease_hysteresis_title">Verlaag hysterese</string>
-    <string name="light_decrease_hysteresis_summary">Overlap sensorniveaus</string>
+    <string name="light_levels_enabled_title">Eigen waarden gebruiken</string>
+    <string name="light_levels_dim_title">Schermdimniveaus</string>
+    <string name="light_levels_dim_summary">Helderheid gebruikt om scherm te dimmen</string>
+    <string name="light_levels_editor_title">Andere niveaus bewerken\u2026</string>
+    <string name="light_decrease_enabled_title">Lichtvermindering toestaan</string>
+    <string name="light_decrease_enabled_summary">Vermindert verlichting. Gebruik hysterese om flikkeren te verminderen</string>
+    <string name="light_decrease_hysteresis_title">Hysterese</string>
+    <string name="light_decrease_hysteresis_summary">Percentage onder sensorniveaus zonder lichtvermindering</string>
 
     <!-- Light sensor levels -->
     <string name="ll_title">Lichtsensorniveaus</string>
@@ -684,7 +684,7 @@
     <string name="sound_camera_shutter_disable_summary_on">Camerasluiter-geluid zal niet worden afgespeeld</string>
     <string name="sound_camera_shutter_disable_summary_off">Camerasluiter-geluid zal worden afgespeeld</string>
     <string name="sound_camera_shutter_disable_warning_title">Let op: Dit kan illegaal zijn!</string>
-    <string name="sound_camera_shutter_disable_warning">Het uitschakelen van het camerasluiter-geluid is illegaal in sommige gebieden. Weet je het zeker?</string>
+    <string name="sound_camera_shutter_disable_warning">Het uitschakelen van het camerasluiter-geluid is illegaal in sommige gebieden. Weet u het zeker?</string>
     <string name="sound_to_speaker_title">Speel altijd via speaker af</string>
     <string name="sound_notifications_title">Notificaties</string>
     <string name="sound_rings_title">Beltonen</string>
@@ -833,5 +833,5 @@
     <string name="perm_enable_management">Machtigingenbeheer</string>
     <string name="perm_enable_management_summary">Machtigingenbeheer inschakelen</string>
     <string name="perm_enable_warning_message">Let op:\nDeze optie kan zorgen voor onverwacht gedrag bij applicaties.\nNeem bij fouten geen contact op met de ontwikkelaars.</string>
-    <string name="perm_enable_warning_title">Weet je het zeker?</string>
+    <string name="perm_enable_warning_title">Weet u het zeker?</string>
 </resources>
