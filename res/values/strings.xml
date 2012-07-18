@@ -740,6 +740,7 @@
     <string name="gestures_toggle_sound">Toggle sound</string>
     <string name="gestures_shortcut_or_activity">Shortcut or activity</string>
     <string name="gestures_flashlight">Flashlight</string>
+    <string name="gestures_bluetooth">Bluetooth</string>
     <string name="gestures_next">Next song</string>
     <string name="gestures_previous">Previous song</string>
     <string name="gestures_playpause">Play/Pause music</string>

@@ -560,6 +560,7 @@
         <item>@string/gestures_next</item>
         <item>@string/gestures_previous</item>
         <item>@string/gestures_playpause</item>
+        <item>@string/gestures_bluetooth</item>
         <item>@string/gestures_flashlight</item>
     </string-array>
 

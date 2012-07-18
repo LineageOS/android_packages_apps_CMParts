@@ -52,7 +52,8 @@ public class GestureCreateActivity extends Activity implements ShortcutPickHelpe
     private static final int ACTION_POSITION_NEXT = 3;
     private static final int ACTION_POSITION_PREVIOUS = 4;
     private static final int ACTION_POSITION_PLAYPAUSE = 5;
-    private static final int ACTION_POSITION_FLASHLIGHT = 6;
+    private static final int ACTION_POSITION_BLUETOOTH = 6;
+    private static final int ACTION_POSITION_FLASHLIGHT = 7;
 
     private Gesture mGesture;
 
@@ -106,6 +107,9 @@ public class GestureCreateActivity extends Activity implements ShortcutPickHelpe
                         break;
                     case ACTION_POSITION_PLAYPAUSE:
                         pickPlayPause();
+                        break;
+                    case ACTION_POSITION_BLUETOOTH:
+                        pickBluetooth();
                         break;
                 }
             }
@@ -254,6 +258,13 @@ public class GestureCreateActivity extends Activity implements ShortcutPickHelpe
         mFriendlyName = getString(R.string.gestures_flashlight);
         mDrawLabel.setText(getString(R.string.gestures_draw_for_label, mFriendlyName));
         mUri = mFriendlyName + "___FLASHLIGHT";
+        disableCheckbox();
+    }
+
+    public void pickBluetooth() {
+        mFriendlyName = getString(R.string.gestures_bluetooth);
+        mDrawLabel.setText(getString(R.string.gestures_draw_for_label, mFriendlyName));
+        mUri = mFriendlyName + "___BLUETOOTH";
         disableCheckbox();
     }
 
