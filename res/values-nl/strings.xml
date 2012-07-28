@@ -14,157 +14,348 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Generic -->
-    <string name="app_name">CyanogenMod</string>
 
-    <!--  Primary Screen Settings -->
-    <string name="application_settings_title_head">Applicatie</string>
+    <!-- Hoofdmenu -->
+    <string name="application_settings_title_head">Applicaties</string>
     <string name="application_settings_title_subhead">Applicatie-instellingen</string>
     <string name="application_settings_summary_head">Applicaties verplaatsen, installatielocatie, communicatiefiltering</string>
+
     <string name="display_settings_title_head">Scherm</string>
     <string name="display_settings_title_subhead">Scherminstellingen</string>
-    <string name="display_settings_summary_head">Schermverlichting, -animaties, -rotatie</string>
-    <string name="display_settings_summary_head_nobacklight">Schermanimaties, -rotatie</string>
+    <string name="display_settings_summary_head">Verlichting, animaties, rotatie</string>
+    <string name="display_settings_summary_head_nobacklight">Animaties, rotatie</string>
+
     <string name="input_settings_title_head">Invoer</string>
     <string name="input_settings_title_subhead">Invoerinstellingen</string>
-    <string name="input_settings_summary_head">Invoergedrag, knoppen, haptische feedback</string>
+    <string name="input_settings_summary_head">Invoergedrag, knoppen, trillen</string>
+
     <string name="interface_settings_title_head">Interface</string>
-    <string name="interface_settings_summary_head">Interface-tweaks, overscrolling, rendereffect</string>
+    <string name="interface_settings_summary_head">Overscrolling, rendereffect</string>
+
     <string name="lockscreen_settings_title_head">Vergrendelscherm</string>
-    <string name="lockscreen_settings_title_subhead">Vergrendelscherm-instellingen</string>
-    <string name="lockscreen_settings_summary_head">Vergrendelscherm-gebaren, -stijl, ontgrendelopties</string>
+    <string name="lockscreen_settings_title_subhead">Vergrendelscherminstellingen</string>
+    <string name="lockscreen_settings_summary_head">Gebaren, uiterlijk, ontgrendelinstellingen</string>
+
     <string name="performance_settings_title_head">Prestaties</string>
     <string name="performance_settings_title_subhead">Prestatie-instellingen</string>
-    <string name="performance_settings_summary_head">Prestatietweaks, JIT, VM-heapgrootte</string>
+    <string name="performance_settings_summary_head">JIT, VM-heapgrootte</string>
+
     <string name="sound_settings_title_head">Geluid</string>
     <string name="sound_settings_title_subhead">Geluidsinstellingen</string>
-    <string name="sound_settings_summary_head">Volumes, audiofocus, stille uren</string>
+    <string name="sound_settings_summary_head">Volumes, geluidsfocus, stille uren</string>
+
     <string name="system_settings_title_head">Systeem</string>
     <string name="system_settings_title_subhead">Systeeminstellingen</string>
-    <string name="system_settings_summary_head">Changelog, statistieken, updatenotificaties</string>
+    <string name="system_settings_summary_head">Changelog, statistieken, updatemeldingen</string>
 
-    <!--  Update Notifications -->
-    <string name="updatenotify_title">Updatenotificaties</string>
-    <string name="updatenotify_summary">Ontvang pushnotificaties bij nieuwe updates</string>
+    <string name="tablet_tweaks_title_head">Tablet-aanpassingen</string>
+    <string name="tablet_tweaks_summary_head">Mogelijk ook werkend voor telefoons</string>
 
-    <!-- User interface -->
-    <string name="ui_title">Gebruikersinterface</string>
+    <!-- Applicaties -->
+    <string name="application_settings_title">Applicatie-instellingen</string>
 
-    <string name="pref_electron_beam_animation_on">Animatie bij aanzetten scherm</string>
-    <string name="pref_electron_beam_animation_off">Animatie bij uitschakelen scherm</string>
-    <string name="pref_rotation_animation_title">Rotatie-animatie</string>
-    <string name="pref_rotation_animation_summary">Vereist een herstart van het toestel</string>
+    <string name="pref_move_all_apps_title">Applicaties verplaatsen</string>
+    <string name="pref_move_all_apps_summary">Applicaties mogen verplaatst worden naar de externe opslaglocatie</string>
 
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Tablet-tweaks</string>
-    <string name="tablet_tweaks_summary_head">Tabletinstellingen. Mogelijk ook werkend voor telefoons</string>
-    <string name="tablet_tweaks_sb_bottom_title">Statusbalk onderin</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Geef statusbalk onderaan het scherm weer. Handig voor tablets die softwareknoppen gebruiken voor home, menu,\u2026 in de statusbalk.</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">Inactieve zone</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Voeg een \'inactieve zone\' ter grootte van een half scherm toe aan het midden van de statusbalk.</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">Softwareknoppen links</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Plaats softwareknoppen aan de linkerkant van de statusbalk.</string>
-    <string name="tablet_tweaks_soft_button_list_title">Kies softwareknoppen.</string>
-    <string name="tablet_tweaks_interface_head">Interface</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Vergrendelscherm uitsch.</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">Indien ingeschakeld wordt het vergrendelscherm niet getoond. Ook niet tijdens het opstarten van het toestel of het aanzetten van het scherm.</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Schakel volledig scherm uit</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Schakel volledig scherm uit. Statusbalk is altijd zichtbaar, tenzij deze handmatig verborgen wordt met de \'weergeefknop\'.</string>
-    <string name="tablet_tweaks_unhide_button_list_head">Weergeefknop</string>
-    <string name="tablet_tweaks_unhide_button_list_title">Kies weergeefknop</string>
-    <string name="tablet_tweaks_extend_pm_title">Uitgebreide powermenu</string>
-    <string name="tablet_tweaks_extend_pm_summary">Voeg home, terug, menu,\u2026 acties toe aan het powermenu</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Kies powermenu-knoppen</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">Volumegedrag</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Volumeknoppen gedragen zich normaal. Druk om volume te veranderen, druk lang voor gebruikersinteractie</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Volumeknoppen-gedrag omdraaien. Druk voor gebruikersinteractie, druk lang om volume te veranderen</string>
+    <string name="pref_install_location_title">Installatielocatie</string>
+    <string name="pref_install_location_summary">Waar nieuwe applicaties geïnstalleerd moeten worden</string>
 
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">Volumeknoppen opnieuw instellen</string>
-    <string name="tablet_tweaks_long_volp_action_title">Druk volume-omhoog lang in</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Wijs home, terug, menu,\u2026 acties toe aan lang drukken op de knop voor verhogen van volume. Werkt alleen als het scherm aan is.</string>
-    <string name="tablet_tweaks_long_volm_action_title">Druk volume-omlaag lang in</string>
-    <string name="tablet_tweaks_vol_both_action_title">Beide volumeknoppen</string>
-    <string name="tablet_tweaks_vol_both_action_summary">Sommige toestellen voeren een hard-reset uit bij het indrukken van beide volumeknoppen en de powerknop.</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Druk beide volumeknoppen lang in</string>
+    <string name="pref_switch_storage_title">Intern geheugen</string>
+    <string name="pref_switch_storage_summary_on">Uitgebreid intern geheugen gebruiken voor applicaties en media (herstart vereist)</string>
+    <string name="pref_switch_storage_summary_off">Extern geheugen gebruiken voor applicaties en media (herstart vereist)</string>
+    <string name="pref_storage_switch_unavailable">Niet beschikbaar</string>
 
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">Powermenu-knoppen</string>
+    <string name="perm_enable_management">Machtigingenbeheer</string>
+    <string name="perm_enable_management_summary">Machtigingenbeheer inschakelen</string>
+    <string name="perm_enable_warning_title">Let op</string>
+    <string name="perm_enable_warning_message">Weet u het zeker?\n\nDeze instelling kan zorgen voor onverwacht gedrag bij applicaties.\nNeem bij fouten geen contact op met de ontwikkelaars.</string>
 
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">Softwareknoppen</string>
-    <string name="tablet_soft_buttons_home_title">Home</string>
-    <string name="tablet_soft_buttons_menu_title">Menu</string>
-    <string name="tablet_soft_buttons_back_title">Terug</string>
-    <string name="tablet_soft_buttons_search_title">Zoeken</string>
-    <string name="tablet_soft_buttons_quick_na_title">Snelle notificaties</string>
+    <string name="title_phone_goggles">Telefoonfiltering</string>
+    <string name="title_phone_goggles_default">Standaardinstellingen</string>
+    <string name="title_phone_goggles_apps">Gefilterde applicaties</string>
+    <string name="title_phone_goggles_app_enabled">Telefoonfiltering ingeschakeld</string>
+    <string name="title_phone_goggles_use_custom">Aangepaste instellingen gebruiken</string>
+    <string name="title_phone_goggles_filter">Gefilterde nummers</string>
+    <string name="title_phone_goggles_enabled">Inschakelen</string>
+    <string name="title_phone_goggles_start">Telefoonfilteringsmodus starten</string>
+    <string name="title_phone_goggles_end">Telefoonfilteringsmodus stoppen</string>
+    <string name="title_phone_goggles_confirmation_enabled">Vragen om bevestiging</string>
+    <string name="title_phone_goggles_maths_level">Rekenniveau</string>
+    <string name="title_phone_goggles_work_filtered">Werk</string>
+    <string name="title_phone_goggles_mobile_filtered">Mobiel</string>
+    <string name="title_phone_goggles_other_filtered">Overig</string>
+    <string name="summary_phone_goggles">Uitgaande communicatie filteren</string>
+    <string name="summary_phone_goggles_default">Standaardinstellingen</string>
+    <string name="summary_phone_goggles_filter">Kies het type telefoonnummer dat gefilterd moet worden</string>
+    <string name="summary_phone_goggles_start">Als het filteren van uitgaande gesprekken gestart moet worden</string>
+    <string name="summary_phone_goggles_end">Als het filteren van uitgaande gesprekken gestopt moet worden</string>
+    <string name="summary_phone_goggles_confirmation_enabled">Hoe om bevestiging moet worden gevraagd voor communicatiefiltering</string>
+    <string name="summary_phone_goggles_maths_level">Niveau van rekenproblemen voor het toestaan van communicatie</string>
+    <string name="summary_on_phone_goggles_enabled">Communicatie wordt momenteel gefilterd</string>
+    <string name="summary_on_phone_goggles_use_custom">Gebruik aangepaste instellingen</string>
+    <string name="summary_on_phone_goggles_app_enabled">Telefoonfiltering is ingeschakeld voor deze applicatie</string>
+    <string name="summary_on_phone_goggles_work_filtered">Zakelijke communicatie wordt gefilterd</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">Communicatie naar mobiele telefoons wordt gefilterd</string>
+    <string name="summary_on_phone_goggles_other_filtered">Communicatie naar andere telefoons wordt gefilterd</string>
+    <string name="summary_off_phone_goggles_enabled">Communicatie wordt momenteel niet gefilterd</string>
+    <string name="summary_off_phone_goggles_use_custom">Standaardinstellingen gebruiken</string>
+    <string name="summary_off_phone_goggles_app_enabled">Telefoonfiltering is uitgeschakeld voor deze applicatie</string>
+    <string name="summary_off_phone_goggles_work_filtered">Zakelijke communicatie wordt niet gefilterd</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">Communicatie naar mobiele telefoons wordt niet gefilterd</string>
+    <string name="summary_off_phone_goggles_other_filtered">Communicatie naar andere telefoons wordt niet gefilterd</string>
+    <string name="phone_goggles_maths_level_easy">Makkelijk</string>
+    <string name="phone_goggles_maths_level_medium">Gemiddeld</string>
+    <string name="phone_goggles_maths_level_hard">Moeilijk</string>
+    <string name="phone_goggles_confirmation_none">Geen</string>
+    <string name="phone_goggles_confirmation_prompt">Prompt</string>
+    <string name="phone_goggles_confirmation_maths">Rekenprobleem</string>
+    <string name="category_phone_goggles_period">Periode</string>
+    <string name="category_phone_goggles_confirmation">Bevestiging</string>
+    <string name="category_phone_goggles_filter">Filters</string>
 
-    <!-- User interface : Rotation -->
-    <string name="rotation_category_title">Automatische schermoriëntatie</string>
+    <!-- Scherm -->
+    <string name="backlight_title">Automatische achtergrondverlichting</string>
+    <string name="backlight_summary">Niveaus &amp; filtering wijzigen</string>
+    <string name="light_filter_title">Lichtsensorfilter</string>
+    <string name="light_filter_enabled_title">Ingeschakeld</string>
+    <string name="light_filter_enabled_summary">Voortschrijdend gemiddeld filter toepassen op sensorgegevens om flikkeren te verminderen</string>
+    <string name="light_filter_window_title">Periode</string>
+    <string name="light_filter_window_summary">Gefilterde waarde is de gemiddelde sensorwaarde tijdens deze periode</string>
+    <string name="light_filter_reset_title">Drempelwaarde voor herstel</string>
+    <string name="light_filter_reset_summary">Afwijking in meetwaarde waarbij filter hersteld wordt</string>
+    <string name="light_filter_interval_title">Meetinterval</string>
+    <string name="light_filter_interval_summary">Lage waarden zijn preciezer, maar belasten de CPU meer</string>
+    <string name="light_levels_title">Lichtniveaus</string>
+    <string name="light_levels_enabled_title">Eigen waarden gebruiken</string>
+    <string name="light_levels_dim_title">Schermdimniveaus</string>
+    <string name="light_levels_dim_summary">Helderheid gebruikt om scherm te dimmen</string>
+    <string name="light_levels_editor_title">Andere niveaus bewerken\u2026</string>
+    <string name="light_decrease_enabled_title">Lichtvermindering toestaan</string>
+    <string name="light_decrease_enabled_summary">Vermindert verlichting. Gebruik hysterese om flikkeren te verminderen</string>
+    <string name="light_decrease_hysteresis_title">Hysterese</string>
+    <string name="light_decrease_hysteresis_summary">Percentage onder sensorniveaus zonder lichtvermindering</string>
+
+    <string name="ll_title">Lichtsensorniveaus</string>
+    <string name="ll_header_upper">Verhogen</string>
+    <string name="ll_header_lower">Verlagen</string>
+    <string name="ll_header_lcd">Scherm</string>
+    <string name="ll_header_btn">Knoppen</string>
+    <string name="ll_header_kb">Toetsenbord</string>
+    <string name="ll_lux">Sensor (gefilterd/onbewerkt):</string>
+    <string name="ll_lcd">Scherm:</string>
+    <string name="ll_btn">Knoppen:</string>
+    <string name="ll_kb">Toetsenbord:</string>
+    <string name="ll_disabled">uitgeschakeld</string>
+    <string name="ll_default">Standaardinstellingen herstellen</string>
+    <string name="ll_save">Opslaan &amp; gebruiken</string>
+    <string name="ll_reload">Ongedaan maken</string>
+    <string name="ll_bad_levels">Niveaus dienen verhoogd te worden</string>
+    <string name="ll_num_levels">Aantal niveaus instellen</string>
+
+    <string name="pref_electron_beam_animation_on">Animatie bij scherm aan</string>
+    <string name="pref_electron_beam_animation_off">Animatie bij scherm uit</string>
+    <string name="pref_rotation_animation_title">Animatie bij schermdraai</string>
+    <string name="pref_rotation_animation_summary">Herstart vereist</string>
+
+    <string name="rotation_category_title">Mogelijke schermstanden</string>
     <string name="pref_rotation_0_title">0 graden</string>
     <string name="pref_rotation_90_title">90 graden</string>
     <string name="pref_rotation_180_title">180 graden</string>
     <string name="pref_rotation_270_title">270 graden</string>
-	
-    <!-- User interface: Status bar tweaks -->
-    <string name="ui_status_bar_title">Statusbalktweaks</string>
-    <string name="ui_status_bar_am_pm_title">AM/PM-stijl</string>
-    <string name="ui_status_bar_am_pm_summary">Geef AM/PM-stijl naast klok weer</string>
-    <string name="ui_status_bar_clock_title">Geef klok weer</string>
-    <string name="ui_status_bar_clock_summary">Statusbalkklok wordt verborgen, indien uitgeschakeld</string>
-    <string name="ui_status_bar_battery_title">Batterijstatus-stijl</string>
+
+    <!-- Invoer -->
+    <string name="input_settings_title">Invoerinstellingen</string>
+
+    <string name="long_press_home_title">Home-knop lang indrukken</string>
+    <string name="long_press_home_summary">Aantal recente applicaties e.d.</string>
+    <string name="recent_apps_show_title">Recente applicaties tonen</string>
+    <string name="recent_apps_num_title">Aantal recente applicaties</string>
+    <string name="recent_apps_num_summary">Aantal te tonen recente applicaties bij het lang ingedrukt houden van de home-knop</string>
+    <string name="dialog_recent_apps_num_title">Voer het aantal recente applicaties in</string>
+    <string name="use_custom_app_title">Aangepaste applicatie</string>
+    <string name="use_custom_app_summary">Een zelf gekozen applicatie gebruiken i.p.v. het recente applicatievenster</string>
+    <string name="select_custom_app_title">Kies applicatie</string>
+    <string name="group_applications">Applicaties</string>
+
+    <string name="long_press_menu_title">Menuknop lang indrukken</string>
+    <string name="long_press_menu_summary">Aangepaste instellingen voor het lang indrukken van de menuknop</string>
+    <string name="pref_user_defined_long_press_menu_title">Zelf gekozen applicatie</string>
+    <string name="pref_long_press_menu_title">Kies gedrag</string>
+    <string name="pref_long_press_menu_summary">Kies het gewenste gedrag bij het lang indrukken van de menuknop</string>
+
+    <string name="input_search_key_title">Zoekknop-gedrag</string>
+    <string name="input_search_key_summary">Geef zoekknop een andere functie, zowel voor kort als lang indrukken</string>
+    <string name="pref_input_custom_search_app_toggle_title">Zoekknop-applicatie</string>
+    <string name="pref_input_custom_search_app_toggle_summary">Start een zelf gekozen applicatie als de zoekknop ingedrukt wordt</string>
+    <string name="pref_input_custom_search_app_activity_title">Zelf gekozen applicatie</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">Zoekknop-applicatie bij lang indrukken</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">Start een zelf gekozen app als er lang op de zoekknop gedrukt wordt</string>
+
+    <string name="pref_backtrack_title">BackTrack Minipad</string>
+    <string name="pref_backtrack_summary">Kies of er wel of niet gebruik wordt gemaakt van de BackTrack Minipad-invoermethode</string>
+
+    <string name="haptic_title">Trilaanpassingen</string>
+    <string name="haptic_summary">Bepalen wanneer en hoe hevig wordt getrild</string>
+    <string name="title_haptic_feedback">Algemeen</string>
+    <string name="summary_on_haptic_feedback">Trillen bij indrukken softwareknoppen en bepaalde interacties met de gebruikersinterface</string>
+    <string name="summary_off_haptic_feedback">Niet trillen bij indrukken softwareknoppen en bepaalde interacties met de gebruikersinterface</string>
+    <string name="title_haptic_feedback_up">Bij loslaten</string>
+    <string name="summary_on_haptic_feedback_up">Trillen bij loslaten van softwareknoppen en bepaalde interacties met de gebruikersinterface</string>
+    <string name="summary_off_haptic_feedback_up">Niet trillen bij loslaten van softwareknoppen en bepaalde interacties met de gebruikersinterface</string>
+    <string name="title_haptic_feedback_all">Alle gevallen</string>
+    <string name="summary_on_haptic_feedback_all">Trillen bij schermaanrakingen</string>
+    <string name="summary_off_haptic_feedback_all">Niet trillen bij schermaanrakingen</string>
+    <string name="title_haptic_down_decider">Indrukinstellingen</string>
+    <string name="title_haptic_up_decider">Loslaatinstellingen</string>
+    <string name="title_haptic_long_decider">Patroon lang indrukken</string>
+    <string name="title_haptic_tap_decider">Patroon toetsenbord</string>
+    <string name="title_haptic_menu">Trilgedrag aanpassen</string>
+    <string name="title_haptic_notice">HERSTART VEREIST VOOR ALGEMENE TOEPASSING</string>
+    <string name="haptic_delay_desc">Vertraging in ms.</string>
+    <string name="haptic_vibe_desc">Duur in ms.</string>
+    <string name="haptic_down_description">Verander instellingen voor trillen bij het indrukken van een knop\n(virtuele hard-knoppen en bepaalde interacties met de gebruikersinterface)</string>
+    <string name="haptic_up_description">Verander instellingen voor trillen bij het loslaten van een knop\n(virtuele hard-knoppen en de meeste schermaanrakingen)</string>
+    <string name="haptic_long_description">Verander instellingen voor trillen bij lang indrukken</string>
+    <string name="haptic_tap_description">Verander instellingen voor trillen bij toetsenbord</string>
+    <string name="haptic_plus_minus_desc">Gebruik de plus- en minknoppen om stappen toe te voegen of te verwijderen</string>
+    <string name="haptic_button_plus">+</string>
+    <string name="haptic_button_minus">-</string>
+    <string name="haptic_button_save">Opslaan</string>
+    <string name="haptic_button_test">Testen</string>
+    <string name="haptic_button_cancel">Annuleren</string>
+    <string name="haptic_button_revert">Ongedaan maken</string>
+    <string name="haptic_button_default">Alles herstellen</string>
+    <string name="haptic_save_toast">De volgende waarden zijn opgeslagen: </string>
+    <string name="haptic_cancel_toast">Niets aangepast</string>
+    <string name="haptic_revert_toast">Laatst geladen waarden worden hersteld</string>
+    <string name="haptic_default_toast">Standaardinstellingen worden geladen</string>
+
+    <string name="pref_trackball_wake_title">Trackball-ontwaken</string>
+    <string name="pref_trackball_wake_summary">Als de trackball wordt ingedrukt ontwaakt het toestel</string>
+
+    <string name="pref_volume_wake_title">Volume-ontwaken</string>
+    <string name="pref_volume_wake_summary">Als een volumeknop wordt wordt ingedrukt ontwaakt het toestel</string>
+
+    <string name="pref_volbtn_music_controls_title">Volumeknop bij muziek</string>
+    <string name="pref_volbtn_music_controls_summary">Houd volumeknoppen lang ingedrukt om door nummers te spoelen als het scherm uit is</string>
+
+    <string name="pref_cambtn_music_controls_title">Cameraknop bij muziek</string>
+    <string name="pref_cambtn_music_controls_summary">Houd cameraknop lang ingedrukt om een nummer te starten/pauzeren als het scherm uit is</string>
+
+    <!-- Interface -->
+    <string name="pref_power_prompt_title">Afsluit-/herstartmelding</string>
+    <string name="pref_power_prompt_summary">Melding tonen alvorens af te sluiten/te herstarten</string>
+
+    <string name="title_widget_buttons">Statusbalkwidget</string>
+    <string name="title_expanded_widget">Instellingen voor statusbalkwidget</string>
+    <string name="summary_expanded_widget">Statusbalkwidget inschakelen</string>
+    <string name="title_expanded_hide_onchange">Verbergen bij verandering</string>
+    <string name="summary_expanded_hide_onchange">Notificatiebalk verbergen na in-/uitschakeling widget</string>
+    <string name="title_expanded_hide_indicator">Indicator verbergen</string>
+    <string name="summary_expanded_hide_indicator">Indicator onder widgets verbergen</string>
+    <string name="title_expanded_hide_scrollbar">Scrollbalk verbergen</string>
+    <string name="summary_expanded_hide_scrollbar">Scrollbalk verbergen als getoonde widgetknoppen niet op het scherm past</string>
+    <string name="expanded_haptic_feedback_title">Trillen</string>
+    <string name="expanded_haptic_feedback_summary">Kies of er bij interactie getrild moet worden</string>
+    <string name="expanded_color_mask">Indicatorkleur</string>
+    <string name="title_widget_picker">Widgetknoppen</string>
+    <string name="summary_widget_picker">Gewenste widgets</string>
+    <string name="title_widget_order">Widgetvolgorde</string>
+    <string name="summary_widget_order">Widgets sorteren</string>
+    <string name="title_buttons">Knoppen</string>
+    <string name="title_toggle_wifi">Wi-Fi aan/uit</string>
+    <string name="title_toggle_bluetooth">Bluetooth aan/uit</string>
+    <string name="title_toggle_gps">GPS aan/uit</string>
+    <string name="title_toggle_sound">Profiel wijzigen</string>
+    <string name="title_toggle_brightness">Helderheid</string>
+    <string name="title_toggle_sync">Synchr. aan/uit</string>
+    <string name="title_toggle_wifiap">Wi-Fi-tethering aan/uit</string>
+    <string name="title_toggle_screentimeout">Schermtime-out</string>
+    <string name="title_toggle_mobiledata">Gegevensverkeer aan/uit</string>
+    <string name="title_toggle_lockscreen">Vergrendelscherm insch.</string>
+    <string name="title_toggle_networkmode">2G/3G aan/uit</string>
+    <string name="title_toggle_autorotate">Autom. draaien aan/uit</string>
+    <string name="title_toggle_airplane">Vliegtuigmodus aan/uit</string>
+    <string name="title_toggle_flashlight">LED aan/uit</string>
+    <string name="title_toggle_sleep">Slaapstand insch.</string>
+    <string name="title_toggle_media_play_pause">Afspelen/pauzeren</string>
+    <string name="title_toggle_media_previous">Naar vorig nummer</string>
+    <string name="title_toggle_media_next">Naar volgend nummer</string>
+    <string name="title_toggle_wimax">WiMAX aan/uit</string>
+    <string name="title_button_modes">Knopinstellingen</string>
+    <string name="pref_brightness_mode_title">Helderheidsknop</string>
+    <string name="pref_brightness_mode_summary">Stel de helderheidniveaus in die gekozen kunnen worden met de helderheidsknop</string>
+    <string name="cm_brightness_mode_auto">Automatisch</string>
+    <string name="cm_brightness_mode_dim">Dimmen</string>
+    <string name="pref_network_mode_title">Netwerkknop</string>
+    <string name="pref_network_mode_summary">Kies wat ingeschakeld moet worden bij een druk op de netwerkknop</string>
+    <string name="pref_screentimeout_mode_title">Schermtime-out-knop</string>
+    <string name="pref_screentimeout_mode_summary">Instellingen voor de schermtime-out-knop</string>
+    <string name="pref_ring_mode_title">Profielknop</string>
+    <string name="pref_ring_mode_summary">Kies tussen welke profielen gewisseld kan worden</string>
+    <string name="cm_sound_mode_silent">Stil</string>
+    <string name="cm_sound_mode_vibrate">Trillen</string>
+    <string name="cm_sound_mode_sound">Geluid</string>
+    <string name="cm_sound_mode_soundVibrate">Geluid &amp; trillen</string>
+    <string name="pref_flash_mode_title">Zaklampknop</string>
+    <string name="pref_flash_mode_summary">Felheid instellen</string>
+    <string name="pref_mobiledatanetwork_mode_title">Autom. 2G/3G</string>
+    <string name="pref_mobiledatanetwork_mode_summary">Als de gegevensverbinding is ingeschakeld schakelt de gegevenstoegangsknop automatisch tussen 2G en 3G</string>
+
+    <string name="ui_status_bar_title">Statusbalkaanpassingen</string>
+    <string name="ui_status_bar_clock_title">Klok tonen</string>
+    <string name="ui_status_bar_clock_summary">Indien uitgeschakeld wordt de statusbalkklok verborgen</string>
+    <string name="ui_status_bar_am_pm_title">AM/PM gebruiken</string>
+    <string name="ui_status_bar_am_pm_summary">AM/PM tonen bij de statusbalkklok</string>
+    <string name="ui_status_bar_battery_title">Uiterlijk batterijstatus</string>
     <string name="ui_status_bar_battery_summary">Stijl van batterijstatus</string>
-    <string name="ui_status_bar_compact_carrier_title">Kleinere providerlabel</string>
-    <string name="ui_status_bar_compact_carrier_summary">Gebruik alternatieve notificatielayout met kleinere providerlabel. Liever met powerwidget aan (herstart noodzakelijk)</string>
-    <string name="ui_status_bar_carrier_label_title">Providerlabel</string>
-    <string name="ui_status_bar_carrier_label_summary">Verander wat als providerlabel wordt getoond</string>
+    <string name="ui_status_bar_compact_carrier_title">Alternatieve indeling</string>
+    <string name="ui_status_bar_compact_carrier_summary">Andere indeling statusbalkpaneel met kleinere providerlabel</string>
+    <string name="ui_status_bar_carrier_label_title">Tekst providerlabel</string>
+    <string name="ui_status_bar_carrier_label_summary">Veranderen wat als providerlabel wordt getoond</string>
     <string name="ui_status_bar_carrier_label_use_default">Standaard</string>
-    <string name="ui_status_bar_carrier_label_use_spn">Toon naam serviceprovider (SPN)</string>
-    <string name="ui_status_bar_carrier_label_use_plmn">Toon naam netwerkprovider (PLMN)</string>
-    <string name="ui_status_bar_carrier_label_use_custom">Toon eigen tekst</string>
+    <string name="ui_status_bar_carrier_label_use_spn">Naam serviceprovider (SPN)</string>
+    <string name="ui_status_bar_carrier_label_use_plmn">Naam netwerkprovider (PLMN)</string>
+    <string name="ui_status_bar_carrier_label_use_custom">Eigen tekst</string>
     <string name="ui_status_bar_carrier_label_custom_title">Eigen tekst</string>
     <string name="ui_status_bar_carrier_label_custom_summary">Eigen tekst die wordt getoond als provider label</string>
-    <string name="ui_status_bar_toggle_brightness">Statusbalkhelderheid controle</string>
-    <string name="ui_status_bar_toggle_brightness_summary">Sta toe om de helderheid aan te passen door over de statusbalk te schuiven</string>
-    <string name="ui_status_bar_toggle_info">Automatische helderheid is geactiveerd</string>
+    <string name="ui_status_bar_toggle_brightness">Helderheidsterkte slepen</string>
+    <string name="ui_status_bar_toggle_brightness_summary">Helderheid aanpassen door horizontaal over de statusbalk te slepen</string>
+    <string name="ui_status_bar_toggle_info">Automatische helderheid ingeschakeld</string>
     <string name="ui_status_bar_cm_signal_text_title">Signaalweergave</string>
-    <string name="ui_status_bar_cm_signal_text_summary">Geef dBm-waarden i.p.v. signaalstreepjes</string>
+    <string name="ui_status_bar_cm_signal_text_summary">dBm-waarden tonen i.p.v. signaalstreepjes</string>
     <string name="ui_status_bar_cm_signal_text_show_bars">Signaalstreepjes</string>
     <string name="ui_status_bar_cm_signal_text_show_text">Signaaltekst</string>
     <string name="ui_status_bar_cm_signal_text_show_text_dbm">Signaaltekst dBm</string>
-    <string name="ui_status_bar_headset_title">Geef headseticoon weer</string>
-    <string name="ui_status_bar_headset_summary">Headseticoon zal verschijnen als de headset is ingeplugd</string>
+    <string name="ui_status_bar_headset_title">Headseticoon tonen</string>
+    <string name="ui_status_bar_headset_summary">Headseticoon tonen als een headset is ingeplugd</string>
 
-    <!-- User interface : LED Notifications -->
-    <string name="trackball_title">LED-notificaties</string>
+    <string name="trackball_title">LED-meldingen</string>
     <string name="trackball_summary">Verander kleur- en oplichtinstellingen van trackball/LED-notificaties</string>
 
-    <!-- User interface : WebView -->
     <string name="pref_pinch_reflow_title">Herschikken na pinch-in</string>
-    <string name="pref_pinch_reflow_summary">Herschik webinhoud direct na pinch-to-zoom</string>
+    <string name="pref_pinch_reflow_summary">Webinhoud direct herschikken na pinch-to-zoom</string>
 
-    <!-- User interface : Share menu for screenshots -->
-    <string name="pref_share_screenshot_title">Deel schermafbeeldingen</string>
-    <string name="pref_share_screenshot_summary">Laat deelmenu zien bij het nemen van een schermafbeelding</string>
+    <string name="pref_share_screenshot_title">Schermafbeeldingen delen</string>
+    <string name="pref_share_screenshot_summary">Deelmenu tonen bij het nemen van een schermafbeelding</string>
 
-    <!-- User interface : Overscroll -->
     <string name="ui_overscroll_title">Overscrolling</string>
     <string name="pref_overscroll_title">Overscrolleffect</string>
     <string name="pref_overscroll_summary">Kies weergave scrollbare objecten bij overscrolling</string>
     <string name="pref_overscroll_weight_title">Overscrollingsintensiteit</string>
-    <string name="pref_overscroll_weight_summary">Selecteer de intensiteit van scrollbare objecten</string>
+    <string name="pref_overscroll_weight_summary">Kies de intensiteit van scrollbare objecten</string>
 
-    <!-- User interface : Lock Screen -->
+    <!-- Vergrendelscherm -->
     <string name="pref_lockscreen_delay_title">Vertraging</string>
     <string name="pref_lockscreen_security_title">Beveiliging voor schermontgrendeling</string>
-    <string name="pref_lockscreen_security_delay_note_title">N.B.</string>
-    <string name="pref_lockscreen_security_delay_note_summary">Als schermvergrendeling is ingesteld op geen, zullen alleen de vertragingsinstellingen worden gebruikt</string>
+    <string name="pref_lockscreen_security_delay_note_title">Let op</string>
+    <string name="pref_lockscreen_security_delay_note_summary">Als schermvergrendeling is ingesteld op \'geen\', zullen alleen de vertragingsinstellingen worden gebruikt</string>
     <string name="pref_lockscreen_security_timeout_lock_delay">Schermtime-out-vertraging</string>
-    <string name="pref_lockscreen_security_screenoff_lock_delay">Scherm-uitzettingsvertraging</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay">Schermuitzettingsvertraging</string>
     <string name="pref_lockscreen_security_timeout_lock_delay_summary">Hoe lang het vergrendelscherm vertraagd wordt als het scherm uitgaat</string>
     <string name="pref_lockscreen_security_screenoff_lock_delay_summary">Hoe lang het vergrendelscherm vertraagd wordt als het scherm uitgeschakeld wordt</string>
     <string name="pref_lockscreen_slide_title">Schuifbalk</string>
-    <string name="pref_lockscreen_slide_delay_note_title">N.B.</string>
+    <string name="pref_lockscreen_slide_delay_note_title">Let op</string>
     <string name="pref_lockscreen_slide_delay_note_summary">Zelfs ingeschakeld zal de schuifbalk alleen verschijnen als de beveiligde vertraging langer is dan de schuifbalkvertraging</string>
     <string name="pref_lockscreen_slide_delay_title">Schakel schuifbalkvertraging in</string>
     <string name="pref_lockscreen_slide_delay_summary">Laat schuifbalkontgrendeling met een andere vertraging zien voor de beveiligde ontgrendeling</string>
@@ -173,9 +364,205 @@
     <string name="pref_lockscreen_slide_timeout_lock_delay_summary">Hoe lang de schuifbalkvergrendeling vertraagd wordt als het scherm uitgaat</string>
     <string name="pref_lockscreen_slide_screenoff_lock_delay_summary">Hoe lang de schuifbalk-vergrendeling vertraagd wordt als het scherm uitgeschakeld wordt</string>
 
-    <!-- Color Picker -->
+    <string name="pref_lockscreen_gestures_enable_title">Vergrendelschermgebaren</string>
+    <string name="pref_lockscreen_gestures_trail_title">Laat gebarenpaden zien</string>
+    <string name="pref_lockscreen_gestures_builder_title">Ontwikkel gebaren</string>
+    <string name="pref_lockscreen_gestures_sensitivity_title">Gevoeligheid</string>
+    <string name="pref_lockscreen_gestures_color_title">Gebarenkleur</string>
+    <string name="gestures_button_add">Voeg een gebaar toe</string>
+    <string name="gestures_button_discard">Annuleren</string>
+    <string name="gestures_button_done">Klaar</string>
+    <string name="gestures_error_missing_shortcut">Een actie voor dit gebaar moet worden gekozen!</string>
+    <string name="gestures_loading">Gebaren laden\u2026</string>
+    <string name="gestures_empty">Geen gebaren</string>
+    <string name="gestures_delete">Verwijderen</string>
+    <string name="gestures_delete_success">Gebaar verwijderd</string>
+    <string name="gestures_error_loading">Er is een probleem opgetreden met het gebaar.</string>
+    <string name="gestures_unlock_only">Telefoon ontgrendelen</string>
+    <string name="gestures_toggle_sound">Geluidsprofiel wisselen</string>
+    <string name="gestures_shortcut_or_activity">Sneltoets of activiteit</string>
+    <string name="gestures_flashlight">Zaklamp</string>
+    <string name="gestures_next">Volgend nummer</string>
+    <string name="gestures_previous">Vorig nummer</string>
+    <string name="gestures_playpause">Speel/pauzeer muziek</string>
+    <string name="pref_lockscreen_disable_unlock_tab">Zet ontgrendelslider uit</string>
+    <string name="pref_lockscreen_disable_unlock_tab_summary">Let op: trackball-, menuknop-, of gebaar-ontgrendelen dient geactiveerd te zijn voordat deze optie toegankelijk is</string>
+    <string name="gestures_action_label">Actie:</string>
+    <string name="gestures_draw_label">Gebaar:</string>
+    <string name="gestures_draw_for_label">Gebaar voor \"<xliff:g id="action">%s</xliff:g>\":</string>
+    <string name="gestures_already_present">Let op: een soortgelijke gebaar is al toegewezen aan een andere actie.</string>
+    <string name="gestures_run_in_background">Draai op de achtergrond</string>
+
+    <!-- Prestaties -->
+    <string name="performance_settings_title">Prestatie-instellingen</string>
+
+    <string name="performance_settings_warning_title">Let op: Mogelijk hoger batterijverbruik!</string>
+    <string name="performance_settings_warning">Deze instellingen kunnen de prestaties van het systeem aanpassen, wat voor fouten kan zorgen. Alleen bedoeld voor experimentele doeleinden. Meld geen fouten aan de ontwikkelaars na aanpassing van deze instellingen.</string>
+
+    <string name="cpu_settings_title">CPU-instellingen</string>
+    <string name="cpu_title">CPU-instellingen</string>
+    <string name="cpu_summary">Governor- en klokinstellingen</string>
+    <string name="cpu_governors_title">Governors</string>
+    <string name="cpu_governors_summary">Huidige: %S</string>
+    <string name="cpu_min_freq_title">Minimale kloksnelheid</string>
+    <string name="cpu_min_freq_summary">Huidige: %s</string>
+    <string name="cpu_max_freq_title">Maximale CPU-frequentie</string>
+    <string name="cpu_max_freq_summary">Huidige: %s</string>
+    <string name="cpu_set_on_boot">Instellen tijdens opstarten</string>
+    <string name="cpu_set_on_boot_summary">Deze instellingen herstellen tijdens opstarten</string>
+
+    <string name="pref_compcache_title">Compcache RAM-gebruik</string>
+    <string name="pref_compcache_summary">Geheugen comprimeren voor een verhoging van de virtuele capaciteit (herstart vereist)</string>
+
+    <string name="pref_jit_mode_title">JIT-compiler</string>
+    <string name="pref_jit_mode_summary">Gebruik de Dalvik just-in-time-compiler (herstart vereist)</string>
+
+    <string name="pref_use_dithering_title">Oppervlaktedithering</string>
+    <string name="pref_use_dithering_summary">Verhoogt afbeeldingskwaliteit ten koste van systeemprestaties (herstart vereist)</string>
+
+    <string name="pref_use_16bpp_alpha_title">16 bit-transparantie</string>
+    <string name="pref_use_16bpp_alpha_summary">Verbetert scrollprestaties, maar kan leiden tot visuele fouten (herstart vereist)</string>
+
+    <string name="pref_scrollingcache_title">Scrollcache</string>
+    <string name="pref_scrollingcache_summary">Kan scrollkwaliteit verbeteren ten koste van geheugengebruik</string>
+    <string name="pref_scrollingcache_force_enable">Geforceerd ingeschakeld</string>
+    <string name="pref_scrollingcache_default_enable">Standaard ingeschakeld</string>
+    <string name="pref_scrollingcache_default_disable">Standaard uitgeschakeld</string>
+    <string name="pref_scrollingcache_force_disable">Geforceerd uitgeschakeld</string>
+
+    <string name="pref_purgeable_assets_title">Assets wissen</string>
+    <string name="pref_purgeable_assets_summary">Meer RAM-geheugen vrij maken indien nodig (herstart vereist)</string>
+
+    <string name="pref_disable_bootanimation_title">Opstartanimatie uitsch.</string>
+    <string name="pref_disable_bootanimation_summary">Opstartanimatie uitschakelen voor sneller opstarten</string>
+
+    <string name="pref_lock_home_title">Launcher vasthouden</string>
+    <string name="pref_lock_home_summary">Standaardlauncher blijft altijd in geheugen</string>
+
+    <string name="pref_lock_mms_title">Berichtenapplicatie vasthouden</string>
+    <string name="pref_lock_mms_summary">Voorkomt berichtenverlies als het opslaggeheugen bijna vol is</string>
+
+    <string name="pref_heapsize_title">VM-heapgrootte</string>
+    <string name="pref_heapsize_summary">Maximaal geheugen per VM-heap (herstart vereist)</string>
+
+    <!-- Geluid -->
+    <string name="sound_notifications_focus_title">Focus op melding</string>
+    <string name="sound_notifications_focus_summary">Volumes van ondersteunde applicaties verlagen bij melding</string>
+
+    <string name="sound_volume_control_silent_title">Stille modus</string>
+    <string name="sound_volume_control_silent_summary">Volledig dempen van geluiden toestaan</string>
+
+    <string name="sound_vibrate_in_call_title">Trillen tijdens gesprek</string>
+    <string name="sound_vibrate_in_call_summary_off">Bij melding niet trillen tijdens gesprek</string>
+    <string name="sound_vibrate_in_call_summary_on">Bij melding trillen tijdens gesprek</string>
+
+    <string name="sound_lock_volume_keys_title">Volumeknoppen vergr.</string>
+    <string name="sound_lock_volume_keys_summary">Voorkomt het per ongeluk uitschakelen van stille modus door drukken op volumeknoppen</string>
+
+    <string name="sound_category_quiet_hours_title">Stille uren</string>
+    <string name="quiet_hours_note_title">Let op</string>
+    <string name="quiet_hours_note_summary">Inkomende oproepen zullen zich als standaard gedragen tijdens stille uren</string>
+    <string name="quiet_hours_enabled">Stille uren</string>
+    <string name="quiet_hours_enabled_on">Stille uren momenteel ingeschakeld</string>
+    <string name="quiet_hours_enabled_off">Stille uren momenteel uitgeschakeld</string>
+    <string name="quiet_hours_start">Start van stille uren</string>
+    <string name="quiet_hours_start_summary">Wanneer gestart moet worden met het handhaven van de stille uren</string>
+    <string name="quiet_hours_end">Einde van stille uren</string>
+    <string name="quiet_hours_end_summary">Wanneer gestopt moet worden met het handhaven van de stille uren</string>
+    <string name="quiet_hours_mute">Geluid uitschakelen</string>
+    <string name="quiet_hours_mute_on">Geluiden niet afspelen</string>
+    <string name="quiet_hours_mute_off">Geluiden afspelen</string>
+    <string name="quiet_hours_still">Vibratie uitschakelen</string>
+    <string name="quiet_hours_still_on">Toestel vibreert niet</string>
+    <string name="quiet_hours_still_off">Toestel vibreert</string>
+    <string name="quiet_hours_dim">LED dimmen</string>
+    <string name="quiet_hours_dim_on">LED dimmen indien mogelijk</string>
+    <string name="quiet_hours_dim_off">LED op volledige helderheid</string>
+    <string name="quiet_hours_haptic">Trillen uitschakelen</string>
+    <string name="quiet_hours_haptic_on">Trillen uitgeschakeld</string>
+    <string name="quiet_hours_haptic_off">Trillen ingeschakeld</string>
+
+    <string name="sound_camera_shutter_disable_title">Stille camerasluiter</string>
+    <string name="sound_camera_shutter_disable_summary_on">Geluid van camerasluiter niet afspelen</string>
+    <string name="sound_camera_shutter_disable_summary_off">Geluid van camerasluiter afspelen</string>
+    <string name="sound_camera_shutter_disable_warning_title">Let op: mogelijk illegaal!</string>
+    <string name="sound_camera_shutter_disable_warning">Het uitschakelen van het camerasluitergeluid is illegaal in sommige gebieden. Weet u het zeker?</string>
+
+    <string name="sound_note_title">Let op</string>
+    <string name="sound_note_summary">Onderstaande instellingen worden alleen toegepast als een headset is aangesloten</string>
+
+    <string name="sound_to_speaker_title">Altijd via speaker:</string>
+    <string name="sound_notifications_title">Meldingen</string>
+    <string name="sound_rings_title">Beltonen</string>
+    <string name="sound_alarms_title">Alarmen</string>
+
+    <string name="sound_attenuation_title">Grootte volumedemping instellen</string>
+
+    <string name="sound_limitvol_title">Volume tijdens afspelen van muziek</string>
+
+    <string name="sound_notifications_attenuation_dialog">Meldingsdemping</string>
+    <string name="sound_rings_attenuation_dialog">Beltoondemping</string>
+    <string name="sound_alarms_attenuation_dialog">Alarmdemping</string>
+    <string name="sound_notifications_limitvol_dialog">Meldingsvolume</string>
+    <string name="sound_rings_limitvol_dialog">Beltoonvolume</string>
+    <string name="sound_alarms_limitvol_dialog">Alarmvolume</string>
+
+    <!-- Systeem -->
+    <string name="cmstats_title">Anonieme statistieken</string>
+    <string name="cmstats_summary">Help mee CyanogenMod te verbeteren door anonieme statistieksrapporten te versturen</string>
+
+    <string name="updatenotify_title">Updatenotificaties</string>
+    <string name="updatenotify_summary">Ontvang pushnotificaties bij nieuwe updates</string>
+
+    <string name="changelog_title">Bekijk changelog</string>
+    <string name="changelog_dialog">Changelog</string>
+    <string name="changelog_loading">Changelog laden\u2026</string>
+    <string name="changelog_error">Fout tijdens het laden van de changelog\u2026</string>
+    <string name="changelog_unknown">Onbekend</string>
+    <string name="changelog_version">Versie</string>
+
+    <!-- Tablet-tweaks -->
+    <string name="tablet_tweaks_sb_bottom_title">Statusbalk onderin</string>
+    <string name="tablet_tweaks_sb_bottom_summary">Statusbalk onderaan het scherm tonen. Handig voor tablets die softwareknoppen gebruiken voor home, menu,\u2026 in de statusbalk.</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">Inactieve zone</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">\'Inactieve zone\' ter grootte van een half scherm toevoegen aan het midden van de statusbalk.</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">Softwareknoppen links</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">Softwareknoppen plaatsen aan de linkerkant van de statusbalk.</string>
+    <string name="tablet_tweaks_soft_button_list_title">Kies softwareknoppen</string>
+    <string name="tablet_tweaks_interface_head">Interface</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">Vergrendelscherm uitsch.</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">Indien ingeschakeld wordt het vergrendelscherm niet getoond. Ook niet tijdens het opstarten van het toestel of het aanzetten van het scherm.</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">Schakel volledig scherm uit</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">Statusbalk is altijd zichtbaar, tenzij deze handmatig wordt verborgen met de \'weergaveknop\'.</string>
+    <string name="tablet_tweaks_unhide_button_list_head">Weergaveknop</string>
+    <string name="tablet_tweaks_unhide_button_list_title">Kies weergaveknop</string>
+    <string name="tablet_tweaks_extend_pm_title">Uitgebreide powermenu</string>
+    <string name="tablet_tweaks_extend_pm_summary">Voeg home, terug, menu,\u2026 acties toe aan het powermenu</string>
+    <string name="tablet_tweaks_extend_pm_list_title">Kies powermenu-knoppen</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">Volumegedrag</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Volumeknoppen gedragen zich normaal. Druk om volume te veranderen, druk lang voor gebruikersinteractie</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Volumeknoppen-gedrag omdraaien. Druk voor gebruikersinteractie, druk lang om volume te veranderen</string>
+    <string name="tablet_tweaks_input_head">Volumeknoppen opnieuw instellen</string>
+    <string name="tablet_tweaks_long_volp_action_title">Druk volume-omhoog lang in</string>
+    <string name="tablet_tweaks_long_volp_action_summary">Wijs home, terug, menu,\u2026 acties toe aan lang drukken op de knop voor verhogen van volume. Werkt alleen als het scherm aan is.</string>
+    <string name="tablet_tweaks_long_volm_action_title">Druk volume-omlaag lang in</string>
+    <string name="tablet_tweaks_vol_both_action_title">Beide volumeknoppen</string>
+    <string name="tablet_tweaks_vol_both_action_summary">Sommige toestellen voeren een hard-reset uit bij het indrukken van beide volumeknoppen en de powerknop.</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">Druk beide volumeknoppen lang in</string>
+    <string name="tablet_tweaks_extend_pm_list_head">Powermenu-knoppen</string>
+    <string name="tablet_tweaks_soft_buttons_list_head">Software-knoppen</string>
+    <string name="tablet_soft_buttons_home_title">Home</string>
+    <string name="tablet_soft_buttons_menu_title">Menu</string>
+    <string name="tablet_soft_buttons_back_title">Terug</string>
+    <string name="tablet_soft_buttons_search_title">Zoeken</string>
+    <string name="tablet_soft_buttons_quick_na_title">Snelle notificaties</string>
+
+    <!-- Overig: Kleurenkiezer -->
     <string name="title_color_picker">Kies een kleur</string>
-    <string name="msg_color_picker">Raak het midden van de kleur aan om te bevestigen.\nDruk op terug om te annuleren.</string>
+    <string name="msg_color_picker">Tik op het midden om te bevestigen.\nDruk op terug om te annuleren.</string>
+
+    <!-- User interface -->
+    <string name="ui_title">Gebruikersinterface</string>
 
     <!-- User interface: LED notifications -->
     <string name="group_settings">Instellingen</string>
@@ -189,59 +576,58 @@
     <string name="color_trackball_blink_summary">Oplichtsnelheid</string>
     <string name="color_trackball_test_title">Flitstest</string>
     <string name="color_trackball_test_summary">Flitstest</string>
-    <string name="dialog_clear_flash">Leeg Flits</string>
+    <string name="dialog_clear_flash">Flits uitschakelen</string>
     <string name="trackball_advanced_title">Geavanceerd</string>
-    <string name="pref_trackball_screen_title">Licht altijd op</string>
-    <string name="pref_trackball_screen_summary">LED-licht oplichten als scherm aan is</string>
-    <string name="pref_trackball_blend_title">Gemixte notificaties</string>
-    <string name="pref_trackball_blend_summary">Gemixte notificatiekleuren. Reeks overschrijven</string>
+    <string name="pref_trackball_screen_title">Altijd op laten lichten</string>
+    <string name="pref_trackball_screen_summary">LED-licht op laten lichten als scherm aan is</string>
+    <string name="pref_trackball_blend_title">Gemixte meldingen</string>
+    <string name="pref_trackball_blend_summary">Gemixte meldingskleuren. Reeks overschrijven</string>
     <string name="pref_trackball_sucess_title">Reeks</string>
-    <string name="pref_trackball_sucess_summary">Licht notificaties op in reeks</string>
+    <string name="pref_trackball_sucess_summary">Meldingen op laten lichten in een reeks</string>
     <string name="pref_trackball_random_title">Willekeurige kleuren</string>
-    <string name="pref_trackball_random_summary">Licht de LED op in willekeurige kleuren voor alle notificaties</string>
-    <string name="pref_trackball_order_title">Licht in volgorde op</string>
-    <string name="pref_trackball_order_summary">Licht de LED in volgorde op</string>
+    <string name="pref_trackball_random_summary">LED op laten lichten in willekeurige kleuren voor alle meldingen</string>
+    <string name="pref_trackball_order_title">Op laten lichten in volgorde</string>
+    <string name="pref_trackball_order_summary">In volgorde op laten lichten</string>
     <string name="pref_trackball_reset_title">Herstellen</string>
-    <string name="pref_trackball_reset_summary">Herstel alle kleuren en apps</string>
+    <string name="pref_trackball_reset_summary">Alle kleuren en applicaties herstellen</string>
     <string name="dialog_trackball_loading">Laden\u2026</string>
     <string name="dialog_trackball_packagelist">Pakkettenlijst laden</string>
     <string name="trackball_category_dialog_text">Voer een nieuwe categorie in</string>
     <string name="trackball_category_list_title">Categorie</string>
     <string name="trackball_category_list_summary">Kies een categorie</string>
-    <string name="trackball_category_screen">Beheer categorieën</string>
-    <string name="trackball_category_add_title">Voeg categorie toe</string>
-    <string name="trackball_category_add_summary">Voeg categorie toe aan de lijst</string>
+    <string name="trackball_category_screen">Categorieën beheren</string>
+    <string name="trackball_category_add_title">Categorie toevoegen</string>
+    <string name="trackball_category_add_summary">Categorie toevoegen aan de lijst</string>
     <string name="trackball_category_add_error_title">FOUT</string>
     <string name="trackball_category_add_error_summary">De categorienaam kan geen \'=\' bevatten</string>
-    <string name="trackball_category_remove_title">Verwijder categorie</string>
-    <string name="trackball_category_remove_summary">Verwijder categorie van de lijst</string>
-    <string name="trackball_category_edit_title">Pas categorie-instellingen aan</string>
-    <string name="trackball_category_edit_summary">Pas de standaardinstellingen voor deze categorie aan</string>
-    <string name="trackball_reset_all">Herstel alle kleuren en categorieën</string>
-    <string name="trackball_color_notice_title">N.B.:</string>
-    <string name="trackball_color_notice_summary">Niet alle kleuren kunnen op alle toestellen worden weergegeven</string>
+    <string name="trackball_category_remove_title">Categorie verwijderen</string>
+    <string name="trackball_category_remove_summary">Categorie verwijderen van lijst</string>
+    <string name="trackball_category_edit_title">Categorie-instellingen wijzigen</string>
+    <string name="trackball_category_edit_summary">Standaardinstellingen wijzigen voor deze categorie</string>
+    <string name="trackball_reset_all">Alle kleuren en categorieën herstellen</string>
+    <string name="trackball_color_notice_title">Let op</string>
+    <string name="trackball_color_notice_summary">Niet alle kleuren kunnen op alle toestellen worden getoond</string>
     <string name="trackball_category_unconfigured">Niet geconfigureerd</string>
     <string name="trackball_category_misc">Diversen</string>
     <string name="trackball_app_save_title">Opslaan</string>
-    <string name="trackball_app_save_summary">Sla de instellingen voor deze applicatie op</string>
+    <string name="trackball_app_save_summary">Instellingen voor deze applicatie opslaan</string>
     <string name="trackball_app_reset_title">Herstellen</string>
-    <string name="trackball_app_reset_summary">Verwijder de aangepaste instellingen voor deze applicatie</string>
-    <string name="trackball_force_mode_title">LED-wijze</string>
-    <string name="trackball_force_mode_dialog">Kies een LED-wijze</string>
-    <string name="trackball_force_mode_summary">Stel in hoe de LED zich dient te gedragen</string>
+    <string name="trackball_app_reset_summary">Aangepaste instellingen verwijderen voor deze applicatie</string>
+    <string name="trackball_force_mode_title">LED-modus</string>
+    <string name="trackball_force_mode_dialog">Kies een LED-modus</string>
+    <string name="trackball_force_mode_summary">Gedrag van LED instellen</string>
 
     <string name="trackball_app_email">E-mail</string>
     <string name="trackball_app_mms">Berichten</string>
     <string name="trackball_app_gvoice">Google Voice</string>
-    <string name="trackball_app_gmail">GMail</string>
-    <string name="trackball_app_gtalk">GTalk</string>
+    <string name="trackball_app_gmail">Gmail</string>
+    <string name="trackball_app_gtalk">Talk</string>
     <string name="trackball_app_twitter">Twitter</string>
     <string name="trackball_app_twicca">Twicca</string>
-    <!-- Say Missed Call instead of "Dialer" as the notification is for the missed call -->
     <string name="trackball_app_dialer">Gemiste oproep</string>
 
     <!-- Trackball color entries -->
-    <string name="trackball_color_entry_use_app">Gebruik applicatie-instellingen</string>
+    <string name="trackball_color_entry_use_app">Applicatie-instellingen gebruiken</string>
     <string name="trackball_color_entry_green">Groen</string>
     <string name="trackball_color_entry_white">Wit</string>
     <string name="trackball_color_entry_red">Rood</string>
@@ -256,29 +642,29 @@
     <string name="trackball_color_entry_amber">Oranje</string>
 
     <!-- Trackball Settings : Force modes -->
-    <string name="trackball_force_mode_category">Gebruik categorie-instellingen</string>
-    <string name="trackball_force_mode_application">Gebruik applicatie-instellingen</string>
-    <string name="trackball_force_mode_off">Forceer LED uit</string>
-    <string name="trackball_force_mode_events">Forceer LED aan voor gebeurtenissen</string>
-    <string name="trackball_force_mode_on">Forceer LED aan</string>
+    <string name="trackball_force_mode_category">Categorie-instellingen gebruiken</string>
+    <string name="trackball_force_mode_application">Applicatie-instellingen gebruiken</string>
+    <string name="trackball_force_mode_off">LED geforceerd uit</string>
+    <string name="trackball_force_mode_events">LED geforceerd aan voor gebeurtenissen</string>
+    <string name="trackball_force_mode_on">LED geforceerd aan</string>
 
     <!-- Trackball Settings : Warning dialog -->
-    <string name="notification_battery_warning_title">Let op: Kan zorgen voor hoger batterijverbruik</string>
-    <string name="notification_battery_warning">Deze optie zorgt voor een verhoging van het batterijverbruik met ~3% per uur.</string>
+    <string name="notification_battery_warning_title">Let op: kan zorgen voor hoger batterijverbruik</string>
+    <string name="notification_battery_warning">Deze instelling zorgt voor een verhoging van het batterijverbruik met ~3% per uur.</string>
 
     <!-- Lockscreen Overview -->
-    <string name="pref_lockscreen_disable_on_security_title">Sla over bij beveiligde ontgrendeling</string>
-    <string name="pref_lockscreen_disable_on_security_summary">Schakel het vergrendelscherm uit als de beveiligde ontgrendeling (patroon, PIN of wachtwoord) ingeschakeld is</string>
-    <string name="pref_lockscreen_stylecfg_title">Thema-opties</string>
-    <string name="pref_lockscreen_stylecfg_summary">Configureer het vergrendelschermthema</string>
-    <string name="pref_lockscreen_widgets_title">Widgetopties</string>
-    <string name="pref_lockscreen_widgets_summary">Zet verschillende widgets op het vergrendelscherm aan of uit</string>
-    <string name="pref_lockscreen_unlock_title">Ontgrendelopties</string>
-    <string name="pref_lockscreen_unlock_summary">Beheer ontgrendelen met knoppen en snel-ontgrendelen</string>
+    <string name="pref_lockscreen_disable_on_security_title">Overslaan bij beveiligde ontgrendeling</string>
+    <string name="pref_lockscreen_disable_on_security_summary">Vergrendelscherm uitschakelen als beveiligde ontgrendeling (patroon, PIN of wachtwoord) is ingeschakeld</string>
+    <string name="pref_lockscreen_stylecfg_title">Thema-instellingen</string>
+    <string name="pref_lockscreen_stylecfg_summary">Vergrendelschermthema configureren</string>
+    <string name="pref_lockscreen_widgets_title">Widget-instellingen</string>
+    <string name="pref_lockscreen_widgets_summary">Widgets op vergrendelscherm toevoegen/verwijderen</string>
+    <string name="pref_lockscreen_unlock_title">Ontgrendelinstellingen</string>
+    <string name="pref_lockscreen_unlock_summary">Ontgrendelen met knoppen en snel-ontgrendelen beheren</string>
     <string name="pref_lockscreen_gesture_title">Vergrendelschermgebaren</string>
-    <string name="pref_lockscreen_gesture_summary">Zet gebaren aan op het vergrendelscherm en configureer deze</string>
+    <string name="pref_lockscreen_gesture_summary">Gebaren op vergrendelscherm inschakelen en configureren</string>
     <string name="pref_lockscreen_timeout_title">Vertraging en time-out</string>
-    <string name="pref_lockscreen_timeout_summary">Configureer scherm time-out-vertraging en scherm-uitzettingsvertraging</string>
+    <string name="pref_lockscreen_timeout_summary">Schermtime-out-vertraging en schermuitzettingsvertraging configureren</string>
 
     <!-- Lockscreen Settings -->
     <string name="pref_lockscreen_always_battery_title">Laat batterijstatus altijd zien</string>
@@ -290,56 +676,54 @@
     <string name="pref_lockscreen_widget_layout_entry_centered">Gecentreerd</string>
     <string name="pref_lockscreen_widget_layout_entry_right">Rechts</string>
     <string name="pref_lockscreen_music_controls_title">Muziekknoppen</string>
-    <string name="pref_lockscreen_music_controls_summary">Geef muziekknoppen op het vergrendelscherm weer</string>
-    <string name="pref_lockscreen_now_playing_title">Geef titel weer</string>
-    <string name="pref_lockscreen_now_playing_summary">Geef artiestennaam weer</string>
-    <string name="pref_lockscreen_album_art_title">Geef albumillustratie weer</string>
-    <string name="pref_lockscreen_album_art_summary">Geef albumillustratie van huidig nummer weer. Werkt alleen met de standaard muziekspeler in portretmodus</string>
+    <string name="pref_lockscreen_music_controls_summary">Muziekknoppen tonen op vergrendelscherm</string>
+    <string name="pref_lockscreen_now_playing_title">Titel tonen</string>
+    <string name="pref_lockscreen_now_playing_summary">Artiestennaam tonen</string>
+    <string name="pref_lockscreen_album_art_title">Albumillustratie tonen</string>
+    <string name="pref_lockscreen_album_art_summary">Albumillustratie van huidig nummer tonen. Werkt alleen met de standaard muziekspeler in staande modus</string>
     <string name="pref_lockscreen_music_headset_title">Headset</string>
-    <string name="pref_lockscreen_music_headset_summary">Geef muziekknoppen weer als headset is aangesloten</string>
-    <string name="pref_lockscreen_always_music_controls_title">Altijd weergeven</string>
-    <string name="pref_lockscreen_always_music_controls_summary">Laat muziekknoppen altijd zien, ongeacht er muziek afgespeeld wordt</string>
-    <string name="pref_trackball_wake_title">Trackball-ontwaken</string>
-    <string name="pref_trackball_wake_summary">Als de trackball ingedrukt wordt, ontwaakt het toestel</string>
-    <string name="pref_volume_wake_title">Volume-ontwaken</string>
-    <string name="pref_volume_wake_summary">Als volume-omhoog/omlaag ingedrukt wordt, ontwaakt het toestel</string>
-    <string name="pref_trackball_unlock_title">Trackball-ontgrendelen</string>
-    <string name="pref_trackball_unlock_summary">Als de trackball ingedrukt wordt, ontgrendelt het toestel</string>
-    <string name="pref_slider_unlock_title">Uitschuiven toetsenbord-ontgrendelen</string>
-    <string name="pref_slider_unlock_summary">Als het toetsenbord uitgeschoven wordt, ontgrendelt het toestel</string>
-    <string name="pref_menu_unlock_title">Menu-ontgrendelen</string>
-    <string name="pref_menu_unlock_summary">Als de menuknop ingedrukt wordt, ontgrendelt het toestel</string>
+    <string name="pref_lockscreen_music_headset_summary">Muziekknoppen tonen als headset is aangesloten</string>
+    <string name="pref_lockscreen_always_music_controls_title">Altijd tonen</string>
+    <string name="pref_lockscreen_always_music_controls_summary">Muziekknoppen altijd tonen, ongeacht of er muziek afgespeeld wordt</string>
+
+    <string name="pref_trackball_unlock_title">Trackballontgrendeling</string>
+    <string name="pref_trackball_unlock_summary">Als de trackball wordt ingedrukt, ontgrendelt het toestel</string>
+    <string name="pref_slider_unlock_title">Uitschuivingsontgr.</string>
+    <string name="pref_slider_unlock_summary">Als het toetsenbord wordt uitgeschoven, ontgrendelt het toestel</string>
+    <string name="pref_menu_unlock_title">Menu-ontgrendeling</string>
+    <string name="pref_menu_unlock_summary">Als de menuknop wordt ingedrukt, ontgrendelt het toestel</string>
+
     <string name="pref_lockscreen_quick_unlock_control_title">Snel ontgrendelen</string>
-    <string name="pref_lockscreen_quick_unlock_control_summary">Op OK drukken bij het invoeren van PIN of wachtwoord is onnodig.</string>
+    <string name="pref_lockscreen_quick_unlock_control_summary">Op OK drukken bij het invoeren van een pincode/wachtwoord is onnodig.</string>
     <string name="lockscreen_style_options_title">Thema-afhankelijke instellingen</string>
-    <string name="pref_lockscreen_custom_app_toggle_title">Zelf-gekozen appstarter</string>
-    <string name="pref_lockscreen_custom_app_toggle_tab_summary">Geef een tweede slider weer, die een zelf te kiezen applicatie opent</string>
-    <string name="pref_lockscreen_custom_app_toggle_rotary_summary">Geef een aangepaste slider, die een zelf te kiezen applicatie opent</string>
-    <string name="pref_lockscreen_custom_app_toggle_ring_summary">Geef een derde ring weer voor het kiezen van tot 4 zelf te kiezen apps</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">Zelf-gekozen applicatiestarter</string>
+    <string name="pref_lockscreen_custom_app_toggle_tab_summary">Een tweede slider tonen, die een zelf te kiezen applicatie opent</string>
+    <string name="pref_lockscreen_custom_app_toggle_rotary_summary">Een aangepaste slider tonen, die een zelf te kiezen applicatie opent</string>
+    <string name="pref_lockscreen_custom_app_toggle_ring_summary">Een derde ring tonen voor het kiezen van tot 4 zelf te kiezen apps</string>
     <string name="pref_lockscreen_custom_app_activity_title">Kies applicatie</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">Kies snelkoppelingen</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">Kies de te verwijderen snelkoppeling</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_cancel">Annuleren</string>
-    <string name="pref_lockscreen_ring_custom_apps_dialog_add">Voeg toe</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_add">Toevoegen</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_remove">Verwijderen</string>
     <string name="pref_lockscreen_ring_custom_apps_notset">Afwezig</string>
     <string name="pref_lockscreen_ring_unlock_middle_title">Ontgrendelring in het midden</string>
     <string name="pref_lockscreen_ring_unlock_middle_summary">Draai ontgrendelring en applicatiering om</string>
-    <string name="pref_lockscreen_ring_minimal_title">Minimale lay-out</string>
+    <string name="pref_lockscreen_ring_minimal_title">Minimale indeling</string>
     <string name="pref_lockscreen_ring_minimal_summary">Enkel een ontgrendelring in het midden</string>
     <string name="pref_lockscreen_custom_background_title">Kies achtergrond</string>
     <string name="pref_lockscreen_custom_background_dialog_title">Kies achtergrond</string>
     <string name="pref_lockscreen_custom_background_summary">Kies een afbeelding of kleur als achtergrond</string>
-    <string name="pref_lockscreen_custom_background_summary_color">Huidige: Kleur</string>
-    <string name="pref_lockscreen_custom_background_summary_image">Huidige: Afbeelding</string>
-    <string name="pref_lockscreen_custom_background_summary_default">Huidige: Standaard</string>
-    <string name="pref_lockscreen_background_result_successful">Achtergrond veranderd</string>
-    <string name="pref_lockscreen_background_result_not_successful">Achtergrond onveranderd</string>
+    <string name="pref_lockscreen_custom_background_summary_color">Huidige: kleur</string>
+    <string name="pref_lockscreen_custom_background_summary_image">Huidige: afbeelding</string>
+    <string name="pref_lockscreen_custom_background_summary_default">Huidige: standaard</string>
+    <string name="pref_lockscreen_background_result_successful">Achtergrond gewijzigd</string>
+    <string name="pref_lockscreen_background_result_not_successful">Achtergrond niet gewijzigd</string>
     <string name="pref_lockscreen_custom_icon_style_title">Aangepast berichtenicoon</string>
-    <string name="pref_lockscreen_custom_icon_style_summary">Gebruik berichtenicoon i.p.v. CM-icoon voor het starten van de zelf gekozen applicatie</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">Berichtenicoon gebruiken i.p.v. CM-icoon voor het starten van de zelf gekozen applicatie</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Sleep naar beneden om te ontgrendelen</string>
-    <string name="pref_lockscreen_rotary_unlock_down_summary">Sleep het draaiwiel naar beneden om te ontgrendelen. Sleep het wiel naar rechts om de zelf gekozen app te starten</string>
-    <string name="pref_lockscreen_rotary_hide_arrows_title">Verberg draaiwielpijlen</string>
+    <string name="pref_lockscreen_rotary_unlock_down_summary">Sleep het draaiwiel naar beneden om te ontgrendelen. Sleep het wiel naar rechts om de zelf gekozen applicatie te starten</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_title">Draaiwielpijlen verbergen</string>
     <string name="pref_lockscreen_rotary_hide_arrows_summary">Verbergt de pijlen op het draaiwiel-vergrendelscherm</string>
     <string name="pref_lockscreen_style_title">Vergrendelschermthema</string>
     <string name="pref_lockscreen_style_summary">Kies een thema voor het vergrendelscherm</string>
@@ -363,194 +747,36 @@
     <string name="incall_style_entry_rotary">Draaiend</string>
     <string name="incall_style_entry_ring">Ring</string>
     <string name="lockscreen_music_title">Muziekbediening</string>
-    <string name="pref_volbtn_music_controls_title">Beheer muziek met volumeknoppen</string>
-    <string name="pref_volbtn_music_controls_summary">Druk lang op de volumeknoppen om door een nummer te bladeren als het scherm uit is</string>
-    <string name="pref_cambtn_music_controls_title">Beheer muziek met cameraknop</string>
-    <string name="pref_cambtn_music_controls_summary">Druk lang op de cameraknop om een nummer te starten/pauzeren als het scherm uit is</string>
-    <string name="lockscreen_widgets_note_title">N.B.</string>
+    <string name="lockscreen_widgets_note_title">Let op</string>
     <string name="lockscreen_widgets_note_summary">Als gekozen wordt voor de lensstijl worden alle widgets behalve die voor muziekbeheer verborgen.</string>
     <string name="lockscreen_calendar_title">Vergrendelschermagenda</string>
-    <string name="pref_lockscreen_calendar_alarm_title">Geef volgende afspraak weer</string>
-    <string name="pref_lockscreen_calendar_alarm_summary">Geef de tijd en naam van de volgende afspraak weer</string>
+    <string name="pref_lockscreen_calendar_alarm_title">Volgende afspraak tonen</string>
+    <string name="pref_lockscreen_calendar_alarm_summary">Tijd en naam van volgende afspraak tonen</string>
     <string name="pref_lockscreen_calendars_title">Agenda\'s</string>
     <string name="pref_lockscreen_calendars_summary">Vind de afspraken in deze agenda\'s</string>
     <string name="pref_lockscreen_calendar_reminders_only_title">Alleen herinneringen</string>
-    <string name="pref_lockscreen_calendar_reminders_only_summary">Alleen afspraken met herinneringen weergeven</string>
+    <string name="pref_lockscreen_calendar_reminders_only_summary">Alleen afspraken met herinneringen tonen</string>
     <string name="pref_lockscreen_calendar_lookahead_title">Vooruitkijken op afspraken</string>
     <string name="pref_lockscreen_calendar_lookahead_summary">Hoe ver in de toekomst afspraken getoond mogen worden</string>
-    <string name="pref_lockscreen_calendar_show_location_title">Geef afspraakplaats weer</string>
-    <string name="pref_lockscreen_calendar_show_location_summary">Geeft de plaats weer onder de afspraaknaam</string>
-    <string name="pref_lockscreen_calendar_show_description_title">Geef de beschrijving van de afspraak weer</string>
-    <string name="pref_lockscreen_calendar_show_description_summary">Geeft de beschrijving weer onder de afspraaknaam</string>
-	
-    <!-- Input Settings -->
-    <string name="input_settings_title">Invoerinstellingen</string>
-    <string name="haptic_title">Haptische feedback-tweaks</string>
-    <string name="haptic_summary">Bepaal wanneer en hoe hevig haptische feedback optreedt</string>
-    <string name="long_press_home_title">Homeknop lang indrukken</string>
-    <string name="long_press_home_summary">Aantal recente apps,\u2026</string>
-    <string name="input_search_key_title">Zoekknop-gedrag</string>
-    <string name="input_search_key_summary">Geef zoekknop een andere functie, zowel voor kort als lang indrukken</string>
-    <string name="pref_input_custom_search_app_toggle_title">Zoekknop-applicatie</string>
-    <string name="pref_input_custom_search_app_toggle_summary">Start een zelf gekozen applicatie als de zoekknop ingedrukt wordt</string>
-    <string name="pref_input_custom_search_app_activity_title">Zelf gekozen applicatie</string>
-    <string name="pref_input_custom_long_search_app_toggle_title">Zoekknop-applicatie bij lang indrukken</string>
-    <string name="pref_input_custom_long_search_app_toggle_summary">Start een zelf gekozen app als er lang op de zoekknop gedrukt wordt</string>
-    <string name="pref_backtrack_title">BackTrack Minipad</string>
-    <string name="pref_backtrack_summary">Kies of er wel of niet gebruik wordt gemaakt van de BackTrack Minipad-invoermethode</string>
-
-    <!-- Long Press Menu -->
-    <string name="long_press_menu_title">Menuknop lang indrukken</string>
-    <string name="long_press_menu_summary">Aangepaste instellingen voor het lang indrukken van de menuknop</string>
-    <string name="pref_user_defined_long_press_menu_title">Zelf gekozen applicatie</string>
-    <string name="pref_long_press_menu_title">Kies gedrag</string>
-    <string name="pref_long_press_menu_summary">Kies het gewenste gedrag bij het lang indrukken van de menuknop</string>
-
-    <!-- Long Press Home -->
-    <string name="recent_apps_show_title">Geef recente applicaties weer</string>
-    <string name="recent_apps_num_title">Aantal recente applicaties</string>
-    <string name="recent_apps_num_summary">Aantal recente applicaties om weer te geven bij het lang indrukken van de homeknop</string>
-    <string name="dialog_recent_apps_num_title">Geef het aantal recente applicaties</string>
-    <string name="use_custom_app_title">Zelf gekozen applicatie</string>
-    <string name="use_custom_app_summary">Gebruik een zelf gekozen applicatie in plaats van het \'recente applicatievenster\'</string>
-    <string name="select_custom_app_title">Kies applicatie</string>
-    <string name="group_applications">Applicaties</string>
-
-    <!-- Haptic Tweaks -->
-    <string name="title_haptic_feedback">Softwareknoppen/gebruikersinterface</string>
-    <string name="summary_on_haptic_feedback">Gebruik haptische feedback bij het indrukken van softwareknoppen en bij bepaalde interacties met de gebruikersinterface</string>
-    <string name="summary_off_haptic_feedback">Gebruik geen haptische feedback bij het indrukken van softwareknoppen en bij bepaalde interacties met de gebruikersinterface</string>
-
-    <string name="title_haptic_feedback_up">Activeer instellingen</string>
-    <string name="summary_on_haptic_feedback_up">Gebruik haptische feedback bij het loslaten van softwareknoppen en bij bepaalde interacties met de gebruikersinterface</string>
-    <string name="summary_off_haptic_feedback_up">Gebruik geen haptische feedback bij het loslaten van softwareknoppen en bij bepaalde interacties met de gebruikersinterface</string>
-
-    <string name="title_haptic_feedback_all">Scherm</string>
-    <string name="summary_on_haptic_feedback_all">Gebruik haptische feedback bij het aanraken van het scherm</string>
-    <string name="summary_off_haptic_feedback_all">Gebruik geen haptische feedback bij het aanraken van het scherm</string>
-
-    <string name="title_haptic_down_decider">Indrukinstellingen</string>
-    <string name="title_haptic_up_decider">Loslaat-instellingen</string>
-    <string name="title_haptic_long_decider">Stel lang-indrukkenpatroon in</string>
-    <string name="title_haptic_tap_decider">Stel toetsenbordpatroon in</string>
-
-    <string name="title_haptic_menu">Haptische aanpassing</string>
-    <string name="title_haptic_notice">HERSTART VEREIST VOOR TOEPASSING VAN VERANDERING</string>
-
-    <string name="haptic_delay_desc">Vertraging in ms</string>
-    <string name="haptic_vibe_desc">Duur in ms</string>
-
-    <string name="haptic_down_description">Verander instellingen voor haptische feedback bij het indrukken van een knop\n(virtuele hard-knoppen en bepaalde interacties met de gebruikersinterface)</string>
-    <string name="haptic_up_description">Verander instellingen voor haptische feedback bij het loslaten van een knop\n(virtuele hard-knoppen en de meeste schermaanrakingen)</string>
-    <string name="haptic_long_description">Verander instellingen voor haptische feedback bij lang indrukken</string>
-    <string name="haptic_tap_description">Verander instellingen voor haptische feedback bij toetsenbord</string>
-
-    <string name="haptic_plus_minus_desc">Gebruik de plus- en minknoppen om stappen toe te voegen of te verwijderen</string>
-
-    <string name="haptic_button_plus">+</string>
-    <string name="haptic_button_minus">-</string>
-
-    <string name="haptic_button_save">Opslaan</string>
-    <string name="haptic_button_test">Test</string>
-    <string name="haptic_button_cancel">Annuleren</string>
-    <string name="haptic_button_revert">Herstel veranderingen</string>
-    <string name="haptic_button_default">Laad standaardwaarden</string>
-
-    <string name="haptic_save_toast">De volgende waarden zijn opgeslagen: </string>
-    <string name="haptic_cancel_toast">Waarden zijn onveranderd</string>
-    <string name="haptic_revert_toast">Laatst geladen waarden worden hersteld</string>
-    <string name="haptic_default_toast">Standaardinstellingen worden geladen</string>
-
-    <!-- Performance Settings -->
-    <string name="performance_settings_title">Prestatie-instellingen</string>
-
-    <!-- Performance Settings : Compcache -->
-    <string name="pref_compcache_title">Compcache RAM-gebruik</string>
-    <string name="pref_compcache_summary">Comprimeer geheugen voor een verhoging van de virtuele capaciteit (herstart vereist)</string>
-
-    <!-- Performance Settings : JIT Mode -->
-    <string name="pref_jit_mode_title">Gebruik JIT</string>
-    <string name="pref_jit_mode_summary">Gebruik de Dalvik just-in-time-compiler (herstart vereist)</string>
-
-    <!-- Performance Settings : Dithering -->
-    <string name="pref_use_dithering_title">Oppervlaktedithering</string>
-    <string name="pref_use_dithering_summary">Verhoogt afbeeldingskwaliteit, maar verlaagt systeemprestaties (herstart vereist)</string>
-
-    <!-- Performance Settings : 16bpp Alpha -->
-    <string name="pref_use_16bpp_alpha_title">Gebruik 16bit-transparantie</string>
-    <string name="pref_use_16bpp_alpha_summary">Het gebruik van 16bit-transparantie kan scrollprestaties verbeteren, maar kan leiden tot visuele imperfecties (herstart vereist)</string>
-
-    <!-- Performance Settings : Scrolling Cache -->
-    <string name="pref_scrollingcache_title">Scrollcache</string>
-    <string name="pref_scrollingcache_summary">Scrollcache kan scrollkwaliteit verbeteren ten koste van geheugengebruik</string>
-    <string name="pref_scrollingcache_force_enable">Geforceerd ingeschakeld</string>
-    <string name="pref_scrollingcache_default_enable">Standaard ingeschakeld</string>
-    <string name="pref_scrollingcache_default_disable">Standaard uitgeschakeld</string>
-    <string name="pref_scrollingcache_force_disable">Geforceerd uitgeschakeld</string>
-
-    <!-- Performance Settings : Purgeable Assets -->
-    <string name="pref_purgeable_assets_title">Assets wissen</string>
-    <string name="pref_purgeable_assets_summary">Systeem kan meer RAM-geheugen vrij maken indien nodig (herstart vereist)</string>
-
-    <!-- Performance Settings : VM Heap Size -->
-    <string name="pref_heapsize_title">VM-heapgrootte</string>
-    <string name="pref_heapsize_summary">Maximaal geheugen per VM-heap (herstart vereist)</string>
-
-    <!-- Performance : Disable bootanimation -->
-    <string name="pref_disable_bootanimation_title">Opstartanimatie uitschakelen</string>
-    <string name="pref_disable_bootanimation_summary">Opstartanimatie uitschakelen voor snellere opstart</string>
-
-    <!-- Performance : Lock home memory -->
-    <string name="pref_lock_home_title">Launcher vasthouden</string>
-    <string name="pref_lock_home_summary">Standaardlauncher blijft altijd in geheugen</string>
-
-    <!-- Performance : Lock mms app in memory -->
-    <string name="pref_lock_mms_title">Berichtenapplicatie-lock</string>
-    <string name="pref_lock_mms_summary">Voorkomt berichtenverlies als het opslaggeheugen bijna vol is</string>
-
-    <!-- Performance Settings : Warning dialog -->
-    <string name="performance_settings_warning_title">Let op: Mogelijk hogere batterijverbruik!</string>
-    <string name="performance_settings_warning">Deze instellingen kunnen de prestaties van het systeem aanpassen, wat voor fouten kan zorgen. Alleen bedoeld voor experimentele doeleinden. Stuur geen foutenrapport als het systeem zich vreemd gedraagd na aanpassing van deze instellingen.</string>
-
-    <!-- Application Settings -->
-    <string name="application_settings_title">Applicatie-instellingen</string>
-
-    <!-- Application Settings : Switch storage mountpoints -->
-    <string name="pref_switch_storage_title">Gebruikt intern geheugen</string>
-    <string name="pref_switch_storage_summary_on">Gebruik uitgebreid intern geheugen voor applicaties en media (herstart vereist)</string>
-    <string name="pref_switch_storage_summary_off">Gebruik extern geheugen voor apps en media (herstart vereist)</string>
-    <string name="pref_storage_switch_unavailable">Dit apparaat heeft geen uitgebreid intern geheugen</string>
-
-    <!-- Application Settings : Move any app -->
-    <string name="pref_move_all_apps_title">Apps verplaatsen</string>
-    <string name="pref_move_all_apps_summary">Sta het verplaatsen van apps naar de externe opslaglocatie toe</string>
-
-    <!-- Application Settings : Install Location -->
-    <string name="pref_install_location_title">Installatielocatie</string>
-    <string name="pref_install_location_summary">Kies waar nieuwe applicaties geïnstalleerd moeten worden</string>
+    <string name="pref_lockscreen_calendar_show_location_title">Plaats van afspraak</string>
+    <string name="pref_lockscreen_calendar_show_location_summary">De plaats tonen onder de afspraaknaam</string>
+    <string name="pref_lockscreen_calendar_show_description_title">Beschrijving van afspraak</string>
+    <string name="pref_lockscreen_calendar_show_description_summary">De beschrijving tonen onder de afspraaknaam</string>
 
     <string name="general_title">Algemeen</string>
     <string name="camera_title">Camera</string>
     <string name="buttons_title">Knoppen</string>
 
-    <!-- UI Settings : Power off prompt -->
-    <string name="pref_power_prompt_title">Opstart-/afsluitprompt</string>
-    <string name="pref_power_prompt_summary">Kies of er een melding weergegeven wordt tijdens het opstarten en afsluiten van het toestel</string>
-
-    <!-- UI Settings : Haptic feedback -->
-    <string name="expanded_haptic_feedback_title">Haptische feedback</string>
-    <string name="expanded_haptic_feedback_summary">Kies of er gebruik wordt gemaakt van haptische feedback</string>
-
     <!-- UI Settings : Render effect -->
     <string name="pref_render_effect_title">Rendereffect</string>
-    <string name="pref_render_effect_summary">Kies de kleuren die weergegeven worden op het scherm (mogelijke batterijbesparing)</string>
+    <string name="pref_render_effect_summary">Kies de kleuren die getoond worden op het scherm (mogelijke batterijbesparing)</string>
 
     <string name="widget_name">RenderFX-widget</string>
     <string name="renderfx_temp">RenderFX</string>
-    <string name="pref_widget_options_category_title">Algemene instellingen</string>
+    <string name="pref_widget_options_category_title">Algemeen</string>
     <string name="prefs_render_effect">Rendereffect</string>
-    <string name="notify_render_effect">Rendereffect aan</string>
-    <string name="add_widget">Voeg widget toe</string>
+    <string name="notify_render_effect">Rendereffect ingeschakeld</string>
+    <string name="add_widget">Widget toevoegen</string>
     <string name="pref_render_effect_none">Geen rendereffect</string>
     <string name="pref_render_effect_night">Nachtmodus (3700K)</string>
     <string name="pref_render_effect_green">Terminal (groen)</string>
@@ -559,8 +785,8 @@
     <string name="pref_render_effect_salmon">Zalm</string>
     <string name="pref_render_effect_fuscia">Paars</string>
     <string name="pref_render_effect_calibrated">Gekalibreerd (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Gekalibreerd (N1) Laag-rood</string>
-    <string name="pref_render_effect_calibrated_cool">Gekalibreerd (N1) Koel</string>
+    <string name="pref_render_effect_calibrated_red">Gekalibreerd (N1) laag-rood</string>
+    <string name="pref_render_effect_calibrated_cool">Gekalibreerd (N1) koel</string>
     <string name="pref_render_effect_red">Rood</string>
 
     <!--  Widget Types -->
@@ -572,160 +798,8 @@
     <string name="widget_render_effect_fuscia">Paars</string>
     <string name="widget_render_effect_red">Rood</string>
     <string name="widget_render_effect_calibrated">Gekalibreerd</string>
-    <string name="widget_render_effect_calibrated_red">Gekali-Rood</string>
-    <string name="widget_render_effect_calibrated_cool">Gekali-Koel</string>
-
-    <!-- Expanded View Power Widget -->
-    <string name="title_widget_buttons">Statusbalkwidget</string>
-    <string name="title_expanded_widget">Statusbalkwidget</string>
-    <string name="summary_expanded_widget">Gebruik de statusbalkwidget</string>
-    <string name="title_expanded_hide_onchange">Verberg bij verandering</string>
-    <string name="summary_expanded_hide_onchange">Verberg de notificatie balk nadat een widget is in-/uitgeschakeld</string>
-    <string name="title_expanded_hide_indicator">Verberg de indicator</string>
-    <string name="summary_expanded_hide_indicator">Verberg de indicator onder widgets</string>
-    <string name="title_expanded_hide_scrollbar">Verberg scrollbalk</string>
-    <string name="summary_expanded_hide_scrollbar">Verberg scrollbalk als er meer widgetknoppen weergegeven zijn dan toegestaan</string>
-    <string name="expanded_color_mask">Indicatorkleur</string>
-    <string name="title_widget_picker">Widgetknoppen</string>
-    <string name="summary_widget_picker">Kies de gewenste widgets</string>
-    <string name="title_widget_order">Widgetvolgorde</string>
-    <string name="summary_widget_order">Sorteer de widgets</string>
-    <string name="title_buttons">Knoppen</string>
-    <string name="title_toggle_wifi">Wifi aan/uit</string>
-    <string name="title_toggle_bluetooth">Bluetooth aan/uit</string>
-    <string name="title_toggle_gps">GPS aan/uit</string>
-    <string name="title_toggle_sound">Kies profiel</string>
-    <string name="title_toggle_brightness">Helderheid</string>
-    <string name="title_toggle_sync">Sync aan/uit</string>
-    <string name="title_toggle_wifiap">Wifi-tethering aan/uit</string>
-    <string name="title_toggle_screentimeout">Scherm time-out</string>
-    <string name="title_toggle_mobiledata">Dataverkeer aan/uit</string>
-    <string name="title_toggle_lockscreen">Activeer vergrendelscherm</string>
-    <string name="title_toggle_networkmode">2G/3G aan/uit</string>
-    <string name="title_toggle_autorotate">Auto-oriëntatie aan/uit</string>
-    <string name="title_toggle_airplane">Vliegtuigmodus aan/uit</string>
-    <string name="title_toggle_flashlight">LED aan/uit</string>
-    <string name="title_toggle_sleep">Activeer slaapstand</string>
-    <string name="title_toggle_media_play_pause">Afspelen/pauzeren</string>
-    <string name="title_toggle_media_previous">Ga naar vorige nummer</string>
-    <string name="title_toggle_media_next">Ga naar volgende nummer</string>
-    <string name="title_toggle_wimax">WiMAX aan/uit</string>
-    <string name="title_button_modes">Knopinstellingen</string>
-    <string name="pref_brightness_mode_title">Helderheidsknop</string>
-    <string name="pref_brightness_mode_summary">Stel de helderheidniveaus in die gekozen kunnen worden met de helderheidsknop</string>
-    <string name="cm_brightness_mode_auto">Automatisch</string>
-    <string name="cm_brightness_mode_dim">Dim</string>
-    <string name="pref_network_mode_title">Netwerkknop</string>
-    <string name="pref_network_mode_summary">Kies wat geactiveerd dient te worden bij een druk op de netwerkknop</string>
-    <string name="pref_screentimeout_mode_title">Schermtime-out-knop</string>
-    <string name="pref_screentimeout_mode_summary">Kies de instellingen voor de schermtime-out-knop</string>
-    <string name="pref_ring_mode_title">Profielknop</string>
-    <string name="pref_ring_mode_summary">Kies tussen welke profielen gewisseld wordt bij het gebruik van de geluidsknop</string>
-    <string name="cm_sound_mode_silent">Stil</string>
-    <string name="cm_sound_mode_vibrate">Trillen</string>
-    <string name="cm_sound_mode_sound">Geluid</string>
-    <string name="cm_sound_mode_soundVibrate">Geluid &amp; trillen</string>
-    <string name="pref_flash_mode_title">Zaklampknop</string>
-    <string name="pref_flash_mode_summary">Stel felheid in</string>
-    <string name="pref_mobiledatanetwork_mode_title">Automatisch 2G/3G bij gegevenstoegang</string>
-    <string name="pref_mobiledatanetwork_mode_summary">Gegevenstoegangsknop schakelt automatisch tussen 2G- en 3G-modus</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Automatische verlichting</string>
-    <string name="backlight_summary">Pas niveaus en filtering aan</string>
-    <string name="light_filter_title">Lichtsensor-filter</string>
-    <string name="light_filter_enabled_title">Ingeschakeld</string>
-    <string name="light_filter_enabled_summary">Sta het verplaatsen van het filtergemiddelde toe om flikkeren van het scherm te voorkomen</string>
-    <string name="light_filter_window_title">Venstertijd</string>
-    <string name="light_filter_window_summary">De gefilterde waarde is de gemiddelde sensorwaarde tijdens deze periode</string>
-    <string name="light_filter_reset_title">Herstellen</string>
-    <string name="light_filter_reset_summary">Bij teveel afwijking van huidig gemiddelde wordt de filter hersteld</string>
-    <string name="light_filter_interval_title">Voorbeeldinterval</string>
-    <string name="light_filter_interval_summary">Lage waarde kan nauwkeurigheid verhogen, maar zorgt voor hoger CPU-gebruik</string>
-    <string name="light_levels_title">Lichtniveaus</string>
-    <string name="light_levels_enabled_title">Aangepaste instellingen</string>
-    <string name="light_levels_dim_title">Schermdim-niveau</string>
-    <string name="light_levels_dim_summary">De helderheid bij een gedimd scherm</string>
-    <string name="light_levels_editor_title">Pas andere niveaus aan</string>
-    <string name="light_decrease_enabled_title">Automatisch dimmen</string>
-    <string name="light_decrease_enabled_summary">Schakel in om er voor te zorgen dat het scherm automatisch gedimd wordt. Gebruik hysterese om geflikker te voorkomen</string>
-    <string name="light_decrease_hysteresis_title">Verlaag hysterese</string>
-    <string name="light_decrease_hysteresis_summary">Overlap sensorniveaus</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Lichtsensorniveaus</string>
-    <string name="ll_header_upper">Verhoog</string>
-    <string name="ll_header_lower">Verlaag</string>
-    <string name="ll_header_lcd">Scherm</string>
-    <string name="ll_header_btn">Knoppen</string>
-    <string name="ll_header_kb">Toetsenbord</string>
-    <string name="ll_lux">Sensor (gefilterd/onbewerkt):</string>
-    <string name="ll_lcd">Scherm:</string>
-    <string name="ll_btn">Knoppen:</string>
-    <string name="ll_kb">Toetsenbord:</string>
-    <string name="ll_disabled">uitgeschakeld</string>
-    <string name="ll_default">Laad standaardinstellingen</string>
-    <string name="ll_save">Sla op &amp; gebruik</string>
-    <string name="ll_reload">Herlaad huidige</string>
-    <string name="ll_bad_levels">Niveaus dienen verhoogd te worden</string>
-    <string name="ll_num_levels">Stel het aantal niveaus in</string>
-
-    <!-- Sound -->
-    <string name="sound_notifications_focus_title">Notificatiefocus</string>
-    <string name="sound_notifications_focus_summary">Geluidsfocus-toestemming zorgt voor geluidsverlaging bij ondersteunde apps als een notificatie afgespeeld wordt</string>
-    <string name="sound_volume_control_silent_title">Stille modus</string>
-    <string name="sound_volume_control_silent_summary">Voeg een modus toe voor het volledig dempen van geluiden</string>
-    <string name="sound_vibrate_in_call_title">Gesprekvibratie</string>
-    <string name="sound_vibrate_in_call_summary_off">Notificaties zullen niet vibreren tijdens telefoongesprek</string>
-    <string name="sound_vibrate_in_call_summary_on">Notificaties zullen tijdens een telefoongesprek vibreren</string>
-    <string name="sound_lock_volume_keys_title">Vergrendel volumeknoppen</string>
-    <string name="sound_lock_volume_keys_summary">Voorkomt het per ongeluk uitschakelen van stille modus bij drukken op volumeknoppen</string>
-    <string name="sound_camera_shutter_disable_title">Demp camerasluiter-geluid</string>
-    <string name="sound_camera_shutter_disable_summary_on">Camerasluiter-geluid zal niet worden afgespeeld</string>
-    <string name="sound_camera_shutter_disable_summary_off">Camerasluiter-geluid zal worden afgespeeld</string>
-    <string name="sound_camera_shutter_disable_warning_title">Let op: Dit kan illegaal zijn!</string>
-    <string name="sound_camera_shutter_disable_warning">Het uitschakelen van het camerasluiter-geluid is illegaal in sommige gebieden. Weet je het zeker?</string>
-    <string name="sound_to_speaker_title">Speel altijd via speaker af</string>
-    <string name="sound_notifications_title">Notificaties</string>
-    <string name="sound_rings_title">Beltonen</string>
-    <string name="sound_alarms_title">Alarmen</string>
-    <string name="sound_note_title">N.B.</string>
-    <string name="sound_note_summary">Onderstaande instellingen worden alleen toegepast als een headset is aangesloten.</string>
-    <string name="sound_attenuation_title">Volumedemping instellen</string>
-    <string name="sound_limitvol_title">Volume als muziek wordt afgespeeld</string>
-    <string name="sound_notifications_attenuation_dialog">Notificatiedemping</string>
-    <string name="sound_rings_attenuation_dialog">Beltoondemping</string>
-    <string name="sound_alarms_attenuation_dialog">Alarmdemping</string>
-    <string name="sound_notifications_limitvol_dialog">Notificatievolume</string>
-    <string name="sound_rings_limitvol_dialog">Beltoonvolume</string>
-    <string name="sound_alarms_limitvol_dialog">Alarmvolume</string>
-
-    <!-- Quiet hours -->
-    <string name="sound_category_quiet_hours_title">Stille uren</string>
-    <string name="quiet_hours_note_title">N.B.</string>
-    <string name="quiet_hours_note_summary">Inkomende oproepen zullen zich als standaard gedragen tijdens stille uren</string>
-    <string name="quiet_hours_enabled">Zet stille uren aan</string>
-    <string name="quiet_hours_enabled_on">Stille uren zullen gehandhaafd worden</string>
-    <string name="quiet_hours_enabled_off">Notificaties zullen zich als standaard gedragen</string>
-    <string name="quiet_hours_start">Start van stille uren</string>
-    <string name="quiet_hours_start_summary">Als er gestart dient te worden met het handhaven van de stille uren</string>
-    <string name="quiet_hours_end">Einde van stille uren</string>
-    <string name="quiet_hours_end_summary">Als er gestopt dient te worden met het handhaven van de stille uren</string>
-    <string name="quiet_hours_mute">Zet geluiden uit</string>
-    <string name="quiet_hours_mute_on">Geluiden worden niet afgespeeld</string>
-    <string name="quiet_hours_mute_off">Geluiden worden afgespeeld</string>
-    <string name="quiet_hours_still">Zet vibraties uit</string>
-    <string name="quiet_hours_still_on">Toestel vibreert niet</string>
-    <string name="quiet_hours_still_off">Toestel vibreert wel</string>
-    <string name="quiet_hours_dim">Dim LED</string>
-    <string name="quiet_hours_dim_on">LED dimt indien mogelijk</string>
-    <string name="quiet_hours_dim_off">LED op volledige helderheid</string>
-    <string name="quiet_hours_haptic">Haptische feedback uitschakelen</string>
-    <string name="quiet_hours_haptic_on">Haptische feedback is uitgeschakeld</string>
-    <string name="quiet_hours_haptic_off">Haptische feedback is ingeschakeld</string>
-
-    <string name="cmstats_title">Anonieme statistieken</string>
-    <string name="cmstats_summary">Help mee CyanogenMod te verbeteren door anonieme statistieksrapporten te versturen</string>
+    <string name="widget_render_effect_calibrated_red">Gekali-rood</string>
+    <string name="widget_render_effect_calibrated_cool">Gekali-koel</string>
 
     <string name="user_defined_key1">Sneltoets 1</string>
     <string name="user_defined_key2">Sneltoets 2</string>
@@ -734,104 +808,4 @@
     <string name="user_defined_explorer_key">Verkentoets</string>
     <string name="user_defined_not_set">Niets ingesteld</string>
 
-    <!--  Lockscreen gesture strings -->
-    <string name="pref_lockscreen_gestures_enable_title">Vergrendelschermgebaren</string>
-    <string name="pref_lockscreen_gestures_trail_title">Laat gebarenpaden zien</string>
-    <string name="pref_lockscreen_gestures_builder_title">Ontwikkel gebaren</string>
-    <string name="pref_lockscreen_gestures_sensitivity_title">Gevoeligheid</string>
-    <string name="pref_lockscreen_gestures_color_title">Gebarenkleur</string>
-    <string name="gestures_button_add">Voeg een gebaar toe</string>
-    <string name="gestures_button_discard">Annuleren</string>
-    <string name="gestures_button_done">Klaar</string>
-    <string name="gestures_error_missing_shortcut">Een actie voor dit gebaar dient gekozen te worden!</string>
-    <string name="gestures_loading">Gebaren laden\u2026</string>
-    <string name="gestures_empty">Geen gebaren</string>
-    <string name="gestures_delete">Verwijderen</string>
-    <string name="gestures_delete_success">Gebaar verwijderd</string>
-    <string name="gestures_error_loading">Er is een probleem opgetreden met het gebaar.</string>
-    <string name="gestures_unlock_only">Telefoon ontgrendelen</string>
-    <string name="gestures_toggle_sound">Geluidsprofiel wisselen</string>
-    <string name="gestures_shortcut_or_activity">Sneltoets of activiteit</string>
-    <string name="gestures_flashlight">Zaklamp</string>
-    <string name="gestures_next">Volgend nummer</string>
-    <string name="gestures_previous">Vorig nummer</string>
-    <string name="gestures_playpause">Speel/pauzeer muziek</string>
-    <string name="pref_lockscreen_disable_unlock_tab">Zet ontgrendelslider uit</string>
-    <string name="pref_lockscreen_disable_unlock_tab_summary">N.B.: Trackball-, menuknop-, of gebaar-ontgrendelen dient geactiveerd te zijn voordat deze optie toegankelijk is</string>
-    <string name="gestures_action_label">Actie:</string>
-    <string name="gestures_draw_label">Gebaar:</string>
-    <string name="gestures_draw_for_label">Gebaar voor \"<xliff:g id="action">%s</xliff:g>\":</string>
-    <string name="gestures_already_present">Let op: een soortgelijke gebaar is al toegewezen aan een andere actie.</string>
-    <string name="gestures_run_in_background">Draai op de achtergrond</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">Bekijk changelog</string>
-    <string name="changelog_dialog">Changelog</string>
-    <string name="changelog_loading">Changelog laden\u2026</string>
-    <string name="changelog_error">Fout tijdens het laden van de changelog\u2026</string>
-    <string name="changelog_unknown">Onbekend</string>
-    <string name="changelog_version">Versie</string>
-
-    <!-- Phone goggles -->
-    <string name="category_phone_goggles_period">Periode</string>
-    <string name="category_phone_goggles_confirmation">Bevestiging</string>
-    <string name="category_phone_goggles_filter">Filters</string>
-    <string name="title_phone_goggles">Telefoonfiltering</string>
-    <string name="title_phone_goggles_default">Standaardinstellingen</string>
-    <string name="title_phone_goggles_apps">Gefilterde applicaties</string>
-    <string name="title_phone_goggles_app_enabled">Activeer telefoonfiltering</string>
-    <string name="title_phone_goggles_use_custom">Gebruik aangepaste instellingen</string>
-    <string name="title_phone_goggles_filter">Gefilterde nummers</string>
-    <string name="title_phone_goggles_enabled">Activeer telefoonfiltering</string>
-    <string name="title_phone_goggles_start">Start telefoonfilteringsmodus</string>
-    <string name="title_phone_goggles_end">Beëindig telefoonfilteringsmodus</string>
-    <string name="title_phone_goggles_confirmation_enabled">Vraag om bevestiging</string>
-    <string name="title_phone_goggles_maths_level">Rekenniveau</string>
-    <string name="title_phone_goggles_work_filtered">Werk</string>
-    <string name="title_phone_goggles_mobile_filtered">Mobiel</string>
-    <string name="title_phone_goggles_other_filtered">Overig</string>
-    <string name="summary_phone_goggles">Filter uitgaande communicatie</string>
-    <string name="summary_phone_goggles_default">Stel de standaardinstellingen in</string>
-    <string name="summary_phone_goggles_filter">Selecteer het type telefoonnummer welke gefilterd dient te worden</string>
-    <string name="summary_phone_goggles_start">Als het filteren van uitgaande gesprekken gestart dient te worden</string>
-    <string name="summary_phone_goggles_end">Als het filteren van uitgaande gesprekken gestopt dient te worden</string>
-    <string name="summary_phone_goggles_confirmation_enabled">Op welke manier de bevestiging gevraagd dient te worden voor communicatiefiltering</string>
-    <string name="summary_phone_goggles_maths_level">Niveau van rekenproblemen voor het autoriseren van een communicatie</string>
-    <string name="summary_on_phone_goggles_enabled">Uitgaande communicatie zal gefilterd worden</string>
-    <string name="summary_on_phone_goggles_use_custom">Gebruik aangepaste instellingen</string>
-    <string name="summary_on_phone_goggles_app_enabled">Telefoonfiltering is aangezet voor deze applicatie</string>
-    <string name="summary_on_phone_goggles_work_filtered">Professionele communicatie zal gefilterd worden</string>
-    <string name="summary_on_phone_goggles_mobile_filtered">Communicatie naar mobiele telefoons zal gefilterd worden</string>
-    <string name="summary_on_phone_goggles_other_filtered">Communicatie naar andere telefoons zal gefilterd worden</string>
-    <string name="summary_off_phone_goggles_enabled">Communicatie wordt niet gefilterd</string>
-    <string name="summary_off_phone_goggles_use_custom">Gebruik standaardinstellingen</string>
-    <string name="summary_off_phone_goggles_app_enabled">Telefoonfiltering is uitgezet voor deze app</string>
-    <string name="summary_off_phone_goggles_work_filtered">Professionele communicatie zal niet gefilterd worden</string>
-    <string name="summary_off_phone_goggles_mobile_filtered">Communicatie naar mobiele telefoons zal niet gefilterd worden</string>
-    <string name="summary_off_phone_goggles_other_filtered">Communicatie naar andere telefoons zal niet gefilterd worden</string>
-    <string name="phone_goggles_maths_level_easy">Makkelijk</string>
-    <string name="phone_goggles_maths_level_medium">Gemiddeld</string>
-    <string name="phone_goggles_maths_level_hard">Moeilijk</string>
-    <string name="phone_goggles_confirmation_none">Geen</string>
-    <string name="phone_goggles_confirmation_prompt">Prompt</string>
-    <string name="phone_goggles_confirmation_maths">Rekenprobleem</string>
-
-    <!-- CPU Settings strings -->
-    <string name="cpu_settings_title">CPU-instellingen</string>
-    <string name="cpu_title">CPU-instellingen</string>
-    <string name="cpu_summary">Governor- en klokinstellingen</string>
-    <string name="cpu_governors_title">Beschikbare governors</string>
-    <string name="cpu_governors_summary">Lijst van beschikbare governors\nNu geselecteerd: %S</string>
-    <string name="cpu_min_freq_title">Minimale CPU-frequentie</string>
-    <string name="cpu_min_freq_summary">Minimale CPU-frequentie\nNu: %s</string>
-    <string name="cpu_max_freq_title">Maximale CPU-frequentie</string>
-    <string name="cpu_max_freq_summary">Maximale CPU-frequentie\nNu: %s</string>
-    <string name="cpu_set_on_boot">Stel in tijdens opstarten</string>
-    <string name="cpu_set_on_boot_summary">Herstel CPU-instellingen tijdens opstarten</string>
-
-    <!-- Permissions Management Settings strings -->
-    <string name="perm_enable_management">Machtigingenbeheer</string>
-    <string name="perm_enable_management_summary">Machtigingenbeheer inschakelen</string>
-    <string name="perm_enable_warning_message">Let op:\nDeze optie kan zorgen voor onverwacht gedrag bij applicaties.\nNeem bij fouten geen contact op met de ontwikkelaars.</string>
-    <string name="perm_enable_warning_title">Weet je het zeker?</string>
 </resources>
