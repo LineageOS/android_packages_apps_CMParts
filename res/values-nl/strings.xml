@@ -14,57 +14,151 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Generic -->
-    <string name="app_name">CyanogenMod</string>
-
-    <!--  Primary Screen Settings -->
-    <string name="application_settings_title_head">Applicatie</string>
+    <!-- Hoofdmenu: BEGIN -->
+    <!-- Hoofdmenu: APPLICATIES -->
+    <string name="application_settings_title_head">Applicaties</string>
     <string name="application_settings_title_subhead">Applicatie-instellingen</string>
     <string name="application_settings_summary_head">Applicaties verplaatsen, installatielocatie, communicatiefiltering</string>
+    <!-- Hoofdmenu: SCHERM -->
     <string name="display_settings_title_head">Scherm</string>
     <string name="display_settings_title_subhead">Scherminstellingen</string>
     <string name="display_settings_summary_head">Schermverlichting, -animaties, -rotatie</string>
     <string name="display_settings_summary_head_nobacklight">Schermanimaties, -rotatie</string>
+    <!-- Hoofdmenu: INVOER -->
     <string name="input_settings_title_head">Invoer</string>
     <string name="input_settings_title_subhead">Invoerinstellingen</string>
-    <string name="input_settings_summary_head">Invoergedrag, knoppen, haptische feedback</string>
+    <string name="input_settings_summary_head">Invoergedrag, knoppen, trillen</string>
+    <!-- Hoofdmenu: INTERFACE -->
     <string name="interface_settings_title_head">Interface</string>
     <string name="interface_settings_summary_head">Interface-tweaks, overscrolling, rendereffect</string>
+    <!-- Hoofdmenu: VERGRENDELSCHERM -->
     <string name="lockscreen_settings_title_head">Vergrendelscherm</string>
-    <string name="lockscreen_settings_title_subhead">Vergrendelscherm-instellingen</string>
-    <string name="lockscreen_settings_summary_head">Vergrendelscherm-gebaren, -stijl, ontgrendelopties</string>
+    <string name="lockscreen_settings_title_subhead">Vergrendelscherminstellingen</string>
+    <string name="lockscreen_settings_summary_head">Vergrendelschermgebaren, -uiterlijk, ontgrendelinstellingen</string>
+    <!-- Hoofdmenu: PRESTATIES -->
     <string name="performance_settings_title_head">Prestaties</string>
     <string name="performance_settings_title_subhead">Prestatie-instellingen</string>
     <string name="performance_settings_summary_head">Prestatietweaks, JIT, VM-heapgrootte</string>
+    <!-- Hoofdmenu: GELUID -->
     <string name="sound_settings_title_head">Geluid</string>
     <string name="sound_settings_title_subhead">Geluidsinstellingen</string>
-    <string name="sound_settings_summary_head">Volumes, audiofocus, stille uren</string>
+    <string name="sound_settings_summary_head">Volumes, geluidsfocus, stille uren</string>
+    <!-- Hoofdmenu: SYSTEEM -->
     <string name="system_settings_title_head">Systeem</string>
     <string name="system_settings_title_subhead">Systeeminstellingen</string>
     <string name="system_settings_summary_head">Changelog, statistieken, updatenotificaties</string>
-
-    <!--  Update Notifications -->
-    <string name="updatenotify_title">Updatenotificaties</string>
-    <string name="updatenotify_summary">Ontvang pushnotificaties bij nieuwe updates</string>
-
-    <!-- User interface -->
-    <string name="ui_title">Gebruikersinterface</string>
-
-    <string name="pref_electron_beam_animation_on">Animatie bij aanzetten scherm</string>
-    <string name="pref_electron_beam_animation_off">Animatie bij uitschakelen scherm</string>
-    <string name="pref_rotation_animation_title">Rotatie-animatie</string>
-    <string name="pref_rotation_animation_summary">Vereist een herstart van het toestel</string>
-
-    <!-- User interface: Tablet tweaks -->
+    <!-- Hoofdmenu: TABLET-TWEAKS -->
     <string name="tablet_tweaks_title_head">Tablet-tweaks</string>
     <string name="tablet_tweaks_summary_head">Tabletinstellingen. Mogelijk ook werkend voor telefoons</string>
+    <!-- Hoofdmenu: EINDE -->
+
+    <!-- Applicaties: BEGIN -->
+    <string name="application_settings_title">Applicatie-instellingen</string>
+    <!-- Applicaties: GEHEUGEN (INTERN/EXTERN) -->
+    <string name="pref_switch_storage_title">Intern geheugen</string>
+    <string name="pref_switch_storage_summary_on">Uitgebreid intern geheugen gebruiken voor applicaties en media (herstart vereist)</string>
+    <string name="pref_switch_storage_summary_off">Extern geheugen gebruiken voor applicaties en media (herstart vereist)</string>
+    <string name="pref_storage_switch_unavailable">Niet beschikbaar</string>
+    <!-- Applicaties: VERPLAATSEN -->
+    <string name="pref_move_all_apps_title">Applicaties verplaatsen</string>
+    <string name="pref_move_all_apps_summary">Applicaties mogen verplaatst worden naar de externe opslaglocatie</string>
+    <!-- Applicaties: LOCATIE -->
+    <string name="pref_install_location_title">Installatielocatie</string>
+    <string name="pref_install_location_summary">Waar nieuwe applicaties geïnstalleerd moeten worden</string>
+    <!-- Applicaties: EINDE -->
+
+
+
+    <!-- Scherm -->
+
+    <!-- Invoer -->
+
+    <!-- Interface -->
+
+    <!-- Vergrendelscherm -->
+
+    <!-- Prestaties: BEGIN -->
+    <string name="performance_settings_title">Prestatie-instellingen</string>
+    <!-- Prestaties: BEGINMELDING -->
+    <string name="performance_settings_warning_title">Let op: Mogelijk hogere batterijverbruik!</string>
+    <string name="performance_settings_warning">Deze instellingen kunnen de prestaties van het systeem aanpassen, wat voor fouten kan zorgen. Alleen bedoeld voor experimentele doeleinden. Meld geen fouten aan de ontwikkelaars na aanpassing van deze instellingen.</string>
+    <!-- Prestaties: CPU -->
+    <string name="cpu_settings_title">CPU-instellingen</string>
+    <string name="cpu_title">CPU-instellingen</string>
+    <string name="cpu_summary">Governor- en klokinstellingen</string>
+    <!-- Prestaties: CPU - Governors -->
+    <string name="cpu_governors_title">Governors</string>
+    <string name="cpu_governors_summary">Huidige: %S</string>
+    <!-- Prestaties: CPU - Min. snelheid -->
+    <string name="cpu_min_freq_title">Minimale kloksnelheid</string>
+    <string name="cpu_min_freq_summary">Huidige: %s</string>
+    <!-- Prestaties: CPU - Max. snelheid -->
+    <string name="cpu_max_freq_title">Maximale CPU-frequentie</string>
+    <string name="cpu_max_freq_summary">Huidige: %s</string>
+    <!-- Prestaties: CPU - Opstartinstelling -->
+    <string name="cpu_set_on_boot">Instellen tijdens opstarten</string>
+    <string name="cpu_set_on_boot_summary">Deze instellingen herstellen tijdens opstarten</string>
+    <!-- Prestaties: COMPCACHE -->
+    <string name="pref_compcache_title">Compcache RAM-gebruik</string>
+    <string name="pref_compcache_summary">Geheugen comprimeren voor een verhoging van de virtuele capaciteit (herstart vereist)</string>
+    <!-- Prestaties: JIT-COMPILER -->
+    <string name="pref_jit_mode_title">JIT-compiler</string>
+    <string name="pref_jit_mode_summary">Gebruik de Dalvik just-in-time-compiler (herstart vereist)</string>
+    <!-- Prestaties: DITHERING -->
+    <string name="pref_use_dithering_title">Oppervlaktedithering</string>
+    <string name="pref_use_dithering_summary">Verhoogt afbeeldingskwaliteit ten koste van systeemprestaties (herstart vereist)</string>
+    <!-- Prestaties: 16 BIT -->
+    <string name="pref_use_16bpp_alpha_title">16 bit-transparantie</string>
+    <string name="pref_use_16bpp_alpha_summary">Verbetert scrollprestaties, maar kan leiden tot visuele fouten (herstart vereist)</string>
+    <!-- Prestaties: SCROLLCACHE -->
+    <string name="pref_scrollingcache_title">Scrollcache</string>
+    <string name="pref_scrollingcache_summary">Kan scrollkwaliteit verbeteren ten koste van geheugengebruik</string>
+    <string name="pref_scrollingcache_force_enable">Geforceerd ingeschakeld</string>
+    <string name="pref_scrollingcache_default_enable">Standaard ingeschakeld</string>
+    <string name="pref_scrollingcache_default_disable">Standaard uitgeschakeld</string>
+    <string name="pref_scrollingcache_force_disable">Geforceerd uitgeschakeld</string>
+    <!-- Prestaties: ASSETS -->
+    <string name="pref_purgeable_assets_title">Assets wissen</string>
+    <string name="pref_purgeable_assets_summary">Meer RAM-geheugen vrij maken indien nodig (herstart vereist)</string>
+    <!-- Prestaties: OPSTARTANIMATIE -->
+    <string name="pref_disable_bootanimation_title">Opstartanimatie uitsch.</string>
+    <string name="pref_disable_bootanimation_summary">Opstartanimatie uitschakelen voor sneller opstarten</string>
+    <!-- Prestaties: LAUNCHER IN GEHEUGEN -->
+    <string name="pref_lock_home_title">Launcher vasthouden</string>
+    <string name="pref_lock_home_summary">Standaardlauncher blijft altijd in geheugen</string>
+    <!-- Prestaties: SMS/MMS IN GEHEUGEN -->
+    <string name="pref_lock_mms_title">Berichtenapplicatie vasthouden</string>
+    <string name="pref_lock_mms_summary">Voorkomt berichtenverlies als het opslaggeheugen bijna vol is</string>
+    <!-- Prestaties: VM-HEAP -->
+    <string name="pref_heapsize_title">VM-heapgrootte</string>
+    <string name="pref_heapsize_summary">Maximaal geheugen per VM-heap (herstart vereist)</string>
+    <!-- Prestaties: EINDE -->
+
+    <!-- Geluid -->
+
+    <!-- Systeem: BEGIN -->
+    <!-- Systeem: STATISTIEKEN -->
+    <string name="cmstats_title">Anonieme statistieken</string>
+    <string name="cmstats_summary">Help mee CyanogenMod te verbeteren door anonieme statistieksrapporten te versturen</string>
+    <!-- Systeem: MELDINGEN -->
+    <string name="updatenotify_title">Updatenotificaties</string>
+    <string name="updatenotify_summary">Ontvang pushnotificaties bij nieuwe updates</string>
+    <!-- Systeem: CHANGELOG -->
+    <string name="changelog_title">Bekijk changelog</string>
+    <string name="changelog_dialog">Changelog</string>
+    <string name="changelog_loading">Changelog laden\u2026</string>
+    <string name="changelog_error">Fout tijdens het laden van de changelog\u2026</string>
+    <string name="changelog_unknown">Onbekend</string>
+    <string name="changelog_version">Versie</string>
+
+    <!-- Tablet-tweaks: BEGIN -->
     <string name="tablet_tweaks_sb_bottom_title">Statusbalk onderin</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Geef statusbalk onderaan het scherm weer. Handig voor tablets die softwareknoppen gebruiken voor home, menu,\u2026 in de statusbalk.</string>
+    <string name="tablet_tweaks_sb_bottom_summary">Statusbalk onderaan het scherm tonen. Handig voor tablets die softwareknoppen gebruiken voor home, menu,\u2026 in de statusbalk.</string>
     <string name="tablet_tweaks_status_bar_dead_zone_title">Inactieve zone</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Voeg een \'inactieve zone\' ter grootte van een half scherm toe aan het midden van de statusbalk.</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">\'Inactieve zone\' ter grootte van een half scherm toevoegen aan het midden van de statusbalk.</string>
     <string name="tablet_tweaks_soft_buttons_left_title">Softwareknoppen links</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Plaats softwareknoppen aan de linkerkant van de statusbalk.</string>
-    <string name="tablet_tweaks_soft_button_list_title">Kies softwareknoppen.</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">Softwareknoppen plaatsen aan de linkerkant van de statusbalk.</string>
+    <string name="tablet_tweaks_soft_button_list_title">Kies softwareknoppen</string>
     <string name="tablet_tweaks_interface_head">Interface</string>
     <string name="tablet_tweaks_disable_lockscreen_title">Vergrendelscherm uitsch.</string>
     <string name="tablet_tweaks_disable_lockscreen_summary">Indien ingeschakeld wordt het vergrendelscherm niet getoond. Ook niet tijdens het opstarten van het toestel of het aanzetten van het scherm.</string>
@@ -78,8 +172,7 @@
     <string name="tablet_tweaks_reverse_volume_behavior_title">Volumegedrag</string>
     <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Volumeknoppen gedragen zich normaal. Druk om volume te veranderen, druk lang voor gebruikersinteractie</string>
     <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Volumeknoppen-gedrag omdraaien. Druk voor gebruikersinteractie, druk lang om volume te veranderen</string>
-
-    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <!-- Tablet-tweaks: HERTOEWIJZING VOLUMEKNOPPEN -->
     <string name="tablet_tweaks_input_head">Volumeknoppen opnieuw instellen</string>
     <string name="tablet_tweaks_long_volp_action_title">Druk volume-omhoog lang in</string>
     <string name="tablet_tweaks_long_volp_action_summary">Wijs home, terug, menu,\u2026 acties toe aan lang drukken op de knop voor verhogen van volume. Werkt alleen als het scherm aan is.</string>
@@ -87,17 +180,51 @@
     <string name="tablet_tweaks_vol_both_action_title">Beide volumeknoppen</string>
     <string name="tablet_tweaks_vol_both_action_summary">Sommige toestellen voeren een hard-reset uit bij het indrukken van beide volumeknoppen en de powerknop.</string>
     <string name="tablet_tweaks_long_vol_both_action_title">Druk beide volumeknoppen lang in</string>
-
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <!-- Tablet-tweaks: POWERMENUKNOPPEN -->
     <string name="tablet_tweaks_extend_pm_list_head">Powermenu-knoppen</string>
-
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">Softwareknoppen</string>
+    <!-- Tablet-tweaks: SOFTWARE-KNOPPEN -->
+    <string name="tablet_tweaks_soft_buttons_list_head">Software-knoppen</string>
     <string name="tablet_soft_buttons_home_title">Home</string>
     <string name="tablet_soft_buttons_menu_title">Menu</string>
     <string name="tablet_soft_buttons_back_title">Terug</string>
     <string name="tablet_soft_buttons_search_title">Zoeken</string>
     <string name="tablet_soft_buttons_quick_na_title">Snelle notificaties</string>
+    <!-- Tablet-tweaks: EINDE -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- User interface -->
+    <string name="ui_title">Gebruikersinterface</string>
+
+    <string name="pref_electron_beam_animation_on">Animatie bij aanzetten scherm</string>
+    <string name="pref_electron_beam_animation_off">Animatie bij uitschakelen scherm</string>
+    <string name="pref_rotation_animation_title">Rotatie-animatie</string>
+    <string name="pref_rotation_animation_summary">Vereist een herstart van het toestel</string>
+
+
 
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Automatische schermoriëntatie</string>
@@ -461,73 +588,9 @@
     <string name="haptic_revert_toast">Laatst geladen waarden worden hersteld</string>
     <string name="haptic_default_toast">Standaardinstellingen worden geladen</string>
 
-    <!-- Performance Settings -->
-    <string name="performance_settings_title">Prestatie-instellingen</string>
 
-    <!-- Performance Settings : Compcache -->
-    <string name="pref_compcache_title">Compcache RAM-gebruik</string>
-    <string name="pref_compcache_summary">Comprimeer geheugen voor een verhoging van de virtuele capaciteit (herstart vereist)</string>
 
-    <!-- Performance Settings : JIT Mode -->
-    <string name="pref_jit_mode_title">Gebruik JIT</string>
-    <string name="pref_jit_mode_summary">Gebruik de Dalvik just-in-time-compiler (herstart vereist)</string>
 
-    <!-- Performance Settings : Dithering -->
-    <string name="pref_use_dithering_title">Oppervlaktedithering</string>
-    <string name="pref_use_dithering_summary">Verhoogt afbeeldingskwaliteit, maar verlaagt systeemprestaties (herstart vereist)</string>
-
-    <!-- Performance Settings : 16bpp Alpha -->
-    <string name="pref_use_16bpp_alpha_title">Gebruik 16bit-transparantie</string>
-    <string name="pref_use_16bpp_alpha_summary">Het gebruik van 16bit-transparantie kan scrollprestaties verbeteren, maar kan leiden tot visuele imperfecties (herstart vereist)</string>
-
-    <!-- Performance Settings : Scrolling Cache -->
-    <string name="pref_scrollingcache_title">Scrollcache</string>
-    <string name="pref_scrollingcache_summary">Scrollcache kan scrollkwaliteit verbeteren ten koste van geheugengebruik</string>
-    <string name="pref_scrollingcache_force_enable">Geforceerd ingeschakeld</string>
-    <string name="pref_scrollingcache_default_enable">Standaard ingeschakeld</string>
-    <string name="pref_scrollingcache_default_disable">Standaard uitgeschakeld</string>
-    <string name="pref_scrollingcache_force_disable">Geforceerd uitgeschakeld</string>
-
-    <!-- Performance Settings : Purgeable Assets -->
-    <string name="pref_purgeable_assets_title">Assets wissen</string>
-    <string name="pref_purgeable_assets_summary">Systeem kan meer RAM-geheugen vrij maken indien nodig (herstart vereist)</string>
-
-    <!-- Performance Settings : VM Heap Size -->
-    <string name="pref_heapsize_title">VM-heapgrootte</string>
-    <string name="pref_heapsize_summary">Maximaal geheugen per VM-heap (herstart vereist)</string>
-
-    <!-- Performance : Disable bootanimation -->
-    <string name="pref_disable_bootanimation_title">Opstartanimatie uitschakelen</string>
-    <string name="pref_disable_bootanimation_summary">Opstartanimatie uitschakelen voor snellere opstart</string>
-
-    <!-- Performance : Lock home memory -->
-    <string name="pref_lock_home_title">Launcher vasthouden</string>
-    <string name="pref_lock_home_summary">Standaardlauncher blijft altijd in geheugen</string>
-
-    <!-- Performance : Lock mms app in memory -->
-    <string name="pref_lock_mms_title">Berichtenapplicatie-lock</string>
-    <string name="pref_lock_mms_summary">Voorkomt berichtenverlies als het opslaggeheugen bijna vol is</string>
-
-    <!-- Performance Settings : Warning dialog -->
-    <string name="performance_settings_warning_title">Let op: Mogelijk hogere batterijverbruik!</string>
-    <string name="performance_settings_warning">Deze instellingen kunnen de prestaties van het systeem aanpassen, wat voor fouten kan zorgen. Alleen bedoeld voor experimentele doeleinden. Stuur geen foutenrapport als het systeem zich vreemd gedraagd na aanpassing van deze instellingen.</string>
-
-    <!-- Application Settings -->
-    <string name="application_settings_title">Applicatie-instellingen</string>
-
-    <!-- Application Settings : Switch storage mountpoints -->
-    <string name="pref_switch_storage_title">Gebruikt intern geheugen</string>
-    <string name="pref_switch_storage_summary_on">Gebruik uitgebreid intern geheugen voor applicaties en media (herstart vereist)</string>
-    <string name="pref_switch_storage_summary_off">Gebruik extern geheugen voor apps en media (herstart vereist)</string>
-    <string name="pref_storage_switch_unavailable">Dit apparaat heeft geen uitgebreid intern geheugen</string>
-
-    <!-- Application Settings : Move any app -->
-    <string name="pref_move_all_apps_title">Apps verplaatsen</string>
-    <string name="pref_move_all_apps_summary">Sta het verplaatsen van apps naar de externe opslaglocatie toe</string>
-
-    <!-- Application Settings : Install Location -->
-    <string name="pref_install_location_title">Installatielocatie</string>
-    <string name="pref_install_location_summary">Kies waar nieuwe applicaties geïnstalleerd moeten worden</string>
 
     <string name="general_title">Algemeen</string>
     <string name="camera_title">Camera</string>
@@ -724,8 +787,7 @@
     <string name="quiet_hours_haptic_on">Haptische feedback is uitgeschakeld</string>
     <string name="quiet_hours_haptic_off">Haptische feedback is ingeschakeld</string>
 
-    <string name="cmstats_title">Anonieme statistieken</string>
-    <string name="cmstats_summary">Help mee CyanogenMod te verbeteren door anonieme statistieksrapporten te versturen</string>
+
 
     <string name="user_defined_key1">Sneltoets 1</string>
     <string name="user_defined_key2">Sneltoets 2</string>
@@ -764,13 +826,7 @@
     <string name="gestures_already_present">Let op: een soortgelijke gebaar is al toegewezen aan een andere actie.</string>
     <string name="gestures_run_in_background">Draai op de achtergrond</string>
 
-    <!-- Change Log strings -->
-    <string name="changelog_title">Bekijk changelog</string>
-    <string name="changelog_dialog">Changelog</string>
-    <string name="changelog_loading">Changelog laden\u2026</string>
-    <string name="changelog_error">Fout tijdens het laden van de changelog\u2026</string>
-    <string name="changelog_unknown">Onbekend</string>
-    <string name="changelog_version">Versie</string>
+
 
     <!-- Phone goggles -->
     <string name="category_phone_goggles_period">Periode</string>
@@ -816,18 +872,7 @@
     <string name="phone_goggles_confirmation_prompt">Prompt</string>
     <string name="phone_goggles_confirmation_maths">Rekenprobleem</string>
 
-    <!-- CPU Settings strings -->
-    <string name="cpu_settings_title">CPU-instellingen</string>
-    <string name="cpu_title">CPU-instellingen</string>
-    <string name="cpu_summary">Governor- en klokinstellingen</string>
-    <string name="cpu_governors_title">Beschikbare governors</string>
-    <string name="cpu_governors_summary">Lijst van beschikbare governors\nNu geselecteerd: %S</string>
-    <string name="cpu_min_freq_title">Minimale CPU-frequentie</string>
-    <string name="cpu_min_freq_summary">Minimale CPU-frequentie\nNu: %s</string>
-    <string name="cpu_max_freq_title">Maximale CPU-frequentie</string>
-    <string name="cpu_max_freq_summary">Maximale CPU-frequentie\nNu: %s</string>
-    <string name="cpu_set_on_boot">Stel in tijdens opstarten</string>
-    <string name="cpu_set_on_boot_summary">Herstel CPU-instellingen tijdens opstarten</string>
+
 
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Machtigingenbeheer</string>
