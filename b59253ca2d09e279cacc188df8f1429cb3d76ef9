@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVn///YI\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIStatusBarActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1929
+      },
+      "writtenOn": "2012-07-31T19:18:59Z",
+      "side": 1,
+      "message": "try to add here\n} else {\n    mStatusBarAmPm.setEnabled(true);\n}",
+      "revId": "b59253ca2d09e279cacc188df8f1429cb3d76ef9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
