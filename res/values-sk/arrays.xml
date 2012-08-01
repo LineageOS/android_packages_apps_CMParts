@@ -28,12 +28,17 @@
     <string-array name="entries_status_bar_am_pm">
         <item>Normálny</item>
         <item>Malý</item>
-        <item>Žiadny (štandardne)</item>
+        <item>Žiadny (predvolený)</item>
+    </string-array>
+    <string-array name="entries_status_bar_battery">
+        <item>Ikona (predvolený)</item>
+        <item>Percentá</item>
+        <item>Skrytý</item>
     </string-array>
     <string-array name="haptic_feedback_entries">
-        <item>Všeobecné Nastavenia</item>
-        <item>Zap</item>
-        <item>Vyp</item>
+        <item>Všeobecné nastavenia</item>
+        <item>Zapnutá</item>
+        <item>Vypnutá</item>
     </string-array>
     <string-array name="pref_trackball_blink_rate_entries">
         <item>Podľa nastavenia aplikácie</item>
@@ -62,7 +67,7 @@
         <item>26%</item>
     </string-array>
     <string-array name="entries_light_filter_reset">
-        <item>Disabled</item>
+        <item>Vypnuté</item>
         <item>400 lux</item>
         <item>500 lux</item>
         <item>600 lux</item>
@@ -87,7 +92,7 @@
         <item>14</item>
         <item>16</item>
         <item>18</item>
-        <item>20 (default)</item>
+        <item>20 (predvolený)</item>
         <item>22</item>
         <item>24</item>
         <item>26</item>
@@ -107,18 +112,18 @@
     <string-array name="entries_sound_attenuation">
         <item>0 dB</item>
         <item>4 dB</item>
-        <item>6 dB (štandardne)</item>
+        <item>6 dB (predvolené)</item>
         <item>8 dB</item>
         <item>10 dB</item>
     </string-array>
     <string-array name="entries_sound_limitvol">
         <item>Nastavenia stlmenia hlasitosti</item>
-        <item>Hlasitosť hudby (štandardné)</item>
+        <item>Hlasitosť hudby (predvolená)</item>
     </string-array>
     <string-array name="entries_network_widget">
-        <item>2G/3G+2G</item>  
-        <item>2G/3G Len</item>   
-        <item>2G/3G Len/3G+2G</item>
+        <item>2G/3G+2G</item>
+        <item>2G/Len 3G</item>
+        <item>2G/Len 3G/3G+2G</item>
     </string-array>
     <string-array name="entries_screentimeout_widget">
         <item>15s/1m/5m</item>
@@ -145,13 +150,18 @@
     <string-array name="pref_lockscreen_background_entries">
         <item>Vyplnenie farbou</item>
         <item>Vlastný obrázok</item>
-        <item>Štandardný wallpaper</item>
+        <item>Aktuálna tapeta</item>
     </string-array>
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>Zakázané</item>
-        <item>Káblový Headset</item>
-        <item>Bluetooth A2DP Headset</item>
+        <item>Káblový headset</item>
+        <item>Bluetooth A2DP headset</item>
         <item>Obidve</item>
+    </string-array>
+    <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
+        <item>Nezobrazovať</item>
+        <item>Prvý riadok</item>
+        <item>Všetky riadky</item>
     </string-array>
     <string-array name="pref_overscroll_effect_entries">
         <item>Žiadny</item>
@@ -181,7 +191,7 @@
         <item>Dlhé podržanie tlač. Domov</item>
     </string-array>
     <string-array name="entries_unhide_button">
-         <item>Domov</item>
+        <item>Domov</item>
         <item>Menu</item>
         <item>Späť</item>
         <item>Hľadať</item>
@@ -191,9 +201,9 @@
     </string-array>
     <string-array name="entries_long_press_menu">
         <item>Žiadne</item>
-        <item>Soft Klávesnica</item>
-        <item>Tlač Hľadať</item>
-        <item>Vlastná Aplikácia</item>
-        <item>Prepnúť statusbar</item>
+        <item>Soft klávesnica</item>
+        <item>Tlačidlo Hľadať</item>
+        <item>Vlastná aplikácia</item>
+        <item>Prepnúť stavový riadok</item>
     </string-array>
 </resources>
