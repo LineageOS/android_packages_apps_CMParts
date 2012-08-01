@@ -16,6 +16,24 @@
       "revId": "b59253ca2d09e279cacc188df8f1429cb3d76ef9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn///NA\u003d",
+        "filename": "src/com/cyanogenmod/cmparts/activities/UIStatusBarActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2012-08-01T18:38:05Z",
+      "side": 1,
+      "message": "Aha.Thanks,I will do it :)",
+      "parentUuid": "AAAAVn///YI\u003d",
+      "revId": "b59253ca2d09e279cacc188df8f1429cb3d76ef9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
