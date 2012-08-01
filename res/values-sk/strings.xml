@@ -21,6 +21,7 @@
     <string name="display_settings_title_head">Obrazovka</string>
     <string name="display_settings_title_subhead">Nastavenia Obrazovky</string>
     <string name="display_settings_summary_head">Animácie obrazovky, rotácia, časové limity</string>
+    <string name="display_settings_summary_head_nobacklight">Animácie obrazovky, rotácia</string>
     <string name="input_settings_title_head">Vstup</string>
     <string name="input_settings_title_subhead">Nastavenia Vstupu</string>
     <string name="input_settings_summary_head">Správanie vstupu, tlačidiel, vibračná odozva</string>
@@ -45,6 +46,8 @@
     <string name="ui_title">Užívateľské rozhranie</string>
     <string name="pref_electron_beam_animation_on">Animácia zapnutia obrazovky</string>
     <string name="pref_electron_beam_animation_off">Animácia vypnutia obrazovky</string>
+    <string name="pref_rotation_animation_title">Animácia rotácie</string>
+    <string name="pref_rotation_animation_summary">Vyžaduje reštart</string>
     <!-- User interface: Tablet tweaks -->
     <string name="tablet_tweaks_title_head">Vylepšenia pre Tablet</string>
     <string name="tablet_tweaks_summary_head">Nastavenia najpoužiteľnejšie pre tabletové zariadenia zhromaždené na jednom mieste. Taktiež fungujú aj pre telefóny</string>
@@ -97,8 +100,18 @@
     <string name="ui_status_bar_am_pm_summary">Zobraziť AM/PM vedľa hodín</string>
     <string name="ui_status_bar_clock_title">Zobraziť hodiny</string>
     <string name="ui_status_bar_clock_summary">Ak je vypnuté, hodiny v stavovom riadku sú zakázané</string>
+    <string name="ui_status_bar_battery_title">Štýl indikátora batérie</string>
+    <string name="ui_status_bar_battery_summary">Umožňuje zvoliť štýl indikátora batérie</string>
     <string name="ui_status_bar_compact_carrier_title">Zmenšiť názov operátora</string>
     <string name="ui_status_bar_compact_carrier_summary">Použiť alternatívny vzhľad notifikačného menu s malým názvom operátora</string>
+    <string name="ui_status_bar_carrier_label_title">Typ názvu operátora</string>
+    <string name="ui_status_bar_carrier_label_summary">Nastaví typ zobrazenia názvu operátora</string>
+    <string name="ui_status_bar_carrier_label_use_default">Východzí</string>
+    <string name="ui_status_bar_carrier_label_use_spn">SPN</string>
+    <string name="ui_status_bar_carrier_label_use_plmn">PLMN</string>
+    <string name="ui_status_bar_carrier_label_use_custom">Vlastný názov</string>
+    <string name="ui_status_bar_carrier_label_custom_title">Vlastný názov operátora</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">Text, ktorý sa zobrazí namiesto textu poskytovaného operátorom</string>
     <string name="ui_status_bar_toggle_brightness">Ovládanie jasu pomocou stavového riadku</string>
     <string name="ui_status_bar_toggle_brightness_summary">Umožní zmenu jasu posunom po stavovom riadku</string>
     <string name="ui_status_bar_toggle_info">Automatické ovládanie jasu je povolené</string>
@@ -107,6 +120,8 @@
     <string name="ui_status_bar_cm_signal_text_show_bars">Paličky signálu</string>
     <string name="ui_status_bar_cm_signal_text_show_text">Text signálu</string>
     <string name="ui_status_bar_cm_signal_text_show_text_dbm">Text signálu s dBm</string>
+    <string name="ui_status_bar_headset_title">Zobrazenie Headset ikony</string>
+    <string name="ui_status_bar_headset_summary">Ikona sa zobrazí ak je pripojený Headset</string>
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED upozornenia</string>
     <string name="trackball_summary">Ovládanie trackball a LED notifikačných farieb a pulzovania</string>
@@ -174,8 +189,12 @@
     <string name="trackball_category_screen">Spravovať kategórie</string>
     <string name="trackball_category_add_title">Pridať kategóriu</string>
     <string name="trackball_category_add_summary">Pridá kategóriu do zoznamu</string>
+    <string name="trackball_category_add_error_title">CHYBA</string>
+    <string name="trackball_category_add_error_summary">Názov kategórie nesmie obsahovať znak \'=\'</string>
     <string name="trackball_category_remove_title">Odstrániť kategóriu</string>
     <string name="trackball_category_remove_summary">Odstráni kategóriu zo zoznamu</string>
+    <string name="trackball_category_edit_title">Upraviť nastavenia kategórie</string>
+    <string name="trackball_category_edit_summary">Umožňuje zmenu východzích nastavení tejto kategórie</string>
     <string name="trackball_reset_all">Resetnúť všetky farby a kategórie.</string>
     <string name="trackball_color_notice_title">POZNÁMKA:</string>
     <string name="trackball_color_notice_summary">Nie všetky farby sa zobrazia na všetkých zariadeniach</string>
@@ -212,6 +231,7 @@
     <string name="trackball_color_entry_random">Náhodná</string>
     <string name="trackball_color_entry_amber">Tmavá</string>
     <!-- Trackball Settings : Force modes -->
+    <string name="trackball_force_mode_category">Podľa nastavenia kategórie</string>
     <string name="trackball_force_mode_application">Podľa nastavenia aplikácie</string>
     <string name="trackball_force_mode_off">Vynútiť LED vyp</string>
     <string name="trackball_force_mode_events">Vynútiť LED zap pre udalosti</string>
@@ -235,6 +255,12 @@
     <!-- Lockscreen Settings -->
     <string name="pref_lockscreen_always_battery_title">Vždy zobrazovať stav batérie</string>
     <string name="pref_lockscreen_always_battery_summary">Vždy zobrazí stav batérie na obrazovke zamknutia</string>
+    <string name="pref_lockscreen_widgets_layout_title">Rozloženie widgetov</string>
+    <string name="pref_lockscreen_widgets_layout_summary">Nastaví rozloženie hodín, dátumu, názvu operátora a stavu</string>
+    <string name="pref_lockscreen_widget_layout_entry_default">Východzie</string>
+    <string name="pref_lockscreen_widget_layout_entry_hidden">Skryté</string>
+    <string name="pref_lockscreen_widget_layout_entry_centered">Vycentrované</string>
+    <string name="pref_lockscreen_widget_layout_entry_right">Vpravo</string>
     <string name="pref_lockscreen_music_controls_title">Ovládanie hudby na obrazovke zamknutia</string>
     <string name="pref_lockscreen_music_controls_summary">Zobrazí ovládanie hudby na obrazovke zamknutia</string>
     <string name="pref_lockscreen_now_playing_title">Zobraziť názov piesne</string>
@@ -251,13 +277,28 @@
     <string name="pref_volume_wake_summary">Stlačenie hlasitosti hore/dole zobudí zariadenie. Určené pre zariadenia s ťažko stlačiteľným tlačidlom napájania</string>
     <string name="pref_trackball_unlock_title">Odomknutie Trackballom</string>
     <string name="pref_trackball_unlock_summary">Stlačenie trackballu odomkne zariadenie</string>
+    <string name="pref_slider_unlock_title">Odomknutie vyťahovacou klávesnicou</string>
+    <string name="pref_slider_unlock_summary">Vytiahnutie klávesnice odomkne zariadenie</string>
     <string name="pref_menu_unlock_title">Odomknutie pomocou Menu</string>
     <string name="pref_menu_unlock_summary">Stlačenie Menu odomkne zariadenie</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Rýchle Odomknutie</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Nie je potrebné stláčať OK pri zadávaní Pinu alebo Hesla. Zmaže počet chybných pokusov</string>
+    <string name="lockscreen_style_options_title">Možnosti štýlu</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Spustenie užívateľskej aplikácie</string>
-    <string name="pref_lockscreen_custom_app_toggle_summary">Zobrazí druhý posuvník pri posuvnom štýle, zobrazí jamku pre užívateľskú aplikáciu na rotačnom štýle</string>
-    <string name="pref_lockscreen_custom_app_activity_title">Užívateľská aplikácia</string>
+    <string name="pref_lockscreen_custom_app_toggle_tab_summary">Zobrazí druhý posuvník pre spustenie voliteľnej aplikácie</string>
+    <string name="pref_lockscreen_custom_app_toggle_rotary_summary">Zobrazí jamku pre spustenie voliteľnej aplikácie</string>
+    <string name="pref_lockscreen_custom_app_toggle_ring_summary">Zobrazí tretí prstenec pre spustenie až štyroch voliteľných aplikácií</string>
+    <string name="pref_lockscreen_custom_app_activity_title">Voliteľná aplikácia</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">Zvoľte skratku pre nastavenie</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">Zvoľte skratku pre odstránenie</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_cancel">Zrušiť</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_add">Pridať</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_remove">Odstrániť</string>
+    <string name="pref_lockscreen_ring_custom_apps_notset">Nenastavená</string>
+    <string name="pref_lockscreen_ring_unlock_middle_title">Odomknúť stredným prstencom</string>
+    <string name="pref_lockscreen_ring_unlock_middle_summary">Prehodí prstenec odomknutia s prstencom pre spustenie voliteľnej aplikácie</string>
+    <string name="pref_lockscreen_ring_minimal_title">Minimálny štýl prstenca</string>
+    <string name="pref_lockscreen_ring_minimal_summary">Nastaví jeden prstenec v strede pre odomknutie</string>
     <string name="pref_lockscreen_custom_background_title">Vybrať pozadie</string>
     <string name="pref_lockscreen_custom_background_dialog_title">Vybrať pozadie</string>
     <string name="pref_lockscreen_custom_background_summary">Vyberte farbu, alebo obrázok pre pozadie obrazovky uzamknutia</string>
@@ -277,16 +318,42 @@
     <string name="lockscreen_style_entry_tabs">Posúvací Tab</string>
     <string name="lockscreen_style_entry_rotary">Otočný</string>
     <string name="lockscreen_style_entry_lense">Lúč</string>
+    <string name="lockscreen_style_entry_ring">Prstenec</string>
+    <string name="pref_rotary_style_title">Otočný štýl</string>
+    <string name="pref_rotary_style_summary">Vyberte štýl otočného kolesa</string>
+    <string name="rotary_style_entry_normal">Normálny</string>
+    <string name="rotary_style_entry_revamped">Vylepšený</string>
+    <string name="pref_ringlock_style_title">Štýl prstenca odomknutia</string>
+    <string name="pref_ringlock_style_summary">Vyberte štýl prstenca odomknutia obrazovky</string>
+    <string name="ringlock_style_entry_bubbles">Bublinkový</string>
+    <string name="ringlock_style_entry_revamped">Vylepšený</string>
+    <string name="ringlock_style_entry_holo">Holo</string>
+    <string name="ringlock_style_entry_blade">Blade</string>
     <string name="pref_in_call_style_title">Štýl prichádzajúceho hovoru</string>
     <string name="pref_in_call_style_summary">Vyberte štýl nástroja prijatie/odmietnutie prichádzajúceho hovoru.</string>
     <string name="incall_style_entry_tabs">Posúvací Tab</string>
     <string name="incall_style_entry_rotary">Otočný</string>
+    <string name="incall_style_entry_ring">Prstenec</string>
+    <string name="lockscreen_music_title">Ovládanie hudby</string>
     <string name="pref_volbtn_music_controls_title">Ovládanie hudby pomocou tlač. hlasitosti</string>
     <string name="pref_volbtn_music_controls_summary">Posúvanie v hudobnej stope dlhým podržaním tlač. hlasitosti pri vypnutej obrazovke</string>
     <string name="pref_cambtn_music_controls_title">Ovládanie hudby pomocou tlač. fotoaparátu</string>
     <string name="pref_cambtn_music_controls_summary">Prepnúť hrať/pauza dlhým podržaním tlač. fotoaparátu pri vypnutej obrazovke</string>
     <string name="lockscreen_widgets_note_title">Poznámka</string>
     <string name="lockscreen_widgets_note_summary">Vybratie štýlu minimálneho lúča, skryje všetky nástroje okrem ovládania hudby. Nižšie možnosti nie sú zakázané pre ľahšiu zmenu na iný štýl</string>
+    <string name="lockscreen_calendar_title">Lockscreen Calendar</string>
+    <string name="pref_lockscreen_calendar_alarm_title">Zobraziť udalosť z kalendára</string>
+    <string name="pref_lockscreen_calendar_alarm_summary">Zobrazí čas a názov nasledujúcej udalosti z kalendára</string>
+    <string name="pref_lockscreen_calendars_title">Kalendáre udalostí</string>
+    <string name="pref_lockscreen_calendars_summary">V ktorých kalendároch hľadať udalosti</string>
+    <string name="pref_lockscreen_calendar_reminders_only_title">Len upozornenia</string>
+    <string name="pref_lockscreen_calendar_reminders_only_summary">Vyberie len tie udalosti, ktoré majú nastavené upozornenia</string>
+    <string name="pref_lockscreen_calendar_lookahead_title">Udalosti v čase</string>
+    <string name="pref_lockscreen_calendar_lookahead_summary">Ako ďaleko v čase sa budú hľadať budúce udalosti</string>
+    <string name="pref_lockscreen_calendar_show_location_title">Zobraziť miesto udalosti</string>
+    <string name="pref_lockscreen_calendar_show_location_summary">Zobrazí miesto udalosti pod názvom</string>
+    <string name="pref_lockscreen_calendar_show_description_title">Zobraziť popis udalosti</string>
+    <string name="pref_lockscreen_calendar_show_description_summary">Zobrazí popis udalosti pod názvom</string>
     <!-- Input Settings -->
     <string name="input_settings_title">Nastavenia vstupu</string>
     <string name="haptic_title">Vylepšenia vibračnej odozvy</string>
@@ -362,9 +429,22 @@
     <!-- Performance Settings : Dithering -->
     <string name="pref_use_dithering_title">Povoliť kolísanie plochy</string>
     <string name="pref_use_dithering_summary">Kolísanie plochy zlepšuje kvalitu obrazu na úkor výkonu (vyžaduje reštart)</string>
+    <!-- Performance Settings : 16bpp Alpha -->
+    <string name="pref_use_16bpp_alpha_title">Použiť 16bit priehľadnosť</string>
+    <string name="pref_use_16bpp_alpha_summary">Použitie 16bit priehľadnosti môže zlepšiť rýchlosť rolovania, ale môže spôsobiť výskyt artefaktov (vyžaduje reštart)</string>
+    <!-- Performance Settings : Scrolling Cache -->
+    <string name="pref_scrollingcache_title">Rolovacia cache</string>
+    <string name="pref_scrollingcache_summary">Rolovacia cache môže zlepšiť rýchlosť rolovania na úkor pamäte</string>
+    <string name="pref_scrollingcache_force_enable">Vynútené zapnutie</string>
+    <string name="pref_scrollingcache_default_enable">Východzie zapnutie</string>
+    <string name="pref_scrollingcache_default_disable">Východzie vypnutie</string>
+    <string name="pref_scrollingcache_force_disable">Vynútené vypnutie</string>
     <!-- Performance Settings : Purgeable Assets -->
     <string name="pref_purgeable_assets_title">Umožniť čistenie prostriedkov</string>
     <string name="pref_purgeable_assets_summary">Ak je potrebné, systém môže uvoľniť viac RAM použitím pamäte bit máp (vyžaduje reštart)</string>
+    <!-- Performance : Disable bootanimation -->
+    <string name="pref_disable_bootanimation_title">Zakázať boot animáciu</string>
+    <string name="pref_disable_bootanimation_summary">Nezobrazovať boot animáciu pre rýchlejší štart</string>
     <!-- Performance Settings : VM Heap Size -->
     <string name="pref_heapsize_title">Veľkosť úložiska VM</string>
     <string name="pref_heapsize_summary">Maximálna veľkosť pamäte pre úložisko VM (vyžaduje reštart)</string>
@@ -390,16 +470,17 @@
     <string name="pref_install_location_title">Umiestnenie inštalácií</string>
     <string name="pref_install_location_summary">Vyberte kam sa budú inštalovať nové aplikácie</string>
     <string name="general_title">Všeobecné</string>
+    <string name="camera_title">Fotoaparát</string>
     <string name="buttons_title">Tlačidlá</string>
     <!-- UI Settings : Power off prompt -->
     <string name="pref_power_prompt_title">Ponuka napájania</string>
     <string name="pref_power_prompt_summary">Zmeniť, či sa bude zobrazovať potvrdenie po vybratí vypnutia, alebo reštartu</string>
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Efekt renderovania</string>
-    <string name="pref_render_effect_summary">Zmeniť aké farby sa budú používať pri vykresľovaní obrazovky (možné šetrenie batérie)</string>
     <!-- UI Settings : Haptic feedback -->
     <string name="expanded_haptic_feedback_title">Hmatová Odozva</string>
     <string name="expanded_haptic_feedback_summary">Povoliť/Zakázať hmatovú odozvu.</string>
+    <!-- UI Settings : Render effect -->
+    <string name="pref_render_effect_title">Efekt renderovania</string>
+    <string name="pref_render_effect_summary">Zmeniť aké farby sa budú používať pri vykresľovaní obrazovky (možné šetrenie batérie)</string>
     <string name="widget_name">RenderFX Widget</string>
     <string name="renderfx_temp">RenderFX</string>
     <string name="prefs_render_effect">Efekt Renderovania</string>
@@ -477,6 +558,8 @@
     <string name="cm_sound_mode_soundVibrate">Zvuk+Vibrácia</string>
     <string name="pref_flash_mode_title">Mód blesku</string>
     <string name="pref_flash_mode_summary">Vybrať Silný / Smrteľný Lúč</string>
+    <string name="pref_mobiledatanetwork_mode_title">Auto-režim 2G/3G</string>
+    <string name="pref_mobiledatanetwork_mode_summary">Tlačidlo mobilných dát zároveň prepína režim siete 2G/3G</string>
     <!-- Backlight -->
     <string name="backlight_title">Automatické podsvietenie</string>
     <string name="backlight_summary">Vylepšenia stupňov a filtrovanie</string>
@@ -523,6 +606,13 @@
     <string name="sound_vibrate_in_call_title">Vibrovať počas hovoru</string>
     <string name="sound_vibrate_in_call_summary_off">Upozornenia nebudú vibrovať počas hovoru</string>
     <string name="sound_vibrate_in_call_summary_on">Upozornenia budú normálne vibrovať počas hovoru</string>
+    <string name="sound_lock_volume_keys_title">Uzamknúť tlačidlá hlasitosti</string>
+    <string name="sound_lock_volume_keys_summary">Zabráni neželanému vypnutiu tichého režimu spôsobeného stlačením tlačidiel hlasitosti</string>
+    <string name="sound_camera_shutter_disable_title">Vypnúť zvuk spúšte</string>
+    <string name="sound_camera_shutter_disable_summary_on">Zvuk spúšte fotoaparátu nebude prehratý</string>
+    <string name="sound_camera_shutter_disable_summary_off">Zvuk spúšte fotoaparátu bude prehratý</string>
+    <string name="sound_camera_shutter_disable_warning_title">POZOR: Môže byť nelegálne!</string>
+    <string name="sound_camera_shutter_disable_warning">Vypnutie zvuku spúšte fotoaparátu je nelegálne v niektorých krajinách! Skutočne vypnúť?</string>
     <string name="sound_to_speaker_title">Vždy prehrávať cez reproduktor</string>
     <string name="sound_notifications_title">Upozornenia</string>
     <string name="sound_rings_title">Zvonenia</string>
@@ -557,6 +647,9 @@
     <string name="quiet_hours_dim">Stlmiť LED</string>
     <string name="quiet_hours_dim_on">Ak je to možné, LED sa stlmí</string>
     <string name="quiet_hours_dim_off">LED bude svietiť plným jasom</string>
+    <string name="quiet_hours_haptic">Vypnúť hmatovú odozvu</string>
+    <string name="quiet_hours_haptic_on">Hmatová odozva je vypnutá</string>
+    <string name="quiet_hours_haptic_off">Hmatová odozva je zapnutá</string>
     <string name="cmstats_title">Anonymné štatistiky</string>
     <string name="cmstats_summary">Pomôžte urobiť CM lepším povolením zasielanie anonymných štatistík</string>
     <string name="user_defined_key1">Rýchly kľúč 1</string>
@@ -584,6 +677,9 @@
     <string name="gestures_toggle_sound">Prepínač zvuku</string>
     <string name="gestures_shortcut_or_activity">Skratka pre aktivitu</string>
     <string name="gestures_flashlight">Blesk</string>
+    <string name="gestures_next">Ďalšia skladba</string>
+    <string name="gestures_previous">Predchádzajúca skladba</string>
+    <string name="gestures_playpause">Prehrávanie/Pauza hudby</string>
     <string name="pref_lockscreen_disable_unlock_tab">Zakázať posuvník odomknutia</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Poznámka: Potrebujete povoliť trackball, menu, alebo gesto pre odomknutie pred povolením tejto možnosti</string>
     <string name="gestures_action_label">Akcia:</string>
