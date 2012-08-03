@@ -1,0 +1,463 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVn//+6E\u003d",
+        "filename": "res/values-nl/arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "als 6dB de standaard is, betekent 0db niet automatisch dat er geen aanpassing is.\n\ndus graag 0dB laten staan.",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+6A\u003d",
+        "filename": "res/values-nl/arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "Bij een andere commit had je hier \"Niets\" staan",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+54\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "Waarom \"Applicaties verplaatsen\" weglaten? Zit toch ook in de instellingen?",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+50\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "dubbelop",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+5w\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "\"te\" moet weg",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+5s\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "het filter (of de/het helemaal weglaten)",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+5o\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "Sample is niet voorbeeld.\nWe hebben dit hele verhaal al een keer eerder gehad, voelt als een deja-vu....\n\nWe hadden toen volgens mij Meetinterval gekozen.",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+5g\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "geflikker -\u003e flikkeren",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+5c\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "hier gaat iets niet goed",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+5U\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "Trilaanpassingen?",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+5Q\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "haptische feedback \u003d  trillen",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+5M\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "haptische feedback \u003d trillen",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+5I\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "haptische feedback \u003d trillen",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+5E\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "haptische feedback \u003d trillen",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+44\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "Volumeknop bij muziek?",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+40\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "Cameraknop bij muziek?",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+4o\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "Alles wat hieronder staat, is anders dan bij ICS. http://review.cyanogenmod.com/#/c/18995/4/res/values-nl/strings.xml\n\nAlles gelijktrekken?",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+4c\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 400,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "hoger",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+4Y\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 437,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "uitschakelen",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+4U\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 460,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "vergrendelen",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+4Q\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 534,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "uitschakelen",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+4M\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 537,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "Schakel volledig scherm uit - mag hier weg",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+4I\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 580,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "voelt niet goed.\n\nClear Flash \u003d Flash uitzetten?",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+4E\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 614,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "Instellingen",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+4A\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 692,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "ontgrendeling voluit",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+30\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 762,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "Plaats van de afspraak tonen",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+3w\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 764,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T02:53:08Z",
+      "side": 1,
+      "message": "Beschrijving van de afspraak tonen",
+      "revId": "1e6f7053f8d8cc45c5903b5f5c008113ac93122a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
