@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAVn//9sY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-06T01:21:27Z",
+      "side": 1,
+      "message": "Dat is inderdaad mooier.",
+      "parentUuid": "AAAAVn//+L8\u003d",
+      "revId": "1f5d801468336886ac07c2303356f95d1f68f8d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAVn//+Lo\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -30,6 +48,41 @@
       "writtenOn": "2012-08-05T03:03:33Z",
       "side": 1,
       "message": "\"Wanneer het filteren van uitgaande gesprekken gestart moet worden\"? \n\"Als\" lees ik meer als indien, niet als tijdstip? Maar misschien ligt dat wel aan mij...",
+      "revId": "1f5d801468336886ac07c2303356f95d1f68f8d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//9sE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-06T01:21:27Z",
+      "side": 1,
+      "message": "Ik vind dat je gelijk hebt.\n\nof\n\n- Wanneer moet het filteren van uitgaande gesprekken gestart worden\n- Wanneer start het filteren van uitgaande gesprekken",
+      "parentUuid": "AAAAVn//+Lo\u003d",
+      "revId": "1f5d801468336886ac07c2303356f95d1f68f8d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//9r4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-06T01:21:27Z",
+      "side": 1,
+      "message": "Als -\u003e Wanneer",
       "revId": "1f5d801468336886ac07c2303356f95d1f68f8d9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
