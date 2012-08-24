@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAWn//+9A\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-24T23:58:30Z",
+      "side": 1,
+      "message": "Moeten we hier niet hetzelfde aanhouden als uit deze patch: http://review.cyanogenmod.com/#/c/20266/4/res/values-nl/strings.xml ?\n\n\n\n1868     \u003cstring name\u003d\"title_toggle_wifi\"\u003eWi-Fi\u003c/string\u003e\n1869\t    \u003cstring name\u003d\"title_toggle_bluetooth\"\u003eBluetooth\u003c/string\u003e\n\t\t\t1870\t    \u003cstring name\u003d\"title_toggle_gps\"\u003eGPS\u003c/string\u003e\n1871\t    \u003cstring name\u003d\"title_toggle_sound\"\u003eGeluid\u003c/string\u003e\n1872\t    \u003cstring name\u003d\"title_toggle_brightness\"\u003eHelderheid\u003c/string\u003e\n1873\t    \u003cstring name\u003d\"title_toggle_sync\"\u003eSynchronisatie\u003c/string\u003e\n1874\t    \u003cstring name\u003d\"title_toggle_wifiap\"\u003eWi-Fi-hotspot\u003c/string\u003e\n1875\t    \u003cstring name\u003d\"title_toggle_screentimeout\"\u003eTime-out scherm\u003c/string\u003e\n1876\t    \u003cstring name\u003d\"title_toggle_mobiledata\"\u003eMobiele gegevens\u003c/string\u003e\n1877\t    \u003cstring name\u003d\"title_toggle_lockscreen\"\u003eVergrendelscherm\u003c/string\u003e\n1878\t    \u003cstring name\u003d\"title_toggle_networkmode\"\u003e2G/3G\u003c/string\u003e\n1879\t    \u003cstring name\u003d\"title_toggle_autorotate\"\u003eScherm autom. draaien\u003c/string\u003e\n1880\t    \u003cstring name\u003d\"title_toggle_airplane\"\u003eVliegtuigmodus\u003c/string\u003e\n1881\t    \u003cstring name\u003d\"title_toggle_flashlight\"\u003eZaklamp\u003c/string\u003e\n1882\t    \u003cstring name\u003d\"title_toggle_sleep\"\u003eSlaapstand\u003c/string\u003e\n1883\t    \u003cstring name\u003d\"title_toggle_media_play_pause\"\u003eMedia: afspelen/pauzeren\u003c/string\u003e\n1884\t    \u003cstring name\u003d\"title_toggle_media_previous\"\u003eMedia: vorige\u003c/string\u003e\n1885\t    \u003cstring name\u003d\"title_toggle_media_next\"\u003eMedia: volgende\u003c/string\u003e\n1886\t    \u003cstring name\u003d\"title_toggle_lte\"\u003eLTE\u003c/string\u003e\n1887\t    \u003cstring name\u003d\"title_toggle_wimax\"\u003eWiMAX\u003c/string\u003e\n1888\t    \u003cstring name\u003d\"title_button_modes\"\u003eKnoppenmodi\u003c/string\u003e\n1889\t    \u003cstring name\u003d\"pref_brightness_mode_title\"\u003eHelderheidsmodi\u003c/string\u003e\n1890\t    \u003cstring name\u003d\"pref_brightness_mode_summary\"\u003eHelderheidsknopmodi tonen/wijzigen\u003c/string\u003e\n1891\t    \u003cstring name\u003d\"cm_brightness_mode_auto\"\u003eAutomatisch\u003c/string\u003e\n1892\t    \u003cstring name\u003d\"cm_brightness_mode_dim\"\u003eDimmen\u003c/string\u003e\n1893\t    \u003cstring name\u003d\"pref_network_mode_title\"\u003eNetwerkmodi\u003c/string\u003e\n1894\t    \u003cstring name\u003d\"pref_screentimeout_mode_title\"\u003eModi schermtime-out\u003c/string\u003e\n1895\t    \u003cstring name\u003d\"pref_ring_mode_title\"\u003eGeluidsmodi\u003c/string\u003e\n1896\t    \u003cstring name\u003d\"pref_ring_mode_summary\"\u003eGeluidsknopmodi tonen/wijzigen\u003c/string\u003e\n1897\t    \u003cstring name\u003d\"cm_sound_mode_silent\"\u003eStil\u003c/string\u003e\n1898\t    \u003cstring name\u003d\"cm_sound_mode_vibrate\"\u003eTrillen\u003c/string\u003e\n1899\t    \u003cstring name\u003d\"cm_sound_mode_sound\"\u003eGeluid\u003c/string\u003e\n1900\t    \u003cstring name\u003d\"cm_sound_mode_soundVibrate\"\u003eGeluid \\u0026 trillen\u003c/string\u003e\n1901\t    \u003cstring name\u003d\"pref_flash_mode_title\"\u003eZaklampmodus\u003c/string\u003e\n1902\t    \u003cstring name\u003d\"expanded_haptic_feedback_title\"\u003eTrillen\u003c/string\u003e\n\n\nenz.",
+      "revId": "01967835f570a6d6452e70821845001fda5e9ff9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWn//+80\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 761,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-24T23:58:30Z",
+      "side": 1,
+      "message": "Zie je, hier wordt wel \u0027Plaats van de afspraak\u0027 gebruikt ipv \u0027Afspraakplaats\u0027.\n\nIk heb liever dat je dat in die andere patch ook doet.\n\nRegel 1978 http://review.cyanogenmod.com/#/c/20438/13/res/values-nl/strings.xml",
+      "revId": "01967835f570a6d6452e70821845001fda5e9ff9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWn//+8w\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 763,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-24T23:58:30Z",
+      "side": 1,
+      "message": "idem",
+      "revId": "01967835f570a6d6452e70821845001fda5e9ff9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
