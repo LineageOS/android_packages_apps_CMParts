@@ -1,0 +1,191 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAW3///XM\u003d",
+        "filename": "res/values-hu/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-08-27T12:53:31Z",
+      "side": 1,
+      "message": "Ezeknél itt szerintem ki lehetne írni \u0027mb\u0027. Biztos, hogy kifér.",
+      "revId": "3e249a7dae59d82c88393ac94314fcf4748a0591",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///XI\u003d",
+        "filename": "res/values-hu/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-08-27T12:53:31Z",
+      "side": 1,
+      "message": "A tabulátorokért harapnak (warningol fordításkor), szóközre cseréld ki. (MINDENHOL ahol ez a jel van \u0027»\u0027  !)",
+      "revId": "3e249a7dae59d82c88393ac94314fcf4748a0591",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///Wg\u003d",
+        "filename": "res/values-hu/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-08-27T12:53:31Z",
+      "side": 1,
+      "message": "A 374. és a 428 sorban \u0027(alapért.)\u0027-ként írtad. Az egységesség miatt vagy itt is, vagy akkor azokban a sorokban cseréld, szerintem.",
+      "revId": "3e249a7dae59d82c88393ac94314fcf4748a0591",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///XE\u003d",
+        "filename": "res/values-hu/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-08-27T12:53:31Z",
+      "side": 1,
+      "message": "Ezt visszafordítottad angolra.",
+      "revId": "3e249a7dae59d82c88393ac94314fcf4748a0591",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///Wk\u003d",
+        "filename": "res/values-hu/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 443,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-08-27T12:53:31Z",
+      "side": 1,
+      "message": "Ide nem írtad, hogy alapértelmezett",
+      "revId": "3e249a7dae59d82c88393ac94314fcf4748a0591",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///W8\u003d",
+        "filename": "res/values-hu/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 471,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-08-27T12:53:31Z",
+      "side": 1,
+      "message": "Ez csak észrevétel: mi a cm10 nem írtuk oda a \u0027Csak\u0027 szót. (felesleges)",
+      "revId": "3e249a7dae59d82c88393ac94314fcf4748a0591",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///W4\u003d",
+        "filename": "res/values-hu/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 472,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-08-27T12:53:31Z",
+      "side": 1,
+      "message": "Itt sem írtuk oda",
+      "revId": "3e249a7dae59d82c88393ac94314fcf4748a0591",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///W0\u003d",
+        "filename": "res/values-hu/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 507,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-08-27T12:53:31Z",
+      "side": 1,
+      "message": "Innen a cm10-ben az angolból is ki lett véve a \u0027/ Halálsugár\u0027.",
+      "revId": "3e249a7dae59d82c88393ac94314fcf4748a0591",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///Ww\u003d",
+        "filename": "res/values-hu/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 526,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-08-27T12:53:31Z",
+      "side": 1,
+      "message": "Szintén csak javaslat: Pontatlan",
+      "revId": "3e249a7dae59d82c88393ac94314fcf4748a0591",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///Ws\u003d",
+        "filename": "res/values-hu/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 537,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-08-27T12:53:31Z",
+      "side": 1,
+      "message": "Szintén csak javaslat: Pontos",
+      "revId": "3e249a7dae59d82c88393ac94314fcf4748a0591",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///Wo\u003d",
+        "filename": "res/values-hu/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 700,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-08-27T12:53:31Z",
+      "side": 1,
+      "message": "A 704. sorban \u0027Nagyon\u0027-nak fordítottad, akkor itt is lehetne. Az egységesség miatt.",
+      "revId": "3e249a7dae59d82c88393ac94314fcf4748a0591",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
