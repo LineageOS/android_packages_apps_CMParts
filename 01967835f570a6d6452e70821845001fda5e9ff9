@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAXH///ZY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-31T16:28:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAWn//+9A\u003d",
+      "revId": "01967835f570a6d6452e70821845001fda5e9ff9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAWn//+80\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 5
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAXH///ZU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 761,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-31T16:28:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAWn//+80\u003d",
+      "revId": "01967835f570a6d6452e70821845001fda5e9ff9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAWn//+8w\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 5
@@ -47,6 +83,24 @@
       "writtenOn": "2012-08-24T23:58:30Z",
       "side": 1,
       "message": "idem",
+      "revId": "01967835f570a6d6452e70821845001fda5e9ff9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXH///ZQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 763,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-31T16:28:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAWn//+8w\u003d",
       "revId": "01967835f570a6d6452e70821845001fda5e9ff9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
