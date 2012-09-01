@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAXH///To\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 293,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-09-01T02:26:49Z",
+      "side": 1,
+      "message": "- Time-out knop modi beheren\n\n\u0027modi\u0027 staat vaker achteraan, dan vooraan bij andere strings en ik vind het zo iets duidelijker.\n\nMAAR:\nIk wil voorstellen of we het hele \u0027modi\u0027 kunnen laten vervallen (klinkt veel te deftig) en kunnen veranderen in \"standen\". Alles is hierdoor veel makkelijker te begrijpen.\n\n- Netwerkstanden\n- Helderheidsstanden\n- Schermtime-out standen\n- Standen time-out knop beheren\n\nenz.",
+      "revId": "502a400c738d36ff4f1c01484e1da782d62ee270",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
