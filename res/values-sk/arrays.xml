@@ -15,11 +15,6 @@
  * limitations under the License.
  -->
 <resources>
-    <string-array name="entries_recent_apps_num">
-        <item>8</item>
-        <item>12</item>
-        <item>15</item>
-    </string-array>
     <string-array name="entries_install_location">
         <item>Automaticky</item>
         <item>Interne</item>
@@ -133,8 +128,12 @@
         <item>Normálny</item>
         <item>Veľký / Smrteľný Lúč</item>
     </string-array>
+    <string-array name="entries_mobiledatanetwork_widget">
+        <item>Vypnuté.</item>
+        <item>Zapnuté</item>
+    </string-array>
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
-        <item>1 (rozšírený)</item>
+        <item>1 (najvoľnejší)</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
@@ -145,7 +144,7 @@
         <item>9</item>
         <item>10</item>
         <item>11</item>
-        <item>12 (stiahnutý)</item>
+        <item>12 (najprísnejší)</item>
     </string-array>
     <string-array name="pref_lockscreen_background_entries">
         <item>Vyplnenie farbou</item>
@@ -158,6 +157,14 @@
         <item>Bluetooth A2DP headset</item>
         <item>Obidve</item>
     </string-array>
+    <string-array name="pref_lockscreen_calendar_lookahead_entries">
+        <item>3 hodiny</item>
+        <item>6 hodín</item>
+        <item>12 hodín</item>
+        <item>1 deň</item>
+        <item>3 dni</item>
+        <item>1 týždeň</item>
+    </string-array>
     <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
         <item>Nezobrazovať</item>
         <item>Prvý riadok</item>
@@ -165,9 +172,9 @@
     </string-array>
     <string-array name="pref_overscroll_effect_entries">
         <item>Žiadny</item>
-        <item>Edge Glow</item>
-        <item>Bounce and Glow</item>
-        <item>Bounce</item>
+        <item>Ožiarenie hrany</item>
+        <item>Odpruženie a ožiarenie</item>
+        <item>Odpruženie</item>
     </string-array>
     <string-array name="entries_overscroll_weight">
         <item>Extra silný</item>
