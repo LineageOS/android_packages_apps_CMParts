@@ -14,18 +14,33 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  -->
+
 <resources>
 
-    <string-array name="entries_recent_apps_num">
-        <item>8</item>
-        <item>12</item>
-        <item>15</item>
+    <string-array name="entries_heapsize">
+        <item>12mb</item>
+        <item>16mb</item>
+        <item>24mb</item>
+        <item>32mb</item>
+        <item>48mb</item>
     </string-array>
-  
+
     <string-array name="entries_install_location">
         <item>Automatikus</item>
         <item>Belső</item>
-        <item>Külső (SD)</item>
+        <item>Külső</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_am_pm">
+        <item>Normál</item>
+        <item>Kicsi</item>
+        <item>Nincs (Alapértelmezett)</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_battery">
+        <item>Ikon (Alapértelmezett)</item>
+        <item>Százalékos</item>
+        <item>Rejtett</item>
     </string-array>
 
     <string-array name="haptic_feedback_entries">
@@ -106,42 +121,42 @@
         <item>14</item>
         <item>16</item>
         <item>18</item>
-        <item>20 (alapért.)</item>
+        <item>20 (Alapértelmezett)</item>
         <item>22</item>
         <item>24</item>
         <item>26</item>
     </string-array>
 
     <string-array name="entries_light_decrease_hysteresis">
-        <item>0%</item>
-        <item>10%</item>
-        <item>20%</item>
-        <item>30%</item>
-        <item>40%</item>
-        <item>50%</item>
-        <item>60%</item>
-        <item>70%</item>
-        <item>80%</item>
-        <item>90%</item>
+        <item>0 %</item>
+        <item>10 %</item>
+        <item>20 %</item>
+        <item>30 %</item>
+        <item>40 %</item>
+        <item>50 %</item>
+        <item>60 %</item>
+        <item>70 %</item>
+        <item>80 %</item>
+        <item>90 %</item>
     </string-array>
 
     <string-array name="entries_sound_attenuation">
         <item>0 dB</item>
         <item>4 dB</item>
-        <item>6 dB (alapért.)</item>
+        <item>6 dB (Alapértelmezett)</item>
         <item>8 dB</item>
         <item>10 dB</item>
     </string-array>
 
     <string-array name="entries_sound_limitvol">
-        <item>Legyengített rendszer beállítás</item>
-        <item>Zene hangerő (alapértelmezett)</item>
+        <item>Csökkentett hangerő használata</item>
+        <item>Alap hangerő (alapértelmezett)</item>
     </string-array>
 
     <string-array name="entries_network_widget">
         <item>2G/3G+2G</item>  
-        <item>Csak 2G/3G</item>   
-        <item>2G/3G csak/3G+2G</item>
+        <item>2G/3G</item>
+        <item>2G/3G/3G+2G</item>
     </string-array>
 
     <string-array name="entries_screentimeout_widget">
@@ -151,7 +166,7 @@
 
     <string-array name="entries_flash_widget">
         <item>Normál</item>
-        <item>Magas / Halálsugár</item>
+        <item>Magas</item>
     </string-array>
 
     <string-array name="entries_mobiledatanetwork_widget">
@@ -160,7 +175,7 @@
     </string-array>
 
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
-        <item>1 (legtágabb)</item>
+        <item>1 (pontatlan)</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
@@ -171,31 +186,20 @@
         <item>9</item>
         <item>10</item>
         <item>11</item>
-        <item>12 (legszorosabb)</item>
+        <item>12 (pontos)</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_style_entries">
-        <item>Csúszó fül</item>
-        <item>Forgó</item>
-        <item>Lense</item>
-        <item>Gyűrű</item>
+    <string-array name="pref_lockscreen_background_entries">
+        <item>Kitöltés színnel</item>
+        <item>Egyéni kép</item>
+        <item>Alapértelmezett háttér</item>
     </string-array>
 
-   <string-array name="pref_rotary_style_entries">
-        <item>Normál</item>
-        <item>Megújúlt</item>
-    </string-array>
-
-    <string-array name="pref_ringlock_style_entries">
-        <item>Buborék</item>
-        <item>Megújúlt</item>
-        <item>Holo</item>
-    </string-array>
-
-    <string-array name="pref_in_call_style_entries">
-        <item>Csúszó fül</item>
-        <item>Forgó</item>
-        <item>Gyűrű</item>
+    <string-array name="pref_lockscreen_music_headset_entries">
+        <item>Kikapcsolva</item>
+        <item>Vezetékes fülhallgató</item>
+        <item>Bluetooth A2DP fülhallgató</item>
+        <item>Mindkettő</item>
     </string-array>
 
     <string-array name="pref_lockscreen_calendar_lookahead_entries">
@@ -213,19 +217,6 @@
         <item>Mindet</item>
     </string-array>
 
-    <string-array name="pref_lockscreen_background_entries">
-        <item>Kitöltés színnel</item>
-        <item>Egyéni kép</item>
-        <item>Alapértelmezett háttér</item>
-    </string-array>
-
-    <string-array name="pref_lockscreen_music_headset_entries">
-        <item>Kikapcsolva</item>
-        <item>Vezetékes fülhallgató</item>
-        <item>Bluetooth A2DP fülhallgató</item>
-        <item>Mindkettő</item>
-    </string-array>
-
     <string-array name="pref_overscroll_effect_entries">
         <item>Nincs</item>
         <item>Ragyogó szélű</item>
@@ -234,7 +225,7 @@
     </string-array>
 
     <string-array name="entries_overscroll_weight">
-        <item>Extra nehéz</item>
+        <item>Nagyon nehéz</item>
         <item>Nehéz</item>
         <item>Közepes</item>
         <item>Könnyű</item>
@@ -272,18 +263,6 @@
         <item>Kereső</item>
         <item>Egyéni alkalmazás</item>
         <item>Állapotsor ki/be</item>
-    </string-array>
-
-    <string-array name="entries_status_bar_am_pm">
-        <item>Normál</item>
-        <item>Kicsi</item>
-        <item>Nincs (Alapértelmezett)</item>
-    </string-array>
-
-    <string-array name="entries_status_bar_battery">
-        <item>Ikon (Alapértelmezett)</item>
-        <item>Százalékos</item>
-        <item>Rejtett</item>
     </string-array>
 
 </resources>
