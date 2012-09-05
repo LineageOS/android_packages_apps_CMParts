@@ -127,7 +127,10 @@
     <string name="trackball_summary">Ovládanie trackball a LED notifikačných farieb a pulzovania</string>
     <!-- User interface : WebView -->
     <string name="pref_pinch_reflow_title">Znovu načítať po pinch in</string>
-    <string name="pref_pinch_reflow_summary">Znovu načítať obsah webview okamžite po aväčšení</string>
+    <string name="pref_pinch_reflow_summary">Znovu načítať obsah webview okamžite po zväčšení</string>
+    <!-- User interface : Share menu for screenshots -->
+    <string name="pref_share_screenshot_title">Zdieľať snímky obrazovky</string>
+    <string name="pref_share_screenshot_summary">Zobraziť ponuku na zdieľanie po získaní snímky obrazovky</string>
     <!-- User interface : Overscroll -->
     <string name="ui_overscroll_title">Koniec zoznamu</string>
     <string name="pref_overscroll_title">Efekt konca zoznamu</string>
@@ -483,6 +486,7 @@
     <string name="pref_render_effect_summary">Zmeniť aké farby sa budú používať pri vykresľovaní obrazovky (možné šetrenie batérie)</string>
     <string name="widget_name">RenderFX Widget</string>
     <string name="renderfx_temp">RenderFX</string>
+    <string name="pref_widget_options_category_title">Všeobecné nastavenia</string>
     <string name="prefs_render_effect">Efekt Renderovania</string>
     <string name="notify_render_effect">Efekt renderovania zapnutý</string>
     <string name="add_widget">Pridať widget</string>
@@ -491,8 +495,8 @@
     <string name="pref_render_effect_green">Terminál (zelený)</string>
     <string name="pref_render_effect_blue">Modrý</string>
     <string name="pref_render_effect_amber">Žltý</string>
-    <string name="pref_render_effect_salmon">Lososový</string>
-    <string name="pref_render_effect_fuscia">Fuscia</string>
+    <string name="pref_render_effect_salmon">Ružový</string>
+    <string name="pref_render_effect_fuscia">Fialový</string>
     <string name="pref_render_effect_calibrated">Kalibrovaný (N1)</string>
     <string name="pref_render_effect_calibrated_red">Kalibrovaný (N1) slabá červená</string>
     <string name="pref_render_effect_calibrated_cool">kalibrovaný (N1) Cool</string>
@@ -543,14 +547,16 @@
     <string name="title_toggle_media_previous">Média: Predchádzajúce</string>
     <string name="title_toggle_media_next">Média: Ďalšie</string>
     <string name="title_toggle_wimax">Prepínač WiMAX</string>
-    <string name="title_button_modes">Tlačidlo módov</string>
-    <string name="pref_brightness_mode_title">Módy jasu</string>
-    <string name="pref_brightness_mode_summary">Vyberte ako sa bude meniť mód jasu</string>
-    <string name="pref_network_mode_title">Sieťové módy</string>
-    <string name="pref_network_mode_summary">Vyberte ako sa budú meniť módy Siete</string>
-    <string name="pref_screentimeout_mode_title">Časy časovača obrazovky</string>
-    <string name="pref_screentimeout_mode_summary">Vyberte ako sa budú meniť časy časovača obrazovky</string>
-    <string name="pref_ring_mode_title">Módy zvuku</string>
+    <string name="title_button_modes">Tlačidlo režimov</string>
+    <string name="pref_brightness_mode_title">Režimy jasu</string>
+    <string name="pref_brightness_mode_summary">Vyberte ako sa budú meniť režimy jasu</string>
+    <string name="cm_brightness_mode_auto">Automaticky</string>
+    <string name="cm_brightness_mode_dim">Stmavnutie</string>
+    <string name="pref_network_mode_title">Režimy siete</string>
+    <string name="pref_network_mode_summary">Vyberte ako sa budú meniť režimy siete</string>
+    <string name="pref_screentimeout_mode_title">Čas. limit obrazovky</string>
+    <string name="pref_screentimeout_mode_summary">Vyberte ako sa budú meniť čas. limity obrazovky</string>
+    <string name="pref_ring_mode_title">Režimy zvuku</string>
     <string name="pref_ring_mode_summary">Vyberte ako sa budú meniť módy zvuku</string>
     <string name="cm_sound_mode_silent">Ticho</string>
     <string name="cm_sound_mode_vibrate">Vibrácia</string>
@@ -708,7 +714,7 @@
     <string name="title_phone_goggles_start">Štart ochranného módu telefónu</string>
     <string name="title_phone_goggles_end">Koniec ochranného módu telefónu</string>
     <string name="title_phone_goggles_confirmation_enabled">Požiadavka potvrdenia</string>
-    <string name="title_phone_goggles_maths_level">Matematický level1</string>
+    <string name="title_phone_goggles_maths_level">Matematický úloha</string>
     <string name="title_phone_goggles_work_filtered">Práca</string>
     <string name="title_phone_goggles_mobile_filtered">Mobil</string>
     <string name="title_phone_goggles_other_filtered">Iné</string>
@@ -731,12 +737,12 @@
     <string name="summary_off_phone_goggles_work_filtered">Profesné komunikácie nebudú filtrované</string>
     <string name="summary_off_phone_goggles_mobile_filtered">Komunikácia na mobilné telefóny nebude filtrovaná</string>
     <string name="summary_off_phone_goggles_other_filtered">Komunikácia na ostatné telefóny nebude filtrovaná</string>
-    <string name="phone_goggles_maths_level_easy">Ľahké</string>
-    <string name="phone_goggles_maths_level_medium">Stredné</string>
-    <string name="phone_goggles_maths_level_hard">Ťažké</string>
+    <string name="phone_goggles_maths_level_easy">Ľahká</string>
+    <string name="phone_goggles_maths_level_medium">Stredná</string>
+    <string name="phone_goggles_maths_level_hard">Ťažká</string>
     <string name="phone_goggles_confirmation_none">Žiadne</string>
     <string name="phone_goggles_confirmation_prompt">Výzva</string>
-    <string name="phone_goggles_confirmation_maths">Matematické problém</string>
+    <string name="phone_goggles_confirmation_maths">Matematickéá úloha</string>
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU nastavenia</string>
     <string name="cpu_title">CPU nastavenia</string>
