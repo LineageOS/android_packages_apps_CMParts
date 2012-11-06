@@ -15,6 +15,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <string name="app_name">CyanogenMod-instellingen</string>
+
     <!-- Hoofdmenu -->
     <string name="application_settings_title_head">Applicaties</string>
     <string name="application_settings_title_subhead">Applicatie-instellingen</string>
@@ -58,7 +60,7 @@
     <string name="pref_move_all_apps_summary">Applicaties mogen verplaatst worden naar de externe opslaglocatie</string>
 
     <string name="pref_install_location_title">Installatielocatie</string>
-    <string name="pref_install_location_summary">Waar nieuwe applicaties geïnstalleerd moeten worden</string>
+    <string name="pref_install_location_summary">Locatie van nieuwe geïnstalleerde applicaties</string>
 
     <string name="pref_switch_storage_title">Intern geheugen</string>
     <string name="pref_switch_storage_summary_on">Uitgebreid intern geheugen gebruiken voor applicaties en media (herstart vereist)</string>
@@ -114,10 +116,10 @@
     <string name="category_phone_goggles_filter">Filters</string>
 
     <!-- Scherm -->
-    <string name="backlight_title">Automatische achtergrondverlichting</string>
-    <string name="backlight_summary">Niveaus &amp; filtering wijzigen</string>
+    <string name="backlight_title">Achtergrondverlichting</string>
+    <string name="backlight_summary">Niveaus &amp; filtering voor automatische achtergrondverlichting wijzigen</string>
     <string name="light_filter_title">Lichtsensorfilter</string>
-    <string name="light_filter_enabled_title">Ingeschakeld</string>
+    <string name="light_filter_enabled_title">Inschakelen</string>
     <string name="light_filter_enabled_summary">Voortschrijdend gemiddeld filter toepassen op sensorgegevens om flikkeren te verminderen</string>
     <string name="light_filter_window_title">Periode</string>
     <string name="light_filter_window_summary">Gefilterde waarde is de gemiddelde sensorwaarde tijdens deze periode</string>
@@ -126,12 +128,12 @@
     <string name="light_filter_interval_title">Meetinterval</string>
     <string name="light_filter_interval_summary">Lagere waarden zijn preciezer, maar belasten de CPU meer</string>
     <string name="light_levels_title">Lichtniveaus</string>
-    <string name="light_levels_enabled_title">Eigen waarden gebruiken</string>
+    <string name="light_levels_enabled_title">Aangepaste waarden</string>
     <string name="light_levels_dim_title">Schermdimniveaus</string>
     <string name="light_levels_dim_summary">Helderheid gebruikt om scherm te dimmen</string>
     <string name="light_levels_editor_title">Andere niveaus bewerken\u2026</string>
-    <string name="light_decrease_enabled_title">Lichtvermindering toestaan</string>
-    <string name="light_decrease_enabled_summary">Vermindert verlichting. Gebruik hysterese om flikkeren te verminderen</string>
+    <string name="light_decrease_enabled_title">Licht verminderen</string>
+    <string name="light_decrease_enabled_summary">Lichtvermindering toestaan. Gebruik hysterese om flikkeren te verminderen</string>
     <string name="light_decrease_hysteresis_title">Hysterese</string>
     <string name="light_decrease_hysteresis_summary">Percentage onder sensorniveaus zonder lichtvermindering</string>
 
@@ -166,91 +168,91 @@
     <!-- Invoer -->
     <string name="input_settings_title">Invoerinstellingen</string>
 
-    <string name="long_press_home_title">Home-knop lang indrukken</string>
-    <string name="long_press_home_summary">Aantal recente applicaties e.d.</string>
-    <string name="recent_apps_show_title">Recente applicaties tonen</string>
+    <string name="long_press_home_title">Thuisknop lang ingedrukt</string>
+    <string name="long_press_home_summary">Aantal recente applicaties beheren of een aangepaste applicatie starten</string>
+    <string name="recent_apps_show_title">Recente applicaties</string>
     <string name="recent_apps_num_title">Aantal recente applicaties</string>
-    <string name="recent_apps_num_summary">Aantal te tonen recente applicaties bij het lang ingedrukt houden van de home-knop</string>
+    <string name="recent_apps_num_summary">Aantal te tonen recente applicaties indien lang ingedrukt</string>
     <string name="dialog_recent_apps_num_title">Voer het aantal recente applicaties in</string>
     <string name="use_custom_app_title">Aangepaste applicatie</string>
-    <string name="use_custom_app_summary">Een zelf gekozen applicatie gebruiken i.p.v. het recente applicatievenster</string>
-    <string name="select_custom_app_title">Kies applicatie</string>
+    <string name="use_custom_app_summary">Een applicatie starten i.p.v. het recente applicatievenster</string>
+    <string name="select_custom_app_title">Applicatie kiezen</string>
     <string name="group_applications">Applicaties</string>
 
-    <string name="long_press_menu_title">Menuknop lang indrukken</string>
-    <string name="long_press_menu_summary">Aangepaste instellingen voor het lang indrukken van de menuknop</string>
-    <string name="pref_user_defined_long_press_menu_title">Zelf gekozen applicatie</string>
-    <string name="pref_long_press_menu_title">Kies gedrag</string>
-    <string name="pref_long_press_menu_summary">Kies het gewenste gedrag bij het lang indrukken van de menuknop</string>
+    <string name="long_press_menu_title">Menuknop lang ingedrukt</string>
+    <string name="long_press_menu_summary">Gedrag menuknop wijzigen indien lang ingedrukt</string>
+    <string name="pref_user_defined_long_press_menu_title">Aangepaste applicatie</string>
+    <string name="pref_long_press_menu_title">Gedrag</string>
+    <string name="pref_long_press_menu_summary">Kies het gewenste gedrag indien lang ingedrukt</string>
 
-    <string name="input_search_key_title">Zoekknop-gedrag</string>
-    <string name="input_search_key_summary">Geef zoekknop een andere functie, zowel voor kort als lang indrukken</string>
-    <string name="pref_input_custom_search_app_toggle_title">Zoekknop-applicatie</string>
-    <string name="pref_input_custom_search_app_toggle_summary">Start een zelf gekozen applicatie als de zoekknop ingedrukt wordt</string>
-    <string name="pref_input_custom_search_app_activity_title">Zelf gekozen applicatie</string>
-    <string name="pref_input_custom_long_search_app_toggle_title">Zoekknop-applicatie bij lang indrukken</string>
-    <string name="pref_input_custom_long_search_app_toggle_summary">Start een zelf gekozen app als er lang op de zoekknop gedrukt wordt</string>
+    <string name="input_search_key_title">Zoekknop (lang) ingedrukt</string>
+    <string name="input_search_key_summary">Gedrag zoekknop wijzigen indien kort of lang ingedrukt</string>
+    <string name="pref_input_custom_search_app_toggle_title">Aangep. applicatie (kort)</string>
+    <string name="pref_input_custom_search_app_toggle_summary">Aangepaste applicatie starten indien kort ingedrukt</string>
+    <string name="pref_input_custom_search_app_activity_title">Te starten applicatie</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">Aangep. applicatie (lang)</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">Aangepaste applicatie starten indien lang ingedrukt</string>
 
     <string name="pref_backtrack_title">BackTrack Minipad</string>
-    <string name="pref_backtrack_summary">Kies of er wel of niet gebruik wordt gemaakt van de BackTrack Minipad-invoermethode</string>
+    <string name="pref_backtrack_summary">BackTrack Minipad-invoermethode in-/uitschakelen</string>
 
-    <string name="haptic_title">Trilaanpassingen</string>
-    <string name="haptic_summary">Bepalen wanneer en hoe hevig wordt getrild</string>
+    <string name="haptic_title">Trillen</string>
+    <string name="haptic_summary">Trilgebruik instellen</string>
     <string name="title_haptic_feedback">Algemeen</string>
-    <string name="summary_on_haptic_feedback">Trillen bij indrukken softwareknoppen en bepaalde interacties met de gebruikersinterface</string>
-    <string name="summary_off_haptic_feedback">Niet trillen bij indrukken softwareknoppen en bepaalde interacties met de gebruikersinterface</string>
+    <string name="summary_on_haptic_feedback">Trillen bij het aanraken van softwareknoppen en bij bepaalde omgevingsinteracties</string>
+    <string name="summary_off_haptic_feedback">Niet trillen bij het aanraken van softwareknoppen en bij bepaalde omgevingsinteracties</string>
     <string name="title_haptic_feedback_up">Bij loslaten</string>
-    <string name="summary_on_haptic_feedback_up">Trillen bij loslaten van softwareknoppen en bepaalde interacties met de gebruikersinterface</string>
-    <string name="summary_off_haptic_feedback_up">Niet trillen bij loslaten van softwareknoppen en bepaalde interacties met de gebruikersinterface</string>
-    <string name="title_haptic_feedback_all">Alle gevallen</string>
+    <string name="summary_on_haptic_feedback_up">Trillen bij het loslaten van softwareknoppen en bij bepaalde omgevingsinteracties</string>
+    <string name="summary_off_haptic_feedback_up">Niet trillen bij het loslaten van softwareknoppen en bij bepaalde omgevingsinteracties</string>
+    <string name="title_haptic_feedback_all">Altijd</string>
     <string name="summary_on_haptic_feedback_all">Trillen bij schermaanrakingen</string>
     <string name="summary_off_haptic_feedback_all">Niet trillen bij schermaanrakingen</string>
-    <string name="title_haptic_down_decider">Indrukinstellingen</string>
-    <string name="title_haptic_up_decider">Loslaatinstellingen</string>
+    <string name="title_haptic_down_decider">Bij indrukken</string>
+    <string name="title_haptic_up_decider">Bij loslaten</string>
     <string name="title_haptic_long_decider">Patroon lang indrukken</string>
     <string name="title_haptic_tap_decider">Patroon toetsenbord</string>
     <string name="title_haptic_menu">Trilgedrag aanpassen</string>
-    <string name="title_haptic_notice">HERSTART VEREIST VOOR ALGEMENE TOEPASSING</string>
+    <string name="title_haptic_notice">HERSTART VEREIST</string>
     <string name="haptic_delay_desc">Vertraging in ms.</string>
     <string name="haptic_vibe_desc">Duur in ms.</string>
-    <string name="haptic_down_description">Verander instellingen voor trillen bij het indrukken van een knop\n(virtuele hard-knoppen en bepaalde interacties met de gebruikersinterface)</string>
-    <string name="haptic_up_description">Verander instellingen voor trillen bij het loslaten van een knop\n(virtuele hard-knoppen en de meeste schermaanrakingen)</string>
-    <string name="haptic_long_description">Verander instellingen voor trillen bij lang indrukken</string>
-    <string name="haptic_tap_description">Verander instellingen voor trillen bij toetsenbord</string>
+    <string name="haptic_down_description">Instellingen voor trillen bij het indrukken van een knop\n(virtuele hardwareknoppen en bepaalde omgevingsinteracties)</string>
+    <string name="haptic_up_description">Instellingen voor trillen bij het loslaten van een knop\n(virtuele hardwareknoppen en de meeste schermaanrakingen)</string>
+    <string name="haptic_long_description">Instellingen voor trillen bij lang indrukken</string>
+    <string name="haptic_tap_description">Instellingen voor trillen bij toetsenbord</string>
     <string name="haptic_plus_minus_desc">Gebruik de plus- en minknoppen om stappen toe te voegen of te verwijderen</string>
     <string name="haptic_button_plus">+</string>
     <string name="haptic_button_minus">-</string>
     <string name="haptic_button_save">Opslaan</string>
     <string name="haptic_button_test">Testen</string>
-    <string name="haptic_button_cancel">Annuleren</string>
+    <string name="haptic_button_cancel">Ann.</string>
     <string name="haptic_button_revert">Ongedaan maken</string>
-    <string name="haptic_button_default">Alles herstellen</string>
+    <string name="haptic_button_default">Herstellen</string>
     <string name="haptic_save_toast">De volgende waarden zijn opgeslagen: </string>
-    <string name="haptic_cancel_toast">Niets aangepast</string>
+    <string name="haptic_cancel_toast">Geen wijzigingen</string>
     <string name="haptic_revert_toast">Laatst geladen waarden worden hersteld</string>
-    <string name="haptic_default_toast">Standaardinstellingen worden geladen</string>
+    <string name="haptic_default_toast">Standaardinstellingen worden hersteld</string>
 
     <string name="pref_trackball_wake_title">Trackball-ontwaken</string>
-    <string name="pref_trackball_wake_summary">Als de trackball wordt ingedrukt ontwaakt het toestel</string>
+    <string name="pref_trackball_wake_summary">Apparaat laten ontwaken bij het indrukken van de trackball</string>
 
     <string name="pref_volume_wake_title">Volume-ontwaken</string>
-    <string name="pref_volume_wake_summary">Als een volumeknop wordt wordt ingedrukt ontwaakt het toestel</string>
+    <string name="pref_volume_wake_summary">Apparaat laten ontwaken bij het indrukken van een volumeknop</string>
 
     <string name="pref_volbtn_music_controls_title">Volumeknop bij muziek</string>
-    <string name="pref_volbtn_music_controls_summary">Houd volumeknoppen lang ingedrukt om door nummers te spoelen als het scherm uit is</string>
+    <string name="pref_volbtn_music_controls_summary">Volumeknoppen lang indrukken om door nummers te spoelen als het scherm uit is</string>
 
     <string name="pref_cambtn_music_controls_title">Cameraknop bij muziek</string>
-    <string name="pref_cambtn_music_controls_summary">Houd cameraknop lang ingedrukt om een nummer te starten/pauzeren als het scherm uit is</string>
+    <string name="pref_cambtn_music_controls_summary">Cameraknop lang indrukken om een nummer te starten/pauzeren als het scherm uit is</string>
 
     <!-- Interface -->
     <string name="pref_power_prompt_title">Afsluit-/herstartmelding</string>
-    <string name="pref_power_prompt_summary">Melding tonen alvorens af te sluiten/te herstarten</string>
+    <string name="pref_power_prompt_summary">Melding tonen voor afsluiten/herstarten</string>
 
     <string name="title_widget_buttons">Statusbalkwidget</string>
-    <string name="title_expanded_widget">Instellingen voor statusbalkwidget</string>
+    <string name="title_expanded_widget">Statusbalkwidget</string>
     <string name="summary_expanded_widget">Statusbalkwidget inschakelen</string>
     <string name="title_expanded_hide_onchange">Verbergen bij verandering</string>
-    <string name="summary_expanded_hide_onchange">Notificatiebalk verbergen na in-/uitschakeling widget</string>
+    <string name="summary_expanded_hide_onchange">Notificatiebalk verbergen na tikken op widget</string>
     <string name="title_expanded_hide_indicator">Indicator verbergen</string>
     <string name="summary_expanded_hide_indicator">Indicator onder widgets verbergen</string>
     <string name="title_expanded_hide_scrollbar">Scrollbalk verbergen</string>
@@ -279,8 +281,8 @@
     <string name="title_toggle_flashlight">Zaklamp</string>
     <string name="title_toggle_sleep">Slaapstand</string>
     <string name="title_toggle_media_play_pause">Afspelen/pauzeren</string>
-    <string name="title_toggle_media_previous">Naar vorig nummer</string>
-    <string name="title_toggle_media_next">Naar volgend nummer</string>
+    <string name="title_toggle_media_previous">Vorig nummer</string>
+    <string name="title_toggle_media_next">Volgend nummer</string>
     <string name="title_toggle_wimax">WiMAX</string>
     <string name="title_button_modes">Knopinstellingen</string>
     <string name="pref_brightness_mode_title">Helderheidsstanden</string>
@@ -300,7 +302,7 @@
     <string name="pref_flash_mode_title">Zaklampknop</string>
     <string name="pref_flash_mode_summary">Felheid instellen</string>
     <string name="pref_mobiledatanetwork_mode_title">Autom. 2G/3G</string>
-    <string name="pref_mobiledatanetwork_mode_summary">Als de gegevensverbinding is ingeschakeld schakelt de gegevenstoegangsknop automatisch tussen 2G en 3G</string>
+    <string name="pref_mobiledatanetwork_mode_summary">Bij een gegevensverbinding automatisch schakelen tussen 2G en 3G</string>
 
     <string name="ui_status_bar_title">Statusbalkaanpassingen</string>
     <string name="ui_status_bar_clock_title">Klok tonen</string>
@@ -336,7 +338,7 @@
     <string name="pref_pinch_reflow_title">Herschikken na pinch-in</string>
     <string name="pref_pinch_reflow_summary">Webinhoud direct herschikken na pinch-to-zoom</string>
 
-    <string name="pref_share_screenshot_title">Schermafbeeldingen delen</string>
+    <string name="pref_share_screenshot_title">Schermafb. delen</string>
     <string name="pref_share_screenshot_summary">Deelmenu tonen bij het nemen van een schermafbeelding</string>
 
     <string name="ui_overscroll_title">Overscrolling</string>
