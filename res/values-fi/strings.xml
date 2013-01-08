@@ -191,7 +191,6 @@
     <string name="pref_lockscreen_quick_unlock_control_title">Nopea avaaminen</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Ei tarvitse valita OK kun syötetään PIN tai salasana. Pyyhkiminen lasketaan epäonnistuneena yrityksenä.</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Sovelluksen käynnistin</string>
-    <string name="pref_lockscreen_custom_app_toggle_summary">Näyttää toisen liukusäätimen liukutyylissä, sovelluspallon kiertotyylissä</string>
     <string name="pref_lockscreen_custom_app_activity_title">Määritä sovellus</string>
     <string name="pref_lockscreen_custom_icon_style_title">Viesti-ikoni omalle sovellukselle</string>
     <string name="pref_lockscreen_custom_icon_style_summary">Käyttää viesti-ikonia cm-ikonin sijaan omalla sovelluksella</string>

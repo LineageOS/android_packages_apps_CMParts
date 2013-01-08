@@ -297,8 +297,6 @@
     <string name="pref_lockscreen_custom_app_toggle_tab_summary">Добавить второй комплект ползунков для запуска приложения пользователя</string>
     <string name="pref_lockscreen_custom_app_toggle_rotary_summary">Добавить дополнительную кнопку для запуска приложения пользователя</string>
     <string name="pref_lockscreen_custom_app_toggle_ring_summary">Добавить третье кольцо для запуска до 4-х приложений пользователя</string>
-
-    <string name="pref_lockscreen_custom_app_toggle_summary">Добавить второй ползунок (для стиля Ползунок), приложение пользователя (для стиля Вращение) или третье кольцо (для стиля Кольца)</string>
     <string name="pref_lockscreen_custom_app_activity_title">Выбрать приложение</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">Выберите ярлык для установки</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">Выберите ярлык для сброса</string>

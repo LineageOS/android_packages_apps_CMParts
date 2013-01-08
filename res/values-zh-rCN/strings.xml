@@ -284,7 +284,6 @@
     <string name="pref_lockscreen_custom_app_toggle_tab_summary">启动自定义程序时显示第二个滑动条</string>
     <string name="pref_lockscreen_custom_app_toggle_rotary_summary">显示一个自定义的程序凹座来启动一个自定义程序</string>
     <string name="pref_lockscreen_custom_app_toggle_ring_summary">显示第三个环来启动最多四个自定义程序中的其中一个</string>
-    <string name="pref_lockscreen_custom_app_toggle_summary">在滑动风格时显示第二个滑动条，在旋转风格时显示自定义程序按键</string>
     <string name="pref_lockscreen_custom_app_activity_title">自定义程序</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">选择要设置的快捷方式</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">选择要移除的快捷方式</string>

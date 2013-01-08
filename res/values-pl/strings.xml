@@ -288,7 +288,6 @@
     <string name="pref_lockscreen_quick_unlock_control_summary">Nie trzeba wciskać OK podczas wprowadzania pinu lub hasła. Usuwanie traktowane jest jako nieudana próba.</string>
     <string name="lockscreen_style_options_title">Opcje stylu</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Skrót do aplikacji</string>
-    <string name="pref_lockscreen_custom_app_toggle_summary">Pokazuje dodatkowy suwak w przypadku stylu suwaka lub ikonę w przypadku stylu obrotowego</string>
     <string name="pref_lockscreen_custom_app_activity_title">Własna aplikacja</string>
     <string name="pref_lockscreen_custom_icon_style_title">Ikona wiadomości dla własnej aplikacji</string>
     <string name="pref_lockscreen_ring_custom_apps_dialog_cancel">Anuluj</string>

@@ -157,7 +157,6 @@
     <string name="pref_lockscreen_quick_unlock_control_title">Desbloqueio rápido</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Deixa de ser necessário premir OK ao introduzir um PIN ou uma palavra-chave. Apagar conta como uma tentativa errada.</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Iniciar aplicação personalizada </string>
-    <string name="pref_lockscreen_custom_app_toggle_summary">Mostra um segundo deslizador no estilo Sliding, mostra um dístico para a aplicação personalizada no estilo Rotary</string>
     <string name="pref_lockscreen_custom_app_activity_title">Aplicação personalizada</string>
     <string name="pref_lockscreen_custom_icon_style_title">Usar icon das mensagens para aplicação</string>
     <string name="pref_lockscreen_custom_icon_style_summary">Usa o icon das mensagens em vez do icon da CM para a aplicação personalizada</string>
