@@ -52,15 +52,15 @@
 
     <string-array name="pref_lockscreen_delay_entries">
         <item>Άμεσα</item>
-        <item>1s</item>
-        <item>5s</item>
-        <item>10s</item>
-        <item>15s</item>
-        <item>30s</item>
-        <item>1m</item>
-        <item>5m</item>
-        <item>10m</item>
-        <item>30m</item>
+        <item>1 δ</item>
+        <item>5 δ</item>
+        <item>10 δ</item>
+        <item>15 δ</item>
+        <item>30 δ</item>
+        <item>1 λ</item>
+        <item>5 λ</item>
+        <item>10 λ</item>
+        <item>30 λ</item>
     </string-array>
 
    <string-array name="pref_compcache_size_entries">
@@ -68,6 +68,15 @@
         <item>10%</item>
         <item>18%</item>
         <item>26%</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_window">
+        <item>2 δ</item>
+        <item>5 δ</item>
+        <item>10 δ</item>
+        <item>20 δ</item>
+        <item>30 δ</item>
+        <item>60 δ</item>
     </string-array>
 
     <string-array name="entries_light_filter_reset">
@@ -82,6 +91,14 @@
         <item>1500 lux</item>
         <item>2000 lux</item>
         <item>2500 lux</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_interval">
+        <item>0.5 δ</item>
+        <item>1 δ</item>
+        <item>2 δ</item>
+        <item>5 δ</item>
+        <item>10 δ</item>
     </string-array>
 
     <string-array name="entries_light_levels_dim">
@@ -122,9 +139,19 @@
         <item>2G/3G Μόνο/3G+2G</item>
     </string-array>
 
+    <string-array name="entries_screentimeout_widget">
+        <item>15δ/1λ/5λ</item>
+        <item>30δ/2λ/5λ</item>
+    </string-array>
+
     <string-array name="entries_flash_widget">
         <item>Κανονικό</item>
         <item>Υψηλό / Death Ray</item>
+    </string-array>
+
+    <string-array name="entries_mobiledatanetwork_widget">
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
     </string-array>
 
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
@@ -161,11 +188,26 @@
         <item>Και τα δύο</item>
     </string-array>
 
+    <string-array name="pref_lockscreen_calendar_lookahead_entries">
+        <item>3 ώρες</item>
+        <item>6 ώρες</item>
+        <item>12 ώρες</item>
+        <item>1 ημέρα</item>
+        <item>3 ημέρες</item>
+        <item>1 εβδομάδα</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
+        <item>Να μην εμφανίζεται</item>
+        <item>Εμφάνιση πρώτης γραμμής</item>
+        <item>Εμφάνιση όλων</item>
+    </string-array>
+
     <string-array name="pref_overscroll_effect_entries">
         <item>Κανένα</item>
-        <item>Edge Glow</item>
-        <item>Bounce and Glow</item>
-        <item>Bounce</item>
+        <item>Λάμψη άκρης</item>
+        <item>Αναπήδηση και λάμψη</item>
+        <item>Αναπήδηση</item>
     </string-array>
 
     <string-array name="entries_overscroll_weight">
@@ -191,10 +233,20 @@
         <item>Πατημένο home</item>
     </string-array>
 
+    <string-array name="entries_unhide_button">
+        <item>Home</item>
+        <item>Μενού</item>
+        <item>Πίσω</item>
+        <item>Αναζήτηση</item>
+        <item>Κάμερα</item>
+        <item>Ένταση πάνω</item>
+        <item>Ένταση κάτω</item>
+    </string-array>
+
     <string-array name="entries_long_press_menu">
         <item>Κανένα</item>
         <item>Πληκτρολόγιο οθόνης</item>
-        <item>Πλήκτρο Search</item>
+        <item>Πλήκτρο αναζήτησης</item>
         <item>Εφαρμογή</item>
         <item>Εναλλαγή μπάρας κατάστασης</item>
     </string-array>
