@@ -538,7 +538,6 @@
     <string name="pref_lockscreen_music_headset_summary">유선이나 블루투스 헤드셋이 연결되어 있을 때 음악 제어 표시</string>
 
     <string name="pref_lockscreen_custom_app_toggle_title">사용자 지정 앱</string>
-    <string name="pref_lockscreen_custom_app_toggle_summary">두번째 슬라이더나 추가 구멍을 이용하여 사용자 지정 앱을 실행합니다.</string>
     <string name="pref_lockscreen_custom_app_activity_title">사용자 지정 앱</string>
 
     <string name="input_search_key_title">검색 버튼 동작</string>

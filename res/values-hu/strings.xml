@@ -225,7 +225,6 @@
     <string name="pref_lockscreen_quick_unlock_control_title">Gyors feloldás</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Nincs szükség OK nyomására a Pin vagy jelszó beütésekor. Melléütés hibás próbálkozásnak számít.</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Egyéni alkalmazás indító</string>
-    <string name="pref_lockscreen_custom_app_toggle_summary">Egy második csúszkát jelenít meg, amelyre egyéni alkalmazások állíthatóak be</string>
     <string name="pref_lockscreen_custom_app_toggle_tab_summary">Egy második csúszkát jelenít meg, amelyre egyéni alkalmazások állíthatóak be</string>
     <string name="pref_lockscreen_custom_app_toggle_rotary_summary">Egy plusz gombot jelenít meg, amelyre egyéni alkalmazások állíthatóak be</string>
     <string name="pref_lockscreen_custom_app_toggle_ring_summary">Egy plusz gyűrűt jelenít meg, amelyre max. 4 egyéni alkalmazás állítható be</string>

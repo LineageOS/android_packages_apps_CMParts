@@ -201,7 +201,6 @@
   <string name="pref_lockscreen_quick_unlock_control_title">Швидке розблокування</string>
   <string name="pref_lockscreen_quick_unlock_control_summary">Вводження ПІН-коду або паролю не потребуватиме підтвердження кнопкою \u201CОК\u201D. Натискання кнопки \u201CВидалити\u201D вважається невдалою спробою.</string>
   <string name="pref_lockscreen_custom_app_toggle_title">Запуск кор. програми</string>
-  <string name="pref_lockscreen_custom_app_toggle_summary">Додатковий повзунок або комірка з яликом програми в залежності від стилю вікна блокування</string>
   <string name="pref_lockscreen_custom_app_activity_title">Користувацька програма</string>
   <string name="pref_lockscreen_custom_background_title">Тло</string>
   <string name="pref_lockscreen_custom_background_dialog_title">Тло</string>

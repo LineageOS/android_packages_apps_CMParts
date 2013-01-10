@@ -124,7 +124,6 @@
   <string name="pref_lockscreen_quick_unlock_control_title">Destravamento rápido</string>
   <string name="pref_lockscreen_quick_unlock_control_summary">Não é necessário pressionar OK quando digitar PIN ou Senha. Deletar conta como tentativa incorreta</string>
   <string name="pref_lockscreen_custom_app_toggle_title">Inicializador de aplicação personalizada</string>
-  <string name="pref_lockscreen_custom_app_toggle_summary">Mostra um estilo de rolagem, mostra uma ondulação em estilo rotativo no aplicativo personalizado, mostra um terceiro anel em estilo anel</string>
   <string name="pref_lockscreen_custom_app_activity_title">Aplicativo personalizado</string>
   <string name="pref_lockscreen_custom_icon_style_title">Ícone de mensagem</string>
   <string name="pref_lockscreen_custom_icon_style_summary">Usa ícone de mensagem ao invés do ícone do CM para inicializar um aplicativo personalizado</string>
