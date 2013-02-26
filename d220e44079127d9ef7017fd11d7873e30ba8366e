@@ -70,6 +70,24 @@
       "revId": "d220e44079127d9ef7017fd11d7873e30ba8366e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//6tI\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2013-02-26T21:35:16Z",
+      "side": 1,
+      "message": "CM7 is in maintenance mode, no new features, only bugfixes.\n\nIf you want to do translations only, they will get merged fast. Add Marco Brohet as a reviewer in your commits, he is responsible for the translation merges.\n\nI recently finished the Greek translations in gingerbread, they were merged in only a few days.",
+      "parentUuid": "AAAAdX//6tY\u003d",
+      "revId": "d220e44079127d9ef7017fd11d7873e30ba8366e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
