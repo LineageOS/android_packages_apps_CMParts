@@ -34,6 +34,24 @@
       "revId": "d220e44079127d9ef7017fd11d7873e30ba8366e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//6tg\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 5765
+      },
+      "writtenOn": "2013-02-26T21:12:05Z",
+      "side": 1,
+      "message": "With pleasure :).\n\nBut who cares import the gingerbread branch to GitHub ?\n\nI will be very active in the development and the French translation of the gingerbread branch, I need a Nightly builds updated often.",
+      "parentUuid": "AAAAdX//6t0\u003d",
+      "revId": "d220e44079127d9ef7017fd11d7873e30ba8366e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
