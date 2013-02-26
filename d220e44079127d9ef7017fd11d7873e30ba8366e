@@ -52,6 +52,24 @@
       "revId": "d220e44079127d9ef7017fd11d7873e30ba8366e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//6tY\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2013-02-26T21:20:00Z",
+      "side": 1,
+      "message": "Well,it doesn\u0027t matter got merged or not if it improve French translation for gingerbread,right?\n\nI know what you mean,though ;-)",
+      "parentUuid": "AAAAdX//6tg\u003d",
+      "revId": "d220e44079127d9ef7017fd11d7873e30ba8366e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
