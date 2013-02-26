@@ -88,6 +88,24 @@
       "revId": "d220e44079127d9ef7017fd11d7873e30ba8366e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//6so\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 5765
+      },
+      "writtenOn": "2013-02-26T22:27:26Z",
+      "side": 1,
+      "message": "Thank you for the information.\n\nBut I\u0027m talking just bug fixes, they are often not imported on GitHub...\n\nWho should be added as a reviewer for bug fixes.\nAnyway, for the translations, I noted that it was Marco Brohet.\n\n\nSincerely,\n\nThibault LEMOINE.",
+      "parentUuid": "AAAAdX//6tI\u003d",
+      "revId": "d220e44079127d9ef7017fd11d7873e30ba8366e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
