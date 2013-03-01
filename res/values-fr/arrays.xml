@@ -1,54 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- 
- * Copyright (C) 2007 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
 
 <resources>
+    <string-array name="entries_heapsize">
+        <item>12m</item>
+        <item>16m</item>
+        <item>24m</item>
+        <item>32m</item>
+        <item>48m</item>
+    </string-array>
+
     <string-array name="entries_install_location">
         <item>Automatique</item>
         <item>Interne</item>
         <item>Externe</item>
     </string-array>
 
+    <string-array name="entries_status_bar_am_pm">
+        <item>Normal</item>
+        <item>Petit</item>
+        <item>Aucun (par défaut)</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_battery">
+        <item>Icône (par défaut)</item>
+        <item>Pourcentage</item>
+        <item>Caché</item>
+    </string-array>
+
+    <string-array name="haptic_feedback_entries">
+        <item>Par défaut</item>
+        <item>Activé</item>
+        <item>Désactivé</item>
+    </string-array>
+
     <string-array name="pref_trackball_blink_rate_entries">
         <item>Paramètre de l\'application</item>
-        <item>2 (Rapide)</item>
+        <item>2 (rapide)</item>
         <item>3</item>
-        <item>4 (Moyen)</item>
+        <item>4 (moyen)</item>
         <item>5</item>
-        <item>6 (Lent)</item>
+        <item>6 (lent)</item>
     </string-array>
 
     <string-array name="pref_lockscreen_delay_entries">
         <item>Immédiatement</item>
-        <item>1s</item>
-        <item>5s</item>
-        <item>10s</item>
-        <item>15s</item>
-        <item>30s</item>
-        <item>1m</item>
-        <item>5m</item>
-        <item>10m</item>
-        <item>30m</item>
+        <item>1 seconde</item>
+        <item>5 secondes</item>
+        <item>10 secondes</item>
+        <item>15 secondes</item>
+        <item>30 secondes</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
     </string-array>
 
     <string-array name="pref_compcache_size_entries">
         <item>Désactivé</item>
-        <item>10%</item>
-        <item>18%</item>
-        <item>26%</item>
+        <item>10 %</item>
+        <item>18 %</item>
+        <item>26 %</item>
+    </string-array>
+
+    <string-array name="entries_light_filter_window">
+        <item>2 secondes</item>
+        <item>5 secondes</item>
+        <item>10 secondes</item>
+        <item>20 secondes</item>
+        <item>30 secondes</item>
+        <item>60 secondes</item>
     </string-array>
 
     <string-array name="entries_light_filter_reset">
@@ -65,6 +99,54 @@
         <item>2500 lux</item>
     </string-array>
 
+    <string-array name="entries_light_filter_interval">
+        <item>0,5 seconde</item>
+        <item>1 seconde</item>
+        <item>2 secondes</item>
+        <item>5 secondes</item>
+        <item>10 secondes</item>
+    </string-array>
+
+    <string-array name="entries_light_levels_dim">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20 (par défaut)</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array name="entries_light_decrease_hysteresis">
+        <item>0 %</item>
+        <item>10 %</item>
+        <item>20 %</item>
+        <item>30 %</item>
+        <item>40 %</item>
+        <item>50 %</item>
+        <item>60 %</item>
+        <item>70 %</item>
+        <item>80 %</item>
+        <item>90 %</item>
+    </string-array>
+
+    <string-array name="entries_sound_attenuation">
+        <item>0 dB</item>
+        <item>4 dB</item>
+        <item>6 dB (par défaut)</item>
+        <item>8 dB</item>
+        <item>10 dB</item>
+    </string-array>
+
     <string-array name="entries_sound_limitvol">
         <item>Réglage atténué du système</item>
         <item>Volume de la musique (par défaut)</item>
@@ -74,6 +156,21 @@
         <item>2G/3G+2G</item>
         <item>2G/3G Seulement</item>
         <item>2G/3G Seulement/3G+2G</item>
+    </string-array>
+
+    <string-array name="entries_screentimeout_widget">
+        <item>15 secondes/1 minute/5 minutes</item>
+        <item>30 secondes/2 minutes/5 minutes</item>
+    </string-array>
+
+    <string-array name="entries_flash_widget">
+        <item>Normal</item>
+        <item>Puissant/Rayon de la mort</item>
+    </string-array>
+
+    <string-array name="entries_mobiledatanetwork_widget">
+        <item>Désactivé</item>
+        <item>Activé</item>
     </string-array>
 
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
@@ -93,13 +190,13 @@
 
     <string-array name="pref_lockscreen_background_entries">
         <item>Couleur ou filtre</item>
-        <item>Image perso.</item>
+        <item>Image personnalisée</item>
         <item>Par défaut</item>
     </string-array>
 
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>Désactivé</item>
-        <item>Casque / Ecouteurs</item>
+        <item>Casque/Écouteurs</item>
         <item>Sortie Bluetooth A2DP</item>
         <item>Casque et Bluetooth</item>
     </string-array>
@@ -135,18 +232,18 @@
     </string-array>
 
     <string-array name="entries_vol_actions">
-        <item>Aucun/Défaut</item>
+        <item>Aucun/Par défaut</item>
         <item>Accueil</item>
         <item>Menu</item>
         <item>Retour</item>
         <item>Recherche</item>
         <item>Veille</item>
         <item>Appel</item>
-        <item>Fin appel</item>
+        <item>Fin d\'appel</item>
         <item>Lecture/Pause</item>
-        <item>Piste Suivante</item>
-        <item>Piste Précédente</item>
-        <item>Appui long Accueil</item>
+        <item>Piste suivante</item>
+        <item>Piste précédente</item>
+        <item>Appui long accueil</item>
     </string-array>
 
     <string-array name="entries_unhide_button">
@@ -163,31 +260,7 @@
         <item>Aucun</item>
         <item>Clavier</item>
         <item>Recherche</item>
-        <item>Application Perso</item>
+        <item>Application personnalisée</item>
         <item>Barre de notification</item>
     </string-array>
-
-    <string-array name="haptic_feedback_entries">
-        <item>Par défaut</item>
-        <item>Marche</item>
-        <item>Arrêt</item>
-    </string-array>
-
-    <string-array name="entries_status_bar_am_pm">
-        <item>Normal</item>
-        <item>Petit</item>
-        <item>Aucun (défaut)</item>
-    </string-array>
-
-    <string-array name="entries_status_bar_battery">
-        <item>Icône (défaut)</item>
-        <item>Pourcentage</item>
-        <item>Cachée</item>
-    </string-array>
-
-    <string-array name="entries_flash_widget">
-        <item>Normal</item>
-        <item>Puissant / Death Ray</item>
-    </string-array>
-
 </resources>
