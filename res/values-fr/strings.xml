@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
 <resources>
     <!-- Generic -->
     <string name="app_name">Paramètres CyanogenMod</string>
@@ -36,12 +51,14 @@
     <!-- User interface -->
     <string name="ui_title">Interface utilisateur</string>
 
-    <string name="pref_electron_beam_animation_on">Animation allumage écran</string>
+    <string name="pref_electron_beam_animation_on">Animation à l\'allumage</string>
     <string name="pref_electron_beam_animation_off">Animation à l\'extinction</string>
+    <string name="pref_rotation_animation_title">Animation pour la rotation</string>
+    <string name="pref_rotation_animation_summary">Nécessite un redémarrage</string>
 
     <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Mode Tablette</string>
-    <string name="tablet_tweaks_summary_head">Paramètres utiles pour les utilisateurs de Tablette. Fonctionne aussi pour les téléphones</string>
+    <string name="tablet_tweaks_title_head">Mode tablette</string>
+    <string name="tablet_tweaks_summary_head">Paramètres utiles pour les utilisateurs de tablette. Fonctionne aussi pour les téléphones</string>
     <string name="tablet_tweaks_sb_bottom_title">Barre en bas</string>
     <string name="tablet_tweaks_sb_bottom_summary">Affiche la barre de notification en bas de l\'écran. Utile pour les tablettes qui utilisent des boutons tactiles placés sur celle-ci.</string>
     <string name="tablet_tweaks_status_bar_dead_zone_title">Zone inerte</string>
@@ -52,12 +69,40 @@
     <string name="tablet_tweaks_interface_head">Interface</string>
     <string name="tablet_tweaks_disable_lockscreen_title">Désactiver verrouillage</string>
     <string name="tablet_tweaks_disable_lockscreen_summary">Ne pas afficher l\'écran de verrouillage. Ni au démarrage, ni au réveil du téléphone</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Désactiver Plein-écran</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">Désactiver le mode plein écran</string>
     <string name="tablet_tweaks_disable_fullscreen_summary">Toujours afficher la barre de notification, même lorsque le contraire est spécifié dans les paramètres d\'une application</string>
+    <string name="tablet_tweaks_unhide_button_list_head">Afficher les boutons</string>
+    <string name="tablet_tweaks_unhide_button_list_title">Choisir le bouton à afficher</string>
+    <string name="tablet_tweaks_extend_pm_title">Déployer le menu d\'alimentation</string>
+    <string name="tablet_tweaks_extend_pm_summary">Ajouter accueil/retour/menu d\'actions dans le menu d\'alimentation</string>
+    <string name="tablet_tweaks_extend_pm_list_title">Choisir le bouton du menu d\'alimentation</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">Inverser le comportement du volume</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Boutons du volume se comportant normalement. Appuyez pour changer le volume, appuyez longtemps pour l\'action de l\'utilisateur</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Boutons du volume inversée. Appuyez pour l\'action de l\'utilisateur, appuyez longtemps pour changer le volume</string>
+
+    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <string name="tablet_tweaks_input_head">Attribuer à la touche volume</string>
+    <string name="tablet_tweaks_long_volp_action_title">Appuyez longtemps sur volume +</string>
+    <string name="tablet_tweaks_long_volp_action_summary">Attribuer accueil/retour/menu/etc action au bouton volume +, lors d\'une longue pression. Limité à l\'écran ouvert</string>
+    <string name="tablet_tweaks_long_volm_action_title">Appuyez longtemps sur volume -</string>
+    <string name="tablet_tweaks_vol_both_action_title">Les deux boutons volume</string>
+    <string name="tablet_tweaks_vol_both_action_summary">Note\u00A0: Certains appareils effectuent une réinitialisation quand les boutons, volume + alimentation, sont appuyés simultanément</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">Appuyez longtemps sur les deux boutons</string>
+
+    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <string name="tablet_tweaks_extend_pm_list_head">Boutons du menu d\'alimentation</string>
+
+    <!-- User interface: Tablet tweaks -> soft buttons -->
+    <string name="tablet_tweaks_soft_buttons_list_head">Touches tactiles</string>
+    <string name="tablet_soft_buttons_home_title">Accueil</string>
+    <string name="tablet_soft_buttons_menu_title">Menu</string>
+    <string name="tablet_soft_buttons_back_title">Retour</string>
+    <string name="tablet_soft_buttons_search_title">Recherche</string>
+    <string name="tablet_soft_buttons_quick_na_title">Notifications rapide</string>
 
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Rotation automatique</string>
-    <string name="pref_rotation_0_title">Normal</string>
+    <string name="pref_rotation_0_title">0 degré</string>
     <string name="pref_rotation_90_title">90 degrés</string>
     <string name="pref_rotation_180_title">180 degrés</string>
     <string name="pref_rotation_270_title">270 degrés</string>
@@ -92,47 +137,49 @@
     <string name="ui_status_bar_headset_summary">Afficher l\'icône du casque ou des écouteurs dans la barre de notification</string>
 
     <!-- User interface : LED Notifications -->
-    <string name="group_settings">Paramètres</string>
     <string name="trackball_title">Notifications par LED</string>
     <string name="trackball_summary">Couleurs et type de clignotement des notifications par LED</string>
 
-    <!-- User interface : Overscroll -->
-    <string name="ui_overscroll_title">Surdéfilement</string>
-    <string name="pref_overscroll_title">Effet surdéfilement</string>
-    <string name="pref_overscroll_summary">Choisir l\'apparence de l\'effet de surdéfilement</string>
-    <string name="pref_overscroll_weight_title">Poids objets défilants</string>
-    <string name="pref_overscroll_weight_summary">Choisir le poids des objets défilants</string>
-
     <!-- User interface : WebView -->
     <string name="pref_pinch_reflow_title">Redessiner au zoom</string>
-    <string name="pref_pinch_reflow_summary">Redessine les pages web immédiatement après un zoom avec les doigts ("pinch")</string>
+    <string name="pref_pinch_reflow_summary">Redessiner les pages web immédiatement après un zoom à deux doigts ("pinch")</string>
 
     <!-- User interface : Share menu for screenshots -->
-    <string name="pref_share_screenshot_title">Partager Screenshots</string>
-    <string name="pref_share_screenshot_summary">Affiche le menu de partage après une capture d\'écran</string>
+    <string name="pref_share_screenshot_title">Partager captures d\'écran</string>
+    <string name="pref_share_screenshot_summary">Afficher le menu de partage après une capture d\'écran</string>
+
+    <!-- User interface : Overscroll -->
+    <string name="ui_overscroll_title">Surdéfilement</string>
+    <string name="pref_overscroll_title">Effet de surdéfilement</string>
+    <string name="pref_overscroll_summary">Choisir l\'apparence de l\'effet de surdéfilement</string>
+    <string name="pref_overscroll_weight_title">Poids des objets défilants</string>
+    <string name="pref_overscroll_weight_summary">Choisir le poids des objets défilants</string>
 
     <!-- User interface : Lock Screen -->
     <string name="pref_lockscreen_delay_title">Délai</string>
-    <string name="pref_lockscreen_security_title">Ecran de sécurité</string>
+    <string name="pref_lockscreen_security_title">Écran de sécurité</string>
+    <string name="pref_lockscreen_security_delay_note_title">Note</string>
     <string name="pref_lockscreen_security_delay_note_summary">Lorsque l\'écran de verrouillage est \"inactif si sécurisé\", seuls ces paramètres sont utilisés, pas ceux du \"Slide Lock\"</string>
-    <string name="pref_lockscreen_security_timeout_lock_delay">Timeout écran</string>
-    <string name="pref_lockscreen_security_screenoff_lock_delay">Délai verrouillage</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay">Délai de verrouillage de l\'écran</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay">Délai de verrouillage</string>
     <string name="pref_lockscreen_security_timeout_lock_delay_summary">Délai avant l\'extinction automatique de l\'écran si l\'appareil n\'est pas déverrouillé</string>
     <string name="pref_lockscreen_security_screenoff_lock_delay_summary">Délai avant l\'activation du verrouillage lorsque l\'on éteint l\'écran</string>
-    <string name="pref_lockscreen_slide_title">Slide Lock</string>
+    <string name="pref_lockscreen_slide_title">Curseur de verrouillage</string>
     <string name="pref_lockscreen_slide_delay_note_title">Note</string>
-    <string name="pref_lockscreen_slide_delay_note_summary">Even if enabled, the unsecured slide lock will only appear if the security lock delay is longer than the slide lock delay</string>
-    <string name="pref_lockscreen_slide_delay_title">Délai écran de sécurité</string>
+    <string name="pref_lockscreen_slide_delay_note_summary">Même s\'il est activé, le curseur de verrouillage non sécurisé s\'affiche uniquement si le délai du verrouillage de sécurité est plus long que le délai du curseur de verrouillage</string>
+    <string name="pref_lockscreen_slide_delay_title">Délai de l\'écran de sécurité</string>
     <string name="pref_lockscreen_slide_delay_summary">Utiliser un autre délai avant d\'activer l\'écran de sécurité</string>
     <string name="pref_lockscreen_slide_timeout_lock_delay">Délai du Slide Lock</string>
-    <string name="pref_lockscreen_slide_timeout_lock_delay_summary">Délai avant l\'activation du Slide Lock lorsque l\'écran est mis en veille</string>
     <string name="pref_lockscreen_slide_screenoff_lock_delay">Délai arrêt manuel</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay_summary">Délai avant l\'activation du Slide Lock lorsque l\'écran est mis en veille</string>
     <string name="pref_lockscreen_slide_screenoff_lock_delay_summary">Délai avant l\'activation du Slide Lock lorsque l\'on éteint manuellement l\'écran</string>
+
     <!-- Color Picker -->
     <string name="title_color_picker">Choisir une couleur</string>
     <string name="msg_color_picker">Appuyer au centre pour confirmer.\nBouton retour pour annuler</string>
 
     <!-- User interface: LED notifcations -->
+    <string name="group_settings">Paramètres</string>
     <string name="dialog_color_trackball">Choisir une couleur</string>
     <string name="dialog_blink_trackball">Vitesse du clignotement</string>
     <string name="color_trackball_flash_title">Couleur de la LED</string>
@@ -157,7 +204,7 @@
     <string name="pref_trackball_order_summary">Notifier les couleurs dans l\'ordre</string>
     <string name="pref_trackball_reset_title">Remise à zéro</string>
     <string name="pref_trackball_reset_summary">Remettre les paramètres de notification par défaut</string>
-    <string name="dialog_trackball_loading">Chargement...</string>
+    <string name="dialog_trackball_loading">Chargement\u2026</string>
     <string name="dialog_trackball_packagelist">Chargement de la liste des applications</string>
     <string name="trackball_category_dialog_text">Veuillez saisir une nouvelle catégorie</string>
     <string name="trackball_category_list_title">Catégorie</string>
@@ -165,20 +212,34 @@
     <string name="trackball_category_screen">Gérer les catégories</string>
     <string name="trackball_category_add_title">Nouvelle catégorie</string>
     <string name="trackball_category_add_summary">Ajoute une catégorie à la liste</string>
+    <string name="trackball_category_add_error_title">ERREUR</string>
+    <string name="trackball_category_add_error_summary">Le nom de la catégorie ne peut pas contenir \'=\'</string>
     <string name="trackball_category_remove_title">Retirer catégorie</string>
     <string name="trackball_category_remove_summary">Retire une catégorie de la liste</string>
+    <string name="trackball_category_edit_title">Modifier les paramètres de la catégorie</string>
+    <string name="trackball_category_edit_summary">Modifier les paramètres par défaut pour cette catégorie</string>
     <string name="trackball_reset_all">RàZ des couleurs et catégories</string>
-    <string name="trackball_color_notice_title">NOTE :</string>
+    <string name="trackball_color_notice_title">NOTE\u00A0:</string>
     <string name="trackball_color_notice_summary">Seules certaines couleurs seront visibles sur certains appareils.</string>
     <string name="trackball_category_unconfigured">Non configurés</string>
     <string name="trackball_category_misc">Divers</string>
+    <string name="trackball_app_save_title">Enregistrer</string>
+    <string name="trackball_app_save_summary">Enregistrer les paramètres pour cette application</string>
     <string name="trackball_app_reset_title">Remise à zéro</string>
     <string name="trackball_app_reset_summary">Retirer les paramètres définis pour cette application</string>
+
     <string name="trackball_force_mode_title">Mode LED</string>
     <string name="trackball_force_mode_dialog">Sélection du mode</string>
     <string name="trackball_force_mode_summary">Définir le comportement de la LED</string>
 
+    <string name="trackball_app_email">Email</string>
     <string name="trackball_app_mms">Messages</string>
+    <string name="trackball_app_gvoice">Google Voice</string>
+    <string name="trackball_app_gmail">Gmail</string>
+    <string name="trackball_app_gtalk">GTalk</string>
+    <string name="trackball_app_twitter">Twitter</string>
+    <string name="trackball_app_twicca">Twicca</string>
+    <!-- Say Missed Call instead of "Dialer" as the notification is for the missed call -->
     <string name="trackball_app_dialer">Appels manqués</string>
 
     <!-- Trackball color entries -->
@@ -194,19 +255,22 @@
     <string name="trackball_color_entry_orange">Orange</string>
     <string name="trackball_color_entry_light_blue">Bleu ciel</string>
     <string name="trackball_color_entry_random">Aléatoire</string>
-    <string name="trackball_color_entry_amber">Orange</string>
+    <string name="trackball_color_entry_amber">Ambre</string>
 
     <!-- Trackball Settings : Force modes -->
+    <string name="trackball_force_mode_category">Utiliser les paramètres de la catégorie</string>
     <string name="trackball_force_mode_application">Paramètres application</string>
     <string name="trackball_force_mode_off">Pas de LED</string>
     <string name="trackball_force_mode_events">LED si événements</string>
     <string name="trackball_force_mode_on">LED active</string>
 
     <!-- Trackball Settings : Warning dialog -->
-    <string name="notification_battery_warning_title">ATTENTION : Peut vider votre batterie</string>
-    <string name="notification_battery_warning">Il a été prouvé que cette option accentue l\'utilisation de la batterie d\'environ 3% par heure. Si vous constatez ce phénomène, c\'est certainement cette option qui en est la cause directe. N\'activez cette option uniquement en connaissance de cause !</string>
+    <string name="notification_battery_warning_title">ATTENTION\u00A0: Peut vider votre batterie</string>
+    <string name="notification_battery_warning">Il a été prouvé que cette option accentue l\'utilisation de la batterie d\'environ 3 % par heure. Si vous constatez ce phénomène, c\'est certainement cette option qui en est la cause directe. N\'activez cette option que si vous savez ce que vous faites\u00A0!</string>
 
     <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_disable_on_security_title">Inactif si sécurisé</string>
+    <string name="pref_lockscreen_disable_on_security_summary">Désactive l\'écran de verrouillage si l\'écran de sécurité est activé (Code PIN, mot de passe)</string>
     <string name="pref_lockscreen_stylecfg_title">Options principales</string>
     <string name="pref_lockscreen_stylecfg_summary">Configurer l\'apparence de l\'écran de verrouillage et les réglages correspondants</string>
     <string name="pref_lockscreen_widgets_title">Options des widgets</string>
@@ -219,9 +283,7 @@
     <string name="pref_lockscreen_timeout_summary">Configurer les délais de verrouillage et d\'extinction de l\'écran</string>
 
     <!-- Lockscreen Settings -->
-    <string name="lockscreen_widgets_note_title">Note</string>
-    <string name="lockscreen_widgets_note_summary">Le style \'Lense\' cache tous les widgets sauf ceux pour la musique.\nLes options suivantes sont affichées afin de simplifier le changement de mode</string>
-    <string name="pref_lockscreen_always_battery_title">Etat de la batterie</string>
+    <string name="pref_lockscreen_always_battery_title">État de la batterie</string>
     <string name="pref_lockscreen_always_battery_summary">Afficher l\'état de la batterie sur l\'écran de verrouillage, à tout moment</string>
     <string name="pref_lockscreen_widgets_layout_title">Position</string>
     <string name="pref_lockscreen_widgets_layout_summary">Position des libellés opérateur, heure, date et état</string>
@@ -229,8 +291,6 @@
     <string name="pref_lockscreen_widget_layout_entry_hidden">Invisible</string>
     <string name="pref_lockscreen_widget_layout_entry_centered">Centré</string>
     <string name="pref_lockscreen_widget_layout_entry_right">À droite</string>
-    <!-- Lockscreen Music Settings -->
-    <string name="lockscreen_music_title">Lecture de la musique</string>
     <string name="pref_lockscreen_music_controls_title">Contrôle de la musique</string>
     <string name="pref_lockscreen_music_controls_summary">Afficher les boutons permettant de commander la musique sur l\'écran de verrouillage</string>
     <string name="pref_lockscreen_now_playing_title">Nom de la chanson</string>
@@ -241,14 +301,16 @@
     <string name="pref_lockscreen_music_headset_summary">Afficher les boutons pour la musique quand un casque est branché (et/ou Bluetooth A2DP)</string>
     <string name="pref_lockscreen_always_music_controls_title">Toujours afficher</string>
     <string name="pref_lockscreen_always_music_controls_summary">Toujours afficher les contrôles, même sans lecture en cours</string>
-    <!-- Lockscreen Other -->
-    <string name="pref_lockscreen_custom_app_activity_title">Sélectionner l\'application</string>
-    <string name="pref_lockscreen_custom_icon_style_title">Icône de l\'application</string>
-    <string name="pref_lockscreen_custom_icon_style_summary">Utiliser l\'icône de l\'application au lieu de celle par défaut</string>
-    <string name="pref_lockscreen_rotary_unlock_down_title">Déverrouiller en bas</string>
-    <string name="pref_lockscreen_rotary_unlock_down_summary">Glisser vers le bas déverrouille. Glisser à droite démarre l\'application</string>
-    <string name="pref_lockscreen_rotary_hide_arrows_title">Masquer flèches</string>
-    <string name="pref_lockscreen_rotary_hide_arrows_summary">Masque les flèches directionnelles de rotation</string>
+    <string name="pref_trackball_wake_title">Réveil par trackball</string>
+    <string name="pref_trackball_wake_summary">Une pression sur le trackball réveille le téléphone</string>
+    <string name="pref_volume_wake_title">Eveil par boutons volume</string>
+    <string name="pref_volume_wake_summary">L\'appui sur les boutons de volume sort l\'appareil de la veille. Destiné aux appareils avec un bouton d\'alimentation difficilement accessible</string>
+    <string name="pref_trackball_unlock_title">Déverrouillage par trackball</string>
+    <string name="pref_trackball_unlock_summary">Une pression sur le trackball déverrouille le téléphone</string>
+    <string name="pref_slider_unlock_title">Déverrouillage par clavier</string>
+    <string name="pref_slider_unlock_summary">L\'ouverture du clavier physique déverrouille le téléphone</string>
+    <string name="pref_menu_unlock_title">Déverrouillage par menu</string>
+    <string name="pref_menu_unlock_summary">Une pression sur le bouton menu déverrouille le téléphone</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Déverrouillage rapide</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Une pression sur OK n\'est plus nécessaire lors de la saisie d\'un PIN ou mot de passe. Effacer compte comme une erreur.</string>
     <string name="lockscreen_style_options_title">Options spécifiques</string>
@@ -256,29 +318,37 @@
     <string name="pref_lockscreen_custom_app_toggle_tab_summary">Ajouter un second bouton pour exécuter une application</string>
     <string name="pref_lockscreen_custom_app_toggle_rotary_summary">Ajouter un bouton pour exécuter une application</string>
     <string name="pref_lockscreen_custom_app_toggle_ring_summary">Ajouter un troisième bouton pour exécuter une application</string>
-
+    <string name="pref_lockscreen_custom_app_activity_title">Sélectionner l\'application</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">Sélectionnez le raccourci que vous souhaitez définir</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">Sélectionnez le raccourci que vous souhaitez supprimer</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_cancel">Annuler</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_add">Ajouter</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_remove">Supprimer</string>
+    <string name="pref_lockscreen_ring_custom_apps_notset">Non défini</string>
+    <string name="pref_lockscreen_ring_unlock_middle_title">Déverrouiller au milieu</string>
+    <string name="pref_lockscreen_ring_unlock_middle_summary">Inverser l\'anneau de déverrouillage et celui de l\'application perso</string>
+    <string name="pref_lockscreen_ring_minimal_title">Style minimal</string>
+    <string name="pref_lockscreen_ring_minimal_summary">Un seul anneau au milieu de l\'écran pour déverrouiller</string>
+    <string name="pref_lockscreen_custom_background_title">Fond d\'écran</string>
+    <string name="pref_lockscreen_custom_background_dialog_title">Fond d\'écran</string>
+    <string name="pref_lockscreen_custom_background_summary">Modifier l\'image, la couleur ou la teinte de l\'écran de verrouillage</string>
+    <string name="pref_lockscreen_custom_background_summary_color">Mode actuel\u00A0: Couleur</string>
+    <string name="pref_lockscreen_custom_background_summary_image">Mode actuel\u00A0: Image</string>
+    <string name="pref_lockscreen_custom_background_summary_default">Mode actuel\u00A0: Par défaut</string>
+    <string name="pref_lockscreen_background_result_successful">Fond d\'écran modifié</string>
+    <string name="pref_lockscreen_background_result_not_successful">Fond d\'écran non modifié</string>
+    <string name="pref_lockscreen_custom_icon_style_title">Icône de l\'application</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">Utiliser l\'icône de l\'application au lieu de celle par défaut</string>
+    <string name="pref_lockscreen_rotary_unlock_down_title">Déverrouiller en bas</string>
+    <string name="pref_lockscreen_rotary_unlock_down_summary">Glisser vers le bas déverrouille. Glisser à droite démarre l\'application</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_title">Masquer flèches</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_summary">Masque les flèches directionnelles de rotation</string>
     <string name="pref_lockscreen_style_title">Style</string>
     <string name="pref_lockscreen_style_summary">Choisir le style de l\'écran de verrouillage</string>
     <string name="lockscreen_style_entry_tabs">Curseurs</string>
     <string name="lockscreen_style_entry_rotary">Rotatif</string>
+    <string name="lockscreen_style_entry_lense">Lense</string>
     <string name="lockscreen_style_entry_ring">Anneau</string>
-    <string name="pref_in_call_style_title">Appels entrants</string>
-    <string name="pref_in_call_style_summary">Choisir le style du widget accepter/refuser les appels entrants</string>
-    <string name="incall_style_entry_tabs">Curseurs</string>
-    <string name="incall_style_entry_rotary">Rotatif</string>
-    <string name="incall_style_entry_ring">Anneau</string>
-    <string name="pref_volbtn_music_controls_title">Piste suivante par volume</string>
-    <string name="pref_volbtn_music_controls_summary">Change la chanson en cours par longue pression sur les boutons Volume lorque l\'écran est éteint</string>
-    <string name="pref_cambtn_music_controls_title">Bouton Photo pour la musique</string>
-    <string name="pref_cambtn_music_controls_summary">Lecture et pause en laissant appuyé le bouton Photo lorsque l\'écran est éteint</string>
-    <string name="pref_lockscreen_custom_background_title">Fond d\'écran</string>
-    <string name="pref_lockscreen_custom_background_dialog_title">Fond d\'écran</string>
-    <string name="pref_lockscreen_custom_background_summary">Modifier l\'image, la couleur ou la teinte de l\'écran de verrouillage</string>
-    <string name="pref_lockscreen_custom_background_summary_color">Mode actuel: Couleur</string>
-    <string name="pref_lockscreen_custom_background_summary_image">Mode actuel: Image</string>
-    <string name="pref_lockscreen_custom_background_summary_default">Mode actuel: Par défault</string>
-    <string name="pref_lockscreen_background_result_successful">Fond d\'écran modifié</string>
-    <string name="pref_lockscreen_background_result_not_successful">Fond d\'écran non modifié</string>
     <string name="pref_rotary_style_title">Style rotatif</string>
     <string name="pref_rotary_style_summary">Choisir le style de l\'anneau rotatif</string>
     <string name="rotary_style_entry_normal">Normal</string>
@@ -289,12 +359,18 @@
     <string name="ringlock_style_entry_revamped">Revamped</string>
     <string name="ringlock_style_entry_holo">Holo</string>
     <string name="ringlock_style_entry_blade">Lame</string>
-    <string name="pref_lockscreen_ring_unlock_middle_title">Déverrouiller au milieu</string>
-    <string name="pref_lockscreen_ring_unlock_middle_summary">Inverser l\'anneau de déverrouillage et celui de l\'application perso</string>
-    <string name="pref_lockscreen_ring_minimal_title">Style minimal</string>
-    <string name="pref_lockscreen_ring_minimal_summary">Un seul anneau au milieu de l\'écran pour déverrouiller</string>
-    <string name="pref_lockscreen_disable_on_security_title">Inactif si sécurisé</string>
-    <string name="pref_lockscreen_disable_on_security_summary">Désactive l\'écran de verrouillage si l\'écran de sécurité est activé (Code PIN, Mot de passe)</string>
+    <string name="pref_in_call_style_title">Appels entrants</string>
+    <string name="pref_in_call_style_summary">Choisir le style du widget accepter/refuser les appels entrants</string>
+    <string name="incall_style_entry_tabs">Curseurs</string>
+    <string name="incall_style_entry_rotary">Rotatif</string>
+    <string name="incall_style_entry_ring">Anneau</string>
+    <string name="lockscreen_music_title">Lecture de la musique</string>
+    <string name="pref_volbtn_music_controls_title">Piste suivante par volume</string>
+    <string name="pref_volbtn_music_controls_summary">Change la chanson en cours par longue pression sur les boutons Volume lorque l\'écran est éteint</string>
+    <string name="pref_cambtn_music_controls_title">Bouton Photo pour la musique</string>
+    <string name="pref_cambtn_music_controls_summary">Lecture et pause en laissant appuyé le bouton Photo lorsque l\'écran est éteint</string>
+    <string name="lockscreen_widgets_note_title">Note</string>
+    <string name="lockscreen_widgets_note_summary">Le style \'Lense\' cache tous les widgets sauf ceux pour la musique.\nLes options suivantes sont affichées afin de simplifier le changement de mode</string>
     <string name="lockscreen_calendar_title">Agenda</string>
     <string name="pref_lockscreen_calendar_alarm_title">Prochain événement</string>
     <string name="pref_lockscreen_calendar_alarm_summary">Afficher l\'heure et le titre du prochain événement</string>
@@ -311,18 +387,10 @@
 
     <!-- Input Settings -->
     <string name="input_settings_title">Paramètres des entrées</string>
-    <string name="pref_trackball_wake_title">Réveil par trackball</string>
-    <string name="pref_trackball_wake_summary">Une pression sur le trackball réveille le téléphone</string>
-    <string name="pref_trackball_unlock_title">Déverrouillage par trackball</string>
-    <string name="pref_trackball_unlock_summary">Une pression sur le trackball déverrouille le téléphone</string>
-    <string name="pref_slider_unlock_title">Déverrouillage par clavier</string>
-    <string name="pref_slider_unlock_summary">L\'ouverture du clavier physique déverrouille le téléphone</string>
-    <string name="pref_menu_unlock_title">Déverrouillage par menu</string>
-    <string name="pref_menu_unlock_summary">Une pression sur le bouton menu déverrouille le téléphone</string>
-    <string name="pref_volume_wake_title">Eveil par boutons volume</string>
-    <string name="pref_volume_wake_summary">L\'appui sur les boutons de volume sort l\'appareil de la veille. Destiné aux appareils avec un bouton Power difficilement accessible</string>
-
-   <!-- Search key behavior -->
+    <string name="haptic_title">Retour haptique</string>
+    <string name="haptic_summary">Configurer le retour haptique, les vibrations au toucher</string>
+    <string name="long_press_home_title">Appui long sur Accueil</string>
+    <string name="long_press_home_summary">Nombre d\'applications récentes, etc.</string>
     <string name="input_search_key_title">Bouton Recherche</string>
     <string name="input_search_key_summary">Définir des actions personnalisées pour le bouton Recherche, simple et longue pression</string>
     <string name="pref_input_custom_search_app_toggle_title">Application Recherche</string>
@@ -330,6 +398,8 @@
     <string name="pref_input_custom_search_app_activity_title">Sélectionner l\'application</string>
     <string name="pref_input_custom_long_search_app_toggle_title">Appl. appui long</string>
     <string name="pref_input_custom_long_search_app_toggle_summary">Exécuter une application lors d\'un appui long sur le bouton Recherche</string>
+    <string name="pref_backtrack_title">BackTrack Minipad</string>
+    <string name="pref_backtrack_summary">Activer/désactiver BackTrack Minipad</string>
 
     <!-- Long Press Menu -->
     <string name="long_press_menu_title">Appui long sur Menu</string>
@@ -339,8 +409,6 @@
     <string name="pref_long_press_menu_summary">Action à effectuer lors de l\'appui long sur le bouton Menu</string>
 
     <!-- Long Press Home -->
-    <string name="long_press_home_title">Appui long sur Accueil</string>
-    <string name="long_press_home_summary">Nombre d\'applications récentes, etc.</string>
     <string name="recent_apps_show_title">Afficher le titre</string>
     <string name="recent_apps_num_title">Nombre d\'applications récentes</string>
     <string name="recent_apps_num_summary">Nombre d\'applications récemment ouvertes à afficher lors d\'une longue pression sur Accueil</string>
@@ -350,66 +418,7 @@
     <string name="select_custom_app_title">Sélectionner l\'application</string>
     <string name="group_applications">Applications</string>
 
-    <!-- Performance Settings -->
-    <string name="performance_settings_title">Performances</string>
-
-    <!-- Performance Settings : Compcache -->
-    <string name="pref_compcache_title">Utiliser Compcache</string>
-    <string name="pref_compcache_summary">Compresser une partie de la RAM afin d\'augmenter virtuellement sa capacité (nécessite un redémarrage)</string>
-
-    <!-- Performance Settings : JIT Mode -->
-    <string name="pref_jit_mode_title">Activer JIT</string>
-    <string name="pref_jit_mode_summary">Utiliser le compilateur Just-in-Time de Dalvik (nécessite un redémarrage)</string>
-
-    <!-- Performance Settings : Dithering -->
-    <string name="pref_use_dithering_title">Activer le tramage</string>
-    <string name="pref_use_dithering_summary">Le tramage (dithering) améliore la qualité des images au détriment des performances (nécessite un redémarrage)</string>
-
-    <!-- Performance Settings : 16bpp Alpha -->
-    <string name="pref_use_16bpp_alpha_title">Transparence 16bits</string>
-    <string name="pref_use_16bpp_alpha_summary">Utiliser le mode 16 bits améliore la vitesse de défilement et des animations, mais peut affecter l\'affichage des éléments transparents (nécessite un redémarrage)</string>
-
-    <!-- Performance Settings : Scrolling Cache -->
-    <string name="pref_scrollingcache_title">Cache de défilement</string>
-    <string name="pref_scrollingcache_summary">La mise en cache du défilement peut améliorer la vitesse de défilement mais utilise plus de mémoire</string>
-    <string name="pref_scrollingcache_force_enable">Toujours activé</string>
-    <string name="pref_scrollingcache_default_enable">Activé par défaut</string>
-    <string name="pref_scrollingcache_default_disable">Désactivé par défaut</string>
-    <string name="pref_scrollingcache_force_disable">Toujours désactivé</string>
-
-    <!-- Performance Settings : Purgeable Assets -->
-    <string name="pref_purgeable_assets_title">Purge des bitmaps</string>
-    <string name="pref_purgeable_assets_summary">Le système peut libérer plus de RAM si la mémoire des bitmaps peut être réclamée (nécessite un redémarrage)</string>
-
-    <!-- Performance Settings : VM Heap Size -->
-    <string name="pref_heapsize_title">Taille de pile par VM</string>
-    <string name="pref_heapsize_summary">Quantité de mémoire disponible pour chaque machine virtuelle (nécessite un redémarrage)</string>
-
-    <!-- Performance Settings : Warning dialog -->
-    <string name="performance_settings_warning_title">ATTENTION !</string>
-    <string name="performance_settings_warning">Les options présentes ici changeront les performances du système, que ce soit en bien ou en mal. Elles sont là à des fins d\'expérimentation. C\'est pourquoi nous vous demandons de ne pas remplir de rapport de bug lorsque vous changez ces options.</string>
-
-    <!-- Application Settings -->
-    <string name="application_settings_title">Paramètres des applications</string>
-
-    <!-- Application Settings : Switch storage mountpoints -->
-    <string name="pref_switch_storage_title">Utiliser la mémoire interne</string>
-    <string name="pref_switch_storage_summary_on">Utilise la mémoire interne étendue pour les applications et les médias (redémarrage requis)</string>
-    <string name="pref_switch_storage_summary_off">Utilise la carte amovible pour les applications et les médias (redémarrage requis)</string>
-    <string name="pref_storage_switch_unavailable">Cet appareil n\'a pas de mémoire interne étendue</string>
-
-    <!-- Application Settings : Move any app -->
-    <string name="pref_move_all_apps_title">Déplacement sur SD</string>
-    <string name="pref_move_all_apps_summary">Autoriser le déplacement de toutes les applications dans la mémoire externe</string>
-
-    <!-- Application Settings : Install Location -->
-    <string name="pref_install_location_title">Emplacement d\'installation</string>
-    <string name="pref_install_location_summary">Choisir où les nouvelles applications seront installées</string>
-
     <!-- HapticTweaks -->
-    <string name="haptic_title">Retour haptique</string>
-    <string name="haptic_summary">Configurer le retour haptique, les vibrations au toucher</string>
-
     <string name="title_haptic_feedback">Retour haptique</string>
     <string name="summary_on_haptic_feedback">Utiliser le retour haptique lors de certaines interactions utilisateur</string>
     <string name="summary_off_haptic_feedback">Ne pas utiliser le retour haptique</string>
@@ -426,6 +435,7 @@
     <string name="title_haptic_up_decider">Séquence au relâchement</string>
     <string name="title_haptic_long_decider">Séquence à l\'appui long</string>
     <string name="title_haptic_tap_decider">Séquence sur le clavier</string>
+
     <string name="title_haptic_menu">Séquence des vibrations</string>
     <string name="title_haptic_notice">REDÉMARRAGE REQUIS POUR APPLIQUER LES CHANGEMENTS</string>
 
@@ -448,17 +458,90 @@
     <string name="haptic_button_revert">Rétablir</string>
     <string name="haptic_button_default">Par défaut</string>
 
-    <string name="haptic_save_toast">Enregistrement des valeurs haptiques : </string>
+    <string name="haptic_save_toast">Enregistrement des valeurs haptiques\u00A0: </string>
     <string name="haptic_cancel_toast">Valeurs inchangées</string>
     <string name="haptic_revert_toast">Restauration des valeurs précédentes</string>
     <string name="haptic_default_toast">Chargement des valeurs par défaut</string>
 
+    <!-- Performance Settings -->
+    <string name="performance_settings_title">Performances</string>
+
+    <!-- Performance Settings : Compcache -->
+    <string name="pref_compcache_title">Utiliser Compcache</string>
+    <string name="pref_compcache_summary">Compresser une partie de la RAM afin d\'augmenter virtuellement sa capacité (nécessite un redémarrage)</string>
+
+    <!-- Performance Settings : JIT Mode -->
+    <string name="pref_jit_mode_title">Activer JIT</string>
+    <string name="pref_jit_mode_summary">Utiliser le compilateur Just-in-Time de Dalvik (nécessite un redémarrage)</string>
+
+    <!-- Performance Settings : Dithering -->
+    <string name="pref_use_dithering_title">Activer le tramage</string>
+    <string name="pref_use_dithering_summary">Le tramage (dithering) améliore la qualité des images au détriment des performances (nécessite un redémarrage)</string>
+
+    <!-- Performance Settings : 16bpp Alpha -->
+    <string name="pref_use_16bpp_alpha_title">Transparence 16bits</string>
+    <string name="pref_use_16bpp_alpha_summary">Utiliser le mode 16 bits améliore la vitesse de défilement et des animations, mais peut affecter l\'affichage des éléments transparents (nécessite un redémarrage)</string>
+
+    <!-- Performance Settings : Scrolling Cache -->
+    <string name="pref_scrollingcache_title">Cache de défilement</string>
+    <string name="pref_scrollingcache_summary">La mise en cache du défilement peut améliorer la vitesse de défilement, mais requiert davantage de mémoire</string>
+    <string name="pref_scrollingcache_force_enable">Toujours activé</string>
+    <string name="pref_scrollingcache_default_enable">Activé par défaut</string>
+    <string name="pref_scrollingcache_default_disable">Désactivé par défaut</string>
+    <string name="pref_scrollingcache_force_disable">Toujours désactivé</string>
+
+    <!-- Performance Settings : Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">Purge des bitmaps</string>
+    <string name="pref_purgeable_assets_summary">Le système purge les bitmaps en mémoire pour libérer plus de RAM, si cela est nécessaire (nécessite un redémarrage)</string>
+
+    <!-- Performance Settings : VM Heap Size -->
+    <string name="pref_heapsize_title">Taille de pile par VM</string>
+    <string name="pref_heapsize_summary">Quantité de mémoire disponible pour chaque machine virtuelle (nécessite un redémarrage)</string>
+
+    <!-- Performance : Disable bootanimation -->
+    <string name="pref_disable_bootanimation_title">Pas d\'animation de boot</string>
+    <string name="pref_disable_bootanimation_summary">Ne pas afficher l\'animation pour améliorer la vitesse de démarrage</string>
+
+    <!-- Performance : Lock home memory -->
+    <string name="pref_lock_home_title">Écran d\'accueil en RAM</string>
+    <string name="pref_lock_home_summary">Essayer de conserver en permanence l\'écran d\'accueil en mémoire</string>
+
+    <!-- Performance : Lock mms app in memory -->
+    <string name="pref_lock_mms_title">SMS/MMS en RAM</string>
+    <string name="pref_lock_mms_summary">Essayer de conserver l\'application SMS/MMS en mémoire. Ceci permet d\'éviter de louper des messages si la mémoire est insuffisante</string>
+
+    <!-- Performance Settings : Warning dialog -->
+    <string name="performance_settings_warning_title">ATTENTION\u00A0!</string>
+    <string name="performance_settings_warning">Les options présentes ici changeront les performances du système, que ce soit en bien ou en mal. Elles sont là à des fins d\'expérimentation. C\'est pourquoi nous vous demandons de ne pas remplir de rapport de bug lorsque vous changez ces options.</string>
+
+    <!-- Application Settings -->
+    <string name="application_settings_title">Paramètres des applications</string>
+
+    <!-- Application Settings : Switch storage mountpoints -->
+    <string name="pref_switch_storage_title">Utiliser la mémoire interne</string>
+    <string name="pref_switch_storage_summary_on">Utilise la mémoire interne étendue pour les applications et les médias (redémarrage requis)</string>
+    <string name="pref_switch_storage_summary_off">Utilise la carte amovible pour les applications et les médias (redémarrage requis)</string>
+    <string name="pref_storage_switch_unavailable">Cet appareil n\'a pas de mémoire interne étendue</string>
+
+    <!-- Application Settings : Move any app -->
+    <string name="pref_move_all_apps_title">Déplacement sur SD</string>
+    <string name="pref_move_all_apps_summary">Autoriser le déplacement de toutes les applications dans la mémoire externe</string>
+
+    <!-- Application Settings : Install Location -->
+    <string name="pref_install_location_title">Emplacement d\'installation</string>
+    <string name="pref_install_location_summary">Choisir où les nouvelles applications seront installées</string>
+
     <string name="general_title">Général</string>
+    <string name="camera_title">Appareil photo</string>
     <string name="buttons_title">Boutons</string>
 
     <!-- UI Settings : Power off prompt -->
     <string name="pref_power_prompt_title">Confirmer l\'extinction</string>
     <string name="pref_power_prompt_summary">Demander confirmation lorsque le système est éteint ou redémarré</string>
+
+    <!-- UI Settings : Haptic feedback -->
+    <string name="expanded_haptic_feedback_title">Retour haptique</string>
+    <string name="expanded_haptic_feedback_summary">Active ou non le retour haptique (vibration)</string>
 
     <!-- UI Settings : Render effect -->
     <string name="pref_render_effect_title">Effet de rendu</string>
@@ -466,9 +549,9 @@
 
     <string name="widget_name">Widget RenderFX</string>
     <string name="renderfx_temp">RenderFX</string>
+    <string name="pref_widget_options_category_title">Général</string>
     <string name="prefs_render_effect">Effet de rendu</string>
     <string name="notify_render_effect">Effet de rendu activé</string>
-    <string name="pref_widget_options_category_title">Général</string>
     <string name="add_widget">Ajouter le widget</string>
     <string name="pref_render_effect_none">Pas d\'effet de rendu</string>
     <string name="pref_render_effect_night">Mode nuit (3700K)</string>
@@ -484,31 +567,27 @@
 
     <!--  Widget Types -->
     <string name="widget_render_effect_night">Nuit</string>
-    <string name="widget_render_effect_terminal">Term</string>
+    <string name="widget_render_effect_terminal">Terminal</string>
     <string name="widget_render_effect_blue">Bleu</string>
     <string name="widget_render_effect_amber">Ambre</string>
     <string name="widget_render_effect_salmon">Saumon</string>
     <string name="widget_render_effect_fuscia">Fuchsia</string>
     <string name="widget_render_effect_red">Rouge</string>
-    <string name="widget_render_effect_calibrated">Cal</string>
-    <string name="widget_render_effect_calibrated_red">Cal Rouge</string>
-    <string name="widget_render_effect_calibrated_cool">Cal Froid</string>
+    <string name="widget_render_effect_calibrated">Calibré</string>
+    <string name="widget_render_effect_calibrated_red">Calibré rouge</string>
+    <string name="widget_render_effect_calibrated_cool">Calibré froid</string>
 
-    <!-- UI Settings : Haptic feedback -->
-    <string name="expanded_haptic_feedback_title">Retour haptique</string>
-    <string name="expanded_haptic_feedback_summary">Active ou non le retour haptique (vibration)</string>
-    
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Boutons à afficher sur le widget</string>
     <string name="title_expanded_widget">Gestion de l\'alimentation</string>
     <string name="summary_expanded_widget">Afficher le contrôle d\'alimentation dans la barre de notification</string>
     <string name="title_expanded_hide_onchange">Masquer au changement</string>
     <string name="summary_expanded_hide_onchange">Masquer la barre de notification lorsqu\'un bouton du widget est cliqué</string>
-    <string name="expanded_color_mask">Couleur des indicateurs</string>
     <string name="title_expanded_hide_indicator">Masquer l\'indicateur</string>
     <string name="summary_expanded_hide_indicator">Masquer les indicateurs du widget</string>
     <string name="title_expanded_hide_scrollbar">Masquer l\'ascenseur</string>
     <string name="summary_expanded_hide_scrollbar">Masquer la barre de défilement s\'il y a trop de boutons dans le widget</string>
+    <string name="expanded_color_mask">Couleur des indicateurs</string>
     <string name="title_widget_picker">Boutons du widget</string>
     <string name="summary_widget_picker">Choisir les boutons à afficher</string>
     <string name="title_widget_order">Ordre des boutons</string>
@@ -521,7 +600,7 @@
     <string name="title_toggle_brightness">Luminosité</string>
     <string name="title_toggle_sync">Synchronisation</string>
     <string name="title_toggle_wifiap">Partage Wi-Fi</string>
-    <string name="title_toggle_screentimeout">Timeout de l\'écran</string>
+    <string name="title_toggle_screentimeout">Extinction de l\'écran</string>
     <string name="title_toggle_mobiledata">Données mobiles</string>
     <string name="title_toggle_lockscreen">Écran de verrouillage</string>
     <string name="title_toggle_networkmode">2G/3G</string>
@@ -529,9 +608,9 @@
     <string name="title_toggle_airplane">Mode avion</string>
     <string name="title_toggle_flashlight">Lampe de poche</string>
     <string name="title_toggle_sleep">Mise en veille</string>
-    <string name="title_toggle_media_play_pause">Média: Lecture/Pause</string>
-    <string name="title_toggle_media_previous">Média: Précédent</string>
-    <string name="title_toggle_media_next">Média: Suivant</string>
+    <string name="title_toggle_media_play_pause">Média\u00A0: Lecture/Pause</string>
+    <string name="title_toggle_media_previous">Média\u00A0: Précédent</string>
+    <string name="title_toggle_media_next">Média\u00A0: Suivant</string>
     <string name="title_toggle_wimax">WiMAX</string>
     <string name="title_button_modes">Modes de fonctionnement des boutons</string>
     <string name="pref_brightness_mode_title">Modes de luminosité</string>
@@ -540,8 +619,8 @@
     <string name="cm_brightness_mode_dim">Dim</string>
     <string name="pref_network_mode_title">Modes 2G/3G</string>
     <string name="pref_network_mode_summary">Définir le comportement du bouton 2G/3G</string>
-    <string name="pref_screentimeout_mode_title">Modes Timeout de l\'écran</string>
-    <string name="pref_screentimeout_mode_summary">Sélection des modes de fonctionnement du bouton Timeout de l\'écran</string>
+    <string name="pref_screentimeout_mode_title">Modes d\'extinction de l\'écran</string>
+    <string name="pref_screentimeout_mode_summary">Sélection des modes de fonctionnement du bouton d\'extinction de l\'écran</string>
     <string name="pref_ring_mode_title">Modes Sonnerie</string>
     <string name="pref_ring_mode_summary">Sélection des modes de fonctionnement du bouton Sonnerie</string>
     <string name="cm_sound_mode_silent">Silencieux</string>
@@ -549,21 +628,9 @@
     <string name="cm_sound_mode_sound">Son</string>
     <string name="cm_sound_mode_soundVibrate">Son et vibreur</string>
     <string name="pref_flash_mode_title">Mode flash</string>
-    <string name="pref_flash_mode_summary">Choisir la puissance du flash : Haute ou Death Ray</string>
+    <string name="pref_flash_mode_summary">Choisir la puissance du flash\u00A0: Haute ou Rayon de la mort</string>
     <string name="pref_mobiledatanetwork_mode_title">Mode auto 2G/3G</string>
     <string name="pref_mobiledatanetwork_mode_summary">Basculer en 2G lorsque la connexion de données mobiles est désactivée</string>
-
-    <!-- Performance : Disable bootanimation -->
-    <string name="pref_disable_bootanimation_title">Pas d\'animation de boot</string>
-    <string name="pref_disable_bootanimation_summary">Ne pas afficher l\'animation pour améliorer la vitesse de démarrage</string>
-
-    <!-- Performance : Lock home memory -->
-    <string name="pref_lock_home_title">Ecran d\'accueil en RAM</string>
-    <string name="pref_lock_home_summary">Essayer de conserver l\'application Accueil en mémoire tout le temps</string>
-
-    <!-- Performance : Lock mms app in memory -->
-    <string name="pref_lock_mms_title">SMS/MMS en RAM</string>
-    <string name="pref_lock_mms_summary">Essayer de conserver l\'application SMS/MMS en mémoire. Ceci permet d\'éviter de louper des messages si la mémoire est insuffisante</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Rétroéclairage automatique</string>
@@ -576,12 +643,12 @@
     <string name="light_filter_reset_title">Seuil de remise à zéro</string>
     <string name="light_filter_reset_summary">Les mesures qui dépassent le seuil désactivent le filtre pour une meilleure réaction en extérieur</string>
     <string name="light_filter_interval_title">Intervalle échantillonage</string>
-    <string name="light_filter_interval_summary">Une valeur plus basse améliore la réaction mais utilise plus le CPU</string>
+    <string name="light_filter_interval_summary">Une valeur plus basse améliore la réaction, mais sollicite davantage le processeur</string>
     <string name="light_levels_title">Niveaux d\'éclairage</string>
     <string name="light_levels_enabled_title">Valeurs personnalisées</string>
     <string name="light_levels_dim_title">Niveau d\'obscurcissement</string>
     <string name="light_levels_dim_summary">Niveau de luminosité utilisé pour l\'obscurcissement</string>
-    <string name="light_levels_editor_title">Éditer les autres niveaux...</string>
+    <string name="light_levels_editor_title">Éditer les autres niveaux\u2026</string>
     <string name="light_decrease_enabled_title">Eclairage réduit</string>
     <string name="light_decrease_enabled_summary">Autoriser la réduction de l\'éclairage. Utiliser l\'hystérésis pour réduire le scintillement.</string>
     <string name="light_decrease_hysteresis_title">Diminuer l\'hystérésis</string>
@@ -594,15 +661,15 @@
     <string name="ll_header_lcd">Écran</string>
     <string name="ll_header_btn">Boutons</string>
     <string name="ll_header_kb">Clavier</string>
-    <string name="ll_lux">Capteur filtré / brut :</string>
-    <string name="ll_lcd">Niveau Écran :</string>
-    <string name="ll_btn">Niveau Boutons :</string>
-    <string name="ll_kb">Clavier :</string>
+    <string name="ll_lux">Capteur filtré / brut\u00A0:</string>
+    <string name="ll_lcd">Niveau Écran\u00A0:</string>
+    <string name="ll_btn">Niveau Boutons\u00A0:</string>
+    <string name="ll_kb">Clavier\u00A0:</string>
     <string name="ll_disabled">désactivé</string>
-    <string name="ll_default">Charger défauts</string>
+    <string name="ll_default">Charger les paramètres par défaut</string>
     <string name="ll_save">Enregistrer &amp; appliquer</string>
-    <string name="ll_reload">Recharger actifs</string>
-    <string name="ll_bad_levels">Les niveaux doivent être en ordre croissant</string>
+    <string name="ll_reload">Recharger les actifs</string>
+    <string name="ll_bad_levels">Les niveaux doivent être d\'ordre croissant</string>
     <string name="ll_num_levels">Définir le nombre de niveaux</string>
 
     <!-- Sound -->
@@ -615,6 +682,11 @@
     <string name="sound_vibrate_in_call_summary_on">Notifications par vibreur activées</string>
     <string name="sound_lock_volume_keys_title">Verrouiller boutons volume</string>
     <string name="sound_lock_volume_keys_summary">Évite la désactivation involontaire du mode silencieux en appuyant sur les boutons de volume</string>
+    <string name="sound_camera_shutter_disable_title">Mode silencieux</string>
+    <string name="sound_camera_shutter_disable_summary_on">Fonctionnement silencieux</string>
+    <string name="sound_camera_shutter_disable_summary_off">Fonctionnement normal</string>
+    <string name="sound_camera_shutter_disable_warning_title">ATTENTION\u00A0: Ceci peut être illégal\u00A0!</string>
+    <string name="sound_camera_shutter_disable_warning">Certains pays ont une loi qui oblige les téléphones à émettre un son lors de la prise d\'une photo. Êtes-vous sûr de vouloir désactiver le son\u00A0?</string>
     <string name="sound_to_speaker_title">Toujours dans le haut-parleur</string>
     <string name="sound_notifications_title">Notifications</string>
     <string name="sound_rings_title">Sonneries</string>
@@ -654,24 +726,17 @@
     <string name="quiet_hours_haptic_on">Le retour haptique est désactivé</string>
     <string name="quiet_hours_haptic_off">Le retour haptique est actif</string>
 
-
     <string name="cmstats_title">Statistiques anonymes</string>
     <string name="cmstats_summary">Aidez CyanogenMod en participant à l\'envoi de statistiques anonymes. Ceci permet de comptabiliser le nombre d\'installations actives par type d\'appareil</string>
 
     <string name="user_defined_key1">Touche rapide 1</string>
     <string name="user_defined_key2">Touche rapide 2</string>
     <string name="user_defined_key3">Touche rapide 3</string>
+    <string name="user_defined_envelope_key">Touche enveloppe</string>
+    <string name="user_defined_explorer_key">Touche de navigation</string>
     <string name="user_defined_not_set">Non configuré</string>
 
-    <!-- Camera -->
-    <string name="camera_title">Appareil photo</string>
-    <string name="sound_camera_shutter_disable_title">Mode silencieux</string>
-    <string name="sound_camera_shutter_disable_summary_on">Fonctionnement silencieux</string>
-    <string name="sound_camera_shutter_disable_summary_off">Fonctionnement normal</string>
-    <string name="sound_camera_shutter_disable_warning_title">Attention: ceci peut être illégal !</string>
-    <string name="sound_camera_shutter_disable_warning">Certains pays ont une loi qui oblige les téléphones à émettre un son lors de la prise d\'une photo. Etes-vous sûr de vouloir désactiver le son ?</string>
-
-    <!--  Lockscreen gesture strings -->
+    <!-- Lockscreen gesture strings -->
     <string name="pref_lockscreen_gestures_enable_title">Utiliser les gestes</string>
     <string name="pref_lockscreen_gestures_trail_title">Afficher parcours gestes</string>
     <string name="pref_lockscreen_gestures_builder_title">Créer des gestes</string>
@@ -680,26 +745,32 @@
     <string name="gestures_button_add">Ajouter un geste</string>
     <string name="gestures_button_discard">Annuler</string>
     <string name="gestures_button_done">Terminé</string>
-    <string name="gestures_draw_label">Geste:</string>
-    <string name="gestures_error_missing_shortcut">Vous devez choisir une action pour ce geste !</string>
-    <string name="gestures_loading">Chargement des gestes...</string>
+    <string name="gestures_error_missing_shortcut">Vous devez choisir une action pour ce geste\u00A0!</string>
+    <string name="gestures_loading">Chargement des gestes\u2026</string>
     <string name="gestures_empty">Aucun geste</string>
     <string name="gestures_delete">Supprimer</string>
     <string name="gestures_delete_success">Geste supprimé</string>
     <string name="gestures_error_loading">Un problème avec le fichier du geste est survenu.</string>
     <string name="gestures_unlock_only">Déverrouiller le tél.</string>
     <string name="gestures_toggle_sound">Activer/Désactiver son</string>
+    <string name="gestures_shortcut_or_activity">Raccourci ou activité</string>
     <string name="gestures_flashlight">Lampe de poche</string>
+    <string name="gestures_next">Piste suivante</string>
+    <string name="gestures_previous">Piste précédente</string>
+    <string name="gestures_playpause">Lecture/Pause</string>
     <string name="pref_lockscreen_disable_unlock_tab">Masquer curseur déverr.</string>
-    <string name="pref_lockscreen_disable_unlock_tab_summary">Note: Vous devez activer le déverrouillage par trackball, touche menu ou par geste afin que cette option soit disponible</string>
-    <string name="gestures_already_present">Attention: Un geste similaire est associé à une autre action !</string>
+    <string name="pref_lockscreen_disable_unlock_tab_summary">Note\u00A0: Vous devez activer le déverrouillage par trackball, touche menu ou par geste afin que cette option soit disponible</string>
+    <string name="gestures_action_label">Action\u00A0:</string>
+    <string name="gestures_draw_label">Geste\u00A0:</string>
+    <string name="gestures_draw_for_label">Geste pour \"<xliff:g id="action">%s</xliff:g>\"\u00A0:</string>
+    <string name="gestures_already_present">Attention\u00A0: Un geste similaire est associé à une autre action\u00A0!</string>
     <string name="gestures_run_in_background">Exécuter en arrière-plan</string>
 
     <!-- Change Log strings -->
-    <string name="changelog_title">Voir liste des modifications</string>
+    <string name="changelog_title">Voir la liste des modifications</string>
     <string name="changelog_dialog">Liste des modifications</string>
-    <string name="changelog_loading">Chargement de la liste des modifications...</string>
-    <string name="changelog_error">Erreur de chargement de la liste des modifications...</string>
+    <string name="changelog_loading">Chargement de la liste des modifications\u2026</string>
+    <string name="changelog_error">Erreur de chargement de la liste des modifications\u2026</string>
     <string name="changelog_unknown">Inconnue</string>
     <string name="changelog_version">Version</string>
 
@@ -724,20 +795,20 @@
     <string name="summary_phone_goggles">Filtrage des communications sortantes</string>
     <string name="summary_phone_goggles_default">Définir les paramètres par défaut</string>
     <string name="summary_phone_goggles_filter">Sélectionner les types de numéros qui seront filtrés</string>
-    <string name="summary_phone_goggles_start">Quand commencer a filtrer les communications</string>
+    <string name="summary_phone_goggles_start">Quand commencer à filtrer les communications</string>
     <string name="summary_phone_goggles_end">Quand arrêter de filtrer les communications</string>
     <string name="summary_phone_goggles_confirmation_enabled">Sélectionne la manière dont la confirmation doit être présentée avant de filtrer une communication</string>
     <string name="summary_phone_goggles_maths_level">Difficulté des problèmes mathématiques proposés avant l\'autorisation d\'une communication</string>
     <string name="summary_on_phone_goggles_enabled">Les communications sortantes seront filtrées</string>
     <string name="summary_on_phone_goggles_use_custom">Les paramètres spécifiques seront utilisés</string>
     <string name="summary_on_phone_goggles_app_enabled">Phone goggles est activé pour cette application</string>
-    <string name="summary_on_phone_goggles_work_filtered">Les communications professionellles seront filtrées</string>
+    <string name="summary_on_phone_goggles_work_filtered">Les communications professionnelles seront filtrées</string>
     <string name="summary_on_phone_goggles_mobile_filtered">Les communications vers les téléphones mobiles seront filtrées</string>
     <string name="summary_on_phone_goggles_other_filtered">Les communications vers les autres téléphones seront filtrées</string>
     <string name="summary_off_phone_goggles_enabled">Aucune communication ne sera filtrée</string>
     <string name="summary_off_phone_goggles_use_custom">Les paramètres par défaut seront utilisés</string>
     <string name="summary_off_phone_goggles_app_enabled">PhoneGoggles est désactivé pour cette application</string>
-    <string name="summary_off_phone_goggles_work_filtered">Les communications professionellles ne seront pas filtrées</string>
+    <string name="summary_off_phone_goggles_work_filtered">Les communications professionnelles ne seront pas filtrées</string>
     <string name="summary_off_phone_goggles_mobile_filtered">Les communications vers les téléphones mobiles ne seront pas filtrées</string>
     <string name="summary_off_phone_goggles_other_filtered">Les communications vers les autres téléphones ne seront pas filtrées</string>
     <string name="phone_goggles_maths_level_easy">Facile</string>
@@ -752,17 +823,17 @@
     <string name="cpu_title">Paramètres CPU</string>
     <string name="cpu_summary">Stratégies et fréquences</string>
     <string name="cpu_governors_title">Méthodes disponibles</string>
-    <string name="cpu_governors_summary">Liste des méthodes de gestion d\'énergie\nEn cours: %S</string>
+    <string name="cpu_governors_summary">Liste des méthodes de gestion d\'énergie\nEn cours\u00A0: %S</string>
     <string name="cpu_min_freq_title">Fréquence Minimale</string>
-    <string name="cpu_min_freq_summary">Fréquence CPU mini\nActuellement: %s</string>
+    <string name="cpu_min_freq_summary">Fréquence CPU mini\nActuellement\u00A0: %s</string>
     <string name="cpu_max_freq_title">Fréquence Maximale</string>
-    <string name="cpu_max_freq_summary">Fréquence CPU maxi\nActuellement: %s</string>
+    <string name="cpu_max_freq_summary">Fréquence CPU maxi\nActuellement\u00A0: %s</string>
     <string name="cpu_set_on_boot">Appliquer au démarrage</string>
     <string name="cpu_set_on_boot_summary">Modifie les fréquences du CPU au démarrage</string>
 
     <!-- Permissions Management Settings strings -->
-    <string name="perm_enable_management">Gestion des Permissions</string>
+    <string name="perm_enable_management">Gestion des permissions</string>
     <string name="perm_enable_management_summary">Activer la gestion manuelle des permissions</string>
-    <string name="perm_enable_warning_message">Attention!\nLa plupart du temps, interdire une permission provoque un mauvais fonctionnement de l\'application. Si l\'application révoquée force-close réactivez la permission ou n\'utilisez pas l\'application.\nN\'ENVOYEZ PAS de rapport de bug si l\'application en question ne fonctionne pas comme prévu !</string>
-    <string name="perm_enable_warning_title">Etes-vous sûr ?</string>
+    <string name="perm_enable_warning_message">Attention\u00A0!\nLa plupart du temps, interdire une permission provoque un mauvais fonctionnement de l\'application. Si l\'application révoquée force-close réactivez la permission ou n\'utilisez pas l\'application.\nN\'ENVOYEZ PAS de rapport de bug si l\'application en question ne fonctionne pas comme prévu\u00A0!</string>
+    <string name="perm_enable_warning_title">Êtes-vous sûr\u00A0?</string>
 </resources>
