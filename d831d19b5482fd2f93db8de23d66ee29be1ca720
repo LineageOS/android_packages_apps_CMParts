@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//5Zc\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-03-02T16:12:54Z",
+      "side": 1,
+      "message": "No AOSP in here...",
+      "revId": "d831d19b5482fd2f93db8de23d66ee29be1ca720",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//5Zk\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-03-02T16:12:54Z",
+      "side": 1,
+      "message": "0,5",
+      "revId": "d831d19b5482fd2f93db8de23d66ee29be1ca720",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//5ZY\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-03-02T16:12:54Z",
+      "side": 1,
+      "message": "No AOSP in here...",
+      "revId": "d831d19b5482fd2f93db8de23d66ee29be1ca720",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//5ZU\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-03-02T16:12:54Z",
+      "side": 1,
+      "message": "- Redessiner?",
+      "revId": "d831d19b5482fd2f93db8de23d66ee29be1ca720",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//5ZQ\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-03-02T16:12:54Z",
+      "side": 1,
+      "message": "- Afficher?",
+      "revId": "d831d19b5482fd2f93db8de23d66ee29be1ca720",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
