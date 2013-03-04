@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeH///+U\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 495,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-04T16:41:10Z",
+      "side": 1,
+      "message": "it can be :\n\u003cstring name\u003d\"pref_purgeable_assets_summary\"\u003eLe système purger les bitmaps en mémoire pour libérer plus de RAM si cela est nécessaire (nécessite un redémarrage)\u003c/string\u003e",
+      "revId": "3358a481f5b053d2d0ed4d69f5e14183f4984a37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeH///+Q\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 507,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-04T16:41:10Z",
+      "side": 1,
+      "message": "it could be :\n\u003cstring name\u003d\"pref_lock_home_summary\"\u003eEssayer de conserver en permanence l\\\u0027écran d\\\u0027accueil en mémoire\u003c/string\u003e",
+      "revId": "3358a481f5b053d2d0ed4d69f5e14183f4984a37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
