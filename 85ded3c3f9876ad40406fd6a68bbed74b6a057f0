@@ -1,0 +1,276 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAd3///4o\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "Marche \u003d Activé\nArrêt \u003d Désactivé\nJe n\u0027ai pas le contexte, mais ce n\u0027est pas plus courant d\u0027utilisé ces termes ?",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///4s\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "Boulette?",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///4g\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "Démasquer ? \"Afficher\" non?",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///4c\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "idem",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///4Y\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "power \u003d d\u0027alimentation",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///4U\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "pas traduit ligne 322 à 327",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///3Y\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 506,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "\"Écran\" avec un accent sur le E",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///3Q\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 735,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "Pas traduit",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///3M\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 736,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "Pas traduit",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///3E\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 763,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "ajouter un espace insécable avant les 2 points",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///3A\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 764,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "ajouter un espace insécable avant les 2 points",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///28\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 766,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "ajouter un espace insécable avant les 2 points",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///24\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 826,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "ajouter un espace insécable avant les 2 points",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///20\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 828,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "ajouter un espace insécable avant les 2 points",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///2w\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 830,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "ajouter un espace insécable avant les 2 points",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///2s\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 838,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T03:42:02Z",
+      "side": 1,
+      "message": "ajouter un espace insécable avant le \"?\"",
+      "revId": "85ded3c3f9876ad40406fd6a68bbed74b6a057f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
