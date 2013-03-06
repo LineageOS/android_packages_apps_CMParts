@@ -1,0 +1,293 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX///wI\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Animation à l\\\u0027allumage de l\\\u0027écran\nou \nAnimation à l\\\u0027allumage",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///wE\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Afficher les boutons",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///wY\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "\"Les boutons\" ou \"se comportant\" non ?",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///wU\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "\"après un zoom a deux doigts\"\n\nje sais, je suis pénible ;-)",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///wQ\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Effet de surdéfilement",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///v4\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Poids des objets défilants",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///wA\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Délai de verrouillage de l\\\u0027écran",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///vs\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Délai de l\\\u0027écran de sécurité",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///sI\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 570,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Terminal",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///sE\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Calibré",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///sA\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 577,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Calibré rouge",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///r8\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 578,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Calibré froid",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///r4\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 603,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Extinction de l\\\u0027écran",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///rw\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 622,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Modes d\\\u0027extinction de l\\\u0027écran",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///rs\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 623,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Sélection des modes de fonctionnement du bouton d\\\u0027extinction de l\\\u0027écran",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///sk\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Recharger les actifs",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///so\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 3150
+      },
+      "writtenOn": "2013-03-06T01:47:15Z",
+      "side": 1,
+      "message": "Les niveaux doivent être d\\\u0027ordre croissant",
+      "revId": "5e1bd5b7957b36f2933dcd62ef1a6c1f4a7d4f1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
