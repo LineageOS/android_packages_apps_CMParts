@@ -1,0 +1,9 @@
+Change-Id: I1c971eafa00969d7599b48ef0aec0b12140db1e0
+Code-Review+2: Jef Oliver <jeagoss@cyanogenmod.org>
+Verified+1: Jef Oliver <jeagoss@cyanogenmod.org>
+Code-Review+1: Thibault LEMOINE <thibaultblizz@gmail.com>
+Submitted-by: Jef Oliver <jeagoss@cyanogenmod.org>
+Submitted-at: Mon, 11 Mar 2013 16:55:21 -0700
+Reviewed-on: http://review.cyanogenmod.org/33621
+Project: CyanogenMod/android_packages_apps_CMParts
+Branch: refs/heads/gingerbread
