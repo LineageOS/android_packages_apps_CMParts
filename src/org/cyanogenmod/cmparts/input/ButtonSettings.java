@@ -74,6 +74,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String KEY_NAVIGATION_RECENTS_LONG_PRESS = "navigation_recents_long_press";
     private static final String KEY_POWER_END_CALL = "power_end_call";
     private static final String KEY_HOME_ANSWER_CALL = "home_answer_call";
+    private static final String KEY_VOLUME_ANSWER_CALL = "volume_answer_call";
     private static final String KEY_VOLUME_MUSIC_CONTROLS = "volbtn_music_controls";
     private static final String KEY_VOLUME_CONTROL_RING_STREAM = "volume_keys_control_ring_stream";
     private static final String KEY_CAMERA_DOUBLE_TAP_POWER_GESTURE
@@ -151,6 +152,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private ListPreference mNavigationRecentsLongPressAction;
     private SwitchPreference mPowerEndCall;
     private SwitchPreference mHomeAnswerCall;
+    private SwitchPreference mVolumeAnswerCall;
     private SwitchPreference mCameraDoubleTapPowerGesture;
     private SwitchPreference mTorchLongPressPowerGesture;
 
@@ -221,6 +223,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
         // Home button answers calls.
         mHomeAnswerCall = (SwitchPreference) findPreference(KEY_HOME_ANSWER_CALL);
+
+        // Volume buttons answer calls
+        mVolumeAnswerCall = (SwitchPreference) findPreference(KEY_VOLUME_ANSWER_CALL);
 
         mHandler = new Handler();
 
@@ -316,7 +321,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
             if (!TelephonyUtils.isVoiceCapable(getActivity())) {
                 homeCategory.removePreference(mHomeAnswerCall);
+                volumeCategory.removePreference(mVolumeAnswerCall);
                 mHomeAnswerCall = null;
+                mVolumeAnswerCall = null;
             }
 
             mHomeLongPressAction = initActionList(KEY_HOME_LONG_PRESS, homeLongPressAction);
