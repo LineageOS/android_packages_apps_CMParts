@@ -622,4 +622,18 @@
     <string name="touchscreen_gesture_action_play_pause_music">Play/pause music playback</string>
     <string name="touchscreen_gesture_action_previous_track">Navigate to the previous music track</string>
     <string name="touchscreen_gesture_action_next_track">Skip to the next music track</string>
+
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Network traffic monitor</string>
+    <string name="network_traffic_settings_summary">Shows current amount of network traffic in the status bar</string>
+
+    <string name="network_traffic_mode_title">Display mode</string>
+    <string name="network_traffic_mode_disable">Disabled</string>
+    <string name="network_traffic_mode_up">Outgoing</string>
+    <string name="network_traffic_mode_down">Incoming</string>
+    <string name="network_traffic_mode_all">Outgoing and incoming</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_autohide_threshold_title">Inactivity threshold</string>
+    <string name="network_traffic_autohide_threshold_summary">The traffic display will be hidden if there\'s less than <xliff:g id="value">%1$s</xliff:g> <xliff:g id="unit" example="kB">%2$s</xliff:g>/s of traffic</string>
 </resources>
