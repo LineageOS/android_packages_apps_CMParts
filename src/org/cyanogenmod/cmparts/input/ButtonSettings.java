@@ -42,6 +42,7 @@ import org.cyanogenmod.cmparts.R;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
 import org.cyanogenmod.cmparts.utils.DeviceUtils;
 import org.cyanogenmod.cmparts.utils.TelephonyUtils;
+import org.cyanogenmod.internal.util.QSUtils;
 import org.cyanogenmod.internal.util.ScreenType;
 
 import java.util.List;
@@ -293,6 +294,10 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             } else {
                 powerCategory.removePreference(mCameraDoubleTapPowerGesture);
                 mCameraDoubleTapPowerGesture = null;
+            }
+            if (!QSUtils.deviceSupportsFlashLight(getActivity())) {
+                powerCategory.removePreference(
+                        findPreference(CMSettings.System.TORCH_LONG_PRESS_POWER_GESTURE));
             }
         } else {
             prefScreen.removePreference(powerCategory);
