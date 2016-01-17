@@ -97,6 +97,12 @@
             android:summary="@string/camera_double_tap_power_gesture_desc"
             android:persistent="false" />
 
+        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+            android:key="torch_long_press_power_gesture"
+            android:title="@string/torch_long_press_power_gesture_title"
+            android:summary="@string/torch_long_press_power_gesture_desc"
+            android:persistent="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
