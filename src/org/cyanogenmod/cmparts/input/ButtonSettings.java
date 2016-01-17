@@ -42,6 +42,7 @@ import org.cyanogenmod.cmparts.R;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
 import org.cyanogenmod.cmparts.utils.DeviceUtils;
 import org.cyanogenmod.cmparts.utils.TelephonyUtils;
+import org.cyanogenmod.internal.util.QSUtils;
 import org.cyanogenmod.internal.util.ScreenType;
 
 import java.util.List;
@@ -77,6 +78,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String KEY_VOLUME_CONTROL_RING_STREAM = "volume_keys_control_ring_stream";
     private static final String KEY_CAMERA_DOUBLE_TAP_POWER_GESTURE
             = "camera_double_tap_power_gesture";
+    private static final String KEY_TORCH_LONG_PRESS_POWER_GESTURE
+            = "torch_long_press_power_gesture";
 
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_HOME = "home_key";
@@ -149,6 +152,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mPowerEndCall;
     private SwitchPreference mHomeAnswerCall;
     private SwitchPreference mCameraDoubleTapPowerGesture;
+    private SwitchPreference mTorchLongPressPowerGesture;
 
     private PreferenceCategory mNavigationPreferencesCat;
 
@@ -210,6 +214,10 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         // Double press power to launch camera.
         mCameraDoubleTapPowerGesture
                     = (SwitchPreference) findPreference(KEY_CAMERA_DOUBLE_TAP_POWER_GESTURE);
+
+        // Long press power while display is off to activate torchlight
+        mTorchLongPressPowerGesture
+                    = (SwitchPreference) findPreference(KEY_TORCH_LONG_PRESS_POWER_GESTURE);
 
         // Home button answers calls.
         mHomeAnswerCall = (SwitchPreference) findPreference(KEY_HOME_ANSWER_CALL);
@@ -293,6 +301,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             } else {
                 powerCategory.removePreference(mCameraDoubleTapPowerGesture);
                 mCameraDoubleTapPowerGesture = null;
+            }
+            if (!QSUtils.deviceSupportsFlashLight(getActivity())) {
+                powerCategory.removePreference(mTorchLongPressPowerGesture);
             }
         } else {
             prefScreen.removePreference(powerCategory);
