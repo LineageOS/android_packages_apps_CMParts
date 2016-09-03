@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_3130f556",
+        "filename": "src/org/cyanogenmod/cmparts/SettingsPreferenceFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2016-09-03T23:41:24Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "6927d2cec564b203d3019a59d988c965f4a5e160",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_d134014d",
+        "filename": "src/org/cyanogenmod/cmparts/SettingsPreferenceFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2016-09-03T23:41:24Z",
+      "side": 1,
+      "message": "same",
+      "revId": "6927d2cec564b203d3019a59d988c965f4a5e160",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_f139fd40",
+        "filename": "src/org/cyanogenmod/cmparts/SettingsPreferenceFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2016-09-03T23:41:24Z",
+      "side": 1,
+      "message": "tab",
+      "revId": "6927d2cec564b203d3019a59d988c965f4a5e160",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_112b79eb",
+        "filename": "src/org/cyanogenmod/cmparts/SettingsPreferenceFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2016-09-03T23:41:24Z",
+      "side": 1,
+      "message": "tab",
+      "revId": "6927d2cec564b203d3019a59d988c965f4a5e160",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
