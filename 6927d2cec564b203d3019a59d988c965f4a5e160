@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_a73d87bc",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-09-04T11:48:24Z",
+      "side": 0,
+      "message": "Tabulations here too, clean them separately or here ?",
+      "revId": "6927d2cec564b203d3019a59d988c965f4a5e160",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
