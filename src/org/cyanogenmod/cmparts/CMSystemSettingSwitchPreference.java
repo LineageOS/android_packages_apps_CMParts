@@ -56,4 +56,9 @@ public class CMSystemSettingSwitchPreference extends SwitchPreference {
         return CMSettings.System.getInt(getContext().getContentResolver(),
                 getKey(), defaultReturnValue ? 1 : 0) != 0;
     }
+
+    @Override
+    protected boolean isPersisted() {
+        return CMSettings.System.getString(getContext().getContentResolver(), getKey()) != null;
+    }
 }

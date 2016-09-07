@@ -56,4 +56,9 @@ public class CMSecureSettingSwitchPreference extends SwitchPreference {
         return CMSettings.Secure.getInt(getContext().getContentResolver(),
                 getKey(), defaultReturnValue ? 1 : 0) != 0;
     }
+
+    @Override
+    protected boolean isPersisted() {
+        return CMSettings.Secure.getString(getContext().getContentResolver(), getKey()) != null;
+    }
 }
