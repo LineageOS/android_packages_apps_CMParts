@@ -17,12 +17,14 @@
 package org.cyanogenmod.cmparts;
 
 import android.content.Context;
+import android.support.v7.preference.PreferenceManager;
 import android.support.v14.preference.SwitchPreference;
 import android.util.AttributeSet;
 
 import cyanogenmod.providers.CMSettings;
 
-public class CMGlobalSettingSwitchPreference extends SwitchPreference {
+public class CMGlobalSettingSwitchPreference extends CustomSwitchPreference {
+
     public CMGlobalSettingSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
@@ -36,24 +38,18 @@ public class CMGlobalSettingSwitchPreference extends SwitchPreference {
     }
 
     @Override
-    protected boolean persistBoolean(boolean value) {
-        if (shouldPersist()) {
-            if (value == getPersistedBoolean(!value)) {
-                // It's already there, so the same as persisting
-                return true;
-            }
-            CMSettings.Global.putInt(getContext().getContentResolver(), getKey(), value ? 1 : 0);
-            return true;
-        }
-        return false;
+    protected boolean getPersistedValue(boolean defaultValue) {
+        return CMSettings.Global.getInt(getContext().getContentResolver(),
+                getKey(), defaultValue ? 1 : 0) != 0;
     }
 
     @Override
-    protected boolean getPersistedBoolean(boolean defaultReturnValue) {
-        if (!shouldPersist()) {
-            return defaultReturnValue;
-        }
-        return CMSettings.Global.getInt(getContext().getContentResolver(),
-                getKey(), defaultReturnValue ? 1 : 0) != 0;
+    protected void setPersistedValue(boolean value) {
+        CMSettings.Global.putInt(getContext().getContentResolver(), getKey(), value ? 1 : 0);
+    }
+
+    @Override
+    protected boolean isPersisted() {
+        return CMSettings.Global.getString(getContext().getContentResolver(), getKey()) != null;
     }
 }
