@@ -56,4 +56,9 @@ public class CMGlobalSettingSwitchPreference extends SwitchPreference {
         return CMSettings.Global.getInt(getContext().getContentResolver(),
                 getKey(), defaultReturnValue ? 1 : 0) != 0;
     }
+
+    @Override
+    protected boolean isPersisted() {
+        return CMSettings.Global.getString(getContext().getContentResolver(), getKey()) != null;
+    }
 }
