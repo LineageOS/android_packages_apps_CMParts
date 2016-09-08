@@ -26,7 +26,7 @@ import android.support.v7.preference.DialogPreference;
 import android.util.AttributeSet;
 import android.view.View;
 
-public class CustomDialogPreference<T extends Dialog> extends DialogPreference {
+public class CustomDialogPreference<T extends DialogInterface> extends DialogPreference {
 
     private CustomPreferenceDialogFragment mFragment;
 
@@ -48,7 +48,7 @@ public class CustomDialogPreference<T extends Dialog> extends DialogPreference {
     }
 
     public boolean isDialogOpen() {
-        return getDialog() != null && getDialog().isShowing();
+        return getDialog() != null && getDialog() instanceof Dialog && ((Dialog)getDialog()).isShowing();
     }
 
     public T getDialog() {
@@ -62,7 +62,7 @@ public class CustomDialogPreference<T extends Dialog> extends DialogPreference {
     protected void onDialogClosed(boolean positiveResult) {
     }
 
-    protected void onClick(DialogInterface dialog, int which) {
+    protected void onClick(T dialog, int which) {
     }
 
     protected void onBindDialogView(View view) {
