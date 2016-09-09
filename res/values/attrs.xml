@@ -23,4 +23,17 @@
         <attr name="defaultValueFloat" format="float" />
         <attr name="digits" format="integer" />
     </declare-styleable>
+
+    <declare-styleable name="PartsCatalog">
+        <!-- Identifier value for the header. -->
+        <attr name="key" format="string" />
+        <!-- The title of the item that is shown to the user. -->
+        <attr name="title" />
+        <!-- The summary for the item. -->
+        <attr name="summary" />
+        <!-- An icon for the item. -->
+        <attr name="icon" />
+        <!-- The fragment that is displayed when the user selects this item. -->
+        <attr name="fragment" format="string" />
+    </declare-styleable>
 </resources>
