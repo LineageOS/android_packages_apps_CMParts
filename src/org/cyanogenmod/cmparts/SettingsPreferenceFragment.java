@@ -730,6 +730,19 @@ public abstract class SettingsPreferenceFragment extends PreferenceFragment
         return getPreferenceManager().getContext();
     }
 
+    public boolean startFragment(String fragmentClass, Bundle extras, String title) {
+        final Activity activity = getActivity();
+        if (activity instanceof PartsActivity) {
+            PartsActivity sa = (PartsActivity) activity;
+            sa.startPreferencePanel(fragmentClass, extras, title);
+            return true;
+        } else {
+            Log.w(TAG,
+                    "Parent isn't PartsActivity! (name: " + fragmentClass + ")");
+            return false;
+        }
+    }
+
     public static class HighlightablePreferenceGroupAdapter extends PreferenceGroupAdapter {
 
         private int mHighlightPosition = -1;
