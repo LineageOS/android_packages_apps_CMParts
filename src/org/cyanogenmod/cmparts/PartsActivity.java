@@ -24,10 +24,13 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
 
+import org.cyanogenmod.cmparts.profiles.NFCProfileTagCallback;
 import org.cyanogenmod.internal.cmparts.IPartsCatalog;
 import org.cyanogenmod.internal.cmparts.PartInfo;
 
@@ -41,9 +44,18 @@ public class PartsActivity extends Activity {
 
     private IPartsCatalog mCatalog;
 
+    private NFCProfileTagCallback mNfcProfileCallback;
+
+    private ActionBar mActionBar;
+    private SwitchBar mSwitchBar;
+
+    private int mMainContentId = R.id.main_content;
+
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
+
+        setContentView(R.layout.cmparts);
 
         connectCatalog();
 
@@ -64,22 +76,14 @@ public class PartsActivity extends Activity {
             throw new UnsupportedOperationException("Unable to get part: " + getIntent().toString());
         }
 
-        Log.d(TAG, "Launching fragment: " + info.getFragmentClass());
-
-        Fragment fragment = Fragment.instantiate(this, info.getFragmentClass());
-
-        ActionBar actionBar = getActionBar();
-        if (actionBar != null) {
-            actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setHomeButtonEnabled(true);
+        mActionBar = getActionBar();
+        if (mActionBar != null) {
+            mActionBar.setDisplayHomeAsUpEnabled(true);
+            mActionBar.setHomeButtonEnabled(true);
         }
+        mSwitchBar = (SwitchBar) findViewById(R.id.switch_bar);
 
-        actionBar.setTitle(info.getTitle());
-
-        getFragmentManager().beginTransaction().replace(android.R.id.content, fragment)
-                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
-                .commitAllowingStateLoss();
-        getFragmentManager().executePendingTransactions();
+        startPreferencePanel(info.getFragmentClass(), null, info.getTitle());
     }
 
     @Override
@@ -108,5 +112,50 @@ public class PartsActivity extends Activity {
             mCatalog = null;
         }
     };
+
+    public void setNfcProfileCallback(NFCProfileTagCallback callback) {
+        mNfcProfileCallback = callback;
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        if (NfcAdapter.ACTION_TAG_DISCOVERED.equals(intent.getAction())) {
+            Tag detectedTag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+            if (mNfcProfileCallback != null) {
+                mNfcProfileCallback.onTagRead(detectedTag);
+            }
+            return;
+        }
+        super.onNewIntent(intent);
+    }
+
+    public SwitchBar getSwitchBar() {
+        return mSwitchBar;
+    }
+
+    public ActionBar getActionBar() {
+        return mActionBar;
+    }
+
+    public void startPreferencePanel(String fragmentClass, Bundle args, String title) {
+        Fragment fragment = Fragment.instantiate(this, fragmentClass);
+        if (fragment == null) {
+            Log.e(TAG, "Invalid fragment! " + fragmentClass);
+            return;
+        }
+
+        Log.d(TAG, "Launching fragment: " + fragmentClass);
+
+        if (title != null) {
+            mActionBar.setTitle(title);
+        }
+
+        getFragmentManager().beginTransaction().replace(R.id.main_content, fragment)
+                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+                .commitAllowingStateLoss();
+        getFragmentManager().executePendingTransactions();
+
+    }
+
 }
 

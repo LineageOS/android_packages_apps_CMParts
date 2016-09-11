@@ -94,5 +94,23 @@
                 android:resource="@drawable/ic_settings_buttons" />
         </activity-alias>
 
+        <!-- Profiles settings (dashboard) -->
+        <activity-alias
+            android:name=".profiles.ProfilesSettings"
+            android:label="@string/profiles_settings_title"
+            android:targetActivity="PartsActivity">
+            <intent-filter>
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                <action android:name="org.cyanogenmod.cmparts.PROFILES_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.personal" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_settings_profiles" />
+        </activity-alias>
+
     </application>
 </manifest>
