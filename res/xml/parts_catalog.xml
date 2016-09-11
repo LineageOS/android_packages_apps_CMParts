@@ -42,4 +42,8 @@
           cm:title="@string/navigation_bar_title"
           cm:fragment="org.cyanogenmod.cmparts.input.NavBar" />
 
+    <part cm:key="profiles_settings"
+          cm:title="@string/profiles_settings_title"
+          cm:fragment="org.cyanogenmod.cmparts.profiles.ProfilesSettings" />
+
 </parts-catalog>

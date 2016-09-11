@@ -32,10 +32,12 @@
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
     <uses-permission android:name="android.permission.DEVICE_POWER" />
     <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN" />
 
     <uses-permission android:name="cyanogenmod.permission.BIND_CORE_SERVICE" />
 
     <protected-broadcast android:name="android.intent.action.NAVBAR_EDIT" />
+    <protected-broadcast android:name="cyanogenmod.platform.app.profiles.PROFILES_STATE_CHANGED" />
 
     <application android:label="@string/cmparts_title"
             android:theme="@style/Theme.Settings"
@@ -94,6 +96,24 @@
             <meta-data
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_buttons" />
+        </activity-alias>
+
+        <!-- Profiles settings (dashboard) -->
+        <activity-alias
+            android:name=".profiles.ProfilesSettings"
+            android:label="@string/profiles_settings_title"
+            android:targetActivity="PartsActivity">
+            <intent-filter>
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                <action android:name="org.cyanogenmod.cmparts.PROFILES_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.personal" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_settings_profiles" />
         </activity-alias>
 
     </application>
