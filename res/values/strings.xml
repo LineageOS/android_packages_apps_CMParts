@@ -39,6 +39,7 @@
     <string name="privacy_settings_category" translatable="false">CyanogenMod</string>
 
     <!-- Privacy Guard -->
+    <string name="privacy_guard_manager_title">Privacy Guard</string>
     <string name="privacy_guard_switch_label">Enable Privacy Guard</string>
     <string name="privacy_guard_dlg_title">Enable Privacy Guard?</string>
     <string name="privacy_guard_dlg_text">When Privacy Guard is enabled, the app will not be able to access personal data such as contacts, messages or call logs.</string>
@@ -78,6 +79,7 @@
     <string name="pulse_speed_very_slow">Very slow</string>
 
     <!-- Battery light settings -->
+    <string name="battery_light_title">Battery light</string>
     <string name="battery_low_pulse_title">Pulse if battery low</string>
     <string name="battery_light_list_title">Colors</string>
     <string name="battery_light_low_color_title">Battery low</string>
@@ -85,6 +87,7 @@
     <string name="battery_light_full_color_title">Fully charged</string>
 
     <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Notification light</string>
     <string name="notification_light_general_title">General</string>
     <string name="notification_light_advanced_title">Advanced</string>
     <string name="notification_light_applist_title">Apps</string>
