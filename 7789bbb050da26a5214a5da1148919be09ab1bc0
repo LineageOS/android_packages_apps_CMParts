@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_15e100ff",
+        "filename": "res/xml/parts_catalog.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-09-13T08:15:15Z",
+      "side": 1,
+      "message": "Those strings should be moved out of CMSDK and moved in here.",
+      "revId": "7789bbb050da26a5214a5da1148919be09ab1bc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
