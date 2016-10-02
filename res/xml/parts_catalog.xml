@@ -88,4 +88,9 @@
           android:fragment="org.cyanogenmod.cmparts.privacyguard.PrivacyGuardManager"
           cm:xmlRes="@xml/privacy_guard_prefs" />
 
+    <part android:key="perf_profile_settings"
+          android:title="@string/perf_profile_settings_title"
+          android:summary="@string/perf_profile_settings_summary"
+          android:fragment="org.cyanogenmod.cmparts.power.PerfProfileSettings" />
+
 </parts-catalog>
