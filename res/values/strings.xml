@@ -503,4 +503,13 @@
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
 
+    <!-- Power: Performance profiles -->
+    <string name="perf_profile_settings_title">Battery profiles</string>
+    <string name="perf_profile_settings_summary">Optimise the performance output of your device</string>
+    <string name="perf_profile_title">Battery profile</string>
+    <string name="auto_power_save_title">Battery saver</string>
+    <string name="auto_power_save_summary_on">Automatically toggle powersave mode at %d</string>
+    <string name="auto_power_save_summary_off">Never automatically switch to power save mode</string>
+    <string name="app_perf_profiles_title">Enable per-app profiles</string>
+    <string name="app_perf_profiles_summary">Automatically choose an appropriate battery profile for various apps</string>
 </resources>

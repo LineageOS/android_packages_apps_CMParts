@@ -246,4 +246,19 @@
         <item>2</item>
     </string-array>
 
+    <!-- Auto power save mode: Allowable trigger threshold entries -->
+    <string-array name="auto_power_save_entries" translatable="false">
+        <item>0%</item>
+        <item>5%</item>
+        <item>15%</item>
+    </string-array>
+
+    <!-- Auto power save mode: Allowable trigger threshold levels.
+         Duplicate of the battery_saver_trigger_values integer-array in Settings -->
+    <string-array name="auto_power_save_values" translatable="false">
+        <item>0</item>
+        <item>5</item>
+        <item>15</item>
+    </string-array>
+
 </resources>
