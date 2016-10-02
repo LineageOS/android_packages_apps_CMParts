@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_977db670",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 511,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-10-02T00:47:06Z",
+      "side": 1,
+      "message": "I\u0027m not sure why the string formatter fails to format the % symbol, causing this exception:\n\"java.util.FormatFlagsConversionMismatchException: Conversion \u003d b, Flags \u003d\"",
+      "revId": "5367224d5244bca62cc6d2a35e37e9f878b026fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
