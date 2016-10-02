@@ -109,6 +109,7 @@ public class CustomDialogPreference<T extends DialogInterface> extends DialogPre
 
             @Override
             public void onClick(View view) {
+                cpdfOnClick(mDialog, mWhich);
                 if (getCustomizablePreference().onDismissDialog(mDialog, mWhich)) {
                     mDialog.dismiss();
                 }
@@ -157,6 +158,13 @@ public class CustomDialogPreference<T extends DialogInterface> extends DialogPre
         public void onClick(DialogInterface dialog, int which) {
             super.onClick(dialog, which);
             getCustomizablePreference().onClick(dialog, which);
+        }
+
+        /*
+         * Alias for the above so we can call it from OnDismissListener
+         */
+        private void cpdfOnClick(DialogInterface dialog, int which) {
+            onClick(dialog, which);
         }
 
         @NonNull
