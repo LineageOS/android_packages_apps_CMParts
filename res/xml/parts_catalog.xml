@@ -54,4 +54,9 @@
           android:title="@string/status_bar_title"
           android:fragment="org.cyanogenmod.cmparts.statusbar.StatusBarSettings" />
 
+    <part android:key="perf_profile_settings"
+          android:title="@string/perf_profile_settings_title"
+          android:summary="@string/perf_profile_settings_summary"
+          android:fragment="org.cyanogenmod.cmparts.power.PerfProfileSettings" />
+
 </parts-catalog>
