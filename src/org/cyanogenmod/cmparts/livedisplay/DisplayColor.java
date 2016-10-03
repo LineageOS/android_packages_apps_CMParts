@@ -111,14 +111,12 @@ public class DisplayColor extends CustomDialogPreference<AlertDialog> {
             }
             updateColors(mCurrentColors);
             return false;
+        } else if (which == DialogInterface.BUTTON_POSITIVE) {
+            updateColors(mCurrentColors);
+        } else {
+            updateColors(mOriginalColors);
         }
         return true;
-    }
-
-    @Override
-    protected void onDialogClosed(boolean positiveResult) {
-        super.onDialogClosed(positiveResult);
-        updateColors(positiveResult ? mCurrentColors : mOriginalColors);
     }
 
     @Override

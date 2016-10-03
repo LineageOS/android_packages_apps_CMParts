@@ -120,14 +120,12 @@ public class PictureAdjustment extends CustomDialogPreference<AlertDialog> {
             updateBars();
             updateAdjustment(mCurrentAdj);
             return false;
+        } else if (which == DialogInterface.BUTTON_POSITIVE) {
+            updateAdjustment(mCurrentAdj);
+        } else {
+            updateAdjustment(mOriginalAdj);
         }
         return true;
-    }
-
-    @Override
-    protected void onDialogClosed(boolean positiveResult) {
-        super.onDialogClosed(positiveResult);
-        updateAdjustment(positiveResult ? mCurrentAdj : mOriginalAdj);
     }
 
     @Override

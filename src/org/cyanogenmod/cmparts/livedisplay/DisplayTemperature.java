@@ -103,14 +103,10 @@ public class DisplayTemperature extends CustomDialogPreference<AlertDialog> {
             mNightTemperature.setTemperature(mConfig.getDefaultNightTemperature());
             updateTemperature(true);
             return false;
+        } else if (which == DialogInterface.POSITIVE) {
+            updateTemperature(true);
         }
         return true;
-    }
-
-    @Override
-    protected void onDialogClosed(boolean positiveResult) {
-        super.onDialogClosed(positiveResult);
-        updateTemperature(positiveResult);
     }
 
     @Override
