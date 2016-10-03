@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_acb18ce4",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 508,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-10-03T11:05:26Z",
+      "side": 1,
+      "message": "This string sounds too CleanMaster-ish. Especially considering that some options are downgrades in performance.",
+      "revId": "e7caf89dfb5e9137a66befcef0cacb930e45b967",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
