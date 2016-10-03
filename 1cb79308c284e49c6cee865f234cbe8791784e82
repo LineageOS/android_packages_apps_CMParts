@@ -16,6 +16,24 @@
       "revId": "1cb79308c284e49c6cee865f234cbe8791784e82",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_2cda9c16",
+        "filename": "src/org/cyanogenmod/cmparts/CustomDialogPreference.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-10-03T11:12:45Z",
+      "side": 1,
+      "message": "CustomPreferenceDialogFragment?\n\nI\u0027m confused though, why do we need this at all? I fought with this class for a couple of days trying to get the button handling right before I understood how it worked :(",
+      "parentUuid": "ff2e2bb8_b7843ab3",
+      "revId": "1cb79308c284e49c6cee865f234cbe8791784e82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
