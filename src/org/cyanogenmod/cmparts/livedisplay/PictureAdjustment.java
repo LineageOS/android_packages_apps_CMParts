@@ -80,12 +80,7 @@ public class PictureAdjustment extends CustomDialogPreference<AlertDialog> {
     protected void onPrepareDialogBuilder(AlertDialog.Builder builder, DialogInterface.OnClickListener listener) {
         super.onPrepareDialogBuilder(builder, listener);
 
-        builder.setNeutralButton(R.string.reset,
-                new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-            }
-        });
+        builder.setNeutralButton(R.string.reset, null);
     }
 
     private void updateBars() {
@@ -112,22 +107,20 @@ public class PictureAdjustment extends CustomDialogPreference<AlertDialog> {
 
     @Override
     protected boolean onDismissDialog(AlertDialog dialog, int which) {
-        // Can't use onPrepareDialogBuilder for this as we want the dialog
-        // to be kept open on click
         if (which == DialogInterface.BUTTON_NEUTRAL) {
+            // Can't use onPrepareDialogBuilder for this as we want the dialog
+            // to be kept open on click
             System.arraycopy(mLiveDisplay.getDefaultPictureAdjustment().toFloatArray(),
                     0, mCurrentAdj, 0, 5);
             updateBars();
             updateAdjustment(mCurrentAdj);
             return false;
+        } else if (which == DialogInterface.BUTTON_POSITIVE) {
+            updateAdjustment(mCurrentAdj);
+        } else {
+            updateAdjustment(mOriginalAdj);
         }
         return true;
-    }
-
-    @Override
-    protected void onDialogClosed(boolean positiveResult) {
-        super.onDialogClosed(positiveResult);
-        updateAdjustment(positiveResult ? mCurrentAdj : mOriginalAdj);
     }
 
     @Override

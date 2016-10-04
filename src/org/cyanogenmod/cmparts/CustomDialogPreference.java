@@ -59,9 +59,6 @@ public class CustomDialogPreference<T extends DialogInterface> extends DialogPre
             DialogInterface.OnClickListener listener) {
     }
 
-    protected void onDialogClosed(boolean positiveResult) {
-    }
-
     protected void onClick(T dialog, int which) {
     }
 
@@ -144,7 +141,12 @@ public class CustomDialogPreference<T extends DialogInterface> extends DialogPre
 
         @Override
         public void onDialogClosed(boolean positiveResult) {
-            getCustomizablePreference().onDialogClosed(positiveResult);
+            // We use onDismissDialog() instead as it provides us the
+            // flexibility of choosing whether to close the dialog.
+            //
+            // This is useful for when we have a button which
+            // resets preferences temporarily without closing
+            // the dialog, such as the 'reset' button.
         }
 
         @Override

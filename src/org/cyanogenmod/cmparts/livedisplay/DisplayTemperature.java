@@ -66,12 +66,7 @@ public class DisplayTemperature extends CustomDialogPreference<AlertDialog> {
     protected void onPrepareDialogBuilder(AlertDialog.Builder builder, DialogInterface.OnClickListener listener) {
         super.onPrepareDialogBuilder(builder, listener);
 
-        builder.setNeutralButton(R.string.reset,
-                new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-            }
-        });
+        builder.setNeutralButton(R.string.reset, null);
     }
 
     @Override
@@ -96,21 +91,19 @@ public class DisplayTemperature extends CustomDialogPreference<AlertDialog> {
 
     @Override
     protected boolean onDismissDialog(AlertDialog dialog, int which) {
-        // Can't use onPrepareDialogBuilder for this as we want the dialog
-        // to be kept open on click
         if (which == DialogInterface.BUTTON_NEUTRAL) {
+            // Can't use onPrepareDialogBuilder for this as we want the dialog
+            // to be kept open on click
             mDayTemperature.setTemperature(mConfig.getDefaultDayTemperature());
             mNightTemperature.setTemperature(mConfig.getDefaultNightTemperature());
             updateTemperature(true);
             return false;
+        } else if (which == DialogInterface.BUTTON_POSITIVE) {
+            updateTemperature(true);
+        } else {
+            updateTemperature(false);
         }
         return true;
-    }
-
-    @Override
-    protected void onDialogClosed(boolean positiveResult) {
-        super.onDialogClosed(positiveResult);
-        updateTemperature(positiveResult);
     }
 
     @Override

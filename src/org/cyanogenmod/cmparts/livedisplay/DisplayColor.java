@@ -72,12 +72,7 @@ public class DisplayColor extends CustomDialogPreference<AlertDialog> {
     protected void onPrepareDialogBuilder(AlertDialog.Builder builder, DialogInterface.OnClickListener listener) {
         super.onPrepareDialogBuilder(builder, listener);
 
-        builder.setNeutralButton(R.string.reset,
-                new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-            }
-        });
+        builder.setNeutralButton(R.string.reset, null);
     }
 
     @Override
@@ -102,23 +97,21 @@ public class DisplayColor extends CustomDialogPreference<AlertDialog> {
 
     @Override
     protected boolean onDismissDialog(AlertDialog dialog, int which) {
-        // Can't use onPrepareDialogBuilder for this as we want the dialog
-        // to be kept open on click
         if (which == DialogInterface.BUTTON_NEUTRAL) {
+            // Can't use onPrepareDialogBuilder for this as we want the dialog
+            // to be kept open on click
             for (int i = 0; i < mSeekBars.length; i++) {
                 mSeekBars[i].mSeekBar.setProgressFloat(1.0f);
                 mCurrentColors[i] = 1.0f;
             }
             updateColors(mCurrentColors);
             return false;
+        } else if (which == DialogInterface.BUTTON_POSITIVE) {
+            updateColors(mCurrentColors);
+        } else {
+            updateColors(mOriginalColors);
         }
         return true;
-    }
-
-    @Override
-    protected void onDialogClosed(boolean positiveResult) {
-        super.onDialogClosed(positiveResult);
-        updateColors(positiveResult ? mCurrentColors : mOriginalColors);
     }
 
     @Override

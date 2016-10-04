@@ -49,8 +49,6 @@ public class ApplicationLightPreference extends CustomDialogPreference<LightSett
     private int mOffValue;
     private boolean mOnOffChangeable;
 
-    private LightSettingsDialog mDialog;
-
     public interface ItemLongClickListener {
         public boolean onItemLongClick(String key);
     }
@@ -165,29 +163,30 @@ public class ApplicationLightPreference extends CustomDialogPreference<LightSett
         }
     }
 
+    @Override
+    protected boolean onDismissDialog(LightSettingsDialog dialog, int which) {
+        if (which == DialogInterface.BUTTON_POSITIVE) {
+            mColorValue =  dialog.getColor() - 0xFF000000; // Strip alpha, led does not support it
+            mOnValue = dialog.getPulseSpeedOn();
+            mOffValue = dialog.getPulseSpeedOff();
+            updatePreferenceViews();
+            callChangeListener(null);
+        }
+        return true;
+    }
+
     @NonNull
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         final LightSettingsDialog d = new LightSettingsDialog(getContext(),
                     0xFF000000 + mColorValue, mOnValue, mOffValue, mOnOffChangeable);
-        d.setAlphaSliderVisible(false);
 
-        d.setButton(AlertDialog.BUTTON_POSITIVE, getContext().getResources().getString(R.string.dlg_ok),
-                new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                mColorValue =  d.getColor() - 0xFF000000; // strip alpha, led does not support it
-                mOnValue = d.getPulseSpeedOn();
-                mOffValue = d.getPulseSpeedOff();
-                updatePreferenceViews();
-            }
-        });
-        d.setButton(AlertDialog.BUTTON_NEGATIVE, getContext().getResources().getString(R.string.cancel),
-                new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-            }
-        });
+        d.setButton(AlertDialog.BUTTON_POSITIVE,
+                getContext().getResources().getString(R.string.dlg_ok),
+                (DialogInterface.OnClickListener) null);
+        d.setButton(AlertDialog.BUTTON_NEGATIVE,
+                getContext().getResources().getString(R.string.cancel),
+                (DialogInterface.OnClickListener) null);
 
         return d;
     }

@@ -97,12 +97,7 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
     @Override
     protected void onPrepareDialogBuilder(AlertDialog.Builder builder, DialogInterface.OnClickListener listener) {
         super.onPrepareDialogBuilder(builder, listener);
-        builder.setNeutralButton(R.string.reset,
-                new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-            }
-        });
+        builder.setNeutralButton(R.string.reset, null);
     }
 
     @Override
@@ -116,6 +111,23 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
                 mKeyboardBrightness.reset();
             }
             return false;
+        } else if (which == DialogInterface.BUTTON_POSITIVE) {
+            if (mButtonBrightness != null) {
+                PreferenceManager.getDefaultSharedPreferences(getContext())
+                        .edit()
+                        .putInt(KEY_BUTTON_BACKLIGHT, mButtonBrightness.getBrightness(false))
+                        .apply();
+            }
+
+            applyTimeout(mTimeoutBar.getProgress());
+            if (mButtonBrightness != null) {
+                mButtonBrightness.applyBrightness();
+            }
+            if (mKeyboardBrightness != null) {
+                mKeyboardBrightness.applyBrightness();
+            }
+
+            updateSummary();
         }
         return true;
     }
@@ -150,32 +162,6 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
         if (mButtonBrightness == null || mKeyboardBrightness == null) {
             view.findViewById(R.id.button_keyboard_divider).setVisibility(View.GONE);
         }
-    }
-
-    @Override
-    protected void onDialogClosed(boolean positiveResult) {
-        super.onDialogClosed(positiveResult);
-
-        if (!positiveResult) {
-            return;
-        }
-
-        if (mButtonBrightness != null) {
-            PreferenceManager.getDefaultSharedPreferences(getContext())
-                    .edit()
-                    .putInt(KEY_BUTTON_BACKLIGHT, mButtonBrightness.getBrightness(false))
-                    .apply();
-        }
-
-        applyTimeout(mTimeoutBar.getProgress());
-        if (mButtonBrightness != null) {
-            mButtonBrightness.applyBrightness();
-        }
-        if (mKeyboardBrightness != null) {
-            mKeyboardBrightness.applyBrightness();
-        }
-
-        updateSummary();
     }
 
     @Override
