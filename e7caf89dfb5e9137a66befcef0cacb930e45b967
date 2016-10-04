@@ -16,6 +16,24 @@
       "revId": "e7caf89dfb5e9137a66befcef0cacb930e45b967",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_1d8ee477",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 508,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-10-04T03:02:59Z",
+      "side": 1,
+      "message": "Agreed, but I\u0027m unable to think of an appropriate enough phrase to describe the feature. Do you have any suggestions?",
+      "parentUuid": "ff2e2bb8_acb18ce4",
+      "revId": "e7caf89dfb5e9137a66befcef0cacb930e45b967",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
