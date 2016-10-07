@@ -34,6 +34,8 @@ import com.android.internal.util.ArrayUtils;
 
 import org.cyanogenmod.cmparts.R;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
+import org.cyanogenmod.cmparts.search.BaseSearchIndexProvider;
+import org.cyanogenmod.cmparts.search.Searchable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,9 +52,9 @@ import static cyanogenmod.hardware.LiveDisplayManager.FEATURE_COLOR_ENHANCEMENT;
 import static cyanogenmod.hardware.LiveDisplayManager.FEATURE_DISPLAY_MODES;
 import static cyanogenmod.hardware.LiveDisplayManager.FEATURE_PICTURE_ADJUSTMENT;
 import static cyanogenmod.hardware.LiveDisplayManager.MODE_OFF;
-import static cyanogenmod.hardware.LiveDisplayManager.MODE_OUTDOOR;
+import static cyanogenmod.hardware.LiveDisplayManager.*;
 
-public class LiveDisplay extends SettingsPreferenceFragment implements
+public class LiveDisplay extends SettingsPreferenceFragment implements Searchable,
         Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "LiveDisplay";
@@ -71,6 +73,12 @@ public class LiveDisplay extends SettingsPreferenceFragment implements
     private static final String KEY_PICTURE_ADJUSTMENT = "picture_adjustment";
 
     private static final String KEY_LIVE_DISPLAY_COLOR_PROFILE = "live_display_color_profile";
+
+    private static final String COLOR_PROFILE_TITLE =
+            KEY_LIVE_DISPLAY_COLOR_PROFILE + "_%s_title";
+
+    private static final String COLOR_PROFILE_SUMMARY =
+            KEY_LIVE_DISPLAY_COLOR_PROFILE + "_%s_summary";
 
     private final Handler mHandler = new Handler();
     private final SettingsObserver mObserver = new SettingsObserver();
@@ -214,8 +222,8 @@ public class LiveDisplay extends SettingsPreferenceFragment implements
         mObserver.register(false);
     }
 
-    private String getStringForResourceName(String resourceName, String defaultValue) {
-        Resources res = getResources();
+    private static String getStringForResourceName(Resources res,
+                                                   String resourceName, String defaultValue) {
         int resId = res.getIdentifier(resourceName, "string", "org.cyanogenmod.cmparts");
         if (resId <= 0) {
             Log.e(TAG, "No resource found for " + resourceName);
@@ -240,12 +248,12 @@ public class LiveDisplay extends SettingsPreferenceFragment implements
         for (int i = 0; i < modes.length; i++) {
             values[i] = String.valueOf(modes[i].id);
             String name = modes[i].name.toLowerCase().replace(" ", "_");
-            String nameRes = String.format("live_display_color_profile_%s_title", name);
-            entries[i] = getStringForResourceName(nameRes, modes[i].name);
+            String nameRes = String.format(COLOR_PROFILE_TITLE, name);
+            entries[i] = getStringForResourceName(getResources(), nameRes, modes[i].name);
 
             // Populate summary
-            String summaryRes = String.format("live_display_color_profile_%s_summary", name);
-            String summary = getStringForResourceName(summaryRes, null);
+            String summaryRes = String.format(COLOR_PROFILE_SUMMARY, name);
+            String summary = getStringForResourceName(getResources(), summaryRes, null);
             if (summary != null) {
                 summary = String.format("%s - %s", entries[i], summary);
             }
@@ -360,30 +368,15 @@ public class LiveDisplay extends SettingsPreferenceFragment implements
 
         @Override
         public void onChange(boolean selfChange, Uri uri) {
-            super.onChange(selfChange,  uri);
+            super.onChange(selfChange, uri);
             updateModeSummary();
             updateTemperatureSummary();
         }
     }
 
-    /*
-     * Disabled until search query is implemented
-     *
-    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+
+    public static final Searchable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
-
-        @Override
-        public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
-                boolean enabled) {
-            ArrayList<SearchIndexableResource> result =
-                    new ArrayList<SearchIndexableResource>();
-
-            SearchIndexableResource sir = new SearchIndexableResource(context);
-            sir.xmlResId = R.xml.livedisplay;
-            result.add(sir);
-
-            return result;
-        }
 
         @Override
         public List<String> getNonIndexableKeys(Context context) {
@@ -411,6 +404,25 @@ public class LiveDisplay extends SettingsPreferenceFragment implements
             }
             return result;
         }
+
+        @Override
+        public List<String> getSearchKeywords(Context context) {
+            final CMHardwareManager hardware = CMHardwareManager.getInstance(context);
+            List<String> result = new ArrayList<>();
+
+            // Add keywords for supported color profiles
+            if (hardware.isSupported(FEATURE_DISPLAY_MODES)) {
+                DisplayMode[] modes = hardware.getDisplayModes();
+                if (modes != null && modes.length > 0) {
+                    for (DisplayMode mode : modes) {
+                        String name = mode.name.toLowerCase().replace(" ", "_");
+                        String nameRes = String.format(COLOR_PROFILE_TITLE, name);
+                        result.add(getStringForResourceName(context.getResources(),
+                                nameRes, mode.name));
+                    }
+                }
+            }
+            return result;
+        }
     };
-    */
 }
