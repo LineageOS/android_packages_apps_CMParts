@@ -63,7 +63,9 @@ public class PartsActivity extends SettingsDrawerActivity implements
         PartInfo info = null;
         String action = getIntent().getAction();
         String partExtra = getIntent().getStringExtra(PartsList.EXTRA_PART_KEY);
-
+        if (partExtra == null) {
+            partExtra = getIntent().getStringExtra(EXTRA_FRAGMENT_ARG_KEY);
+        }
         String fragmentClass = getIntent().getStringExtra(EXTRA_SHOW_FRAGMENT);
         String component = getIntent().getComponent().getClassName();
         Bundle initialArgs = getIntent().getBundleExtra(EXTRA_SHOW_FRAGMENT_ARGUMENTS);
