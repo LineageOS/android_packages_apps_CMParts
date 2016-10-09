@@ -40,7 +40,6 @@ import android.os.Handler;
 import android.text.Html;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
-import android.util.ArraySet;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -58,8 +57,10 @@ import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.TextView;
 
+import org.cyanogenmod.cmparts.PartsActivity;
 import org.cyanogenmod.cmparts.R;
 import org.cyanogenmod.cmparts.search.BaseSearchIndexProvider;
+import org.cyanogenmod.cmparts.search.SearchIndexableRaw;
 import org.cyanogenmod.cmparts.search.Searchable;
 
 import java.io.File;
@@ -71,7 +72,6 @@ import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-import java.util.Set;
 
 public class ContributorsCloudFragment extends Fragment implements SearchView.OnQueryTextListener,
         SearchView.OnCloseListener, MenuItem.OnActionExpandListener, Searchable {
@@ -106,6 +106,8 @@ public class ContributorsCloudFragment extends Fragment implements SearchView.On
     private SearchView mSearchView;
 
     private Handler mHandler;
+
+    private static final String KEY_PREFIX = "contributor_";
 
     private static class ViewInfo {
         Bitmap mBitmap;
@@ -325,8 +327,18 @@ public class ContributorsCloudFragment extends Fragment implements SearchView.On
             }
         });
 
+        Bundle args = getArguments();
+        boolean selected = false;
+        if (args != null) {
+            String c = args.getString(PartsActivity.EXTRA_FRAGMENT_ARG_KEY);
+            if (c != null && c.startsWith(KEY_PREFIX)) {
+                mSelectedContributor = Integer.valueOf(c.substring(KEY_PREFIX.length() + 1));
+                selected = true;
+            }
+        }
+
         // Load the data from the database and fill the image
-        ContributorCloudLoaderTask task = new ContributorCloudLoaderTask(true, false);
+        ContributorCloudLoaderTask task = new ContributorCloudLoaderTask(true, selected);
         task.execute();
 
         return v;
@@ -776,7 +788,7 @@ public class ContributorsCloudFragment extends Fragment implements SearchView.On
             new BaseSearchIndexProvider() {
 
                 @Override
-                public Set<String> getSearchKeywords(Context context) {
+                public List<SearchIndexableRaw> getRawDataToIndex(Context context) {
 
                     // Index the top 100 contributors, for fun :)
                     File dbPath = context.getDatabasePath(DB_NAME);
@@ -796,11 +808,15 @@ public class ContributorsCloudFragment extends Fragment implements SearchView.On
                         return null;
                     }
 
-                    Set<String> result = new ArraySet<>();
+                    List<SearchIndexableRaw> result = new ArrayList<>();
                     Cursor c = db.rawQuery(
-                            "select username from metadata order by commits desc limit 100;", null);
+                            "select id, username from metadata order by commits desc limit 100;", null);
                     while (c.moveToNext()) {
-                        result.add(c.getString(0));
+                        SearchIndexableRaw raw = new SearchIndexableRaw(context);
+                        raw.key = KEY_PREFIX + c.getString(0);
+                        raw.rank = 10;
+                        raw.title = c.getString(1);
+                        result.add(raw);
                     }
                     c.close();
                     db.close();
