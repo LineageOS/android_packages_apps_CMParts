@@ -52,6 +52,7 @@ import com.android.internal.os.BackgroundThread;
 
 import org.cyanogenmod.cmparts.R;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
+import org.cyanogenmod.cmparts.SummaryProvider;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -65,7 +66,7 @@ import cyanogenmod.providers.WeatherContract;
 import cyanogenmod.weatherservice.WeatherProviderService;
 
 public class WeatherServiceSettings extends SettingsPreferenceFragment
-        implements Preference.OnPreferenceChangeListener {
+        implements Preference.OnPreferenceChangeListener, SummaryProvider {
 
     private Context mContext;
     private Handler mHandler;
@@ -168,14 +169,14 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
         }
     };
 
-    private void updateAdapter() {
-        final PackageManager pm = getContext().getPackageManager();
+    private static List<WeatherProviderServiceInfo> getInstalledServices(Context context) {
+        final PackageManager pm = context.getPackageManager();
         final Intent intent = new Intent(WeatherProviderService.SERVICE_INTERFACE);
         List<ResolveInfo> resolveInfoList = pm.queryIntentServices(intent,
                 PackageManager.GET_SERVICES | PackageManager.GET_META_DATA);
         List<WeatherProviderServiceInfo> weatherProviderServiceInfos
                 = new ArrayList<>(resolveInfoList.size());
-        ComponentName activeService = getEnabledWeatherServiceProvider();
+        ComponentName activeService = getEnabledWeatherServiceProvider(context);
         for (ResolveInfo resolveInfo : resolveInfoList) {
             if (resolveInfo.serviceInfo == null) continue;
 
@@ -199,6 +200,12 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
 
             weatherProviderServiceInfos.add(serviceInfo);
         }
+        return weatherProviderServiceInfos;
+    }
+
+    private void updateAdapter() {
+        final List<WeatherProviderServiceInfo> weatherProviderServiceInfos =
+                getInstalledServices(getContext());
 
         final PreferenceScreen ps = getPreferenceScreen();
         if (!weatherProviderServiceInfos.isEmpty()) {
@@ -370,7 +377,7 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
         }
     }
 
-    private ComponentName getSettingsComponent(PackageManager pm, ResolveInfo resolveInfo) {
+    private static ComponentName getSettingsComponent(PackageManager pm, ResolveInfo resolveInfo) {
         if (resolveInfo == null
                 || resolveInfo.serviceInfo == null
                 || resolveInfo.serviceInfo.metaData == null) {
@@ -423,9 +430,9 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
         return cn == null ? null : ComponentName.unflattenFromString(cn);
     }
 
-    private ComponentName getEnabledWeatherServiceProvider() {
+    private static ComponentName getEnabledWeatherServiceProvider(Context context) {
         String activeWeatherServiceProvider = CMSettings.Secure.getString(
-                mContext.getContentResolver(), CMSettings.Secure.WEATHER_PROVIDER_SERVICE);
+                context.getContentResolver(), CMSettings.Secure.WEATHER_PROVIDER_SERVICE);
         if (activeWeatherServiceProvider == null) return null;
         return ComponentName.unflattenFromString(activeWeatherServiceProvider);
     }
@@ -452,11 +459,29 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
         setEmptyView(emptyView);
     }
 
-    private class WeatherProviderServiceInfo {
+    private static class WeatherProviderServiceInfo {
         CharSequence caption;
         Drawable icon;
         boolean isActive;
         ComponentName componentName;
         public ComponentName settingsComponentName;
     }
+
+    public static final SummaryProvider.SummaryInfo SUMMARY_INFO =
+            new SummaryProvider.SummaryInfo() {
+
+                @Override
+                public String getSummary(Context context, String key) {
+                    final List<WeatherProviderServiceInfo> infos = getInstalledServices(context);
+                    if (infos != null && infos.size() > 0) {
+                        for (WeatherProviderServiceInfo info : infos) {
+                            if (info.isActive) {
+                                Log.d(TAG, "cmparts: found active provider: " + info.caption);
+                                return String.valueOf(info.caption);
+                            }
+                        }
+                    }
+                    return context.getString(R.string.weather_settings_no_services_summary);
+                }
+            };
 }
