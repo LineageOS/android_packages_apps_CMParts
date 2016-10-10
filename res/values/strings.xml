@@ -36,6 +36,8 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="search">Search</string>
+    <string name="disabled">Disabled</string>
+    <string name="enabled">Enabled</string>
 
     <!-- Privacy Settings Header item -->
     <string name="privacy_settings_title">Privacy</string>
@@ -104,6 +106,7 @@
     <string name="notification_light_use_multiple_leds">Multiple LEDs</string>
     <string name="keywords_lights_brightness_level">dim leds brightness</string>
     <string name="notification_light_automagic">Choose colors automatically</string>
+    <string name="notification_light_automagic_summary">Choosing colors automatically</string>
 
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Light settings</string>
@@ -510,6 +513,7 @@
     <!-- Weather -->
     <string name="weather_settings_title">Weather</string>
     <string name="weather_settings_no_services_prompt">No weather provider services installed</string>
+    <string name="weather_settings_no_services_summary">Install a weather provider to receive weather updates</string>
     <string name="weather_settings_button">Provider settings</string>
     <string name="weather_settings_activity_not_found">Unable to launch the settings menu of this provider</string>
     <string name="weather_settings_add_weather_provider">Add weather provider</string>
