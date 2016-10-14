@@ -38,4 +38,6 @@
     <color name="perf_hot">#ffd10015</color>
     <color name="perf_cold">#ff005994</color>
 
+    <drawable name="expanded_item_bg_activated">#ffEEEEEE</drawable>
+    <drawable name="expanded_item_bg">@android:color/background_light</drawable>
 </resources>
