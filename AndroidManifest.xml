@@ -54,6 +54,9 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+            <meta-data
+                android:name="org.cyanogenmod.settings.summary.receiver"
+                android:value="org.cyanogenmod.cmparts.PartsUpdater" />
         </activity>
 
         <receiver android:name="BootReceiver" android:enabled="true">
@@ -62,7 +65,7 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".RefreshReceiver" android:enabled="true">
+        <receiver android:name=".PartsUpdater" android:enabled="true">
             <intent-filter>
                 <action android:name="org.cyanogenmod.cmparts.REFRESH_PART" />
                 <action android:name="org.cyanogenmod.settings.REFRESH_SUMMARY" />
@@ -98,7 +101,7 @@
                 android:resource="@drawable/ic_settings_privacy" />
             <meta-data
                 android:name="org.cyanogenmod.settings.summary.receiver"
-                android:value="org.cyanogenmod.cmparts.RefreshReceiver" />
+                android:value="org.cyanogenmod.cmparts.PartsUpdater" />
             <meta-data
                 android:name="org.cyanogenmod.settings.summary.key"
                 android:value="privacy_settings" />
@@ -122,7 +125,7 @@
                 android:resource="@drawable/ic_settings_buttons" />
             <meta-data
                 android:name="org.cyanogenmod.settings.summary.receiver"
-                android:value="org.cyanogenmod.cmparts.RefreshReceiver" />
+                android:value="org.cyanogenmod.cmparts.PartsUpdater" />
             <meta-data
                 android:name="org.cyanogenmod.settings.summary.key"
                 android:value="button_settings" />
@@ -146,7 +149,7 @@
                 android:resource="@drawable/ic_settings_profiles" />
             <meta-data
                 android:name="org.cyanogenmod.settings.summary.receiver"
-                android:value="org.cyanogenmod.cmparts.RefreshReceiver" />
+                android:value="org.cyanogenmod.cmparts.PartsUpdater" />
             <meta-data
                 android:name="org.cyanogenmod.settings.summary.key"
                 android:value="profiles_settings" />
@@ -170,7 +173,7 @@
                 android:resource="@drawable/ic_settings_statusbar" />
             <meta-data
                 android:name="org.cyanogenmod.settings.summary.receiver"
-                android:value="org.cyanogenmod.cmparts.RefreshReceiver" />
+                android:value="org.cyanogenmod.cmparts.PartsUpdater" />
             <meta-data
                 android:name="org.cyanogenmod.settings.summary.key"
                 android:value="status_bar_settings" />
