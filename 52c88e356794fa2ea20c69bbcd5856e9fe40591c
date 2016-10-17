@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_f8d17559",
+        "filename": "res/xml/expanded_desktop_prefs.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-10-17T04:21:13Z",
+      "side": 1,
+      "message": "I\u0027ve got a crash here, actually.",
+      "range": {
+        "startLine": 35,
+        "startChar": 4,
+        "endLine": 35,
+        "endChar": 56
+      },
+      "revId": "52c88e356794fa2ea20c69bbcd5856e9fe40591c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
