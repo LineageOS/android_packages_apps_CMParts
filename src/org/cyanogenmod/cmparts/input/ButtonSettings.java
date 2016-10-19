@@ -99,6 +99,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final int ACTION_LAUNCH_CAMERA = 6;
     private static final int ACTION_SLEEP = 7;
     private static final int ACTION_LAST_APP = 8;
+    private static final int ACTION_SPLIT_SCREEN = 9;
+    private static final int ACTION_MAX = ACTION_SPLIT_SCREEN + 1;
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -267,14 +269,14 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             int defaultLongPressAction = res.getInteger(
                     com.android.internal.R.integer.config_longPressOnHomeBehavior);
             if (defaultLongPressAction < ACTION_NOTHING ||
-                    defaultLongPressAction > ACTION_LAST_APP) {
+                    defaultLongPressAction > ACTION_MAX) {
                 defaultLongPressAction = ACTION_NOTHING;
             }
 
             int defaultDoubleTapAction = res.getInteger(
                     com.android.internal.R.integer.config_doubleTapOnHomeBehavior);
             if (defaultDoubleTapAction < ACTION_NOTHING ||
-                    defaultDoubleTapAction > ACTION_LAST_APP) {
+                    defaultDoubleTapAction > ACTION_MAX) {
                 defaultDoubleTapAction = ACTION_NOTHING;
             }
 
@@ -350,7 +352,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             mAppSwitchPressAction = initActionList(KEY_APP_SWITCH_PRESS, pressAction);
 
             int longPressAction = CMSettings.System.getInt(resolver,
-                    CMSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION, ACTION_NOTHING);
+                    CMSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION, ACTION_SPLIT_SCREEN);
             mAppSwitchLongPressAction = initActionList(KEY_APP_SWITCH_LONG_PRESS, longPressAction);
 
             hasAnyBindableKey = true;
@@ -483,7 +485,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 CMSettings.Secure.RECENTS_LONG_PRESS_ACTIVITY);
         ComponentName targetComponent = null;
         if (componentString == null) {
-            list.setSummary(getString(R.string.hardware_keys_action_last_app));
+            list.setSummary(getString(R.string.hardware_keys_action_split_screen));
         } else {
             targetComponent = ComponentName.unflattenFromString(componentString);
         }
@@ -496,7 +498,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 PackageManager.MATCH_DEFAULT_ONLY);
         if (recentsActivities.size() == 0) {
             // No entries available, disable
-            list.setSummary(getString(R.string.hardware_keys_action_last_app));
+            list.setSummary(getString(R.string.hardware_keys_action_split_screen));
             CMSettings.Secure.putString(getContentResolver(),
                     CMSettings.Secure.RECENTS_LONG_PRESS_ACTIVITY, null);
             list.setEnabled(false);
@@ -506,7 +508,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         CharSequence[] entries = new CharSequence[recentsActivities.size() + 1];
         CharSequence[] values = new CharSequence[recentsActivities.size() + 1];
         // First entry is always default last app
-        entries[0] = getString(R.string.hardware_keys_action_last_app);
+        entries[0] = getString(R.string.hardware_keys_action_split_screen);
         values[0] = "";
         list.setValue(values[0].toString());
         int i = 1;
