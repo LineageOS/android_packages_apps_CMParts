@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_dea3b64e",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-10-19T04:49:39Z",
+      "side": 0,
+      "message": "Why not use an enum?",
+      "revId": "e3f2cd87ae2fb531197e0b00d498a9688822e185",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

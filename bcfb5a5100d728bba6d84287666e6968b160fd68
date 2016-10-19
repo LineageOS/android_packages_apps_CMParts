@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_fe9e7a05",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 272,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-10-19T04:49:39Z",
+      "side": 1,
+      "message": "\u003e\u003d?",
+      "revId": "bcfb5a5100d728bba6d84287666e6968b160fd68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
