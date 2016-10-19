@@ -16,6 +16,24 @@
       "revId": "e3f2cd87ae2fb531197e0b00d498a9688822e185",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_9e676e26",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-10-19T05:15:34Z",
+      "side": 0,
+      "message": "I was reminded of the whole \"Android hates enums\" thing the other day and considered converting the whole codebase to enums out of spite. Totally making this an enum.",
+      "parentUuid": "ff2e2bb8_dea3b64e",
+      "revId": "e3f2cd87ae2fb531197e0b00d498a9688822e185",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

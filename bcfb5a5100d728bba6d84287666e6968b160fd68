@@ -16,6 +16,24 @@
       "revId": "bcfb5a5100d728bba6d84287666e6968b160fd68",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_fe6cba09",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 272,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-10-19T05:15:34Z",
+      "side": 1,
+      "message": "oops",
+      "parentUuid": "ff2e2bb8_fe9e7a05",
+      "revId": "bcfb5a5100d728bba6d84287666e6968b160fd68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
