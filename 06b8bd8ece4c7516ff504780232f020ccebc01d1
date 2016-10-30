@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ff2e2bb8_8e9563e7",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2016-10-30T03:11:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ff2e2bb8_ce848b0f",
+      "revId": "06b8bd8ece4c7516ff504780232f020ccebc01d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ff2e2bb8_ae87870f",
         "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
         "patchSetId": 2
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "ff2e2bb8_6e98df1a",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2016-10-30T03:11:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ff2e2bb8_ae87870f",
+      "revId": "06b8bd8ece4c7516ff504780232f020ccebc01d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ff2e2bb8_0e7e7318",
         "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
         "patchSetId": 2
@@ -47,6 +83,24 @@
       "writtenOn": "2016-10-29T23:48:53Z",
       "side": 1,
       "message": "100 chars",
+      "revId": "06b8bd8ece4c7516ff504780232f020ccebc01d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_ce9f6b01",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 587,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2016-10-30T03:11:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ff2e2bb8_0e7e7318",
       "revId": "06b8bd8ece4c7516ff504780232f020ccebc01d1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
