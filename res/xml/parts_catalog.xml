@@ -105,4 +105,9 @@
           android:fragment="org.cyanogenmod.cmparts.applications.ExpandedDesktopSettings"
           cm:xmlRes="@xml/expanded_desktop_prefs" />
 
+    <part android:key="charging_sounds_settings"
+          android:title="@string/charging_sounds_settings_title"
+          android:fragment="org.cyanogenmod.cmparts.sounds.ChargingSoundsSettings"
+          cm:xmlRes="@xml/charging_sounds_settings" />
+
 </parts-catalog>
