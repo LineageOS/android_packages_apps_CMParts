@@ -18,6 +18,7 @@ package org.cyanogenmod.cmparts.notificationlight;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.app.NotificationManager;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -135,8 +136,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         } else {
             mNotificationLedBrightnessPref.setOnPreferenceChangeListener(this);
         }
-        if (!resources.getBoolean(
-                org.cyanogenmod.platform.internal.R.bool.config_multipleNotificationLeds)) {
+        if (!nm.deviceLightsCan(NotificationManager.LIGHTS_MULTIPLE_LED)) {
             mAdvancedPrefs.removePreference(mMultipleLedsEnabledPref);
         } else {
             mMultipleLedsEnabledPref.setOnPreferenceChangeListener(this);
@@ -164,7 +164,8 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         mPackages = new HashMap<String, Package>();
         setHasOptionsMenu(true);
 
-        mMultiColorLed = resources.getBoolean(com.android.internal.R.bool.config_multiColorNotificationLed);
+        final NotificationManager nm = getContext().getSystemService(NotificationManager.class);
+        mMultiColorLed = nm.deviceLightsCan(NotificationManager.LIGHTS_RGB_NOTIFICATION);
         if (!mMultiColorLed) {
             resetColors();
             PreferenceGroup mGeneralPrefs = (PreferenceGroup) prefSet.findPreference("general_section");
