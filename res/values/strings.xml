@@ -560,4 +560,8 @@
     <string name="expanded_desktop_style_hide_navigation">Hide navigation bar</string>
     <string name="expanded_desktop_style_hide_both">Hide both</string>
     <string name="expanded_desktop_nothing_to_show_text">Turn the switch off to customize your expanded desktop on a per-app basis</string>
+
+    <!-- Sounds: Vibrator intensity -->
+    <string name="vibrator_intensity_title">Vibrator intensity</string>
+    <string name="vibrator_warning">Values higher than %1$d%% are not recommended</string>
 </resources>
