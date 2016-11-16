@@ -179,6 +179,30 @@
                 android:value="status_bar_settings" />
         </activity-alias>
 
+        <!-- Gestures settings (dashboard) -->
+        <activity-alias
+            android:name=".input.GesturesSettings"
+            android:label="@string/gestures_pref_title"
+            android:targetActivity="PartsActivity">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                <action android:name="org.cyanogenmod.cmparts.GESTURES_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.device" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_settings_gestures" />
+            <meta-data
+                android:name="org.cyanogenmod.settings.summary.receiver"
+                android:value="org.cyanogenmod.cmparts.PartsUpdater" />
+            <meta-data
+                android:name="org.cyanogenmod.settings.summary.key"
+                android:value="gestures_settings" />
+        </activity-alias>
+
         <!-- Anonymous Statistics -->
         <receiver android:name=".cmstats.ReportingServiceManager"
             android:enabled="true"
