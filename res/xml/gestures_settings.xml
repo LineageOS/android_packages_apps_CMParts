@@ -27,4 +27,11 @@
             android:summary="@string/status_bar_double_tap_to_sleep_summary"
             android:defaultValue="true" />
 
+        <!-- Flip to mute -->
+        <SwitchPreference
+            android:key="flip_to_mute_gesture"
+            android:title="@string/gestures_flip_to_mute_title"
+            android:summary="@string/gestures_flip_to_mute_summary"
+            android:defaultValue="true" />
+
 </PreferenceScreen>
