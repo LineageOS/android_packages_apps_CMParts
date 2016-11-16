@@ -97,6 +97,12 @@
             android:summary="@string/camera_double_tap_power_gesture_desc"
             android:persistent="false" />
 
+        <SwitchPreference
+            android:key="keyguard_toggle_torch"
+            android:title="@string/keyguard_torch_title"
+            android:summary="@string/keyguard_torch_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

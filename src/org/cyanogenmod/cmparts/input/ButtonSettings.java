@@ -43,6 +43,7 @@ import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
 import org.cyanogenmod.cmparts.utils.DeviceUtils;
 import org.cyanogenmod.cmparts.utils.TelephonyUtils;
 import org.cyanogenmod.internal.util.ScreenType;
+import org.cyanogenmod.internal.util.QSUtils;
 
 import java.util.List;
 
@@ -89,6 +90,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String CATEGORY_VOLUME = "volume_keys";
     private static final String CATEGORY_BACKLIGHT = "key_backlight";
     private static final String CATEGORY_NAVBAR = "navigation_bar_category";
+    private static final String KEYGUARD_TOGGLE_TORCH = "keyguard_toggle_torch";
 
     // Available custom actions to perform on a key press.
     // Must match values for KEY_HOME_LONG_PRESS_ACTION in:
@@ -151,6 +153,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mHomeAnswerCall;
     private SwitchPreference mVolumeAnswerCall;
     private SwitchPreference mCameraDoubleTapPowerGesture;
+    private SwitchPreference mKeyguardTorch;
 
     private PreferenceCategory mNavigationPreferencesCat;
 
@@ -258,6 +261,17 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         // Navigation bar recents long press activity needs custom setup
         mNavigationRecentsLongPressAction =
                 initRecentsLongPressAction(KEY_NAVIGATION_RECENTS_LONG_PRESS);
+
+        // Keyguard Torh
+        mKeyguardTorch = (SwitchPreference) findPreference(KEYGUARD_TOGGLE_TORCH);
+        mKeyguardTorch.setOnPreferenceChangeListener(this);
+        if (!QSUtils.deviceSupportsFlashLight(getActivity())) {
+            powerCategory.removePreference(mKeyguardTorch);
+        } else {
+        int KeyguardTorch = Settings.System.getInt(
+                getContentResolver(), KEYGUARD_TOGGLE_TORCH, 1);
+        mKeyguardTorch.setChecked(KeyguardTorch == 1);
+        }
 
         final CMHardwareManager hardware = CMHardwareManager.getInstance(getActivity());
 
@@ -634,6 +648,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         } else if (preference == mVolumeKeyCursorControl) {
             handleSystemActionListChange(mVolumeKeyCursorControl, newValue,
                     Settings.System.VOLUME_KEY_CURSOR_CONTROL);
+            return true;
+        } else if (preference == mKeyguardTorch) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(), KEYGUARD_TOGGLE_TORCH,
+                    value ? 1 : 0);
             return true;
         } else if (preference == mNavigationRecentsLongPressAction) {
             // RecentsLongPressAction is handled differently because it intentionally uses
