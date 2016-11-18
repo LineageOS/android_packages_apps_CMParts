@@ -34,4 +34,70 @@
             android:summary="@string/gestures_flip_to_mute_summary"
             android:defaultValue="true" />
 
+        <!-- Device specific gestures -->
+        <PreferenceCategory
+            android:key="touchscreenGestures"
+            android:title="@string/gestures_screenoff">
+
+            <SwitchPreference
+                android:key="circle_gesture"
+                android:title="@string/gestures_circle_title"
+                android:summary="@string/gestures_circle_summary"
+                android:defaultValue="true" />
+
+            <SwitchPreference
+                android:key="two_fingers_down_gesture"
+                android:title="@string/gestures_two_fingers_down_title"
+                android:summary="@string/gestures_two_fingers_down_summary"
+                android:defaultValue="true" />
+
+
+            <SwitchPreference
+                android:key="leftwards_arrow_gesture"
+                android:title="@string/gestures_leftwards_arrow_title"
+                android:summary="@string/gestures_leftwards_arrow_summary"
+                android:defaultValue="true" />
+
+            <SwitchPreference
+                android:key="rightwards_arrow_gesture"
+                android:title="@string/gestures_rightwards_arrow_title"
+                android:summary="@string/gestures_rightwards_arrow_summary"
+                android:defaultValue="true" />
+
+            <SwitchPreference
+                android:key="letter_c_gesture"
+                android:title="@string/gestures_letter_c_title"
+                android:summary="@string/gestures_letter_c_summary"
+                android:defaultValue="true" />
+
+            <SwitchPreference
+                android:key="letter_e_gesture"
+                android:title="@string/gestures_letter_e_title"
+                android:summary="@string/gestures_letter_e_summary"
+                android:defaultValue="true" />
+
+            <SwitchPreference
+                android:key="letter_s_gesture"
+                android:title="@string/gestures_letter_s_title"
+                android:summary="@string/gestures_letter_s_summary"
+                android:defaultValue="true" />
+
+            <SwitchPreference
+                android:key="letter_v_gesture"
+                android:title="@string/gestures_letter_v_title"
+                android:summary="@string/gestures_letter_v_summary"
+                android:defaultValue="true" />
+
+            <SwitchPreference
+                android:key="letter_w_gesture"
+                android:title="@string/gestures_letter_w_title"
+                android:summary="@string/gestures_letter_w_summary"
+                android:defaultValue="true" />
+
+            <SwitchPreference
+                android:key="letter_z_gesture"
+                android:title="@string/gestures_letter_z_title"
+                android:summary="@string/gestures_letter_z_summary"
+                android:defaultValue="true" />
+        </PreferenceCategory>
 </PreferenceScreen>

@@ -565,5 +565,26 @@
     <string name="gestures_pref_title">Gestures</string>
     <string name="gestures_flip_to_mute_title">Flip to mute</string>
     <string name="gestures_flip_to_mute_summary">Turn phone face down to mute incoming call</string>
+    <string name="gestures_screenoff">Screen off gestures</string>
+    <string name="gestures_circle_title">Camera</string>
+    <string name="gestures_circle_summary">Draw a circle to open camera</string>
+    <string name="gestures_two_fingers_down_title">Play / pause</string>
+    <string name="gestures_two_fingers_down_summary">Swipe two fingers down to change music playback state</string>
+    <string name="gestures_leftwards_arrow_title">Previous song</string>
+    <string name="gestures_leftwards_arrow_summary">Draw a leftward arrow (&lt;) to play previous song</string>
+    <string name="gestures_rightwards_arrow_title">Next song</string>
+    <string name="gestures_rightwards_arrow_summary">Draw a rightward arrow (&gt;) to play next song</string>
+    <string name="gestures_letter_c_title">Camera</string>
+    <string name="gestures_letter_c_summary">Draw letter \"C\" to open camera</string>
+    <string name="gestures_letter_e_title">Email</string>
+    <string name="gestures_letter_e_summary">Draw letter \"e\" to open email</string>
+    <string name="gestures_letter_s_title">Messaging</string>
+    <string name="gestures_letter_s_summary">Draw letter \"S\" to open messaging</string>
+    <string name="gestures_letter_v_title">Torch</string>
+    <string name="gestures_letter_v_summary">Draw letter \"V\" to open torch</string>
+    <string name="gestures_letter_w_title">Web</string>
+    <string name="gestures_letter_w_summary">Draw letter \"W\" to open browser</string>
+    <string name="gestures_letter_z_title">Telephone</string>
+    <string name="gestures_letter_z_summary">Draw letter \"Z\" to open dialer</string>
 
 </resources>
