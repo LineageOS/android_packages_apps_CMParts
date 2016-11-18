@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_79a6a855",
+        "filename": "src/org/cyanogenmod/cmparts/notificationlight/NotificationLightSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-11-18T03:45:58Z",
+      "side": 1,
+      "message": "mOnOffChangeable",
+      "revId": "fbdd6ad7e62acd0a294d24b6722148b26839d5b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_d9641425",
+        "filename": "src/org/cyanogenmod/cmparts/notificationlight/NotificationLightSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-11-18T03:45:58Z",
+      "side": 1,
+      "message": "I get that this was named mGeneralPrefs previously, but it should really be generalPrefs imo",
+      "revId": "fbdd6ad7e62acd0a294d24b6722148b26839d5b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
