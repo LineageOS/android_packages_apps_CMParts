@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_8d29a29c",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-11-19T14:42:28Z",
+      "side": 1,
+      "message": "V and Z are swapped on asus devices, I don\u0027t want to change the stock gesture behavior",
+      "range": {
+        "startLine": 584,
+        "startChar": 0,
+        "endLine": 584,
+        "endChar": 85
+      },
+      "revId": "101bea80a52b40e6419600f061271b9b16b19a06",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
