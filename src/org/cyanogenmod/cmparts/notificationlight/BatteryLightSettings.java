@@ -52,6 +52,8 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
 
     private static final int MENU_RESET = Menu.FIRST;
 
+    private final boolean mMultiColorLed;
+
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -66,13 +68,16 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         mLightEnabledPref = (CMSystemSettingSwitchPreference) prefSet.findPreference(LIGHT_ENABLED_PREF);
         mPulseEnabledPref = (CMSystemSettingSwitchPreference) prefSet.findPreference(PULSE_ENABLED_PREF);
 
+        mMultiColorLed = getResources().getBoolean(
+                com.android.internal.R.bool.config_multiColorBatteryLed);
+
         if (!getResources().getBoolean(com.android.internal.R.bool.config_ledCanPulse) ||
                 getResources().getBoolean(org.cyanogenmod.platform.internal.R.bool.config_useSegmentedBatteryLed)) {
             mGeneralPrefs.removePreference(mPulseEnabledPref);
         }
 
         // Does the Device support changing battery LED colors?
-        if (getResources().getBoolean(com.android.internal.R.bool.config_multiColorBatteryLed)) {
+        if (mMultiColorLed) {
             setHasOptionsMenu(true);
 
             // Low, Medium and full color preferences
@@ -141,10 +146,13 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.add(0, MENU_RESET, 0, R.string.reset)
-                .setIcon(R.drawable.ic_settings_backup_restore)
-                .setAlphabeticShortcut('r')
-                .setShowAsActionFlags(MenuItem.SHOW_AS_ACTION_ALWAYS | MenuItem.SHOW_AS_ACTION_WITH_TEXT);
+        if (mMultiColorLed) {
+            menu.add(0, MENU_RESET, 0, R.string.reset)
+                    .setIcon(R.drawable.ic_settings_backup_restore)
+                    .setAlphabeticShortcut('r')
+                    .setShowAsActionFlags(
+                            MenuItem.SHOW_AS_ACTION_ALWAYS | MenuItem.SHOW_AS_ACTION_WITH_TEXT);
+        }
     }
 
     @Override
