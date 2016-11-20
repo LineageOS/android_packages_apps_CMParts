@@ -141,14 +141,10 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        if (getResources().getBoolean(
-                com.android.internal.R.bool.config_multiColorBatteryLed)) {
-            menu.add(0, MENU_RESET, 0, R.string.reset)
-                    .setIcon(R.drawable.ic_settings_backup_restore)
-                    .setAlphabeticShortcut('r')
-                    .setShowAsActionFlags(
-                            MenuItem.SHOW_AS_ACTION_ALWAYS | MenuItem.SHOW_AS_ACTION_WITH_TEXT);
-        }
+        menu.add(0, MENU_RESET, 0, R.string.reset)
+                .setIcon(R.drawable.ic_settings_backup_restore)
+                .setAlphabeticShortcut('r')
+                .setShowAsActionFlags(MenuItem.SHOW_AS_ACTION_ALWAYS | MenuItem.SHOW_AS_ACTION_WITH_TEXT);
     }
 
     @Override
