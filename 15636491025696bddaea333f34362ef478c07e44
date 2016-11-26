@@ -16,6 +16,23 @@
       "revId": "15636491025696bddaea333f34362ef478c07e44",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_d23745e3",
+        "filename": "res/xml/button_settings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-11-26T11:15:35Z",
+      "side": 1,
+      "message": "Could use cm:requiresFeature\u003d\"cmhardware:FEATURE_VIBRATOR\"",
+      "revId": "15636491025696bddaea333f34362ef478c07e44",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
