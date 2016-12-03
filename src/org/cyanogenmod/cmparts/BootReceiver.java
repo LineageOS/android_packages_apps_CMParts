@@ -23,6 +23,7 @@ import android.content.SharedPreferences;
 import android.support.v7.preference.PreferenceManager;
 
 import org.cyanogenmod.cmparts.contributors.ContributorsCloudFragment;
+import org.cyanogenmod.cmparts.gestures.MovesSettings;
 import org.cyanogenmod.cmparts.input.ButtonSettings;
 
 public class BootReceiver extends BroadcastReceiver {
@@ -35,6 +36,7 @@ public class BootReceiver extends BroadcastReceiver {
         if (!hasRestoredTunable(ctx)) {
             /* Restore the hardware tunable values */
             ButtonSettings.restoreKeyDisabler(ctx);
+            MovesSettings.restoreTouchscreenGestureStates(ctx);
             setRestoredTunable(ctx);
         }
 
