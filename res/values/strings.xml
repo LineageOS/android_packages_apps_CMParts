@@ -562,4 +562,22 @@
     <string name="expanded_desktop_style_hide_navigation">Hide navigation bar</string>
     <string name="expanded_desktop_style_hide_both">Hide both</string>
     <string name="expanded_desktop_nothing_to_show_text">Turn the switch off to customize your expanded desktop on a per-app basis</string>
+
+    <!-- Moves -->
+    <string name="moves_settings_title">Moves</string>
+    <string name="moves_settings_summary">Quick gestures to control your phone</string>
+
+    <string name="touchscreen_gestures_category_title">Touchscreen gestures</string>
+    <string name="touchscreen_gesture_two_finger_downwards_swipe_title">Two finger downwards swipe</string>
+    <string name="touchscreen_gesture_two_finger_downwards_swipe_summary">Swipe down with two fingers</string>
+    <string name="touchscreen_gesture_left_arrow_title">Left arrow</string>
+    <string name="touchscreen_gesture_left_arrow_summary">Draw a \"&lt;\"</string>
+    <string name="touchscreen_gesture_right_arrow_title">Right arrow</string>
+    <string name="touchscreen_gesture_right_arrow_summary">Draw a \"&gt;\"</string>
+    <string name="touchscreen_gesture_letter_c_title">Letter C</string>
+    <string name="touchscreen_gesture_letter_c_summary">Draw the letter \"C\"</string>
+    <string name="touchscreen_gesture_letter_o_title">Letter O</string>
+    <string name="touchscreen_gesture_letter_o_summary">Draw the letter "\O\"</string>
+    <string name="touchscreen_gesture_letter_v_title">Letter V</string>
+    <string name="touchscreen_gesture_letter_v_summary">Draw the letter \"V\"</string>
 </resources>
