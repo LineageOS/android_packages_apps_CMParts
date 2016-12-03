@@ -131,6 +131,30 @@
                 android:value="button_settings" />
         </activity-alias>
 
+        <!-- Moves settings (dashboard) -->
+        <activity-alias
+            android:name=".gestures.MovesSettings"
+            android:label="@string/moves_settings_title"
+            android:targetActivity="PartsActivity">
+            <intent-filter>
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                <action android:name="org.cyanogenmod.cmparts.MOVES_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.device" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_settings_moves" />
+            <meta-data
+                android:name="org.cyanogenmod.settings.summary.receiver"
+                android:value="org.cyanogenmod.cmparts.PartsUpdater" />
+            <meta-data
+                android:name="org.cyanogenmod.settings.summary.key"
+                android:value="moves_settings" />
+        </activity-alias>
+
         <!-- Profiles settings (dashboard) -->
         <activity-alias
             android:name=".profiles.ProfilesSettings"
