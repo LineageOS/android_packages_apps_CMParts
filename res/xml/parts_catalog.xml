@@ -38,6 +38,11 @@
           android:fragment="org.cyanogenmod.cmparts.input.ButtonSettings"
           cm:xmlRes="@xml/button_settings" />
 
+    <part android:key="moves_settings"
+          android:title="@string/moves_settings_title"
+          android:fragment="org.cyanogenmod.cmparts.gestures.MovesSettings"
+          cm:xmlRes="@xml/moves_settings" />
+
     <part android:key="contributors"
           android:title="@string/contributors_cloud_fragment_title"
           android:fragment="org.cyanogenmod.cmparts.contributors.ContributorsCloudFragment" />
