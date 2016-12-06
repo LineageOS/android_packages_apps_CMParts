@@ -58,8 +58,6 @@ public class GesturesSettings extends SettingsPreferenceFragment {
     private static final Map<Integer, Integer> sGestureActionMap = new ArrayMap<>();
     private static boolean sGestureActionsLoaded = false;
 
-    private CMHardwareManager mManager;
-
     public static final SummaryProvider SUMMARY_PROVIDER = new SummaryProvider() {
         @Override
         public String getSummary(final Context context, final String key) {
@@ -73,13 +71,13 @@ public class GesturesSettings extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.gestures_settings);
 
-        initTouchscreenGestures();
+        initTouchscreenGesturesCategory();
     }
 
-    private void initTouchscreenGestures() {
+    private void initTouchscreenGesturesCategory() {
         final PreferenceCategory category =
                 (PreferenceCategory) findPreference("touchscreen_gestures_category");
-        // Do we even support touchscreen gestures?
+        // Does the device support touchscreen gestures?
         if (category == null) {
             return;
         }
@@ -88,10 +86,9 @@ public class GesturesSettings extends SettingsPreferenceFragment {
             restoreTouchscreenGestureStates(getActivity());
         }
 
-        mManager = CMHardwareManager.getInstance(getContext());
-        final TouchscreenGesture[] gestures = mManager.getTouchscreenGestures();
-        final int[] defaultActions = getDefaultGestureActions(getContext(), gestures);
-
+        final CMHardwareManager manager = CMHardwareManager.getInstance(getContext());
+        final TouchscreenGesture[] gestures = manager.getTouchscreenGestures();
+        final int[] defaultActions = getDefaultActionsForGestures(getContext(), gestures);
         for (final TouchscreenGesture gesture : gestures) {
             category.addPreference(new TouchscreenGesturePreference(
                     getContext(), gesture, defaultActions[gesture.id]));
@@ -101,12 +98,14 @@ public class GesturesSettings extends SettingsPreferenceFragment {
     private class TouchscreenGesturePreference extends ListPreference
             implements Preference.OnPreferenceChangeListener {
 
+        private final Context mContext;
         private final TouchscreenGesture mGesture;
 
         public TouchscreenGesturePreference(final Context context,
                                             final TouchscreenGesture gesture,
                                             final int defaultAction) {
             super(context);
+            mContext = context;
             mGesture = gesture;
 
             setKey(String.valueOf(gesture.id));
@@ -127,9 +126,10 @@ public class GesturesSettings extends SettingsPreferenceFragment {
         @Override
         public boolean onPreferenceChange(final Preference preference, final Object newValue) {
             final int action = Integer.parseInt(String.valueOf(newValue));
+            final CMHardwareManager manager = CMHardwareManager.getInstance(mContext);
             sGestureActionMap.put(mGesture.keycode, action);
             setIcon(getIconDrawableResourceForAction(action));
-            return mManager.setTouchscreenGestureEnabled(mGesture, action > 0);
+            return manager.setTouchscreenGestureEnabled(mGesture, action > 0);
         }
 
         private int getIconDrawableResourceForAction(final int action) {
@@ -159,8 +159,8 @@ public class GesturesSettings extends SettingsPreferenceFragment {
         }
     }
 
-    private static int[] getDefaultGestureActions(final Context context,
-                                                  final TouchscreenGesture[] gestures) {
+    private static int[] getDefaultActionsForGestures(final Context context,
+                                                      final TouchscreenGesture[] gestures) {
         int[] defaultActions = context.getResources()
                 .getIntArray(R.array.config_defaultTouchscreenGestureActions);
         // Do not accept the config if there aren't enough default actions
@@ -183,7 +183,7 @@ public class GesturesSettings extends SettingsPreferenceFragment {
         }
 
         final TouchscreenGesture[] gestures = manager.getTouchscreenGestures();
-        final int[] defaultActions = getDefaultGestureActions(context, gestures);
+        final int[] defaultActions = getDefaultActionsForGestures(context, gestures);
         for (final TouchscreenGesture gesture : gestures) {
             final int value = getPreferenceInt(context,
                     String.valueOf(gesture.id), String.valueOf(defaultActions[gesture.id]));
