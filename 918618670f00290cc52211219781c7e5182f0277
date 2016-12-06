@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5f681702_c7e80118",
+        "filename": "res/layout/touchscreen_gesture_list_item.xml",
+        "patchSetId": 35
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-12-06T12:13:06Z",
+      "side": 1,
+      "message": "Why do you use a custom layout in the first place? Isn\u0027t icon + title + summary pretty much the standard layout?",
+      "parentUuid": "5f681702_2794558b",
+      "revId": "918618670f00290cc52211219781c7e5182f0277",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5f681702_4797d191",
         "filename": "res/values/strings.xml",
         "patchSetId": 35
