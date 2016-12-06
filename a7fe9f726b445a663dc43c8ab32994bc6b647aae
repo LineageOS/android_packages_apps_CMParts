@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_e7a37d4e",
+        "filename": "src/org/cyanogenmod/cmparts/gestures/GesturesSettings.java",
+        "patchSetId": 41
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-06T15:08:09Z",
+      "side": 1,
+      "message": "This should be more robust and simply fill in the missing defaultActions.",
+      "revId": "a7fe9f726b445a663dc43c8ab32994bc6b647aae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
