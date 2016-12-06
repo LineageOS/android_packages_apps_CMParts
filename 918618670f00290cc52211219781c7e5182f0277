@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "5f681702_07f3190c",
+        "filename": "res/layout/touchscreen_gesture_list_item.xml",
+        "patchSetId": 35
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-06T12:14:18Z",
+      "side": 1,
+      "message": "I thought listpreferences don\u0027t support icons?",
+      "parentUuid": "5f681702_c7e80118",
+      "revId": "918618670f00290cc52211219781c7e5182f0277",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5f681702_4797d191",
         "filename": "res/values/strings.xml",
         "patchSetId": 35
