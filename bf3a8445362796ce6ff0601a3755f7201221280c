@@ -16,6 +16,24 @@
       "revId": "bf3a8445362796ce6ff0601a3755f7201221280c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_6d9f4b03",
+        "filename": "src/org/cyanogenmod/cmparts/gestures/KeyHandler.java",
+        "patchSetId": 47
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-12-07T12:53:43Z",
+      "side": 1,
+      "message": "No, this is for precaution only. I just wanted to avoid any kind of possibility of bringing down system_server due to a weird broadcast content.",
+      "parentUuid": "5f681702_cdfadf40",
+      "revId": "bf3a8445362796ce6ff0601a3755f7201221280c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
