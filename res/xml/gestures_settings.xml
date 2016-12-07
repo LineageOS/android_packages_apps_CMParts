@@ -21,6 +21,24 @@
     android:title="@string/gestures_settings_title">
 
     <PreferenceCategory
+        android:key="ambient_display_category"
+        android:title="@string/ambient_display_category_title">
+
+        <SwitchPreference
+            android:key="ambient_display_hand_wave"
+            android:title="@string/ambient_display_hand_wave_title"
+            android:summary="@string/ambient_display_hand_wave_summary"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="ambient_display_pocket"
+            android:title="@string/ambient_display_pocket_title"
+            android:summary="@string/ambient_display_pocket_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="touchscreen_gestures_category"
         android:title="@string/touchscreen_gestures_category_title"
         cm:requiresFeature="cmhardware:FEATURE_TOUCHSCREEN_GESTURES">

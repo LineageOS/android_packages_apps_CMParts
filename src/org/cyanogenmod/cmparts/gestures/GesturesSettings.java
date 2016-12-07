@@ -62,7 +62,12 @@ public class GesturesSettings extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.gestures_settings);
 
+        initAmbientDisplayCategory();
         initTouchscreenGesturesCategory();
+    }
+
+    private void initAmbientDisplayCategory() {
+
     }
 
     private void initTouchscreenGesturesCategory() {
