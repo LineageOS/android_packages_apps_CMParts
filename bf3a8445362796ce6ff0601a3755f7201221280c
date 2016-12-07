@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_cdfadf40",
+        "filename": "src/org/cyanogenmod/cmparts/gestures/KeyHandler.java",
+        "patchSetId": 47
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-07T12:49:38Z",
+      "side": 1,
+      "message": "Can these checks ever be false? Based on what I\u0027m seeing in GesturesSettings, it seems like keycodes.length \u003d\u003d actions.length is always true, and since they\u0027re all ints, they can\u0027t seem to ever be null.",
+      "revId": "bf3a8445362796ce6ff0601a3755f7201221280c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
