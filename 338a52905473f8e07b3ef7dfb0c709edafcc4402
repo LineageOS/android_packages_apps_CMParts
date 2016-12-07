@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_b0aedce4",
+        "filename": "src/org/cyanogenmod/cmparts/gestures/GesturesSettings.java",
+        "patchSetId": 48
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-07T14:01:45Z",
+      "side": 1,
+      "message": "Maybe we should set all the gesture actions to 0 by default (in XML) to avoid a null array here",
+      "revId": "338a52905473f8e07b3ef7dfb0c709edafcc4402",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
