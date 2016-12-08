@@ -32,6 +32,12 @@
         android:title="@string/touchscreen_gestures_category_title">
 
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
+            android:key="proximity_on_wake"
+            android:title="@string/proximity_on_wake_title"
+            android:summary="@string/proximity_on_wake_summary"
+            cm:requiresConfig="@*cyanogenmod.platform:bool/config_proximityCheckOnWake" />
+
+        <cyanogenmod.preference.CMSystemSettingSwitchPreference
             android:key="touchscreen_gesture_haptic_feedback"
             android:title="@string/touchscreen_gestures_haptic_feedback_title"
             android:summary="@string/touchscreen_gestures_haptic_feedback_summary"
