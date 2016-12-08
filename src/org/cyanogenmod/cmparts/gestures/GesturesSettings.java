@@ -17,17 +17,21 @@
 package org.cyanogenmod.cmparts.gestures;
 
 import android.content.Context;
+import android.content.ContentResolver;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v7.preference.Preference;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceManager;
+import android.support.v14.preference.SwitchPreference;
 import android.util.SparseIntArray;
 
 import cyanogenmod.hardware.CMHardwareManager;
 import cyanogenmod.hardware.TouchscreenGesture;
+import cyanogenmod.providers.CMSettings;
 
 import org.cyanogenmod.cmparts.gestures.GesturesConstants;
 import org.cyanogenmod.cmparts.R;
@@ -36,10 +40,15 @@ import org.cyanogenmod.cmparts.utils.ResourceUtils;
 
 import java.lang.System;
 
-public class GesturesSettings extends SettingsPreferenceFragment {
+public class GesturesSettings extends SettingsPreferenceFragment implements
+    Preference.OnPreferenceChangeListener {
 
     private static final String KEY_TOUCHSCREEN_GESTURE = "touchscreen_gesture";
     private static final String TOUCHSCREEN_GESTURE_TITLE = KEY_TOUCHSCREEN_GESTURE + "_%s_title";
+    private static final String KEY_FLIP_TO_MUTE = "flip_to_mute_gesture";
+
+    private Context mContext;
+    private SwitchPreference mFlipToMuitePref;
 
     public static final SummaryProvider SUMMARY_PROVIDER = new SummaryProvider() {
         @Override
@@ -54,17 +63,21 @@ public class GesturesSettings extends SettingsPreferenceFragment {
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        mContext = getActivity();
         addPreferencesFromResource(R.xml.gestures_settings);
 
         if (isTouchscreenGesturesSupported(getContext())) {
             initTouchscreenGesturesCategory();
         }
+
+        mFlipToMuitePref = (SwitchPreference) findPreference(KEY_FLIP_TO_MUTE);
+        mFlipToMuitePref.setOnPreferenceChangeListener(this);
     }
 
     private void initTouchscreenGesturesCategory() {
         final PreferenceCategory category =
                 (PreferenceCategory) findPreference("touchscreen_gestures_category");
-        final CMHardwareManager manager = CMHardwareManager.getInstance(getContext());
+        final CMHardwareManager manager = CMHardwareManager.getInstance(mContext);
         mTouchscreenGestures = manager.getTouchscreenGestures();
         final int[] actions = getDefaultGestureActions(getContext(), mTouchscreenGestures);
         for (final TouchscreenGesture gesture : mTouchscreenGestures) {
@@ -72,6 +85,22 @@ public class GesturesSettings extends SettingsPreferenceFragment {
                     getContext(), gesture, actions[gesture.id]));
         }
     }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mFlipToMuitePref) {
+            boolean isFlipOn = (Boolean) newValue;
+            int mValue = isFlipOn ?
+                    CMSettings.Secure.MOTION_BEHAVIOR_FLIP_TO_MUTE_INCOMING_CALL :
+                    CMSettings.Secure.MOTION_BEHAVIOR_NOTHING;
+            CMSettings.Secure.putInt(mContext.getContentResolver(),
+                    CMSettings.Secure.MOTION_BEHAVIOR, mValue);
+            return true;
+        }
+
+        return true;
+      }
+
 
     private class TouchscreenGesturePreference extends ListPreference {
         private final Context mContext;
