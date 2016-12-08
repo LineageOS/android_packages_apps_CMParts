@@ -600,4 +600,7 @@
     <string name="touchscreen_gesture_action_play_pause_music">Play/pause music playback</string>
     <string name="touchscreen_gesture_action_previous_track">Navigate to the previous music track</string>
     <string name="touchscreen_gesture_action_next_track">Skip to the next music track</string>
+
+    <string name="gestures_flip_to_mute_title">Flip to mute</string>
+    <string name="gestures_flip_to_mute_summary">Turn phone face down to mute incoming call</string>
 </resources>
