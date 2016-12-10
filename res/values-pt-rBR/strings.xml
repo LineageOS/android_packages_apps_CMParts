@@ -176,16 +176,68 @@
   <string name="power_end_call_title">Desligar chamada</string>
   <string name="power_end_call_summary">Pressionar o botão de energia desliga a chamada</string>
   <string name="swap_volume_buttons_title">Reorientar</string>
+  <string name="swap_volume_buttons_summary">Inverter botões de volume quando a tela estiver invertida</string>
+  <string name="button_wake_title">Acordar o dispositivo</string>
+  <string name="volume_answer_call_title">Atender chamada</string>
+  <string name="volume_answer_call_summary">Atender as chamadas pressionando os botões de volume</string>
   <string name="home_answer_call_title">Atender chamada</string>
+  <string name="home_answer_call_summary">Pressionar o botão início atende a chamada recebida</string>
   <!-- Key backlight -->
+  <string name="button_backlight_title">Luz de fundo</string>
   <string name="button_backlight_enabled">Iluminar botões</string>
   <string name="keyboard_backlight_enabled">Iluminar teclado</string>
+  <string name="button_backlight_seekbar_title">Brilho dos botões</string>
+  <string name="keyboard_backlight_seekbar_title">Brilho do teclado</string>
+  <string name="backlight_timeout_title">Duração do brilho</string>
+  <string name="backlight_timeout_unlimited">Não desligar</string>
+  <string name="backlight_summary_disabled">Desativado</string>
+  <string name="backlight_summary_enabled_with_timeout">Ativado por <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="timeout">%s</xliff:g></string>
+  <string name="backlight_summary_enabled">Ativado</string>
   <!-- Buttons - Enable navbar -->
+  <string name="disable_navkeys_title">Ativar barra de navegação na tela</string>
+  <string name="disable_navkeys_summary">Ativar barra de navegação na tela e desativar botões físicos</string>
   <!-- Navigation Bar -->
+  <string name="navigation_bar_category">Barra de navegação</string>
+  <string name="navigation_bar_title">Botões e layout</string>
+  <string name="navigation_bar_left_title">Modo canhoto</string>
+  <string name="navigation_bar_left_summary">Posicionar a barra de navegação no lado esquerdo da tela em modo paisagem</string>
+  <string name="navigation_bar_arrow_keys_title">Mostrar teclas de seta enquanto digita</string>
+  <string name="navigation_bar_arrow_keys_summary">Exibir botões esquerda e direita do cursor durante a digitação. Substitui o seletor de Teclado.</string>
+  <string name="navigation_bar_home_double_tap_title">Ação de toque duplo no botão de Página Inicial</string>
   <string name="navigation_bar_recents_title">Ação de pressionar e segurar aplicativos recentes</string>
   <!-- Power menu -->
+  <string name="power_menu_title">Opções do botão liga/desliga</string>
+  <string name="power_menu_reboot_title">Menu de reinicialização</string>
+  <string name="power_menu_screenshot_title">Captura de tela</string>
+  <string name="power_menu_airplane_title">Modo avião</string>
+  <string name="power_menu_users_title">Alternador de usuário</string>
+  <string name="power_menu_settings_title">Atalho para as configurações</string>
+  <string name="power_menu_lockdown_title">Bloqueio de dispositivo</string>
+  <string name="power_menu_bug_report_title">Relatório de erros</string>
+  <string name="power_menu_sound_title">Painel de som</string>
+  <string name="power_menu_bug_report_disabled">Relatório de erros desativado nas configurações de desenvolvedor</string>
+  <string name="volume_keys_control_ring_stream_title">Controle de volume do toque</string>
+  <string name="volume_keys_control_ring_stream_summary_on">Botões de volume controlam o volume do toque</string>
+  <string name="volume_keys_control_ring_stream_summary_off">Teclas de volume controlam o volume da mídia</string>
+  <string name="camera_double_tap_power_gesture_title">Pressione o botão ligar/desligar duas vezes para iniciar a câmara</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="camera_double_tap_power_gesture_desc">Abrir rapidamente a câmera sem desbloquear a tela</string>
   <!-- Profiles -->
+  <string name="profile_menu_delete_title">Excluir</string>
+  <string name="profile_action_none">Deixar inalterado</string>
+  <string name="profile_action_system">Padrão do sistema</string>
+  <string name="profile_action_disable">Desativar</string>
+  <string name="profile_action_enable">Ativar</string>
+  <string name="profile_trigger_a2dp_connect">Ao conectar o A2DP</string>
+  <string name="profile_trigger_a2dp_disconnect">Ao desconectar o A2DP</string>
+  <string name="profile_tabs_wifi">Wi\u2011Fi</string>
+  <string name="profile_tabs_bluetooth">Bluetooth</string>
+  <string name="profile_tabs_nfc">NFC</string>
+  <string name="profile_triggers_header">Gatilhos que ativarão este perfil</string>
+  <string name="profile_setup_setup_triggers_title">Etapa 1: Adicionar gatilhos</string>
+  <string name="profile_setup_setup_triggers_title_config">Modificar gatilhos: <xliff:g id="profile_name">%1$s</xliff:g></string>
+  <string name="profile_setup_actions_title">Etapa 2: Ações de instalação</string>
+  <string name="profile_setup_actions_title_config">Reconfigurar ações</string>
   <string name="wireless_networks_settings_title">Wireless e redes</string>
   <!-- Profile triggers -->
   <!-- Profiles settings  -->

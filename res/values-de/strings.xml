@@ -336,6 +336,7 @@
   <string name="profile_choose_app">App auswählen</string>
   <!-- Profiles - system settings -->
   <string name="profile_system_settings_title">Systemeinstellungen</string>
+  <string name="profile_lockmode_title">Sperrbildschirmmodus</string>
   <string name="profile_lockmode_policy_disabled_summary">Diese Option wurde durch eine Geräteadministrator-Richtlinie deaktiviert.</string>
   <string name="profile_lockmode_insecure_summary">Nicht nach PIN oder Passwort fragen</string>
   <string name="profile_lockmode_disabled_summary">Bildschirmsperre deaktivieren</string>
