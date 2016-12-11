@@ -232,6 +232,10 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
                     launchGetWeatherProviders();
                     return false;
                 }
+                @Override
+                public void onPreferenceClick() {
+                    launchGetWeatherProviders();
+                }
             });
             mProvidersCategory.addPreference(addServicePreference);
 
