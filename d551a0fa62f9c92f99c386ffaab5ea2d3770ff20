@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_1ff986c7",
+        "filename": "src/org/cyanogenmod/cmparts/power/PerfProfileSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-12-12T16:35:51Z",
+      "side": 1,
+      "message": "Maybe remove the spacing here, keep the rest to avoid unrelated changes.",
+      "revId": "d551a0fa62f9c92f99c386ffaab5ea2d3770ff20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
