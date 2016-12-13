@@ -378,7 +378,6 @@
   <string name="status_bar_clock_style_right">右侧</string>
   <string name="status_bar_clock_style_left">左侧</string>
   <string name="status_bar_clock_style_center">中间</string>
-  <string name="status_bar_clock_style_hidden">隐藏</string>
   <string name="status_bar_am_pm_title">上午 / 下午样式</string>
   <string name="status_bar_am_pm_info">24 小时制时钟已启用</string>
   <string name="status_bar_am_pm_normal">正常</string>

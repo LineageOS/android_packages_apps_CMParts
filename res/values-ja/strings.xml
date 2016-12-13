@@ -378,7 +378,6 @@
   <string name="status_bar_clock_style_right">右</string>
   <string name="status_bar_clock_style_left">左</string>
   <string name="status_bar_clock_style_center">中央</string>
-  <string name="status_bar_clock_style_hidden">表示しない</string>
   <string name="status_bar_am_pm_title">午前/午後のスタイル</string>
   <string name="status_bar_am_pm_info">24時間表示が有効になっています</string>
   <string name="status_bar_am_pm_normal">標準</string>
