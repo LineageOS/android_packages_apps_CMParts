@@ -383,7 +383,6 @@
   <string name="status_bar_clock_style_right">Højre</string>
   <string name="status_bar_clock_style_left">Venstre</string>
   <string name="status_bar_clock_style_center">Centreret</string>
-  <string name="status_bar_clock_style_hidden">Skjult</string>
   <string name="status_bar_am_pm_title">AM/PM-layout</string>
   <string name="status_bar_am_pm_info">24-timers ur er aktiveret</string>
   <string name="status_bar_am_pm_normal">Normal</string>
