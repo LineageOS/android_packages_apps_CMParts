@@ -378,7 +378,6 @@
   <string name="status_bar_clock_style_right">Вдясно</string>
   <string name="status_bar_clock_style_left">Вляво</string>
   <string name="status_bar_clock_style_center">По средата</string>
-  <string name="status_bar_clock_style_hidden">Скрита</string>
   <string name="status_bar_am_pm_title">AM/PM стил</string>
   <string name="status_bar_am_pm_info">Включен 24-часов формат за време</string>
   <string name="status_bar_am_pm_normal">Нормален</string>
