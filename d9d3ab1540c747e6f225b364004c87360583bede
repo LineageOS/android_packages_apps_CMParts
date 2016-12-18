@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_e19fba5c",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 433,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-18T11:20:30Z",
+      "side": 1,
+      "message": "Can we rename the _clock_style_ references to _clock_position_ as well? It will result in a bit of noise, but I feel that it will more accurately represent the purpose of the renamed setting.",
+      "revId": "d9d3ab1540c747e6f225b364004c87360583bede",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
