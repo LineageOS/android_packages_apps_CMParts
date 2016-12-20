@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_36b9f2cb",
+        "filename": "res/xml/networktraffic_settings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 8065
+      },
+      "writtenOn": "2016-12-20T17:40:33Z",
+      "side": 1,
+      "message": "android:persistent\u003dfalse needs to be set here.",
+      "revId": "009bf9b91a0ce91d8a5c2b2d51d775e8fa32a974",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
