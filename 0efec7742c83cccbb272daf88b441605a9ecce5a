@@ -16,6 +16,24 @@
       "revId": "0efec7742c83cccbb272daf88b441605a9ecce5a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_db7c27b7",
+        "filename": "res/values-be-rBY/strings.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 8328
+      },
+      "writtenOn": "2016-12-20T11:27:42Z",
+      "side": 1,
+      "message": "find res/ -type f -exec sed -i \u0027/status_bar_clock_position_hidden/d\u0027 {} \\;",
+      "parentUuid": "5f681702_5b7137e0",
+      "revId": "0efec7742c83cccbb272daf88b441605a9ecce5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
