@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_5b7137e0",
+        "filename": "res/values-be-rBY/strings.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-20T11:23:27Z",
+      "side": 1,
+      "message": "Heh, we probably should also remove this too now that we\u0027re modifying the line. But I kinda feel bad making you do go through all the translations again...",
+      "revId": "0efec7742c83cccbb272daf88b441605a9ecce5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
