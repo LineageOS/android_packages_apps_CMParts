@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_9e4bb829",
+        "filename": "res/values-zh-rTW/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 484,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-12-22T05:18:18Z",
+      "side": 1,
+      "message": "%d \\u0025",
+      "range": {
+        "startLine": 484,
+        "startChar": 46,
+        "endLine": 484,
+        "endChar": 49
+      },
+      "revId": "c7d1f8fbb657aafe3b7747c56cb1cae76aeb919c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
