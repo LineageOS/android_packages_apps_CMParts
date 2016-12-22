@@ -105,13 +105,13 @@
         <item>@string/profile_action_disable</item>
         <item>@string/profile_action_enable</item>
     </string-array>
-    
+
     <string-array name="profile_doze_entries" translatable="false">
         <item>@string/profile_action_none</item>
         <item>@string/profile_action_enable</item>
         <item>@string/profile_action_disable</item>
     </string-array>
-    
+
     <string-array name="profile_notification_light_entries" translatable="false">
         <item>@string/profile_action_none</item>
         <item>@string/profile_action_enable</item>
@@ -261,7 +261,7 @@
 
     <!-- Auto power save mode: Allowable trigger threshold entries -->
     <string-array name="auto_power_save_entries" translatable="false">
-        <item>Never</item>
+        <item>@string/auto_power_save_never</item>
         <item>5%</item>
         <item>15%</item>
         <item>25%</item>
