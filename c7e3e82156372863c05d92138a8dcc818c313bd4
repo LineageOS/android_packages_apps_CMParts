@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_99a3d29e",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-22T16:31:03Z",
+      "side": 1,
+      "message": "this and line 114 are unrelated changes",
+      "revId": "c7e3e82156372863c05d92138a8dcc818c313bd4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
