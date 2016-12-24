@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_e3068c86",
+        "filename": "src/org/cyanogenmod/cmparts/sounds/ChargingSoundsSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2016-12-24T08:22:24Z",
+      "side": 1,
+      "message": "extra whitespace",
+      "revId": "b209cac58e644f95ad787c9d5c1eaac477473aed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
