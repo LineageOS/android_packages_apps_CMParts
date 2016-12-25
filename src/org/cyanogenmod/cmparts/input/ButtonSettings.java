@@ -80,6 +80,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             = "camera_double_tap_power_gesture";
     private static final String KEY_TORCH_LONG_PRESS_POWER_GESTURE
             = "torch_long_press_power_gesture";
+    private static final String KEY_TORCH_LONG_PRESS_POWER_TIMEOUT
+            = "torch_long_press_power_timeout";
 
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_HOME = "home_key";
@@ -153,6 +155,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mHomeAnswerCall;
     private SwitchPreference mCameraDoubleTapPowerGesture;
     private SwitchPreference mTorchLongPressPowerGesture;
+    private ListPreference mTorchLongPressPowerTimeout;
 
     private PreferenceCategory mNavigationPreferencesCat;
 
@@ -218,6 +221,10 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         // Long press power while display is off to activate torchlight
         mTorchLongPressPowerGesture
                     = (SwitchPreference) findPreference(KEY_TORCH_LONG_PRESS_POWER_GESTURE);
+        final int torchLongPressPowerTimeout = CMSettings.System.getInt(resolver,
+                CMSettings.System.TORCH_LONG_PRESS_POWER_TIMEOUT, 0);
+        mTorchLongPressPowerTimeout = initActionList(KEY_TORCH_LONG_PRESS_POWER_TIMEOUT,
+                torchLongPressPowerTimeout);
 
         // Home button answers calls.
         mHomeAnswerCall = (SwitchPreference) findPreference(KEY_HOME_ANSWER_CALL);
@@ -304,6 +311,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             }
             if (!QSUtils.deviceSupportsFlashLight(getActivity())) {
                 powerCategory.removePreference(mTorchLongPressPowerGesture);
+                powerCategory.removePreference(mTorchLongPressPowerTimeout);
             }
         } else {
             prefScreen.removePreference(powerCategory);
@@ -654,6 +662,10 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             boolean value = (Boolean) newValue;
             Settings.Secure.putInt(getContentResolver(), CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,
                     value ? 0 : 1 /* Backwards because setting is for disabling */);
+            return true;
+        } else if (preference == mTorchLongPressPowerTimeout) {
+            handleActionListChange(mTorchLongPressPowerTimeout, newValue,
+                    CMSettings.System.TORCH_LONG_PRESS_POWER_TIMEOUT);
             return true;
         }
         return false;
