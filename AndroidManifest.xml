@@ -2,6 +2,7 @@
 <!--
 /**
  * Copyright 2016, The CyanogenMod Project
+ *           2017, The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -130,6 +131,14 @@
                 android:name="org.cyanogenmod.settings.summary.key"
                 android:value="button_settings" />
         </activity-alias>
+
+        <receiver android:name=".input.ButtonSettingsUpdateReceiver"
+                  android:enabled="true"
+                  android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="com.cyanogenmod.settings.device.FP_HOME_TOGGLE" />
+            </intent-filter>
+        </receiver>
 
         <!-- Profiles settings (dashboard) -->
         <activity-alias
