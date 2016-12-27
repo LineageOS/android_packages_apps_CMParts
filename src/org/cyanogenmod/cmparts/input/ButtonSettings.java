@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 The CyanogenMod project
+ *           (C) 2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -125,6 +126,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     public static final int KEY_MASK_APP_SWITCH = 0x10;
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
+
+    public static boolean mFingerprintHomeButtonEnabled = true;
 
     private ListPreference mHomeLongPressAction;
     private ListPreference mHomeDoubleTapAction;
@@ -490,6 +493,12 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             final boolean homeButtonAnswersCall =
                 (incallHomeBehavior == CMSettings.Secure.RING_HOME_BUTTON_BEHAVIOR_ANSWER);
             mHomeAnswerCall.setChecked(homeButtonAnswersCall);
+        }
+
+        // Don't allow the user to set long press actions for home button unless
+        // fingerprint reader is being used as home button (only applicable to select devices)
+        if (mHomeLongPressAction != null) {
+            mHomeLongPressAction.setEnabled(mFingerprintHomeButtonEnabled);
         }
     }
 
