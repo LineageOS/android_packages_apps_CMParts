@@ -126,6 +126,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
 
+    public static boolean mFingerprintHomeButtonEnabled;
+    public static int mLongPressOnHomeBehavior = -1;
+
     private ListPreference mHomeLongPressAction;
     private ListPreference mHomeDoubleTapAction;
     private ListPreference mMenuPressAction;
@@ -312,6 +315,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             mHomeDoubleTapAction = initActionList(KEY_HOME_DOUBLE_TAP, homeDoubleTapAction);
 
             hasAnyBindableKey = true;
+
+            mLongPressOnHomeBehavior = CMSettings.System.getInt(resolver,
+                    CMSettings.System.KEY_HOME_LONG_PRESS_ACTION, mLongPressOnHomeBehavior);
         } else {
             prefScreen.removePreference(homeCategory);
         }
@@ -491,6 +497,10 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 (incallHomeBehavior == CMSettings.Secure.RING_HOME_BUTTON_BEHAVIOR_ANSWER);
             mHomeAnswerCall.setChecked(homeButtonAnswersCall);
         }
+
+        // Don't allow the user to set long press actions for home button if
+        // fingerprint reader is being used as home button
+        mHomeLongPressAction.setEnabled(!mFingerprintHomeButtonEnabled);
     }
 
     private ListPreference initActionList(String key, Action value) {
