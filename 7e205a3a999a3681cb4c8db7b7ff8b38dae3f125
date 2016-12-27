@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa0f191f_3add8143",
+        "filename": "src/org/cyanogenmod/cmparts/cmstats/ReportingService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-27T09:54:00Z",
+      "side": 1,
+      "message": "LA or LineageOS",
+      "revId": "7e205a3a999a3681cb4c8db7b7ff8b38dae3f125",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
