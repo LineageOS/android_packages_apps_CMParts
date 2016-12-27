@@ -16,6 +16,24 @@
       "revId": "7e205a3a999a3681cb4c8db7b7ff8b38dae3f125",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa0f191f_9aedadf2",
+        "filename": "src/org/cyanogenmod/cmparts/cmstats/ReportingService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-27T09:59:23Z",
+      "side": 1,
+      "message": "Actually, I\u0027d say either keep this as \u0027cmorg\u0027, or change line 49 in StatsUploadJobService.java as well",
+      "parentUuid": "fa0f191f_3add8143",
+      "revId": "7e205a3a999a3681cb4c8db7b7ff8b38dae3f125",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
