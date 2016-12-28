@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a23299d_566814f5",
+        "filename": "src/org/cyanogenmod/cmparts/cmstats/ReportingService.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-28T12:09:03Z",
+      "side": 1,
+      "message": "IMO this should stay as \u0027cmorg\u0027 for now. I\u0027ve a feeling that it \u0027cmorg\u0027 here refers to the identifier for of the upload job which, in this case, is \u0027cmorg\u0027 (see line 55).",
+      "revId": "54425ec2acb82e2baef1fc49c80bc33780a4ad74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
