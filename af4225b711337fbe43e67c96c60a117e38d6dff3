@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a23299d_d6d784be",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 432,
+      "author": {
+        "id": 16452
+      },
+      "writtenOn": "2016-12-28T09:08:06Z",
+      "side": 1,
+      "message": "Did you revert my change (Cyanogenmod --\u003e LineageOS) by accident, or do I miss something?",
+      "range": {
+        "startLine": 432,
+        "startChar": 0,
+        "endLine": 432,
+        "endChar": 2
+      },
+      "revId": "af4225b711337fbe43e67c96c60a117e38d6dff3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
