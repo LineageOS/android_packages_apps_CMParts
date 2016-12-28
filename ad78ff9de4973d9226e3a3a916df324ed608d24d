@@ -16,6 +16,24 @@
       "revId": "ad78ff9de4973d9226e3a3a916df324ed608d24d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a23299d_d9ca176e",
+        "filename": "res/values/config.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 5008
+      },
+      "writtenOn": "2016-12-28T17:33:02Z",
+      "side": 1,
+      "message": "It can go live whenever - stats silently fails if it can\u0027t report. My preference is to get these URLs changed immediately, so we capture anyone who\u0027s doing their own builds once this stats/download is live.",
+      "parentUuid": "7a23299d_96a6ac52",
+      "revId": "ad78ff9de4973d9226e3a3a916df324ed608d24d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
