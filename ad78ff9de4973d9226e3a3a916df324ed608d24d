@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a23299d_96a6ac52",
+        "filename": "res/values/config.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-28T12:05:55Z",
+      "side": 1,
+      "message": "Hold off on this change for the stats server to be up.",
+      "revId": "ad78ff9de4973d9226e3a3a916df324ed608d24d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
