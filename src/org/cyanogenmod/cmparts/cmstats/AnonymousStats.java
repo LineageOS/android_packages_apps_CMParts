@@ -19,6 +19,12 @@ package org.cyanogenmod.cmparts.cmstats;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
+
+import android.os.UserHandle;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
+import android.support.v14.preference.SwitchPreference;
 
 import org.cyanogenmod.cmparts.R;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
@@ -32,6 +38,10 @@ public class AnonymousStats extends SettingsPreferenceFragment {
     /* package */ static final String KEY_LAST_JOB_ID = "last_job_id";
     /* package */ static final int QUEUE_MAX_THRESHOLD = 1000;
 
+    private SwitchPreference mDebugPref;
+
+    private static final String DEBUG_PREF_KEY = "send_stats";
+
     public static SharedPreferences getPreferences(Context context) {
         return context.getSharedPreferences(PREF_FILE_NAME, 0);
     }
@@ -40,6 +50,21 @@ public class AnonymousStats extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.anonymous_stats);
+        mDebugPref = (SwitchPreference) findPreference(DEBUG_PREF_KEY);
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference p) {
+        if (p == mDebugPref) {
+            Log.e("CMStats", "setting alarm");
+            getPreferences(getActivity())
+                .edit()
+                .putLong(ANONYMOUS_LAST_CHECKED, 0)
+                .commit();
+            ReportingServiceManager.setAlarm(getActivity());
+            return true;
+        }
+        return super.onPreferenceTreeClick(p);
     }
 
     public static void updateLastSynced(Context context) {

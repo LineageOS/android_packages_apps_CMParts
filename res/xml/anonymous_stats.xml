@@ -25,6 +25,12 @@
             android:summary="@string/stats_collection_summary"
             android:defaultValue="true" />
 
+		<cyanogenmod.preference.CMSecureSettingSwitchPreference
+            android:key="send_stats"
+            android:title="Send stats"
+            android:summary="For debugging"
+            android:defaultValue="true" />
+
     <PreferenceScreen
         android:title="@string/preview_data_title"
         android:fragment="org.cyanogenmod.cmparts.cmstats.PreviewData" />
