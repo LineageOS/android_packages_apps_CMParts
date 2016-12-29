@@ -90,13 +90,19 @@ public class StatsUploadJobService extends JobService {
     private class StatsUploadTask extends AsyncTask<Void, Void, Boolean> {
 
         private JobParameters mJobParams;
+        private Context mContext;
 
-        public StatsUploadTask(JobParameters jobParams) {
+        public StatsUploadTask(JobParameters jobParams, Context context) {
             this.mJobParams = jobParams;
+            this.mContext = context;
         }
 
         @Override
         protected Boolean doInBackground(Void... params) {
+            if (!Utilities.isStatsCollectionEnabled(mContext)) {
+                // opted out since this job was scheduled, bail out
+                return true;
+            }
 
             PersistableBundle extras = mJobParams.getExtras();
 
