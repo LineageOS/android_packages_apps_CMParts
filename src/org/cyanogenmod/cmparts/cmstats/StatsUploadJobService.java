@@ -22,6 +22,7 @@ import android.app.job.JobService;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.PersistableBundle;
+import android.os.SystemProperties;
 import android.util.ArrayMap;
 import android.util.Log;
 import org.cyanogenmod.cmparts.R;
@@ -161,7 +162,11 @@ public class StatsUploadJobService extends JobService {
 
 
     private boolean uploadToCM(JSONObject json) throws IOException {
-        final Uri uri = Uri.parse(getString(R.string.stats_cm_url));
+        String address = SystemProperties.get("cm.stats.uri");
+        if ("".equals(address)) {
+            address = getString(R.string.stats_cm_url);
+        }
+        final Uri uri = Uri.parse(address);
         URL url = new URL(uri.toString());
         HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
         try {
