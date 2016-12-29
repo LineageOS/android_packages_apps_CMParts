@@ -126,6 +126,7 @@ public class StatsUploadJobService extends JobService {
             if (DEBUG)
                 Log.d(TAG, "job id " + mJobParams.getJobId() + ", has finished with success="
                         + success);
+            ReportingService.pendingJobId = -1;
             return success;
         }
 

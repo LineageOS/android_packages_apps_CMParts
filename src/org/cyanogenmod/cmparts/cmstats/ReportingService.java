@@ -34,6 +34,8 @@ public class ReportingService extends IntentService {
     /* package */ static final String TAG = "CMStats";
     private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
 
+    public static int pendingJobId = -1;
+
     public ReportingService() {
         super(ReportingService.class.getSimpleName());
     }
@@ -67,7 +69,7 @@ public class ReportingService extends IntentService {
                 StatsUploadJobService.JOB_TYPE_CMORG);
 
         // schedule cmorg stats upload
-        js.schedule(new JobInfo.Builder(cmOrgJobId, new ComponentName(getPackageName(),
+        pendingJobId = js.schedule(new JobInfo.Builder(cmOrgJobId, new ComponentName(getPackageName(),
                 StatsUploadJobService.class.getName()))
                 .setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY)
                 .setMinimumLatency(1000)
