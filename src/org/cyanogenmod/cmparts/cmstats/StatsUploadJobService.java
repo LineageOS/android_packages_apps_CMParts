@@ -65,6 +65,12 @@ public class StatsUploadJobService extends JobService {
         if (DEBUG)
             Log.d(TAG, "onStartJob() called with " + "jobParameters = [" + jobParameters + "]");
         final StatsUploadTask uploadTask = new StatsUploadTask(jobParameters);
+
+        if (!Utilities.isStatsCollectionEnabled(this)) {
+            jobFinished(jobParameters, true);
+            return true;
+        }
+
         mCurrentJobs.put(jobParameters, uploadTask);
         uploadTask.execute((Void) null);
         return true;
