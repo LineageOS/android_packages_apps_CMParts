@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_b29e4062",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2017-01-02T08:58:28Z",
+      "side": 1,
+      "message": "i think you can nuke priority level",
+      "range": {
+        "startLine": 138,
+        "startChar": 0,
+        "endLine": 138,
+        "endChar": 48
+      },
+      "revId": "8dfb27d1e3c228a0224a12b64ed138c1e42544fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_52a6f4c2",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2017-01-02T08:58:28Z",
+      "side": 1,
+      "message": "Boolean -\u003e boolean",
+      "range": {
+        "startLine": 130,
+        "startChar": 18,
+        "endLine": 130,
+        "endChar": 25
+      },
+      "revId": "8dfb27d1e3c228a0224a12b64ed138c1e42544fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_32ab708b",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 319,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2017-01-02T08:58:28Z",
+      "side": 1,
+      "message": "Pointless if you switch to boolean (which is primitive)",
+      "range": {
+        "startLine": 319,
+        "startChar": 0,
+        "endLine": 319,
+        "endChar": 56
+      },
+      "revId": "8dfb27d1e3c228a0224a12b64ed138c1e42544fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_12b06cf3",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 506,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2017-01-02T08:58:28Z",
+      "side": 1,
+      "message": "Remove null check for the boolean",
+      "range": {
+        "startLine": 506,
+        "startChar": 0,
+        "endLine": 506,
+        "endChar": 84
+      },
+      "revId": "8dfb27d1e3c228a0224a12b64ed138c1e42544fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_f294c845",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettingsUpdateReceiver.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2017-01-02T08:58:28Z",
+      "side": 1,
+      "message": "Use int and not Integer",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 60
+      },
+      "revId": "8dfb27d1e3c228a0224a12b64ed138c1e42544fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
