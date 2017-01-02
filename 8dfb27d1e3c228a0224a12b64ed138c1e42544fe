@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "fa3479d7_32825001",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-02T09:03:38Z",
+      "side": 1,
+      "message": "I know I could do that, but then how do you prevent that other devices aren\u0027t affected by this change? This was the only way I found because then I can check if it is null. It should be null, unless device sends the custom intent.",
+      "parentUuid": "fa3479d7_52a6f4c2",
+      "range": {
+        "startLine": 130,
+        "startChar": 18,
+        "endLine": 130,
+        "endChar": 25
+      },
+      "revId": "8dfb27d1e3c228a0224a12b64ed138c1e42544fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fa3479d7_32ab708b",
         "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
         "patchSetId": 7
@@ -105,6 +129,30 @@
       "writtenOn": "2017-01-02T08:58:28Z",
       "side": 1,
       "message": "Use int and not Integer",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 60
+      },
+      "revId": "8dfb27d1e3c228a0224a12b64ed138c1e42544fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_528dd430",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettingsUpdateReceiver.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-02T09:03:38Z",
+      "side": 1,
+      "message": "Has to be Integer to do this:\n\nif (mHomeLongPressUserSetAction.intValue() \u003d\u003d -1)",
+      "parentUuid": "fa3479d7_f294c845",
       "range": {
         "startLine": 37,
         "startChar": 0,
