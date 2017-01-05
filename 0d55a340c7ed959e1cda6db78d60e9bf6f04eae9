@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_5c3ba2eb",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonSettings.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2017-01-05T10:57:44Z",
+      "side": 1,
+      "message": "sFingerprintHomeButtonEnabled\n\nand better inline the receiver code into this class, then you can make it private.",
+      "revId": "0d55a340c7ed959e1cda6db78d60e9bf6f04eae9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
