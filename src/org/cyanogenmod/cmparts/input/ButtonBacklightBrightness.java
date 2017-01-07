@@ -87,10 +87,6 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
     @Override
     protected void onClick(AlertDialog d, int which) {
         super.onClick(d, which);
-
-        if (getDialog() != null) {
-            mWindow = getDialog().getWindow();
-        }
         updateBrightnessPreview();
     }
 
@@ -275,6 +271,9 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
     }
 
     private void updateBrightnessPreview() {
+        if (getDialog() != null) {
+            mWindow = getDialog().getWindow();
+        }
         if (mWindow != null) {
             LayoutParams params = mWindow.getAttributes();
             if (mActiveControl != null) {
@@ -387,7 +386,10 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
                 mSeekBar = (SeekBar) container.findViewById(R.id.seekbar);
                 mValue = (TextView) container.findViewById(R.id.value);
 
-                mSeekBar.setMax(255);
+                /* Safe to assume device would set
+                 * <integer name="config_buttonBrightnessSettingDefault">XXX</integer>
+                 * in framework overlay to its MAX Value */
+                mSeekBar.setMax(mDefaultBrightness);
                 mSeekBar.setProgress(brightness);
                 mSeekBar.setOnSeekBarChangeListener(this);
             }
@@ -447,7 +449,9 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
         private void handleBrightnessUpdate(int brightness) {
             updateBrightnessPreview();
             if (mValue != null) {
-                mValue.setText(String.format("%d%%", (int)((brightness * 100) / 255)));
+                /* In some cases initial run sets text > 100%, we don't want that */
+                mValue.setText(String.format("%d%%", brightness < mDefaultBrightness 
+                                      ? (int)((brightness * 100) / mDefaultBrightness) : 100));
             }
             updateTimeoutEnabledState();
         }
