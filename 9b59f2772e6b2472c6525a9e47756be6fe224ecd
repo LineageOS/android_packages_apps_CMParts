@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_35db44ef",
+        "filename": "res/values/config.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-01-08T09:43:47Z",
+      "side": 1,
+      "message": "Is this the exact URL being used? I haven\u0027t seen zifnab say anything about that.",
+      "revId": "9b59f2772e6b2472c6525a9e47756be6fe224ecd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
