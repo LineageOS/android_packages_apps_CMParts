@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "fa3479d7_14a278ae",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonBacklightBrightness.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16739
+      },
+      "writtenOn": "2017-01-11T20:27:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa3479d7_d409902d",
+      "revId": "dbd24196098c6c68d49af0161ebfef1a8c9f8f76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fa3479d7_f4049416",
         "filename": "src/org/cyanogenmod/cmparts/input/ButtonBacklightBrightness.java",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2017-01-11T18:29:34Z",
       "side": 1,
       "message": "white space",
+      "revId": "dbd24196098c6c68d49af0161ebfef1a8c9f8f76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_54c80074",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonBacklightBrightness.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 453,
+      "author": {
+        "id": 16739
+      },
+      "writtenOn": "2017-01-11T20:27:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa3479d7_f4049416",
       "revId": "dbd24196098c6c68d49af0161ebfef1a8c9f8f76",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
