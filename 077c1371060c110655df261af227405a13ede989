@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_d4b070df",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-01-11T20:46:08Z",
+      "side": 1,
+      "message": "newline instead of comma, then a blank line",
+      "range": {
+        "startLine": 7,
+        "startChar": 47,
+        "endLine": 7,
+        "endChar": 48
+      },
+      "revId": "077c1371060c110655df261af227405a13ede989",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_74a0a490",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonBacklightBrightness.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-01-11T20:46:08Z",
+      "side": 1,
+      "message": "nope, don\u0027t remove copyright, add the new one below.\nshould look like:\n * Copyright (C) 2013 The CyanogenMod Project\n * Copyright (C) 2017 The LineageOS Project",
+      "range": {
+        "startLine": 2,
+        "startChar": 3,
+        "endLine": 3,
+        "endChar": 2
+      },
+      "revId": "077c1371060c110655df261af227405a13ede989",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
