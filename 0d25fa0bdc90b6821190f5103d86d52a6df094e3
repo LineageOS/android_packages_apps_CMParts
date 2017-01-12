@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_b1fbe046",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonBacklightBrightness.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-01-12T14:39:08Z",
+      "side": 1,
+      "message": "could also live in onBindDialog I guess, but not sure here. Reassigning this on every refreh shouldnt be neccessary, right?",
+      "range": {
+        "startLine": 275,
+        "startChar": 8,
+        "endLine": 277,
+        "endChar": 9
+      },
+      "revId": "0d25fa0bdc90b6821190f5103d86d52a6df094e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
