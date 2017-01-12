@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_94c44a60",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonBacklightBrightness.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 392,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-01-12T21:52:52Z",
+      "side": 1,
+      "message": "I don\u0027t agree that this is safe to assume. I guess the _max_ value will be checked in kernel and default can be any value below that. Just thinking of vibrator, which is, if I recall correctly, _not_ set to maximum by default. I think the original value of \"255\" is a valid one except for maybe some devices which should maybe implement that device/kernel side? and if that doesnt work out, introduce a new overlay with the actual max? \"config_buttonBrightnessSettingDefault\" is a _default_ by name, not a _max_\nCould be wrong, ofc",
+      "range": {
+        "startLine": 390,
+        "startChar": 16,
+        "endLine": 392,
+        "endChar": 59
+      },
+      "revId": "1ff035defa77d53ea587cec2370f83914d9bbccd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
