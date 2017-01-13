@@ -22,6 +22,30 @@
       "revId": "1ff035defa77d53ea587cec2370f83914d9bbccd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_3aa58504",
+        "filename": "src/org/cyanogenmod/cmparts/input/ButtonBacklightBrightness.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 392,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-01-13T16:00:56Z",
+      "side": 1,
+      "message": "Ditto. 255 should be correct here. IMO, any device whose buttons support a different range of brightness values should re-map the values instead.",
+      "parentUuid": "da3975d1_94c44a60",
+      "range": {
+        "startLine": 390,
+        "startChar": 16,
+        "endLine": 392,
+        "endChar": 59
+      },
+      "revId": "1ff035defa77d53ea587cec2370f83914d9bbccd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
