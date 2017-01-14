@@ -75,47 +75,47 @@ public class TelephonyUtils {
                 r = "network_3G";
                 break;
             case RILConstants.NETWORK_MODE_WCDMA_ONLY:
-                r = "network_wcdma_only";
+                r = "network_3G";
                 break;
             case RILConstants.NETWORK_MODE_GSM_UMTS:
-                r = "network_gsm_umts";
+                r = "network_3G";
                 break;
             case RILConstants.NETWORK_MODE_WCDMA_PREF:
-                r = "network_wcdma_pref";
+                r = "network_3G";
                 break;
             case RILConstants.NETWORK_MODE_GSM_ONLY:
-                r = "network_gsm_only";
+                r = "network_2G";
                 break;
             case RILConstants.NETWORK_MODE_LTE_GSM_WCDMA:
                 r = (show4GForLTE)
-                        ? "network_4G" : "network_lte_gsm_wcdma";
+                        ? "network_4G" : "network_lte";
                 break;
             case RILConstants.NETWORK_MODE_LTE_WCDMA:
                 r = (show4GForLTE)
-                        ? "network_4G" : "network_lte_cdma";
+                        ? "network_4G" : "network_lte";
                 break;
             case RILConstants.NETWORK_MODE_LTE_ONLY:
                 r = (show4GForLTE)
-                        ? "network_4G_only" : "network_lte_only";
+                        ? "network_4G" : "network_lte";
                 break;
             case RILConstants.NETWORK_MODE_LTE_CDMA_EVDO:
                 r = (show4GForLTE)
-                        ? "network_4G" : "network_lte_cdma_and_evdo";
+                        ? "network_4G" : "network_lte_and_evdo";
                 break;
             case RILConstants.NETWORK_MODE_TDSCDMA_CDMA_EVDO_GSM_WCDMA:
                 r = "network_3G";
                 break;
             case RILConstants.NETWORK_MODE_CDMA:
-                r = "network_cdma";
+                r = "network_3G";
                 break;
             case RILConstants.NETWORK_MODE_EVDO_NO_CDMA:
-                r = "network_evdo_no_cdma";
+                r = "network_3G";
                 break;
             case RILConstants.NETWORK_MODE_GLOBAL:
-                r = "network_3g_global";
+                r = "network_3G";
                 break;
             case RILConstants.NETWORK_MODE_CDMA_NO_EVDO:
-                r = "network_cdma_no_evdo";
+                r = "network_3G_no_evdo";
                 break;
             case RILConstants.NETWORK_MODE_TDSCDMA_ONLY:
                 r = "network_tdscdma";
