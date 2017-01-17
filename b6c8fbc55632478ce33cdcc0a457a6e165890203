@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba3e81b7_9a634a1a",
+        "filename": "src/org/cyanogenmod/cmparts/statusbar/NetworkTrafficSettings.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 11409
+      },
+      "writtenOn": "2017-01-17T20:46:03Z",
+      "side": 1,
+      "message": "Could you simplify to:\n\nboolean b \u003d mIndex \u003e 0;\nmNetTrafficUnit.setEnabled(b);\nmNetTrafficPeriod.setEnabled(b);\nmNetTrafficAutohide.setEnabled(b);\nmNetTraffcAutohideThreshold.setEnabled(b);",
+      "revId": "b6c8fbc55632478ce33cdcc0a457a6e165890203",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
