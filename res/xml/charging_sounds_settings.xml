@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016 The CyanogenMod Project
+                   2017 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,32 +17,26 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:key="charging_sounds_settings">
+    android:key="charging_sounds_settings"
+    android:title="@string/charging_sounds_settings_title">
 
-    <PreferenceCategory
-        android:key="charging_sounds_category"
-        android:title="@string/charging_sounds_settings_title">
+    <cyanogenmod.preference.GlobalSettingSwitchPreference
+        android:key="charging_sounds"
+        android:title="@string/charging_sounds_title"
+        android:summary="@string/charging_sounds_summary"
+        android:defaultValue="true"
+        android:persistent="false" />
 
-        <cyanogenmod.preference.CMSystemSettingSwitchPreference
-                android:key="charging_sounds"
-                android:title="@string/charging_sounds_enable_title"
-                android:summary="@string/charging_sounds_enable_summary"
-                android:defaultValue="false"
-                android:persistent="false" />
+    <cyanogenmod.preference.CMGlobalSettingSwitchPreference
+        android:key="power_notifications_vibrate"
+        android:title="@string/power_notifications_vibrate_title"
+        android:dependency="charging_sounds"
+        android:persistent="false" />
 
-        <cyanogenmod.preference.CMSystemSettingSwitchPreference
-                android:key="charging_sounds_vibrate"
-                android:title="@string/charging_sounds_vibrate_title"
-                android:defaultValue="false"
-                android:dependency="charging_sounds"
-                android:persistent="false" />
-
-        <Preference
-                android:key="charging_sounds_ringtone"
-                android:title="@string/charging_sounds_ringtone_title"
-                android:dependency="charging_sounds"
-                android:persistent="false" />
-
-    </PreferenceCategory>
+    <Preference
+        android:key="charging_sounds_ringtone"
+        android:title="@string/charging_sounds_ringtone_title"
+        android:dependency="charging_sounds"
+        android:persistent="false" />
 
 </PreferenceScreen>

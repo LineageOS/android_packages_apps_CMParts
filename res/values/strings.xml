@@ -564,17 +564,11 @@
     <string name="expanded_desktop_style_hide_both">Hide both</string>
     <string name="expanded_desktop_nothing_to_show_text">Turn the switch off to customize your expanded desktop on a per-app basis</string>
 
-    <!-- Category title for Charging sounds (Power state change) specific Settings.
-         [CHAR LIMIT=40] -->
+    <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_settings_title">Charging sounds</string>
-
-    <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
-    <string name="charging_sounds_enable_title">Enable</string>
-    <string name="charging_sounds_enable_summary">Play a sound when connecting or disconnecting a power source</string>
-    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
-    <string name="charging_sounds_vibrate_title">Vibrate</string>
-    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
-    <string name="charging_sounds_ringtone_title">Notification sound</string>
-    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="charging_sounds_title">Enable</string>
+    <string name="charging_sounds_summary">Play a sound when connecting or disconnecting a power source</string>
+    <string name="power_notifications_vibrate_title">Vibrate</string>
+    <string name="charging_sounds_ringtone_title">Ringtone</string>
     <string name="charging_sounds_ringtone_silent">Silent</string>
 </resources>

@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,17 +31,12 @@ import android.provider.Settings.System;
 import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
 
+import cyanogenmod.providers.CMSettings;
+
 import org.cyanogenmod.cmparts.R;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
 
-import cyanogenmod.providers.CMSettings;
-
-public class ChargingSoundsSettings extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener {
-
-    private static final String KEY_CHARGING_SOUNDS = "charging_sounds";
-    private static final String KEY_CHARGING_SOUNDS_VIBRATE = "charging_sounds_vibrate";
-    private static final String KEY_CHARGING_SOUNDS_RINGTONE = "charging_sounds_ringtone";
+public class ChargingSoundsSettings extends SettingsPreferenceFragment {
 
     // Used for power notification uri string if set to silent
     private static final String RINGTONE_SILENT_URI_STRING = "silent";
@@ -48,8 +44,6 @@ public class ChargingSoundsSettings extends SettingsPreferenceFragment implement
     // Request code for charging notification ringtone picker
     private static final int REQUEST_CODE_CHARGING_NOTIFICATIONS_RINGTONE = 1;
 
-    private SwitchPreference mChargingSoundsEnabled;
-    private SwitchPreference mChargingSoundsVibrate;
     private Preference mChargingSoundsRingtone;
 
     @Override
@@ -58,35 +52,18 @@ public class ChargingSoundsSettings extends SettingsPreferenceFragment implement
 
         addPreferencesFromResource(R.xml.charging_sounds_settings);
 
-        final Bundle args = getArguments();
-        if (args != null) {
+        Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+        if (vibrator == null || !vibrator.hasVibrator()) {
+            removePreference("charging_sounds_vibrate");
+        }
 
-            mChargingSoundsEnabled =
-                    (SwitchPreference) findPreference(KEY_CHARGING_SOUNDS);
-            mChargingSoundsEnabled.setChecked(Settings.Global.getInt(getContentResolver(),
-                    Global.CHARGING_SOUNDS_ENABLED, 0) != 0);
-
-            mChargingSoundsVibrate =
-                    (SwitchPreference) findPreference(KEY_CHARGING_SOUNDS_VIBRATE);
-            mChargingSoundsVibrate.setChecked(CMSettings.Global.getInt(getContentResolver(),
-                    CMSettings.Global.POWER_NOTIFICATIONS_VIBRATE, 0) != 0);
-            Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-            if (vibrator == null || !vibrator.hasVibrator()) {
-                removePreference(KEY_CHARGING_SOUNDS_VIBRATE);
-            }
-
-            mChargingSoundsRingtone = findPreference(KEY_CHARGING_SOUNDS_RINGTONE);
-            String curTone = CMSettings.Global.getString(getContentResolver(),
-                    CMSettings.Global.POWER_NOTIFICATIONS_RINGTONE);
-            if (curTone == null) {
-                updateChargingRingtone(System.DEFAULT_NOTIFICATION_URI.toString(), true);
-            } else {
-                updateChargingRingtone(curTone, false);
-            }
-
-            mChargingSoundsEnabled.setOnPreferenceChangeListener(this);
-            mChargingSoundsVibrate.setOnPreferenceChangeListener(this);
-            mChargingSoundsRingtone.setOnPreferenceChangeListener(this);
+        mChargingSoundsRingtone = findPreference("charging_sounds_ringtone");
+        String curTone = CMSettings.Global.getString(getContentResolver(),
+                CMSettings.Global.POWER_NOTIFICATIONS_RINGTONE);
+        if (curTone == null) {
+            updateChargingRingtone(System.DEFAULT_NOTIFICATION_URI.toString(), true);
+        } else {
+            updateChargingRingtone(curTone, false);
         }
     }
 
@@ -117,18 +94,6 @@ public class ChargingSoundsSettings extends SettingsPreferenceFragment implement
             CMSettings.Global.putString(getContentResolver(),
                     CMSettings.Global.POWER_NOTIFICATIONS_RINGTONE, toneUriString);
         }
-    }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mChargingSoundsEnabled) {
-            Settings.Global.putInt(getContentResolver(),
-                    Global.CHARGING_SOUNDS_ENABLED, (boolean) newValue ? 1 : 0);
-        } else if (preference == mChargingSoundsVibrate) {
-            CMSettings.Global.putInt(getContentResolver(),
-                    CMSettings.Global.POWER_NOTIFICATIONS_VIBRATE, (boolean) newValue ? 1 : 0);
-        }
-        return true;
     }
 
     @Override
@@ -163,17 +128,12 @@ public class ChargingSoundsSettings extends SettingsPreferenceFragment implement
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        switch (requestCode) {
-            case REQUEST_CODE_CHARGING_NOTIFICATIONS_RINGTONE:
-                if (resultCode == Activity.RESULT_OK) {
-                    final Uri uri =
-                            data.getParcelableExtra(RingtoneManager.EXTRA_RINGTONE_PICKED_URI);
-                    updateChargingRingtone(uri != null ? uri.toString() : null, true);
-                }
-                break;
-            default:
-                super.onActivityResult(requestCode, resultCode, data);
-                break;
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == REQUEST_CODE_CHARGING_NOTIFICATIONS_RINGTONE
+                && resultCode == Activity.RESULT_OK) {
+            Uri uri = data.getParcelableExtra(RingtoneManager.EXTRA_RINGTONE_PICKED_URI);
+            updateChargingRingtone(uri != null ? uri.toString() : null, true);
         }
     }
 }
