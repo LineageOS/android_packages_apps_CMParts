@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_32412e0c",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 572,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2017-01-21T17:44:23Z",
+      "side": 1,
+      "message": "The Ringtone picker is showing RingtoneManager.TYPE_NOTIFICATION so I think the original text here is correct.",
+      "revId": "755a14cd543d2451433e3631d124fe241d7342a8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
