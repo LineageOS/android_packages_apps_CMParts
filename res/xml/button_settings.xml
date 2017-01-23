@@ -15,6 +15,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:cm="http://schemas.android.com/apk/res/cyanogenmod.platform"
         android:key="button_settings"
         android:title="@string/button_pref_title">
 
@@ -73,6 +74,13 @@
             android:dialogTitle="@string/navigation_bar_recents_title"
             android:title="@string/navigation_bar_recents_title"
             android:persistent="false" />
+
+        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+            android:key="navigation_pixel_animation"
+            android:title="@string/navigation_bar_pixel_anim_title"
+            android:summary="@string/navigation_bar_pixel_anim_summary"
+            android:defaultValue="true"
+            cm:requiresConfig="@*android:bool/config_allowOpaLayout" />
 
     </PreferenceCategory>
 
