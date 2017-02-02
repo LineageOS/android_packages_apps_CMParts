@@ -22,6 +22,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.content.res.Resources;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraCharacteristics;
@@ -33,6 +34,7 @@ import android.hardware.SensorManager;
 import android.Manifest;
 import android.media.AudioManager;
 import android.media.session.MediaSessionLegacyHelper;
+import android.net.Uri;
 import android.os.Handler;
 import android.os.Message;
 import android.os.PowerManager;
@@ -50,6 +52,8 @@ import com.android.internal.os.DeviceKeyHandler;
 import cyanogenmod.hardware.CMHardwareManager;
 import cyanogenmod.hardware.TouchscreenGesture;
 import cyanogenmod.providers.CMSettings;
+
+import java.util.List;
 
 import org.cyanogenmod.cmparts.gestures.TouchscreenGestureConstants;
 
@@ -248,7 +252,8 @@ public class KeyHandler implements DeviceKeyHandler {
     private void launchBrowser() {
         mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
         mPowerManager.wakeUp(SystemClock.uptimeMillis(), GESTURE_WAKEUP_REASON);
-        final Intent intent = new Intent(Intent.ACTION_WEB_SEARCH, null);
+        final Intent intent = getLaunchableIntent(
+                new Intent(Intent.ACTION_VIEW, Uri.parse("http:")));
         startActivitySafely(intent);
         doHapticFeedback();
     }
@@ -264,8 +269,8 @@ public class KeyHandler implements DeviceKeyHandler {
     private void launchEmail() {
         mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
         mPowerManager.wakeUp(SystemClock.uptimeMillis(), GESTURE_WAKEUP_REASON);
-        final Intent intent = new Intent(Intent.ACTION_MAIN, null);
-        intent.addCategory(Intent.CATEGORY_APP_EMAIL);
+        final Intent intent = getLaunchableIntent(
+                new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:")));
         startActivitySafely(intent);
         doHapticFeedback();
     }
@@ -370,5 +375,18 @@ public class KeyHandler implements DeviceKeyHandler {
             }
         }
         return mRearCameraId;
+    }
+
+    private Intent getLaunchableIntent(Intent intent) {
+        Intent returnIntent = null;
+        PackageManager pm = mContext.getPackageManager();
+
+        List<ResolveInfo> resInfo = pm.queryIntentActivities(intent, 0);
+        if (resInfo.size() > 0) {
+            ResolveInfo ri = resInfo.get(0);
+            returnIntent = pm.getLaunchIntentForPackage(ri.activityInfo.packageName);
+        }
+
+        return returnIntent;
     }
 }
