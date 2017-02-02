@@ -22,6 +22,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceManager;
@@ -197,6 +198,6 @@ public class TouchscreenGestureSettings extends SettingsPreferenceFragment {
         intent.putExtra(TouchscreenGestureConstants.UPDATE_EXTRA_KEYCODE_MAPPING, keycodes);
         intent.putExtra(TouchscreenGestureConstants.UPDATE_EXTRA_ACTION_MAPPING, actions);
         intent.setFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY);
-        context.sendBroadcast(intent);
+        context.sendBroadcastAsUser(intent, UserHandle.CURRENT);
     }
 }
