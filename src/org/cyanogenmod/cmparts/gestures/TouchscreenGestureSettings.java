@@ -19,18 +19,16 @@ package org.cyanogenmod.cmparts.gestures;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.support.v7.preference.ListPreference;
-import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceManager;
-import android.util.SparseIntArray;
+import android.util.Log;
 
 import cyanogenmod.hardware.CMHardwareManager;
 import cyanogenmod.hardware.TouchscreenGesture;
 
-import org.cyanogenmod.cmparts.gestures.TouchscreenGestureConstants;
 import org.cyanogenmod.cmparts.R;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
 import org.cyanogenmod.cmparts.utils.ResourceUtils;
@@ -38,7 +36,7 @@ import org.cyanogenmod.cmparts.utils.ResourceUtils;
 import java.lang.System;
 
 public class TouchscreenGestureSettings extends SettingsPreferenceFragment {
-
+    private static final String TAG = "TouchscreenGestures";
     private static final String KEY_TOUCHSCREEN_GESTURE = "touchscreen_gesture";
     private static final String TOUCHSCREEN_GESTURE_TITLE = KEY_TOUCHSCREEN_GESTURE + "_%s_title";
 
@@ -137,7 +135,9 @@ public class TouchscreenGestureSettings extends SettingsPreferenceFragment {
     }
 
     public static void restoreTouchscreenGestureStates(final Context context) {
+        Log.d(TAG, "restoreTouchscreenGestureStates");
         if (!isTouchscreenGesturesSupported(context)) {
+            Log.d(TAG, "not supported!");
             return;
         }
 
@@ -145,6 +145,7 @@ public class TouchscreenGestureSettings extends SettingsPreferenceFragment {
         final TouchscreenGesture[] gestures = manager.getTouchscreenGestures();
         final int[] actionList = buildActionList(context, gestures);
         for (final TouchscreenGesture gesture : gestures) {
+            Log.d(TAG, "id: " + String.valueOf(gesture.id));
             manager.setTouchscreenGestureEnabled(gesture, actionList[gesture.id] > 0);
         }
 
@@ -197,6 +198,6 @@ public class TouchscreenGestureSettings extends SettingsPreferenceFragment {
         intent.putExtra(TouchscreenGestureConstants.UPDATE_EXTRA_KEYCODE_MAPPING, keycodes);
         intent.putExtra(TouchscreenGestureConstants.UPDATE_EXTRA_ACTION_MAPPING, actions);
         intent.setFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY);
-        context.sendBroadcast(intent);
+        context.sendBroadcastAsUser(intent, UserHandle.ALL);
     }
 }

@@ -24,11 +24,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.os.PersistableBundle;
-import android.os.UserHandle;
 import android.util.Log;
-import cyanogenmod.providers.CMSettings;
-
-import java.util.List;
 
 public class ReportingService extends IntentService {
     /* package */ static final String TAG = "CMStats";

@@ -18,7 +18,9 @@ package org.cyanogenmod.cmparts.utils;
 import android.content.res.Resources;
 import android.util.Log;
 
-public class ResourceUtils {
+public class
+
+ResourceUtils {
 
     private static final String TAG = ResourceUtils.class.getSimpleName();
 
