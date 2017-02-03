@@ -1,0 +1,95 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_11aaaed4",
+        "filename": "src/org/cyanogenmod/cmparts/cmstats/PreviewData.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-03T15:05:29Z",
+      "side": 1,
+      "message": "Should probably get rid of the \"(C)\", leaving just:\n\n 2017 The LineageOS Project",
+      "revId": "a291fbb5bc86f4e1cf4b34f66fd4714be40c912d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_d1ab06d5",
+        "filename": "src/org/cyanogenmod/cmparts/gestures/TouchscreenGestureSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-03T15:05:29Z",
+      "side": 1,
+      "message": "Lines 24 and 27 are unrelated to the commit message",
+      "revId": "a291fbb5bc86f4e1cf4b34f66fd4714be40c912d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_f1ae02e7",
+        "filename": "src/org/cyanogenmod/cmparts/gestures/TouchscreenGestureSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-03T15:05:29Z",
+      "side": 1,
+      "message": "Everything from line 39 to the end isn\u0027t related to the commit message",
+      "revId": "a291fbb5bc86f4e1cf4b34f66fd4714be40c912d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_b1b87a2b",
+        "filename": "src/org/cyanogenmod/cmparts/input/PowerMenuActions.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-03T15:05:29Z",
+      "side": 1,
+      "message": "Should probably get rid of the \"(C)\"; the same goes for the rest of the  files",
+      "revId": "a291fbb5bc86f4e1cf4b34f66fd4714be40c912d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_91b57e33",
+        "filename": "src/org/cyanogenmod/cmparts/utils/ResourceUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-03T15:05:29Z",
+      "side": 1,
+      "message": "Unrelated to the commit message",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 15
+      },
+      "revId": "a291fbb5bc86f4e1cf4b34f66fd4714be40c912d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
