@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_17b05ef3",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-02-04T12:48:51Z",
+      "side": 0,
+      "message": "This is not needed because the preference is already part of \"Power button\" category.",
+      "range": {
+        "startLine": 256,
+        "startChar": 67,
+        "endLine": 256,
+        "endChar": 79
+      },
+      "revId": "f1ccf803280e9d0a048b906eff4ddb365c416363",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
