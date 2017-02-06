@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_f5d94784",
+        "filename": "src/org/cyanogenmod/cmparts/statusbar/NetworkTrafficSettings.java",
+        "patchSetId": 13
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2017-02-06T07:27:19Z",
+      "side": 1,
+      "message": "Should indent by 8 here.",
+      "revId": "f56214fe5a0a183e7e06493dec4be9627a71ec14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_d5e64b44",
+        "filename": "src/org/cyanogenmod/cmparts/statusbar/NetworkTrafficSettings.java",
+        "patchSetId": 13
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2017-02-06T07:27:19Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "f56214fe5a0a183e7e06493dec4be9627a71ec14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_b5e3bf32",
+        "filename": "src/org/cyanogenmod/cmparts/statusbar/NetworkTrafficSettings.java",
+        "patchSetId": 13
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2017-02-06T07:27:19Z",
+      "side": 1,
+      "message": "Please kill this bit magic, like mentioned in PS6.",
+      "revId": "f56214fe5a0a183e7e06493dec4be9627a71ec14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
