@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_a5bb82c3",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 596,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-09T21:25:50Z",
+      "side": 1,
+      "message": "Place this above w",
+      "revId": "4249c95ae24de41d2022868ba013fb81f8c873b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
