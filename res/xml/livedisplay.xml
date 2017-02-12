@@ -83,6 +83,13 @@
                 android:summary="@string/live_display_enhance_color_summary"
                 android:defaultValue="@*cyanogenmod.platform:bool/config_defaultColorEnhancement" />
 
+        <!-- sRGB -->
+        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+                android:key="display_srgb"
+                android:title="@string/live_display_srgb_title"
+                android:summary="@string/live_display_srgb_summary"
+                android:defaultValue="@*cyanogenmod.platform:bool/config_defaultSRGB" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
