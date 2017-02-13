@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_4fd1a4cc",
+        "filename": "src/org/cyanogenmod/cmparts/gestures/KeyHandler.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 391,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2017-02-13T10:10:09Z",
+      "side": 1,
+      "message": "Wouldn\u0027t it be better to do this?\n\nprivate Intent getLaunchableIntent(Intent intent) {\n    PackageManager pm \u003d mContext.getPackageManager();\n    List\u003cResolveInfo\u003e infos \u003d pm.queryIntentActivities(intent, 0);\n    if (infos.isEmpty()) {\n        return null;\n    }\n    ActivityInfo ai \u003d infos.get(0).activityInfo);\n    intent.setComponent(ai.getComponentName());\n    return ai;\n}\n\n\nThat is, only make the intent explicit, but keep action etc. intact.",
+      "revId": "ab14c403d3238ac905640b065bd1a37e88e808ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
