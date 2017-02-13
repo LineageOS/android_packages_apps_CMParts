@@ -1,0 +1,39 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_2f2bf831",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-13T06:30:01Z",
+      "side": 1,
+      "message": "This change shouldn\u0027t be here",
+      "revId": "0cd9f2b18e8056a8360f58a90f9cfad57ab4a935",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_0f95dc3f",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-13T06:30:01Z",
+      "side": 1,
+      "message": "the description can probably be more descriptive  to better explain what the sRGB mode provides. You can take a look at the other descriptions for an idea on one.",
+      "parentUuid": "",
+      "revId": "0cd9f2b18e8056a8360f58a90f9cfad57ab4a935",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
