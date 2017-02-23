@@ -238,7 +238,8 @@ public class KeyHandler implements DeviceKeyHandler {
     private void launchCamera() {
         mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
         final Intent intent = new Intent(cyanogenmod.content.Intent.ACTION_SCREEN_CAMERA_GESTURE);
-        mContext.sendBroadcast(intent, Manifest.permission.STATUS_BAR_SERVICE);
+        final UserHandle user = new UserHandle(UserHandle.USER_CURRENT);
+        mContext.sendBroadcastAsUser(intent, user, Manifest.permission.STATUS_BAR_SERVICE);
         doHapticFeedback();
     }
 
