@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_739e7958",
+        "filename": "src/org/cyanogenmod/cmparts/gestures/KeyHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-24T15:01:56Z",
+      "side": 1,
+      "message": "final UserHandle user \u003d UserHandle.CURRENT;\n\nshould work.",
+      "revId": "e974a85da05d2c22ca21e351b764375752bb5d18",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
