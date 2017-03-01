@@ -374,15 +374,17 @@
   <string name="doze_title">Ambient-näyttö</string>
   <!-- Status bar -->
   <string name="status_bar_title">Tilapalkki</string>
-  <string name="status_bar_toggle_brightness">Kirkkauden säätö</string>
-  <string name="status_bar_toggle_brightness_summary">Säädä kirkkautta liu\'ttamalla tilapalkkia pitkin</string>
-  <string name="status_bar_notif_count_title">Näytä ilmoitusten määrä</string>
-  <string name="status_bar_notif_count_summary">Näyttää ilmoitusten määrän</string>
   <string name="status_bar_quick_qs_pulldown_title">Nopea avaaminen</string>
   <string name="status_bar_quick_qs_pulldown_summary">Näytä pika-asetukset vedettäessä ilmoitusvalikko alas näytön %1$s reunasta</string>
   <string name="status_bar_quick_qs_pulldown_off">Pois</string>
   <string name="status_bar_quick_qs_pulldown_left">Vasen reuna</string>
   <string name="status_bar_quick_qs_pulldown_right">Oikea reuna</string>
+  <string name="status_bar_toggle_brightness">Kirkkauden säätö</string>
+  <string name="status_bar_toggle_brightness_summary">Säädä kirkkautta liu\'ttamalla tilapalkkia pitkin</string>
+  <!-- Status bar - icons -->
+  <string name="status_bar_icons_title">Tilapalkin kuvakkeet</string>
+  <string name="status_bar_notif_count_title">Näytä ilmoitusten määrä</string>
+  <string name="status_bar_notif_count_summary">Näyttää ilmoitusten määrän</string>
   <!-- Status bar - Clock -->
   <string name="status_bar_clock_position_title">Kellon sijainti</string>
   <string name="status_bar_clock_position_right">Oikea</string>
