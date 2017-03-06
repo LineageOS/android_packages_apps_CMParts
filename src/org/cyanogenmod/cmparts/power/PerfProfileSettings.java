@@ -47,6 +47,8 @@ import cyanogenmod.power.PerformanceManager;
 import cyanogenmod.power.PerformanceProfile;
 import cyanogenmod.providers.CMSettings;
 
+import static cyanogenmod.power.PerformanceManager.PROFILE_POWER_SAVE;
+
 public class PerfProfileSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
@@ -181,7 +183,8 @@ public class PerfProfileSettings extends SettingsPreferenceFragment
             return;
         }
 
-        PerformanceProfile profile = mPerf.getActivePowerProfile();
+        PerformanceProfile profile = mPowerManager.isPowerSaveMode() ?
+                mPerf.getPowerProfile(PROFILE_POWER_SAVE) : mPerf.getActivePowerProfile();
         mPerfSeekBar.setProgress(mProfiles.indexOf(profile));
         mPerfSeekBar.setTitle(getResources().getString(
                 R.string.perf_profile_title, profile.getName()));
@@ -253,6 +256,7 @@ public class PerfProfileSettings extends SettingsPreferenceFragment
 
     private void updatePowerSaveValue() {
         mPowerSavePref.setChecked(mPowerManager.isPowerSaveMode());
+        updatePerfSettings();
     }
 
     private void updateAutoPowerSaveValue() {
