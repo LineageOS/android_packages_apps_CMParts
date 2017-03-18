@@ -189,4 +189,22 @@
         <item name="android:background">@color/divider</item>
     </style>
 
+    <style name="DozeSettings" parent="@android:style/Theme.Material.Settings">
+        <item name="android:windowActionBar">false</item>
+        <item name="preferenceTheme">@style/DozePreferenceTheme</item>
+    </style>
+
+    <style name="DozePreferenceTheme" parent="@android:style/Theme.Material.Settings">
+        <item name="dropdownPreferenceStyle">@style/Preference.DropDown.Material</item>
+    </style>
+
+    <style name="ThemeOverlay.SwitchBar" parent="@android:style/ThemeOverlay">
+        <item name="android:colorAccent">@color/switch_accent_color</item>
+    </style>
+
+    <style name="ThemeOverlay.SwitchBar.Secondary" parent="@android:style/ThemeOverlay">
+        <item name="android:colorAccent">@color/system_secondary_color</item>
+    </style>
+
+
 </resources>
