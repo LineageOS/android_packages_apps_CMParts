@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_a9b6cbda",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-03-20T14:04:41Z",
+      "side": 1,
+      "message": "I\u0027d buy an \u0027s\u0027 ;)",
+      "revId": "2f042f66a8328efba9a8c72a775c50c07564b86b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
