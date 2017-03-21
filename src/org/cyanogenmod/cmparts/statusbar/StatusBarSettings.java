@@ -100,8 +100,15 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     }
 
     private void updateQuickPulldownSummary(int value) {
-        mQuickPulldown.setSummary(value == 0
-                ? R.string.status_bar_quick_qs_pulldown_off
-                : R.string.status_bar_quick_qs_pulldown_summary);
+
+        if (value == 0) {
+            mQuickPulldown.setSummary(R.string.status_bar_quick_qs_pulldown_off);
+        } else if (value == 2) {
+            String direction = getResources().getString(R.string.status_bar_quick_qs_pulldown_summary_left);
+            mQuickPulldown.setSummary(getResources().getString(R.string.status_bar_quick_qs_pulldown_summary, direction));
+        } else {
+            String direction = getResources().getString(R.string.status_bar_quick_qs_pulldown_summary_right);
+            mQuickPulldown.setSummary(getResources().getString(R.string.status_bar_quick_qs_pulldown_summary, direction));
+        }
     }
 }
