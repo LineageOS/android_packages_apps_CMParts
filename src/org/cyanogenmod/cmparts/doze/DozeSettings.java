@@ -16,12 +16,12 @@
  */
 package org.cyanogenmod.cmparts.doze;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.android.settingslib.drawer.SettingsDrawerActivity;
-import org.cyanogenmod.cmparts.*;
+
+import org.cyanogenmod.cmparts.R;
 
 public class DozeSettings extends SettingsDrawerActivity {
 

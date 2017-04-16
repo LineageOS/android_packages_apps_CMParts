@@ -21,24 +21,22 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.UserHandle;
-import android.support.v7.preference.PreferenceManager;
 import android.provider.Settings;
+import android.support.v7.preference.PreferenceManager;
 import android.util.Log;
 
 import static android.provider.Settings.Secure.DOZE_ENABLED;
 
 public final class Utils {
 
-    private static final String TAG = "DozeUtils";
-    private static final boolean DEBUG = false;
-
-    private static final String DOZE_INTENT = "com.android.systemui.doze.pulse";
-
+    public static final Uri DOZE_ENABLED_URI = Settings.Secure.getUriFor(DOZE_ENABLED);
+    protected static final String GESTURE_TILT_KEY = "gesture_tilt";
     protected static final String GESTURE_PICK_UP_KEY = "gesture_pick_up";
     protected static final String GESTURE_HAND_WAVE_KEY = "gesture_hand_wave";
     protected static final String GESTURE_POCKET_KEY = "gesture_pocket";
-
-    public static final Uri DOZE_ENABLED_URI = Settings.Secure.getUriFor(DOZE_ENABLED);
+    private static final String TAG = "DozeUtils";
+    private static final boolean DEBUG = false;
+    private static final String DOZE_INTENT = "com.android.systemui.doze.pulse";
 
     protected static void startService(Context context) {
         if (DEBUG) Log.d(TAG, "Starting service");
@@ -57,7 +55,7 @@ public final class Utils {
 
     protected static boolean enableDoze(boolean enable, Context context) {
         boolean dozeEnabled = Settings.Secure.putInt(context.getContentResolver(),
-                              DOZE_ENABLED, enable ? 1 : 0);
+                DOZE_ENABLED, enable ? 1 : 0);
         if (enable) {
             startService(context);
         } else {
@@ -70,6 +68,11 @@ public final class Utils {
         if (DEBUG) Log.d(TAG, "Launch doze pulse");
         context.sendBroadcastAsUser(new Intent(DOZE_INTENT),
                 new UserHandle(UserHandle.USER_CURRENT));
+    }
+
+    protected static boolean tiltEnabled(Context context) {
+        return PreferenceManager.getDefaultSharedPreferences(context)
+                .getBoolean(GESTURE_TILT_KEY, false);
     }
 
     protected static boolean pickUpEnabled(Context context) {
@@ -88,7 +91,7 @@ public final class Utils {
     }
 
     protected static boolean sensorsEnabled(Context context) {
-        return pickUpEnabled(context) || handwaveGestureEnabled(context)
+        return tiltEnabled(context) || pickUpEnabled(context) || handwaveGestureEnabled(context)
                 || pocketGestureEnabled(context);
     }
 }

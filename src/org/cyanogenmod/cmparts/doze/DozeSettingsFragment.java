@@ -17,7 +17,6 @@
 
 package org.cyanogenmod.cmparts.doze;
 
-import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -37,13 +36,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.Switch;
-import org.cyanogenmod.cmparts.*;
+
+import org.cyanogenmod.cmparts.R;
 
 public class DozeSettingsFragment extends PreferenceFragment implements OnPreferenceChangeListener,
         CompoundButton.OnCheckedChangeListener {
 
     private SharedPreferences mPreferences;
 
+    private SwitchPreference mTiltPreference;
     private SwitchPreference mPickUpPreference;
     private SwitchPreference mHandwavePreference;
     private SwitchPreference mPocketPreference;
@@ -90,6 +91,9 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
             showHelp();
         }
 
+        mTiltPreference = (SwitchPreference) findPreference(Utils.GESTURE_TILT_KEY);
+        mTiltPreference.setOnPreferenceChangeListener(this);
+
         mPickUpPreference = (SwitchPreference) findPreference(Utils.GESTURE_PICK_UP_KEY);
         mPickUpPreference.setOnPreferenceChangeListener(this);
 
@@ -115,6 +119,7 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
     }
 
     private void updateSwitches(boolean enabled) {
+        mTiltPreference.setEnabled(enabled);
         mPickUpPreference.setEnabled(enabled);
         mHandwavePreference.setEnabled(enabled);
         mPocketPreference.setEnabled(enabled);
@@ -142,7 +147,9 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         final String key = preference.getKey();
         final boolean value = (Boolean) newValue;
-        if (Utils.GESTURE_PICK_UP_KEY.equals(key)) {
+        if (Utils.GESTURE_TILT_KEY.equals(key)) {
+            mTiltPreference.setChecked(value);
+        } else if (Utils.GESTURE_PICK_UP_KEY.equals(key)) {
             mPickUpPreference.setChecked(value);
         } else if (Utils.GESTURE_HAND_WAVE_KEY.equals(key)) {
             mHandwavePreference.setChecked(value);
@@ -159,6 +166,11 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
     @Override
     public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
         Utils.enableDoze(b, getActivity());
+    }
+
+    private void showHelp() {
+        HelpDialogFragment fragment = new HelpDialogFragment();
+        fragment.show(getFragmentManager(), "help_dialog");
     }
 
     public static class HelpDialogFragment extends DialogFragment {
@@ -183,10 +195,5 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
                     .putBoolean("first_help_shown", true)
                     .commit();
         }
-    }
-
-    private void showHelp() {
-        HelpDialogFragment fragment = new HelpDialogFragment();
-        fragment.show(getFragmentManager(), "help_dialog");
     }
 }

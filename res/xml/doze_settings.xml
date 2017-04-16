@@ -21,6 +21,18 @@
         android:title="@string/tilt_sensor_title">
 
         <SwitchPreference
+            android:key="gesture_tilt"
+            android:defaultValue="false"
+            android:title="@string/tilt_title"
+            android:summary="@string/tilt_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pickup"
+        android:title="@string/pickup_title">
+
+        <SwitchPreference
             android:key="gesture_pick_up"
             android:defaultValue="false"
             android:title="@string/pick_up_gesture_title"
