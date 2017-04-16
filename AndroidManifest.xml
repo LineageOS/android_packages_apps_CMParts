@@ -34,9 +34,11 @@
     <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
     <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="cyanogenmod.permission.MANAGE_REMOTE_PREFERENCES" />
     <uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES" />
 
-    <uses-permission android:name="cyanogenmod.permission.MANAGE_REMOTE_PREFERENCES" />
+    <protected-broadcast android:name="com.android.systemui.doze.pulse" />
 
     <protected-broadcast android:name="android.intent.action.UPDATE_POWER_MENU" />
     <protected-broadcast android:name="cyanogenmod.platform.app.profiles.PROFILES_STATE_CHANGED" />
@@ -71,6 +73,13 @@
         <receiver android:name=".PartsUpdater" android:enabled="true">
             <intent-filter>
                 <action android:name="cyanogenmod.intent.action.UPDATE_PREFERENCE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".doze.BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </receiver>
@@ -209,6 +218,10 @@
                  android:enabled="true"
                  android:exported="false" />
 
+        <service android:name=".doze.DozeService"
+                 android:permission="LineageDozeService">
+        </service>
+
 		<!-- Weather settings -->
         <activity-alias
             android:name=".weather.WeatherServiceSettings"
@@ -233,5 +246,14 @@
             android:label="@string/profile_select"
             android:excludeFromRecents="true"/>
 
+        <activity
+            android:name=".doze.DozeSettingsActivity"
+            android:label="@string/ambient_display_title"
+            android:theme="@style/Theme.Main">
+            <intent-filter>
+                <action android:name="org.cyanogenmod.settings.device.DOZE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 </manifest>
