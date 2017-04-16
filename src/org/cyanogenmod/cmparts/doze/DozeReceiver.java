@@ -28,6 +28,10 @@ public class DozeReceiver extends RemotePreferenceUpdater {
 
     private static final String DOZE_CATEGORY_KEY = "doze_device_settings";
 
+    static void notifyChanged(Context context) {
+        notifyChanged(context, DOZE_CATEGORY_KEY);
+    }
+
     @Override
     public void onReceive(Context context, Intent intent) {
         super.onReceive(context, intent);
@@ -46,9 +50,5 @@ public class DozeReceiver extends RemotePreferenceUpdater {
             return DozeSettingsFragment.getDozeSummary(context);
         }
         return null;
-    }
-
-    static void notifyChanged(Context context) {
-        notifyChanged(context, DOZE_CATEGORY_KEY);
     }
 }

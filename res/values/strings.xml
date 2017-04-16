@@ -622,4 +622,10 @@
     <string name="touchscreen_gesture_action_play_pause_music">Play/pause music playback</string>
     <string name="touchscreen_gesture_action_previous_track">Navigate to the previous music track</string>
     <string name="touchscreen_gesture_action_next_track">Skip to the next music track</string>
+
+    <!-- Doze: switches -->
+    <string name="tilt_title">Tilt</string>
+    <string name="tilt_summary">Pulse notifications on tilt</string>
+    <string name="pickup_title">Pick up</string>
+
 </resources>
