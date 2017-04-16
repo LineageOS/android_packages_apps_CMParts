@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
- * Copyright 2016, The CyanogenMod Project
+ * Copyright (C) 2016 The CyanogenMod Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,11 +35,12 @@
     <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
     <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES" />
-
     <uses-permission android:name="cyanogenmod.permission.MANAGE_REMOTE_PREFERENCES" />
 
     <protected-broadcast android:name="android.intent.action.UPDATE_POWER_MENU" />
+    <protected-broadcast android:name="com.android.systemui.doze.pulse" />
     <protected-broadcast android:name="cyanogenmod.platform.app.profiles.PROFILES_STATE_CHANGED" />
     <protected-broadcast android:name="org.cyanogenmod.cmparts.PART_CHANGED" />
     <protected-broadcast android:name="org.cyanogenmod.cmparts.REFRESH_PART" />
@@ -208,7 +210,22 @@
                  android:enabled="true"
                  android:exported="false" />
 
-		<!-- Weather settings -->
+        <!-- Doze settings -->
+        <activity
+            android:name=".doze.DozeSettingsActivity"
+            android:label="@string/ambient_display_title"
+            android:theme="@style/Theme.Main">
+            <intent-filter>
+                <action android:name="org.cyanogenmod.settings.device.DOZE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".doze.DozeService"
+                 android:permission="LineageDozeService">
+        </service>
+
+        <!-- Weather settings -->
         <activity-alias
             android:name=".weather.WeatherServiceSettings"
             android:label="@string/weather_settings_title"

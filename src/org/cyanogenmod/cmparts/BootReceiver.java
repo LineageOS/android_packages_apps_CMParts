@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2012 The CyanogenMod Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,6 +24,7 @@ import android.content.SharedPreferences;
 import android.support.v7.preference.PreferenceManager;
 
 import org.cyanogenmod.cmparts.contributors.ContributorsCloudFragment;
+import org.cyanogenmod.cmparts.doze.Utils;
 import org.cyanogenmod.cmparts.gestures.TouchscreenGestureSettings;
 import org.cyanogenmod.cmparts.input.ButtonSettings;
 
@@ -30,6 +32,8 @@ public class BootReceiver extends BroadcastReceiver {
 
     private static final String TAG = "BootReceiver";
     private static final String ONE_TIME_TUNABLE_RESTORE = "hardware_tunable_restored";
+
+    private static final boolean DEBUG = false;
 
     @Override
     public void onReceive(Context ctx, Intent intent) {
@@ -43,6 +47,13 @@ public class BootReceiver extends BroadcastReceiver {
 
         // Extract the contributors database
         ContributorsCloudFragment.extractContributorsCloudDatabase(ctx);
+
+        /* Start doze service only if enabled system-wide and at least one of the
+           additional Ambient Display's features is turned on */
+        if (Utils.isDozeEnabled(ctx) && Utils.sensorsEnabled(ctx)) {
+            if (DEBUG) Log.d(TAG, "Starting doze service");
+            Utils.startService(ctx);
+        }
     }
 
     private boolean hasRestoredTunable(Context context) {
