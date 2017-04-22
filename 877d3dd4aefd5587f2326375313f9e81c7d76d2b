@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_9d5eaee8",
+        "filename": "src/org/cyanogenmod/cmparts/doze/DozeService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2017-04-22T02:34:57Z",
+      "side": 1,
+      "message": "You probably need to make this and the tilt sensor optional based on resource overlays.",
+      "range": {
+        "startLine": 37,
+        "startChar": 8,
+        "endLine": 37,
+        "endChar": 24
+      },
+      "revId": "877d3dd4aefd5587f2326375313f9e81c7d76d2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_fd47e21b",
+        "filename": "src/org/cyanogenmod/cmparts/doze/DozeSettingsActivity.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2017-04-22T02:34:57Z",
+      "side": 1,
+      "message": "Don\u0027t use tabs.",
+      "revId": "877d3dd4aefd5587f2326375313f9e81c7d76d2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_dd5426cc",
+        "filename": "src/org/cyanogenmod/cmparts/doze/DozeSettingsFragment.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2017-04-22T02:34:57Z",
+      "side": 1,
+      "message": "Trailing whitespace",
+      "range": {
+        "startLine": 90,
+        "startChar": 0,
+        "endLine": 90,
+        "endChar": 6
+      },
+      "revId": "877d3dd4aefd5587f2326375313f9e81c7d76d2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_bd516ada",
+        "filename": "src/org/cyanogenmod/cmparts/doze/Utils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2017-04-22T02:34:57Z",
+      "side": 1,
+      "message": "Trailing whitespace",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 2
+      },
+      "revId": "877d3dd4aefd5587f2326375313f9e81c7d76d2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
