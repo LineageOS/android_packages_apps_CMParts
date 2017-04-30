@@ -17,7 +17,9 @@
 package org.cyanogenmod.cmparts.statusbar;
 
 import android.os.Bundle;
+import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.text.format.DateFormat;
 import android.view.View;
@@ -48,6 +50,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private CMSystemSettingListPreference mStatusBarBattery;
     private CMSystemSettingListPreference mStatusBarBatteryShowPercent;
 
+    private SwitchPreference mToggleAutobrightness;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,6 +76,14 @@ public class StatusBarSettings extends SettingsPreferenceFragment
                 (CMSystemSettingListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
         updateQuickPulldownSummary(mQuickPulldown.getIntValue(0));
+
+        mToggleAutobrightness =
+                (SwitchPreference) findPreference("qs_show_auto_brightness");
+        final PreferenceCategory category = (PreferenceCategory) findPreference("status_bar_brightness");
+        if (!getResources()
+                .getBoolean(com.android.internal.R.bool.config_automatic_brightness_available)) {
+            category.removePreference(mToggleAutobrightness);
+        }
     }
 
     @Override
