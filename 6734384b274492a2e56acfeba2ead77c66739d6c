@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_c130b758",
+        "filename": "res/xml/status_bar_settings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-05-02T14:57:24Z",
+      "side": 1,
+      "message": "I don\u0027t think this should default to true",
+      "range": {
+        "startLine": 114,
+        "startChar": 34,
+        "endLine": 114,
+        "endChar": 38
+      },
+      "revId": "6734384b274492a2e56acfeba2ead77c66739d6c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
