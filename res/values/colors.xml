@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 	Copyright (C) 2016 The CyanogenMod Project
+    Copyright (C) 2017 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -27,7 +28,7 @@
     <color name="switch_accent_color">#ff7fcac3</color>
 
     <color name="fab_ripple">#1fffffff</color><!-- 12% white -->
-    <color name="fab_shape">?android:attr/colorAccent</color>
+    <color name="fab_shape">#ff009688</color>
 
     <!-- Contributors -->
     <color name="contributors_cloud_fg_color">@color/theme_accent</color>
@@ -38,4 +39,5 @@
     <color name="perf_hot">#ffd10015</color>
     <color name="perf_cold">#ff005994</color>
 
+    <color name="seek_tick_mark">@android:color/black</color>
 </resources>
