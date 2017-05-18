@@ -27,6 +27,12 @@
         android:entryValues="@array/status_bar_quick_qs_pulldown_values"
         android:defaultValue="0" />
 
+    <cyanogenmod.preference.CMSecureSettingSwitchPreference
+        android:key="qs_enable_mobile_data_onetap_toggle"
+        android:title="@string/status_bar_quick_qs_enable_mobile_data_onetap_toggle_title"
+        android:summary="@string/status_bar_quick_qs_enable_mobile_data_onetap_toggle_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:title="@string/status_bar_icons_title">
 
