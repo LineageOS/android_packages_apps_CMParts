@@ -143,7 +143,7 @@ public class WifiTriggerFragment extends ListFragment {
 
         WifiTrigger pref = (WifiTrigger) l.getAdapter().getItem(position);
         triggerName = pref.getTitle();
-        triggerId = pref.getSSID();
+        triggerId = pref.getBSSID();
         triggerType = Profile.TriggerType.WIFI;
         removeTrigger(triggers, Profile.TriggerState.ON_A2DP_CONNECT);
         removeTrigger(triggers, Profile.TriggerState.ON_A2DP_DISCONNECT);
@@ -201,7 +201,7 @@ public class WifiTriggerFragment extends ListFragment {
             for (WifiConfiguration config : configs) {
                 WifiTrigger accessPoint = new WifiTrigger(config);
                 int state = mProfile.getTriggerState(
-                        Profile.TriggerType.WIFI, accessPoint.getSSID());
+                        Profile.TriggerType.WIFI, accessPoint.getBSSID());
                 initPreference(accessPoint, state, res, R.drawable.ic_wifi_signal_4);
                 mTriggers.add(accessPoint);
             }
@@ -263,6 +263,10 @@ public class WifiTriggerFragment extends ListFragment {
 
         public String getSSID() {
             return mSSID;
+        }
+
+        public String getBSSID() {
+            return mConfig.BSSID;
         }
 
         @Override
