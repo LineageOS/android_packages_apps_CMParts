@@ -139,7 +139,7 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
                             .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
         } catch (ActivityNotFoundException e) {
             startActivity(new Intent(Intent.ACTION_VIEW,
-                    Uri.parse(getString(R.string.weather_settings_play_store_http_url)))
+                    Uri.parse(getString(R.string.weather_settings_lineage_http_url)))
                             .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
         }
     }
