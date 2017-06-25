@@ -133,15 +133,9 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
     }
 
     private void launchGetWeatherProviders() {
-        try {
-            startActivity(new Intent(Intent.ACTION_VIEW,
-                    Uri.parse(getString(R.string.weather_settings_play_store_market_url)))
-                            .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-        } catch (ActivityNotFoundException e) {
-            startActivity(new Intent(Intent.ACTION_VIEW,
-                    Uri.parse(getString(R.string.weather_settings_play_store_http_url)))
-                            .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-        }
+        startActivity(new Intent(Intent.ACTION_VIEW,
+                Uri.parse(getString(R.string.weather_settings_providers_url)))
+                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
     }
 
     private void unregisterPackageMonitor() {
