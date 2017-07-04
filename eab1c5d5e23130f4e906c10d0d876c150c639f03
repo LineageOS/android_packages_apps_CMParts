@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_76d731c0",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 327,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2017-07-04T21:00:03Z",
+      "side": 1,
+      "message": "Is it possible to add a separate string for that? In some languages, it\u0027s translated as \"do not ENABLE the power save mode\" - totally inverting the meaning.",
+      "range": {
+        "startLine": 327,
+        "startChar": 22,
+        "endLine": 327,
+        "endChar": 43
+      },
+      "revId": "eab1c5d5e23130f4e906c10d0d876c150c639f03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_16e6e5b4",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2017-07-04T21:00:03Z",
+      "side": 1,
+      "message": "These should also go to strings.xml as arrays.xml is not on Crowdin.",
+      "range": {
+        "startLine": 329,
+        "startChar": 16,
+        "endLine": 329,
+        "endChar": 23
+      },
+      "revId": "eab1c5d5e23130f4e906c10d0d876c150c639f03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
