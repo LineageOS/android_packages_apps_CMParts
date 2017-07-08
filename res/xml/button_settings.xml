@@ -19,6 +19,11 @@
         android:key="button_settings"
         android:title="@string/button_pref_title">
 
+    <cyanogenmod.preference.CMSecureSettingSwitchPreference
+        android:key="kill_app_longpress_back"
+        android:title="@string/kill_app_longpress_back"
+        android:summary="@string/kill_app_longpress_back_summary" />
+
     <SwitchPreference
         android:key="disable_nav_keys"
         android:title="@string/disable_navkeys_title"
