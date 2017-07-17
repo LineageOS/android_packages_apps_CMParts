@@ -111,7 +111,7 @@
             android:summary="@string/status_bar_brightness_slider_auto_summary"
             android:dependency="qs_show_brightness_slider"
             lineage:requiresConfig="@*android:bool/config_automatic_brightness_available"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
 
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
             android:key="status_bar_brightness_control"
