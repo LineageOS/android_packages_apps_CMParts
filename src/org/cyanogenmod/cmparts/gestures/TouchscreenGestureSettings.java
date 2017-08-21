@@ -139,6 +139,7 @@ public class TouchscreenGestureSettings extends SettingsPreferenceFragment {
 
         final CMHardwareManager manager = CMHardwareManager.getInstance(context);
         final TouchscreenGesture[] gestures = manager.getTouchscreenGestures();
+        if (gestures == null) return;
         final int[] actionList = buildActionList(context, gestures);
         for (final TouchscreenGesture gesture : gestures) {
             manager.setTouchscreenGestureEnabled(gesture, actionList[gesture.id] > 0);
