@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eb7bd763_c7e7e7f5",
+        "filename": "src/org/cyanogenmod/cmparts/gestures/TouchscreenGestureSettings.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2017-08-22T02:42:55Z",
+      "side": 1,
+      "message": "Should we be maybe expanding the allowed set of gestures here then?",
+      "range": {
+        "startLine": 141,
+        "startChar": 54,
+        "endLine": 141,
+        "endChar": 76
+      },
+      "revId": "35c95f52c33f3e79eba47fa60a686185fb0e84a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
