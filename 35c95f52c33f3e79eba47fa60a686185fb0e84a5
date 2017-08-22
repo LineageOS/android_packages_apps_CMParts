@@ -22,6 +22,30 @@
       "revId": "35c95f52c33f3e79eba47fa60a686185fb0e84a5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9d71873b_9db002b0",
+        "filename": "src/org/cyanogenmod/cmparts/gestures/TouchscreenGestureSettings.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-08-22T06:23:00Z",
+      "side": 1,
+      "message": "Do you mean with a fake array just to avoid the NPE?",
+      "parentUuid": "eb7bd763_c7e7e7f5",
+      "range": {
+        "startLine": 141,
+        "startChar": 54,
+        "endLine": 141,
+        "endChar": 76
+      },
+      "revId": "35c95f52c33f3e79eba47fa60a686185fb0e84a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
