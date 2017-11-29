@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1198acf3_7c43c064",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 26
+      },
+      "lineNbr": 663,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-11-29T08:55:38Z",
+      "side": 1,
+      "message": "You could move this above, to place it near the rest of the status bar related settings. It likely reduces the need of further rebases.",
+      "range": {
+        "startLine": 651,
+        "startChar": 0,
+        "endLine": 663,
+        "endChar": 222
+      },
+      "revId": "55aa4cc47b290d08803b26b2db0cf0984f3f9d20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
