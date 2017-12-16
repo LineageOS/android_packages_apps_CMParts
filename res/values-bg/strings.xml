@@ -552,6 +552,11 @@
   <string name="touchscreen_gesture_letter_w_title">Изпишете буквата \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Изпишете буквата \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Плъзнете нагоре с писалката</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Плъзнете надолу с писалката</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Плъзнете наляво с писалката</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Тласнете надясно с писалката</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Дълго натискане с писалката</string>
   <string name="touchscreen_gesture_action_dialog_title">Жестове</string>
   <string name="touchscreen_gesture_action_do_nothing">Не прави нищо</string>
   <string name="touchscreen_gesture_action_flashlight">Включване / Изключване на фенерчето</string>
@@ -563,4 +568,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Възпроизвеждане и пауза на музика</string>
   <string name="touchscreen_gesture_action_previous_track">Преминаване към предишната песен</string>
   <string name="touchscreen_gesture_action_next_track">Преминаване към следващата песен</string>
+  <string name="touchscreen_gesture_action_volume_down">По-ниска сила на звука на медията</string>
+  <string name="touchscreen_gesture_action_volume_up">По-висока сила на звука на медията</string>
 </resources>

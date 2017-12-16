@@ -552,6 +552,11 @@
   <string name="touchscreen_gesture_letter_w_title">「W」を描く</string>
   <string name="touchscreen_gesture_letter_z_title">「Z」を描く</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">スタイラスで上にスワイプ</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">スタイラスで下にスワイプ</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">スタイラスで左にスワイプ</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">スタイラスで右にスワイプ</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">スタイラスで長押し</string>
   <string name="touchscreen_gesture_action_dialog_title">ジェスチャーのアクション</string>
   <string name="touchscreen_gesture_action_do_nothing">何もしない</string>
   <string name="touchscreen_gesture_action_flashlight">ライトをトグルする</string>
@@ -563,4 +568,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">音楽の再生/一時停止</string>
   <string name="touchscreen_gesture_action_previous_track">前の楽曲に移動</string>
   <string name="touchscreen_gesture_action_next_track">次の楽曲にスキップ</string>
+  <string name="touchscreen_gesture_action_volume_down">メディア音量を下げる</string>
+  <string name="touchscreen_gesture_action_volume_up">メディア音量を上げる</string>
 </resources>

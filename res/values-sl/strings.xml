@@ -105,7 +105,7 @@
   <string name="led_notification_text">Lučka LED omogočena v nastavitvah</string>
   <string name="notification_light_no_apps_summary">Da dodate nadzor za posamezne aplikacije, omogočite \'%1$s\' in pritisnite \'\u002b\' v menijski vrstici</string>
   <!-- LiveDisplay -->
-  <string name="live_display_summary">Optimiziraj zaslon glede na čas dneva in pogoje okolice, da se izboljša berljivost in zmanjša obremenitev oči</string>
+  <string name="live_display_summary">Optimiziranje zaslona glede na čas dneva in pogojev okolice, da se izboljša berljivost in zmanjša obremenitev oči</string>
   <string name="live_display_mode">Način prikaza</string>
   <string name="live_display_color_temperature_title">Temperatura barve</string>
   <string name="live_display_color_temperature_summary">Dan: <xliff:g id="day_temperature">%1$d</xliff:g> K Noč: <xliff:g id="night_temperature">%2$d</xliff:g> K</string>
@@ -554,6 +554,11 @@
   <string name="touchscreen_gesture_letter_w_title">Narišite črko \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Narišite črko \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Poteg navzgor s pisalom</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Poteg navzdol s pisalom</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Poteg levo s pisalom</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Poteg desno s pisalom</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Dolg pritisk s pisalom</string>
   <string name="touchscreen_gesture_action_dialog_title">Dejanje poteze</string>
   <string name="touchscreen_gesture_action_do_nothing">Ne naredi ničesar</string>
   <string name="touchscreen_gesture_action_flashlight">Vklop/izklop svetilke</string>
@@ -565,4 +570,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Predvajaj/začasno ustavi predvajanje glasbe</string>
   <string name="touchscreen_gesture_action_previous_track">Skok na prejšnjo skladbo</string>
   <string name="touchscreen_gesture_action_next_track">Skok na naslednjo skladbo</string>
+  <string name="touchscreen_gesture_action_volume_down">Zmanjšaj glasnost predstavnosti</string>
+  <string name="touchscreen_gesture_action_volume_up">Povečaj glasnost predstavnosti</string>
 </resources>

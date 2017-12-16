@@ -552,6 +552,11 @@
   <string name="touchscreen_gesture_letter_w_title">Nakreslite písmeno \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Nakreslite písmeno \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Potiahnutie dotykovým perom nahor</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Potiahnutie dotykovým perom nadol</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Potiahnutie dotykovým perom vľavo</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Potiahnutie dotykovým perom vpravo</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Dlhé stlačenie dotykovým perom</string>
   <string name="touchscreen_gesture_action_dialog_title">Gestá</string>
   <string name="touchscreen_gesture_action_do_nothing">Nerobiť nič</string>
   <string name="touchscreen_gesture_action_flashlight">Zapnúť baterku</string>
@@ -563,4 +568,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Spustiť/zastaviť prehrávanie hudby</string>
   <string name="touchscreen_gesture_action_previous_track">Spustiť predchádzajúcu skladbu</string>
   <string name="touchscreen_gesture_action_next_track">Preskočiť na ďalšiu skladbu</string>
+  <string name="touchscreen_gesture_action_volume_down">Zníženie hlasitosti médií</string>
+  <string name="touchscreen_gesture_action_volume_up">Zvýšenie hlasitosti médií</string>
 </resources>

@@ -549,6 +549,11 @@
   <string name="touchscreen_gesture_letter_w_title">Disegna la lettera \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Disegna la lettera \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Scorri verso l\'alto con il pennino</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Scorri verso il basso con il pennino</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Scorri verso sinistra con il pennino</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Scorri verso destra con il pennino</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Pressione prolungata con il pennino</string>
   <string name="touchscreen_gesture_action_dialog_title">Azione gesture</string>
   <string name="touchscreen_gesture_action_do_nothing">Non far nulla</string>
   <string name="touchscreen_gesture_action_flashlight">Attiva/Disattiva torcia</string>
@@ -560,4 +565,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Play/Pausa riproduzione musica</string>
   <string name="touchscreen_gesture_action_previous_track">Passa al brano precedente</string>
   <string name="touchscreen_gesture_action_next_track">Passa alla traccia successiva</string>
+  <string name="touchscreen_gesture_action_volume_down">Abbassa volume multimediale</string>
+  <string name="touchscreen_gesture_action_volume_up">Alza volume multimediale</string>
 </resources>

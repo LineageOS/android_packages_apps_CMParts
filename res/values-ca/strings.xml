@@ -552,6 +552,11 @@
   <string name="touchscreen_gesture_letter_w_title">Dibuixa la lletra \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Dibuixa la lletra \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Feu lliscar cap a dalt amb el llapis</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Feu lliscar cap a baix amb el llapis</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Feu lliscar cap a l\'esquerra amb el llapis</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Feu lliscar cap a la dreta amb el llapis</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Premeu i mantingueu premut amb el llapis</string>
   <string name="touchscreen_gesture_action_dialog_title">Acció gestual</string>
   <string name="touchscreen_gesture_action_do_nothing">No facis res</string>
   <string name="touchscreen_gesture_action_flashlight">Encén/apaga la llanterna</string>
@@ -563,4 +568,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Reprodueix/pausa la reproducció de música</string>
   <string name="touchscreen_gesture_action_previous_track">Navega a la pista de música anterior</string>
   <string name="touchscreen_gesture_action_next_track">Vés a la següent pista de música</string>
+  <string name="touchscreen_gesture_action_volume_down">Abaixa el volum multimèdia</string>
+  <string name="touchscreen_gesture_action_volume_up">Apuja el volum multimèdia</string>
 </resources>

@@ -552,6 +552,11 @@
   <string name="touchscreen_gesture_letter_w_title">Vẽ chữ cái \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Vẽ chữ cái \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Trượt lên với bút stylus</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Trượt xuống với bút stylus</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Trượt bên trái với bút stylus</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Trượt bên phải ở với bút stylus</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Nhấn giữ với bút stylus</string>
   <string name="touchscreen_gesture_action_dialog_title">Hành động cử chỉ</string>
   <string name="touchscreen_gesture_action_do_nothing">Không làm gì</string>
   <string name="touchscreen_gesture_action_flashlight">Bật/tắt đèn pin</string>
@@ -563,4 +568,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Phát/tạm dừng nhạc</string>
   <string name="touchscreen_gesture_action_previous_track">Chuyển đến bài kế tiếp</string>
   <string name="touchscreen_gesture_action_next_track">Bỏ qua bài kế tiếp</string>
+  <string name="touchscreen_gesture_action_volume_down">Âm lượng phương tiện thấp hơn</string>
+  <string name="touchscreen_gesture_action_volume_up">Âm lượng phương tiện cao hơn</string>
 </resources>

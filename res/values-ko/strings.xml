@@ -552,6 +552,11 @@
   <string name="touchscreen_gesture_letter_w_title">문자 \"W\" 그리기</string>
   <string name="touchscreen_gesture_letter_z_title">문자 \"Z\" 그리기</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">스타일러스로 쓸어 올리기</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">스타일러스로 쓸어 내리기</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">스타일러스로 왼쪽으로 밀기</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">스타일러스로 오른쪽으로 밀기</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">스타일러스로 길게 누르기</string>
   <string name="touchscreen_gesture_action_dialog_title">제스처 동작</string>
   <string name="touchscreen_gesture_action_do_nothing">아무것도 하지 않음</string>
   <string name="touchscreen_gesture_action_flashlight">손전등 켜고 끄기</string>
@@ -563,4 +568,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">음악 재생/일시 정지</string>
   <string name="touchscreen_gesture_action_previous_track">이전 음악 트랙으로 이동</string>
   <string name="touchscreen_gesture_action_next_track">다음 음악 트랙으로 이동</string>
+  <string name="touchscreen_gesture_action_volume_down">미디어 음량 작게</string>
+  <string name="touchscreen_gesture_action_volume_up">미디어 음량 크게</string>
 </resources>

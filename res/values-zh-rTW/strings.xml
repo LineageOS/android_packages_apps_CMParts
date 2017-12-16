@@ -553,6 +553,11 @@
   <string name="touchscreen_gesture_letter_w_title">畫出一個字母「W」</string>
   <string name="touchscreen_gesture_letter_z_title">畫出一個字母「Z」</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">用觸控筆向上滑動</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">用觸控筆向下滑動</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">用觸控筆向左滑動</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">用觸控筆向右滑動</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">用觸控筆長按</string>
   <string name="touchscreen_gesture_action_dialog_title">手勢動作</string>
   <string name="touchscreen_gesture_action_do_nothing">不執行任何動作</string>
   <string name="touchscreen_gesture_action_flashlight">切換至手電筒</string>
@@ -564,4 +569,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">播放/暫停音樂播放</string>
   <string name="touchscreen_gesture_action_previous_track">導覽到上一首音樂曲目</string>
   <string name="touchscreen_gesture_action_next_track">跳到下一首音樂曲目</string>
+  <string name="touchscreen_gesture_action_volume_down">降低媒體音量</string>
+  <string name="touchscreen_gesture_action_volume_up">提高媒體音量</string>
 </resources>

@@ -554,6 +554,11 @@
   <string name="touchscreen_gesture_letter_w_title">Desenați litera \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Desenați litera \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Glisați în sus cu stylus-ul</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Glisați în jos cu stylus-ul</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Glisați în stânga cu stylus-ul</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Glisați în dreapta cu stylus-ul</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Apăsaţi lung cu stylus-ul</string>
   <string name="touchscreen_gesture_action_dialog_title">Acțiune gest</string>
   <string name="touchscreen_gesture_action_do_nothing">Nu fă nimic</string>
   <string name="touchscreen_gesture_action_flashlight">Comută lanterna</string>
@@ -565,4 +570,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Redare/pauză redarea muzicii</string>
   <string name="touchscreen_gesture_action_previous_track">Navigaţi la piesa anterioară</string>
   <string name="touchscreen_gesture_action_next_track">Treceți la următoarea piesă</string>
+  <string name="touchscreen_gesture_action_volume_down">Micșorează volumul media</string>
+  <string name="touchscreen_gesture_action_volume_up">Mărește volumul media</string>
 </resources>
