@@ -253,13 +253,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         mNavigationHomeDoubleTapAction = initList(KEY_NAVIGATION_HOME_DOUBLE_TAP,
                 homeDoubleTapAction);
 
-        // Hide navigation bar home settings if we have a hardware home key
-        // so that action config options aren't duplicated.
-        if (hasHomeKey) {
-                mNavigationPreferencesCat.removePreference(mNavigationHomeLongPressAction);
-                mNavigationPreferencesCat.removePreference(mNavigationHomeDoubleTapAction);
-        }
-
         // Navigation bar recents long press activity needs custom setup
         mNavigationRecentsLongPressAction =
                 initRecentsLongPressAction(KEY_NAVIGATION_RECENTS_LONG_PRESS);
@@ -313,6 +306,10 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
             mHomeLongPressAction = initList(KEY_HOME_LONG_PRESS, homeLongPressAction);
             mHomeDoubleTapAction = initList(KEY_HOME_DOUBLE_TAP, homeDoubleTapAction);
+            if (mDisableNavigationKeys.isChecked()) {
+                mHomeLongPressAction.setEnabled(false);
+                mHomeDoubleTapAction.setEnabled(false);
+            }
 
             hasAnyBindableKey = true;
         } else {
@@ -687,8 +684,25 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         }
 
         /* Toggle hardkey control availability depending on navbar state */
+        if (mNavigationPreferencesCat != null) {
+            if (navbarEnabled) {
+                mNavigationPreferencesCat.addPreference(mNavigationHomeLongPressAction);
+                mNavigationPreferencesCat.addPreference(mNavigationHomeDoubleTapAction);
+            } else {
+                mNavigationPreferencesCat.removePreference(mNavigationHomeLongPressAction);
+                mNavigationPreferencesCat.removePreference(mNavigationHomeDoubleTapAction);
+            }
+        }
         if (homeCategory != null) {
-            homeCategory.setEnabled(!navbarEnabled);
+            if (mHomeAnswerCall != null) {
+                mHomeAnswerCall.setEnabled(!navbarEnabled);
+            }
+            if (mHomeLongPressAction != null) {
+                mHomeLongPressAction.setEnabled(!navbarEnabled);
+            }
+            if (mHomeDoubleTapAction != null) {
+                mHomeDoubleTapAction.setEnabled(!navbarEnabled);
+            }
         }
         if (backCategory != null) {
             backCategory.setEnabled(!navbarEnabled);
