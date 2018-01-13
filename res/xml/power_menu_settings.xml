@@ -40,16 +40,6 @@
         android:defaultValue="false" />
 
     <CheckBoxPreference
-        android:key="settings"
-        android:title="@string/power_menu_settings_title"
-        android:defaultValue="false" />
-
-    <CheckBoxPreference
-        android:key="lockdown"
-        android:title="@string/power_menu_lockdown_title"
-        android:defaultValue="false" />
-
-    <CheckBoxPreference
         android:key="bugreport"
         android:title="@string/power_menu_bug_report_title"
         android:defaultValue="false" />
@@ -57,16 +47,6 @@
     <CheckBoxPreference
         android:key="silent"
         android:title="@string/power_menu_sound_title"
-        android:defaultValue="true" />
-
-    <CheckBoxPreference
-        android:key="voiceassist"
-        android:title="@string/power_menu_sound_title"
-        android:defaultValue="true" />
-
-    <CheckBoxPreference
-        android:key="assist"
-        android:title="@string/power_menu_sound_title"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
 </PreferenceScreen>
