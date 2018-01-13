@@ -552,6 +552,11 @@
   <string name="touchscreen_gesture_letter_w_title">Нацртај слово „W“</string>
   <string name="touchscreen_gesture_letter_z_title">Нацртај слово „Z“</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Превуците нагоре са оловком</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Превуците доле са оловком</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Превуците налево са оловком</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Превуците десно са оловком</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Дуги притисак са оловком</string>
   <string name="touchscreen_gesture_action_dialog_title">Радња покрета</string>
   <string name="touchscreen_gesture_action_do_nothing">Ништа</string>
   <string name="touchscreen_gesture_action_flashlight">Укључи/искључи лампу</string>
@@ -563,4 +568,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Репродукуј/паузирај музику</string>
   <string name="touchscreen_gesture_action_previous_track">Пређи на претходну нумеру</string>
   <string name="touchscreen_gesture_action_next_track">Пређи на следећу нумеру</string>
+  <string name="touchscreen_gesture_action_volume_down">Смањи јачину звука</string>
+  <string name="touchscreen_gesture_action_volume_up">Повећај јачину звука</string>
 </resources>

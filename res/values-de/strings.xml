@@ -556,6 +556,7 @@
   <string name="touchscreen_gesture_swipe_down_stylus_title">Mit dem Stift nach unten wischen</string>
   <string name="touchscreen_gesture_swipe_left_stylus_title">Mit dem Stift nach links wischen</string>
   <string name="touchscreen_gesture_swipe_right_stylus_title">Mit dem Stift nach rechts wischen</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Langes Drücken mit dem Stift</string>
   <string name="touchscreen_gesture_action_dialog_title">Gestenaktion</string>
   <string name="touchscreen_gesture_action_do_nothing">Nichts tun</string>
   <string name="touchscreen_gesture_action_flashlight">Taschenlampe ein-/ausschalten</string>

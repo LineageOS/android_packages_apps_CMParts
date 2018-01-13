@@ -140,6 +140,7 @@
   <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Kolory dokładne z przestrzenią kolorów sRGB</string>
   <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Kolory są dokładne do DCI-P3</string>
   <string name="color_calibration_title">Kalibracja kolorów</string>
   <string name="color_calibration_summary">Kalibruj kolory wyświetlacza</string>
   <string name="color_red_title">Czerwony</string>
@@ -553,6 +554,11 @@
   <string name="touchscreen_gesture_letter_w_title">Narysuj literę \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Narysuj literę \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Przesuń rysikiem w górę</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Przesuń rysikiem w dół</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Przesuń rysikiem w lewo</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Przesuń rysikiem w prawo</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Długie przytrzymanie rysika</string>
   <string name="touchscreen_gesture_action_dialog_title">Gest akcji</string>
   <string name="touchscreen_gesture_action_do_nothing">Nic nie rób</string>
   <string name="touchscreen_gesture_action_flashlight">Przełącznik latarki</string>
@@ -564,4 +570,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Rozpoczęcie/wstrzymanie odtwarzania muzyki</string>
   <string name="touchscreen_gesture_action_previous_track">Przejdź do poprzedniego utworu muzycznego</string>
   <string name="touchscreen_gesture_action_next_track">Przejdź do następnego utworu muzycznego</string>
+  <string name="touchscreen_gesture_action_volume_down">Mniejsza głośność multimediów</string>
+  <string name="touchscreen_gesture_action_volume_up">Większa głośność multimediów</string>
 </resources>

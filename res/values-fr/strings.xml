@@ -563,4 +563,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Lecture/pause de la musique</string>
   <string name="touchscreen_gesture_action_previous_track">Retourner à la piste précédente</string>
   <string name="touchscreen_gesture_action_next_track">Passer à la piste suivante</string>
+  <string name="touchscreen_gesture_action_volume_down">Diminuer le volume du média</string>
+  <string name="touchscreen_gesture_action_volume_up">Augmenter le volume du média</string>
 </resources>

@@ -552,6 +552,11 @@
   <string name="touchscreen_gesture_letter_w_title">צייר \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">צייר \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">החלק למעלה עם העט</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">החלק למטה עם העט</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">החלק שמאלה עם העט</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">החלק ימינה עם העט</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">לחיצה ארוכה עם העט</string>
   <string name="touchscreen_gesture_action_dialog_title">פעולות מחווה</string>
   <string name="touchscreen_gesture_action_do_nothing">אל תעשה כלום</string>
   <string name="touchscreen_gesture_action_flashlight">הפעל פנס</string>
@@ -563,4 +568,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">נגן/השהה מדיה</string>
   <string name="touchscreen_gesture_action_previous_track">חזור לשיר הקודם</string>
   <string name="touchscreen_gesture_action_next_track">עבור אל השיר הבא</string>
+  <string name="touchscreen_gesture_action_volume_down">הנמך עוצמת מדיה</string>
+  <string name="touchscreen_gesture_action_volume_up">הגבר עוצמת מדיה</string>
 </resources>
