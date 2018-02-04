@@ -178,8 +178,6 @@
   <string name="power_menu_screenshot_title">Здымак экрану</string>
   <string name="power_menu_airplane_title">Рэжым лёту</string>
   <string name="power_menu_users_title">Зьмяніць карыстальніка</string>
-  <string name="power_menu_settings_title">Цэтлік наладаў</string>
-  <string name="power_menu_lockdown_title">Блакаваньне прылады</string>
   <string name="power_menu_bug_report_title">Справаздача пра памылкі</string>
   <string name="power_menu_sound_title">Гукавая панэль</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->

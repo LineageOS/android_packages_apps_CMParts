@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Screenshot</string>
   <string name="power_menu_airplane_title">Vliegtuigmodus</string>
   <string name="power_menu_users_title">Gebruiker wisselen</string>
-  <string name="power_menu_settings_title">Snelkoppeling voor instellingen</string>
-  <string name="power_menu_lockdown_title">Apparaat vergrendelen</string>
   <string name="power_menu_bug_report_title">Foutenrapport</string>
-  <string name="power_menu_sound_title">Geluidspaneel</string>
   <string name="power_menu_bug_report_disabled">Foutrapportage is uitgeschakeld in de opties voor ontwikkelaars</string>
+  <string name="power_menu_sound_title">Geluidspaneel</string>
   <string name="volume_keys_control_ring_stream_title">Beltoonvolume beheren</string>
   <string name="volume_keys_control_ring_stream_summary_on">Volumeknoppen passen beltoonvolume aan</string>
   <string name="volume_keys_control_ring_stream_summary_off">Volumeknoppen passen mediavolume aan</string>

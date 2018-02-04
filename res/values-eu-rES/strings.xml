@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Pantaila-argazkia</string>
   <string name="power_menu_airplane_title">Hegaldi modua</string>
   <string name="power_menu_users_title">Erabiltzaile aldaketa</string>
-  <string name="power_menu_settings_title">Ezarpenetara lasterbidea</string>
-  <string name="power_menu_lockdown_title">Gailuaren blokeoa</string>
   <string name="power_menu_bug_report_title">Errore-txostena</string>
-  <string name="power_menu_sound_title">Soinu-panela</string>
   <string name="power_menu_bug_report_disabled">Erroreen berri ematea ezgaituta dago garatzaileen aukeretan</string>
+  <string name="power_menu_sound_title">Soinu-panela</string>
   <string name="volume_keys_control_ring_stream_title">Kontrolatu dei-doinuaren bolumena</string>
   <string name="volume_keys_control_ring_stream_summary_on">Bolumen teklek dei-doinuaren bolumena kontrolatzen dute</string>
   <string name="volume_keys_control_ring_stream_summary_off">Bolumen teklek multimediaren bolumena kontrolatzen dute</string>

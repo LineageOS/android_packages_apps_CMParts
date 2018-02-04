@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Screenshot</string>
   <string name="power_menu_airplane_title">Modalità aereo</string>
   <string name="power_menu_users_title">Cambio utente</string>
-  <string name="power_menu_settings_title">Scorciatoie impostazioni</string>
-  <string name="power_menu_lockdown_title">Blocco dispositivo</string>
   <string name="power_menu_bug_report_title">Segnalazione bug</string>
-  <string name="power_menu_sound_title">Pannello suoni</string>
   <string name="power_menu_bug_report_disabled">La segnalazione bug è disattivata nelle opzioni sviluppatore</string>
+  <string name="power_menu_sound_title">Pannello suoni</string>
   <string name="volume_keys_control_ring_stream_title">Controllo volume suoneria</string>
   <string name="volume_keys_control_ring_stream_summary_on">I tasti del volume controllano il volume della suoneria</string>
   <string name="volume_keys_control_ring_stream_summary_off">I tasti del volume controllano il volume dei contenuti multimediali</string>

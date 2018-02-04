@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Captură de ecran</string>
   <string name="power_menu_airplane_title">Mod Avion</string>
   <string name="power_menu_users_title">Comutator utilizatori</string>
-  <string name="power_menu_settings_title">Comandă rapidă pentru Setări</string>
-  <string name="power_menu_lockdown_title">Blocare dispozitiv</string>
   <string name="power_menu_bug_report_title">Raport de eroare</string>
-  <string name="power_menu_sound_title">Panou sunet</string>
   <string name="power_menu_bug_report_disabled">Raportarea erorilor este dezactivată în setările pentru dezvoltatori</string>
+  <string name="power_menu_sound_title">Panou sunet</string>
   <string name="volume_keys_control_ring_stream_title">Controlează volumul soneriei</string>
   <string name="volume_keys_control_ring_stream_summary_on">Butoanele de volum controlează volumul tonului de apel</string>
   <string name="volume_keys_control_ring_stream_summary_off">Butoanele de volum controlează volumul media</string>

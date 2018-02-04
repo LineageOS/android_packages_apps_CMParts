@@ -225,11 +225,9 @@
   <string name="power_menu_screenshot_title">Screenshot</string>
   <string name="power_menu_airplane_title">Flytilstand</string>
   <string name="power_menu_users_title">Brugerskifter</string>
-  <string name="power_menu_settings_title">Genvej til Indstillinger</string>
-  <string name="power_menu_lockdown_title">Lås enheden</string>
   <string name="power_menu_bug_report_title">Fejlrapport</string>
-  <string name="power_menu_sound_title">Lydpanel</string>
   <string name="power_menu_bug_report_disabled">Fejlrapportering er deaktiveret i Indstillinger for udviklere</string>
+  <string name="power_menu_sound_title">Lydpanel</string>
   <string name="volume_keys_control_ring_stream_title">Regulér lydstyrke for ringetone</string>
   <string name="volume_keys_control_ring_stream_summary_on">Lydstyrkeknapper regulerer lydstyrken for ringetone</string>
   <string name="volume_keys_control_ring_stream_summary_off">Lydstyrketasterne regulerer medielydstyrken</string>

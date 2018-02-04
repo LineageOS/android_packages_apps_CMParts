@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Снимка на екрана</string>
   <string name="power_menu_airplane_title">Самолетен режим</string>
   <string name="power_menu_users_title">Потребители</string>
-  <string name="power_menu_settings_title">Настройки на преки пътища</string>
-  <string name="power_menu_lockdown_title">Заключване на устройството</string>
   <string name="power_menu_bug_report_title">Доклад за грешка</string>
-  <string name="power_menu_sound_title">Звуков панел</string>
   <string name="power_menu_bug_report_disabled">Доклади за грешки са забранени от настройките за разработчици</string>
+  <string name="power_menu_sound_title">Звуков панел</string>
   <string name="volume_keys_control_ring_stream_title">Силата на звука при звънене</string>
   <string name="volume_keys_control_ring_stream_summary_on">С бутоните за сила на звука регулирате силата на звънене</string>
   <string name="volume_keys_control_ring_stream_summary_off">С бутоните за сила на звука регулирате силата на медиите</string>

@@ -167,8 +167,8 @@
   <string name="power_menu_airplane_title">Mou avión</string>
   <string name="power_menu_users_title">Seleutor d\'usuarios</string>
   <string name="power_menu_bug_report_title">Informe de fallos</string>
-  <string name="power_menu_sound_title">Panel de soníu</string>
   <string name="power_menu_bug_report_disabled">L\'informe de fallos ta deshabilitáu nos axustes de desendolcu</string>
+  <string name="power_menu_sound_title">Panel de soníu</string>
   <string name="volume_keys_control_ring_stream_title">Controlar el volume del timbre</string>
   <string name="volume_keys_control_ring_stream_summary_on">Les tecles de volume controlen el volume del timbre</string>
   <string name="volume_keys_control_ring_stream_summary_off">Les tecles de volume controlen el volume de medios</string>

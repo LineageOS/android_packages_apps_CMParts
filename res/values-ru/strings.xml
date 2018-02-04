@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Скриншот</string>
   <string name="power_menu_airplane_title">Режим полета</string>
   <string name="power_menu_users_title">Переключение пользователей</string>
-  <string name="power_menu_settings_title">Ярлык настроек</string>
-  <string name="power_menu_lockdown_title">Блокировка устройства</string>
   <string name="power_menu_bug_report_title">Отчет об ошибке</string>
-  <string name="power_menu_sound_title">Звуковая панель</string>
   <string name="power_menu_bug_report_disabled">Отчет об ошибке отключен в настройках для разработчика</string>
+  <string name="power_menu_sound_title">Звуковая панель</string>
   <string name="volume_keys_control_ring_stream_title">Регулировка громкости рингтона</string>
   <string name="volume_keys_control_ring_stream_summary_on">Кнопки громкости регулируют громкость рингтона</string>
   <string name="volume_keys_control_ring_stream_summary_off">Кнопки громкости регулируют громкость мультимедиа</string>

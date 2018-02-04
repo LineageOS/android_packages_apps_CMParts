@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Στιγμιότυπο οθόνης</string>
   <string name="power_menu_airplane_title">Λειτουργία πτήσης</string>
   <string name="power_menu_users_title">Εναλλαγή χρήστη</string>
-  <string name="power_menu_settings_title">Συντόμευση ρυθμίσεων</string>
-  <string name="power_menu_lockdown_title">Κλείδωμα συσκευής</string>
   <string name="power_menu_bug_report_title">Αναφορά σφαλμάτων</string>
-  <string name="power_menu_sound_title">Πάνελ έντασης</string>
   <string name="power_menu_bug_report_disabled">Η αναφορά σφαλμάτων είναι απενεργοποιημένη στις ρυθμίσεις για προγραμματιστές</string>
+  <string name="power_menu_sound_title">Πάνελ έντασης</string>
   <string name="volume_keys_control_ring_stream_title">Έλεγχος έντασης ήχου κλήσης</string>
   <string name="volume_keys_control_ring_stream_summary_on">Τα πλήκτρα έντασης θα ελέγχουν την ένταση ήχου κλήσης</string>
   <string name="volume_keys_control_ring_stream_summary_off">Τα πλήκτρα έντασης θα ελέγχουν την ένταση πολυμέσων</string>
@@ -556,6 +554,11 @@
   <string name="touchscreen_gesture_letter_w_title">Σχεδιάστε το γράμμα «W»</string>
   <string name="touchscreen_gesture_letter_z_title">Σχεδιάστε το γράμμα «Z»</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Σύρετε προς τα επάνω με τη γραφίδα</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Σύρετε προς τα κάτω με τη γραφίδα</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Σύρετε προς τα αριστερά με τη γραφίδα</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Σύρετε προς τα δεξιά με τη γραφίδα</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Παρατεταμένη πίεση με τη γραφίδα</string>
   <string name="touchscreen_gesture_action_dialog_title">Ενέργεια χειρονομίας</string>
   <string name="touchscreen_gesture_action_do_nothing">Καμία ενέργεια</string>
   <string name="touchscreen_gesture_action_flashlight">Εναλλαγή φακού</string>
@@ -567,4 +570,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Αναπαραγωγή/παύση μουσικής</string>
   <string name="touchscreen_gesture_action_previous_track">Μεταβείτε στο προηγούμενο κομμάτι μουσικής</string>
   <string name="touchscreen_gesture_action_next_track">Μετάβαση στο επόμενο κομμάτι μουσικής</string>
+  <string name="touchscreen_gesture_action_volume_down">Μείωση έντασης πολυμέσων</string>
+  <string name="touchscreen_gesture_action_volume_up">Αύξηση έντασης πολυμέσων</string>
 </resources>

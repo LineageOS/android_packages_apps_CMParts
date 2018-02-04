@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Skjermbilde</string>
   <string name="power_menu_airplane_title">Flymodus</string>
   <string name="power_menu_users_title">Brukerbytte</string>
-  <string name="power_menu_settings_title">Innstillinger snarvei</string>
-  <string name="power_menu_lockdown_title">Nedlåsing av enhet</string>
   <string name="power_menu_bug_report_title">Feilrapport</string>
-  <string name="power_menu_sound_title">Lyd-panel</string>
   <string name="power_menu_bug_report_disabled">Feilrapportering er deaktivert i innstillingene for utvikling</string>
+  <string name="power_menu_sound_title">Lyd-panel</string>
   <string name="volume_keys_control_ring_stream_title">Ringetone volumkontroll</string>
   <string name="volume_keys_control_ring_stream_summary_on">Volumtastene styrer ringetonevolum</string>
   <string name="volume_keys_control_ring_stream_summary_off">Volumtastene styrer media volum</string>

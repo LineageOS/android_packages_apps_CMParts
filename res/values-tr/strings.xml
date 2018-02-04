@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Ekran görüntüsü</string>
   <string name="power_menu_airplane_title">Uçak modu</string>
   <string name="power_menu_users_title">Kullanıcı değiştir</string>
-  <string name="power_menu_settings_title">Ayarlar kısayolu</string>
-  <string name="power_menu_lockdown_title">Cihazı kilitle</string>
   <string name="power_menu_bug_report_title">Hata raporu</string>
-  <string name="power_menu_sound_title">Ses paneli</string>
   <string name="power_menu_bug_report_disabled">Hata raporlama geliştirici ayarlarında devre dışı bırakıldı</string>
+  <string name="power_menu_sound_title">Ses paneli</string>
   <string name="volume_keys_control_ring_stream_title">Zil sesi düzeyini kontrol et</string>
   <string name="volume_keys_control_ring_stream_summary_on">Ses tuşları zil sesi düzeyini kontrol eder</string>
   <string name="volume_keys_control_ring_stream_summary_off">Ses tuşları medya seslerinin düzeyini kontrol eder</string>

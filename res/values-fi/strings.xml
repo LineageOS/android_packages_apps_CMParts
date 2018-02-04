@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Kuvakaappaus</string>
   <string name="power_menu_airplane_title">Lentotila</string>
   <string name="power_menu_users_title">Käyttäjän vaihto</string>
-  <string name="power_menu_settings_title">Asetusten pikakuvake</string>
-  <string name="power_menu_lockdown_title">Laitteen lukitus</string>
   <string name="power_menu_bug_report_title">Virheraportti</string>
-  <string name="power_menu_sound_title">Äänipaneeli</string>
   <string name="power_menu_bug_report_disabled">Virheraportointi on poistettu käytöstä kehittäjäasetuksista</string>
+  <string name="power_menu_sound_title">Äänipaneeli</string>
   <string name="volume_keys_control_ring_stream_title">Ohjaa soittoäänen äänenvoimakkuutta</string>
   <string name="volume_keys_control_ring_stream_summary_on">Soittoäänen voimakkuuden ohjaus äänenvoimakkuusnäppäimillä</string>
   <string name="volume_keys_control_ring_stream_summary_off">Median äänenvoimakkuuden ohjaus äänenvoimakkuusnäppäimillä</string>

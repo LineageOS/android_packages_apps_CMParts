@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Chụp ảnh màn hình</string>
   <string name="power_menu_airplane_title">Chế độ máy bay</string>
   <string name="power_menu_users_title">Chuyển người dùng</string>
-  <string name="power_menu_settings_title">Lối tắt cài đặt</string>
-  <string name="power_menu_lockdown_title">Khoá cứng thiết bị</string>
   <string name="power_menu_bug_report_title">Báo cáo lỗi</string>
-  <string name="power_menu_sound_title">Bảng điều khiển âm thanh</string>
   <string name="power_menu_bug_report_disabled">Báo cáo lỗi bị tắt trong cài đặt nhà phát triển</string>
+  <string name="power_menu_sound_title">Bảng điều khiển âm thanh</string>
   <string name="volume_keys_control_ring_stream_title">Điều khiển âm lượng nhạc chuông</string>
   <string name="volume_keys_control_ring_stream_summary_on">Phím âm lượng điều khiển âm lượng nhạc chuông</string>
   <string name="volume_keys_control_ring_stream_summary_off">Phím âm lượng điều khiển âm lượng phương tiện</string>

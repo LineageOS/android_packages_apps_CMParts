@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">스크린샷</string>
   <string name="power_menu_airplane_title">비행기 모드</string>
   <string name="power_menu_users_title">사용자 전환</string>
-  <string name="power_menu_settings_title">설정 바로 가기</string>
-  <string name="power_menu_lockdown_title">기기 잠금</string>
   <string name="power_menu_bug_report_title">오류 신고</string>
-  <string name="power_menu_sound_title">사운드 패널</string>
   <string name="power_menu_bug_report_disabled">개발자 설정에서 오류 보고가 비활성화되었습니다</string>
+  <string name="power_menu_sound_title">사운드 패널</string>
   <string name="volume_keys_control_ring_stream_title">벨소리 볼륨 제어</string>
   <string name="volume_keys_control_ring_stream_summary_on">볼륨 키로 벨소리 크기 조절</string>
   <string name="volume_keys_control_ring_stream_summary_off">볼륨 키로 미디어 볼륨 크기 조절</string>

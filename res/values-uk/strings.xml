@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Скріншот</string>
   <string name="power_menu_airplane_title">Режим польоту</string>
   <string name="power_menu_users_title">Перемикання користувачів</string>
-  <string name="power_menu_settings_title">Ярлик налаштувань</string>
-  <string name="power_menu_lockdown_title">Блокування пристрою</string>
   <string name="power_menu_bug_report_title">Звіт про помилку</string>
-  <string name="power_menu_sound_title">Звукова панель</string>
   <string name="power_menu_bug_report_disabled">Надсилання звітів про помилки вимкнено в налаштуваннях розробника</string>
+  <string name="power_menu_sound_title">Звукова панель</string>
   <string name="volume_keys_control_ring_stream_title">Регулювання гучності рингтону</string>
   <string name="volume_keys_control_ring_stream_summary_on">Клавіші регулювання гучності контролюють гучність дзвінка</string>
   <string name="volume_keys_control_ring_stream_summary_off">Клавіші регулювання гучності контролюють гучність медіа-файлів</string>

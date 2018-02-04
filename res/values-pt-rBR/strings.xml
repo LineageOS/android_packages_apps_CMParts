@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Captura de tela</string>
   <string name="power_menu_airplane_title">Modo avião</string>
   <string name="power_menu_users_title">Alternador de usuário</string>
-  <string name="power_menu_settings_title">Atalho para as configurações</string>
-  <string name="power_menu_lockdown_title">Bloqueio de dispositivo</string>
   <string name="power_menu_bug_report_title">Relatório de erros</string>
-  <string name="power_menu_sound_title">Painel de som</string>
   <string name="power_menu_bug_report_disabled">Relatório de erros desativado nas configurações de desenvolvedor</string>
+  <string name="power_menu_sound_title">Painel de som</string>
   <string name="volume_keys_control_ring_stream_title">Controle de volume do toque</string>
   <string name="volume_keys_control_ring_stream_summary_on">Botões de volume controlam o volume do toque</string>
   <string name="volume_keys_control_ring_stream_summary_off">Teclas de volume controlam o volume da mídia</string>
