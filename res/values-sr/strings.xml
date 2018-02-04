@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Снимак екрана</string>
   <string name="power_menu_airplane_title">Режим рада у авиону</string>
   <string name="power_menu_users_title">Пребацивање корисника</string>
-  <string name="power_menu_settings_title">Пречица подешавања</string>
-  <string name="power_menu_lockdown_title">Закључавање уређаја</string>
   <string name="power_menu_bug_report_title">Пријава грешака</string>
-  <string name="power_menu_sound_title">Звучни панел</string>
   <string name="power_menu_bug_report_disabled">Пријава грешака је онемогућена у опцијама за програмера.</string>
+  <string name="power_menu_sound_title">Звучни панел</string>
   <string name="volume_keys_control_ring_stream_title">Управљање јачином звука звона</string>
   <string name="volume_keys_control_ring_stream_summary_on">Дугмад за јачину звука управљају јачином звука звона.</string>
   <string name="volume_keys_control_ring_stream_summary_off">Дугмад за јачину звука управљају јачином звука медија.</string>

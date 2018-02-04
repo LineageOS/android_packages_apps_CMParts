@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Zaslonska slika</string>
   <string name="power_menu_airplane_title">Način za letalo</string>
   <string name="power_menu_users_title">Preklopnik uporabnikov</string>
-  <string name="power_menu_settings_title">Bližnjica nastavitev</string>
-  <string name="power_menu_lockdown_title">Zaklepanje naprave</string>
   <string name="power_menu_bug_report_title">Poročilo o hrošču</string>
-  <string name="power_menu_sound_title">Zvočna plošča</string>
   <string name="power_menu_bug_report_disabled">V nastavitvah za razvijalce je poročanje o hrošču onemogočeno</string>
+  <string name="power_menu_sound_title">Zvočna plošča</string>
   <string name="volume_keys_control_ring_stream_title">Nadzor glasnosti zvonjenja</string>
   <string name="volume_keys_control_ring_stream_summary_on">Gumba za glasnost nadzirata glasnost zvonjenja</string>
   <string name="volume_keys_control_ring_stream_summary_off">Gumba za glasnost nadzirata glasnost predstavnosti</string>

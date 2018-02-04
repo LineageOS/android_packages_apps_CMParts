@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">צילום מסך</string>
   <string name="power_menu_airplane_title">מצב טיסה</string>
   <string name="power_menu_users_title">מחליף משתמשים</string>
-  <string name="power_menu_settings_title">קיצור דרך להגדרות</string>
-  <string name="power_menu_lockdown_title">נעילת המכשיר</string>
   <string name="power_menu_bug_report_title">דיווח באגים</string>
-  <string name="power_menu_sound_title">לוח עוצמת השמע</string>
   <string name="power_menu_bug_report_disabled">דיווח באגים מושבת בהגדרות מפתח</string>
+  <string name="power_menu_sound_title">לוח עוצמת השמע</string>
   <string name="volume_keys_control_ring_stream_title">שליטה בעוצמת הצלצול</string>
   <string name="volume_keys_control_ring_stream_summary_on">מקשי עוצמת השמע שולטים בעוצמת הצלצול</string>
   <string name="volume_keys_control_ring_stream_summary_off">מקשי עוצמת השמע שולטים בעוצמת המדיה</string>

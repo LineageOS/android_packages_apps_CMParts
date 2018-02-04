@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Zrzut ekranu</string>
   <string name="power_menu_airplane_title">Tryb samolotowy</string>
   <string name="power_menu_users_title">Przełącznik użytkowników</string>
-  <string name="power_menu_settings_title">Skrót do ustawień</string>
-  <string name="power_menu_lockdown_title">Blokowanie urządzenia</string>
   <string name="power_menu_bug_report_title">Zgłoszenie błędu</string>
-  <string name="power_menu_sound_title">Panel dźwięków</string>
   <string name="power_menu_bug_report_disabled">Raportowanie błędów jest wyłączone w opcjach programistycznych</string>
+  <string name="power_menu_sound_title">Panel dźwięków</string>
   <string name="volume_keys_control_ring_stream_title">Regulacja głośności dzwonka</string>
   <string name="volume_keys_control_ring_stream_summary_on">Przyciski głośności regulują głośność dzwonka</string>
   <string name="volume_keys_control_ring_stream_summary_off">Przyciski głośności regulują głośność multimediów</string>

@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">螢幕擷取</string>
   <string name="power_menu_airplane_title">飛航模式</string>
   <string name="power_menu_users_title">使用者切換器</string>
-  <string name="power_menu_settings_title">設定捷徑</string>
-  <string name="power_menu_lockdown_title">鎖定裝置</string>
   <string name="power_menu_bug_report_title">錯誤報告</string>
-  <string name="power_menu_sound_title">音效面板</string>
   <string name="power_menu_bug_report_disabled">已在開發人員選項中停用錯誤報告</string>
+  <string name="power_menu_sound_title">音效面板</string>
   <string name="volume_keys_control_ring_stream_title">控制鈴聲音量</string>
   <string name="volume_keys_control_ring_stream_summary_on">音量鍵控制鈴聲音量</string>
   <string name="volume_keys_control_ring_stream_summary_off">音量鍵控制媒體音量</string>
@@ -526,7 +524,7 @@
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">充電音效</string>
   <string name="charging_sounds_enabled_title">啟用</string>
-  <string name="charging_sounds_enabled_summary">接上或移除電源時播放音效</string>
+  <string name="charging_sounds_enabled_summary">接上或拔除電源時播放音效</string>
   <string name="power_notifications_vibrate_title">震動</string>
   <string name="charging_sounds_ringtone_title">通知音效</string>
   <string name="charging_sounds_ringtone_silent">靜音</string>

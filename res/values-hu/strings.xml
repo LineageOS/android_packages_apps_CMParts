@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Képernyőmentés</string>
   <string name="power_menu_airplane_title">Repülőgép üzemmód</string>
   <string name="power_menu_users_title">Felhasználóváltás</string>
-  <string name="power_menu_settings_title">Beállítások gyorsgomb</string>
-  <string name="power_menu_lockdown_title">Eszköz lezárása</string>
   <string name="power_menu_bug_report_title">Hibabejelentés</string>
-  <string name="power_menu_sound_title">Hang panel</string>
   <string name="power_menu_bug_report_disabled">Hibajelentés le van tiltva a fejlesztői beállításokban</string>
+  <string name="power_menu_sound_title">Hang panel</string>
   <string name="volume_keys_control_ring_stream_title">Csengőhang hangerejének vezérlése</string>
   <string name="volume_keys_control_ring_stream_summary_on">Hangerőgombok a csengőhangot vezérlik</string>
   <string name="volume_keys_control_ring_stream_summary_off">Hangerőgombok a média hangerejét vezérlik</string>

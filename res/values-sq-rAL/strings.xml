@@ -225,11 +225,9 @@
   <string name="power_menu_screenshot_title">Foto e ekranit</string>
   <string name="power_menu_airplane_title">Profili Avion</string>
   <string name="power_menu_users_title">Ndërruesi i përdoruesit</string>
-  <string name="power_menu_settings_title">Shkurtore për Parametrat</string>
-  <string name="power_menu_lockdown_title">Bllokim i pajisjes</string>
   <string name="power_menu_bug_report_title">Raportimi i problemeve</string>
-  <string name="power_menu_sound_title">Paneli i tingujve</string>
   <string name="power_menu_bug_report_disabled">Raportimi i problemeve është çaktivizuar në parametrat e zhvillimit</string>
+  <string name="power_menu_sound_title">Paneli i tingujve</string>
   <string name="volume_keys_control_ring_stream_title">Kontrollo volumin e ziles</string>
   <string name="volume_keys_control_ring_stream_summary_on">Butonat e volumit kontrollojnë volumin e ziles</string>
   <string name="volume_keys_control_ring_stream_summary_off">Butonat e volumit kontrollojnë volumin e medias</string>

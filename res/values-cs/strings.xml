@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Snímek obrazovky</string>
   <string name="power_menu_airplane_title">Režim „V letadle“</string>
   <string name="power_menu_users_title">Přepnutí uživatele</string>
-  <string name="power_menu_settings_title">Zástupce nastavení</string>
-  <string name="power_menu_lockdown_title">Uzamčení zařízení</string>
   <string name="power_menu_bug_report_title">Hlášení chyb</string>
-  <string name="power_menu_sound_title">Panel hlasitosti</string>
   <string name="power_menu_bug_report_disabled">Hlášení chyb je zakázáno ve vývojářských nastaveních</string>
+  <string name="power_menu_sound_title">Panel hlasitosti</string>
   <string name="volume_keys_control_ring_stream_title">Ovládání hlasitosti vyzvánění</string>
   <string name="volume_keys_control_ring_stream_summary_on">Tlačítka hlasitosti ovládají hlasitost vyzvánění</string>
   <string name="volume_keys_control_ring_stream_summary_off">Tlačítka hlasitosti ovládají hlasitost médií</string>
