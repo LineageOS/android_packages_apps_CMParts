@@ -59,7 +59,7 @@
   <string name="privacy_guard_notification_title">Zobraziť upozornenia</string>
   <!-- Notification light dialogs -->
   <string name="edit_light_settings">Upraviť svetelnú signalizáciu</string>
-  <string name="pulse_speed_title">Dĺžka a rýchlosť pulzov</string>
+  <string name="pulse_speed_title">Dĺžka a rýchlosť blikania</string>
   <string name="default_time">Normálny</string>
   <string name="custom_time">Vlastný</string>
   <string name="dialog_delete_title">Vymazať</string>
@@ -95,7 +95,7 @@
   <string name="notification_light_missed_call_title">Zmeškaný hovor</string>
   <string name="notification_light_voicemail_title">Odkazová schránka</string>
   <string name="notification_light_screen_on">Upozorňovať pomocou LED pri zapnutej obrazovke</string>
-  <string name="notification_light_zen_mode">Svetelná signalizácia v režimu „Nerušiť“</string>
+  <string name="notification_light_zen_mode">LED signalizácia v režime Nerušiť</string>
   <string name="notification_light_use_multiple_leds">Viaceré LED</string>
   <string name="keywords_lights_brightness_level">stlmiť jas LED diód</string>
   <string name="notification_light_automagic">Automaticky zvoliť farby</string>
@@ -394,7 +394,7 @@
   <!-- Status bar - icons -->
   <string name="status_bar_icons_title">Ikony stavového riadku</string>
   <string name="status_bar_notif_count_title">Zobraziť počítadlo oznámení</string>
-  <string name="status_bar_notif_count_summary">Zobraziť počet čakajúcich oznámení na ikone v stavovom riadku</string>
+  <string name="status_bar_notif_count_summary">Zobraziť počet čakajúcich upozornení v stavovom riadku</string>
   <string name="status_bar_system_icons_title">Systémové ikony</string>
   <string name="status_bar_system_icons_summary">Upraviť zobrazenie ikon v stavovom riadku</string>
   <!-- Status bar - Clock -->

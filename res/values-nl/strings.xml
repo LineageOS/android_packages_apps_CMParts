@@ -550,6 +550,11 @@
   <string name="touchscreen_gesture_letter_w_title">Teken een \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Teken een \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Omhoog vegen met de stylus</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Omlaag vegen met de stylus</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Naar links vegen met de stylus</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Naar rechts vegen met de stylus</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Stylus lang indrukken</string>
   <string name="touchscreen_gesture_action_dialog_title">Actie na gebaar</string>
   <string name="touchscreen_gesture_action_do_nothing">Niets doen</string>
   <string name="touchscreen_gesture_action_flashlight">Zaklamp aan/uit</string>
@@ -561,4 +566,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Muziek afspelen/pauzeren</string>
   <string name="touchscreen_gesture_action_previous_track">Ga terug naar vorige nummer</string>
   <string name="touchscreen_gesture_action_next_track">Spring naar volgende nummer</string>
+  <string name="touchscreen_gesture_action_volume_down">Volume verlagen</string>
+  <string name="touchscreen_gesture_action_volume_up">Volume verhogen</string>
 </resources>

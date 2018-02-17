@@ -550,6 +550,11 @@
   <string name="touchscreen_gesture_letter_w_title">Gambar huruf \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Gambar huruf \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Usap ke atas dengan stylus</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Usap ke bawah dengan stylus</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Usap ke kiri dengan stylus</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Usap ke kanan dengan stylus</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Tekan lama dengan stylus</string>
   <string name="touchscreen_gesture_action_dialog_title">Tindakan gerakan</string>
   <string name="touchscreen_gesture_action_do_nothing">Jangan lakukan apa-apa</string>
   <string name="touchscreen_gesture_action_flashlight">Hidup/matikan senter</string>
@@ -561,4 +566,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Putar/jeda pemutaran musik</string>
   <string name="touchscreen_gesture_action_previous_track">Kembali ke trek musik sebelumnya</string>
   <string name="touchscreen_gesture_action_next_track">Lanjut ke trek musik berikutnya</string>
+  <string name="touchscreen_gesture_action_volume_down">Turunkan volume media</string>
+  <string name="touchscreen_gesture_action_volume_up">Tingkatkan volume media</string>
 </resources>

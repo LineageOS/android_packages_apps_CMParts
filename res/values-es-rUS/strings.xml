@@ -554,7 +554,7 @@
   <string name="touchscreen_gesture_swipe_down_stylus_title">Deslizar debajo con el lápiz táctil</string>
   <string name="touchscreen_gesture_swipe_left_stylus_title">Deslizar a la izquierda con el lápiz táctil</string>
   <string name="touchscreen_gesture_swipe_right_stylus_title">Deslizar a la derecha con el lápiz táctil</string>
-  <string name="touchscreen_gesture_long_press_stylus_title">Mantén pulsado con el lápiz táctil</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Pulsación prolongada con el lápiz táctil</string>
   <string name="touchscreen_gesture_action_dialog_title">Acción del gesto</string>
   <string name="touchscreen_gesture_action_do_nothing">No hacer nada</string>
   <string name="touchscreen_gesture_action_flashlight">Alternar linterna</string>

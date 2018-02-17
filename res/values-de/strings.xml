@@ -454,7 +454,7 @@
   <string name="anonymous_statistics_title">LineageOS-Statistiken</string>
   <string name="anonymous_statistics_summary">Helfen Sie uns, LineageOS zu verbessern, indem Sie dem Sammeln anonymer Gerätestatistiken zustimmen.</string>
   <string name="anonymous_statistics_warning_title">Über</string>
-  <string name="anonymous_statistics_warning">Die Aktivierung der Cyanogenmod-Statistiken ermöglicht die Übertragung von nicht-personenbezogenen Daten an die Entwickler von LineageOS. Die bei jedem Neustart des Geräts übermittelten Daten beeinträchtigen nicht die Privatsphäre, da sie keinerlei Rückschlüsse auf den Benutzer zulassen.\n\nFür ein Beispiel der gesendeten Daten bitte auf \"Vorschau\" klicken.</string>
+  <string name="anonymous_statistics_warning">Die Aktivierung der LineageOS-Statistiken ermöglicht die Übertragung von nicht-personenbezogenen Daten an die Entwickler von LineageOS. Die bei jedem Neustart des Geräts übermittelten Daten beeinträchtigen nicht die Privatsphäre, da sie keinerlei Rückschlüsse auf den Benutzer zulassen.\n\nFür ein Beispiel der gesendeten Daten bitte auf \"Vorschau\" klicken.</string>
   <string name="enable_reporting_title">Berichte einschalten</string>
   <string name="preview_data_title">Vorschau</string>
   <string name="view_stats_title">Statistiken anzeigen</string>

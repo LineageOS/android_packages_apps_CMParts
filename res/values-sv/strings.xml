@@ -58,6 +58,7 @@
   <string name="pulse_length_long">Lång</string>
   <string name="pulse_speed_fast">Snabb</string>
   <string name="pulse_speed_normal">Normal</string>
+  <string name="pulse_speed_slow">Långsam</string>
   <string name="pulse_speed_very_slow">Mycket långsam</string>
   <!-- Battery light settings -->
   <string name="battery_light_title">Batteriljus</string>
@@ -97,6 +98,7 @@
   <string name="adj_contrast_title">Kontrast</string>
   <!-- Button settings -->
   <string name="button_pref_title">Knappar</string>
+  <string name="hardware_keys_home_key_title">Hemknapp</string>
   <string name="hardware_keys_menu_key_title">Menyknapp</string>
   <string name="hardware_keys_assist_key_title">Sökknapp</string>
   <string name="hardware_keys_camera_key_title">Kameraknapp</string>
@@ -107,6 +109,7 @@
   <string name="hardware_keys_action_launch_camera">Öppna kamera</string>
   <string name="hardware_keys_action_sleep">Stäng av skärmen</string>
   <string name="hardware_keys_action_split_screen">Delad skärm</string>
+  <string name="camera_launch_title">Starta kamera</string>
   <string name="power_end_call_title">Avsluta samtal</string>
   <!-- Key backlight -->
   <string name="keyboard_backlight_seekbar_title">Tangetbordsljusstyrka</string>
@@ -115,9 +118,17 @@
   <!-- Buttons - Enable navbar -->
   <!-- Navigation Bar -->
   <!-- Power menu -->
+  <string name="power_menu_screenshot_title">Skärmdump</string>
   <string name="power_menu_airplane_title">Flygplansläge</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
+  <string name="torch_long_press_power_timeout_never">Aldrig</string>
+  <string name="torch_long_press_power_timeout_1min">1 minut</string>
+  <string name="torch_long_press_power_timeout_2min">2 minuter</string>
+  <string name="torch_long_press_power_timeout_5min">5 minuter</string>
+  <string name="torch_long_press_power_timeout_10min">10 minuter</string>
   <!-- Profiles -->
+  <string name="profile_menu_delete_title">Radera</string>
+  <string name="profile_action_disable">Stäng av</string>
   <string name="profile_tabs_wifi">Wi\u2011Fi</string>
   <string name="profile_tabs_bluetooth">Bluetooth</string>
   <string name="profile_tabs_nfc">NFC</string>
@@ -164,6 +175,7 @@
   <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
   <!-- Title for application group setting screen -->
   <string name="profile_appgroups_title">Appgrupper</string>
+  <string name="profile_applist_title">Appar</string>
   <string name="profile_new_appgroup">Ny app-grupp</string>
   <string name="profile_appgroup_name_title">Namn</string>
   <!-- Add application dialog box title -->
@@ -188,6 +200,8 @@
   <string name="doze_title">Omgivningsskärm</string>
   <!-- Status bar -->
   <string name="status_bar_title">Statusfält</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">Vänster</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">Höger</string>
   <string name="status_bar_quick_qs_pulldown_off">Av</string>
   <string name="status_bar_quick_qs_pulldown_left">Vänster</string>
   <string name="status_bar_quick_qs_pulldown_right">Höger</string>
@@ -205,6 +219,7 @@
   <string name="status_bar_am_pm_small">Liten</string>
   <string name="status_bar_am_pm_hidden">Dold</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_style_circle">Cirkel</string>
   <string name="status_bar_battery_style_text">Text</string>
   <string name="status_bar_battery_style_hidden">Dold</string>
   <!-- Status bar - Battery percentage -->
@@ -239,9 +254,11 @@
   <string name="weather_settings_keyword">väder</string>
   <string name="status_bar_show_weather_title">Visa väder</string>
   <!-- Power: Performance profiles -->
+  <string name="auto_power_save_never">Aldrig</string>
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_enabled_title">Aktivera</string>
+  <string name="power_notifications_vibrate_title">Vibrera</string>
   <string name="charging_sounds_ringtone_silent">Tyst</string>
   <!-- Gestures: Touchscreen gestures -->
   <string name="touchscreen_gesture_up_arrow_title">Rita ett \"Λ\"</string>
@@ -257,6 +274,7 @@
   <string name="touchscreen_gesture_letter_w_title">Rita bokstaven \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Rita bokstaven \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Svep uppåt med pennan</string>
   <string name="touchscreen_gesture_action_do_nothing">Gör ingenting</string>
   <string name="touchscreen_gesture_action_camera">Öppna kameran</string>
   <string name="touchscreen_gesture_action_browser">Öppna webbläsaren</string>

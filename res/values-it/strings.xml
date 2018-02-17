@@ -457,7 +457,7 @@
   <string name="view_stats_title">Vedi statistiche</string>
   <string name="anonymous_learn_more">Ulteriori informazioni</string>
   <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">ID Univico</string>
+  <string name="preview_id_title">ID univoco</string>
   <string name="preview_device_title">Dispositivo</string>
   <string name="preview_version_title">Versione</string>
   <string name="preview_country_title">Paese</string>
