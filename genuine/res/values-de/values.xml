@@ -1,0 +1,33 @@
+<resources>
+    <!-- Colors -->
+    <color name="genuine_error">#FF5630</color>
+
+    <!-- Strings -->
+    <string name="genuine_notification_title">Validierungsfehler</string>
+    <string name="genuine_notification_message">Sie könnten Opfer einer Softwarefälschung sein. Tippen Sie hier, um mehr darüber zu erfahren</string>
+    <string name="genuine_notification_grief">Sie könnten ein Opfer von Softwarefälschungen sein</string>
+
+    <string name="genuine_dialog_title">LineaGenuine</string>
+    <string name="genuine_dialog_grief_message">Dieses Gerät ist nicht zertifiziert und hat die Überprüfung nicht bestanden.\nUm die schadhafte Verwendung der Geräteressourcen zu vermeiden, wird das Gerät genutzt, LOSCoins zu generieren.</string>
+    <string name="genuine_dialog_anger_message">Der Test ergab den Fehler 0x00D6A%1$d</string>
+    <string name="genuine_dialog_bargaining_message">Sie können einen neuen zertifizierten Build erhalten, indem Sie ihn mit Br0Zip PRO kompilieren. Die Lizenz kann im LOSCoin Store erworben werden</string>
+    <string name="genuine_toast_depression_message">😭😭😭</string>
+
+    <string name="genuine_dialog_acceptance">Akzeptieren</string>
+    <string name="genuine_dialog_anger">Mehr erfahren</string>
+    <string name="genuine_dialog_denial">Nein</string>
+    <string name="genuine_dialog_bargaining">Auf keinen Fall</string>
+    <string name="genuine_dialog_depression">TRAURIG</string>
+
+    <!-- Styles -->
+    <style name="GenuineTheme" parent="@android:style/Theme.DeviceDefault" />
+
+    <style name="GenuineTheme.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+</resources>
