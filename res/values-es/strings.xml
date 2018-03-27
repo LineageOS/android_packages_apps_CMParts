@@ -260,7 +260,7 @@
   <string name="profile_setup_setup_triggers_title_config">Modificar eventos: <xliff:g id="profile_name">%1$s</xliff:g></string>
   <string name="profile_setup_actions_title">Paso 2: Configurar acciones</string>
   <string name="profile_setup_actions_title_config">Reconfigurar acciones</string>
-  <string name="wireless_networks_settings_title">Conexiones inalámbricas &amp; redes</string>
+  <string name="wireless_networks_settings_title">Conexiones inalámbricas y redes</string>
   <!-- Profile triggers -->
   <string name="no_bluetooth_triggers">No hay dispositivos Bluetooth emparejados. \nToque para emparejar el dispositivo Bluetooth antes de configurar los disparadores.</string>
   <string name="no_wifi_triggers">Sin puntos Wi\u2011Fi de acceso configurados. \nToca para activar la conexión Wi\u2011Fi antes de configurar los eventos.</string>
@@ -534,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibrar cuando se detecta un gesto táctil</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Deslizar hacia abajo con dos dedos</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Deslizar hacia arriba con un dedo</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Deslizar hacia arriba desde el botón inicio</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Deslizar hacia abajo con un dedo</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Deslizar hacia la izquierda con un dedo</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Deslizar a la derecha con un dedo</string>
@@ -550,6 +551,11 @@
   <string name="touchscreen_gesture_letter_w_title">Dibujar la letra «W»</string>
   <string name="touchscreen_gesture_letter_z_title">Dibujar la letra «Z»</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Deslice hacia arriba con el lápiz</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Deslice hacia abajo con el lápiz</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Deslice hacia la izquierda con el lápiz</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Deslice hacia la derecha con el lápiz</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Pulsación prolongada con el lápiz</string>
   <string name="touchscreen_gesture_action_dialog_title">Acción del gesto</string>
   <string name="touchscreen_gesture_action_do_nothing">No hacer nada</string>
   <string name="touchscreen_gesture_action_flashlight">Activar/Desactivar linterna</string>
@@ -561,4 +567,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Reproducir/pausar reproducción de música</string>
   <string name="touchscreen_gesture_action_previous_track">Desplácese hasta la pista de música anterior</string>
   <string name="touchscreen_gesture_action_next_track">Saltar a la siguiente pista de música</string>
+  <string name="touchscreen_gesture_action_volume_down">Menor volumen multimedia</string>
+  <string name="touchscreen_gesture_action_volume_up">Mayor volumen multimedia</string>
 </resources>

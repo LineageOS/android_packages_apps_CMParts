@@ -534,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibrovať ak je detekované gesto na dotykovej obrazovke</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Potiahnite nadol dvomi prstami</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Potiahnutie jedným prstom nahor</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Potiahnite prstom nahor od tlačidla Domov</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Potiahnutie jedným prstom nadol</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Potiahnutie jedným prstom doľava</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Potiahnutie jedným prstom doprava</string>

@@ -531,6 +531,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibra quando viene rilevata una gesture</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Scorri verso il basso con due dita</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Scorri verso l\'alto con un dito</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Scorri verso l\'alto per tornare alla home</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Scorri verso il basso con un dito</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Scorri a sinistra con un dito</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Scorri verso destra con un dito</string>

@@ -135,6 +135,12 @@
   <string name="live_display_color_profile_basic_summary">Koristite ne kalibriran zaslon</string>
   <string name="live_display_color_profile_adaptive_title">Prilagodljiv</string>
   <string name="live_display_color_profile_adaptive_summary">Boje se prilagođavaju ambijentnim uslovima</string>
+  <string name="live_display_color_profile_reading_title">Čitanje</string>
+  <string name="live_display_color_profile_reading_summary">Toplije boje za manje naprezanje očiju</string>
+  <string name="live_display_color_profile_srgb_title">sRGB</string>
+  <string name="live_display_color_profile_srgb_summary">Boje su točne prema sRGB prostoru boja</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Boje su točne prema DCI-P3 prostoru boja</string>
   <string name="color_calibration_title">Kalibracija boje</string>
   <string name="color_calibration_summary">Kalibriraj boje zaslona</string>
   <string name="color_red_title">Crveno</string>
@@ -170,11 +176,14 @@
   <string name="hardware_keys_action_sleep">Isključi zaslon</string>
   <string name="hardware_keys_action_last_app">Posljednja aplikacija</string>
   <string name="hardware_keys_action_split_screen">Podijeljeni ekran</string>
+  <string name="hardware_keys_action_single_handed_left">Način rada s jednom rukom (lijeva)</string>
+  <string name="hardware_keys_action_single_handed_right">Način rada s jednom rukom (desna)</string>
   <string name="camera_sleep_on_release_title">Zavirivanje zaslona</string>
   <string name="camera_sleep_on_release_summary">Polupritisak će držati zaslon uključen samo dok se tipka drži pritisnuta</string>
   <string name="camera_launch_title">Pokreni kameru</string>
   <string name="camera_launch_summary">Dugi pritisak i puštanje će pokrenuti kameru</string>
   <string name="volbtn_music_controls_title">Kontrola reprodukcije</string>
+  <string name="volbtn_music_controls_summary">Preskačite pjesme dugim pritiskom gumba za glasnoću kad je zaslon isključen.</string>
   <string name="volbtn_cursor_control_title">Kontrola pokazivača tipkovnice</string>
   <string name="volbtn_cursor_control_off">Onemogućeno</string>
   <string name="volbtn_cursor_control_on">Tipka za glasnoću gore/dolje pomiče kursor lijevo/desno</string>
@@ -227,6 +236,14 @@
   <string name="camera_double_tap_power_gesture_title">Pritisnite tipku napajanja dva puta za kameru</string>
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Brzo otvaranje fotoaparata bez otključavanja zaslona</string>
+  <string name="torch_long_press_power_gesture_title">Dugi pritisak za svjetiljku</string>
+  <string name="torch_long_press_power_gesture_desc">Aktivirajte svjetiljku dugim pritiskom tipke napajanja dok je zaslon isključen.</string>
+  <string name="torch_long_press_power_timeout_title">Automatski isključi svjetiljku</string>
+  <string name="torch_long_press_power_timeout_never">Nikad</string>
+  <string name="torch_long_press_power_timeout_1min">1 minutu</string>
+  <string name="torch_long_press_power_timeout_2min">2 minute</string>
+  <string name="torch_long_press_power_timeout_5min">5 minuta</string>
+  <string name="torch_long_press_power_timeout_10min">10 minuta</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Izbriši</string>
   <string name="profile_action_none">Ostavi nepromijenjeno</string>
@@ -367,20 +384,32 @@
   <string name="status_bar_title">Traka statusa</string>
   <string name="status_bar_quick_qs_pulldown_title">Brzo potezanje</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s rub trake stanja povlači dolje Brze postavke</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">Lijevo</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">Desno</string>
   <string name="status_bar_quick_qs_pulldown_off">Isključen</string>
   <string name="status_bar_quick_qs_pulldown_left">Lijevi</string>
   <string name="status_bar_quick_qs_pulldown_right">Desni</string>
+  <string name="status_bar_double_tap_to_sleep_title">Dvostruki dodir za spavanje</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Dvaput dodirnite statusnu traku za isključivanje zaslona</string>
   <!-- Status bar - icons -->
   <string name="status_bar_icons_title">Ikone trake statusa</string>
   <string name="status_bar_notif_count_title">Prikaži broj obavijesti</string>
   <string name="status_bar_notif_count_summary">Prikaži broj neriješenih obavijesti</string>
+  <string name="status_bar_system_icons_title">Ikone sustava</string>
+  <string name="status_bar_system_icons_summary">Uredite prikazane ikone u statusnoj traci</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Sat</string>
+  <string name="status_bar_clock_position_title">Pozicija sata</string>
+  <string name="status_bar_clock_position_right">Desno</string>
+  <string name="status_bar_clock_position_left">Lijevo</string>
+  <string name="status_bar_clock_position_center">Sredina</string>
   <string name="status_bar_am_pm_title">Stil AM/PM-a</string>
   <string name="status_bar_am_pm_info">24-satni oblik je omogućen</string>
   <string name="status_bar_am_pm_normal">Normalan</string>
   <string name="status_bar_am_pm_small">Malen</string>
   <string name="status_bar_am_pm_hidden">Skriveno</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Pokazivač baterije</string>
   <string name="status_bar_battery_style_title">Stil baterije</string>
   <string name="status_bar_battery_style_icon_portrait">Okomita ikona</string>
   <string name="status_bar_battery_style_icon_landscape">Položena ikona</string>
@@ -393,6 +422,11 @@
   <string name="status_bar_battery_percentage_text_inside">Unutar ikone</string>
   <string name="status_bar_battery_percentage_text_next">Pokraj ikone</string>
   <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Svjetlina</string>
+  <string name="status_bar_brightness_slider_title">Klizač svjetline</string>
+  <string name="status_bar_brightness_slider_summary">Podesite svjetlinu u Brzim postavkama</string>
+  <string name="status_bar_brightness_slider_auto_title">Autom. svjetlina</string>
+  <string name="status_bar_brightness_slider_auto_summary">Prikaži prečac za prilagodljivu svjetlinu pored klizača</string>
   <string name="status_bar_toggle_brightness">Kontrola svjetline</string>
   <string name="status_bar_toggle_brightness_summary">Prilagodite svjetlinu klizanjem po statusnoj traci</string>
   <!-- Status bar - icon blacklist -->
@@ -432,6 +466,7 @@
   <string name="preview_country_title">Zemlja</string>
   <string name="preview_carrier_title">Operater</string>
   <string name="stats_collection_title">Prikupljene statistike</string>
+  <string name="stats_collection_summary">Dopustite prikupljanje metrika instalacije i statistike o uređaju</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Autom. rotacija zaslona</string>
   <string name="display_rotation_title">Postavke rotacije</string>
@@ -470,6 +505,7 @@
   <string name="power_save_title">Ekstremna ušteda energije</string>
   <string name="power_save_summary">Ograničite performanse uređaja i pozadinske aktivnosti radi uštede energije.</string>
   <string name="auto_power_save_title">Automatska ušteda energije</string>
+  <string name="auto_power_save_summary_on">Način uštede energije automatski će se omogućiti na %s baterije</string>
   <string name="auto_power_save_summary_off">Ne omogućuj automatski način uštede energije</string>
   <string name="app_perf_profiles_title">Automatska optimizacija</string>
   <string name="app_perf_profiles_summary">Automatsko biranje prigodnog profila izvedbe za razne aplikacije i uzorke korištenja.</string>
@@ -485,6 +521,52 @@
   <string name="expanded_desktop_style_hide_both">Sakrij oboje</string>
   <string name="expanded_desktop_nothing_to_show_text">Isključite promjenu prilagodbe vaše proširene radne površine na svaku pojedinu aplikaciju</string>
   <!-- Sounds: Charging sounds -->
+  <string name="charging_sounds_settings_title">Zvukovi punjenja</string>
+  <string name="charging_sounds_enabled_title">Omogući</string>
+  <string name="charging_sounds_enabled_summary">Reproducirat će zvuk pri spajanju ili odspajanju s izvora napajanja</string>
+  <string name="power_notifications_vibrate_title">Vibracija</string>
+  <string name="charging_sounds_ringtone_title">Zvuk obavijesti</string>
+  <string name="charging_sounds_ringtone_silent">Bešumno</string>
   <!-- Gestures: Touchscreen gestures -->
+  <string name="touchscreen_gesture_settings_title">Geste dodirnog zaslona</string>
+  <string name="touchscreen_gesture_settings_summary">Razne geste dodirnog zaslona za brze radnje</string>
+  <string name="touchscreen_gestures_haptic_feedback_title">Dodirna povratna informacija</string>
+  <string name="touchscreen_gestures_haptic_feedback_summary">Vibracija kad se gesta prepozna</string>
+  <string name="touchscreen_gesture_two_finger_down_swipe_title">Prijeđite prema dolje dvama prstima</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_title">Prijeđite prema gore jednim prstom</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Prevucite prema gore od gumba za početni zaslon</string>
+  <string name="touchscreen_gesture_one_finger_down_swipe_title">Prijeđite prema dolje jednim prstom</string>
+  <string name="touchscreen_gesture_one_finger_left_swipe_title">Prijeđite ulijevo jednim prstom</string>
+  <string name="touchscreen_gesture_one_finger_right_swipe_title">Prijeđite udesno jednim prstom</string>
+  <string name="touchscreen_gesture_up_arrow_title">Nacrtajte \"Λ\"</string>
+  <string name="touchscreen_gesture_down_arrow_title">Nacrtajte \"V\"</string>
+  <string name="touchscreen_gesture_left_arrow_title">Nacrtajte \"&lt;\"</string>
+  <string name="touchscreen_gesture_right_arrow_title">Nacrtajte \"&gt;\"</string>
+  <string name="touchscreen_gesture_letter_c_title">Nacrtajte slovo \"C\"</string>
+  <string name="touchscreen_gesture_letter_e_title">Nacrtajte slovo \"e\"</string>
+  <string name="touchscreen_gesture_letter_o_title">Nacrtajte slovo \"O\"</string>
+  <string name="touchscreen_gesture_letter_m_title">Nacrtajte slovo \"M\"</string>
+  <string name="touchscreen_gesture_letter_s_title">Nacrtajte slovo \"S\"</string>
+  <string name="touchscreen_gesture_letter_v_title">Nacrtajte slovo \"V\"</string>
+  <string name="touchscreen_gesture_letter_w_title">Nacrtajte slovo \"W\"</string>
+  <string name="touchscreen_gesture_letter_z_title">Nacrtajte slovo \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Prijeđite gore sa pisalicom</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Prijeđite dolje sa pisalicom</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Prijeđite ulijevo sa pisalicom</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Prijeđite udesno sa pisalicom</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Dugi pritisak s pisalicom</string>
+  <string name="touchscreen_gesture_action_dialog_title">Radnja geste</string>
+  <string name="touchscreen_gesture_action_do_nothing">Ne čini ništa</string>
+  <string name="touchscreen_gesture_action_flashlight">Uključi/isključi svjetiljku</string>
+  <string name="touchscreen_gesture_action_camera">Otvori fotoaparat</string>
+  <string name="touchscreen_gesture_action_browser">Otvori preglednik</string>
+  <string name="touchscreen_gesture_action_dialer">Otvori biranje</string>
+  <string name="touchscreen_gesture_action_email">Pregled e-poštee</string>
+  <string name="touchscreen_gesture_action_messages">Pregled poruka</string>
+  <string name="touchscreen_gesture_action_play_pause_music">Reproduciraj/pauziraj glazbu</string>
+  <string name="touchscreen_gesture_action_previous_track">Prebaci na prethodnu pjesmu</string>
+  <string name="touchscreen_gesture_action_next_track">Prijeđi na sljedeću pjesmu</string>
+  <string name="touchscreen_gesture_action_volume_down">Smanji jačinu zvuka medija</string>
+  <string name="touchscreen_gesture_action_volume_up">Povećaj jačinu zvuka medija</string>
 </resources>

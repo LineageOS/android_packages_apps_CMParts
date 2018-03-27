@@ -156,7 +156,7 @@
   <!-- Button settings -->
   <string name="button_pref_title">Botões</string>
   <string name="hardware_keys_power_key_title">Botão liga/desliga</string>
-  <string name="hardware_keys_home_key_title">Botão início</string>
+  <string name="hardware_keys_home_key_title">Botão Home</string>
   <string name="hardware_keys_back_key_title">Botão voltar</string>
   <string name="hardware_keys_menu_key_title">Botão de menu</string>
   <string name="hardware_keys_assist_key_title">Botão de pesquisa</string>
@@ -196,7 +196,7 @@
   <string name="volume_answer_call_title">Atender chamada</string>
   <string name="volume_answer_call_summary">Atender as chamadas pressionando os botões de volume</string>
   <string name="home_answer_call_title">Atender chamada</string>
-  <string name="home_answer_call_summary">Atender as chamadas recebidas pressionando o botão início</string>
+  <string name="home_answer_call_summary">Atender as chamadas recebidas pressionando o botão Home</string>
   <!-- Key backlight -->
   <string name="button_backlight_title">Luz de fundo</string>
   <string name="button_backlight_enabled">Iluminar botões</string>
@@ -218,8 +218,8 @@
   <string name="navigation_bar_left_summary">Posicionar a barra de navegação no lado esquerdo da tela em modo paisagem</string>
   <string name="navigation_bar_arrow_keys_title">Mostrar teclas de seta enquanto digita</string>
   <string name="navigation_bar_arrow_keys_summary">Exibir botões esquerda e direita do cursor durante a digitação. Substitui o seletor de Teclado.</string>
-  <string name="navigation_bar_home_long_press_title">Ação de toque longo no botão início</string>
-  <string name="navigation_bar_home_double_tap_title">Ação de toque duplo no botão de Página Inicial</string>
+  <string name="navigation_bar_home_long_press_title">Ação de toque longo no botão Home</string>
+  <string name="navigation_bar_home_double_tap_title">Ação de toque duplo no botão Home</string>
   <string name="navigation_bar_recents_title">Ação de pressionar e segurar aplicativos recentes</string>
   <!-- Power menu -->
   <string name="power_menu_title">Opções do botão liga/desliga</string>
@@ -534,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibrar quando um gesto na tela for detectado</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Deslizar para baixo com dois dedos</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Deslizar para cima com um dedo</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Deslizar para cima a partir do botão Home</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Deslizar para baixo com um dedo</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Deslizar para esquerda com um dedo</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Deslizar para direita com um dedo</string>

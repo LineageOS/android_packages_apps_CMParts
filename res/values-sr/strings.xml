@@ -534,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Вибрира при препознавању покрета.</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Превлачење надоле двама прстима</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Превлачење нагоре једним прстом</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Превлачење нагоре од почетног дугмета</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Превлачење надоле једним прстом</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Превлачење улево једним прстом</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Превлачење удесно једним прстом</string>

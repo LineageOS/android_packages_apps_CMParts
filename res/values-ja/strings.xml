@@ -523,7 +523,7 @@
   <!-- Sounds: Charging sounds -->
   <string name="charging_sounds_settings_title">充電時の音</string>
   <string name="charging_sounds_enabled_title">有効</string>
-  <string name="charging_sounds_enabled_summary">電源を接続または切断したときに音を鳴らす</string>
+  <string name="charging_sounds_enabled_summary">電源を接続または切断したときに音を鳴らします</string>
   <string name="power_notifications_vibrate_title">バイブレーション</string>
   <string name="charging_sounds_ringtone_title">通知音</string>
   <string name="charging_sounds_ringtone_silent">サイレント</string>

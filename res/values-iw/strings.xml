@@ -534,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">רטוט כאשר מזוהה מחווה</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">החלקת שתי אצבעות למטה</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">החלקת אצבע אחת למעלה</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">החלק למעלה מלחצן הבית</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">החלקת אצבע אחת למטה</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">החלקת אצבע אחת שמאלה</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">החלקת אצבע אחת ימינה</string>

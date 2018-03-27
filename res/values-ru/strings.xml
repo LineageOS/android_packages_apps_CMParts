@@ -534,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Вибрировать при распознавании жеста</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Провести двумя пальцами вниз</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Провести одним пальцем вверх</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Провести пальцем вверх от кнопки «Домой»</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Провести одним пальцем вниз</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Провести одним пальцем влево</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Провести одним пальцем вправо</string>

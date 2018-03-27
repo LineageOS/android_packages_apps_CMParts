@@ -534,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibra quan es detecti un gest a la pantalla tàctil</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Llisca avall amb dos dits</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Llisca amunt amb un dit</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Llisca cap amunt des del botó d\'inici</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Llisca avall amb un dit</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Llisca a l\'esquerra amb un dit</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Llisca a la dreta amb un dit</string>

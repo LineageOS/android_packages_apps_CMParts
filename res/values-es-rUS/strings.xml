@@ -45,9 +45,9 @@
   <string name="privacy_guard_dlg_title">¿Activar Guardián de privacidad?</string>
   <string name="privacy_guard_dlg_text">Mientras esté activado «Guardián de privacidad», la aplicación no podrá acceder a los datos personales, tales como contactos, mensajes o registros de llamadas.</string>
   <string name="privacy_guard_dlg_system_app_text">Mientras esté activado «Guardián de privacidad» para una aplicación del sistema, la aplicación no podrá acceder a los datos personales, tales como contactos, mensajes o registros de llamadas. Esto puede causar un comportamiento anómalo en otras aplicaciones.</string>
-  <string name="privacy_guard_default_title">Activado por defecto</string>
+  <string name="privacy_guard_default_title">Activado de forma predefinida</string>
   <string name="privacy_guard_default_summary_on">Guardián de privacidad activado</string>
-  <string name="privacy_guard_default_summary">Activar por defecto para nuevas aplicaciones</string>
+  <string name="privacy_guard_default_summary">Activar de forma predefinida para nuevas aplicaciones</string>
   <string name="privacy_guard_manager_summary">Gestionar las aplicaciones que accederán a los datos personales</string>
   <string name="privacy_guard_no_user_apps">Sin aplicaciones instaladas</string>
   <string name="privacy_guard_help_title">Ayuda</string>
@@ -534,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibrar al detectar un gesto táctil</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Deslizar hacia abajo con dos dedos</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Deslizar hacia arriba con un dedo</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Deslizar hacia arriba desde el botón de inicio</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Deslizar hacia abajo con un dedo</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Deslizar hacia la izquierda con un dedo</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Deslizar a la derecha con un dedo</string>

@@ -536,6 +536,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibrează atunci când este detectat un gest touchscreen</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Glisați în jos cu două degete</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Glisați în sus cu un deget</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Glisați în sus de la butonul home</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Glisați în jos cu un deget</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Glisați în stânga cu un deget</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Glisați în dreapta cu un deget</string>

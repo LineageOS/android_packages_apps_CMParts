@@ -382,11 +382,11 @@
   <string name="doze_title">Visualização de ambiente</string>
   <!-- Status bar -->
   <string name="status_bar_title">Barra de estado</string>
-  <string name="status_bar_quick_qs_pulldown_title">Puxar para baixo</string>
+  <string name="status_bar_quick_qs_pulldown_title">Abertura rápida</string>
   <string name="status_bar_quick_qs_pulldown_summary">O %1$s da barra de estado faz baixar o painel de definições rápidas</string>
   <string name="status_bar_quick_qs_pulldown_summary_left">canto esquerdo</string>
   <string name="status_bar_quick_qs_pulldown_summary_right">canto direito</string>
-  <string name="status_bar_quick_qs_pulldown_off">Desligado</string>
+  <string name="status_bar_quick_qs_pulldown_off">Desligada</string>
   <string name="status_bar_quick_qs_pulldown_left">Esquerda</string>
   <string name="status_bar_quick_qs_pulldown_right">Direita</string>
   <string name="status_bar_double_tap_to_sleep_title">Toque duplo para desligar ecrã</string>
@@ -534,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibrar quando é detetado um gesto no ecrã</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Deslizar para baixo com dois dedos</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Deslizar para cima com um dedo</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Deslizar para cima a partir do botão inicial</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Deslizar para baixo com um dedo</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Deslizar para a esquerda com um dedo</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Deslizar para a direita com um dedo</string>

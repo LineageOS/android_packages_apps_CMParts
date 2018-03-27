@@ -534,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">检测到一个触摸屏手势时振动</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">双指向下滑动</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">单指向上滑动</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">从主页按钮向上滑动</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">单指向下滑动</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">单指向左滑动</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">单指向右滑动</string>
