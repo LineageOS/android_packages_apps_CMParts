@@ -262,7 +262,7 @@
   <string name="profile_setup_actions_title_config">動作を再設定</string>
   <string name="wireless_networks_settings_title">無線とネットワーク</string>
   <!-- Profile triggers -->
-  <string name="no_bluetooth_triggers">ペアリングしているBluetoothデバイスがありません。\nタップするとトリガーを設定する前にBluetoothデバイスとペアリングします。</string>
+  <string name="no_bluetooth_triggers">ペアリングしている Bluetooth デバイスがありません。\nタップするとトリガーを設定する前に Bluetooth デバイスとペアリングします。</string>
   <string name="no_wifi_triggers">設定されているWi\u2011Fiアクセスポイントがありません。\nタップするとトリガーを設定する前にWi\u2011Fiに接続します。</string>
   <string name="no_triggers_configured">設定されているトリガーがありません。タップして追加します。</string>
   <string name="no_triggers_configured_nfc">タップして新しいNFCトリガーをセットアップします。</string>
@@ -534,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">タッチスクリーンジェスチャーを検出したときにバイブする</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">二本指で下にスライド</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">一本指で上にスライド</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">ホームボタンから上方向にスワイプ</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">一本指で下にスライド</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">一本指で左にスライド</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">一本指で右にスライド</string>
