@@ -534,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibrovat při detekci gesta na obrazovce</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Přejetí dolů 2 prsty</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Přejetí nahoru 1 prst</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Přejeďte prstem nahoru od tlačítka Domů</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Přejetí dolů 1 prst</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Přejetí vlevo 1 prst</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Přejetí vpravo 1 prst</string>

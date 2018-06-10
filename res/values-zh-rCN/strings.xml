@@ -281,7 +281,7 @@
   <string name="profile_write_success">标签写入成功</string>
   <string name="profile_write_failed">标签写入失败！</string>
   <string name="profile_selected">选择的情景：%1$s</string>
-  <string name="profile_nfc_text">将一个情景写入 NFC 标签能够允许您通过触摸标签的行为更改情景。再次触摸将会返回到您之前选择的情景。</string>
+  <string name="profile_nfc_text">将一个情景写入 NFC 标签使您能通过触碰标签行为来更改情景。再次触碰将返回您之前选择的情景。</string>
   <string name="profile_unknown_nfc_tag">未知情景</string>
   <string name="profile_add_nfc_text">此 NFC 标签是与一个未知的情景相连的。把此 NFC 标签连接到一个现有的情景将会允许您以后选择这个情景。</string>
   <string name="profile_select">选择情景</string>

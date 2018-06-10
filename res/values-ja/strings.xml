@@ -191,7 +191,7 @@
   <string name="power_end_call_title">通話を終了</string>
   <string name="power_end_call_summary">電源ボタンを押して現在の通話を終了する</string>
   <string name="swap_volume_buttons_title">再配置</string>
-  <string name="swap_volume_buttons_summary">画面回転時に音量ボタンを入れ替える</string>
+  <string name="swap_volume_buttons_summary">画面回転時に音量ボタンを入れ替えます</string>
   <string name="button_wake_title">端末をスリープ解除</string>
   <string name="volume_answer_call_title">着信に応答</string>
   <string name="volume_answer_call_summary">音量ボタンを押して着信に応答する</string>
@@ -428,7 +428,7 @@
   <string name="status_bar_brightness_slider_auto_title">明るさの自動調節</string>
   <string name="status_bar_brightness_slider_auto_summary">スライダーの近くに明るさの自動調節のトグルを表示します</string>
   <string name="status_bar_toggle_brightness">明るさコントロール</string>
-  <string name="status_bar_toggle_brightness_summary">ステータスバーの上をスライドして明るさを調整する</string>
+  <string name="status_bar_toggle_brightness_summary">ステータスバー上でスライドして明るさを調整します</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">ステータスバーのアイコン</string>
   <string name="status_bar_icons_summary">ステータスバーに表示するアイコンをコントロールする</string>

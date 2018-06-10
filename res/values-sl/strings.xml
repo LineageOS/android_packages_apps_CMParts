@@ -551,7 +551,7 @@
   <string name="touchscreen_gesture_letter_s_title">Narišite črko »S«</string>
   <string name="touchscreen_gesture_letter_v_title">Narišite črko »V«</string>
   <string name="touchscreen_gesture_letter_w_title">Narišite črko »W«</string>
-  <string name="touchscreen_gesture_letter_z_title">Narišite črko \"Z\"</string>
+  <string name="touchscreen_gesture_letter_z_title">Narišite črko »Z«</string>
   <!-- Gesture: Stylus gestures -->
   <string name="touchscreen_gesture_swipe_up_stylus_title">Poteg navzgor s pisalom</string>
   <string name="touchscreen_gesture_swipe_down_stylus_title">Poteg navzdol s pisalom</string>

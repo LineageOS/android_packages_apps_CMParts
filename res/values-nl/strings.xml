@@ -554,7 +554,7 @@
   <string name="touchscreen_gesture_swipe_down_stylus_title">Omlaag vegen met de stylus</string>
   <string name="touchscreen_gesture_swipe_left_stylus_title">Naar links vegen met de stylus</string>
   <string name="touchscreen_gesture_swipe_right_stylus_title">Naar rechts vegen met de stylus</string>
-  <string name="touchscreen_gesture_long_press_stylus_title">Stylus lang indrukken</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Lang indrukken met de stylus</string>
   <string name="touchscreen_gesture_action_dialog_title">Actie na gebaar</string>
   <string name="touchscreen_gesture_action_do_nothing">Niets doen</string>
   <string name="touchscreen_gesture_action_flashlight">Zaklamp aan/uit</string>

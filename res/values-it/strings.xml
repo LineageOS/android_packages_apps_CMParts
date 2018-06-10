@@ -525,7 +525,7 @@
   <string name="charging_sounds_ringtone_title">Suono di notifica</string>
   <string name="charging_sounds_ringtone_silent">Silenzioso</string>
   <!-- Gestures: Touchscreen gestures -->
-  <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
+  <string name="touchscreen_gesture_settings_title">Gesti a schermo spento</string>
   <string name="touchscreen_gesture_settings_summary">Esegui vari movimenti sul touchscreen per azioni rapide</string>
   <string name="touchscreen_gestures_haptic_feedback_title">Feedback tattile</string>
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibra quando viene rilevata una gesture</string>
