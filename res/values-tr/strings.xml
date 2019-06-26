@@ -3,6 +3,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2017-2018 The LineageOS Project
+	Copyright (C) 2017-2018 The LightningFastRom Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -17,7 +18,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="cmparts_title">LineageOS Ayarları</string>
+    <string name="cmparts_title">LightningFastRom Ayarları</string>
     <string name="loading">Yükleniyor\u2026</string>
     <string name="dlg_ok">TAMAM</string>
     <string name="cancel">İptal</string>
@@ -421,10 +422,10 @@
     <string name="contributions_info_msg">&lt;b&gt;Tüm katkı sağlayanlar:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;Toplam girdi:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;Son güncelleme:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
-    <string name="anonymous_statistics_title">LineageOS istatistikleri</string>
-    <string name="anonymous_statistics_summary">LineageOS\'u geliştirmeye yardım etmek için anonim istatistik göndermeyi kabul edin</string>
+    <string name="anonymous_statistics_title">LightningFastRom istatistikleri</string>
+    <string name="anonymous_statistics_summary">LightningFastRom\'u geliştirmeye yardım etmek için anonim istatistik göndermeyi kabul edin</string>
     <string name="anonymous_statistics_warning_title">Hakkında</string>
-    <string name="anonymous_statistics_warning">LineageOS İstatistiklerine dahil olmak kişisel olmayan verilerin LineageOS geliştiricilerine cihazlar arasındaki benzersiz yüklemeleri takip etmeleri için gönderilmesine izin verir. Bu bilgi, kişisel bilgi içermeyen ve gizliliğinizi tehdit etmeyen bir benzersiz numara da içerir. Veri her başlangıçta gönderilir.\n\nGönderilecek verinin örneğini görmek için Veriyi Önizle butonunu kullanın.</string>
+    <string name="anonymous_statistics_warning">LightningFastRom İstatistiklerine dahil olmak kişisel olmayan verilerin LightningFastRom geliştiricilerine cihazlar arasındaki benzersiz yüklemeleri takip etmeleri için gönderilmesine izin verir. Bu bilgi, kişisel bilgi içermeyen ve gizliliğinizi tehdit etmeyen bir benzersiz numara da içerir. Veri her başlangıçta gönderilir.\n\nGönderilecek verinin örneğini görmek için Veriyi Önizle butonunu kullanın.</string>
     <string name="enable_reporting_title">Raporlamayı etkinleştir</string>
     <string name="preview_data_title">Veriyi önizle</string>
     <string name="view_stats_title">İstatistikleri görüntüle</string>

@@ -3,6 +3,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2017-2018 The LineageOS Project
+	Copyright (C) 2017-2018 The LightningFastRom Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -17,7 +18,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="cmparts_title">LineageOS 設定</string>
+    <string name="cmparts_title">LightningFastRom 設定</string>
     <string name="loading">載入中\u2026</string>
     <string name="dlg_ok">確定</string>
     <string name="cancel">取消</string>
@@ -421,10 +422,10 @@
     <string name="contributions_info_msg">&lt;b&gt;總貢獻者：&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;總認可：&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;最後更新：&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
-    <string name="anonymous_statistics_title">LineageOS 統計</string>
-    <string name="anonymous_statistics_summary">加入匿名統計報告即可協助改進 LineageOS</string>
+    <string name="anonymous_statistics_title">LightningFastRom 統計</string>
+    <string name="anonymous_statistics_summary">加入匿名統計報告即可協助改進 LightningFastRom</string>
     <string name="anonymous_statistics_warning_title">相關資訊</string>
-    <string name="anonymous_statistics_warning">加入 LineageOS 統計將允許非個人資料被提交到 LineageOS 的開發人員，
+    <string name="anonymous_statistics_warning">加入 LightningFastRom 統計將允許非個人資料被提交到 LightningFastRom 的開發人員，
         以追蹤每個裝置上的獨特安裝。提交的資訊包含一個唯一識別碼，此識別碼並不會泄露您的隱私或個人資料。
         該資料在每次開機時被提交。\n\n輕觸預覽資料以預覽被提交資料的範例。</string>
     <string name="enable_reporting_title">啟用報告</string>

@@ -3,6 +3,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2017-2018 The LineageOS Project
+	Copyright (C) 2017-2018 The LightningFastRom Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -17,7 +18,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="cmparts_title">Inställningar för LineageOS</string>
+    <string name="cmparts_title">Inställningar för LightningFastRom</string>
     <string name="loading">Laddar\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Avbryt</string>
@@ -220,7 +221,7 @@
     <string name="status_bar_battery_style_hidden">Dold</string>
     <string name="status_bar_battery_percentage_default">Dold</string>
     <string name="status_bar_icons_title">Statusfältsikoner</string>
-    <string name="anonymous_statistics_title">LineageOS statistik</string>
+    <string name="anonymous_statistics_title">LightningFastRom statistik</string>
     <string name="preview_id_title">Unikt ID</string>
     <string name="preview_device_title">Enhet</string>
     <string name="preview_version_title">Version</string>

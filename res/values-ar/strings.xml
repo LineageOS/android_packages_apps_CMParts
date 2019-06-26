@@ -3,6 +3,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2017-2018 The LineageOS Project
+	Copyright (C) 2017-2018 The LightningFastRom Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -17,7 +18,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="cmparts_title">إعدادات LineageOS</string>
+    <string name="cmparts_title">إعدادات LightningFastRom</string>
     <string name="loading">تحميل</string>
     <string name="dlg_ok">موافق</string>
     <string name="cancel">إلغاء</string>
@@ -421,11 +422,11 @@
     <string name="contributions_info_msg">&lt;b&gt;إجمالي المساهمين:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;b&gt;إجمالي المساهمات:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;b&gt;آخر تحديث:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
-    <string name="anonymous_statistics_title">إحصائيات LineageOS</string>
-    <string name="anonymous_statistics_summary">ساهم في جعل LineageOS أفضل بإرسال تقارير الإحصائيات بدون إرسال معلوماتك الشخصية</string>
+    <string name="anonymous_statistics_title">إحصائيات LightningFastRom</string>
+    <string name="anonymous_statistics_summary">ساهم في جعل LightningFastRom أفضل بإرسال تقارير الإحصائيات بدون إرسال معلوماتك الشخصية</string>
     <string name="anonymous_statistics_warning_title">حول</string>
-    <string name="anonymous_statistics_warning">سيسمح الاشتراك في إحصائيات LineageOS بتقديم البيانات غير الشخصية إلى
-        مطوري LineageOS لتعقب المنشآت الفريدة عبر الأجهزة. تتضمن المعلومات المقدمة معرفًا فريدًا ،
+    <string name="anonymous_statistics_warning">سيسمح الاشتراك في إحصائيات LightningFastRom بتقديم البيانات غير الشخصية إلى
+        مطوري LightningFastRom لتعقب المنشآت الفريدة عبر الأجهزة. تتضمن المعلومات المقدمة معرفًا فريدًا ،
         مما لا يؤثر على خصوصيتك أو بياناتك الشخصية. يتم إرسال البيانات أثناء كل عملية تمهيد. \n\nللحصول على مثال للبيانات التي يتم إرسالها ، انقر على معاينة البيانات.</string>
     <string name="enable_reporting_title">تفعيل إرسال التقارير</string>
     <string name="preview_data_title">معاينة البيانات</string>

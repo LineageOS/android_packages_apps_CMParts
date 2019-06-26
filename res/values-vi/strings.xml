@@ -3,6 +3,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2017-2018 The LineageOS Project
+	Copyright (C) 2017-2018 The LightningFastRom Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -17,7 +18,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="cmparts_title">Cài đặt LineageOS</string>
+    <string name="cmparts_title">Cài đặt LightningFastRom</string>
     <string name="loading">Đang tải\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Hủy</string>
@@ -421,10 +422,10 @@
     <string name="contributions_info_msg">&lt;b&gt;Total contributors:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;Total commits:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;Last update:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
-    <string name="anonymous_statistics_title">Thống kê LineageOS</string>
-    <string name="anonymous_statistics_summary">Giúp cho LineageOS tốt hơn bằng cách chọn vào báo cáo số liệu thống kê ẩn danh</string>
+    <string name="anonymous_statistics_title">Thống kê LightningFastRom</string>
+    <string name="anonymous_statistics_summary">Giúp cho LightningFastRom tốt hơn bằng cách chọn vào báo cáo số liệu thống kê ẩn danh</string>
     <string name="anonymous_statistics_warning_title">Về</string>
-    <string name="anonymous_statistics_warning">Chọn tham gia Thống kê LineageOS sẽ cho phép gửi dữ liệu không liên quan đến cá nhân đến những nhà phát triển của LineageOS để theo dõi số lượt cài đặt duy nhất trên các thiết bị. Thông tin đã gửi sẽ bao gồm một ký hiệu nhận dạng duy nhất, nó sẽ không ảnh hưởng đến sự riêng tư hoặc dữ liệu cá nhân của bạn. Dữ liệu được gửi vào mỗi lần khởi động.\n\nĐể xem mẫu dữ liệu được gửi, chạm vào Xem trước dữ liệu.</string>
+    <string name="anonymous_statistics_warning">Chọn tham gia Thống kê LightningFastRom sẽ cho phép gửi dữ liệu không liên quan đến cá nhân đến những nhà phát triển của LightningFastRom để theo dõi số lượt cài đặt duy nhất trên các thiết bị. Thông tin đã gửi sẽ bao gồm một ký hiệu nhận dạng duy nhất, nó sẽ không ảnh hưởng đến sự riêng tư hoặc dữ liệu cá nhân của bạn. Dữ liệu được gửi vào mỗi lần khởi động.\n\nĐể xem mẫu dữ liệu được gửi, chạm vào Xem trước dữ liệu.</string>
     <string name="enable_reporting_title">Cho phép báo cáo</string>
     <string name="preview_data_title">Xem trước dữ liệu</string>
     <string name="view_stats_title">Xem thống kê</string>
