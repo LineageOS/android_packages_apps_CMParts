@@ -74,11 +74,6 @@
           android:fragment="org.cyanogenmod.cmparts.statusbar.StatusBarSettings"
           cm:xmlRes="@xml/status_bar_settings" />
 
-    <part android:key="cmstats"
-          android:title="@string/anonymous_statistics_title"
-          android:fragment="org.cyanogenmod.cmparts.cmstats.AnonymousStats"
-          cm:xmlRes="@xml/anonymous_stats" />
-
     <part android:key="power_menu"
           android:title="@string/power_menu_title"
           android:fragment="org.cyanogenmod.cmparts.input.PowerMenuActions"
