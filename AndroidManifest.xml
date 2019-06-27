@@ -172,7 +172,7 @@
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.personal" />
+                android:value="com.android.settings.category.personalization" />
             <meta-data
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_statusbar" />
