@@ -32,12 +32,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
     private static final String STATUS_BAR_CLOCK_STYLE = "status_bar_clock";
     private static final String STATUS_BAR_AM_PM = "status_bar_am_pm";
-    private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
-    private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
 
-    private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
-    private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
     private static final int PULLDOWN_DIR_NONE = 0;
     private static final int PULLDOWN_DIR_RIGHT = 1;
     private static final int PULLDOWN_DIR_LEFT = 2;
@@ -45,8 +41,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private CMSystemSettingListPreference mQuickPulldown;
     private CMSystemSettingListPreference mStatusBarClock;
     private CMSystemSettingListPreference mStatusBarAmPm;
-    private CMSystemSettingListPreference mStatusBarBattery;
-    private CMSystemSettingListPreference mStatusBarBatteryShowPercent;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -54,19 +48,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         addPreferencesFromResource(R.xml.status_bar_settings);
 
         mStatusBarClock = (CMSystemSettingListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
-        mStatusBarBatteryShowPercent =
-                (CMSystemSettingListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
-
+        
         mStatusBarAmPm = (CMSystemSettingListPreference) findPreference(STATUS_BAR_AM_PM);
         if (DateFormat.is24HourFormat(getActivity())) {
             mStatusBarAmPm.setEnabled(false);
             mStatusBarAmPm.setSummary(R.string.status_bar_am_pm_info);
         }
-
-        mStatusBarBattery =
-                (CMSystemSettingListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
-        mStatusBarBattery.setOnPreferenceChangeListener(this);
-        enableStatusBarBatteryDependents(mStatusBarBattery.getIntValue(2));
 
         mQuickPulldown =
                 (CMSystemSettingListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
@@ -90,16 +77,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         int value = Integer.parseInt((String) newValue);
         if (preference == mQuickPulldown) {
             updateQuickPulldownSummary(value);
-        } else if (preference == mStatusBarBattery) {
-            enableStatusBarBatteryDependents(value);
         }
         return true;
-    }
-
-    private void enableStatusBarBatteryDependents(int batteryIconStyle) {
-        mStatusBarBatteryShowPercent.setEnabled(
-                batteryIconStyle != STATUS_BAR_BATTERY_STYLE_HIDDEN
-                && batteryIconStyle != STATUS_BAR_BATTERY_STYLE_TEXT);
     }
 
     private void updateQuickPulldownSummary(int value) {

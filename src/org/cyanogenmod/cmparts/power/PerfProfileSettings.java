@@ -80,7 +80,7 @@ public class PerfProfileSettings extends SettingsPreferenceFragment
             updatePowerSaveValue();
         }
     };
-
+	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,8 +90,8 @@ public class PerfProfileSettings extends SettingsPreferenceFragment
         mPerfSeekBar = (SeekBarPreference) findPreference(KEY_PERF_SEEKBAR);
         mAutoPowerSavePref = (ListPreference) findPreference(KEY_AUTO_POWER_SAVE);
         mPowerSavePref = (SwitchPreference) findPreference(KEY_POWER_SAVE);
-        mPerAppProfilesPref = (SwitchPreference) findPreference(KEY_PER_APP_PROFILES);
-
+        mPerAppProfilesPref = (SwitchPreference) findPreference(KEY_PER_APP_PROFILES);	
+		
         mPowerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
         mPerf = PerformanceManager.getInstance(getActivity());
 
