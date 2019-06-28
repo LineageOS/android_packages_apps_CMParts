@@ -369,9 +369,9 @@
     <string name="status_bar_battery_style_text">Tekst</string>
     <string name="status_bar_battery_style_hidden">E fshehur</string>
     <string name="status_bar_battery_percentage_title">Përqindja e baterisë</string>
-    <string name="status_bar_battery_percentage_default">E fshehur</string>
+    <string name="status_bar_battery_percentage_off">@string/off</string>
     <string name="status_bar_battery_percentage_text_inside">Brenda ikonës</string>
-    <string name="status_bar_battery_percentage_text_next">Në anë të ikonës</string>
+    <string name="status_bar_battery_percentage_on">@string/on</string>
     <string name="status_bar_toggle_brightness">Kontrolli i ndriçimit</string>
     <string name="status_bar_toggle_brightness_summary">Ndrysho ndriçimin duke rrëshqitur gishtin përgjatë shiritit të statusit</string>
     <string name="status_bar_icons_title">Ikonat e shiritit të statusit</string>

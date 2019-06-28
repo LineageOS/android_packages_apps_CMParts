@@ -379,9 +379,9 @@
     <string name="status_bar_battery_style_text">Teks</string>
     <string name="status_bar_battery_style_hidden">Versteek</string>
     <string name="status_bar_battery_percentage_title">Batterypersentasie</string>
-    <string name="status_bar_battery_percentage_default">Versteek</string>
+    <string name="status_bar_battery_percentage_off">@string/off</string>
     <string name="status_bar_battery_percentage_text_inside">Binne die ikoon</string>
-    <string name="status_bar_battery_percentage_text_next">Langs die ikoon</string>
+    <string name="status_bar_battery_percentage_on">@string/on</string>
     <string name="status_bar_brightness_category">Helderheid</string>
     <string name="status_bar_brightness_slider_title">Helderheidskuifknop</string>
     <string name="status_bar_brightness_slider_summary">Verstel die helderheid van vinnige instellings</string>

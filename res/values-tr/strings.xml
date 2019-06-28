@@ -381,9 +381,9 @@
     <string name="status_bar_battery_style_text">Metin</string>
     <string name="status_bar_battery_style_hidden">Gizli</string>
     <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
-    <string name="status_bar_battery_percentage_default">Gizli</string>
+    <string name="status_bar_battery_percentage_off">@string/off</string>
     <string name="status_bar_battery_percentage_text_inside">Simgenin içinde</string>
-    <string name="status_bar_battery_percentage_text_next">Simgenin yanında</string>
+    <string name="status_bar_battery_percentage_on">@string/on</string>
     <string name="status_bar_brightness_category">Parlaklık</string>
     <string name="status_bar_brightness_slider_title">Parlaklık kaydırıcı</string>
     <string name="status_bar_brightness_slider_summary">Hızlı ayarlardan parlaklığı ayarlayın</string>

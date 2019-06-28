@@ -372,9 +372,9 @@
     <string name="status_bar_battery_style_text">Tekst</string>
     <string name="status_bar_battery_style_hidden">Skjult</string>
     <string name="status_bar_battery_percentage_title">Batteriprocent</string>
-    <string name="status_bar_battery_percentage_default">Skjult</string>
+    <string name="status_bar_battery_percentage_off">@string/off</string>
     <string name="status_bar_battery_percentage_text_inside">Inde i ikonet</string>
-    <string name="status_bar_battery_percentage_text_next">Ved siden af ikonet</string>
+    <string name="status_bar_battery_percentage_on">@string/on</string>
     <string name="status_bar_brightness_category">Lysstyrke</string>
     <string name="status_bar_brightness_slider_title">Lysstyrkeniveau</string>
     <string name="status_bar_brightness_slider_summary">Justér lysstyrke fra Hurtige indstillinger</string>

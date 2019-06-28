@@ -212,16 +212,15 @@
     </string-array>
 
     <string-array name="status_bar_battery_percentage_entries" translatable="false">
-        <item>@string/status_bar_battery_percentage_default</item>
-        <item>@string/status_bar_battery_percentage_text_next</item>
+        <item>@string/status_bar_battery_percentage_off</item>
+        <item>@string/status_bar_battery_percentage_on</item>
     </string-array>
 
     <string-array name="status_bar_battery_percentage_values" translatable="false">
         <item>0</item>
         <item>2</item>
     </string-array>
-
-    <!-- Quick pulldown -->
+((<string name="status_bar_battery_percentage_)+(default)+(">)+(\pM*\pL\w*)+(</string>))    <!-- Quick pulldown -->
     <string-array name="status_bar_quick_qs_pulldown_entries" translatable="false">
         <item>@string/status_bar_quick_qs_pulldown_off</item>
         <item>@string/status_bar_quick_qs_pulldown_right</item>

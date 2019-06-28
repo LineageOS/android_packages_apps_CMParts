@@ -381,9 +381,9 @@
     <string name="status_bar_battery_style_text">テキスト</string>
     <string name="status_bar_battery_style_hidden">表示しない</string>
     <string name="status_bar_battery_percentage_title">電池のパーセント表示</string>
-    <string name="status_bar_battery_percentage_default">表示しない</string>
+    <string name="status_bar_battery_percentage_off">@string/off</string>
     <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
-    <string name="status_bar_battery_percentage_text_next">アイコンの隣</string>
+    <string name="status_bar_battery_percentage_on">@string/on</string>
     <string name="status_bar_brightness_category">画面の明るさ</string>
     <string name="status_bar_brightness_slider_title">画面の明るさスライダー</string>
     <string name="status_bar_brightness_slider_summary">クイック設定で明るさを調節します</string>

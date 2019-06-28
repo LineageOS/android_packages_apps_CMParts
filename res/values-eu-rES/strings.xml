@@ -381,9 +381,9 @@
     <string name="status_bar_battery_style_text">Testua</string>
     <string name="status_bar_battery_style_hidden">Ezkutatua</string>
     <string name="status_bar_battery_percentage_title">Bateriaren ehunekoa</string>
-    <string name="status_bar_battery_percentage_default">Ezkutatua</string>
+    <string name="status_bar_battery_percentage_off">@string/off</string>
     <string name="status_bar_battery_percentage_text_inside">Ikonoaren barruan</string>
-    <string name="status_bar_battery_percentage_text_next">Ikonoaren ondoan</string>
+    <string name="status_bar_battery_percentage_on">@string/on</string>
     <string name="status_bar_brightness_category">Distira</string>
     <string name="status_bar_brightness_slider_title">Distira tiradera</string>
     <string name="status_bar_brightness_slider_summary">Doitu distira ezarpen azkarretatik</string>

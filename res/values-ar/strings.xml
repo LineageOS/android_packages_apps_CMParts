@@ -320,7 +320,7 @@
     <string name="profile_choose_app">اختر تطبيق</string>
     <string name="profile_system_settings_title">إعدادات النظام</string>
     <string name="profile_lockmode_title">وضع شاشة التأمين</string>
-    <string name="profile_lockmode_policy_disabled_summary">عُطِّل هذا الخيار بناءً على سياسة مدير الجهاز</string>
+    <string name="profile_lockmode_policy_disabled_summary">عُطِّل هذا الخيار بناءً على سياسة مدير الجهاز</string>
     <string name="profile_lockmode_insecure_summary">عدم المطالبة بكلمة المرور أو رمز PIN</string>
     <string name="profile_lockmode_disabled_summary">تعطيل قفل الشاشة</string>
     <string name="profile_airplanemode_title">وضع الطيران</string>
@@ -381,9 +381,9 @@
     <string name="status_bar_battery_style_text">نص</string>
     <string name="status_bar_battery_style_hidden">مخفية</string>
     <string name="status_bar_battery_percentage_title">نسبة البطارية</string>
-    <string name="status_bar_battery_percentage_default">مخفية</string>
+    <string name="status_bar_battery_percentage_off">@string/off</string>
     <string name="status_bar_battery_percentage_text_inside">داخل الرمز</string>
-    <string name="status_bar_battery_percentage_text_next">بجانب الرمز</string>
+    <string name="status_bar_battery_percentage_on">@string/on</string>
     <string name="status_bar_brightness_category">السطوع</string>
     <string name="status_bar_brightness_slider_title">شريط تمرير السطوع</string>
     <string name="status_bar_brightness_slider_summary">ضبط السطوع من الإعدادات السريعة</string>
