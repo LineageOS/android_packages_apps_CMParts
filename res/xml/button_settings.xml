@@ -274,12 +274,6 @@
             android:defaultValue="false" />
 
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
-            android:key="volbtn_music_controls"
-            android:title="@string/volbtn_music_controls_title"
-            android:summary="@string/volbtn_music_controls_summary"
-            android:defaultValue="true" />
-
-        <cyanogenmod.preference.CMSystemSettingSwitchPreference
             android:key="volume_keys_control_ring_stream"
             android:title="@string/volume_keys_control_ring_stream_title"
             android:summaryOn="@string/volume_keys_control_ring_stream_summary_on"
@@ -298,6 +292,7 @@
             android:key="swap_volume_buttons"
             android:title="@string/swap_volume_buttons_title"
             android:summary="@string/swap_volume_buttons_summary" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
