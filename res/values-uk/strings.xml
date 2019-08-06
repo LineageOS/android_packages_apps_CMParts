@@ -361,6 +361,7 @@
     <string name="status_bar_system_icons_title">Системні значки</string>
     <string name="status_bar_system_icons_summary">Керування відображенням значків в рядку стану</string>
     <string name="status_bar_clock_title">Годинник</string>
+    <string name="status_bar_clock_show_seconds_summary">Показувати години, хвилини та секунди</string>
     <string name="status_bar_clock_position_title">Позиція годинника</string>
     <string name="status_bar_clock_position_right">Справа</string>
     <string name="status_bar_clock_position_left">Зліва</string>

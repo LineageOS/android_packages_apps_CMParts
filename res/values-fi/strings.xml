@@ -404,8 +404,8 @@
     <string name="network_traffic_units_title">Verkkoliikenteen yksiköt</string>
     <string name="network_traffic_units_kilobits">Kilobittiä sekunnissa (kb/s)</string>
     <string name="network_traffic_units_megabits">Megabittiä sekunnissa (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilotavua sekunnissa (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megatavua sekunnissa (MB/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilotavua sekunnissa (kt/s)</string>
+    <string name="network_traffic_units_megabytes">Megatavua sekunnissa (Mt/s)</string>
     <string name="network_traffic_show_units">Näytä yksiköt</string>
     <string name="network_traffic_show_units_summary">Näytä verkkoliikenteen yksiköt tilapalkissa</string>
     <string name="protected_apps_manager_title">Suojatut sovellukset</string>
