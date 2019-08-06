@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "826e8b01_a3d134f2",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 468,
+      "author": {
+        "id": 17868
+      },
+      "writtenOn": "2019-08-06T21:30:42Z",
+      "side": 1,
+      "message": "%s%% maybe?\n\npackages/apps/CMParts/res/values-da/strings.xml:468: error: Multiple substitutions specified in non-positional format; did you mean to add the formatted\u003d\"false\" attribute?\n\npackages/apps/CMParts/res/values-da/strings.xml:468: error: Unexpected end tag string",
+      "range": {
+        "startLine": 468,
+        "startChar": 92,
+        "endLine": 468,
+        "endChar": 95
+      },
+      "revId": "f56dae09d8b9def48600e4858fd5183481f0000c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
