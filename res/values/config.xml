@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- When true, weather options will be displayed in settings dashboard -->
-    <bool name="config_showWeatherMenu">true</bool>
+    <bool name="config_showWeatherMenu">false</bool>
 
     <!-- Default action ids for a device's touchscreen gestures
          The array should be sorted in the same order as the
